@@ -316,13 +316,14 @@ const WORDS=[
 {sl:"igračka",ru:"игрушка",cat:"thing"},{sl:"punčka",ru:"куколка, девчушка",cat:"thing"},{sl:"lutka",ru:"кукла",cat:"thing"},{sl:"srce",ru:"сердце",cat:"thing"},{sl:"skrb",ru:"забота, беспокойство",cat:"thing"},{sl:"pokoj",ru:"пенсия, покой",cat:"thing"},
 {sl:"luškan",ru:"милый, славный",cat:"adj"},{sl:"srčkan",ru:"милый (сердечный)",cat:"adj"},{sl:"majhen",ru:"маленький",cat:"adj"},{sl:"priden",ru:"прилежный, послушный",cat:"adj"},{sl:"zanimivo",ru:"интересно",cat:"adj"},{sl:"skupaj",ru:"вместе",cat:"adj"},{sl:"prejšnji",ru:"прошлый, предыдущий",cat:"adj"},
 {sl:"prej",ru:"раньше, прежде",cat:"time"},{sl:"letos",ru:"в этом году",cat:"time"},{sl:"lani",ru:"в прошлом году",cat:"time"},{sl:"predlani",ru:"в позапрошлом году",cat:"time"},
-{sl:"Kaj pomeni ta beseda?",ru:"Что значит это слово?",cat:"phrase"}
+{sl:"Kaj pomeni ta beseda?",ru:"Что значит это слово?",cat:"phrase"},
+{sl:"kdo",ru:"кто",cat:"question"},{sl:"kaj",ru:"что",cat:"question"},{sl:"kdaj",ru:"когда",cat:"question"},{sl:"zakaj",ru:"почему",cat:"question"},{sl:"kako",ru:"как",cat:"question"},{sl:"koliko",ru:"сколько",cat:"question"}
 ];
 
 // Category maps for distractors
 const CAT_MAP={},CAT_MAP_SL={};
 WORDS.forEach(w=>{if(!CAT_MAP[w.cat])CAT_MAP[w.cat]=[];CAT_MAP[w.cat].push(w.ru);if(!CAT_MAP_SL[w.cat])CAT_MAP_SL[w.cat]=[];CAT_MAP_SL[w.cat].push(w.sl);});
-const RELATED={greet:["adj","thing"],adj:["greet","time","weather"],school:["thing","info"],people:["job","pron"],pron:["people","adj"],job:["people","info"],info:["school","thing"],weather:["season","adj"],season:["weather","time"],time:["season","adj","where"],food:["thing","time"],where:["goplace","time","info"],goplace:["where","thing"],verb:["adj","thing"],thing:["school","verb","info"],daily:["verb","goplace","food"],color:["adj","thing"],family:["people","pron"],transport:["where","goplace"],body:["adj","feel"],home:["school","thing","where"],shop:["food","thing","adj"],feel:["adj","body"]};
+const RELATED={greet:["adj","thing"],adj:["greet","time","weather"],school:["thing","info"],people:["job","pron"],pron:["people","adj"],job:["people","info"],info:["school","thing"],weather:["season","adj"],season:["weather","time"],time:["season","adj","where"],food:["thing","time"],where:["goplace","time","info","question"],goplace:["where","thing"],verb:["adj","thing"],thing:["school","verb","info"],daily:["verb","goplace","food"],color:["adj","thing"],family:["people","pron"],transport:["where","goplace"],body:["adj","feel"],home:["school","thing","where"],shop:["food","thing","adj"],feel:["adj","body"],question:["where","time","pron"],phrase:["greet","question"]};
 </script>
 <script>
 // --- VERBS DATA ---
