@@ -2,7 +2,8 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/fireba
 import {
   getAuth,
   GoogleAuthProvider,
-  signInWithPopup,
+  signInWithRedirect,
+  getRedirectResult,
   signOut,
   onAuthStateChanged,
 } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-auth.js";
@@ -100,12 +101,22 @@ localStorage.setItem = function (k, v) {
 };
 
 export async function fbSignIn() {
+  // Capture pre-login local state before navigating away — we'll need it
+  // when the user returns from Google so we can offer the merge dialog.
+  if (!fbState.preLoginSnapshot) {
+    fbState.preLoginSnapshot = {
+      wp: localStorage.getItem("wp") || "",
+      wq: localStorage.getItem("wq") || "",
+      vq: localStorage.getItem("vq") || "",
+      updatedAt: Date.now(),
+    };
+    try { sessionStorage.setItem("fb:preLoginSnapshot", JSON.stringify(fbState.preLoginSnapshot)); } catch {}
+  }
   try {
-    await signInWithPopup(auth, provider);
+    await signInWithRedirect(auth, provider);
+    // Browser navigates away here; nothing below runs in the current page load.
   } catch (e) {
-    if (e.code !== "auth/popup-closed-by-user" && e.code !== "auth/cancelled-popup-request") {
-      alert("Ошибка входа: " + (e.message || e.code));
-    }
+    alert("Ошибка входа: " + (e.message || e.code));
   }
 }
 
@@ -118,6 +129,7 @@ export async function fbSignOut() {
     applySnapshot(fbState.preLoginSnapshot);
     fbState.preLoginSnapshot = null;
   }
+  try { sessionStorage.removeItem("fb:preLoginSnapshot"); } catch {}
   if (typeof window.renderMenu === "function") window.renderMenu();
 }
 
@@ -142,6 +154,23 @@ function askMergeChoice() {
 }
 
 export function initFirebase() {
+  // After redirect-based sign-in, the user returns to this page. Restore the
+  // pre-login local snapshot we stashed in sessionStorage (the in-memory copy
+  // doesn't survive the navigation).
+  if (!fbState.preLoginSnapshot) {
+    try {
+      const stashed = sessionStorage.getItem("fb:preLoginSnapshot");
+      if (stashed) fbState.preLoginSnapshot = JSON.parse(stashed);
+    } catch {}
+  }
+
+  // Drain the redirect result. Errors thrown here are auth errors from the
+  // redirect attempt itself — surface them to the user.
+  getRedirectResult(auth).catch((e) => {
+    console.warn("Redirect sign-in failed:", e);
+    if (e && e.code) alert("Ошибка входа: " + (e.message || e.code));
+  });
+
   onAuthStateChanged(auth, async (user) => {
     if (user) {
       if (!fbState.preLoginSnapshot) fbState.preLoginSnapshot = snapshotLocal();
