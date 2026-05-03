@@ -1233,5 +1233,224 @@ function importProgress(){
 }
 renderMenu();
 </script>
+
+<script type="module">
+// ============================================================
+// FIREBASE — Cloud sync
+// ============================================================
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js";
+import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged }
+  from "https://www.gstatic.com/firebasejs/10.13.2/firebase-auth.js";
+import { getFirestore, doc, getDoc, setDoc, serverTimestamp }
+  from "https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore.js";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBEfoAU_6-bs6jfknJkXlGlJPBxGLAdMzg",
+  authDomain: "slovenscina-db086.firebaseapp.com",
+  projectId: "slovenscina-db086",
+  storageBucket: "slovenscina-db086.firebasestorage.app",
+  messagingSenderId: "1061672726342",
+  appId: "1:1061672726342:web:b1fee392a01282a706ff47"
+};
+
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const db = getFirestore(app);
+const provider = new GoogleAuthProvider();
+
+// Expose to global so onclick handlers in menu work
+window.fbState = { user: null, syncing: false, dirty: false, saveTimer: null };
+
+// --- Snapshot helpers (read/write whole local state) ---
+function snapshotLocal(){
+  return {
+    wp: localStorage.getItem("wp") || "",
+    wq: localStorage.getItem("wq") || "",
+    vq: localStorage.getItem("vq") || "",
+    updatedAt: Date.now()
+  };
+}
+function applySnapshot(snap){
+  if(snap.wp) localStorage.setItem("wp", snap.wp); else localStorage.removeItem("wp");
+  if(snap.wq) localStorage.setItem("wq", snap.wq); else localStorage.removeItem("wq");
+  if(snap.vq) localStorage.setItem("vq", snap.vq); else localStorage.removeItem("vq");
+  // Reload in-memory state from localStorage
+  if(typeof loadWordProgress === "function") loadWordProgress();
+  if(typeof loadWordQueue === "function") loadWordQueue();
+  if(typeof loadVerbQueue === "function") loadVerbQueue();
+}
+// Merge: take max of word levels & seen counts; union queues by remaining items
+function mergeSnapshots(local, cloud){
+  // Parse word progress
+  let wpL={}, wpC={};
+  try{wpL=JSON.parse(local.wp||"{}")}catch(e){}
+  try{wpC=JSON.parse(cloud.wp||"{}")}catch(e){}
+  const merged={};
+  const keys=new Set([...Object.keys(wpL),...Object.keys(wpC)]);
+  keys.forEach(k=>{
+    const a=wpL[k], b=wpC[k];
+    if(!a){merged[k]=b;return;}
+    if(!b){merged[k]=a;return;}
+    // Pick the one with higher level; tiebreak by lastSeen
+    if(a.level!==b.level) merged[k] = a.level>b.level ? a : b;
+    else merged[k] = (a.lastSeen||0) >= (b.lastSeen||0) ? a : b;
+  });
+  // For queues we just take the more recently updated
+  const newer = (local.updatedAt||0) >= (cloud.updatedAt||0) ? local : cloud;
+  return {
+    wp: JSON.stringify(merged),
+    wq: newer.wq || "",
+    vq: newer.vq || "",
+    updatedAt: Date.now()
+  };
+}
+
+// --- Sync ---
+async function loadFromCloud(uid){
+  const ref = doc(db, "users", uid);
+  const snap = await getDoc(ref);
+  return snap.exists() ? snap.data() : null;
+}
+async function saveToCloud(uid){
+  if(!uid) return;
+  const ref = doc(db, "users", uid);
+  await setDoc(ref, { ...snapshotLocal(), serverTime: serverTimestamp() }, { merge: true });
+}
+function scheduleCloudSave(){
+  if(!window.fbState.user) return;
+  window.fbState.dirty = true;
+  if(window.fbState.saveTimer) clearTimeout(window.fbState.saveTimer);
+  window.fbState.saveTimer = setTimeout(async ()=>{
+    try{
+      window.fbState.syncing = true;
+      updateAuthBar();
+      await saveToCloud(window.fbState.user.uid);
+      window.fbState.dirty = false;
+    }catch(e){
+      console.warn("Cloud save failed:", e);
+    }finally{
+      window.fbState.syncing = false;
+      updateAuthBar();
+    }
+  }, 1500);
+}
+window.scheduleCloudSave = scheduleCloudSave;
+
+// Patch localStorage so any setItem on our keys triggers cloud save
+const _setItem = localStorage.setItem.bind(localStorage);
+localStorage.setItem = function(k, v){
+  _setItem(k, v);
+  if(k==="wp" || k==="wq" || k==="vq") scheduleCloudSave();
+};
+
+// --- Auth ---
+window.fbSignIn = async function(){
+  try{
+    const result = await signInWithPopup(auth, provider);
+    // Auth state listener handles the rest
+  }catch(e){
+    if(e.code !== "auth/popup-closed-by-user" && e.code !== "auth/cancelled-popup-request"){
+      alert("Ошибка входа: " + (e.message || e.code));
+    }
+  }
+};
+window.fbSignOut = async function(){
+  // Force final save before sign out if dirty
+  if(window.fbState.user && window.fbState.dirty){
+    try{ await saveToCloud(window.fbState.user.uid); }catch(e){}
+  }
+  await signOut(auth);
+  // After signout we keep localStorage as-is — that becomes the "anonymous local" progress.
+  // But we want to reset to a clean local state? Per user spec: "залогинулся — облако, вышел — свой локальный".
+  // So we restore the pre-login local snapshot.
+  if(window.fbState.preLoginSnapshot){
+    applySnapshot(window.fbState.preLoginSnapshot);
+    window.fbState.preLoginSnapshot = null;
+  }
+  if(typeof renderMenu === "function") renderMenu();
+};
+
+onAuthStateChanged(auth, async (user)=>{
+  if(user){
+    // Save current local state in case user logs out later
+    if(!window.fbState.preLoginSnapshot){
+      window.fbState.preLoginSnapshot = snapshotLocal();
+    }
+    window.fbState.user = user;
+    try{
+      window.fbState.syncing = true;
+      updateAuthBar();
+      const cloud = await loadFromCloud(user.uid);
+      const localHasData = !!localStorage.getItem("wp") || !!localStorage.getItem("wq") || !!localStorage.getItem("vq");
+      const cloudHasData = cloud && (cloud.wp || cloud.wq || cloud.vq);
+
+      if(cloudHasData && localHasData){
+        // Conflict — ask user
+        const choice = await askMergeChoice();
+        if(choice === "merge"){
+          const merged = mergeSnapshots(snapshotLocal(), cloud);
+          applySnapshot(merged);
+          await setDoc(doc(db, "users", user.uid), { ...merged, serverTime: serverTimestamp() }, { merge: true });
+        } else if(choice === "cloud"){
+          applySnapshot(cloud);
+        } else if(choice === "local"){
+          await saveToCloud(user.uid);
+        }
+      } else if(cloudHasData){
+        applySnapshot(cloud);
+      } else if(localHasData){
+        await saveToCloud(user.uid);
+      }
+    }catch(e){
+      console.warn("Sync on login failed:", e);
+      alert("Не удалось синхронизировать с облаком: " + (e.message || e.code) + "\nПрогресс остался локальным.");
+    }finally{
+      window.fbState.syncing = false;
+    }
+    if(typeof renderMenu === "function") renderMenu();
+  } else {
+    window.fbState.user = null;
+  }
+  updateAuthBar();
+});
+
+function askMergeChoice(){
+  return new Promise(resolve=>{
+    const overlay = document.createElement("div");
+    overlay.style.cssText = "position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:9999;display:flex;align-items:center;justify-content:center;padding:20px";
+    overlay.innerHTML = `<div style="background:#fff;border-radius:14px;padding:22px;max-width:400px;text-align:center;box-shadow:0 10px 40px rgba(0,0,0,0.3)">
+      <div style="font-size:42px;margin-bottom:10px">🔄</div>
+      <div style="font-size:18px;font-weight:600;margin-bottom:8px;color:#1a3a5e">Найдены два прогресса</div>
+      <div style="font-size:14px;color:#5a7a94;margin-bottom:18px;line-height:1.5">Локальный и в облаке. Что сделать?</div>
+      <button id="merge-btn" style="display:block;width:100%;padding:12px;margin-bottom:8px;border:none;border-radius:10px;background:#3b82f6;color:#fff;font-weight:600;cursor:pointer;font-size:14px">Слить (взять лучшее из обоих)</button>
+      <button id="cloud-btn" style="display:block;width:100%;padding:12px;margin-bottom:8px;border:1px solid #c8d2dd;background:#fff;border-radius:10px;cursor:pointer;font-size:14px">Оставить облачный (заменит локальный)</button>
+      <button id="local-btn" style="display:block;width:100%;padding:12px;border:1px solid #c8d2dd;background:#fff;border-radius:10px;cursor:pointer;font-size:14px">Оставить локальный (затрёт облако)</button>
+    </div>`;
+    document.body.appendChild(overlay);
+    overlay.querySelector("#merge-btn").onclick = ()=>{document.body.removeChild(overlay);resolve("merge");};
+    overlay.querySelector("#cloud-btn").onclick = ()=>{document.body.removeChild(overlay);resolve("cloud");};
+    overlay.querySelector("#local-btn").onclick = ()=>{document.body.removeChild(overlay);resolve("local");};
+  });
+}
+
+function updateAuthBar(){
+  let bar = document.getElementById("auth-bar");
+  if(!bar){
+    bar = document.createElement("div");
+    bar.id = "auth-bar";
+    bar.style.cssText = "position:fixed;top:8px;right:8px;z-index:100;background:rgba(255,255,255,0.95);border:1px solid #e0e6ec;border-radius:20px;padding:6px 12px;font-size:12px;display:flex;align-items:center;gap:8px;box-shadow:0 2px 8px rgba(0,0,0,0.08)";
+    document.body.appendChild(bar);
+  }
+  const u = window.fbState.user;
+  if(u){
+    const name = (u.displayName || u.email || "").split(" ")[0] || "Вы";
+    const sync = window.fbState.syncing ? "⟳" : (window.fbState.dirty ? "•" : "✓");
+    bar.innerHTML = `<span style="color:#3a5a78">☁ ${sync} ${name}</span><button onclick="fbSignOut()" style="border:none;background:none;color:#888;cursor:pointer;font-size:11px;padding:0">выйти</button>`;
+  } else {
+    bar.innerHTML = `<button onclick="fbSignIn()" style="border:none;background:none;color:#3a5a78;cursor:pointer;font-size:12px;padding:0;font-weight:500">☁ Войти через Google</button>`;
+  }
+}
+updateAuthBar();
+</script>
 </body>
 </html>
