@@ -44,14 +44,14 @@ export function renderMatch() {
     '<div class="progress-track match"><div class="progress-fill match" style="width:' +
     (state.ui.current / state.ui.rounds.length) * 100 +
     '%"></div></div>' +
-    '<div class="match-round">Соедини пары</div>' +
+    '<div class="match-round">Poveži pare</div>' +
     '<div class="match-cols"><div class="match-col">' +
     leftHtml +
     '</div><div class="match-col">' +
     rightHtml +
     "</div></div>" +
     (allMatched
-      ? '<button class="btn-check btn-next" style="margin-top:20px;background:linear-gradient(135deg,#f59e0b,#d97706);color:#0f1923" onclick="nextMatchRound()">Далее →</button>'
+      ? '<button class="btn-check btn-next" style="margin-top:20px" onclick="nextMatchRound()">Naprej →</button>'
       : "") +
     "</div>";
 }
@@ -116,17 +116,17 @@ function renderMatchResult() {
     '<div class="result-card match">' +
     '<div class="result-emoji">' +
     emoji +
-    '</div><div class="result-title">Раунд окончен!</div>' +
+    '</div><div class="result-title">Runda končana!</div>' +
     '<div class="result-score match">' +
     state.ui.totalScore +
     "/" +
     total +
     "</div>" +
-    '<div class="result-pct">Ошибок: ' +
+    '<div class="result-pct">Napak: ' +
     state.ui.totalMistakes +
     "</div>" +
     '<div class="btn-row" style="margin-top:20px">' +
-    '<button class="btn-new match" onclick="startMatch()">Новый раунд</button>' +
-    '<button class="btn-menu" onclick="goMenu()">Меню</button>' +
+    '<button class="btn-new match" onclick="startMatch()">Nova runda</button>' +
+    '<button class="btn-menu" onclick="goMenu()">Meni</button>' +
     "</div></div>";
 }

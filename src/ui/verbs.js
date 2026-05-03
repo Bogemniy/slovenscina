@@ -23,14 +23,14 @@ export function renderVerbsQuiz() {
   app().innerHTML = `<div>
     <div class="top-bar"><span class="progress-text">${current + 1}/${cards.length}</span><span class="score-text score-verbs">✓ ${score}</span></div>
     <div class="progress-track verbs"><div class="progress-fill verbs" style="width:${(current / cards.length) * 100}%"></div></div>
-    ${streak >= 3 ? `<div class="streak">🔥 ${streak} подряд!</div>` : ""}
+    ${streak >= 3 ? `<div class="streak">🔥 ${streak} zapored!</div>` : ""}
     <div class="card verbs">
-      <div class="card-label verbs">Глагол</div>
+      <div class="card-label verbs">Glagol</div>
       <div class="card-word">${c.verb.inf}</div>
       <div class="card-sub">${c.verb.ru}</div>
       ${c.negative ? '<div class="neg-badge">NEGATIVNO</div>' : ""}
       <div class="pronoun-box"><span class="pronoun-label">${c.pronoun}</span></div>
-      <div class="card-hint">${c.negative ? "Выбери отрицательную форму:" : "Выбери правильную форму:"}</div>
+      <div class="card-hint">${c.negative ? "Izberi nikalno obliko:" : "Izberi pravilno obliko:"}</div>
     </div>
     <div class="options">${c.options
       .map((o, i) => {
@@ -77,14 +77,14 @@ export function renderVerbsResult() {
   const pct = Math.round((score / cards.length) * 100);
   const emoji = pct === 100 ? "🏆" : pct >= 80 ? "🌟" : pct >= 60 ? "👍" : "💪";
   app().innerHTML = `<div class="result-card verbs">
-    <div class="result-emoji">${emoji}</div><div class="result-title">Раунд окончен!</div>
-    <div class="result-score verbs">${score}/${cards.length}</div><div class="result-pct">${pct}% правильно</div>
-    ${bestStreak > 1 ? `<div class="streak-badge">Лучшая серия: ${bestStreak} подряд</div>` : ""}
-    ${mistakes.length ? `<div class="mistakes-block"><div class="mistakes-title">Повтори:</div>${mistakes.map((m) => `<div class="mistake-row"><span class="mistake-sl verbs">${m.verb.inf}${m.negative ? " ✗" : ""}</span><span style="color:#8b7aad;font-size:12px">${state.PRONOUN_SHORT[m.pronoun]}</span><span class="mistake-arrow">→</span><span class="mistake-ru">${m.negative ? getNegForm(m.verb, m.pronoun) : m.verb.forms[m.pronoun]}</span></div>`).join("")}</div>` : ""}
+    <div class="result-emoji">${emoji}</div><div class="result-title">Runda končana!</div>
+    <div class="result-score verbs">${score}/${cards.length}</div><div class="result-pct">${pct}% pravilno</div>
+    ${bestStreak > 1 ? `<div class="streak-badge">Najboljša serija: ${bestStreak} zapored</div>` : ""}
+    ${mistakes.length ? `<div class="mistakes-block"><div class="mistakes-title">Ponovi:</div>${mistakes.map((m) => `<div class="mistake-row"><span class="mistake-sl verbs">${m.verb.inf}${m.negative ? " ✗" : ""}</span><span style="color:#f9a8d4;font-size:12px">${state.PRONOUN_SHORT[m.pronoun]}</span><span class="mistake-arrow">→</span><span class="mistake-ru">${m.negative ? getNegForm(m.verb, m.pronoun) : m.verb.forms[m.pronoun]}</span></div>`).join("")}</div>` : ""}
     <div class="btn-row">
-      ${mistakes.length ? `<button class="btn-retry" onclick="retryVerbMistakes()">Повторить ошибки</button>` : ""}
-      <button class="btn-new verbs" onclick="startVerbs()">Новый раунд</button>
-      <button class="btn-menu" onclick="goMenu()">Меню</button>
+      ${mistakes.length ? `<button class="btn-retry" onclick="retryVerbMistakes()">Ponovi napake</button>` : ""}
+      <button class="btn-new verbs" onclick="startVerbs()">Nova runda</button>
+      <button class="btn-menu" onclick="goMenu()">Meni</button>
     </div>
   </div>`;
 }
@@ -103,8 +103,8 @@ export function retryVerbMistakes() {
 // --- VERB TABLE ---
 export function showVerbList() {
   app().innerHTML = `<div class="table-card">
-    <button class="back-btn" onclick="goMenu()">← Меню</button>
-    <div style="font-size:20px;font-weight:700;margin-bottom:16px">Таблицы спряжений</div>
+    <button class="back-btn" onclick="goMenu()">← Meni</button>
+    <div style="font-size:20px;font-weight:700;margin-bottom:16px">Tabele spregatev</div>
     <div class="verb-grid">${state.VERBS.map((v, i) => `<button class="verb-chip" onclick="showVerbTable(${i})">${v.inf}</button>`).join("")}</div>
   </div>`;
 }
@@ -112,10 +112,10 @@ export function showVerbList() {
 export function showVerbTable(i) {
   const v = state.VERBS[i];
   app().innerHTML = `<div class="table-card">
-    <button class="back-btn" onclick="showVerbList()">← Назад</button>
+    <button class="back-btn" onclick="showVerbList()">← Nazaj</button>
     <div class="table-inf">${v.inf}</div><div class="table-ru">${v.ru}</div>
-    <div class="table-header"><span style="flex:1">местоимение</span><span class="pos" style="flex:1;text-align:center">✓</span><span class="neg" style="flex:1;text-align:right">✗</span></div>
+    <div class="table-header"><span style="flex:1">zaimek</span><span class="pos" style="flex:1;text-align:center">✓</span><span class="neg" style="flex:1;text-align:right">✗</span></div>
     ${state.PRONOUNS.map((p) => `<div class="table-row"><span class="table-pronoun">${p}</span><span class="table-form">${v.forms[p]}</span><span class="table-neg">${getNegForm(v, p)}</span></div>`).join("")}
-    <div style="margin-top:16px"><button class="back-btn" onclick="showVerbList()">← Все глаголы</button></div>
+    <div style="margin-top:16px"><button class="back-btn" onclick="showVerbList()">← Vsi glagoli</button></div>
   </div>`;
 }

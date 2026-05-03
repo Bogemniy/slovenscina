@@ -25,7 +25,7 @@ async function bootstrap() {
     data = await loadAllData();
   } catch (e) {
     document.getElementById("app").innerHTML =
-      `<div style="padding:40px;text-align:center;color:#ff6b6b">Не удалось загрузить данные.<br><br><span style="color:#5a7a94;font-size:13px">${e.message}</span></div>`;
+      `<div style="padding:40px;text-align:center;color:#fca5a5">Podatkov ni bilo mogoče naložiti.<br><br><span style="color:#777;font-size:13px">${e.message}</span></div>`;
     return;
   }
   Object.assign(state, data);

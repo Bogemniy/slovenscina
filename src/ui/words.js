@@ -15,13 +15,13 @@ export function renderWordsMenu() {
   const masteredCount = b.mastered.length;
   app().innerHTML = `<div class="menu-card">
     <div class="menu-flag">📝</div>
-    <div class="menu-title" style="font-size:24px">Карточки слов</div>
-    <div class="menu-sub" style="margin-bottom:18px">Учу: ${learningCount} · К повтору: ${dueCount} · Новых: ${newCount} · Знаю: ${masteredCount}</div>
-    <button class="menu-btn words" onclick="startWordsMode('new')" ${newCount === 0 ? 'disabled style="opacity:.5"' : ""}>🌱 Учу новое <span style="opacity:.7;font-size:12px">(${newCount})</span></button>
-    <button class="menu-btn words" onclick="startWordsMode('review')" ${dueCount + learningCount === 0 ? 'disabled style="opacity:.5"' : ""}>🔁 Повторяю <span style="opacity:.7;font-size:12px">(${dueCount} к повтору)</span></button>
-    <button class="menu-btn words" onclick="startWordsMode('all')">🎲 Всё подряд</button>
-    ${masteredCount > 0 ? `<button class="menu-btn table-btn" style="font-size:13px;margin-top:10px" onclick="showMasteredList()">⭐ Знаю наверняка (${masteredCount}) — управление</button>` : ""}
-    <button class="btn-menu" onclick="goMenu()" style="margin-top:14px">← В главное меню</button>
+    <div class="menu-title" style="font-size:24px">Kartice besed</div>
+    <div class="menu-sub" style="margin-bottom:18px">Učim: ${learningCount} · Za ponavljanje: ${dueCount} · Novih: ${newCount} · Znam: ${masteredCount}</div>
+    <button class="menu-btn words" onclick="startWordsMode('new')" ${newCount === 0 ? 'disabled style="opacity:.5"' : ""}>🌱 Učim novo <span style="opacity:.7;font-size:12px">(${newCount})</span></button>
+    <button class="menu-btn words" onclick="startWordsMode('review')" ${dueCount + learningCount === 0 ? 'disabled style="opacity:.5"' : ""}>🔁 Ponavljam <span style="opacity:.7;font-size:12px">(${dueCount} za ponavljanje)</span></button>
+    <button class="menu-btn words" onclick="startWordsMode('all')">🎲 Vse skupaj</button>
+    ${masteredCount > 0 ? `<button class="menu-btn table-btn" style="font-size:13px;margin-top:10px" onclick="showMasteredList()">⭐ Znam zanesljivo (${masteredCount}) — upravljanje</button>` : ""}
+    <button class="btn-menu" onclick="goMenu()" style="margin-top:14px">← Glavni meni</button>
   </div>`;
 }
 
@@ -30,8 +30,8 @@ export function startWordsMode(mode) {
   if (cards.length === 0) {
     alert(
       mode === "new"
-        ? "Все слова уже изучаются. Выбери 'Повторяю' или 'Всё подряд'."
-        : "Сейчас нечего повторять. Возвращайся позже или выбери другой режим."
+        ? "Vse besede se že učijo. Izberi 'Ponavljam' ali 'Vse skupaj'."
+        : "Trenutno ni česa ponavljati. Vrni se pozneje ali izberi drug način."
     );
     return;
   }
@@ -56,21 +56,21 @@ export function renderWordsQuiz() {
   const correctAns = c.dir === "sl2ru" ? c.ru : c.sl;
   const p = state.wordProgress[c.sl];
   const lvl = p ? p.level : 0;
-  const lvlBar = `<span style="font-size:11px;color:#5a7a94">lvl ${lvl}/5</span>`;
+  const lvlBar = `<span style="font-size:11px;color:#888">lvl ${lvl}/5</span>`;
   let questionHTML;
   if (c.context) {
     questionHTML = `<div class="card words">
-      <div class="card-label words">В предложении</div>
+      <div class="card-label words">V stavku</div>
       <div class="card-word" style="font-size:22px;line-height:1.4">${c.context.sentence}</div>
-      <div class="card-hint" style="font-size:14px;color:#5a7a94;margin-top:8px">${c.context.ru}</div>
-      <div class="card-hint">Какое слово на месте пропуска?</div>
+      <div class="card-hint" style="font-size:14px;color:#888;margin-top:8px">${c.context.ru}</div>
+      <div class="card-hint">Katera beseda manjka?</div>
     </div>`;
     state.ui._ctxCorrect = c.sl;
   } else {
     questionHTML = `<div class="card words">
-      <div class="card-label words">${c.dir === "sl2ru" ? "Slovensko" : "Русский"}</div>
+      <div class="card-label words">${c.dir === "sl2ru" ? "Slovensko" : "Rusko"}</div>
       <div class="card-word">${c.dir === "sl2ru" ? c.sl : c.ru}</div>
-      <div class="card-hint">${revealed ? "" : c.dir === "sl2ru" ? "Выбери перевод:" : "Izberi slovensko besedo:"}</div>
+      <div class="card-hint">${revealed ? "" : c.dir === "sl2ru" ? "Izberi prevod:" : "Izberi slovensko besedo:"}</div>
     </div>`;
     state.ui._ctxCorrect = null;
   }
@@ -78,17 +78,17 @@ export function renderWordsQuiz() {
   const selfBtns =
     selected === null && !revealed
       ? `<div class="self-row" style="display:flex;gap:8px;margin-bottom:10px">
-    <button class="self-btn know" onclick="selfAnswer(true)" style="flex:1;padding:12px;border:none;border-radius:10px;background:#d4f1d4;color:#1d5a1d;font-weight:600;cursor:pointer;font-size:14px">✓ Знаю</button>
-    <button class="self-btn dont" onclick="selfAnswer(false)" style="flex:1;padding:12px;border:none;border-radius:10px;background:#fadbdb;color:#8a2020;font-weight:600;cursor:pointer;font-size:14px">✗ Не помню</button>
+    <button class="self-btn know" onclick="selfAnswer(true)" style="flex:1;padding:12px;border:none;border-radius:10px;background:rgba(147,197,253,.15);color:#93c5fd;font-weight:600;cursor:pointer;font-size:14px">✓ Znam</button>
+    <button class="self-btn dont" onclick="selfAnswer(false)" style="flex:1;padding:12px;border:none;border-radius:10px;background:rgba(252,165,165,.12);color:#fca5a5;font-weight:600;cursor:pointer;font-size:14px">✗ Ne vem</button>
   </div>`
       : "";
   const revealHTML = revealed
-    ? `<div style="background:#fff8e1;border:1px solid #ffd966;border-radius:10px;padding:12px;margin-bottom:10px;text-align:center"><div style="font-size:11px;color:#8a6a20;margin-bottom:4px">Правильный ответ:</div><div style="font-size:18px;font-weight:600;color:#5a4a10">${ans}</div></div>`
+    ? `<div style="background:#1a1a1a;border:1px solid rgba(255,255,255,.1);border-radius:10px;padding:12px;margin-bottom:10px;text-align:center"><div style="font-size:11px;color:#888;margin-bottom:4px">Pravilen odgovor:</div><div style="font-size:18px;font-weight:600;color:#e8eaed">${ans}</div></div>`
     : "";
   app().innerHTML = `<div>
-    <div class="top-bar"><span class="progress-text">${current + 1}/${cards.length}</span><span style="font-size:11px;color:#4a6278">${srMode === "new" ? "новое" : srMode === "review" ? "повтор" : "всё подряд"} · ${lvlBar}</span><span class="score-text score-words">✓ ${score}</span></div>
+    <div class="top-bar"><span class="progress-text">${current + 1}/${cards.length}</span><span style="font-size:11px;color:#888">${srMode === "new" ? "novo" : srMode === "review" ? "ponavljanje" : "vse skupaj"} · ${lvlBar}</span><span class="score-text score-words">✓ ${score}</span></div>
     <div class="progress-track words"><div class="progress-fill words" style="width:${(current / cards.length) * 100}%"></div></div>
-    ${streak >= 3 ? `<div class="streak">🔥 ${streak} подряд!</div>` : ""}
+    ${streak >= 3 ? `<div class="streak">🔥 ${streak} zapored!</div>` : ""}
     ${questionHTML}
     ${selfBtns}
     ${revealHTML}
@@ -106,7 +106,7 @@ export function renderWordsQuiz() {
         return `<button class="${cls}" ${selected !== null || revealed ? "disabled" : ""} onclick="selectWord(${i})">${o}</button>`;
       })
       .join("")}</div>
-    ${revealed ? `<button class="btn-new words" style="margin-top:12px;width:100%" onclick="advanceWord()">Дальше →</button>` : ""}
+    ${revealed ? `<button class="btn-new words" style="margin-top:12px;width:100%" onclick="advanceWord()">Naprej →</button>` : ""}
   </div>`;
 }
 
@@ -166,15 +166,15 @@ export function renderWordsResult() {
   const pct = Math.round((score / cards.length) * 100);
   const emoji = pct === 100 ? "🏆" : pct >= 80 ? "🌟" : pct >= 60 ? "👍" : "💪";
   app().innerHTML = `<div class="result-card words">
-    <div class="result-emoji">${emoji}</div><div class="result-title">Раунд окончен!</div>
-    <div class="result-score words">${score}/${cards.length}</div><div class="result-pct">${pct}% правильно</div>
-    ${bestStreak > 1 ? `<div class="streak-badge">Лучшая серия: ${bestStreak} подряд</div>` : ""}
-    ${mistakes.length ? `<div class="mistakes-block"><div class="mistakes-title">Повтори:</div>${mistakes.map((m) => `<div class="mistake-row"><span class="mistake-sl">${m.sl}</span><span class="mistake-arrow">→</span><span class="mistake-ru">${m.ru}</span></div>`).join("")}</div>` : ""}
+    <div class="result-emoji">${emoji}</div><div class="result-title">Runda končana!</div>
+    <div class="result-score words">${score}/${cards.length}</div><div class="result-pct">${pct}% pravilno</div>
+    ${bestStreak > 1 ? `<div class="streak-badge">Najboljša serija: ${bestStreak} zapored</div>` : ""}
+    ${mistakes.length ? `<div class="mistakes-block"><div class="mistakes-title">Ponovi:</div>${mistakes.map((m) => `<div class="mistake-row"><span class="mistake-sl">${m.sl}</span><span class="mistake-arrow">→</span><span class="mistake-ru">${m.ru}</span></div>`).join("")}</div>` : ""}
     <div class="btn-row">
-      ${mistakes.length ? `<button class="btn-retry" onclick="retryWordMistakes()">Повторить ошибки</button>` : ""}
-      <button class="btn-new words" onclick="startWordsMode('${srMode || "all"}')">Ещё раунд</button>
-      <button class="btn-menu" onclick="startWords()">К режимам</button>
-      <button class="btn-menu" onclick="goMenu()">Меню</button>
+      ${mistakes.length ? `<button class="btn-retry" onclick="retryWordMistakes()">Ponovi napake</button>` : ""}
+      <button class="btn-new words" onclick="startWordsMode('${srMode || "all"}')">Še runda</button>
+      <button class="btn-menu" onclick="startWords()">Načini</button>
+      <button class="btn-menu" onclick="goMenu()">Meni</button>
     </div>
   </div>`;
 }
@@ -204,21 +204,21 @@ export function showMasteredList() {
   const mastered = state.WORDS.filter((w) => state.wordProgress[w.sl] && state.wordProgress[w.sl].mastered);
   app().innerHTML = `<div class="menu-card">
     <div class="menu-flag">⭐</div>
-    <div class="menu-title" style="font-size:22px">Знаю наверняка</div>
-    <div class="menu-sub" style="margin-bottom:14px">Эти слова не показываются в повторе. Нажми, чтобы вернуть в работу.</div>
-    <div style="max-height:60vh;overflow-y:auto;text-align:left;background:#f7f9fc;border-radius:10px;padding:8px">
+    <div class="menu-title" style="font-size:22px">Znam zanesljivo</div>
+    <div class="menu-sub" style="margin-bottom:14px">Te besede se ne prikazujejo pri ponavljanju. Pritisni, da jih vrneš v učenje.</div>
+    <div style="max-height:60vh;overflow-y:auto;text-align:left;background:#1a1a1a;border-radius:10px;padding:8px">
     ${
       mastered.length === 0
-        ? '<div style="text-align:center;color:#5a7a94;padding:20px">Пока нет</div>'
+        ? '<div style="text-align:center;color:#777;padding:20px">Zaenkrat ni</div>'
         : mastered
             .map(
               (w) =>
-                `<div style="display:flex;justify-content:space-between;align-items:center;padding:8px 10px;border-bottom:1px solid #e4e9f0"><span><b>${w.sl}</b> <span style="color:#5a7a94;font-size:13px">— ${w.ru}</span></span><button onclick="unmasterAndRefresh('${w.sl.replace(/'/g, "\\'")}')" style="font-size:12px;padding:5px 10px;border:1px solid #c8d2dd;background:#fff;border-radius:6px;cursor:pointer">↩ вернуть</button></div>`
+                `<div style="display:flex;justify-content:space-between;align-items:center;padding:8px 10px;border-bottom:1px solid rgba(255,255,255,.06)"><span><b>${w.sl}</b> <span style="color:#777;font-size:13px">— ${w.ru}</span></span><button onclick="unmasterAndRefresh('${w.sl.replace(/'/g, "\\'")}')" style="font-size:12px;padding:5px 10px;border:1px solid rgba(255,255,255,.12);background:#2a2a2a;color:#e8eaed;border-radius:6px;cursor:pointer">↩ vrni</button></div>`
             )
             .join("")
     }
     </div>
-    <button class="btn-menu" style="margin-top:14px" onclick="startWords()">← К режимам</button>
+    <button class="btn-menu" style="margin-top:14px" onclick="startWords()">← Načini</button>
   </div>`;
 }
 

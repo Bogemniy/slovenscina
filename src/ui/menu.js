@@ -1,4 +1,5 @@
 import { state, bucketWords, shuffle, loadWordQueue, loadVerbQueue, loadWordProgress } from "../state.js";
+import { fbState, updateAuthBar } from "./auth-bar.js";
 import { app } from "./dom.js";
 
 export function renderMenu() {
@@ -6,31 +7,35 @@ export function renderMenu() {
   app().innerHTML = `<div class="menu-card">
     <div class="menu-flag">🇸🇮</div>
     <div class="menu-title">Slovenščina</div>
-    <div class="menu-sub">${state.WORDS.length} слов · ${state.VERBS.length} глаголов · ${state.SENTENCES.length} предложений</div>
-    <button class="menu-btn words" onclick="startWords()">📝 Карточки слов</button>
-    <button class="menu-btn verbs" onclick="startVerbs()">🔤 Карточки глаголов</button>
-    <button class="menu-btn sents" onclick="startSents()">🧩 Составь предложение</button>
-    <button class="menu-btn match" onclick="startMatch()">🔗 Соотнеси слова</button>
+    <div class="menu-sub">${state.WORDS.length} besed · ${state.VERBS.length} glagolov · ${state.SENTENCES.length} stavkov</div>
+    <button class="menu-btn words" onclick="startWords()">📝 Kartice besed</button>
+    <button class="menu-btn verbs" onclick="startVerbs()">🔤 Spregatve glagolov</button>
+    <button class="menu-btn sents" onclick="startSents()">🧩 Sestavi stavek</button>
+    <button class="menu-btn match" onclick="startMatch()">🔗 Poveži besede</button>
     <div class="divider"></div>
-    <button class="menu-btn table-btn" onclick="showVerbList()">📖 Таблицы спряжений</button>
+    <button class="menu-btn table-btn" onclick="showVerbList()">📖 Tabele spregatev</button>
     <div class="divider"></div>
-    <div style="font-size:12px;color:#5a7a94;margin-bottom:8px">Слова: учу ${b.learning.length} · к повтору ${b.due.length} · знаю ${b.mastered.length} · новых ${b.new.length}</div>
-    <div style="font-size:11px;color:#7a8a98;margin-bottom:8px">Глаголы: ${state.verbsSeen}/${state.VERBS.length * 9}</div>
+    <div style="font-size:12px;color:#777;margin-bottom:8px">Besede: učim ${b.learning.length} · za ponavljanje ${b.due.length} · znam ${b.mastered.length} · novih ${b.new.length}</div>
+    <div style="font-size:11px;color:#777;margin-bottom:8px">Glagoli: ${state.verbsSeen}/${state.VERBS.length * 9}</div>
     <div style="display:flex;gap:6px;flex-wrap:wrap">
-      <button class="menu-btn table-btn" style="font-size:12px;padding:8px;flex:1;min-width:90px" onclick="exportProgress()">📤 Экспорт</button>
-      <button class="menu-btn table-btn" style="font-size:12px;padding:8px;flex:1;min-width:90px" onclick="importProgress()">📥 Импорт</button>
-      <button class="menu-btn table-btn" style="font-size:12px;padding:8px;flex:1;min-width:90px" onclick="resetProgress()">🔄 Сброс</button>
+      <button class="menu-btn table-btn" style="font-size:12px;padding:8px;flex:1;min-width:90px" onclick="exportProgress()">📤 Izvozi</button>
+      <button class="menu-btn table-btn" style="font-size:12px;padding:8px;flex:1;min-width:90px" onclick="importProgress()">📥 Uvozi</button>
+      <button class="menu-btn table-btn" style="font-size:12px;padding:8px;flex:1;min-width:90px" onclick="resetProgress()">🔄 Ponastavi</button>
     </div>
+    <div class="divider"></div>
+    <div id="auth-status" style="display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:#1a1a1a;border-radius:14px;border:1px solid rgba(255,255,255,.07);min-height:46px"></div>
   </div>`;
+  updateAuthBar();
 }
 
 export function goMenu() {
   state.ui = { mode: "menu" };
   renderMenu();
+  updateAuthBar();
 }
 
 export function resetProgress() {
-  if (!confirm("Сбросить весь прогресс? Это удалит уровни знания всех слов и истории очередей.")) return;
+  if (!confirm("Ponastaviti ves napredek? To bo izbrisalo ravni znanja vseh besed in zgodovino vrst.")) return;
   try {
     localStorage.removeItem("wq");
     localStorage.removeItem("vq");
@@ -65,19 +70,19 @@ export function exportProgress() {
     URL.revokeObjectURL(url);
     if (navigator.clipboard) {
       navigator.clipboard.writeText(json).then(
-        () => alert("✓ Прогресс сохранён в файл и скопирован в буфер."),
-        () => alert("✓ Прогресс сохранён в файл.")
+        () => alert("✓ Napredek shranjen v datoteko in kopiran v odložišče."),
+        () => alert("✓ Napredek shranjen v datoteko.")
       );
     } else {
-      alert("✓ Прогресс сохранён в файл.");
+      alert("✓ Napredek shranjen v datoteko.");
     }
   } catch (e) {
-    alert("Ошибка экспорта: " + e.message);
+    alert("Napaka pri izvozu: " + e.message);
   }
 }
 
 export function importProgress() {
-  const txt = prompt("Вставь сюда экспортированный прогресс (JSON):");
+  const txt = prompt("Vstavi izvoženi napredek (JSON):");
   if (!txt) return;
   try {
     const data = JSON.parse(txt.trim());
@@ -90,18 +95,18 @@ export function importProgress() {
     renderMenu();
     const learned = Object.values(state.wordProgress).filter((p) => p.level >= 1).length;
     alert(
-      "✓ Прогресс восстановлен!\nСлова: " +
+      "✓ Napredek obnovljen!\nBesede: " +
         state.wordsSeen +
         "/" +
         state.WORDS.length +
-        "\nГлаголы: " +
+        "\nGlagoli: " +
         state.verbsSeen +
         "/" +
         state.VERBS.length * 9 +
-        "\nВ работе: " +
+        "\nV delu: " +
         learned
     );
   } catch (e) {
-    alert("Ошибка импорта: " + e.message + "\n\nПроверь, что вставил корректный JSON.");
+    alert("Napaka pri uvozu: " + e.message + "\n\nPreveri, da si vstavil pravilen JSON.");
   }
 }

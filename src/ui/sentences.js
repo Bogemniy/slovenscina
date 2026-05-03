@@ -12,7 +12,7 @@ export function renderSentQuiz() {
   const c = cards[current];
 
   let answerHtml = "";
-  if (c.answer.length === 0) answerHtml = '<span style="color:#3a5a3a;font-size:14px">Нажми на слова ниже</span>';
+  if (c.answer.length === 0) answerHtml = '<span style="color:#777;font-size:14px">Pritisni na besede spodaj</span>';
   else
     c.answer.forEach((w, i) => {
       let cls = "tile";
@@ -46,13 +46,13 @@ export function renderSentQuiz() {
 
   let bottomHtml = "";
   if (c.checked) {
-    if (c.correct) bottomHtml = '<div style="text-align:center"><div style="color:#66bb6a;font-size:18px;font-weight:700;margin:12px 0">Правильно! ✓</div></div>';
+    if (c.correct) bottomHtml = '<div style="text-align:center"><div style="color:#a5b4fc;font-size:18px;font-weight:700;margin:12px 0">Pravilno! ✓</div></div>';
     else
-      bottomHtml = '<div style="text-align:center"><div style="color:#ff6b6b;font-size:16px;margin:8px 0">Правильный ответ:</div><div class="sent-correct-answer">' + c.sl.join(" ") + "</div></div>";
-    bottomHtml += '<button class="btn-check btn-next" onclick="nextSent()">Далее →</button>';
+      bottomHtml = '<div style="text-align:center"><div style="color:#fca5a5;font-size:16px;margin:8px 0">Pravilen odgovor:</div><div class="sent-correct-answer">' + c.sl.join(" ") + "</div></div>";
+    bottomHtml += '<button class="btn-check btn-next" onclick="nextSent()">Naprej →</button>';
   } else {
     const dis = c.answer.length === 0 ? "disabled" : "";
-    bottomHtml = '<button class="btn-check" ' + dis + ' onclick="checkSent()">Проверить</button>';
+    bottomHtml = '<button class="btn-check" ' + dis + ' onclick="checkSent()">Preveri</button>';
   }
 
   app().innerHTML =
@@ -67,7 +67,7 @@ export function renderSentQuiz() {
     '<div class="progress-track sents"><div class="progress-fill sents" style="width:' +
     (current / cards.length) * 100 +
     '%"></div></div>' +
-    '<div class="sent-card"><div class="sent-label">Переведи</div><div class="sent-ru">' +
+    '<div class="sent-card"><div class="sent-label">Prevedi</div><div class="sent-ru">' +
     c.ru +
     "</div></div>" +
     '<div class="answer-area">' +
@@ -118,12 +118,12 @@ function renderSentResult() {
   const emoji = pct === 100 ? "🏆" : pct >= 80 ? "🌟" : pct >= 60 ? "👍" : "💪";
   let mistakesHtml = "";
   if (mistakes.length) {
-    mistakesHtml = '<div class="mistakes-block"><div class="mistakes-title">Повтори:</div>';
+    mistakesHtml = '<div class="mistakes-block"><div class="mistakes-title">Ponovi:</div>';
     mistakes.forEach((m) => {
       mistakesHtml +=
-        '<div class="mistake-row" style="flex-direction:column;gap:4px"><span style="color:#5a7a5a;font-size:13px">' +
+        '<div class="mistake-row" style="flex-direction:column;gap:4px"><span style="color:#888;font-size:13px">' +
         m.ru +
-        '</span><span style="color:#66bb6a;font-weight:600">' +
+        '</span><span style="color:#a5b4fc;font-weight:600">' +
         m.correct +
         "</span></div>";
     });
@@ -133,15 +133,15 @@ function renderSentResult() {
     '<div class="result-card sents">' +
     '<div class="result-emoji">' +
     emoji +
-    '</div><div class="result-title">Раунд окончен!</div>' +
+    '</div><div class="result-title">Runda končana!</div>' +
     '<div class="result-score sents">' +
     score +
     "/" +
     cards.length +
     '</div><div class="result-pct">' +
     pct +
-    "% правильно</div>" +
+    "% pravilno</div>" +
     mistakesHtml +
-    '<div class="btn-row"><button class="btn-new sents" onclick="startSents()">Новый раунд</button><button class="btn-menu" onclick="goMenu()">Меню</button></div>' +
+    '<div class="btn-row"><button class="btn-new sents" onclick="startSents()">Nova runda</button><button class="btn-menu" onclick="goMenu()">Meni</button></div>' +
     "</div>";
 }

@@ -116,7 +116,7 @@ export async function fbSignIn() {
     await signInWithRedirect(auth, provider);
     // Browser navigates away here; nothing below runs in the current page load.
   } catch (e) {
-    alert("Ошибка входа: " + (e.message || e.code));
+    alert("Napaka pri prijavi: " + (e.message || e.code));
   }
 }
 
@@ -140,11 +140,11 @@ function askMergeChoice() {
       "position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:9999;display:flex;align-items:center;justify-content:center;padding:20px";
     overlay.innerHTML = `<div style="background:#fff;border-radius:14px;padding:22px;max-width:400px;text-align:center;box-shadow:0 10px 40px rgba(0,0,0,0.3)">
       <div style="font-size:42px;margin-bottom:10px">🔄</div>
-      <div style="font-size:18px;font-weight:600;margin-bottom:8px;color:#1a3a5e">Найдены два прогресса</div>
-      <div style="font-size:14px;color:#5a7a94;margin-bottom:18px;line-height:1.5">Локальный и в облаке. Что сделать?</div>
-      <button id="merge-btn" style="display:block;width:100%;padding:12px;margin-bottom:8px;border:none;border-radius:10px;background:#3b82f6;color:#fff;font-weight:600;cursor:pointer;font-size:14px">Слить (взять лучшее из обоих)</button>
-      <button id="cloud-btn" style="display:block;width:100%;padding:12px;margin-bottom:8px;border:1px solid #c8d2dd;background:#fff;border-radius:10px;cursor:pointer;font-size:14px">Оставить облачный (заменит локальный)</button>
-      <button id="local-btn" style="display:block;width:100%;padding:12px;border:1px solid #c8d2dd;background:#fff;border-radius:10px;cursor:pointer;font-size:14px">Оставить локальный (затрёт облако)</button>
+      <div style="font-size:18px;font-weight:600;margin-bottom:8px;color:#1a3a5e">Najdena dva napredka</div>
+      <div style="font-size:14px;color:#5a7a94;margin-bottom:18px;line-height:1.5">Lokalni in oblačni napredek. Kaj narediti?</div>
+      <button id="merge-btn" style="display:block;width:100%;padding:12px;margin-bottom:8px;border:none;border-radius:10px;background:#3b82f6;color:#fff;font-weight:600;cursor:pointer;font-size:14px">Združi (vzemi najboljše iz obeh)</button>
+      <button id="cloud-btn" style="display:block;width:100%;padding:12px;margin-bottom:8px;border:1px solid #c8d2dd;background:#fff;border-radius:10px;cursor:pointer;font-size:14px">Obdrži oblačni (zamenja lokalni)</button>
+      <button id="local-btn" style="display:block;width:100%;padding:12px;border:1px solid #c8d2dd;background:#fff;border-radius:10px;cursor:pointer;font-size:14px">Obdrži lokalni (prepiše oblak)</button>
     </div>`;
     document.body.appendChild(overlay);
     overlay.querySelector("#merge-btn").onclick = () => { document.body.removeChild(overlay); resolve("merge"); };
@@ -168,7 +168,7 @@ export function initFirebase() {
   // redirect attempt itself — surface them to the user.
   getRedirectResult(auth).catch((e) => {
     console.warn("Redirect sign-in failed:", e);
-    if (e && e.code) alert("Ошибка входа: " + (e.message || e.code));
+    if (e && e.code) alert("Napaka pri prijavi: " + (e.message || e.code));
   });
 
   onAuthStateChanged(auth, async (user) => {
@@ -199,7 +199,7 @@ export function initFirebase() {
         }
       } catch (e) {
         console.warn("Sync on login failed:", e);
-        alert("Не удалось синхронизировать с облаком: " + (e.message || e.code) + "\nПрогресс остался локальным.");
+        alert("Sinhronizacija z oblakom ni uspela: " + (e.message || e.code) + "\nNapredek ostaja lokalen.");
       } finally {
         fbState.syncing = false;
       }
