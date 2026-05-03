@@ -317,7 +317,20 @@ const WORDS=[
 {sl:"luškan",ru:"милый, славный",cat:"adj"},{sl:"srčkan",ru:"милый (сердечный)",cat:"adj"},{sl:"majhen",ru:"маленький",cat:"adj"},{sl:"priden",ru:"прилежный, послушный",cat:"adj"},{sl:"zanimivo",ru:"интересно",cat:"adj"},{sl:"skupaj",ru:"вместе",cat:"adj"},{sl:"prejšnji",ru:"прошлый, предыдущий",cat:"adj"},
 {sl:"prej",ru:"раньше, прежде",cat:"time"},{sl:"letos",ru:"в этом году",cat:"time"},{sl:"lani",ru:"в прошлом году",cat:"time"},{sl:"predlani",ru:"в позапрошлом году",cat:"time"},
 {sl:"Kaj pomeni ta beseda?",ru:"Что значит это слово?",cat:"phrase"},
-{sl:"kdo",ru:"кто",cat:"question"},{sl:"kaj",ru:"что",cat:"question"},{sl:"kdaj",ru:"когда",cat:"question"},{sl:"zakaj",ru:"почему",cat:"question"},{sl:"kako",ru:"как",cat:"question"},{sl:"koliko",ru:"сколько",cat:"question"}
+{sl:"kdo",ru:"кто",cat:"question"},{sl:"kaj",ru:"что",cat:"question"},{sl:"kdaj",ru:"когда",cat:"question"},{sl:"zakaj",ru:"почему",cat:"question"},{sl:"kako",ru:"как",cat:"question"},{sl:"koliko",ru:"сколько",cat:"question"},
+{sl:"seveda",ru:"конечно, разумеется",cat:"phrase"},
+{sl:"očka",ru:"папа",cat:"family"},{sl:"bratranec",ru:"двоюродный брат",cat:"family"},{sl:"sestrična",ru:"двоюродная сестра",cat:"family"},{sl:"vnuk",ru:"внук",cat:"family"},
+{sl:"vnukinja",ru:"внучка",cat:"family"},{sl:"tašča",ru:"тёща, свекровь",cat:"family"},{sl:"tast",ru:"тесть, свёкор",cat:"family"},{sl:"dojenček",ru:"младенец",cat:"family"},
+{sl:"partner",ru:"партнёр",cat:"family"},{sl:"partnerica",ru:"партнёрша",cat:"family"},{sl:"star",ru:"старый, в возрасте (Star sem 38 let)",cat:"adj"},{sl:"starejši",ru:"старший, постарше",cat:"adj"},
+{sl:"mlajši",ru:"младший, помоложе",cat:"adj"},{sl:"uporniški",ru:"бунтарский, мятежный",cat:"adj"},{sl:"uspešen",ru:"успешный",cat:"adj"},{sl:"velik",ru:"большой",cat:"adj"},
+{sl:"ponosen",ru:"гордый",cat:"adj"},{sl:"noseča",ru:"беременная",cat:"adj"},{sl:"tradicionalen",ru:"традиционный",cat:"adj"},{sl:"oba, obe",ru:"оба, обе",cat:"adj"},
+{sl:"teden",ru:"неделя",cat:"time"},{sl:"kmalu",ru:"скоро",cat:"time"},{sl:"vsako nedeljo",ru:"каждое воскресенье",cat:"time"},{sl:"že",ru:"уже",cat:"time"},
+{sl:"še",ru:"ещё",cat:"time"},{sl:"puberteta",ru:"пубертат, переходный возраст",cat:"thing"},{sl:"trening",ru:"тренировка",cat:"thing"},{sl:"violina",ru:"скрипка",cat:"thing"},
+{sl:"podjetje",ru:"предприятие, компания",cat:"thing"},{sl:"počitnice",ru:"каникулы, отпуск",cat:"thing"},{sl:"zmenek",ru:"свидание",cat:"thing"},{sl:"nosečnost",ru:"беременность",cat:"thing"},
+{sl:"osnovna šola",ru:"начальная школа",cat:"school"},{sl:"srednja šola",ru:"средняя школа",cat:"school"},{sl:"glasbena šola",ru:"музыкальная школа",cat:"school"},{sl:"športnik",ru:"спортсмен",cat:"people"},
+{sl:"učenec",ru:"ученик",cat:"people"},{sl:"učenka",ru:"ученица",cat:"people"},{sl:"kar pomeni",ru:"что означает",cat:"phrase"},{sl:"dopolniti",ru:"достичь, восполнить (сов.)",cat:"verb"},
+{sl:"vzeti",ru:"взять (сов.)",cat:"verb"},{sl:"privoščiti si",ru:"позволить себе (сов.)",cat:"verb"},{sl:"razvajati",ru:"баловать",cat:"verb"},{sl:"zbrati se",ru:"собраться (сов.)",cat:"verb"},
+{sl:"zbirati se",ru:"собираться (несов.)",cat:"verb"},{sl:"pomeniti",ru:"значить, означать",cat:"verb"}
 ];
 
 // Category maps for distractors
@@ -422,7 +435,14 @@ const VERBS=[
 {inf:"vpisati se",ru:"записаться, поступить",forms:{jaz:"se vpišem",ti:"se vpišeš","on/ona/ono":"se vpiše","midva/medve":"se vpiševa","vidva/vedve":"se vpišeta","onidva/onidve":"se vpišeta","mi/me":"se vpišemo","vi/ve":"se vpišete","oni/one":"se vpišejo"}},
 {inf:"poročati se",ru:"жениться (несов.)",forms:{jaz:"se poročam",ti:"se poročaš","on/ona/ono":"se poroča","midva/medve":"se poročava","vidva/vedve":"se poročata","onidva/onidve":"se poročata","mi/me":"se poročamo","vi/ve":"se poročate","oni/one":"se poročajo"}},
 {inf:"poročiti se",ru:"жениться (сов.)",forms:{jaz:"se poročim",ti:"se poročiš","on/ona/ono":"se poroči","midva/medve":"se poročiva","vidva/vedve":"se poročita","onidva/onidve":"se poročita","mi/me":"se poročimo","vi/ve":"se poročite","oni/one":"se poročijo"}},
-{inf:"zanimati",ru:"интересовать",forms:{jaz:"zanimam",ti:"zanimaš","on/ona/ono":"zanima","midva/medve":"zanimava","vidva/vedve":"zanimata","onidva/onidve":"zanimata","mi/me":"zanimamo","vi/ve":"zanimate","oni/one":"zanimajo"}}
+{inf:"zanimati",ru:"интересовать",forms:{jaz:"zanimam",ti:"zanimaš","on/ona/ono":"zanima","midva/medve":"zanimava","vidva/vedve":"zanimata","onidva/onidve":"zanimata","mi/me":"zanimamo","vi/ve":"zanimate","oni/one":"zanimajo"}},
+{inf:"dopolniti",ru:"достичь, восполнить (сов.)",forms:{jaz:"dopolnim",ti:"dopolniš","on/ona/ono":"dopolni","midva/medve":"dopolniva","vidva/vedve":"dopolnita","onidva/onidve":"dopolnita","mi/me":"dopolnimo","vi/ve":"dopolnite","oni/one":"dopolnijo"}},
+{inf:"vzeti",ru:"взять (сов.)",forms:{jaz:"vzamem",ti:"vzameš","on/ona/ono":"vzame","midva/medve":"vzameva","vidva/vedve":"vzameta","onidva/onidve":"vzameta","mi/me":"vzamemo","vi/ve":"vzamete","oni/one":"vzamejo"}},
+{inf:"privoščiti si",ru:"позволить себе (сов.)",forms:{jaz:"si privoščim",ti:"si privoščiš","on/ona/ono":"si privošči","midva/medve":"si privoščiva","vidva/vedve":"si privoščita","onidva/onidve":"si privoščita","mi/me":"si privoščimo","vi/ve":"si privoščite","oni/one":"si privoščijo"}},
+{inf:"razvajati",ru:"баловать",forms:{jaz:"razvajam",ti:"razvajaš","on/ona/ono":"razvaja","midva/medve":"razvajava","vidva/vedve":"razvajata","onidva/onidve":"razvajata","mi/me":"razvajamo","vi/ve":"razvajate","oni/one":"razvajajo"}},
+{inf:"zbrati se",ru:"собраться (сов.)",forms:{jaz:"se zberem",ti:"se zbereš","on/ona/ono":"se zbere","midva/medve":"se zbereva","vidva/vedve":"se zbereta","onidva/onidve":"se zbereta","mi/me":"se zberemo","vi/ve":"se zberete","oni/one":"se zberejo"}},
+{inf:"zbirati se",ru:"собираться (несов.)",forms:{jaz:"se zbiram",ti:"se zbiraš","on/ona/ono":"se zbira","midva/medve":"se zbirava","vidva/vedve":"se zbirata","onidva/onidve":"se zbirata","mi/me":"se zbiramo","vi/ve":"se zbirate","oni/one":"se zbirajo"}},
+{inf:"pomeniti",ru:"значить, означать",forms:{jaz:"pomenim",ti:"pomeniš","on/ona/ono":"pomeni","midva/medve":"pomeniva","vidva/vedve":"pomenita","onidva/onidve":"pomenita","mi/me":"pomenimo","vi/ve":"pomenite","oni/one":"pomenijo"}}
 ];
 </script>
 <script>
