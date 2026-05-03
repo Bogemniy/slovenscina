@@ -1,0 +1,181 @@
+{
+  "pronouns": [
+    "jaz",
+    "ti",
+    "on/ona/ono",
+    "midva/medve",
+    "vidva/vedve",
+    "onidva/onidve",
+    "mi/me",
+    "vi/ve",
+    "oni/one"
+  ],
+  "pronounShort": {
+    "jaz": "jaz",
+    "ti": "ti",
+    "on/ona/ono": "on",
+    "midva/medve": "midva",
+    "vidva/vedve": "vidva",
+    "onidva/onidve": "onidva",
+    "mi/me": "mi",
+    "vi/ve": "vi",
+    "oni/one": "oni"
+  },
+  "specialNeg": {
+    "biti": {
+      "jaz": "nisem",
+      "ti": "nisi",
+      "on/ona/ono": "ni",
+      "midva/medve": "nisva",
+      "vidva/vedve": "nista",
+      "onidva/onidve": "nista",
+      "mi/me": "nismo",
+      "vi/ve": "niste",
+      "oni/one": "niso"
+    },
+    "imeti": {
+      "jaz": "nimam",
+      "ti": "nimaš",
+      "on/ona/ono": "nima",
+      "midva/medve": "nimava",
+      "vidva/vedve": "nimata",
+      "onidva/onidve": "nimata",
+      "mi/me": "nimamo",
+      "vi/ve": "nimate",
+      "oni/one": "nimajo"
+    },
+    "vedeti": {
+      "jaz": "ne vem",
+      "ti": "ne veš",
+      "on/ona/ono": "ne ve",
+      "midva/medve": "ne veva",
+      "vidva/vedve": "ne vesta",
+      "onidva/onidve": "ne vesta",
+      "mi/me": "ne vemo",
+      "vi/ve": "ne veste",
+      "oni/one": "ne vedo"
+    },
+    "hoteti": {
+      "jaz": "nočem",
+      "ti": "nočeš",
+      "on/ona/ono": "noče",
+      "midva/medve": "nočeva",
+      "vidva/vedve": "nočeta",
+      "onidva/onidve": "nočeta",
+      "mi/me": "nočemo",
+      "vi/ve": "nočete",
+      "oni/one": "nočejo"
+    }
+  },
+  "related": {
+    "greet": [
+      "adj",
+      "thing"
+    ],
+    "adj": [
+      "greet",
+      "time",
+      "weather"
+    ],
+    "school": [
+      "thing",
+      "info"
+    ],
+    "people": [
+      "job",
+      "pron"
+    ],
+    "pron": [
+      "people",
+      "adj"
+    ],
+    "job": [
+      "people",
+      "info"
+    ],
+    "info": [
+      "school",
+      "thing"
+    ],
+    "weather": [
+      "season",
+      "adj"
+    ],
+    "season": [
+      "weather",
+      "time"
+    ],
+    "time": [
+      "season",
+      "adj",
+      "where"
+    ],
+    "food": [
+      "thing",
+      "time"
+    ],
+    "where": [
+      "goplace",
+      "time",
+      "info",
+      "question"
+    ],
+    "goplace": [
+      "where",
+      "thing"
+    ],
+    "verb": [
+      "adj",
+      "thing"
+    ],
+    "thing": [
+      "school",
+      "verb",
+      "info"
+    ],
+    "daily": [
+      "verb",
+      "goplace",
+      "food"
+    ],
+    "color": [
+      "adj",
+      "thing"
+    ],
+    "family": [
+      "people",
+      "pron"
+    ],
+    "transport": [
+      "where",
+      "goplace"
+    ],
+    "body": [
+      "adj",
+      "feel"
+    ],
+    "home": [
+      "school",
+      "thing",
+      "where"
+    ],
+    "shop": [
+      "food",
+      "thing",
+      "adj"
+    ],
+    "feel": [
+      "adj",
+      "body"
+    ],
+    "question": [
+      "where",
+      "time",
+      "pron"
+    ],
+    "phrase": [
+      "greet",
+      "question"
+    ]
+  }
+}

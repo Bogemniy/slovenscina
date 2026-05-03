@@ -1,0 +1,15 @@
+{
+  "name": "Slovenščina — Карточки",
+  "short_name": "Slovenščina",
+  "description": "Тренажёр словенского: карточки слов, глаголы, предложения, сопоставления.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f1923",
+  "theme_color": "#0f1923",
+  "lang": "sl",
+  "icons": [
+    { "src": "./icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

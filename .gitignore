@@ -1,1 +1,5 @@
 .DS_Store
+
+# Staging files for content additions — promoted to data/words.jsonl
+# and data/verbs.jsonl by the commit-pending skill.
+data/_pending-*.jsonl
