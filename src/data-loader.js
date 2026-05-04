@@ -28,11 +28,12 @@ async function fetchAndCache(url, cacheKey, parse) {
 }
 
 export async function loadAllData() {
-  const [words, verbs, sentences, taxonomy] = await Promise.all([
+  const [words, verbs, sentences, taxonomy, learn] = await Promise.all([
     fetchAndCache(DATA_FILES.words, CACHE_KEYS.words, parseJSONL),
     fetchAndCache(DATA_FILES.verbs, CACHE_KEYS.verbs, parseJSONL),
     fetchAndCache(DATA_FILES.sentences, CACHE_KEYS.sentences, parseJSONL),
     fetchAndCache(DATA_FILES.taxonomy, CACHE_KEYS.taxonomy, JSON.parse),
+    fetchAndCache(DATA_FILES.learn, CACHE_KEYS.learn, parseJSONL),
   ]);
 
   const CAT_MAP = {}, CAT_MAP_SL = {};
@@ -41,6 +42,14 @@ export async function loadAllData() {
     if (!CAT_MAP_SL[w.cat]) CAT_MAP_SL[w.cat] = [];
     CAT_MAP[w.cat].push(w.ru);
     CAT_MAP_SL[w.cat].push(w.sl);
+  }
+
+  const LEARN_CAT_MAP = {}, LEARN_CAT_MAP_SL = {};
+  for (const w of learn) {
+    if (!LEARN_CAT_MAP[w.cat]) LEARN_CAT_MAP[w.cat] = [];
+    if (!LEARN_CAT_MAP_SL[w.cat]) LEARN_CAT_MAP_SL[w.cat] = [];
+    LEARN_CAT_MAP[w.cat].push(w.ru);
+    LEARN_CAT_MAP_SL[w.cat].push(w.sl);
   }
 
   return {
@@ -53,5 +62,8 @@ export async function loadAllData() {
     RELATED: taxonomy.related,
     CAT_MAP,
     CAT_MAP_SL,
+    LEARN: learn,
+    LEARN_CAT_MAP,
+    LEARN_CAT_MAP_SL,
   };
 }

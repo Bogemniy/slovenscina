@@ -1,5 +1,5 @@
 import { loadAllData } from "./data-loader.js";
-import { state, loadWordProgress, loadWordQueue, loadVerbQueue } from "./state.js";
+import { state, loadWordProgress, loadWordQueue, loadVerbQueue, loadLearnProgress, loadLearnQueue } from "./state.js";
 
 import { renderMenu, goMenu, resetProgress, exportProgress, importProgress } from "./ui/menu.js";
 import {
@@ -11,10 +11,14 @@ import {
   startVerbs, renderVerbsQuiz, selectVerb, renderVerbsResult,
   retryVerbMistakes, showVerbList, showVerbTable,
 } from "./ui/verbs.js";
-import { startMatch, renderMatch, pickSl, pickRu, nextMatchRound } from "./ui/match.js";
 import {
   startSents, renderSentQuiz, addTile, removeTile, checkSent, nextSent,
 } from "./ui/sentences.js";
+import {
+  startLearn, renderLearnMenu, startLearnMode, renderLearnQuiz,
+  selfLearnAnswer, advanceLearnWord, selectLearnWord, renderLearnResult,
+  retryLearnMistakes,
+} from "./ui/learn.js";
 
 import { initFirebase, fbSignIn, fbSignOut } from "./firebase-sync.js";
 
@@ -34,6 +38,8 @@ async function bootstrap() {
   loadWordProgress();
   loadWordQueue();
   loadVerbQueue();
+  loadLearnProgress();
+  loadLearnQueue();
 
   // 3. Expose every onclick handler on window — preserves the legacy template style.
   Object.assign(window, {
@@ -46,8 +52,10 @@ async function bootstrap() {
     // verbs
     startVerbs, renderVerbsQuiz, selectVerb, renderVerbsResult,
     retryVerbMistakes, showVerbList, showVerbTable,
-    // match
-    startMatch, renderMatch, pickSl, pickRu, nextMatchRound,
+    // learn
+    startLearn, renderLearnMenu, startLearnMode, renderLearnQuiz,
+    selfLearnAnswer, advanceLearnWord, selectLearnWord, renderLearnResult,
+    retryLearnMistakes,
     // sentences
     startSents, renderSentQuiz, addTile, removeTile, checkSent, nextSent,
     // firebase

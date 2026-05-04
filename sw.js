@@ -1,5 +1,5 @@
 // Bump CACHE_VERSION to invalidate clients on deploy.
-const CACHE_VERSION = "v2";
+const CACHE_VERSION = "v3";
 const APP_SHELL = `slo-shell-${CACHE_VERSION}`;
 const DATA_CACHE = `slo-data-${CACHE_VERSION}`;
 
@@ -15,14 +15,14 @@ const SHELL_FILES = [
   "./src/firebase-sync.js",
   "./src/engine/words.js",
   "./src/engine/verbs.js",
-  "./src/engine/match.js",
   "./src/engine/sentences.js",
+  "./src/engine/learn.js",
   "./src/ui/dom.js",
   "./src/ui/menu.js",
   "./src/ui/words.js",
   "./src/ui/verbs.js",
-  "./src/ui/match.js",
   "./src/ui/sentences.js",
+  "./src/ui/learn.js",
   "./src/ui/auth-bar.js",
   "./icons/icon.svg",
 ];

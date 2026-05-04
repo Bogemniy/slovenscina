@@ -1,9 +1,10 @@
-import { state, bucketWords, shuffle, loadWordQueue, loadVerbQueue, loadWordProgress } from "../state.js";
+import { state, bucketWords, bucketLearn, shuffle, loadWordQueue, loadVerbQueue, loadWordProgress } from "../state.js";
 import { fbState, updateAuthBar } from "./auth-bar.js";
 import { app } from "./dom.js";
 
 export function renderMenu() {
   const b = bucketWords();
+  const bl = bucketLearn();
   app().innerHTML = `<div class="menu-card">
     <div class="menu-flag">🇸🇮</div>
     <div class="menu-title">Slovenščina</div>
@@ -11,11 +12,12 @@ export function renderMenu() {
     <button class="menu-btn words" onclick="startWords()">📝 Kartice besed</button>
     <button class="menu-btn verbs" onclick="startVerbs()">🔤 Spregatve glagolov</button>
     <button class="menu-btn sents" onclick="startSents()">🧩 Sestavi stavek</button>
-    <button class="menu-btn match" onclick="startMatch()">🔗 Poveži besede</button>
+    <button class="menu-btn" style="background:linear-gradient(135deg,rgba(52,211,153,.18),rgba(16,185,129,.1));border:1px solid rgba(52,211,153,.25);color:#6ee7b7" onclick="startLearn()">🧠 Hočem vedeti</button>
     <div class="divider"></div>
     <button class="menu-btn table-btn" onclick="showVerbList()">📖 Tabele spregatev</button>
     <div class="divider"></div>
-    <div style="font-size:12px;color:#777;margin-bottom:8px">Besede: učim ${b.learning.length} · za ponavljanje ${b.due.length} · znam ${b.mastered.length} · novih ${b.new.length}</div>
+    <div style="font-size:12px;color:#777;margin-bottom:4px">Besede: učim ${b.learning.length} · za ponavljanje ${b.due.length} · znam ${b.mastered.length} · novih ${b.new.length}</div>
+    <div style="font-size:12px;color:#777;margin-bottom:4px">Hočem vedeti: učim ${bl.learning.length} · za ponavljanje ${bl.due.length} · znam ${bl.mastered.length} · novih ${bl.new.length}</div>
     <div style="font-size:11px;color:#777;margin-bottom:8px">Glagoli: ${state.verbsSeen}/${state.VERBS.length * 9}</div>
     <div style="display:flex;gap:6px;flex-wrap:wrap">
       <button class="menu-btn table-btn" style="font-size:12px;padding:8px;flex:1;min-width:90px" onclick="exportProgress()">📤 Izvozi</button>
