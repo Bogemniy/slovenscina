@@ -225,7 +225,7 @@
 {"sl": "kako", "ru": "как", "cat": "question"}
 {"sl": "kateri", "ru": "какой", "cat": "adj"}
 {"sl": "kdaj", "ru": "когда", "cat": "question"}
-{"sl": "potem", "ru": "потом, затем", "cat": "time"}
+{"sl": "potem", "ru": "потом", "cat": "time"}
 {"sl": "če", "ru": "если", "cat": "adj"}
 {"sl": "resnično", "ru": "на самом деле", "cat": "adj"}
 {"sl": "ampak", "ru": "но", "cat": "adj"}
@@ -244,7 +244,7 @@
 {"sl": "položiti", "ru": "класть", "cat": "verb"}
 {"sl": "vzeti", "ru": "взять (сов.)", "cat": "verb"}
 {"sl": "najti", "ru": "находить", "cat": "adj"}
-{"sl": "dati", "ru": "дать (сов., dam)", "cat": "verb"}
+{"sl": "dati", "ru": "дать (сов.", "cat": "verb"}
 {"sl": "imeti rad", "ru": "нравиться", "cat": "adj"}
 {"sl": "ljubiti", "ru": "любить", "cat": "verb"}
 {"sl": "poklicati", "ru": "звонить", "cat": "verb"}
@@ -261,8 +261,8 @@
 {"sl": "sedemnajst", "ru": "17", "cat": "number"}
 {"sl": "osemnajst", "ru": "18", "cat": "number"}
 {"sl": "devetnajst", "ru": "19", "cat": "number"}
-{"sl": "star", "ru": "старый, в возрасте (Star sem 38 let)", "cat": "adj"}
-{"sl": "malo", "ru": "мало, немного", "cat": "adj"}
+{"sl": "star", "ru": "старый", "cat": "adj"}
+{"sl": "malo", "ru": "мало", "cat": "adj"}
 {"sl": "veliko", "ru": "многие", "cat": "adj"}
 {"sl": "koliko?", "ru": "сколько?", "cat": "phrase"}
 {"sl": "napačen", "ru": "неправильный", "cat": "adj"}
@@ -274,10 +274,10 @@
 {"sl": "tukaj", "ru": "здесь", "cat": "where"}
 {"sl": "pozdravljeni", "ru": "здравствуйте", "cat": "greet"}
 {"sl": "se vidimo", "ru": "увидимся позже", "cat": "greet"}
-{"sl": "v redu", "ru": "в порядке, ок", "cat": "adj"}
+{"sl": "v redu", "ru": "в порядке", "cat": "adj"}
 {"sl": "pazi nase", "ru": "береги себя", "cat": "greet"}
 {"sl": "ne skrbi", "ru": "не переживай", "cat": "greet"}
-{"sl": "seveda", "ru": "конечно, разумеется", "cat": "phrase"}
+{"sl": "seveda", "ru": "конечно", "cat": "phrase"}
 {"sl": "dober dan", "ru": "добрый день", "cat": "greet"}
 {"sl": "živijo", "ru": "привет", "cat": "adj"}
 {"sl": "adijo", "ru": "пока", "cat": "greet"}
@@ -361,7 +361,7 @@
 {"sl": "poročiti se", "ru": "жениться (сов.)", "cat": "verb"}
 {"sl": "odgovoriti", "ru": "отвечать", "cat": "verb"}
 {"sl": "vprašanje", "ru": "вопрос", "cat": "adj"}
-{"sl": "podjetje", "ru": "предприятие, компания", "cat": "thing"}
+{"sl": "podjetje", "ru": "предприятие", "cat": "thing"}
 {"sl": "posel", "ru": "бизнес", "cat": "adj"}
 {"sl": "zaposlitev", "ru": "работа", "cat": "adj"}
 {"sl": "denar", "ru": "деньги", "cat": "shop"}
@@ -391,7 +391,7 @@
 {"sl": "ponosen", "ru": "гордый", "cat": "adj"}
 {"sl": "sit", "ru": "сытый", "cat": "adj"}
 {"sl": "bolan", "ru": "больной", "cat": "body"}
-{"sl": "jezen", "ru": "злой, сердитый", "cat": "feel"}
+{"sl": "jezen", "ru": "злой", "cat": "feel"}
 {"sl": "raven", "ru": "прямой", "cat": "adj"}
 {"sl": "vsak", "ru": "каждый", "cat": "adj"}
 {"sl": "nenehno", "ru": "всегда", "cat": "adj"}
@@ -418,7 +418,7 @@
 {"sl": "riba", "ru": "рыба", "cat": "food"}
 {"sl": "pajek", "ru": "паук", "cat": "animal"}
 {"sl": "kača", "ru": "змея", "cat": "animal"}
-{"sl": "zunaj", "ru": "снаружи, на улице", "cat": "where"}
+{"sl": "zunaj", "ru": "снаружи", "cat": "where"}
 {"sl": "znotraj", "ru": "внутри", "cat": "adj"}
 {"sl": "pod", "ru": "ниже", "cat": "adj"}
 {"sl": "nad", "ru": "выше", "cat": "adj"}
@@ -434,7 +434,7 @@
 {"sl": "zaskrbljen", "ru": "обеспокоенный", "cat": "adj"}
 {"sl": "presenečen", "ru": "удивленный", "cat": "adj"}
 {"sl": "kul", "ru": "крутой", "cat": "adj"}
-{"sl": "priden", "ru": "прилежный, послушный", "cat": "adj"}
+{"sl": "priden", "ru": "прилежный", "cat": "adj"}
 {"sl": "hudoben", "ru": "злой", "cat": "adj"}
 {"sl": "hladen", "ru": "холодный", "cat": "adj"}
 {"sl": "glava", "ru": "голова", "cat": "body"}
@@ -566,14 +566,14 @@
 {"sl": "taksi", "ru": "такси", "cat": "transport"}
 {"sl": "semafor", "ru": "светофор", "cat": "adj"}
 {"sl": "parkirišče", "ru": "автомобильная стоянка", "cat": "adj"}
-{"sl": "cesta", "ru": "дорога, улица", "cat": "where"}
+{"sl": "cesta", "ru": "дорога", "cat": "where"}
 {"sl": "oblačilo", "ru": "одежда", "cat": "adj"}
 {"sl": "čevelj", "ru": "ботинок", "cat": "adj"}
 {"sl": "plašč", "ru": "пальто", "cat": "adj"}
 {"sl": "pulover", "ru": "свитер", "cat": "adj"}
 {"sl": "srajca", "ru": "рубашка", "cat": "thing"}
 {"sl": "jakna", "ru": "куртка", "cat": "adj"}
-{"sl": "obleka", "ru": "костюм", "cat": "adj"}
+{"sl": "obleka", "ru": "платье", "cat": "adj"}
 {"sl": "hlače", "ru": "брюки", "cat": "adj"}
 {"sl": "obleka", "ru": "платье", "cat": "adj"}
 {"sl": "majica", "ru": "футболка", "cat": "adj"}
@@ -646,7 +646,7 @@
 {"sl": "rjav", "ru": "коричневый", "cat": "color"}
 {"sl": "roza", "ru": "розовый", "cat": "color"}
 {"sl": "dolgočasen", "ru": "скучный", "cat": "adj"}
-{"sl": "težek", "ru": "тяжёлый, трудный", "cat": "adj"}
+{"sl": "težek", "ru": "тяжёлый", "cat": "adj"}
 {"sl": "osamljen", "ru": "одинокий", "cat": "adj"}
 {"sl": "lačen", "ru": "голодный", "cat": "feel"}
 {"sl": "žejen", "ru": "жаждущий", "cat": "feel"}
@@ -821,7 +821,7 @@
 {"sl": "radio", "ru": "радио", "cat": "adj"}
 {"sl": "darilo", "ru": "подарок", "cat": "adj"}
 {"sl": "steklenica", "ru": "бутылка", "cat": "adj"}
-{"sl": "vrečka", "ru": "пакет, мешочек", "cat": "thing"}
+{"sl": "vrečka", "ru": "пакет", "cat": "thing"}
 {"sl": "ključ", "ru": "ключ", "cat": "home"}
 {"sl": "lutka", "ru": "кукла", "cat": "thing"}
 {"sl": "angel", "ru": "ангел", "cat": "adj"}
@@ -840,7 +840,7 @@
 {"sl": "občinstvo", "ru": "зритель", "cat": "adj"}
 {"sl": "šala", "ru": "шутка", "cat": "adj"}
 {"sl": "članek", "ru": "статья", "cat": "adj"}
-{"sl": "časopis", "ru": "газета, журнал", "cat": "thing"}
+{"sl": "časopis", "ru": "газета", "cat": "thing"}
 {"sl": "oglaševanje", "ru": "реклама", "cat": "adj"}
 {"sl": "narava", "ru": "природа", "cat": "adj"}
 {"sl": "pepel", "ru": "пепел", "cat": "adj"}
@@ -877,7 +877,7 @@
 {"sl": "srebro", "ru": "серебро", "cat": "adj"}
 {"sl": "Srebro je cenejše od zlata", "ru": "Серебро дешевле золота", "cat": "phrase"}
 {"sl": "Zlato je dražje od srebra", "ru": "Золото дороже серебра", "cat": "phrase"}
-{"sl": "počitnice", "ru": "каникулы, отпуск", "cat": "thing"}
+{"sl": "počitnice", "ru": "каникулы", "cat": "thing"}
 {"sl": "plaža", "ru": "пляж", "cat": "adj"}
 {"sl": "gost", "ru": "гость", "cat": "adj"}
 {"sl": "rojstni dan", "ru": "день рождения", "cat": "adj"}
@@ -1027,11 +1027,11 @@
 {"sl": "dober večer", "ru": "добрый вечер", "cat": "greet"}
 {"sl": "živjo", "ru": "привет", "cat": "greet"}
 {"sl": "zdravo", "ru": "здравствуйте", "cat": "greet"}
-{"sl": "čao", "ru": "чао, пока", "cat": "greet"}
+{"sl": "čao", "ru": "чао", "cat": "greet"}
 {"sl": "lahko noč", "ru": "спокойной ночи", "cat": "greet"}
 {"sl": "najlepša hvala", "ru": "огромное спасибо", "cat": "greet"}
 {"sl": "hvala lepa", "ru": "большое спасибо", "cat": "greet"}
-{"sl": "malenkost", "ru": "не за что, пустяк", "cat": "greet"}
+{"sl": "malenkost", "ru": "не за что", "cat": "greet"}
 {"sl": "me veseli", "ru": "приятно познакомиться", "cat": "greet"}
 {"sl": "lep dan", "ru": "хорошего дня", "cat": "greet"}
 {"sl": "lep večer", "ru": "хорошего вечера", "cat": "greet"}
@@ -1039,7 +1039,7 @@
 {"sl": "zelo dobro", "ru": "очень хорошо", "cat": "adj"}
 {"sl": "slabo", "ru": "плохо", "cat": "adj"}
 {"sl": "zelo slabo", "ru": "очень плохо", "cat": "adj"}
-{"sl": "še kar", "ru": "нормально, так себе", "cat": "adj"}
+{"sl": "še kar", "ru": "нормально", "cat": "adj"}
 {"sl": "tako tako", "ru": "ни так ни сяк", "cat": "adj"}
 {"sl": "zanič", "ru": "отстой", "cat": "adj"}
 {"sl": "grozno", "ru": "ужасно", "cat": "adj"}
@@ -1082,9 +1082,9 @@
 {"sl": "poklic", "ru": "профессия", "cat": "info"}
 {"sl": "naslov", "ru": "адрес", "cat": "info"}
 {"sl": "ulica", "ru": "улица", "cat": "info"}
-{"sl": "kraj", "ru": "место, город", "cat": "info"}
-{"sl": "država", "ru": "государство, страна", "cat": "info"}
-{"sl": "dežela", "ru": "земля, край", "cat": "info"}
+{"sl": "kraj", "ru": "место", "cat": "info"}
+{"sl": "država", "ru": "государство", "cat": "info"}
+{"sl": "dežela", "ru": "земля", "cat": "info"}
 {"sl": "pošta", "ru": "почта", "cat": "info"}
 {"sl": "datum rojstva", "ru": "дата рождения", "cat": "info"}
 {"sl": "oblačno", "ru": "облачно", "cat": "weather"}
@@ -1139,26 +1139,26 @@
 {"sl": "grem na obisk", "ru": "иду в гости", "cat": "goplace"}
 {"sl": "grem po nakupih", "ru": "иду за покупками", "cat": "goplace"}
 {"sl": "grem k zdravniku", "ru": "иду к врачу", "cat": "goplace"}
-{"sl": "trpeti", "ru": "терпеть, страдать", "cat": "verb"}
-{"sl": "preživeti", "ru": "пережить, выжить", "cat": "verb"}
+{"sl": "trpeti", "ru": "терпеть", "cat": "verb"}
+{"sl": "preživeti", "ru": "пережить", "cat": "verb"}
 {"sl": "samoučiti se", "ru": "учиться самостоятельно", "cat": "verb"}
 {"sl": "delati kot", "ru": "работать в качестве", "cat": "verb"}
 {"sl": "posebej", "ru": "особенно", "cat": "adj"}
 {"sl": "lagodno", "ru": "уютно", "cat": "adj"}
 {"sl": "vljuden", "ru": "вежливый", "cat": "adj"}
 {"sl": "simpatičen", "ru": "симпатичный", "cat": "adj"}
-{"sl": "sploh", "ru": "совсем, вообще", "cat": "adj"}
+{"sl": "sploh", "ru": "совсем", "cat": "adj"}
 {"sl": "predvsem", "ru": "прежде всего", "cat": "adj"}
 {"sl": "prosti", "ru": "свободный", "cat": "adj"}
 {"sl": "ko", "ru": "когда", "cat": "adj"}
-{"sl": "pa", "ru": "а, же", "cat": "adj"}
+{"sl": "pa", "ru": "а", "cat": "adj"}
 {"sl": "besedilo", "ru": "текст", "cat": "thing"}
 {"sl": "služba", "ru": "работа", "cat": "thing"}
 {"sl": "potovanje", "ru": "путешествие", "cat": "thing"}
 {"sl": "garderoba", "ru": "раздевалка", "cat": "thing"}
 {"sl": "slušalke", "ru": "наушники", "cat": "thing"}
 {"sl": "računalnik", "ru": "компьютер", "cat": "thing"}
-{"sl": "sreča", "ru": "счастье, удача", "cat": "thing"}
+{"sl": "sreča", "ru": "счастье", "cat": "thing"}
 {"sl": "veselje", "ru": "радость", "cat": "thing"}
 {"sl": "sredina", "ru": "середина", "cat": "thing"}
 {"sl": "besedni zaklad", "ru": "словарный запас", "cat": "thing"}
@@ -1203,7 +1203,7 @@
 {"sl": "običajno", "ru": "обычно", "cat": "adj"}
 {"sl": "žurka", "ru": "вечеринка (разг.)", "cat": "thing"}
 {"sl": "žur", "ru": "тусовка", "cat": "thing"}
-{"sl": "telovadba", "ru": "гимнастика, физкультура", "cat": "thing"}
+{"sl": "telovadba", "ru": "гимнастика", "cat": "thing"}
 {"sl": "navada", "ru": "привычка", "cat": "thing"}
 {"sl": "razvada", "ru": "вредная привычка", "cat": "thing"}
 {"sl": "dežuje", "ru": "дождь идёт", "cat": "weather"}
@@ -1220,14 +1220,14 @@
 {"sl": "otroški vrtec", "ru": "детский сад", "cat": "where"}
 {"sl": "ležim na postelji", "ru": "лежу на кровати", "cat": "daily"}
 {"sl": "serija", "ru": "сериал", "cat": "thing"}
-{"sl": "peljati", "ru": "вести, везти", "cat": "verb"}
+{"sl": "peljati", "ru": "вести", "cat": "verb"}
 {"sl": "vrniti se", "ru": "вернуться", "cat": "verb"}
 {"sl": "začeti", "ru": "начать", "cat": "verb"}
 {"sl": "lenariti", "ru": "лениться", "cat": "verb"}
 {"sl": "sončna očala", "ru": "солнечные очки", "cat": "thing"}
 {"sl": "po", "ru": "после", "cat": "adj"}
-{"sl": "ponavadi", "ru": "обычно, как правило", "cat": "adj"}
-{"sl": "nato", "ru": "затем, тогда", "cat": "time"}
+{"sl": "ponavadi", "ru": "обычно", "cat": "adj"}
+{"sl": "nato", "ru": "затем", "cat": "time"}
 {"sl": "tujec", "ru": "иностранец", "cat": "people"}
 {"sl": "tuji jezik", "ru": "иностранный язык", "cat": "info"}
 {"sl": "tujina", "ru": "заграница", "cat": "where"}
@@ -1241,15 +1241,15 @@
 {"sl": "traparije", "ru": "глупости", "cat": "thing"}
 {"sl": "očitno", "ru": "очевидно", "cat": "adj"}
 {"sl": "amaterski", "ru": "любительский", "cat": "adj"}
-{"sl": "tudi", "ru": "тоже, также", "cat": "adj"}
-{"sl": "precej", "ru": "довольно, достаточно", "cat": "adj"}
+{"sl": "tudi", "ru": "тоже", "cat": "adj"}
+{"sl": "precej", "ru": "довольно", "cat": "adj"}
 {"sl": "brez", "ru": "без", "cat": "adj"}
-{"sl": "lahko", "ru": "можно, легко", "cat": "adj"}
+{"sl": "lahko", "ru": "можно", "cat": "adj"}
 {"sl": "cenejši", "ru": "дешевле", "cat": "adj"}
-{"sl": "družabni stiki", "ru": "общение, социальные связи", "cat": "thing"}
+{"sl": "družabni stiki", "ru": "общение", "cat": "thing"}
 {"sl": "načrt", "ru": "план", "cat": "thing"}
 {"sl": "biti zaseden", "ru": "быть занятым", "cat": "verb"}
-{"sl": "izkušnja", "ru": "опыт, впечатление", "cat": "thing"}
+{"sl": "izkušnja", "ru": "опыт", "cat": "thing"}
 {"sl": "je odvisno od", "ru": "зависит от", "cat": "verb"}
 {"sl": "stolpnica", "ru": "столбчатая диаграмма", "cat": "thing"}
 {"sl": "peči", "ru": "печь", "cat": "verb"}
@@ -1258,7 +1258,7 @@
 {"sl": "moči", "ru": "мочь", "cat": "verb"}
 {"sl": "drsati", "ru": "кататься на коньках", "cat": "verb"}
 {"sl": "deskati", "ru": "кататься на доске", "cat": "verb"}
-{"sl": "brskati", "ru": "искать, гуглить", "cat": "verb"}
+{"sl": "brskati", "ru": "искать", "cat": "verb"}
 {"sl": "sok", "ru": "сок", "cat": "food"}
 {"sl": "riž", "ru": "рис", "cat": "food"}
 {"sl": "sol", "ru": "соль", "cat": "food"}
@@ -1278,7 +1278,7 @@
 {"sl": "brat", "ru": "брат", "cat": "family"}
 {"sl": "sestra", "ru": "сестра", "cat": "family"}
 {"sl": "družina", "ru": "семья", "cat": "family"}
-{"sl": "postaja", "ru": "остановка, станция", "cat": "transport"}
+{"sl": "postaja", "ru": "остановка", "cat": "transport"}
 {"sl": "vozovnica", "ru": "билет (проездной)", "cat": "transport"}
 {"sl": "letališče", "ru": "аэропорт", "cat": "transport"}
 {"sl": "bolečina", "ru": "боль", "cat": "body"}
@@ -1288,40 +1288,40 @@
 {"sl": "cena", "ru": "цена", "cat": "shop"}
 {"sl": "drago", "ru": "дорого", "cat": "shop"}
 {"sl": "jedilni list", "ru": "меню", "cat": "shop"}
-{"sl": "vesel", "ru": "весёлый, рад", "cat": "feel"}
+{"sl": "vesel", "ru": "весёлый", "cat": "feel"}
 {"sl": "zaljubljen", "ru": "влюблённый", "cat": "feel"}
 {"sl": "z mano", "ru": "со мной", "cat": "pron"}
 {"sl": "z menoj", "ru": "со мной (вариант)", "cat": "pron"}
 {"sl": "s tabo", "ru": "с тобой", "cat": "pron"}
 {"sl": "s teboj", "ru": "с тобой (вариант)", "cat": "pron"}
-{"sl": "klepetati", "ru": "болтать, разговаривать", "cat": "verb"}
-{"sl": "čvekati", "ru": "болтать, сплетничать", "cat": "verb"}
-{"sl": "ustrezati", "ru": "подходить, соответствовать", "cat": "verb"}
+{"sl": "klepetati", "ru": "болтать", "cat": "verb"}
+{"sl": "čvekati", "ru": "болтать", "cat": "verb"}
+{"sl": "ustrezati", "ru": "подходить", "cat": "verb"}
 {"sl": "preživljati čas", "ru": "проводить время", "cat": "verb"}
 {"sl": "nesti", "ru": "нести", "cat": "verb"}
-{"sl": "potrebovati", "ru": "нуждаться, требоваться", "cat": "verb"}
-{"sl": "poskušati", "ru": "пробовать, пытаться (несов.)", "cat": "verb"}
-{"sl": "poskusiti", "ru": "попробовать, попытаться (сов.)", "cat": "verb"}
-{"sl": "izkoristiti", "ru": "использовать, воспользоваться", "cat": "verb"}
+{"sl": "potrebovati", "ru": "нуждаться", "cat": "verb"}
+{"sl": "poskušati", "ru": "пробовать", "cat": "verb"}
+{"sl": "poskusiti", "ru": "попробовать", "cat": "verb"}
+{"sl": "izkoristiti", "ru": "использовать", "cat": "verb"}
 {"sl": "narediti", "ru": "сделать (сов.)", "cat": "verb"}
 {"sl": "izgledati", "ru": "выглядеть", "cat": "verb"}
 {"sl": "ogledati si", "ru": "посмотреть (фильм и т.п.)", "cat": "verb"}
-{"sl": "dati povedati", "ru": "дать сказать, рассказать", "cat": "verb"}
+{"sl": "dati povedati", "ru": "дать сказать", "cat": "verb"}
 {"sl": "veliko ljudi", "ru": "много людей", "cat": "people"}
 {"sl": "s prijatelji", "ru": "с друзьями", "cat": "people"}
-{"sl": "v lokalu", "ru": "в баре, в заведении", "cat": "where"}
+{"sl": "v lokalu", "ru": "в баре", "cat": "where"}
 {"sl": "tečaj", "ru": "курс (учебный)", "cat": "school"}
-{"sl": "stvar", "ru": "вещь, штука", "cat": "thing"}
+{"sl": "stvar", "ru": "вещь", "cat": "thing"}
 {"sl": "čim več", "ru": "как можно больше", "cat": "adj"}
-{"sl": "marati", "ru": "любить, нравиться", "cat": "verb"}
-{"sl": "računati", "ru": "считать, рассчитывать (računam)", "cat": "verb"}
-{"sl": "povedati", "ru": "сказать, рассказать (сов., povem)", "cat": "verb"}
-{"sl": "povabiti", "ru": "пригласить (сов., povabim)", "cat": "verb"}
+{"sl": "marati", "ru": "любить", "cat": "verb"}
+{"sl": "računati", "ru": "считать", "cat": "verb"}
+{"sl": "povedati", "ru": "сказать", "cat": "verb"}
+{"sl": "povabiti", "ru": "пригласить (сов.", "cat": "verb"}
 {"sl": "ukvarjati se", "ru": "заниматься (чем-л.)", "cat": "verb"}
-{"sl": "zabavati se", "ru": "развлекаться, веселиться", "cat": "verb"}
+{"sl": "zabavati se", "ru": "развлекаться", "cat": "verb"}
 {"sl": "navajati se", "ru": "привыкать (несов.)", "cat": "verb"}
 {"sl": "navaditi se", "ru": "привыкнуть (сов.)", "cat": "verb"}
-{"sl": "vpisati se", "ru": "записаться, поступить", "cat": "verb"}
+{"sl": "vpisati se", "ru": "записаться", "cat": "verb"}
 {"sl": "poročati se", "ru": "жениться (несов.)", "cat": "verb"}
 {"sl": "zanimati", "ru": "интересовать", "cat": "verb"}
 {"sl": "biti poročen", "ru": "быть женатым", "cat": "verb"}
@@ -1335,13 +1335,13 @@
 {"sl": "upokojenec", "ru": "пенсионер", "cat": "people"}
 {"sl": "zapečkar", "ru": "домосед", "cat": "people"}
 {"sl": "igračka", "ru": "игрушка", "cat": "thing"}
-{"sl": "punčka", "ru": "куколка, девчушка", "cat": "thing"}
-{"sl": "skrb", "ru": "забота, беспокойство", "cat": "thing"}
-{"sl": "pokoj", "ru": "пенсия, покой", "cat": "thing"}
-{"sl": "luškan", "ru": "милый, славный", "cat": "adj"}
+{"sl": "punčka", "ru": "куколка", "cat": "thing"}
+{"sl": "skrb", "ru": "забота", "cat": "thing"}
+{"sl": "pokoj", "ru": "пенсия", "cat": "thing"}
+{"sl": "luškan", "ru": "милый", "cat": "adj"}
 {"sl": "zanimivo", "ru": "интересно", "cat": "adj"}
-{"sl": "prejšnji", "ru": "прошлый, предыдущий", "cat": "adj"}
-{"sl": "prej", "ru": "раньше, прежде", "cat": "time"}
+{"sl": "prejšnji", "ru": "прошлый", "cat": "adj"}
+{"sl": "prej", "ru": "раньше", "cat": "time"}
 {"sl": "letos", "ru": "в этом году", "cat": "time"}
 {"sl": "lani", "ru": "в прошлом году", "cat": "time"}
 {"sl": "predlani", "ru": "в позапрошлом году", "cat": "time"}
@@ -1352,13 +1352,13 @@
 {"sl": "sestrična", "ru": "двоюродная сестра", "cat": "family"}
 {"sl": "vnuk", "ru": "внук", "cat": "family"}
 {"sl": "vnukinja", "ru": "внучка", "cat": "family"}
-{"sl": "tašča", "ru": "тёща, свекровь", "cat": "family"}
-{"sl": "tast", "ru": "тесть, свёкор", "cat": "family"}
+{"sl": "tašča", "ru": "тёща", "cat": "family"}
+{"sl": "tast", "ru": "тесть", "cat": "family"}
 {"sl": "partner", "ru": "партнёр", "cat": "family"}
 {"sl": "partnerica", "ru": "партнёрша", "cat": "family"}
-{"sl": "starejši", "ru": "старший, постарше", "cat": "adj"}
-{"sl": "mlajši", "ru": "младший, помоложе", "cat": "adj"}
-{"sl": "uporniški", "ru": "бунтарский, мятежный", "cat": "adj"}
+{"sl": "starejši", "ru": "старший", "cat": "adj"}
+{"sl": "mlajši", "ru": "младший", "cat": "adj"}
+{"sl": "uporniški", "ru": "бунтарский", "cat": "adj"}
 {"sl": "uspešen", "ru": "успешный", "cat": "adj"}
 {"sl": "noseča", "ru": "беременная", "cat": "adj"}
 {"sl": "tradicionalen", "ru": "традиционный", "cat": "adj"}
@@ -1366,7 +1366,7 @@
 {"sl": "kmalu", "ru": "скоро", "cat": "time"}
 {"sl": "vsako nedeljo", "ru": "каждое воскресенье", "cat": "time"}
 {"sl": "še", "ru": "ещё", "cat": "time"}
-{"sl": "puberteta", "ru": "пубертат, переходный возраст", "cat": "thing"}
+{"sl": "puberteta", "ru": "пубертат", "cat": "thing"}
 {"sl": "trening", "ru": "тренировка", "cat": "thing"}
 {"sl": "violina", "ru": "скрипка", "cat": "thing"}
 {"sl": "zmenek", "ru": "свидание", "cat": "thing"}
@@ -1378,11 +1378,399 @@
 {"sl": "učenec", "ru": "ученик", "cat": "people"}
 {"sl": "učenka", "ru": "ученица", "cat": "people"}
 {"sl": "kar pomeni", "ru": "что означает", "cat": "phrase"}
-{"sl": "dopolniti", "ru": "достичь, восполнить (сов.)", "cat": "verb"}
+{"sl": "dopolniti", "ru": "достичь", "cat": "verb"}
 {"sl": "privoščiti si", "ru": "позволить себе (сов.)", "cat": "verb"}
 {"sl": "razvajati", "ru": "баловать", "cat": "verb"}
 {"sl": "zbrati se", "ru": "собраться (сов.)", "cat": "verb"}
 {"sl": "zbirati se", "ru": "собираться (несов.)", "cat": "verb"}
-{"sl": "pomeniti", "ru": "значить, означать", "cat": "verb"}
-{"sl": "letnik", "ru": "класс, год обучения", "cat": "school"}
-{"sl": "večkrat", "ru": "несколько раз, часто", "cat": "time"}
+{"sl": "pomeniti", "ru": "значить", "cat": "verb"}
+{"sl": "letnik", "ru": "класс", "cat": "school"}
+{"sl": "večkrat", "ru": "несколько раз", "cat": "time"}
+{"sl": "oba", "ru": "obe", "cat": "adj"}
+{"sl": "vstati", "ru": "встать", "cat": "verb"}
+{"sl": "iti spat", "ru": "идти спать", "cat": "adj"}
+{"sl": "zobati zobe", "ru": "чистить зубы", "cat": "adj"}
+{"sl": "umiti roke", "ru": "мыть руки", "cat": "adj"}
+{"sl": "odpreti vrata", "ru": "открыть дверь", "cat": "adj"}
+{"sl": "zapreti okno", "ru": "закрыть окно", "cat": "adj"}
+{"sl": "prižgati luč", "ru": "включить свет", "cat": "adj"}
+{"sl": "ugasniti luč", "ru": "выключить свет", "cat": "adj"}
+{"sl": "skuhati kavo", "ru": "приготовить кофе", "cat": "adj"}
+{"sl": "pojesti zajtrk", "ru": "позавтракать", "cat": "adj"}
+{"sl": "pospraviti sobo", "ru": "убрать комнату", "cat": "adj"}
+{"sl": "oditi od doma", "ru": "уйти из дома", "cat": "adj"}
+{"sl": "priti domov", "ru": "прийти домой", "cat": "adj"}
+{"sl": "odpreti hladilnik", "ru": "открыть холодильник", "cat": "adj"}
+{"sl": "nastaviti budilko", "ru": "поставить будильник", "cat": "adj"}
+{"sl": "vzeti ključe", "ru": "взять ключи", "cat": "adj"}
+{"sl": "plačati položnice", "ru": "оплатить счета", "cat": "adj"}
+{"sl": "naročiti dostavo", "ru": "заказать доставку", "cat": "adj"}
+{"sl": "rezervirati mizo", "ru": "зарезервировать стол", "cat": "adj"}
+{"sl": "klicati taksi", "ru": "вызвать такси", "cat": "adj"}
+{"sl": "iti po nakupih", "ru": "идти за покупками", "cat": "adj"}
+{"sl": "poiskati parkirišče", "ru": "найти парковку", "cat": "adj"}
+{"sl": "čakati v vrsti", "ru": "стоять в очереди", "cat": "adj"}
+{"sl": "oditi na dopust", "ru": "уйти в отпуск", "cat": "adj"}
+{"sl": "prenesti prtljago", "ru": "перенести багаж", "cat": "adj"}
+{"sl": "preveriti e-pošto", "ru": "проверить почту", "cat": "adj"}
+{"sl": "urediti sestanak", "ru": "назначить встречу", "cat": "adj"}
+{"sl": "odpovedati naročilo", "ru": "отменить заказ", "cat": "adj"}
+{"sl": "urediti papirje", "ru": "оформить документы", "cat": "adj"}
+{"sl": "obnoviti potni list", "ru": "обновить паспорт", "cat": "adj"}
+{"sl": "prijaviti se na tečaj", "ru": "записаться на курс", "cat": "adj"}
+{"sl": "oddati vlogo", "ru": "подать заявление", "cat": "adj"}
+{"sl": "urejati davke", "ru": "разбираться с налогами", "cat": "adj"}
+{"sl": "skleniti pogodbo", "ru": "заключить договор", "cat": "adj"}
+{"sl": "najeti stanovanje", "ru": "снять квартиру", "cat": "adj"}
+{"sl": "prijaviti okvaro", "ru": "сообщить о неисправности", "cat": "adj"}
+{"sl": "uveljavljati garancijo", "ru": "воспользоваться гарантией", "cat": "adj"}
+{"sl": "uveljavljati pravice", "ru": "отстаивать права", "cat": "adj"}
+{"sl": "vložiti pritožbo", "ru": "подать жалобу", "cat": "adj"}
+{"sl": "pogajati se o ceni", "ru": "торговаться о цене", "cat": "adj"}
+{"sl": "preurediti stanovanje", "ru": "перепланировать квартиру", "cat": "adj"}
+{"sl": "skleniti hipoteko", "ru": "взять ипотеку", "cat": "adj"}
+{"sl": "upravljati s premoženjem", "ru": "управлять имуществом", "cat": "adj"}
+{"sl": "prestrašen", "ru": "испуганный", "cat": "adj"}
+{"sl": "presenetiti", "ru": "удивить", "cat": "verb"}
+{"sl": "sovražiti", "ru": "ненавидеть", "cat": "verb"}
+{"sl": "se bati", "ru": "бояться", "cat": "verb"}
+{"sl": "biti srečen", "ru": "быть счастливым", "cat": "adj"}
+{"sl": "biti žalosten", "ru": "быть грустным", "cat": "adj"}
+{"sl": "razočaran", "ru": "разочарованный", "cat": "adj"}
+{"sl": "hvaležen", "ru": "благодарный", "cat": "adj"}
+{"sl": "ljubosumen", "ru": "ревнивый", "cat": "adj"}
+{"sl": "vznemirjen", "ru": "взволнованный", "cat": "adj"}
+{"sl": "navdušen", "ru": "воодушевлённый", "cat": "adj"}
+{"sl": "zadovoljen", "ru": "довольный", "cat": "adj"}
+{"sl": "nezadovoljen", "ru": "недовольный", "cat": "adj"}
+{"sl": "razburjen", "ru": "расстроенный", "cat": "adj"}
+{"sl": "živčen", "ru": "нервный", "cat": "adj"}
+{"sl": "melanholičen", "ru": "меланхоличный", "cat": "adj"}
+{"sl": "nostalgičen", "ru": "ностальгический", "cat": "adj"}
+{"sl": "ambiciozen", "ru": "амбициозный", "cat": "adj"}
+{"sl": "empatičen", "ru": "эмпатичный", "cat": "adj"}
+{"sl": "introvertiran", "ru": "интровертированный", "cat": "adj"}
+{"sl": "ekstravertiran", "ru": "экстравертированный", "cat": "adj"}
+{"sl": "impulziven", "ru": "импульсивный", "cat": "adj"}
+{"sl": "potrpežljiv", "ru": "терпеливый", "cat": "adj"}
+{"sl": "samozavesten", "ru": "уверенный в себе", "cat": "adj"}
+{"sl": "negotov", "ru": "неуверенный", "cat": "adj"}
+{"sl": "odprt", "ru": "открытый", "cat": "adj"}
+{"sl": "zaprt vase", "ru": "замкнутый в себе", "cat": "adj"}
+{"sl": "čustveno inteligenten", "ru": "эмоционально интеллигентный", "cat": "adj"}
+{"sl": "frustriran", "ru": "фрустрированный", "cat": "adj"}
+{"sl": "motiviran", "ru": "мотивированный", "cat": "adj"}
+{"sl": "ambivalenten", "ru": "амбивалентный", "cat": "adj"}
+{"sl": "apatičen", "ru": "апатичный", "cat": "adj"}
+{"sl": "depresiven", "ru": "депрессивный", "cat": "adj"}
+{"sl": "evforičen", "ru": "эйфоричный", "cat": "adj"}
+{"sl": "stoičen", "ru": "стоичный", "cat": "adj"}
+{"sl": "anksioznost", "ru": "тревожность", "cat": "adj"}
+{"sl": "čustvena odpornost", "ru": "эмоциональная устойчивость", "cat": "adj"}
+{"sl": "notranja motivacija", "ru": "внутренняя мотивация", "cat": "adj"}
+{"sl": "sneži", "ru": "идёт снег", "cat": "adj"}
+{"sl": "sije sonce", "ru": "светит солнце", "cat": "adj"}
+{"sl": "piha veter", "ru": "дует ветер", "cat": "adj"}
+{"sl": "nebo", "ru": "небо", "cat": "adj"}
+{"sl": "oblak", "ru": "облако", "cat": "adj"}
+{"sl": "mavrica", "ru": "радуга", "cat": "adj"}
+{"sl": "grom", "ru": "гром", "cat": "adj"}
+{"sl": "strela", "ru": "молния", "cat": "adj"}
+{"sl": "polje", "ru": "поле", "cat": "adj"}
+{"sl": "potok", "ru": "ручей", "cat": "adj"}
+{"sl": "pesek", "ru": "песок", "cat": "adj"}
+{"sl": "suša", "ru": "засуха", "cat": "adj"}
+{"sl": "poplava", "ru": "наводнение", "cat": "adj"}
+{"sl": "tornádo", "ru": "торнадо", "cat": "adj"}
+{"sl": "cunami", "ru": "цунами", "cat": "adj"}
+{"sl": "potres", "ru": "землетрясение", "cat": "adj"}
+{"sl": "vulkan", "ru": "вулкан", "cat": "adj"}
+{"sl": "padavine", "ru": "осадки", "cat": "adj"}
+{"sl": "vlažnost", "ru": "влажность", "cat": "adj"}
+{"sl": "temperatura zraka", "ru": "температура воздуха", "cat": "adj"}
+{"sl": "mraz", "ru": "мороз", "cat": "adj"}
+{"sl": "leden", "ru": "ледяной", "cat": "adj"}
+{"sl": "megla", "ru": "туман", "cat": "adj"}
+{"sl": "rosa", "ru": "роса", "cat": "adj"}
+{"sl": "toča", "ru": "град", "cat": "adj"}
+{"sl": "snežinka", "ru": "снежинка", "cat": "adj"}
+{"sl": "podnebne spremembe", "ru": "изменение климата", "cat": "adj"}
+{"sl": "globalno segrevanje", "ru": "глобальное потепление", "cat": "adj"}
+{"sl": "ekosistem", "ru": "экосистема", "cat": "adj"}
+{"sl": "biotska raznovrstnost", "ru": "биоразнообразие", "cat": "adj"}
+{"sl": "obnovljivi viri energije", "ru": "возобновляемые источники энергии", "cat": "adj"}
+{"sl": "onesnaževanje zraka", "ru": "загрязнение воздуха", "cat": "adj"}
+{"sl": "ozonska plast", "ru": "озоновый слой", "cat": "adj"}
+{"sl": "toplogredni plini", "ru": "парниковые газы", "cat": "adj"}
+{"sl": "sončna energija", "ru": "солнечная энергия", "cat": "adj"}
+{"sl": "vetrna energija", "ru": "ветровая энергия", "cat": "adj"}
+{"sl": "geotermalna energija", "ru": "геотермальная энергия", "cat": "adj"}
+{"sl": "trajnostni razvoj", "ru": "устойчивое развитие", "cat": "adj"}
+{"sl": "ekološki odtis", "ru": "экологический след", "cat": "adj"}
+{"sl": "razgradnja okolja", "ru": "деградация окружающей среды", "cat": "adj"}
+{"sl": "ohranjanje narave", "ru": "охрана природы", "cat": "adj"}
+{"sl": "okoljska politika", "ru": "экологическая политика", "cat": "adj"}
+{"sl": "lačen sem", "ru": "я голоден", "cat": "adj"}
+{"sl": "žejen sem", "ru": "я хочу пить", "cat": "adj"}
+{"sl": "hočem jesti", "ru": "хочу есть", "cat": "adj"}
+{"sl": "vroče", "ru": "горячее", "cat": "adj"}
+{"sl": "sladko", "ru": "сладкое", "cat": "adj"}
+{"sl": "kislo", "ru": "кислое", "cat": "adj"}
+{"sl": "grenko", "ru": "горькое", "cat": "adj"}
+{"sl": "recept", "ru": "рецепт", "cat": "adj"}
+{"sl": "sestavina", "ru": "ингредиент", "cat": "adj"}
+{"sl": "porcija", "ru": "порция", "cat": "adj"}
+{"sl": "alergija na hrano", "ru": "пищевая аллергия", "cat": "adj"}
+{"sl": "vegetarijanec", "ru": "вегетарианец", "cat": "adj"}
+{"sl": "vegan", "ru": "веган", "cat": "adj"}
+{"sl": "brezglutenski", "ru": "безглютеновый", "cat": "adj"}
+{"sl": "organska hrana", "ru": "органическая еда", "cat": "adj"}
+{"sl": "hitra hrana", "ru": "фастфуд", "cat": "adj"}
+{"sl": "domača kuhinja", "ru": "домашняя кухня", "cat": "adj"}
+{"sl": "meni", "ru": "меню", "cat": "adj"}
+{"sl": "napitnina", "ru": "чаевые", "cat": "adj"}
+{"sl": "postrežba", "ru": "обслуживание", "cat": "adj"}
+{"sl": "kuhati na žaru", "ru": "готовить на гриле", "cat": "adj"}
+{"sl": "peči v pečici", "ru": "печь в духовке", "cat": "adj"}
+{"sl": "cvrti", "ru": "жарить", "cat": "adj"}
+{"sl": "kuhati na pari", "ru": "готовить на пару", "cat": "adj"}
+{"sl": "gastronomija", "ru": "гастрономия", "cat": "adj"}
+{"sl": "kulinarska tradicija", "ru": "кулинарная традиция", "cat": "adj"}
+{"sl": "fermentirana hrana", "ru": "ферментированная еда", "cat": "adj"}
+{"sl": "začimbe", "ru": "специи", "cat": "adj"}
+{"sl": "omaka", "ru": "соус", "cat": "adj"}
+{"sl": "marinade", "ru": "маринады", "cat": "adj"}
+{"sl": "konzerviranje", "ru": "консервирование", "cat": "adj"}
+{"sl": "prehrambna vrednost", "ru": "пищевая ценность", "cat": "adj"}
+{"sl": "kalorije", "ru": "калории", "cat": "adj"}
+{"sl": "beljakovine", "ru": "белки", "cat": "adj"}
+{"sl": "ogljikovi hidrati", "ru": "углеводы", "cat": "verb"}
+{"sl": "maščobe", "ru": "жиры", "cat": "adj"}
+{"sl": "vitamini", "ru": "витамины", "cat": "adj"}
+{"sl": "minerali", "ru": "минералы", "cat": "adj"}
+{"sl": "molekularna gastronomija", "ru": "молекулярная гастрономия", "cat": "adj"}
+{"sl": "kulinarična fuzija", "ru": "кулинарный фьюжн", "cat": "adj"}
+{"sl": "trajnostna prehrana", "ru": "устойчивое питание", "cat": "adj"}
+{"sl": "prehrambna varnost", "ru": "продовольственная безопасность", "cat": "adj"}
+{"sl": "oblačiti se", "ru": "одеваться", "cat": "verb"}
+{"sl": "slačiti se", "ru": "раздеваться", "cat": "verb"}
+{"sl": "oprati oblačila", "ru": "постирать одежду", "cat": "adj"}
+{"sl": "likati", "ru": "гладить", "cat": "verb"}
+{"sl": "velikost", "ru": "размер", "cat": "adj"}
+{"sl": "barva", "ru": "цвет", "cat": "adj"}
+{"sl": "modni trend", "ru": "модный тренд", "cat": "adj"}
+{"sl": "garderoба", "ru": "гардероб", "cat": "adj"}
+{"sl": "zimska jakna", "ru": "зимняя куртка", "cat": "adj"}
+{"sl": "poletna obleka", "ru": "летнее платье", "cat": "adj"}
+{"sl": "formalna oblačila", "ru": "официальная одежда", "cat": "adj"}
+{"sl": "neformalna oblačila", "ru": "неформальная одежда", "cat": "adj"}
+{"sl": "športna oblačila", "ru": "спортивная одежда", "cat": "adj"}
+{"sl": "plavalne kopalke", "ru": "купальный костюм", "cat": "adj"}
+{"sl": "dežni plašč", "ru": "дождевик", "cat": "adj"}
+{"sl": "šal", "ru": "шарф", "cat": "adj"}
+{"sl": "rokavice", "ru": "перчатки", "cat": "adj"}
+{"sl": "nogavice do kolen", "ru": "гольфы", "cat": "adj"}
+{"sl": "pasovi", "ru": "ремни", "cat": "adj"}
+{"sl": "obleka za posebne priložnosti", "ru": "одежда для особых случаев", "cat": "adj"}
+{"sl": "tekstilna industrija", "ru": "текстильная промышленность", "cat": "adj"}
+{"sl": "trajnostna moda", "ru": "устойчивая мода", "cat": "adj"}
+{"sl": "reciklirana oblačila", "ru": "переработанная одежда", "cat": "adj"}
+{"sl": "ročno narejena oblačila", "ru": "одежда ручной работы", "cat": "adj"}
+{"sl": "haute couture", "ru": "от кутюр", "cat": "adj"}
+{"sl": "prêt-à-porter", "ru": "прет-а-порте", "cat": "adj"}
+{"sl": "modni oblikovalec", "ru": "модельер", "cat": "adj"}
+{"sl": "tekstilne vlakne", "ru": "текстильные волокна", "cat": "adj"}
+{"sl": "fast fashion", "ru": "быстрая мода", "cat": "adj"}
+{"sl": "etična moda", "ru": "этичная мода", "cat": "adj"}
+{"sl": "greenwashing v modi", "ru": "гринвошинг в моде", "cat": "adj"}
+{"sl": "boli me glava", "ru": "у меня болит голова", "cat": "adj"}
+{"sl": "boli me trebuh", "ru": "у меня болит живот", "cat": "adj"}
+{"sl": "boli me grlo", "ru": "у меня болит горло", "cat": "adj"}
+{"sl": "kašljam", "ru": "я кашляю", "cat": "adj"}
+{"sl": "kihati", "ru": "чихать", "cat": "verb"}
+{"sl": "mrzlica", "ru": "озноб", "cat": "adj"}
+{"sl": "slabo mi je", "ru": "мне плохо", "cat": "adj"}
+{"sl": "poklicati zdravnika", "ru": "вызвать врача", "cat": "adj"}
+{"sl": "vzeti zdravilo", "ru": "принять лекарство", "cat": "adj"}
+{"sl": "alergija", "ru": "аллергija", "cat": "adj"}
+{"sl": "astma", "ru": "астма", "cat": "adj"}
+{"sl": "sladkorna bolezen", "ru": "сахарный диабет", "cat": "adj"}
+{"sl": "visok krvni tlak", "ru": "высокое кровяное давление", "cat": "adj"}
+{"sl": "nizek krvni tlak", "ru": "низкое давление", "cat": "adj"}
+{"sl": "zlom", "ru": "перелом", "cat": "adj"}
+{"sl": "zvine", "ru": "растяжение", "cat": "adj"}
+{"sl": "modrica", "ru": "синяк", "cat": "adj"}
+{"sl": "antibiotik", "ru": "антибиотик", "cat": "adj"}
+{"sl": "protibolečinska sredstva", "ru": "обезболивающее", "cat": "adj"}
+{"sl": "recept", "ru": "рецепт", "cat": "adj"}
+{"sl": "zavarovalnica", "ru": "страховая компания", "cat": "adj"}
+{"sl": "nujna pomoč", "ru": "скорая помощь", "cat": "adj"}
+{"sl": "reanimacija", "ru": "реанимация", "cat": "adj"}
+{"sl": "kronična bolezen", "ru": "хроническое заболевание", "cat": "adj"}
+{"sl": "duševno zdravje", "ru": "психическое здоровье", "cat": "adj"}
+{"sl": "terapija", "ru": "терапия", "cat": "adj"}
+{"sl": "psihiater", "ru": "психиатр", "cat": "adj"}
+{"sl": "nevrolog", "ru": "невролог", "cat": "adj"}
+{"sl": "kardiolog", "ru": "кардиолог", "cat": "adj"}
+{"sl": "onkolog", "ru": "онколог", "cat": "adj"}
+{"sl": "ortoped", "ru": "ортопед", "cat": "adj"}
+{"sl": "imunski sistem", "ru": "иммунная система", "cat": "adj"}
+{"sl": "diagnoza", "ru": "диагноз", "cat": "adj"}
+{"sl": "simptomi", "ru": "симптомы", "cat": "adj"}
+{"sl": "zdravljenje", "ru": "лечение", "cat": "adj"}
+{"sl": "rehabilitacija", "ru": "реабилитация", "cat": "adj"}
+{"sl": "preventiva", "ru": "профилактика", "cat": "adj"}
+{"sl": "genomika", "ru": "геномика", "cat": "adj"}
+{"sl": "proteomika", "ru": "протеомика", "cat": "adj"}
+{"sl": "precizna medicina", "ru": "прецизионная медицина", "cat": "adj"}
+{"sl": "imunoterapija", "ru": "иммунотерапия", "cat": "adj"}
+{"sl": "gensko zdravljenje", "ru": "генная терапия", "cat": "adj"}
+{"sl": "klinična preskušanja", "ru": "клинические испытания", "cat": "adj"}
+{"sl": "medicinska etika", "ru": "медицинская этика", "cat": "adj"}
+{"sl": "iti peš", "ru": "идти пешком", "cat": "adj"}
+{"sl": "voziti avto", "ru": "водить машину", "cat": "adj"}
+{"sl": "sedeti v avtobusu", "ru": "сидеть в автобусе", "cat": "adj"}
+{"sl": "kupiti karto", "ru": "купить билет", "cat": "adj"}
+{"sl": "zamuditi vlak", "ru": "опоздать на поезд", "cat": "adj"}
+{"sl": "prispeti", "ru": "прибыть", "cat": "verb"}
+{"sl": "promet", "ru": "дорожное движение", "cat": "adj"}
+{"sl": "zastoj", "ru": "пробка", "cat": "adj"}
+{"sl": "obvoz", "ru": "объезд", "cat": "adj"}
+{"sl": "prehod za pešce", "ru": "пешеходный переход", "cat": "adj"}
+{"sl": "kolesarska pot", "ru": "велосипедная дорожка", "cat": "adj"}
+{"sl": "bencinska postaja", "ru": "бензозаправка", "cat": "adj"}
+{"sl": "polniti gorivo", "ru": "заправлять", "cat": "adj"}
+{"sl": "električni avto", "ru": "электромобиль", "cat": "adj"}
+{"sl": "hibridni avto", "ru": "гибридный автомобиль", "cat": "adj"}
+{"sl": "podzemna železnica", "ru": "метро", "cat": "adj"}
+{"sl": "tramvaj", "ru": "трамвай", "cat": "adj"}
+{"sl": "trolejbus", "ru": "троллейбус", "cat": "adj"}
+{"sl": "jahta", "ru": "яхта", "cat": "adj"}
+{"sl": "helikopter", "ru": "вертолёт", "cat": "adj"}
+{"sl": "podmornica", "ru": "подводная лодка", "cat": "adj"}
+{"sl": "prometna infrastruktura", "ru": "дорожная инфраструктура", "cat": "adj"}
+{"sl": "javni prevoz", "ru": "общественный транспорт", "cat": "adj"}
+{"sl": "trajnostna mobilnost", "ru": "устойчивая мобильность", "cat": "adj"}
+{"sl": "avtonomno vozilo", "ru": "автономный транспорт", "cat": "adj"}
+{"sl": "delitev prevoza", "ru": "каршеринг", "cat": "adj"}
+{"sl": "logistika", "ru": "логистика", "cat": "adj"}
+{"sl": "tovorni promet", "ru": "грузовые перевозки", "cat": "adj"}
+{"sl": "letalska industrija", "ru": "авиационная промышленность", "cat": "adj"}
+{"sl": "pomorski promet", "ru": "морские перевозки", "cat": "adj"}
+{"sl": "hiperloop", "ru": "гиперлуп", "cat": "adj"}
+{"sl": "dron dostava", "ru": "доставка дронами", "cat": "adj"}
+{"sl": "pametna mesta", "ru": "умные города", "cat": "adj"}
+{"sl": "upravljanje prometa", "ru": "управление трафиком", "cat": "adj"}
+{"sl": "vklopiti", "ru": "включить", "cat": "verb"}
+{"sl": "napolniti telefon", "ru": "зарядить телефон", "cat": "adj"}
+{"sl": "poslati sporočilo", "ru": "отправить сообщение", "cat": "adj"}
+{"sl": "narediti fotografijo", "ru": "сделать фото", "cat": "adj"}
+{"sl": "iskati na internetu", "ru": "искать в интернете", "cat": "adj"}
+{"sl": "prenesti aplikacijo", "ru": "скачать приложение", "cat": "adj"}
+{"sl": "posodobiti programsko opremo", "ru": "обновить ПО", "cat": "adj"}
+{"sl": "varnostna kopija", "ru": "резервная копия", "cat": "adj"}
+{"sl": "oblačno shranjevanje", "ru": "облачное хранилище", "cat": "adj"}
+{"sl": "socialna omrežja", "ru": "социальные сети", "cat": "adj"}
+{"sl": "videoklici", "ru": "видеозвонки", "cat": "adj"}
+{"sl": "spletno nakupovanje", "ru": "онлайн-покупки", "cat": "adj"}
+{"sl": "spletno bančništvo", "ru": "интернет-банкинг", "cat": "adj"}
+{"sl": "brezžično omrežje", "ru": "беспроводная сеть", "cat": "adj"}
+{"sl": "bluetooth", "ru": "Bluetooth", "cat": "adj"}
+{"sl": "pametni telefon", "ru": "смартфон", "cat": "adj"}
+{"sl": "tablica", "ru": "планшет", "cat": "adj"}
+{"sl": "prenosnik", "ru": "ноутбук", "cat": "adj"}
+{"sl": "umetna inteligenca", "ru": "искусственный интеллект", "cat": "adj"}
+{"sl": "strojno učenje", "ru": "машинное обучение", "cat": "adj"}
+{"sl": "kibernetska varnost", "ru": "кибербезопасность", "cat": "adj"}
+{"sl": "programiranje", "ru": "программирование", "cat": "adj"}
+{"sl": "algoritem", "ru": "алгоритм", "cat": "adj"}
+{"sl": "podatkovna baza", "ru": "база данных", "cat": "adj"}
+{"sl": "spletni strežnik", "ru": "веб-сервер", "cat": "adj"}
+{"sl": "šifriranje", "ru": "шифрование", "cat": "adj"}
+{"sl": "kripto valuta", "ru": "криптовалюта", "cat": "adj"}
+{"sl": "blockchain", "ru": "блокчейн", "cat": "adj"}
+{"sl": "internet stvari", "ru": "интернет вещей", "cat": "adj"}
+{"sl": "virtualna resničnost", "ru": "виртуальная реальность", "cat": "adj"}
+{"sl": "razširjena resničnost", "ru": "дополненная реальность", "cat": "adj"}
+{"sl": "kvantno računalništvo", "ru": "квантовые вычисления", "cat": "adj"}
+{"sl": "nevronska mreža", "ru": "нейронная сеть", "cat": "adj"}
+{"sl": "naravna obdelava jezika", "ru": "обработка естественного языка", "cat": "adj"}
+{"sl": "računalniški vid", "ru": "компьютерное зрение", "cat": "adj"}
+{"sl": "robotika", "ru": "робототехника", "cat": "adj"}
+{"sl": "avtomatizacija", "ru": "автоматизация", "cat": "adj"}
+{"sl": "digitalna transformacija", "ru": "цифровая трансформация", "cat": "adj"}
+{"sl": "veliki podatki", "ru": "большие данные", "cat": "adj"}
+{"sl": "na", "ru": "на", "cat": "adj"}
+{"sl": "v", "ru": "в", "cat": "adj"}
+{"sl": "iz", "ru": "из", "cat": "adj"}
+{"sl": "do", "ru": "до", "cat": "adj"}
+{"sl": "od", "ru": "от", "cat": "adj"}
+{"sl": "pri", "ru": "при, у", "cat": "adj"}
+{"sl": "za", "ru": "за, для", "cat": "adj"}
+{"sl": "pred", "ru": "перед", "cat": "adj"}
+{"sl": "za", "ru": "за", "cat": "adj"}
+{"sl": "med", "ru": "между, во время", "cat": "adj"}
+{"sl": "ob", "ru": "при, у", "cat": "adj"}
+{"sl": "kot", "ru": "как, в качестве", "cat": "adj"}
+{"sl": "kljub", "ru": "несмотря на", "cat": "adj"}
+{"sl": "namesto", "ru": "вместо", "cat": "adj"}
+{"sl": "glede na", "ru": "относительно, в зависимости от", "cat": "adj"}
+{"sl": "v primerjavi z", "ru": "по сравнению с", "cat": "adj"}
+{"sl": "z namenom", "ru": "с целью", "cat": "adj"}
+{"sl": "s pomočjo", "ru": "с помощью", "cat": "adj"}
+{"sl": "brez da bi", "ru": "без того чтобы", "cat": "adj"}
+{"sl": "medtem ko", "ru": "в то время как", "cat": "adj"}
+{"sl": "takoj ko", "ru": "как только", "cat": "adj"}
+{"sl": "dokler", "ru": "пока, до тех пор пока", "cat": "adj"}
+{"sl": "preden", "ru": "прежде чем", "cat": "adj"}
+{"sl": "ne glede na", "ru": "независимо от", "cat": "adj"}
+{"sl": "v skladu z", "ru": "в соответствии с", "cat": "adj"}
+{"sl": "v nasprotju z", "ru": "в противовес", "cat": "adj"}
+{"sl": "z vidika", "ru": "с точки зрения", "cat": "adj"}
+{"sl": "na podlagi", "ru": "на основе", "cat": "adj"}
+{"sl": "v zvezi z", "ru": "в связи с", "cat": "adj"}
+{"sl": "kar zadeva", "ru": "что касается", "cat": "adj"}
+{"sl": "razen če", "ru": "если только не", "cat": "adj"}
+{"sl": "pod pogojem, da", "ru": "при условии, что", "cat": "adj"}
+{"sl": "v luči", "ru": "в свете", "cat": "adj"}
+{"sl": "ob upoštevanju", "ru": "принимая во внимание", "cat": "adj"}
+{"sl": "ne da bi", "ru": "не + герунд", "cat": "adj"}
+{"sl": "kakor koli", "ru": "как бы то ни было", "cat": "adj"}
+{"sl": "četudi", "ru": "даже если", "cat": "adj"}
+{"sl": "toliko bolj", "ru": "тем более", "cat": "adj"}
+{"sl": "Kaj delaš?", "ru": "Что ты делаешь?", "cat": "phrase"}
+{"sl": "Kje si?", "ru": "Где ты?", "cat": "phrase"}
+{"sl": "Pojdi sem!", "ru": "Иди сюда!", "cat": "phrase"}
+{"sl": "Počakaj!", "ru": "Подожди!", "cat": "phrase"}
+{"sl": "Ne razumem.", "ru": "Я не понимаю.", "cat": "phrase"}
+{"sl": "Govori počasi.", "ru": "Говори медленно.", "cat": "phrase"}
+{"sl": "Lahko ponovi?", "ru": "Можешь повторить?", "cat": "phrase"}
+{"sl": "Kako se reče...?", "ru": "Как сказать...?", "cat": "phrase"}
+{"sl": "Sem nova tukaj.", "ru": "Я здесь новенькая.", "cat": "phrase"}
+{"sl": "Nisem odtod.", "ru": "Я не отсюда.", "cat": "phrase"}
+{"sl": "Po mojem mnenju...", "ru": "По моему мнению...", "cat": "phrase"}
+{"sl": "Kar se mene tiče...", "ru": "Что касается меня...", "cat": "phrase"}
+{"sl": "Strinjam se s teboj.", "ru": "Я с тобой согласен/согласна.", "cat": "phrase"}
+{"sl": "Ne strinjam se.", "ru": "Я не согласен/согласна.", "cat": "phrase"}
+{"sl": "Imaš prav.", "ru": "Ты прав/права.", "cat": "phrase"}
+{"sl": "Nimaš prav.", "ru": "Ты не прав/права.", "cat": "phrase"}
+{"sl": "Kaj misliš?", "ru": "Что ты думаешь?", "cat": "phrase"}
+{"sl": "Res? Nisem vedela.", "ru": "Правда? Я не знала.", "cat": "phrase"}
+{"sl": "To je dobra ideja.", "ru": "Это хорошая идея.", "cat": "phrase"}
+{"sl": "Kakšna škoda!", "ru": "Какая жалость!", "cat": "phrase"}
+{"sl": "Res mi je žal.", "ru": "Мне правда жаль.", "cat": "phrase"}
+{"sl": "Na eni strani... na drugi strani...", "ru": "С одной стороны... с другой стороны...", "cat": "phrase"}
+{"sl": "Kolikor vem...", "ru": "Насколько я знаю...", "cat": "phrase"}
+{"sl": "Zdi se mi, da...", "ru": "Мне кажется, что...", "cat": "phrase"}
+{"sl": "Dvomim, da...", "ru": "Я сомневаюсь, что...", "cat": "phrase"}
+{"sl": "Sem prepričan/a, da...", "ru": "Я уверен/а, что...", "cat": "phrase"}
+{"sl": "Kljub temu menim...", "ru": "Тем не менее я считаю...", "cat": "phrase"}
+{"sl": "To mi ni jasno.", "ru": "Мне это непонятно.", "cat": "phrase"}
+{"sl": "Ali lahko to pojasniš?", "ru": "Можешь это объяснить?", "cat": "phrase"}
+{"sl": "Kdaj je to nastalo?", "ru": "Когда это возникло?", "cat": "phrase"}
+{"sl": "Z vsem spoštovanjem...", "ru": "При всём уважении...", "cat": "phrase"}
+{"sl": "Dovolite mi, da pojasnim.", "ru": "Позвольте мне объяснить.", "cat": "phrase"}
+{"sl": "To je kompleksno vprašanje.", "ru": "Это сложный вопрос.", "cat": "phrase"}
+{"sl": "Ne smemo prezreti dejstva, da...", "ru": "Нельзя игнорировать тот факт, что...", "cat": "phrase"}
+{"sl": "Gledano z drugega zornega kota...", "ru": "Если смотреть с другой точки зрения...", "cat": "phrase"}
+{"sl": "To je predmet razprave.", "ru": "Это предмет для дискуссии.", "cat": "phrase"}
