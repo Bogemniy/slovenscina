@@ -13,6 +13,7 @@ export function renderMenu() {
     <button class="menu-btn verbs" onclick="startVerbs()">🔤 Spregatve glagolov</button>
     <button class="menu-btn sents" onclick="startSents()">🧩 Sestavi stavek</button>
     <button class="menu-btn" style="background:linear-gradient(135deg,rgba(52,211,153,.18),rgba(16,185,129,.1));border:1px solid rgba(52,211,153,.25);color:#6ee7b7" onclick="startLearn()">🧠 Hočem vedeti</button>
+    <button class="menu-btn reading-btn" onclick="startReading()">📖 Branje in razumevanje</button>
     <div class="divider"></div>
     <button class="menu-btn table-btn" onclick="showVerbList()">📖 Tabele spregatev</button>
     <div class="divider"></div>

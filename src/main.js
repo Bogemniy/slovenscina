@@ -19,6 +19,11 @@ import {
   selfLearnAnswer, advanceLearnWord, selectLearnWord, renderLearnResult,
   retryLearnMistakes,
 } from "./ui/learn.js";
+import {
+  startReading, renderReadingMenu, startReadingExercise, startReadingRandom,
+  renderReadingQuiz, selectBlankOption, selectQuestionOption,
+  renderReadingResult, nextExercise,
+} from "./ui/reading.js";
 
 import { initFirebase, fbSignIn, fbSignOut } from "./firebase-sync.js";
 
@@ -58,6 +63,10 @@ async function bootstrap() {
     retryLearnMistakes,
     // sentences
     startSents, renderSentQuiz, addTile, removeTile, checkSent, nextSent,
+    // reading
+    startReading, renderReadingMenu, startReadingExercise, startReadingRandom,
+    renderReadingQuiz, selectBlankOption, selectQuestionOption,
+    renderReadingResult, nextExercise,
     // firebase
     fbSignIn, fbSignOut,
   });
