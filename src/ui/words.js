@@ -58,7 +58,7 @@ export function startWordsMode(mode) {
 export function renderWordsQuiz() {
   const { cards, current, selected, revealed, score, streak, srMode } = state.ui;
   const c = cards[current];
-  if (c.dir === "sl2ru" && c.audio && selected === null && !revealed) playWordAudio(c.audio);
+  
   const correctAns = c.dir === "sl2ru" ? c.ru : c.sl;
   const p = state.wordProgress[c.sl];
   const lvl = p ? p.level : 0;
@@ -73,9 +73,12 @@ export function renderWordsQuiz() {
     </div>`;
     state.ui._ctxCorrect = c.sl;
   } else {
+    const audioBtn = (c.dir === "sl2ru" && c.audio)
+      ? `<button onclick="playWordAudio('${c.audio}')" style="background:transparent;border:none;color:#888;cursor:pointer;font-size:22px;padding:0">🔊</button>`
+      : "";
     questionHTML = `<div class="card words">
       <div class="card-label words">${c.dir === "sl2ru" ? "Slovensko" : "Rusko"}</div>
-      <div class="card-word">${c.dir === "sl2ru" ? c.sl : c.ru}</div>
+      <div class="card-word" style="display:flex;align-items:center;justify-content:center;gap:10px">${c.dir === "sl2ru" ? c.sl : c.ru}${audioBtn}</div>
       <div class="card-hint">${revealed ? "" : c.dir === "sl2ru" ? "Izberi prevod:" : "Izberi slovensko besedo:"}</div>
     </div>`;
     state.ui._ctxCorrect = null;
