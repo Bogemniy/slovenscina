@@ -5,7 +5,7 @@ import { renderMenu, goMenu, resetProgress, exportProgress, importProgress } fro
 import {
   startWords, renderWordsMenu, startWordsMode, renderWordsQuiz,
   selfAnswer, advanceWord, selectWord, renderWordsResult,
-  retryWordMistakes, showMasteredList, unmasterAndRefresh,
+  retryWordMistakes, showMasteredList, unmasterAndRefresh, playWordAudio,
 } from "./ui/words.js";
 import {
   startVerbs, renderVerbsQuiz, selectVerb, renderVerbsResult,
@@ -53,7 +53,7 @@ async function bootstrap() {
     // words
     startWords, renderWordsMenu, startWordsMode, renderWordsQuiz,
     selfAnswer, advanceWord, selectWord, renderWordsResult,
-    retryWordMistakes, showMasteredList, unmasterAndRefresh,
+    retryWordMistakes, showMasteredList, unmasterAndRefresh, playWordAudio,
     // verbs
     startVerbs, renderVerbsQuiz, selectVerb, renderVerbsResult,
     retryVerbMistakes, showVerbList, showVerbTable,
