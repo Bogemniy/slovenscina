@@ -10,6 +10,7 @@ export function renderMenu() {
     <div class="menu-title">Slovenščina</div>
     <div class="menu-sub">${state.WORDS.length} besed · ${state.VERBS.length} glagolov · ${state.SENTENCES.length} stavkov</div>
     <button class="menu-btn" style="background:linear-gradient(135deg,rgba(52,211,153,.18),rgba(16,185,129,.1));border:1px solid rgba(52,211,153,.25);color:#6ee7b7" onclick="startLearn()">🧠 Hočem vedeti</button>
+    <button class="menu-btn" style="background:linear-gradient(135deg,rgba(99,102,241,.18),rgba(79,70,229,.1));border:1px solid rgba(99,102,241,.25);color:#a5b4fc" onclick="startWriting()">✍️ Pisanje</button>
     <button class="menu-btn" style="background:linear-gradient(135deg,rgba(167,139,250,.18),rgba(139,92,246,.1));border:1px solid rgba(167,139,250,.25);color:#c4b5fd" onclick="startSents()">🧩 Sestavi stavek</button>
     <button class="menu-btn" style="background:linear-gradient(135deg,rgba(252,211,77,.18),rgba(245,158,11,.1));border:1px solid rgba(252,211,77,.25);color:#fcd34d" onclick="startReading()">📖 Branje in razumevanje</button>
     <button class="menu-btn" style="background:#1a1a1a;border:1px solid rgba(255,255,255,.3);color:#ffffff;font-weight:700" onclick="startWords()">📝 Kartice besed</button>
