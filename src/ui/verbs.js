@@ -21,7 +21,7 @@ export function renderVerbsQuiz() {
   const c = cards[current];
   const correctAns = c.negative ? getNegForm(c.verb, c.pronoun) : c.verb.forms[c.pronoun];
   app().innerHTML = `<div>
-    <div class="top-bar"><span class="progress-text">${current + 1}/${cards.length}</span><span class="score-text score-verbs">✓ ${score}</span></div>
+    <div class="top-bar"><button onclick="goMenu()" style="background:transparent;border:none;color:#888;cursor:pointer;font-size:20px;padding:0;line-height:1">←</button><span class="progress-text">${current + 1}/${cards.length}</span><span class="score-text score-verbs">✓ ${score}</span></div>
     <div class="progress-track verbs"><div class="progress-fill verbs" style="width:${(current / cards.length) * 100}%"></div></div>
     ${streak >= 3 ? `<div class="streak">🔥 ${streak} zapored!</div>` : ""}
     <div class="card verbs">

@@ -57,7 +57,7 @@ export function renderSentQuiz() {
 
   app().innerHTML =
     "<div>" +
-    '<div class="top-bar"><span class="progress-text">' +
+    '<div class="top-bar"><button onclick="goMenu()" style="background:transparent;border:none;color:#888;cursor:pointer;font-size:20px;padding:0;line-height:1">←</button><span class="progress-text">' +
     (current + 1) +
     "/" +
     cards.length +

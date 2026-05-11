@@ -95,7 +95,7 @@ export function renderWordsQuiz() {
     ? `<div style="background:#1a1a1a;border:1px solid rgba(255,255,255,.1);border-radius:10px;padding:12px;margin-bottom:10px;text-align:center"><div style="font-size:11px;color:#888;margin-bottom:4px">Pravilen odgovor:</div><div style="font-size:18px;font-weight:600;color:#e8eaed">${ans}</div></div>`
     : "";
   app().innerHTML = `<div>
-    <div class="top-bar"><span class="progress-text">${current + 1}/${cards.length}</span><span style="font-size:11px;color:#888">${srMode === "new" ? "novo" : srMode === "review" ? "ponavljanje" : "vse skupaj"} · ${lvlBar}</span><span class="score-text score-words">✓ ${score}</span></div>
+    <div class="top-bar"><button onclick="startWords()" style="background:transparent;border:none;color:#888;cursor:pointer;font-size:20px;padding:0;line-height:1">←</button><span class="progress-text">${current + 1}/${cards.length}</span><span style="font-size:11px;color:#888">${srMode === "new" ? "novo" : srMode === "review" ? "ponavljanje" : "vse skupaj"} · ${lvlBar}</span><span class="score-text score-words">✓ ${score}</span></div>
     <div class="progress-track words"><div class="progress-fill words" style="width:${(current / cards.length) * 100}%"></div></div>
     ${streak >= 3 ? `<div class="streak">🔥 ${streak} zapored!</div>` : ""}
     ${questionHTML}

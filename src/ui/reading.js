@@ -123,6 +123,7 @@ export function renderReadingQuiz() {
 
   app().innerHTML = `<div>
     <div class="top-bar">
+      <button onclick="startReading()" style="background:transparent;border:none;color:#888;cursor:pointer;font-size:20px;padding:0;line-height:1">←</button>
       <span class="progress-text" style="font-size:13px;max-width:70%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${exercise.unit !== "screen" ? "Enota " + esc(exercise.unit) + " · " : ""}${esc(exercise.title)}</span>
       <span class="score-text" style="color:#fcd34d">✓ ${score}</span>
     </div>
