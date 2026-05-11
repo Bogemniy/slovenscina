@@ -21,7 +21,7 @@ export function showProgress() {
     const total = words.length;
     const learned = words.filter(w => {
       const p = state.learnProgress[w.sl];
-      return p && p.level >= 5;
+      return p && p.level >= 3;
     }).length;
     const pct = total === 0 ? 0 : Math.round((learned / total) * 100);
 
@@ -39,7 +39,7 @@ export function showProgress() {
   const totalWords = state.LEARN.length;
   const totalLearned = state.LEARN.filter(w => {
     const p = state.learnProgress[w.sl];
-    return p && p.level >= 5;
+    return p && p.level >= 3;
   }).length;
   const totalPct = Math.round((totalLearned / totalWords) * 100);
 
