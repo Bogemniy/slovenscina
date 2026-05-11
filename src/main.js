@@ -11,7 +11,7 @@ import {
   startVerbs, renderVerbsMenu, startVerbsLevel, renderVerbsQuiz, selectVerb, renderVerbsResult,
   retryVerbMistakes, showVerbList, showVerbTable,
 } from "./ui/verbs.js";
-import { startWriting, renderWritingQuiz, checkWriting, advanceWriting } from "./ui/writing.js";
+import { startWriting, renderWritingQuiz, checkWriting, advanceWriting, skipWriting } from "./ui/writing.js";
 import {
   startSents, renderSentQuiz, addTile, removeTile, checkSent, nextSent,
 } from "./ui/sentences.js";
@@ -59,7 +59,7 @@ async function bootstrap() {
     startVerbs, renderVerbsMenu, startVerbsLevel, renderVerbsQuiz, selectVerb, renderVerbsResult,
     retryVerbMistakes, showVerbList, showVerbTable,
     // writing
-    startWriting, renderWritingQuiz, checkWriting, advanceWriting,
+    startWriting, renderWritingQuiz, checkWriting, advanceWriting, skipWriting,
     // learn
     startLearn, renderLearnMenu, startLearnMode, renderLearnQuiz,
     selfLearnAnswer, advanceLearnWord, selectLearnWord, renderLearnResult,

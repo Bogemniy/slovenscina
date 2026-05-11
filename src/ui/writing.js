@@ -25,7 +25,7 @@ export function renderWritingQuiz() {
 
   app().innerHTML = `<div>
     <div class="top-bar">
-      <button onclick="startWriting()" style="background:transparent;border:none;color:#888;cursor:pointer;font-size:20px;padding:0;line-height:1">←</button>
+      <button onclick="goMenu()" style="background:transparent;border:none;color:#888;cursor:pointer;font-size:20px;padding:0;line-height:1">←</button>
       <span class="progress-text">${current + 1}/${cards.length}</span>
       <span class="score-text score-words">✓ ${score}</span>
     </div>
@@ -47,7 +47,10 @@ export function renderWritingQuiz() {
         style="width:100%;box-sizing:border-box;padding:14px;font-size:18px;border-radius:10px;border:1px solid rgba(255,255,255,.15);background:#1a1a1a;color:#e8eaed;outline:none;margin-bottom:12px"
         autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
       />
-      <button class="btn-new words" style="width:100%" onclick="checkWriting()">Preveri</button>
+      <div style="display:flex;gap:8px;margin-top:4px">
+        <button class="self-btn dont" onclick="skipWriting()" style="flex:1;padding:12px;border:none;border-radius:10px;background:rgba(252,165,165,.12);color:#fca5a5;font-weight:600;cursor:pointer;font-size:14px">✗ Ne vem</button>
+        <button class="btn-new words" style="flex:2" onclick="checkWriting()">Preveri</button>
+      </div>
     `}
   </div>`;
 
@@ -62,9 +65,8 @@ export function renderWritingQuiz() {
 export function checkWriting() {
   const input = document.getElementById("writing-input");
   const value = input ? input.value.trim() : "";
-  if (value === "") return;
   const c = state.ui.cards[state.ui.current];
-  const correct = value.toLowerCase() === c.sl.toLowerCase();
+  const correct = value !== "" && value.toLowerCase() === c.sl.toLowerCase();
   state.ui.checked = true;
   state.ui.inputValue = value;
   if (correct) {
@@ -72,6 +74,14 @@ export function checkWriting() {
   } else {
     state.ui.mistakes.push({ sl: c.sl, ru: c.ru, given: value });
   }
+  renderWritingQuiz();
+}
+
+export function skipWriting() {
+  const c = state.ui.cards[state.ui.current];
+  state.ui.checked = true;
+  state.ui.inputValue = "";
+  state.ui.mistakes.push({ sl: c.sl, ru: c.ru, given: "" });
   renderWritingQuiz();
 }
 
