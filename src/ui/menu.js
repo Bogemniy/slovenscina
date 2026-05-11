@@ -9,22 +9,16 @@ export function renderMenu() {
     <div class="menu-flag">🇸🇮</div>
     <div class="menu-title">Slovenščina</div>
     <div class="menu-sub">${state.WORDS.length} besed · ${state.VERBS.length} glagolov · ${state.SENTENCES.length} stavkov</div>
-    <button class="menu-btn words" onclick="startWords()">📝 Kartice besed</button>
-    <button class="menu-btn verbs" onclick="startVerbs()">🔤 Spregatve glagolov</button>
-    <button class="menu-btn sents" onclick="startSents()">🧩 Sestavi stavek</button>
     <button class="menu-btn" style="background:linear-gradient(135deg,rgba(52,211,153,.18),rgba(16,185,129,.1));border:1px solid rgba(52,211,153,.25);color:#6ee7b7" onclick="startLearn()">🧠 Hočem vedeti</button>
-    <button class="menu-btn reading-btn" onclick="startReading()">📖 Branje in razumevanje</button>
-    <div class="divider"></div>
-    <button class="menu-btn table-btn" onclick="showVerbList()">📖 Tabele spregatev</button>
+    <button class="menu-btn" style="background:linear-gradient(135deg,rgba(167,139,250,.18),rgba(139,92,246,.1));border:1px solid rgba(167,139,250,.25);color:#c4b5fd" onclick="startSents()">🧩 Sestavi stavek</button>
+    <button class="menu-btn" style="background:linear-gradient(135deg,rgba(252,211,77,.18),rgba(245,158,11,.1));border:1px solid rgba(252,211,77,.25);color:#fcd34d" onclick="startReading()">📖 Branje in razumevanje</button>
+    <button class="menu-btn" style="background:#1a1a1a;border:1px solid rgba(255,255,255,.3);color:#ffffff;font-weight:700" onclick="startWords()">📝 Kartice besed</button>
+    <button class="menu-btn" style="background:linear-gradient(135deg,rgba(249,168,212,.18),rgba(236,72,153,.1));border:1px solid rgba(249,168,212,.25);color:#f9a8d4" onclick="startVerbs()">🔤 Spregatve glagolov</button>
+    <button class="menu-btn table-btn" style="margin-top:6px" onclick="showVerbList()">📖 Tabele spregatev</button>
     <div class="divider"></div>
     <div style="font-size:12px;color:#777;margin-bottom:4px">Besede: učim ${b.learning.length} · za ponavljanje ${b.due.length} · znam ${b.mastered.length} · novih ${b.new.length}</div>
     <div style="font-size:12px;color:#777;margin-bottom:4px">Hočem vedeti: učim ${bl.learning.length} · za ponavljanje ${bl.due.length} · znam ${bl.mastered.length} · novih ${bl.new.length}</div>
     <div style="font-size:11px;color:#777;margin-bottom:8px">Glagoli: ${state.verbsSeen}/${state.VERBS.length * 9}</div>
-    <div style="display:flex;gap:6px;flex-wrap:wrap">
-      <button class="menu-btn table-btn" style="font-size:12px;padding:8px;flex:1;min-width:90px" onclick="exportProgress()">📤 Izvozi</button>
-      <button class="menu-btn table-btn" style="font-size:12px;padding:8px;flex:1;min-width:90px" onclick="importProgress()">📥 Uvozi</button>
-      <button class="menu-btn table-btn" style="font-size:12px;padding:8px;flex:1;min-width:90px" onclick="resetProgress()">🔄 Ponastavi</button>
-    </div>
     <div class="divider"></div>
     <div id="auth-status" style="display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:#1a1a1a;border-radius:14px;border:1px solid rgba(255,255,255,.07);min-height:46px"></div>
   </div>`;
