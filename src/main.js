@@ -8,7 +8,7 @@ import {
   retryWordMistakes, showMasteredList, unmasterAndRefresh, playWordAudio,
 } from "./ui/words.js";
 import {
-  startVerbs, renderVerbsQuiz, selectVerb, renderVerbsResult,
+  startVerbs, renderVerbsMenu, startVerbsLevel, renderVerbsQuiz, selectVerb, renderVerbsResult,
   retryVerbMistakes, showVerbList, showVerbTable,
 } from "./ui/verbs.js";
 import {
@@ -55,7 +55,7 @@ async function bootstrap() {
     selfAnswer, advanceWord, selectWord, renderWordsResult,
     retryWordMistakes, showMasteredList, unmasterAndRefresh, playWordAudio,
     // verbs
-    startVerbs, renderVerbsQuiz, selectVerb, renderVerbsResult,
+    startVerbs, renderVerbsMenu, startVerbsLevel, renderVerbsQuiz, selectVerb, renderVerbsResult,
     retryVerbMistakes, showVerbList, showVerbTable,
     // learn
     startLearn, renderLearnMenu, startLearnMode, renderLearnQuiz,

@@ -7,10 +7,11 @@ function genVerbOptions(v, p, neg) {
   return shuffle([correct, ...shuffle([...new Set(others)]).slice(0, 2)]);
 }
 
-export function genVerbQuiz(n = 10) {
+export function genVerbQuiz(n = 10, level = 0) {
+  const pool = level === 0 ? state.VERBS : state.VERBS.filter((v) => v.level === level);
   if (state.verbQueue.length < n) {
     const combos = [];
-    for (const v of state.VERBS) for (const p of state.PRONOUNS) combos.push({ verb: v, pronoun: p });
+    for (const v of pool) for (const p of state.PRONOUNS) combos.push({ verb: v, pronoun: p });
     state.verbQueue = shuffle(combos);
     state.verbsSeen = 0;
   }

@@ -3,9 +3,34 @@ import { genVerbQuiz, genVerbOptions } from "../engine/verbs.js";
 import { app } from "./dom.js";
 
 export function startVerbs() {
+  state.ui = { mode: "verbs-menu" };
+  renderVerbsMenu();
+}
+
+export function renderVerbsMenu() {
+  const counts = {
+    1: state.VERBS.filter((v) => v.level === 1).length,
+    2: state.VERBS.filter((v) => v.level === 2).length,
+    3: state.VERBS.filter((v) => v.level === 3).length,
+  };
+  app().innerHTML = `<div class="menu-card">
+    <div class="menu-flag">🔤</div>
+    <div class="menu-title" style="font-size:24px">Spregatve glagolov</div>
+    <div class="menu-sub" style="margin-bottom:18px">Izberi težavnost</div>
+    <button class="menu-btn" style="background:linear-gradient(135deg,rgba(249,168,212,.18),rgba(236,72,153,.1));border:1px solid rgba(249,168,212,.25);color:#f9a8d4" onclick="startVerbsLevel(1)">🌱 Osnovno <span style="opacity:.7;font-size:12px">(${counts[1]} glagolov)</span></button>
+    <button class="menu-btn" style="background:linear-gradient(135deg,rgba(249,168,212,.18),rgba(236,72,153,.1));border:1px solid rgba(249,168,212,.25);color:#f9a8d4" onclick="startVerbsLevel(2)">📚 Srednje <span style="opacity:.7;font-size:12px">(${counts[2]} glagolov)</span></button>
+    <button class="menu-btn" style="background:linear-gradient(135deg,rgba(249,168,212,.18),rgba(236,72,153,.1));border:1px solid rgba(249,168,212,.25);color:#f9a8d4" onclick="startVerbsLevel(3)">🎓 Napredno <span style="opacity:.7;font-size:12px">(${counts[3]} glagolov)</span></button>
+    <button class="menu-btn" style="background:linear-gradient(135deg,rgba(249,168,212,.18),rgba(236,72,153,.1));border:1px solid rgba(249,168,212,.25);color:#f9a8d4" onclick="startVerbsLevel(0)">🎲 Vse skupaj <span style="opacity:.7;font-size:12px">(${state.VERBS.length} glagolov)</span></button>
+    <button class="btn-menu" onclick="goMenu()" style="margin-top:14px">← Glavni meni</button>
+  </div>`;
+}
+
+export function startVerbsLevel(level) {
+  const cards = genVerbQuiz(10, level);
   state.ui = {
     mode: "verbs-quiz",
-    cards: genVerbQuiz(10),
+    verbLevel: level,
+    cards,
     current: 0,
     selected: null,
     score: 0,
@@ -21,7 +46,7 @@ export function renderVerbsQuiz() {
   const c = cards[current];
   const correctAns = c.negative ? getNegForm(c.verb, c.pronoun) : c.verb.forms[c.pronoun];
   app().innerHTML = `<div>
-    <div class="top-bar"><button onclick="goMenu()" style="background:transparent;border:none;color:#888;cursor:pointer;font-size:20px;padding:0;line-height:1">←</button><span class="progress-text">${current + 1}/${cards.length}</span><span class="score-text score-verbs">✓ ${score}</span></div>
+    <div class="top-bar"><button onclick="startVerbs()" style="background:transparent;border:none;color:#888;cursor:pointer;font-size:20px;padding:0;line-height:1">←</button><span class="progress-text">${current + 1}/${cards.length}</span><span class="score-text score-verbs">✓ ${score}</span></div>
     <div class="progress-track verbs"><div class="progress-fill verbs" style="width:${(current / cards.length) * 100}%"></div></div>
     ${streak >= 3 ? `<div class="streak">🔥 ${streak} zapored!</div>` : ""}
     <div class="card verbs">
@@ -83,7 +108,7 @@ export function renderVerbsResult() {
     ${mistakes.length ? `<div class="mistakes-block"><div class="mistakes-title">Ponovi:</div>${mistakes.map((m) => `<div class="mistake-row"><span class="mistake-sl verbs">${m.verb.inf}${m.negative ? " ✗" : ""}</span><span style="color:#f9a8d4;font-size:12px">${state.PRONOUN_SHORT[m.pronoun]}</span><span class="mistake-arrow">→</span><span class="mistake-ru">${m.negative ? getNegForm(m.verb, m.pronoun) : m.verb.forms[m.pronoun]}</span></div>`).join("")}</div>` : ""}
     <div class="btn-row">
       ${mistakes.length ? `<button class="btn-retry" onclick="retryVerbMistakes()">Ponovi napake</button>` : ""}
-      <button class="btn-new verbs" onclick="startVerbs()">Nova runda</button>
+      <button class="btn-new verbs" onclick="startVerbsLevel(state.ui.verbLevel || 0)">Nova runda</button>
       <button class="btn-menu" onclick="goMenu()">Meni</button>
     </div>
   </div>`;
