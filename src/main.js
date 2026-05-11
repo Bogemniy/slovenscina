@@ -94,3 +94,12 @@ async function bootstrap() {
 }
 
 bootstrap();
+
+window.speakSlovenian = function(text) {
+  if (!text || !window.speechSynthesis) return;
+  window.speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = "sl-SI";
+  u.rate = 0.9;
+  window.speechSynthesis.speak(u);
+};
