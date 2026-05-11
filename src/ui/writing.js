@@ -42,13 +42,12 @@ export function renderWritingQuiz() {
       <button class="btn-new words" style="width:100%" onclick="advanceWriting()">Naprej →</button>
     ` : `
       <input id="writing-input" type="text" value="${inputValue}"
-        oninput="state.ui.inputValue=this.value"
         onkeydown="if(event.key==='Enter')checkWriting()"
         placeholder="Napiši v slovenščini..."
         style="width:100%;box-sizing:border-box;padding:14px;font-size:18px;border-radius:10px;border:1px solid rgba(255,255,255,.15);background:#1a1a1a;color:#e8eaed;outline:none;margin-bottom:12px"
         autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
       />
-      <button class="btn-new words" style="width:100%" onclick="checkWriting()" ${inputValue.trim() === "" ? "disabled" : ""}>Preveri</button>
+      <button class="btn-new words" style="width:100%" onclick="checkWriting()">Preveri</button>
     `}
   </div>`;
 
@@ -61,14 +60,17 @@ export function renderWritingQuiz() {
 }
 
 export function checkWriting() {
-  if (state.ui.inputValue.trim() === "") return;
+  const input = document.getElementById("writing-input");
+  const value = input ? input.value.trim() : "";
+  if (value === "") return;
   const c = state.ui.cards[state.ui.current];
-  const correct = state.ui.inputValue.trim().toLowerCase() === c.sl.toLowerCase();
+  const correct = value.toLowerCase() === c.sl.toLowerCase();
   state.ui.checked = true;
+  state.ui.inputValue = value;
   if (correct) {
     state.ui.score++;
   } else {
-    state.ui.mistakes.push({ sl: c.sl, ru: c.ru, given: state.ui.inputValue.trim() });
+    state.ui.mistakes.push({ sl: c.sl, ru: c.ru, given: value });
   }
   renderWritingQuiz();
 }
