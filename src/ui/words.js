@@ -2,6 +2,8 @@ import { state, shuffle, updateWP, unmasterWord, bucketWords } from "../state.js
 import { genWordQuiz, genWordOptions } from "../engine/words.js";
 import { app } from "./dom.js";
 
+const AUDIO_AVAILABLE = window.location.hostname !== 'bogemniy.github.io';
+
 export function playWordAudio(audioFile) {
   if (!audioFile) return;
   new Audio("mp3/" + audioFile).play().catch(() => {});
@@ -73,7 +75,7 @@ export function renderWordsQuiz() {
     </div>`;
     state.ui._ctxCorrect = c.sl;
   } else {
-    const audioBtn = (c.dir === "sl2ru" && c.audio)
+    const audioBtn = (c.dir === "sl2ru" && c.audio && AUDIO_AVAILABLE)
       ? `<button onclick="playWordAudio('${c.audio}')" style="background:transparent;border:none;color:#888;cursor:pointer;font-size:22px;padding:0">🔊</button>`
       : "";
     questionHTML = `<div class="card words">
@@ -113,7 +115,7 @@ export function renderWordsQuiz() {
           else cls += " faded";
         }
         const btn = `<button class="${cls}" ${selected !== null || revealed ? "disabled" : ""} onclick="selectWord(${i})">${o}</button>`;
-        if (c.dir === "ru2sl" && selected === null && !revealed) {
+        if (c.dir === "ru2sl" && selected === null && !revealed && AUDIO_AVAILABLE) {
           const af = state.WORDS.find((w) => w.sl === o)?.audio;
           if (af) {
             return `<div style="display:flex;align-items:center;gap:4px">${btn}<button onclick="playWordAudio('${af.replace(/'/g, "\\'")}')" style="flex-shrink:0;padding:6px 8px;border:none;background:transparent;color:#888;cursor:pointer;font-size:16px;line-height:1" title="Poslušaj">🔊</button></div>`;
