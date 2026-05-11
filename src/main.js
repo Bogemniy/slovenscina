@@ -30,6 +30,7 @@ import {
   startLesson, renderLesson, selectLessonChoice, checkLessonInput, skipLessonInput,
   addLessonTile, removeLessonTile, checkLessonTiles, advanceLesson,
 } from "./ui/lesson.js";
+import { showProgress } from "./ui/progress.js";
 import { initFirebase, fbSignIn, fbSignOut } from "./firebase-sync.js";
 
 async function bootstrap() {
@@ -77,6 +78,8 @@ async function bootstrap() {
     // lesson
     startLesson, renderLesson, selectLessonChoice, checkLessonInput, skipLessonInput,
     addLessonTile, removeLessonTile, checkLessonTiles, advanceLesson,
+    // progress
+    showProgress,
     // firebase
     fbSignIn, fbSignOut,
   });
