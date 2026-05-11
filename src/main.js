@@ -9,7 +9,7 @@ import {
 } from "./ui/words.js";
 import {
   startVerbs, renderVerbsMenu, startVerbsLevel, renderVerbsQuiz, selectVerb, renderVerbsResult,
-  retryVerbMistakes, showVerbList, showVerbTable,
+  retryVerbMistakes, showVerbList, showVerbTable, filterVerbs,
 } from "./ui/verbs.js";
 import { startWriting, renderWritingQuiz, checkWriting, advanceWriting, skipWriting } from "./ui/writing.js";
 import {
@@ -61,7 +61,7 @@ async function bootstrap() {
     retryWordMistakes, showMasteredList, unmasterAndRefresh, playWordAudio,
     // verbs
     startVerbs, renderVerbsMenu, startVerbsLevel, renderVerbsQuiz, selectVerb, renderVerbsResult,
-    retryVerbMistakes, showVerbList, showVerbTable,
+    retryVerbMistakes, showVerbList, showVerbTable, filterVerbs,
     // writing
     startWriting, renderWritingQuiz, checkWriting, advanceWriting, skipWriting,
     // learn

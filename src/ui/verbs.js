@@ -133,7 +133,7 @@ export function retryVerbMistakes() {
 // --- VERB TABLE ---
 export function showVerbList() {
   const groups = [
-    { id: "vg1", label: "🌱 Osnovno", level: 1, open: true },
+    { id: "vg1", label: "🌱 Osnovno", level: 1, open: false },
     { id: "vg2", label: "📚 Srednje",  level: 2, open: false },
     { id: "vg3", label: "🎓 Napredno", level: 3, open: false },
   ];
@@ -146,7 +146,7 @@ export function showVerbList() {
           <span>${label} <span style="font-size:12px;opacity:.6">(${verbs.length})</span></span>
           <span class="acc-arrow">${open ? "▼" : "▶"}</span>
         </div>
-        <div id="${id}" style="display:${open ? "block" : "none"};padding:10px">
+        <div id="${id}" style="display:${open ? "block" : "none"};padding:10px;max-height:300px;overflow-y:auto">
           <div class="verb-grid">${chips}</div>
         </div>
       </div>`;
@@ -160,8 +160,34 @@ export function showVerbList() {
       <button style="flex:1;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,.1);background:#1a1a1a;color:#888;font-size:13px;cursor:not-allowed;opacity:.4" disabled>Preteklik</button>
       <button style="flex:1;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,.1);background:#1a1a1a;color:#888;font-size:13px;cursor:not-allowed;opacity:.4" disabled>Prihodnjik</button>
     </div>
-    ${sectionsHTML}
+    <input id="verb-search" type="text"
+      oninput="filterVerbs(this.value)"
+      placeholder="Išči glagol..."
+      style="width:100%;box-sizing:border-box;padding:10px 14px;font-size:15px;border-radius:10px;border:1px solid rgba(255,255,255,.15);background:#1a1a1a;color:#e8eaed;outline:none;margin-bottom:12px"
+      autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+    />
+    <div id="verb-search-results" style="display:none"></div>
+    <div id="verb-sections">${sectionsHTML}</div>
   </div>`;
+}
+
+export function filterVerbs(query) {
+  const q = query.trim().toLowerCase();
+  const resultsDiv = document.getElementById("verb-search-results");
+  const sectionsDiv = document.getElementById("verb-sections");
+  if (!q) {
+    resultsDiv.style.display = "none";
+    sectionsDiv.style.display = "block";
+    return;
+  }
+  const matches = state.VERBS
+    .map((v, i) => ({ v, i }))
+    .filter(({ v }) => v.inf.toLowerCase().includes(q) || v.ru.toLowerCase().includes(q));
+  resultsDiv.style.display = "block";
+  sectionsDiv.style.display = "none";
+  resultsDiv.innerHTML = matches.length === 0
+    ? '<div style="text-align:center;color:#777;padding:20px">Ni rezultatov</div>'
+    : '<div class="verb-grid">' + matches.map(({ v, i }) => `<button class="verb-chip" onclick="showVerbTable(${i})">${v.inf}</button>`).join("") + '</div>';
 }
 
 export function showVerbTable(i) {
