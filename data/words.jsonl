@@ -1,987 +1,987 @@
-{"sl": "jaz", "ru": "я", "cat": "pron", "audio": "c_3621.mp3"}
-{"sl": "ti", "ru": "ты", "cat": "pron", "audio": "c_3622.mp3"}
-{"sl": "on", "ru": "он", "cat": "pron", "audio": "c_3623.mp3"}
-{"sl": "ona", "ru": "она", "cat": "pron", "audio": "c_3624.mp3"}
-{"sl": "ono", "ru": "оно", "cat": "pron", "audio": "c_3625.mp3"}
-{"sl": "mi", "ru": "мы", "cat": "pron", "audio": "c_3626.mp3"}
-{"sl": "vi", "ru": "вы", "cat": "pron", "audio": "c_3627.mp3"}
-{"sl": "oni", "ru": "они", "cat": "pron", "audio": "c_3628.mp3"}
-{"sl": "kaj", "ru": "что", "cat": "question", "audio": "c_3697.mp3"}
-{"sl": "kdo", "ru": "кто", "cat": "question", "audio": "c_3695.mp3"}
-{"sl": "kje", "ru": "где", "cat": "question", "audio": "c_3696.mp3"}
-{"sl": "zakaj", "ru": "зачем", "cat": "question", "audio": "c_3698.mp3"}
-{"sl": "kako", "ru": "как", "cat": "question", "audio": "c_3699.mp3"}
-{"sl": "kateri", "ru": "какой", "cat": "question", "audio": "c_3700.mp3"}
-{"sl": "kdaj", "ru": "когда", "cat": "question", "audio": "c_3791.mp3"}
-{"sl": "potem", "ru": "тогда", "cat": "thing", "audio": "c_3659.mp3"}
-{"sl": "če", "ru": "если", "cat": "thing", "audio": "c_3656.mp3"}
-{"sl": "resnično", "ru": "на самом деле", "cat": "thing", "audio": "c_3655.mp3"}
-{"sl": "ampak", "ru": "но", "cat": "thing", "audio": "c_3652.mp3"}
-{"sl": "ker", "ru": "потому что", "cat": "thing", "audio": "c_3651.mp3"}
-{"sl": "ne", "ru": "не", "cat": "thing", "audio": "c_3647.mp3"}
-{"sl": "to", "ru": "это", "cat": "thing", "audio": "c_3646.mp3"}
-{"sl": "Rabim to", "ru": "Мне нужно это", "cat": "thing", "audio": "c_3714.mp3"}
-{"sl": "Koliko je to?", "ru": "Сколько это стоит?", "cat": "thing", "audio": "c_3693.mp3"}
-{"sl": "tisto", "ru": "что", "cat": "question", "audio": "c_3645.mp3"}
-{"sl": "vse", "ru": "все", "cat": "thing", "audio": "c_3643.mp3"}
-{"sl": "ali", "ru": "или", "cat": "thing", "audio": "c_3641.mp3"}
-{"sl": "in", "ru": "и", "cat": "thing", "audio": "c_3640.mp3"}
-{"sl": "vedeti", "ru": "знать", "cat": "verb", "audio": "c_902.mp3"}
-{"sl": "Vem", "ru": "Я знаю", "cat": "thing", "audio": "c_3750.mp3"}
-{"sl": "Ne vem", "ru": "Я не знаю", "cat": "thing", "audio": "c_3751.mp3"}
-{"sl": "misliti", "ru": "думать", "cat": "verb", "audio": "c_896.mp3"}
-{"sl": "priti", "ru": "приходить", "cat": "verb", "audio": "c_895.mp3"}
-{"sl": "položiti", "ru": "класть", "cat": "verb", "audio": "c_917.mp3"}
-{"sl": "vzeti", "ru": "брать", "cat": "verb", "audio": "c_916.mp3"}
-{"sl": "najti", "ru": "находить", "cat": "verb", "audio": "c_910.mp3"}
-{"sl": "poslušati", "ru": "слушать", "cat": "verb", "audio": "c_941.mp3"}
-{"sl": "delati", "ru": "работать", "cat": "verb", "audio": "c_940.mp3"}
-{"sl": "govoriti", "ru": "говорить", "cat": "verb", "audio": "c_938.mp3"}
-{"sl": "dati", "ru": "давать", "cat": "verb", "audio": "c_966.mp3"}
-{"sl": "imeti rad", "ru": "нравиться", "cat": "verb", "audio": "c_965.mp3"}
-{"sl": "pomagati", "ru": "помогать", "cat": "verb", "audio": "c_962.mp3"}
-{"sl": "ljubiti", "ru": "любить", "cat": "verb", "audio": "c_961.mp3"}
-{"sl": "poklicati", "ru": "звонить", "cat": "verb", "audio": "c_1005.mp3"}
-{"sl": "čakati", "ru": "ждать", "cat": "verb", "audio": "c_1035.mp3"}
-{"sl": "Všeč si mi", "ru": "Ты мне нравишься", "cat": "thing", "audio": "c_3715.mp3"}
-{"sl": "To mi ni všeč", "ru": "Мне это не нравится", "cat": "thing", "audio": "c_3716.mp3"}
-{"sl": "Ali me ljubiš?", "ru": "Ты любишь меня?", "cat": "thing", "audio": "c_3694.mp3"}
-{"sl": "Ljubim te", "ru": "Я люблю тебя", "cat": "thing", "audio": "c_3732.mp3"}
-{"sl": "nič", "ru": "0", "cat": "thing", "audio": "c_454.mp3"}
-{"sl": "ena", "ru": "1", "cat": "thing", "audio": "c_455.mp3"}
-{"sl": "dva", "ru": "2", "cat": "thing", "audio": "c_456.mp3"}
-{"sl": "tri", "ru": "3", "cat": "thing", "audio": "c_457.mp3"}
-{"sl": "štiri", "ru": "4", "cat": "thing", "audio": "c_458.mp3"}
-{"sl": "pet", "ru": "5", "cat": "thing", "audio": "c_459.mp3"}
-{"sl": "šest", "ru": "6", "cat": "thing", "audio": "c_460.mp3"}
-{"sl": "sedem", "ru": "7", "cat": "thing", "audio": "c_461.mp3"}
-{"sl": "osem", "ru": "8", "cat": "thing", "audio": "c_462.mp3"}
-{"sl": "devet", "ru": "9", "cat": "thing", "audio": "c_463.mp3"}
-{"sl": "deset", "ru": "10", "cat": "thing", "audio": "c_464.mp3"}
-{"sl": "enajst", "ru": "11", "cat": "thing", "audio": "c_465.mp3"}
-{"sl": "dvanajst", "ru": "12", "cat": "thing", "audio": "c_466.mp3"}
-{"sl": "trinajst", "ru": "13", "cat": "thing", "audio": "c_467.mp3"}
-{"sl": "štirinajst", "ru": "14", "cat": "thing", "audio": "c_468.mp3"}
-{"sl": "petnajst", "ru": "15", "cat": "thing", "audio": "c_469.mp3"}
-{"sl": "šestnajst", "ru": "16", "cat": "thing", "audio": "c_470.mp3"}
-{"sl": "sedemnajst", "ru": "17", "cat": "thing", "audio": "c_471.mp3"}
-{"sl": "osemnajst", "ru": "18", "cat": "thing", "audio": "c_472.mp3"}
-{"sl": "devetnajst", "ru": "19", "cat": "thing", "audio": "c_473.mp3"}
-{"sl": "dvajset", "ru": "20", "cat": "thing", "audio": "c_474.mp3"}
-{"sl": "nov", "ru": "новый", "cat": "thing", "audio": "c_758.mp3"}
-{"sl": "star", "ru": "старый", "cat": "thing", "audio": "c_757.mp3"}
-{"sl": "malo", "ru": "немногие", "cat": "thing", "audio": "c_752.mp3"}
-{"sl": "veliko", "ru": "многие", "cat": "thing", "audio": "c_751.mp3"}
-{"sl": "koliko?", "ru": "сколько?", "cat": "question", "audio": "c_3702.mp3"}
-{"sl": "koliko?", "ru": "сколько?", "cat": "question", "audio": "c_3701.mp3"}
-{"sl": "napačen", "ru": "неправильный", "cat": "thing", "audio": "c_750.mp3"}
-{"sl": "pravilen", "ru": "правильный", "cat": "thing", "audio": "c_749.mp3"}
-{"sl": "slab", "ru": "плохой", "cat": "thing", "audio": "c_772.mp3"}
-{"sl": "dober", "ru": "хороший", "cat": "thing", "audio": "c_771.mp3"}
-{"sl": "srečen", "ru": "счастливый", "cat": "thing", "audio": "c_764.mp3"}
-{"sl": "kratek", "ru": "короткий", "cat": "thing", "audio": "c_793.mp3"}
-{"sl": "dolg", "ru": "длинный", "cat": "thing", "audio": "c_792.mp3"}
-{"sl": "majhen", "ru": "маленький", "cat": "thing", "audio": "c_791.mp3"}
-{"sl": "velik", "ru": "большой", "cat": "thing", "audio": "c_790.mp3"}
-{"sl": "tam", "ru": "там", "cat": "thing", "audio": "c_808.mp3"}
-{"sl": "tukaj", "ru": "здесь", "cat": "thing", "audio": "c_807.mp3"}
-{"sl": "desno", "ru": "правый", "cat": "thing", "audio": "c_797.mp3"}
-{"sl": "levo", "ru": "левый", "cat": "thing", "audio": "c_796.mp3"}
-{"sl": "lep", "ru": "красивый", "cat": "thing", "audio": "c_862.mp3"}
-{"sl": "mlad", "ru": "молодой", "cat": "thing", "audio": "c_853.mp3"}
-{"sl": "star", "ru": "старый", "cat": "thing", "audio": "c_852.mp3"}
-{"sl": "pozdravljeni", "ru": "здравствуйте", "cat": "greet", "audio": "c_3788.mp3"}
-{"sl": "se vidimo", "ru": "увидимся позже", "cat": "greet", "audio": "c_3689.mp3"}
-{"sl": "v redu", "ru": "окей", "cat": "greet", "audio": "c_3688.mp3"}
-{"sl": "pazi nase", "ru": "береги себя", "cat": "greet", "audio": "c_3687.mp3"}
-{"sl": "ne skrbi", "ru": "не переживай", "cat": "greet", "audio": "c_3685.mp3"}
-{"sl": "seveda", "ru": "конечно", "cat": "greet", "audio": "c_3683.mp3"}
-{"sl": "dober dan", "ru": "добрый день", "cat": "greet", "audio": "c_3679.mp3"}
-{"sl": "živijo", "ru": "привет", "cat": "greet", "audio": "c_3678.mp3"}
-{"sl": "adijo", "ru": "пока-пока", "cat": "greet", "audio": "c_3676.mp3"}
-{"sl": "nasvidenje", "ru": "до свидания", "cat": "greet", "audio": "c_3675.mp3"}
-{"sl": "oprostite", "ru": "простите", "cat": "greet", "audio": "c_3674.mp3"}
-{"sl": "oprosti", "ru": "извините", "cat": "greet", "audio": "c_3673.mp3"}
-{"sl": "hvala", "ru": "спасибо", "cat": "greet", "audio": "c_3671.mp3"}
-{"sl": "prosim", "ru": "пожалуйста", "cat": "greet", "audio": "c_3670.mp3"}
-{"sl": "hočem to", "ru": "я хочу это", "cat": "thing", "audio": "c_3665.mp3"}
-{"sl": "zdaj", "ru": "сейчас", "cat": "time", "audio": "c_1659.mp3"}
-{"sl": "popoldan", "ru": "вторая половина дня", "cat": "time", "audio": "c_1658.mp3"}
-{"sl": "dopoldan", "ru": "первая половина дня", "cat": "time", "audio": "c_1657.mp3"}
-{"sl": "noč", "ru": "ночь", "cat": "time", "audio": "c_1656.mp3"}
-{"sl": "zjutraj", "ru": "утро", "cat": "time", "audio": "c_1655.mp3"}
-{"sl": "večer", "ru": "вечер", "cat": "time", "audio": "c_1654.mp3"}
-{"sl": "opoldne", "ru": "полдень", "cat": "time", "audio": "c_1653.mp3"}
-{"sl": "polnoč", "ru": "полночь", "cat": "time", "audio": "c_1632.mp3"}
-{"sl": "ura", "ru": "час", "cat": "time", "audio": "c_1635.mp3"}
-{"sl": "minuta", "ru": "минута", "cat": "time", "audio": "c_1634.mp3"}
-{"sl": "sekunda", "ru": "секунда", "cat": "time", "audio": "c_1633.mp3"}
-{"sl": "dan", "ru": "день", "cat": "time", "audio": "c_1660.mp3"}
-{"sl": "teden", "ru": "неделя", "cat": "time", "audio": "c_1661.mp3"}
-{"sl": "mesec", "ru": "месяц", "cat": "time", "audio": "c_1662.mp3"}
-{"sl": "leto", "ru": "год", "cat": "time", "audio": "c_1663.mp3"}
-{"sl": "čas", "ru": "время", "cat": "time", "audio": "c_76.mp3"}
-{"sl": "datum", "ru": "дата", "cat": "time", "audio": "c_77.mp3"}
-{"sl": "predvčerajšnjim", "ru": "позавчера", "cat": "time", "audio": "c_1700.mp3"}
-{"sl": "včeraj", "ru": "вчера", "cat": "time", "audio": "c_1701.mp3"}
-{"sl": "danes", "ru": "сегодня", "cat": "time", "audio": "c_1702.mp3"}
-{"sl": "jutri", "ru": "завтра", "cat": "time", "audio": "c_1703.mp3"}
-{"sl": "pojutrišnjem", "ru": "послезавтра", "cat": "time", "audio": "c_1704.mp3"}
-{"sl": "ponedeljek", "ru": "понедельник", "cat": "time", "audio": "c_3796.mp3"}
-{"sl": "torek", "ru": "вторник", "cat": "time", "audio": "c_3797.mp3"}
-{"sl": "sreda", "ru": "среда", "cat": "time", "audio": "c_3798.mp3"}
-{"sl": "četrtek", "ru": "четверг", "cat": "time", "audio": "c_3799.mp3"}
-{"sl": "petek", "ru": "пятница", "cat": "time", "audio": "c_3800.mp3"}
-{"sl": "sobota", "ru": "суббота", "cat": "time", "audio": "c_3801.mp3"}
-{"sl": "nedelja", "ru": "воскресенье", "cat": "time", "audio": "c_3802.mp3"}
-{"sl": "Jutri je sobota", "ru": "Завтра суббота", "cat": "thing", "audio": "c_3745.mp3"}
-{"sl": "življenje", "ru": "жизнь", "cat": "thing", "audio": "c_79.mp3"}
-{"sl": "ženska", "ru": "женщина", "cat": "thing", "audio": "c_2829.mp3"}
-{"sl": "moški", "ru": "мужчина", "cat": "thing", "audio": "c_2828.mp3"}
-{"sl": "ljubezen", "ru": "любовь", "cat": "family", "audio": "c_1766.mp3"}
-{"sl": "fant", "ru": "парень", "cat": "family", "audio": "c_1765.mp3"}
-{"sl": "punca", "ru": "девушка", "cat": "family", "audio": "c_1764.mp3"}
-{"sl": "prijatelj", "ru": "друг", "cat": "family", "audio": "c_1763.mp3"}
-{"sl": "poljub", "ru": "поцелуй", "cat": "thing", "audio": "c_1776.mp3"}
-{"sl": "seks", "ru": "секс", "cat": "thing", "audio": "c_1774.mp3"}
-{"sl": "otrok", "ru": "ребенок", "cat": "family", "audio": "c_1758.mp3"}
-{"sl": "dojenček", "ru": "малыш", "cat": "family", "audio": "c_1753.mp3"}
-{"sl": "dekle", "ru": "девочка", "cat": "family", "audio": "c_2831.mp3"}
-{"sl": "fant", "ru": "мальчик", "cat": "family", "audio": "c_2830.mp3"}
-{"sl": "mami", "ru": "мама", "cat": "family", "audio": "c_3761.mp3"}
-{"sl": "oči", "ru": "папа", "cat": "family", "audio": "c_3760.mp3"}
-{"sl": "mati", "ru": "мать", "cat": "family", "audio": "c_1715.mp3"}
-{"sl": "oče", "ru": "отец", "cat": "family", "audio": "c_1714.mp3"}
-{"sl": "starši", "ru": "родители", "cat": "family", "audio": "c_1742.mp3"}
-{"sl": "sin", "ru": "сын", "cat": "family", "audio": "c_1731.mp3"}
-{"sl": "hči", "ru": "дочь", "cat": "family", "audio": "c_1730.mp3"}
-{"sl": "mlajša sestra", "ru": "младшая сестра", "cat": "family", "audio": "c_1727.mp3"}
-{"sl": "mlajši brat", "ru": "младший брат", "cat": "family", "audio": "c_1725.mp3"}
-{"sl": "starejša sestra", "ru": "старшая сестра", "cat": "family", "audio": "c_1726.mp3"}
-{"sl": "starejši brat", "ru": "старший брат", "cat": "family", "audio": "c_1724.mp3"}
-{"sl": "stati", "ru": "стоять", "cat": "verb", "audio": "c_907.mp3"}
-{"sl": "sedeti", "ru": "сидеть", "cat": "verb", "audio": "c_906.mp3"}
-{"sl": "ležati", "ru": "лежать", "cat": "verb", "audio": "c_905.mp3"}
-{"sl": "zapreti", "ru": "закрывать", "cat": "verb", "audio": "c_904.mp3"}
-{"sl": "odpreti", "ru": "открывать", "cat": "verb", "audio": "c_903.mp3"}
-{"sl": "izgubiti", "ru": "проигрывать", "cat": "verb", "audio": "c_900.mp3"}
-{"sl": "zmagati", "ru": "побеждать", "cat": "verb", "audio": "c_899.mp3"}
-{"sl": "umreti", "ru": "умирать", "cat": "verb", "audio": "c_898.mp3"}
-{"sl": "živeti", "ru": "жить", "cat": "verb", "audio": "c_897.mp3"}
-{"sl": "prižgati", "ru": "включать", "cat": "verb", "audio": "c_893.mp3"}
-{"sl": "izklopiti", "ru": "выключать", "cat": "verb", "audio": "c_892.mp3"}
-{"sl": "ubiti", "ru": "убивать", "cat": "verb", "audio": "c_919.mp3"}
-{"sl": "poškodovati", "ru": "ранить", "cat": "verb", "audio": "c_918.mp3"}
-{"sl": "dotakniti se", "ru": "трогать", "cat": "verb", "audio": "c_944.mp3"}
-{"sl": "gledati", "ru": "смотреть", "cat": "verb", "audio": "c_943.mp3"}
-{"sl": "piti", "ru": "пить", "cat": "verb", "audio": "c_935.mp3"}
-{"sl": "jesti", "ru": "есть", "cat": "verb", "audio": "c_934.mp3"}
-{"sl": "hoditi", "ru": "гулять", "cat": "verb", "audio": "c_931.mp3"}
-{"sl": "srečati", "ru": "встречаться", "cat": "verb", "audio": "c_972.mp3"}
-{"sl": "staviti", "ru": "держать пари", "cat": "verb", "audio": "c_970.mp3"}
-{"sl": "poljubiti", "ru": "целовать", "cat": "verb", "audio": "c_969.mp3"}
-{"sl": "slediti", "ru": "следовать", "cat": "verb", "audio": "c_967.mp3"}
-{"sl": "poročiti se", "ru": "жениться", "cat": "verb", "audio": "c_964.mp3"}
-{"sl": "odgovoriti", "ru": "отвечать", "cat": "verb", "audio": "c_960.mp3"}
-{"sl": "vprašati", "ru": "спрашивать", "cat": "verb", "audio": "c_958.mp3"}
-{"sl": "vprašanje", "ru": "вопрос", "cat": "thing", "audio": "c_169.mp3"}
-{"sl": "podjetje", "ru": "компания", "cat": "shop", "audio": "c_150.mp3"}
-{"sl": "posel", "ru": "бизнес", "cat": "shop", "audio": "c_149.mp3"}
-{"sl": "zaposlitev", "ru": "работа", "cat": "job", "audio": "c_1777.mp3"}
-{"sl": "denar", "ru": "деньги", "cat": "shop", "audio": "c_3471.mp3"}
-{"sl": "telefon", "ru": "телефон", "cat": "shop", "audio": "c_3419.mp3"}
-{"sl": "pisarna", "ru": "офис", "cat": "goplace", "audio": "c_3241.mp3"}
-{"sl": "zdravnik", "ru": "врач", "cat": "job", "audio": "c_3313.mp3"}
-{"sl": "bolnišnica", "ru": "больница", "cat": "goplace", "audio": "c_2923.mp3"}
-{"sl": "medicinska sestra", "ru": "медсестра", "cat": "job", "audio": "c_3314.mp3"}
-{"sl": "policist", "ru": "полицейский", "cat": "job", "audio": "c_3317.mp3"}
-{"sl": "predsednik", "ru": "президент", "cat": "job", "audio": "c_3327.mp3"}
-{"sl": "bel", "ru": "белый", "cat": "color", "audio": "c_744.mp3"}
-{"sl": "črn", "ru": "черный", "cat": "color", "audio": "c_742.mp3"}
-{"sl": "rdeč", "ru": "красный", "cat": "color", "audio": "c_741.mp3"}
-{"sl": "moder", "ru": "синий", "cat": "color", "audio": "c_733.mp3"}
-{"sl": "zelen", "ru": "зеленый", "cat": "color", "audio": "c_737.mp3"}
-{"sl": "rumen", "ru": "желтый", "cat": "color", "audio": "c_735.mp3"}
-{"sl": "počasen", "ru": "медленный", "cat": "thing", "audio": "c_762.mp3"}
-{"sl": "hiter", "ru": "быстрый", "cat": "thing", "audio": "c_761.mp3"}
-{"sl": "smešen", "ru": "смешной", "cat": "thing", "audio": "c_759.mp3"}
-{"sl": "nepošten", "ru": "несправедливый", "cat": "thing", "audio": "c_756.mp3"}
-{"sl": "pošten", "ru": "справедливый", "cat": "thing", "audio": "c_755.mp3"}
-{"sl": "zahteven", "ru": "сложный", "cat": "thing", "audio": "c_748.mp3"}
-{"sl": "enostaven", "ru": "легкий", "cat": "thing", "audio": "c_747.mp3"}
-{"sl": "To je težko", "ru": "Это сложно", "cat": "thing", "audio": "c_3731.mp3"}
-{"sl": "bogat", "ru": "богатый", "cat": "thing", "audio": "c_746.mp3"}
-{"sl": "reven", "ru": "бедный", "cat": "thing", "audio": "c_745.mp3"}
-{"sl": "močen", "ru": "сильный", "cat": "thing", "audio": "c_778.mp3"}
-{"sl": "šibek", "ru": "слабый", "cat": "thing", "audio": "c_777.mp3"}
-{"sl": "varen", "ru": "безопасный", "cat": "thing", "audio": "c_776.mp3"}
-{"sl": "utrujen", "ru": "уставший", "cat": "thing", "audio": "c_775.mp3"}
-{"sl": "ponosen", "ru": "гордый", "cat": "thing", "audio": "c_773.mp3"}
-{"sl": "sit", "ru": "сытый", "cat": "thing", "audio": "c_770.mp3"}
-{"sl": "bolan", "ru": "больной", "cat": "thing", "audio": "c_766.mp3"}
-{"sl": "zdrav", "ru": "здоровый", "cat": "thing", "audio": "c_765.mp3"}
-{"sl": "jezen", "ru": "сердитый", "cat": "thing", "audio": "c_763.mp3"}
-{"sl": "nizek", "ru": "низкий", "cat": "thing", "audio": "c_795.mp3"}
-{"sl": "visok", "ru": "высокий", "cat": "thing", "audio": "c_794.mp3"}
-{"sl": "raven", "ru": "прямой", "cat": "thing", "audio": "c_788.mp3"}
-{"sl": "vsak", "ru": "каждый", "cat": "thing", "audio": "c_3664.mp3"}
-{"sl": "nenehno", "ru": "всегда", "cat": "thing", "audio": "c_3663.mp3"}
-{"sl": "dejansko", "ru": "на самом деле", "cat": "thing", "audio": "c_3660.mp3"}
-{"sl": "ponovno", "ru": "снова", "cat": "thing", "audio": "c_3654.mp3"}
-{"sl": "že", "ru": "уже", "cat": "thing", "audio": "c_3653.mp3"}
-{"sl": "manj", "ru": "меньше", "cat": "thing", "audio": "c_3650.mp3"}
-{"sl": "najbolj", "ru": "наиболее", "cat": "thing", "audio": "c_3649.mp3"}
-{"sl": "več", "ru": "больше", "cat": "thing", "audio": "c_3648.mp3"}
-{"sl": "Hočem več", "ru": "Я хочу еще", "cat": "thing", "audio": "c_3746.mp3"}
-{"sl": "nobena", "ru": "никто", "cat": "thing", "audio": "c_3644.mp3"}
-{"sl": "zelo", "ru": "очень", "cat": "thing", "audio": "c_3642.mp3"}
-{"sl": "žival", "ru": "животное", "cat": "thing", "audio": "c_1.mp3"}
-{"sl": "prašič", "ru": "свинья", "cat": "thing", "audio": "c_198.mp3"}
-{"sl": "krava", "ru": "корова", "cat": "thing", "audio": "c_86.mp3"}
-{"sl": "konj", "ru": "лошадь", "cat": "thing", "audio": "c_85.mp3"}
-{"sl": "pes", "ru": "собака", "cat": "thing", "audio": "c_79.mp3"}
-{"sl": "ovca", "ru": "овца", "cat": "thing", "audio": "c_33.mp3"}
-{"sl": "opica", "ru": "обезьяна", "cat": "thing", "audio": "c_28.mp3"}
-{"sl": "mačka", "ru": "кошка", "cat": "thing", "audio": "c_21.mp3"}
-{"sl": "medved", "ru": "медведь", "cat": "thing", "audio": "c_3.mp3"}
-{"sl": "kokoš", "ru": "курица", "cat": "thing", "audio": "c_891.mp3"}
-{"sl": "raca", "ru": "утка", "cat": "thing", "audio": "c_41.mp3"}
-{"sl": "metulj", "ru": "бабочка", "cat": "thing", "audio": "c_106.mp3"}
-{"sl": "čebela", "ru": "пчела", "cat": "thing", "audio": "c_52.mp3"}
-{"sl": "riba", "ru": "рыба", "cat": "food", "audio": "c_1053.mp3"}
-{"sl": "pajek", "ru": "паук", "cat": "thing", "audio": "c_116.mp3"}
-{"sl": "kača", "ru": "змея", "cat": "thing", "audio": "c_75.mp3"}
-{"sl": "zunaj", "ru": "снаружи", "cat": "thing", "audio": "c_810.mp3"}
-{"sl": "znotraj", "ru": "внутри", "cat": "thing", "audio": "c_809.mp3"}
-{"sl": "daleč", "ru": "далекий", "cat": "thing", "audio": "c_806.mp3"}
-{"sl": "blizu", "ru": "близкий", "cat": "thing", "audio": "c_805.mp3"}
-{"sl": "pod", "ru": "ниже", "cat": "thing", "audio": "c_804.mp3"}
-{"sl": "nad", "ru": "выше", "cat": "thing", "audio": "c_803.mp3"}
-{"sl": "poleg", "ru": "рядом", "cat": "thing", "audio": "c_802.mp3"}
-{"sl": "spredaj", "ru": "передний", "cat": "thing", "audio": "c_801.mp3"}
-{"sl": "zadaj", "ru": "задний", "cat": "thing", "audio": "c_800.mp3"}
-{"sl": "sladek", "ru": "сладкий", "cat": "thing", "audio": "c_829.mp3"}
-{"sl": "kisel", "ru": "кислый", "cat": "thing", "audio": "c_828.mp3"}
-{"sl": "čuden", "ru": "странный", "cat": "thing", "audio": "c_827.mp3"}
-{"sl": "mehek", "ru": "мягкий", "cat": "thing", "audio": "c_822.mp3"}
-{"sl": "trd", "ru": "жесткий", "cat": "thing", "audio": "c_821.mp3"}
-{"sl": "srčkan", "ru": "милый", "cat": "thing", "audio": "c_874.mp3"}
-{"sl": "neumen", "ru": "глупый", "cat": "thing", "audio": "c_873.mp3"}
-{"sl": "nor", "ru": "сумасшедший", "cat": "thing", "audio": "c_864.mp3"}
-{"sl": "zaposlen", "ru": "занятый", "cat": "thing", "audio": "c_857.mp3"}
-{"sl": "visok", "ru": "высокий", "cat": "thing", "audio": "c_840.mp3"}
-{"sl": "nizek", "ru": "низкий", "cat": "thing", "audio": "c_839.mp3"}
-{"sl": "zaskrbljen", "ru": "обеспокоенный", "cat": "thing", "audio": "c_837.mp3"}
-{"sl": "presenečen", "ru": "удивленный", "cat": "thing", "audio": "c_838.mp3"}
-{"sl": "kul", "ru": "крутой", "cat": "thing", "audio": "c_836.mp3"}
-{"sl": "priden", "ru": "воспитанный", "cat": "thing", "audio": "c_835.mp3"}
-{"sl": "hudoben", "ru": "злой", "cat": "thing", "audio": "c_834.mp3"}
-{"sl": "pameten", "ru": "умный", "cat": "thing", "audio": "c_833.mp3"}
-{"sl": "hladen", "ru": "холодный", "cat": "thing", "audio": "c_881.mp3"}
-{"sl": "vroč", "ru": "горячий", "cat": "thing", "audio": "c_880.mp3"}
-{"sl": "glava", "ru": "голова", "cat": "body", "audio": "c_621.mp3"}
-{"sl": "nos", "ru": "нос", "cat": "body", "audio": "c_645.mp3"}
-{"sl": "las", "ru": "волос", "cat": "body", "audio": "c_643.mp3"}
-{"sl": "usta", "ru": "рот", "cat": "body", "audio": "c_641.mp3"}
-{"sl": "uho", "ru": "ухо", "cat": "body", "audio": "c_638.mp3"}
-{"sl": "oko", "ru": "глаз", "cat": "body", "audio": "c_607.mp3"}
-{"sl": "roka", "ru": "рука", "cat": "body", "audio": "c_619.mp3"}
-{"sl": "stopalo", "ru": "стопа", "cat": "body", "audio": "c_618.mp3"}
-{"sl": "srce", "ru": "сердце", "cat": "body", "audio": "c_710.mp3"}
-{"sl": "možgani", "ru": "головной мозг", "cat": "body", "audio": "c_633.mp3"}
-{"sl": "vleči", "ru": "потянуть", "cat": "verb", "audio": "c_997.mp3"}
-{"sl": "potisniti", "ru": "толкнуть", "cat": "verb", "audio": "c_996.mp3"}
-{"sl": "pritisniti", "ru": "нажимать", "cat": "verb", "audio": "c_995.mp3"}
-{"sl": "udariti", "ru": "ударить", "cat": "verb", "audio": "c_986.mp3"}
-{"sl": "ujeti", "ru": "ловить", "cat": "verb", "audio": "c_985.mp3"}
-{"sl": "boriti se", "ru": "бороться", "cat": "verb", "audio": "c_984.mp3"}
-{"sl": "vreči", "ru": "бросать", "cat": "verb", "audio": "c_981.mp3"}
-{"sl": "teči", "ru": "бежать", "cat": "verb", "audio": "c_980.mp3"}
-{"sl": "brati", "ru": "читать", "cat": "verb", "audio": "c_1049.mp3"}
-{"sl": "pisati", "ru": "писать", "cat": "verb", "audio": "c_1048.mp3"}
-{"sl": "popraviti", "ru": "ремонтировать", "cat": "verb", "audio": "c_1047.mp3"}
-{"sl": "šteti", "ru": "считать", "cat": "verb", "audio": "c_1043.mp3"}
-{"sl": "rezati", "ru": "вырезать", "cat": "verb", "audio": "c_1042.mp3"}
-{"sl": "prodati", "ru": "продавать", "cat": "verb", "audio": "c_1003.mp3"}
-{"sl": "kupiti", "ru": "покупать", "cat": "verb", "audio": "c_1002.mp3"}
-{"sl": "plačati", "ru": "платить", "cat": "verb", "audio": "c_1001.mp3"}
-{"sl": "študirati", "ru": "учиться", "cat": "verb", "audio": "c_998.mp3"}
-{"sl": "sanjati", "ru": "мечтать", "cat": "verb", "audio": "c_1036.mp3"}
-{"sl": "spati", "ru": "спать", "cat": "verb", "audio": "c_1034.mp3"}
-{"sl": "igrati", "ru": "играть", "cat": "verb", "audio": "c_1032.mp3"}
-{"sl": "proslaviti", "ru": "праздновать", "cat": "verb", "audio": "c_1021.mp3"}
-{"sl": "počivati", "ru": "отдыхать", "cat": "verb", "audio": "c_1018.mp3"}
-{"sl": "uživati", "ru": "наслаждаться", "cat": "verb", "audio": "c_1013.mp3"}
-{"sl": "čistiti", "ru": "чистить", "cat": "verb", "audio": "c_1007.mp3"}
-{"sl": "šola", "ru": "школа", "cat": "goplace", "audio": "c_2927.mp3"}
-{"sl": "hiša", "ru": "дом", "cat": "home", "audio": "c_2987.mp3"}
-{"sl": "vrata", "ru": "дверь", "cat": "home", "audio": "c_1098.mp3"}
-{"sl": "mož", "ru": "муж", "cat": "family", "audio": "c_1737.mp3"}
-{"sl": "žena", "ru": "жена", "cat": "family", "audio": "c_1736.mp3"}
-{"sl": "poroka", "ru": "свадьба", "cat": "family", "audio": "c_1778.mp3"}
-{"sl": "oseba", "ru": "человек", "cat": "thing", "audio": "c_40.mp3"}
-{"sl": "avto", "ru": "автомобиль", "cat": "transport", "audio": "c_81.mp3"}
-{"sl": "dom", "ru": "дом", "cat": "home", "audio": "c_49.mp3"}
-{"sl": "mesto", "ru": "город", "cat": "goplace", "audio": "c_129.mp3"}
-{"sl": "število", "ru": "число", "cat": "thing", "audio": "c_20.mp3"}
-{"sl": "enaindvajset", "ru": "21", "cat": "thing", "audio": "c_475.mp3"}
-{"sl": "dvaindvajset", "ru": "22", "cat": "thing", "audio": "c_476.mp3"}
-{"sl": "šestindvajset", "ru": "26", "cat": "thing", "audio": "c_477.mp3"}
-{"sl": "trideset", "ru": "30", "cat": "thing", "audio": "c_478.mp3"}
-{"sl": "enaintrideset", "ru": "31", "cat": "thing", "audio": "c_479.mp3"}
-{"sl": "triintrideset", "ru": "33", "cat": "thing", "audio": "c_480.mp3"}
-{"sl": "sedemintrideset", "ru": "37", "cat": "thing", "audio": "c_481.mp3"}
-{"sl": "štirideset", "ru": "40", "cat": "thing", "audio": "c_482.mp3"}
-{"sl": "enainštirideset", "ru": "41", "cat": "thing", "audio": "c_483.mp3"}
-{"sl": "štiriinštirideset", "ru": "44", "cat": "thing", "audio": "c_484.mp3"}
-{"sl": "oseminštirideset", "ru": "48", "cat": "thing", "audio": "c_485.mp3"}
-{"sl": "petdeset", "ru": "50", "cat": "thing", "audio": "c_486.mp3"}
-{"sl": "enainpetdeset", "ru": "51", "cat": "thing", "audio": "c_487.mp3"}
-{"sl": "petinpetdeset", "ru": "55", "cat": "thing", "audio": "c_488.mp3"}
-{"sl": "devetinpetdeset", "ru": "59", "cat": "thing", "audio": "c_489.mp3"}
-{"sl": "šestdeset", "ru": "60", "cat": "thing", "audio": "c_490.mp3"}
-{"sl": "enainšestdeset", "ru": "61", "cat": "thing", "audio": "c_491.mp3"}
-{"sl": "dvainšestdeset", "ru": "62", "cat": "thing", "audio": "c_492.mp3"}
-{"sl": "šestinšestdeset", "ru": "66", "cat": "thing", "audio": "c_493.mp3"}
-{"sl": "sedemdeset", "ru": "70", "cat": "thing", "audio": "c_494.mp3"}
-{"sl": "enainsedemdeset", "ru": "71", "cat": "thing", "audio": "c_495.mp3"}
-{"sl": "triinsedemdeset", "ru": "73", "cat": "thing", "audio": "c_496.mp3"}
-{"sl": "sedeminsedemdeset", "ru": "77", "cat": "thing", "audio": "c_497.mp3"}
-{"sl": "osemdeset", "ru": "80", "cat": "thing", "audio": "c_498.mp3"}
-{"sl": "enainosemdeset", "ru": "81", "cat": "thing", "audio": "c_499.mp3"}
-{"sl": "štiriinosemdeset", "ru": "84", "cat": "thing", "audio": "c_500.mp3"}
-{"sl": "oseminosemdeset", "ru": "88", "cat": "thing", "audio": "c_501.mp3"}
-{"sl": "devetdeset", "ru": "90", "cat": "thing", "audio": "c_502.mp3"}
-{"sl": "enaindevetdeset", "ru": "91", "cat": "thing", "audio": "c_503.mp3"}
-{"sl": "petindevetdeset", "ru": "95", "cat": "thing", "audio": "c_504.mp3"}
-{"sl": "devetindevetdeset", "ru": "99", "cat": "thing", "audio": "c_505.mp3"}
-{"sl": "sto", "ru": "100", "cat": "thing", "audio": "c_506.mp3"}
-{"sl": "tisoč", "ru": "1000", "cat": "thing", "audio": "c_551.mp3"}
-{"sl": "deset tisoč", "ru": "10.000", "cat": "thing", "audio": "c_587.mp3"}
-{"sl": "sto tisoč", "ru": "100.000", "cat": "thing", "audio": "c_592.mp3"}
-{"sl": "milijon", "ru": "1.000.000", "cat": "thing", "audio": "c_594.mp3"}
-{"sl": "moj pes", "ru": "моя собака", "cat": "thing", "audio": "c_3629.mp3"}
-{"sl": "tvoja mačka", "ru": "твоя кошка", "cat": "thing", "audio": "c_3630.mp3"}
-{"sl": "njena obleka", "ru": "ее платье", "cat": "thing", "audio": "c_3631.mp3"}
-{"sl": "njegov avto", "ru": "его машина", "cat": "thing", "audio": "c_3632.mp3"}
-{"sl": "njegova/njena žoga", "ru": "его мяч", "cat": "thing", "audio": "c_3633.mp3"}
-{"sl": "naš dom", "ru": "наш дом", "cat": "thing", "audio": "c_3634.mp3"}
-{"sl": "vaša ekipa", "ru": "ваша команда", "cat": "thing", "audio": "c_3635.mp3"}
-{"sl": "njihovo podjetje", "ru": "их компания", "cat": "thing", "audio": "c_3636.mp3"}
-{"sl": "vsi", "ru": "все", "cat": "thing", "audio": "c_3637.mp3"}
-{"sl": "skupaj", "ru": "вместе", "cat": "thing", "audio": "c_3638.mp3"}
-{"sl": "drugo", "ru": "другой", "cat": "thing", "audio": "c_3639.mp3"}
-{"sl": "ni pomembno", "ru": "не имеет значения", "cat": "greet", "audio": "c_3691.mp3"}
-{"sl": "na zdravje", "ru": "твое здоровье", "cat": "greet", "audio": "c_3690.mp3"}
-{"sl": "sprosti se", "ru": "расслабься", "cat": "greet", "audio": "c_3686.mp3"}
-{"sl": "strinjam se", "ru": "согласен", "cat": "greet", "audio": "c_3684.mp3"}
-{"sl": "dobrodošli", "ru": "добро пожаловать", "cat": "greet", "audio": "c_3682.mp3"}
-{"sl": "brez skrbi", "ru": "не беспокойся", "cat": "greet", "audio": "c_3680.mp3"}
-{"sl": "zavij desno", "ru": "поверни направо", "cat": "thing", "audio": "c_3669.mp3"}
-{"sl": "zavij levo", "ru": "поверни налево", "cat": "thing", "audio": "c_3668.mp3"}
-{"sl": "pojdi naravnost", "ru": "езжай прямо", "cat": "thing", "audio": "c_3667.mp3"}
-{"sl": "pridi z mano", "ru": "пойдем со мной", "cat": "thing", "audio": "c_3666.mp3"}
-{"sl": "jajce", "ru": "яйцо", "cat": "food", "audio": "c_1289.mp3"}
-{"sl": "sir", "ru": "сыр", "cat": "food", "audio": "c_1282.mp3"}
-{"sl": "mleko", "ru": "молоко", "cat": "food", "audio": "c_1281.mp3"}
-{"sl": "riba", "ru": "рыба", "cat": "food", "audio": "c_3780.mp3"}
-{"sl": "meso", "ru": "мясо", "cat": "food", "audio": "c_3779.mp3"}
-{"sl": "zelenjava", "ru": "овощ", "cat": "food", "audio": "c_62.mp3"}
-{"sl": "sadje", "ru": "фрукт", "cat": "food", "audio": "c_63.mp3"}
-{"sl": "kost", "ru": "кость", "cat": "food", "audio": "c_1322.mp3"}
-{"sl": "olje", "ru": "масло", "cat": "food", "audio": "c_3795.mp3"}
-{"sl": "kruh", "ru": "хлеб", "cat": "food", "audio": "c_1433.mp3"}
-{"sl": "sladkor", "ru": "сахар", "cat": "food", "audio": "c_1424.mp3"}
-{"sl": "čokolada", "ru": "шоколад", "cat": "food", "audio": "c_1484.mp3"}
-{"sl": "sladkarije", "ru": "конфета", "cat": "food", "audio": "c_1477.mp3"}
-{"sl": "torta", "ru": "торт", "cat": "food", "audio": "c_1468.mp3"}
-{"sl": "pijača", "ru": "напиток", "cat": "food", "audio": "c_68.mp3"}
-{"sl": "voda", "ru": "вода", "cat": "food", "audio": "c_1492.mp3"}
-{"sl": "mineralna voda", "ru": "сода", "cat": "food", "audio": "c_1493.mp3"}
-{"sl": "kava", "ru": "кофе", "cat": "food", "audio": "c_1495.mp3"}
-{"sl": "čaj", "ru": "чай", "cat": "food", "audio": "c_1496.mp3"}
-{"sl": "pivo", "ru": "пиво", "cat": "food", "audio": "c_1521.mp3"}
-{"sl": "vino", "ru": "вино", "cat": "food", "audio": "c_1512.mp3"}
-{"sl": "solata", "ru": "салат", "cat": "food", "audio": "c_1530.mp3"}
-{"sl": "juha", "ru": "суп", "cat": "food", "audio": "c_1531.mp3"}
-{"sl": "sladica", "ru": "десерт", "cat": "food", "audio": "c_1532.mp3"}
-{"sl": "zajtrk", "ru": "завтрак", "cat": "food", "audio": "c_1537.mp3"}
-{"sl": "kosilo", "ru": "обед", "cat": "food", "audio": "c_1538.mp3"}
-{"sl": "večerja", "ru": "ужин", "cat": "food", "audio": "c_1539.mp3"}
-{"sl": "pica", "ru": "пицца", "cat": "food", "audio": "c_1561.mp3"}
-{"sl": "avtobus", "ru": "автобус", "cat": "transport", "audio": "c_1849.mp3"}
-{"sl": "vlak", "ru": "поезд", "cat": "transport", "audio": "c_1869.mp3"}
-{"sl": "železniška postaja", "ru": "железнодорожная станция", "cat": "transport", "audio": "c_1851.mp3"}
-{"sl": "avtobusna postaja", "ru": "автобусная остановка", "cat": "transport", "audio": "c_3762.mp3"}
-{"sl": "letalo", "ru": "самолет", "cat": "transport", "audio": "c_1975.mp3"}
-{"sl": "ladja", "ru": "корабль", "cat": "transport", "audio": "c_1974.mp3"}
-{"sl": "tovornjak", "ru": "грузовик", "cat": "transport", "audio": "c_1998.mp3"}
-{"sl": "kolo", "ru": "велосипед", "cat": "transport", "audio": "c_1971.mp3"}
-{"sl": "motorno kolo", "ru": "мотоцикл", "cat": "transport", "audio": "c_1970.mp3"}
-{"sl": "taksi", "ru": "такси", "cat": "transport", "audio": "c_1964.mp3"}
-{"sl": "semafor", "ru": "светофор", "cat": "transport", "audio": "c_3793.mp3"}
-{"sl": "parkirišče", "ru": "автомобильная стоянка", "cat": "transport", "audio": "c_1948.mp3"}
-{"sl": "cesta", "ru": "дорога", "cat": "transport", "audio": "c_1934.mp3"}
-{"sl": "oblačilo", "ru": "одежда", "cat": "thing", "audio": "c_116.mp3"}
-{"sl": "čevelj", "ru": "ботинок", "cat": "thing", "audio": "c_117.mp3"}
-{"sl": "plašč", "ru": "пальто", "cat": "thing", "audio": "c_2714.mp3"}
-{"sl": "pulover", "ru": "свитер", "cat": "thing", "audio": "c_2700.mp3"}
-{"sl": "srajca", "ru": "рубашка", "cat": "thing", "audio": "c_2699.mp3"}
-{"sl": "jakna", "ru": "куртка", "cat": "thing", "audio": "c_2697.mp3"}
-{"sl": "obleka", "ru": "костюм", "cat": "thing", "audio": "c_2696.mp3"}
-{"sl": "hlače", "ru": "брюки", "cat": "thing", "audio": "c_2693.mp3"}
-{"sl": "obleka", "ru": "платье", "cat": "thing", "audio": "c_2691.mp3"}
-{"sl": "majica", "ru": "футболка", "cat": "thing", "audio": "c_2688.mp3"}
-{"sl": "nogavica", "ru": "носок", "cat": "thing", "audio": "c_2726.mp3"}
-{"sl": "modrček", "ru": "бюстгальтер", "cat": "thing", "audio": "c_2725.mp3"}
-{"sl": "spodnjice", "ru": "трусы", "cat": "thing", "audio": "c_2720.mp3"}
-{"sl": "očala", "ru": "очки", "cat": "thing", "audio": "c_2761.mp3"}
-{"sl": "ročna torba", "ru": "сумка", "cat": "thing", "audio": "c_2757.mp3"}
-{"sl": "torbica", "ru": "кошелек", "cat": "thing", "audio": "c_2755.mp3"}
-{"sl": "denarnica", "ru": "бумажник", "cat": "thing", "audio": "c_2754.mp3"}
-{"sl": "prstan", "ru": "кольцо", "cat": "thing", "audio": "c_2751.mp3"}
-{"sl": "klobuk", "ru": "шляпа", "cat": "thing", "audio": "c_2743.mp3"}
-{"sl": "ura", "ru": "часы", "cat": "thing", "audio": "c_2741.mp3"}
-{"sl": "žep", "ru": "карман", "cat": "thing", "audio": "c_2824.mp3"}
-{"sl": "Kako ti je ime?", "ru": "Как тебя зовут?", "cat": "thing", "audio": "c_3709.mp3"}
-{"sl": "Moje ime je David", "ru": "Меня зовут Дэвид", "cat": "thing", "audio": "c_3736.mp3"}
-{"sl": "Imam 22 let", "ru": "Мне 22 года", "cat": "thing", "audio": "c_3737.mp3"}
-{"sl": "Kako si?", "ru": "Как дела?", "cat": "thing", "audio": "c_3703.mp3"}
-{"sl": "Si v redu?", "ru": "Ты в порядке?", "cat": "thing", "audio": "c_3704.mp3"}
-{"sl": "Kje je stranišče?", "ru": "Где здесь туалет?", "cat": "thing", "audio": "c_3711.mp3"}
-{"sl": "Pogrešam te", "ru": "Я скучаю по тебе", "cat": "thing", "audio": "c_3740.mp3"}
-{"sl": "pomlad", "ru": "весна", "cat": "time", "audio": "c_1693.mp3"}
-{"sl": "poletje", "ru": "лето", "cat": "time", "audio": "c_1694.mp3"}
-{"sl": "jesen", "ru": "осень", "cat": "time", "audio": "c_1695.mp3"}
-{"sl": "zima", "ru": "зима", "cat": "time", "audio": "c_1696.mp3"}
-{"sl": "januar", "ru": "январь", "cat": "time", "audio": "c_1681.mp3"}
-{"sl": "februar", "ru": "февраль", "cat": "time", "audio": "c_1682.mp3"}
-{"sl": "marec", "ru": "март", "cat": "time", "audio": "c_1683.mp3"}
-{"sl": "april", "ru": "апрель", "cat": "time", "audio": "c_1684.mp3"}
-{"sl": "maj", "ru": "май", "cat": "time", "audio": "c_1685.mp3"}
-{"sl": "junij", "ru": "июнь", "cat": "time", "audio": "c_1686.mp3"}
-{"sl": "julij", "ru": "июль", "cat": "time", "audio": "c_1687.mp3"}
-{"sl": "avgust", "ru": "август", "cat": "time", "audio": "c_1688.mp3"}
-{"sl": "september", "ru": "сентябрь", "cat": "time", "audio": "c_1689.mp3"}
-{"sl": "oktober", "ru": "октябрь", "cat": "time", "audio": "c_1690.mp3"}
-{"sl": "november", "ru": "ноябрь", "cat": "time", "audio": "c_1691.mp3"}
-{"sl": "december", "ru": "декабрь", "cat": "time", "audio": "c_1692.mp3"}
-{"sl": "nakupovanje", "ru": "покупка", "cat": "shop", "audio": "c_130.mp3"}
-{"sl": "račun", "ru": "счет", "cat": "shop", "audio": "c_2920.mp3"}
-{"sl": "trg", "ru": "рынок", "cat": "goplace", "audio": "c_2902.mp3"}
-{"sl": "supermarket", "ru": "супермаркет", "cat": "goplace", "audio": "c_2898.mp3"}
-{"sl": "stavba", "ru": "здание", "cat": "goplace", "audio": "c_131.mp3"}
-{"sl": "stanovanje", "ru": "квартира", "cat": "goplace", "audio": "c_2984.mp3"}
-{"sl": "univerza", "ru": "университет", "cat": "goplace", "audio": "c_2928.mp3"}
-{"sl": "kmetija", "ru": "ферма", "cat": "goplace", "audio": "c_2926.mp3"}
-{"sl": "cerkev", "ru": "церковь", "cat": "goplace", "audio": "c_2930.mp3"}
-{"sl": "restavracija", "ru": "ресторан", "cat": "goplace", "audio": "c_2951.mp3"}
-{"sl": "bar", "ru": "бар", "cat": "goplace", "audio": "c_2950.mp3"}
-{"sl": "fitnes center", "ru": "тренажерный зал", "cat": "goplace", "audio": "c_2947.mp3"}
-{"sl": "park", "ru": "парк", "cat": "goplace", "audio": "c_2944.mp3"}
-{"sl": "WC", "ru": "туалет", "cat": "home", "audio": "c_2956.mp3"}
-{"sl": "zemljevid", "ru": "карта", "cat": "goplace", "audio": "c_2959.mp3"}
-{"sl": "rešilec", "ru": "скорая помощь", "cat": "goplace", "audio": "c_3046.mp3"}
-{"sl": "policija", "ru": "полиция", "cat": "goplace", "audio": "c_3047.mp3"}
-{"sl": "pištola", "ru": "пистолет", "cat": "thing", "audio": "c_3061.mp3"}
-{"sl": "gasilci", "ru": "пожарные", "cat": "goplace", "audio": "c_3777.mp3"}
-{"sl": "država", "ru": "страна", "cat": "goplace", "audio": "c_3070.mp3"}
-{"sl": "predmestje", "ru": "пригород", "cat": "goplace", "audio": "c_3077.mp3"}
-{"sl": "vas", "ru": "деревня", "cat": "goplace", "audio": "c_3078.mp3"}
-{"sl": "zdravje", "ru": "здоровье", "cat": "body", "audio": "c_139.mp3"}
-{"sl": "zdravilo", "ru": "лекарственное средство", "cat": "body", "audio": "c_141.mp3"}
-{"sl": "nesreča", "ru": "авария", "cat": "body", "audio": "c_3164.mp3"}
-{"sl": "pacient", "ru": "пациент", "cat": "body", "audio": "c_3087.mp3"}
-{"sl": "operacija", "ru": "хирургия", "cat": "body", "audio": "c_3088.mp3"}
-{"sl": "tableta", "ru": "пилюля", "cat": "body", "audio": "c_3229.mp3"}
-{"sl": "vročina", "ru": "лихорадка", "cat": "body", "audio": "c_3111.mp3"}
-{"sl": "prehlad", "ru": "простуда", "cat": "body", "audio": "c_3114.mp3"}
-{"sl": "rana", "ru": "рана", "cat": "body", "audio": "c_3168.mp3"}
-{"sl": "termin", "ru": "прием", "cat": "body", "audio": "c_3089.mp3"}
-{"sl": "kašelj", "ru": "кашель", "cat": "body", "audio": "c_3115.mp3"}
-{"sl": "vrat", "ru": "шея", "cat": "body", "audio": "c_628.mp3"}
-{"sl": "rit", "ru": "ягодицы", "cat": "body", "audio": "c_650.mp3"}
-{"sl": "rama", "ru": "плечо", "cat": "body", "audio": "c_625.mp3"}
-{"sl": "koleno", "ru": "колено", "cat": "body", "audio": "c_620.mp3"}
-{"sl": "noga", "ru": "нога", "cat": "body", "audio": "c_613.mp3"}
-{"sl": "roka", "ru": "рука", "cat": "body", "audio": "c_611.mp3"}
-{"sl": "trebuh", "ru": "живот", "cat": "body", "audio": "c_614.mp3"}
-{"sl": "prsi", "ru": "грудь", "cat": "body", "audio": "c_615.mp3"}
-{"sl": "hrbet", "ru": "спина", "cat": "body", "audio": "c_653.mp3"}
-{"sl": "zob", "ru": "зуб", "cat": "body", "audio": "c_649.mp3"}
-{"sl": "jezik", "ru": "язык", "cat": "body", "audio": "c_646.mp3"}
-{"sl": "ustnica", "ru": "губа", "cat": "body", "audio": "c_644.mp3"}
-{"sl": "prst", "ru": "палец", "cat": "body", "audio": "c_890.mp3"}
-{"sl": "prst na nogi", "ru": "палец на ноге", "cat": "body", "audio": "c_663.mp3"}
-{"sl": "želodec", "ru": "желудок", "cat": "body", "audio": "c_714.mp3"}
-{"sl": "pljuča", "ru": "легкое", "cat": "body", "audio": "c_713.mp3"}
-{"sl": "jetra", "ru": "печень", "cat": "body", "audio": "c_711.mp3"}
-{"sl": "živec", "ru": "нерв", "cat": "body", "audio": "c_704.mp3"}
-{"sl": "ledvica", "ru": "почка", "cat": "body", "audio": "c_702.mp3"}
-{"sl": "črevesje", "ru": "кишечник", "cat": "body", "audio": "c_696.mp3"}
-{"sl": "barva", "ru": "цвет", "cat": "color", "audio": "c_34.mp3"}
-{"sl": "oranžen", "ru": "оранжевый", "cat": "color", "audio": "c_739.mp3"}
-{"sl": "siv", "ru": "серый", "cat": "color", "audio": "c_736.mp3"}
-{"sl": "rjav", "ru": "коричневый", "cat": "color", "audio": "c_734.mp3"}
-{"sl": "roza", "ru": "розовый", "cat": "color", "audio": "c_740.mp3"}
-{"sl": "dolgočasen", "ru": "скучный", "cat": "thing", "audio": "c_760.mp3"}
-{"sl": "težek", "ru": "тяжелый", "cat": "thing", "audio": "c_754.mp3"}
-{"sl": "lahek", "ru": "легкий", "cat": "thing", "audio": "c_753.mp3"}
-{"sl": "osamljen", "ru": "одинокий", "cat": "thing", "audio": "c_774.mp3"}
-{"sl": "lačen", "ru": "голодный", "cat": "thing", "audio": "c_768.mp3"}
-{"sl": "žejen", "ru": "жаждущий", "cat": "thing", "audio": "c_769.mp3"}
-{"sl": "žalosten", "ru": "грустный", "cat": "thing", "audio": "c_767.mp3"}
-{"sl": "strm", "ru": "крутой", "cat": "thing", "audio": "c_787.mp3"}
-{"sl": "ploščat", "ru": "плоский", "cat": "thing", "audio": "c_786.mp3"}
-{"sl": "okrogel", "ru": "круглый", "cat": "thing", "audio": "c_785.mp3"}
-{"sl": "kvadraten", "ru": "квадратный", "cat": "thing", "audio": "c_784.mp3"}
-{"sl": "ozek", "ru": "узкий", "cat": "thing", "audio": "c_782.mp3"}
-{"sl": "širok", "ru": "широкий", "cat": "thing", "audio": "c_781.mp3"}
-{"sl": "globok", "ru": "глубокий", "cat": "thing", "audio": "c_780.mp3"}
-{"sl": "plitev", "ru": "мелкий", "cat": "thing", "audio": "c_779.mp3"}
-{"sl": "ogromen", "ru": "огромный", "cat": "thing", "audio": "c_783.mp3"}
-{"sl": "sever", "ru": "север", "cat": "thing", "audio": "c_812.mp3"}
-{"sl": "vzhod", "ru": "восток", "cat": "thing", "audio": "c_811.mp3"}
-{"sl": "jug", "ru": "юг", "cat": "thing", "audio": "c_813.mp3"}
-{"sl": "zahod", "ru": "запад", "cat": "thing", "audio": "c_814.mp3"}
-{"sl": "umazan", "ru": "грязный", "cat": "thing", "audio": "c_826.mp3"}
-{"sl": "čist", "ru": "чистый", "cat": "thing", "audio": "c_825.mp3"}
-{"sl": "poln", "ru": "полный", "cat": "thing", "audio": "c_820.mp3"}
-{"sl": "prazen", "ru": "пустой", "cat": "thing", "audio": "c_819.mp3"}
-{"sl": "drag", "ru": "дорогой", "cat": "thing", "audio": "c_818.mp3"}
-{"sl": "poceni", "ru": "дешевый", "cat": "thing", "audio": "c_817.mp3"}
-{"sl": "temen", "ru": "темный", "cat": "thing", "audio": "c_816.mp3"}
-{"sl": "svetel", "ru": "светлый", "cat": "thing", "audio": "c_815.mp3"}
-{"sl": "seksi", "ru": "сексуальный", "cat": "thing", "audio": "c_872.mp3"}
-{"sl": "len", "ru": "ленивый", "cat": "thing", "audio": "c_871.mp3"}
-{"sl": "pogumen", "ru": "храбрый", "cat": "thing", "audio": "c_869.mp3"}
-{"sl": "velikodušen", "ru": "щедрый", "cat": "thing", "audio": "c_868.mp3"}
-{"sl": "čeden", "ru": "красивый", "cat": "thing", "audio": "c_866.mp3"}
-{"sl": "grd", "ru": "уродливый", "cat": "thing", "audio": "c_865.mp3"}
-{"sl": "trapast", "ru": "глупый", "cat": "thing", "audio": "c_863.mp3"}
-{"sl": "prijazen", "ru": "дружелюбный", "cat": "thing", "audio": "c_856.mp3"}
-{"sl": "kriv", "ru": "виновный", "cat": "thing", "audio": "c_854.mp3"}
-{"sl": "slep", "ru": "слепой", "cat": "thing", "audio": "c_849.mp3"}
-{"sl": "pijan", "ru": "пьяный", "cat": "thing", "audio": "c_848.mp3"}
-{"sl": "moker", "ru": "влажный", "cat": "thing", "audio": "c_875.mp3"}
-{"sl": "suh", "ru": "сухой", "cat": "thing", "audio": "c_876.mp3"}
-{"sl": "topel", "ru": "теплый", "cat": "thing", "audio": "c_877.mp3"}
-{"sl": "glasen", "ru": "громкий", "cat": "thing", "audio": "c_882.mp3"}
-{"sl": "miren", "ru": "тихий", "cat": "thing", "audio": "c_883.mp3"}
-{"sl": "tih", "ru": "тихий", "cat": "thing", "audio": "c_884.mp3"}
-{"sl": "kuhinja", "ru": "кухня", "cat": "home", "audio": "c_1089.mp3"}
-{"sl": "kopalnica", "ru": "ванная", "cat": "home", "audio": "c_1096.mp3"}
-{"sl": "dnevna soba", "ru": "гостиная", "cat": "home", "audio": "c_1087.mp3"}
-{"sl": "spalnica", "ru": "спальня", "cat": "home", "audio": "c_1088.mp3"}
-{"sl": "vrt", "ru": "сад", "cat": "home", "audio": "c_1110.mp3"}
-{"sl": "garaža", "ru": "гараж", "cat": "home", "audio": "c_1109.mp3"}
-{"sl": "zid", "ru": "стена", "cat": "home", "audio": "c_1106.mp3"}
-{"sl": "klet", "ru": "подвал", "cat": "home", "audio": "c_1102.mp3"}
-{"sl": "stranišče", "ru": "туалет", "cat": "home", "audio": "c_1100.mp3"}
-{"sl": "stopnice", "ru": "лестница", "cat": "home", "audio": "c_1095.mp3"}
-{"sl": "streha", "ru": "крыша", "cat": "home", "audio": "c_1093.mp3"}
-{"sl": "okno", "ru": "окно", "cat": "home", "audio": "c_1092.mp3"}
-{"sl": "nož", "ru": "нож", "cat": "thing", "audio": "c_1175.mp3"}
-{"sl": "skodelica", "ru": "чашка", "cat": "thing", "audio": "c_1172.mp3"}
-{"sl": "kozarec", "ru": "стакан", "cat": "thing", "audio": "c_1167.mp3"}
-{"sl": "krožnik", "ru": "тарелка", "cat": "thing", "audio": "c_1166.mp3"}
-{"sl": "skodelica", "ru": "кружка", "cat": "thing", "audio": "c_1119.mp3"}
-{"sl": "smetnjak", "ru": "корзина для мусора", "cat": "thing", "audio": "c_1139.mp3"}
-{"sl": "skleda", "ru": "миска", "cat": "thing", "audio": "c_1168.mp3"}
-{"sl": "TV sprejemnik", "ru": "телевизор", "cat": "thing", "audio": "c_1140.mp3"}
-{"sl": "miza", "ru": "письменный стол", "cat": "thing", "audio": "c_1194.mp3"}
-{"sl": "postelja", "ru": "кровать", "cat": "thing", "audio": "c_1190.mp3"}
-{"sl": "ogledalo", "ru": "зеркало", "cat": "thing", "audio": "c_1126.mp3"}
-{"sl": "tuš", "ru": "душ", "cat": "thing", "audio": "c_1215.mp3"}
-{"sl": "kavč", "ru": "диван", "cat": "thing", "audio": "c_1129.mp3"}
-{"sl": "slika", "ru": "картина", "cat": "thing", "audio": "c_1136.mp3"}
-{"sl": "ura", "ru": "часы", "cat": "thing", "audio": "c_1137.mp3"}
-{"sl": "miza", "ru": "стол", "cat": "thing", "audio": "c_1234.mp3"}
-{"sl": "stol", "ru": "стул", "cat": "thing", "audio": "c_1235.mp3"}
-{"sl": "bazen", "ru": "бассейн", "cat": "thing", "audio": "c_1250.mp3"}
-{"sl": "zvonec", "ru": "дверной звонок", "cat": "thing", "audio": "c_1278.mp3"}
-{"sl": "sosed", "ru": "сосед", "cat": "thing", "audio": "c_1280.mp3"}
-{"sl": "spodleteti", "ru": "потерпеть неудачу", "cat": "verb", "audio": "c_901.mp3"}
-{"sl": "izbrati", "ru": "выбирать", "cat": "verb", "audio": "c_928.mp3"}
-{"sl": "ustreliti", "ru": "стрелять", "cat": "verb", "audio": "c_926.mp3"}
-{"sl": "voliti", "ru": "голосовать", "cat": "verb", "audio": "c_924.mp3"}
-{"sl": "padati", "ru": "падать", "cat": "verb", "audio": "c_923.mp3"}
-{"sl": "braniti", "ru": "защищать", "cat": "verb", "audio": "c_922.mp3"}
-{"sl": "napasti", "ru": "атаковать", "cat": "verb", "audio": "c_921.mp3"}
-{"sl": "ukrasti", "ru": "красть", "cat": "verb", "audio": "c_927.mp3"}
-{"sl": "goreti", "ru": "жечь", "cat": "verb", "audio": "c_915.mp3"}
-{"sl": "rešiti", "ru": "спасать", "cat": "verb", "audio": "c_914.mp3"}
-{"sl": "kaditi", "ru": "курить", "cat": "verb", "audio": "c_913.mp3"}
-{"sl": "leteti", "ru": "летать", "cat": "verb", "audio": "c_912.mp3"}
-{"sl": "nositi", "ru": "носить", "cat": "verb", "audio": "c_909.mp3"}
-{"sl": "pljuvati", "ru": "плевать", "cat": "verb", "audio": "c_953.mp3"}
-{"sl": "brcniti", "ru": "пинать", "cat": "verb", "audio": "c_951.mp3"}
-{"sl": "ugrizniti", "ru": "кусать", "cat": "verb", "audio": "c_947.mp3"}
-{"sl": "dihati", "ru": "дышать", "cat": "verb", "audio": "c_945.mp3"}
-{"sl": "vonjati", "ru": "нюхать", "cat": "verb", "audio": "c_942.mp3"}
-{"sl": "jokati", "ru": "плакать", "cat": "verb", "audio": "c_937.mp3"}
-{"sl": "peti", "ru": "петь", "cat": "verb", "audio": "c_936.mp3"}
-{"sl": "smehljati se", "ru": "улыбаться", "cat": "verb", "audio": "c_933.mp3"}
-{"sl": "smejati se", "ru": "смеяться", "cat": "verb", "audio": "c_932.mp3"}
-{"sl": "rasti", "ru": "расти", "cat": "verb", "audio": "c_930.mp3"}
-{"sl": "manjšati se", "ru": "уменьшаться", "cat": "verb", "audio": "c_929.mp3"}
-{"sl": "kregati se", "ru": "спорить", "cat": "verb", "audio": "c_976.mp3"}
-{"sl": "groziti", "ru": "угрожать", "cat": "verb", "audio": "c_975.mp3"}
-{"sl": "deliti", "ru": "делиться", "cat": "verb", "audio": "c_973.mp3"}
-{"sl": "nahraniti", "ru": "кормить", "cat": "verb", "audio": "c_971.mp3"}
-{"sl": "skriti", "ru": "прятаться", "cat": "verb", "audio": "c_968.mp3"}
-{"sl": "posvariti", "ru": "предупреждать", "cat": "verb", "audio": "c_959.mp3"}
-{"sl": "plavati", "ru": "плавать", "cat": "verb", "audio": "c_979.mp3"}
-{"sl": "skočiti", "ru": "прыгать", "cat": "verb", "audio": "c_983.mp3"}
-{"sl": "kotaliti se", "ru": "сворачивать", "cat": "thing", "audio": "c_988.mp3"}
-{"sl": "dvigniti", "ru": "поднимать", "cat": "verb", "audio": "c_991.mp3"}
-{"sl": "kopati", "ru": "копать", "cat": "verb", "audio": "c_992.mp3"}
-{"sl": "kopirati", "ru": "копировать", "cat": "verb", "audio": "c_1046.mp3"}
-{"sl": "dostaviti", "ru": "доставлять", "cat": "verb", "audio": "c_1052.mp3"}
-{"sl": "iskati", "ru": "искать", "cat": "verb", "audio": "c_1038.mp3"}
-{"sl": "vaditi", "ru": "тренироваться", "cat": "verb", "audio": "c_1004.mp3"}
-{"sl": "potovati", "ru": "путешествовать", "cat": "verb", "audio": "c_1033.mp3"}
-{"sl": "slikati", "ru": "рисовать", "cat": "verb", "audio": "c_1031.mp3"}
-{"sl": "stuširati se", "ru": "принимать душ", "cat": "verb", "audio": "c_1024.mp3"}
-{"sl": "odpreti", "ru": "открывать", "cat": "verb", "audio": "c_1020.mp3"}
-{"sl": "zakleniti", "ru": "закрывать", "cat": "verb", "audio": "c_1019.mp3"}
-{"sl": "prati", "ru": "мыть", "cat": "verb", "audio": "c_1017.mp3"}
-{"sl": "moliti", "ru": "молиться", "cat": "verb", "audio": "c_1016.mp3"}
-{"sl": "kuhati", "ru": "готовить", "cat": "verb", "audio": "c_1015.mp3"}
-{"sl": "knjiga", "ru": "книга", "cat": "school", "audio": "c_2166.mp3"}
-{"sl": "knjižnica", "ru": "библиотека", "cat": "school", "audio": "c_2162.mp3"}
-{"sl": "domača naloga", "ru": "домашнее задание", "cat": "school", "audio": "c_2157.mp3"}
-{"sl": "izpit", "ru": "экзамен", "cat": "school", "audio": "c_2156.mp3"}
-{"sl": "lekcija", "ru": "урок", "cat": "school", "audio": "c_2155.mp3"}
-{"sl": "znanost", "ru": "наука", "cat": "school", "audio": "c_2168.mp3"}
-{"sl": "zgodovina", "ru": "история", "cat": "school", "audio": "c_2167.mp3"}
-{"sl": "umetnost", "ru": "изобразительное искусство", "cat": "school", "audio": "c_2171.mp3"}
-{"sl": "angleščina", "ru": "английский язык", "cat": "school", "audio": "c_2172.mp3"}
-{"sl": "francoščina", "ru": "французский язык", "cat": "school", "audio": "c_2177.mp3"}
-{"sl": "pero", "ru": "ручка", "cat": "school", "audio": "c_2190.mp3"}
-{"sl": "svinčnik", "ru": "карандаш", "cat": "school", "audio": "c_2188.mp3"}
-{"sl": "trije odstotki", "ru": "3%", "cat": "thing", "audio": "c_2214.mp3"}
-{"sl": "prvi", "ru": "первый", "cat": "thing", "audio": "c_2217.mp3"}
-{"sl": "drugi", "ru": "второй", "cat": "thing", "audio": "c_2218.mp3"}
-{"sl": "tretji", "ru": "третий", "cat": "thing", "audio": "c_2219.mp3"}
-{"sl": "četrti", "ru": "четвертый", "cat": "thing", "audio": "c_2220.mp3"}
-{"sl": "rezultat", "ru": "результат", "cat": "thing", "audio": "c_2216.mp3"}
-{"sl": "kvadrat", "ru": "квадрат", "cat": "thing", "audio": "c_2237.mp3"}
-{"sl": "krog", "ru": "круг", "cat": "thing", "audio": "c_2231.mp3"}
-{"sl": "površina", "ru": "площадь", "cat": "thing", "audio": "c_2254.mp3"}
-{"sl": "raziskava", "ru": "исследование", "cat": "school", "audio": "c_2292.mp3"}
-{"sl": "stopnja", "ru": "степень", "cat": "school", "audio": "c_2290.mp3"}
-{"sl": "diplomant", "ru": "бакалавр", "cat": "school", "audio": "c_2285.mp3"}
-{"sl": "magisterij", "ru": "магистр", "cat": "school", "audio": "c_2286.mp3"}
-{"sl": "x je manjši od y", "ru": "x < y", "cat": "thing", "audio": "c_2319.mp3"}
-{"sl": "x je večji od y", "ru": "x > y", "cat": "thing", "audio": "c_2320.mp3"}
-{"sl": "stres", "ru": "стресс", "cat": "thing", "audio": "c_3255.mp3"}
-{"sl": "zavarovanje", "ru": "страхование", "cat": "shop", "audio": "c_3246.mp3"}
-{"sl": "osebje", "ru": "персонал", "cat": "shop", "audio": "c_3242.mp3"}
-{"sl": "oddelek", "ru": "отдел", "cat": "shop", "audio": "c_3247.mp3"}
-{"sl": "plača", "ru": "зарплата", "cat": "shop", "audio": "c_3243.mp3"}
-{"sl": "naslov", "ru": "адрес", "cat": "shop", "audio": "c_3265.mp3"}
-{"sl": "pismo", "ru": "письмо", "cat": "shop", "audio": "c_3262.mp3"}
-{"sl": "kapitan", "ru": "капитан", "cat": "job", "audio": "c_3310.mp3"}
-{"sl": "detektiv", "ru": "детектив", "cat": "job", "audio": "c_3319.mp3"}
-{"sl": "pilot", "ru": "пилот", "cat": "job", "audio": "c_3302.mp3"}
-{"sl": "profesor", "ru": "профессор", "cat": "job", "audio": "c_3301.mp3"}
-{"sl": "učitelj", "ru": "учитель", "cat": "job", "audio": "c_3298.mp3"}
-{"sl": "odvetnik", "ru": "адвокат", "cat": "job", "audio": "c_3292.mp3"}
-{"sl": "tajnica", "ru": "секретарь", "cat": "job", "audio": "c_3290.mp3"}
-{"sl": "pomočnik", "ru": "помощник", "cat": "job", "audio": "c_3289.mp3"}
-{"sl": "sodnik", "ru": "судья", "cat": "job", "audio": "c_3288.mp3"}
-{"sl": "direktor", "ru": "директор", "cat": "job", "audio": "c_3287.mp3"}
-{"sl": "vodja", "ru": "менеджер", "cat": "job", "audio": "c_3285.mp3"}
-{"sl": "kuhar", "ru": "повар", "cat": "job", "audio": "c_3359.mp3"}
-{"sl": "voznik taksija", "ru": "водитель такси", "cat": "job", "audio": "c_3358.mp3"}
-{"sl": "voznik avtobusa", "ru": "водитель автобуса", "cat": "job", "audio": "c_3356.mp3"}
-{"sl": "kriminalec", "ru": "преступник", "cat": "job", "audio": "c_3393.mp3"}
-{"sl": "model", "ru": "модель", "cat": "job", "audio": "c_3380.mp3"}
-{"sl": "umetnik", "ru": "художник", "cat": "job", "audio": "c_3378.mp3"}
-{"sl": "telefonska številka", "ru": "номер телефона", "cat": "shop", "audio": "c_3442.mp3"}
-{"sl": "signal", "ru": "сигнал", "cat": "shop", "audio": "c_3439.mp3"}
-{"sl": "aplikacija", "ru": "приложение", "cat": "shop", "audio": "c_3437.mp3"}
-{"sl": "klepet", "ru": "чат", "cat": "shop", "audio": "c_3436.mp3"}
-{"sl": "datoteka", "ru": "файл", "cat": "shop", "audio": "c_3434.mp3"}
-{"sl": "url", "ru": "URL", "cat": "shop", "audio": "c_3429.mp3"}
-{"sl": "e-naslov", "ru": "адрес электронной почты", "cat": "shop", "audio": "c_3428.mp3"}
-{"sl": "spletna stran", "ru": "веб-сайт", "cat": "shop", "audio": "c_3427.mp3"}
-{"sl": "e-pošta", "ru": "электронная почта", "cat": "shop", "audio": "c_3425.mp3"}
-{"sl": "mobilni telefon", "ru": "мобильный телефон", "cat": "shop", "audio": "c_3418.mp3"}
-{"sl": "zakon", "ru": "закон", "cat": "shop", "audio": "c_3456.mp3"}
-{"sl": "zapor", "ru": "тюрьма", "cat": "shop", "audio": "c_3451.mp3"}
-{"sl": "dokaz", "ru": "доказательство", "cat": "shop", "audio": "c_3449.mp3"}
-{"sl": "globa", "ru": "штраф", "cat": "shop", "audio": "c_3448.mp3"}
-{"sl": "priča", "ru": "свидетель", "cat": "shop", "audio": "c_3445.mp3"}
-{"sl": "sodišče", "ru": "суд", "cat": "shop", "audio": "c_3443.mp3"}
-{"sl": "podpis", "ru": "подпись", "cat": "shop", "audio": "c_3487.mp3"}
-{"sl": "izguba", "ru": "потеря", "cat": "shop", "audio": "c_3545.mp3"}
-{"sl": "dobiček", "ru": "прибыль", "cat": "shop", "audio": "c_3544.mp3"}
-{"sl": "stranka", "ru": "клиент", "cat": "shop", "audio": "c_3464.mp3"}
-{"sl": "znesek", "ru": "сумма", "cat": "shop", "audio": "c_3461.mp3"}
-{"sl": "kreditna kartica", "ru": "кредитная карточка", "cat": "shop", "audio": "c_3457.mp3"}
-{"sl": "geslo", "ru": "пароль", "cat": "shop", "audio": "c_3459.mp3"}
-{"sl": "bankomat", "ru": "банкомат", "cat": "shop", "audio": "c_3473.mp3"}
-{"sl": "bazen", "ru": "бассейн", "cat": "thing", "audio": "c_3527.mp3"}
-{"sl": "elektrika", "ru": "ток", "cat": "thing", "audio": "c_3562.mp3"}
-{"sl": "kamera", "ru": "камера", "cat": "thing", "audio": "c_3553.mp3"}
-{"sl": "radio", "ru": "радио", "cat": "thing", "audio": "c_3549.mp3"}
-{"sl": "darilo", "ru": "подарок", "cat": "thing", "audio": "c_3584.mp3"}
-{"sl": "steklenica", "ru": "бутылка", "cat": "thing", "audio": "c_3574.mp3"}
-{"sl": "vrečka", "ru": "пакет", "cat": "thing", "audio": "c_3575.mp3"}
-{"sl": "ključ", "ru": "ключ", "cat": "thing", "audio": "c_3568.mp3"}
-{"sl": "lutka", "ru": "кукла", "cat": "thing", "audio": "c_3609.mp3"}
-{"sl": "angel", "ru": "ангел", "cat": "thing", "audio": "c_3614.mp3"}
-{"sl": "glavnik", "ru": "расческа", "cat": "thing", "audio": "c_2863.mp3"}
-{"sl": "zobna pasta", "ru": "зубная паста", "cat": "thing", "audio": "c_2862.mp3"}
-{"sl": "zobna ščetka", "ru": "зубная щетка", "cat": "thing", "audio": "c_2861.mp3"}
-{"sl": "šampon", "ru": "шампунь", "cat": "thing", "audio": "c_2860.mp3"}
-{"sl": "krema", "ru": "крем", "cat": "thing", "audio": "c_2858.mp3"}
-{"sl": "robček", "ru": "бумажная салфетка", "cat": "thing", "audio": "c_2856.mp3"}
-{"sl": "šminka", "ru": "губная помада", "cat": "thing", "audio": "c_2877.mp3"}
-{"sl": "TV", "ru": "ТВ", "cat": "thing", "audio": "c_3782.mp3"}
-{"sl": "kino", "ru": "кино", "cat": "thing", "audio": "c_3781.mp3"}
-{"sl": "novice", "ru": "новости", "cat": "thing", "audio": "c_2018.mp3"}
-{"sl": "sedež", "ru": "место", "cat": "thing", "audio": "c_2016.mp3"}
-{"sl": "vstopnica", "ru": "билет", "cat": "thing", "audio": "c_2015.mp3"}
-{"sl": "platno", "ru": "экран", "cat": "thing", "audio": "c_2014.mp3"}
-{"sl": "glasba", "ru": "музыка", "cat": "thing", "audio": "c_90.mp3"}
-{"sl": "oder", "ru": "сцена", "cat": "thing", "audio": "c_2103.mp3"}
-{"sl": "občinstvo", "ru": "зритель", "cat": "thing", "audio": "c_2100.mp3"}
-{"sl": "slika", "ru": "картина", "cat": "thing", "audio": "c_2083.mp3"}
-{"sl": "šala", "ru": "шутка", "cat": "thing", "audio": "c_2129.mp3"}
-{"sl": "članek", "ru": "статья", "cat": "thing", "audio": "c_2126.mp3"}
-{"sl": "časopis", "ru": "газета", "cat": "thing", "audio": "c_2124.mp3"}
-{"sl": "revija", "ru": "журнал", "cat": "thing", "audio": "c_2123.mp3"}
-{"sl": "oglaševanje", "ru": "реклама", "cat": "thing", "audio": "c_2120.mp3"}
-{"sl": "narava", "ru": "природа", "cat": "weather", "audio": "c_104.mp3"}
-{"sl": "pepel", "ru": "пепел", "cat": "weather", "audio": "c_2351.mp3"}
-{"sl": "ogenj", "ru": "огонь", "cat": "weather", "audio": "c_2347.mp3"}
-{"sl": "diamant", "ru": "алмаз", "cat": "weather", "audio": "c_2339.mp3"}
-{"sl": "luna", "ru": "Луна", "cat": "weather", "audio": "c_2364.mp3"}
-{"sl": "Zemlja", "ru": "Земля", "cat": "weather", "audio": "c_2357.mp3"}
-{"sl": "sonce", "ru": "солнце", "cat": "weather", "audio": "c_2354.mp3"}
-{"sl": "zvezda", "ru": "звезда", "cat": "weather", "audio": "c_2353.mp3"}
-{"sl": "planet", "ru": "планета", "cat": "weather", "audio": "c_2352.mp3"}
-{"sl": "vesolje", "ru": "вселенная", "cat": "weather", "audio": "c_106.mp3"}
-{"sl": "obala", "ru": "побережье", "cat": "weather", "audio": "c_2444.mp3"}
-{"sl": "jezero", "ru": "озеро", "cat": "weather", "audio": "c_2442.mp3"}
-{"sl": "gozd", "ru": "лес", "cat": "weather", "audio": "c_2437.mp3"}
-{"sl": "puščava", "ru": "пустыня", "cat": "weather", "audio": "c_2436.mp3"}
-{"sl": "hrib", "ru": "холм", "cat": "weather", "audio": "c_2432.mp3"}
-{"sl": "skala", "ru": "утес", "cat": "weather", "audio": "c_2431.mp3"}
-{"sl": "reka", "ru": "река", "cat": "weather", "audio": "c_2427.mp3"}
-{"sl": "dolina", "ru": "долина", "cat": "weather", "audio": "c_2426.mp3"}
-{"sl": "gora", "ru": "гора", "cat": "weather", "audio": "c_2417.mp3"}
-{"sl": "otok", "ru": "остров", "cat": "weather", "audio": "c_2412.mp3"}
-{"sl": "ocean", "ru": "океан", "cat": "weather", "audio": "c_2411.mp3"}
-{"sl": "morje", "ru": "море", "cat": "weather", "audio": "c_2410.mp3"}
-{"sl": "vreme", "ru": "погода", "cat": "weather", "audio": "c_109.mp3"}
-{"sl": "led", "ru": "лед", "cat": "weather", "audio": "c_2465.mp3"}
-{"sl": "sneg", "ru": "снег", "cat": "weather", "audio": "c_2464.mp3"}
-{"sl": "nevihta", "ru": "буря", "cat": "weather", "audio": "c_2460.mp3"}
-{"sl": "dež", "ru": "дождь", "cat": "weather", "audio": "c_2450.mp3"}
-{"sl": "veter", "ru": "ветер", "cat": "weather", "audio": "c_2449.mp3"}
-{"sl": "rastlina", "ru": "растение", "cat": "weather", "audio": "c_111.mp3"}
-{"sl": "drevo", "ru": "дерево", "cat": "weather", "audio": "c_2477.mp3"}
-{"sl": "trava", "ru": "трава", "cat": "weather", "audio": "c_2508.mp3"}
-{"sl": "vrtnica", "ru": "роза", "cat": "weather", "audio": "c_2503.mp3"}
-{"sl": "roža", "ru": "цветок", "cat": "weather", "audio": "c_2495.mp3"}
-{"sl": "plin", "ru": "газ", "cat": "weather", "audio": "c_2534.mp3"}
-{"sl": "kovina", "ru": "металл", "cat": "weather", "audio": "c_2531.mp3"}
-{"sl": "zlato", "ru": "золото", "cat": "shop", "audio": "c_2628.mp3"}
-{"sl": "srebro", "ru": "серебро", "cat": "shop", "audio": "c_2596.mp3"}
-{"sl": "Srebro je cenejše od zlata", "ru": "Серебро дешевле золота", "cat": "thing", "audio": "c_3747.mp3"}
-{"sl": "Zlato je dražje od srebra", "ru": "Золото дороже серебра", "cat": "thing", "audio": "c_3748.mp3"}
-{"sl": "počitnice", "ru": "отпуск", "cat": "thing", "audio": "c_75.mp3"}
-{"sl": "član", "ru": "член", "cat": "thing", "audio": "c_3759.mp3"}
-{"sl": "hotel", "ru": "гостиница", "cat": "goplace", "audio": "c_1620.mp3"}
-{"sl": "plaža", "ru": "пляж", "cat": "goplace", "audio": "c_1618.mp3"}
-{"sl": "gost", "ru": "гость", "cat": "thing", "audio": "c_1602.mp3"}
-{"sl": "rojstni dan", "ru": "день рождения", "cat": "thing", "audio": "c_1664.mp3"}
-{"sl": "božič", "ru": "Рождество", "cat": "thing", "audio": "c_1665.mp3"}
-{"sl": "novo leto", "ru": "Новый год", "cat": "thing", "audio": "c_1666.mp3"}
-{"sl": "velika noč", "ru": "Пасха", "cat": "thing", "audio": "c_1670.mp3"}
-{"sl": "stric", "ru": "дядя", "cat": "family", "audio": "c_1721.mp3"}
-{"sl": "teta", "ru": "тетя", "cat": "family", "audio": "c_1720.mp3"}
-{"sl": "babica", "ru": "бабушка", "cat": "family", "audio": "c_1718.mp3"}
-{"sl": "dedek", "ru": "дедушка", "cat": "family", "audio": "c_1716.mp3"}
-{"sl": "babica", "ru": "бабушка", "cat": "family", "audio": "c_1719.mp3"}
-{"sl": "dedek", "ru": "дедушка", "cat": "family", "audio": "c_1717.mp3"}
-{"sl": "smrt", "ru": "смерть", "cat": "thing", "audio": "c_1801.mp3"}
-{"sl": "grob", "ru": "могила", "cat": "thing", "audio": "c_1795.mp3"}
-{"sl": "ločitev", "ru": "развод", "cat": "family", "audio": "c_1779.mp3"}
-{"sl": "nevesta", "ru": "невеста", "cat": "family", "audio": "c_1781.mp3"}
-{"sl": "ženin", "ru": "жених", "cat": "family", "audio": "c_1780.mp3"}
-{"sl": "sto ena", "ru": "101", "cat": "thing", "audio": "c_507.mp3"}
-{"sl": "sto pet", "ru": "105", "cat": "thing", "audio": "c_508.mp3"}
-{"sl": "sto deset", "ru": "110", "cat": "thing", "audio": "c_509.mp3"}
-{"sl": "sto enainpetdeset", "ru": "151", "cat": "thing", "audio": "c_510.mp3"}
-{"sl": "dvesto", "ru": "200", "cat": "thing", "audio": "c_511.mp3"}
-{"sl": "dvesto dva", "ru": "202", "cat": "thing", "audio": "c_512.mp3"}
-{"sl": "dvesto šest", "ru": "206", "cat": "thing", "audio": "c_513.mp3"}
-{"sl": "dvesto dvajset", "ru": "220", "cat": "thing", "audio": "c_514.mp3"}
-{"sl": "dvesto dvainšestdeset", "ru": "262", "cat": "thing", "audio": "c_515.mp3"}
-{"sl": "tristo", "ru": "300", "cat": "thing", "audio": "c_516.mp3"}
-{"sl": "tristo tri", "ru": "303", "cat": "thing", "audio": "c_517.mp3"}
-{"sl": "tristo sedem", "ru": "307", "cat": "thing", "audio": "c_518.mp3"}
-{"sl": "tristo trideset", "ru": "330", "cat": "thing", "audio": "c_519.mp3"}
-{"sl": "tristo triinsedemdeset", "ru": "373", "cat": "thing", "audio": "c_520.mp3"}
-{"sl": "štiristo", "ru": "400", "cat": "thing", "audio": "c_521.mp3"}
-{"sl": "štiristo štiri", "ru": "404", "cat": "thing", "audio": "c_522.mp3"}
-{"sl": "štiristo osem", "ru": "408", "cat": "thing", "audio": "c_523.mp3"}
-{"sl": "štiristo štirideset", "ru": "440", "cat": "thing", "audio": "c_524.mp3"}
-{"sl": "štiristo štiriinosemdeset", "ru": "484", "cat": "thing", "audio": "c_525.mp3"}
-{"sl": "petsto", "ru": "500", "cat": "thing", "audio": "c_526.mp3"}
-{"sl": "petsto pet", "ru": "505", "cat": "thing", "audio": "c_527.mp3"}
-{"sl": "petsto devet", "ru": "509", "cat": "thing", "audio": "c_528.mp3"}
-{"sl": "petsto petdeset", "ru": "550", "cat": "thing", "audio": "c_529.mp3"}
-{"sl": "petsto petindevetdeset", "ru": "595", "cat": "thing", "audio": "c_530.mp3"}
-{"sl": "šeststo", "ru": "600", "cat": "thing", "audio": "c_531.mp3"}
-{"sl": "šeststo ena", "ru": "601", "cat": "thing", "audio": "c_532.mp3"}
-{"sl": "šeststo šest", "ru": "606", "cat": "thing", "audio": "c_533.mp3"}
-{"sl": "šeststo šestnajst", "ru": "616", "cat": "thing", "audio": "c_534.mp3"}
-{"sl": "šeststo šestdeset", "ru": "660", "cat": "thing", "audio": "c_535.mp3"}
-{"sl": "sedemsto", "ru": "700", "cat": "thing", "audio": "c_536.mp3"}
-{"sl": "sedemsto dva", "ru": "702", "cat": "thing", "audio": "c_537.mp3"}
-{"sl": "sedemsto sedem", "ru": "707", "cat": "thing", "audio": "c_538.mp3"}
-{"sl": "sedemsto sedemindvajset", "ru": "727", "cat": "thing", "audio": "c_539.mp3"}
-{"sl": "sedemsto sedemdeset", "ru": "770", "cat": "thing", "audio": "c_540.mp3"}
-{"sl": "osemsto", "ru": "800", "cat": "thing", "audio": "c_541.mp3"}
-{"sl": "osemsto tri", "ru": "803", "cat": "thing", "audio": "c_542.mp3"}
-{"sl": "osemsto osem", "ru": "808", "cat": "thing", "audio": "c_543.mp3"}
-{"sl": "osemsto osemintrideset", "ru": "838", "cat": "thing", "audio": "c_544.mp3"}
-{"sl": "osemsto osemdeset", "ru": "880", "cat": "thing", "audio": "c_545.mp3"}
-{"sl": "devetsto", "ru": "900", "cat": "thing", "audio": "c_546.mp3"}
-{"sl": "devetsto štiri", "ru": "904", "cat": "thing", "audio": "c_547.mp3"}
-{"sl": "devetsto devet", "ru": "909", "cat": "thing", "audio": "c_548.mp3"}
-{"sl": "devetsto devetinštirideset", "ru": "949", "cat": "thing", "audio": "c_549.mp3"}
-{"sl": "devetsto devetdeset", "ru": "990", "cat": "thing", "audio": "c_550.mp3"}
-{"sl": "tiger", "ru": "тигр", "cat": "thing", "audio": "c_92.mp3"}
-{"sl": "miš", "ru": "мышь", "cat": "thing", "audio": "c_192.mp3"}
-{"sl": "podgana", "ru": "крыса", "cat": "thing", "audio": "c_195.mp3"}
-{"sl": "zajec", "ru": "кролик", "cat": "thing", "audio": "c_89.mp3"}
-{"sl": "lev", "ru": "лев", "cat": "thing", "audio": "c_25.mp3"}
-{"sl": "osel", "ru": "осел", "cat": "thing", "audio": "c_2.mp3"}
-{"sl": "slon", "ru": "слон", "cat": "thing", "audio": "c_9.mp3"}
-{"sl": "ptica", "ru": "птица", "cat": "thing", "audio": "c_3.mp3"}
-{"sl": "petelin", "ru": "петух", "cat": "thing", "audio": "c_17.mp3"}
-{"sl": "golob", "ru": "голубь", "cat": "thing", "audio": "c_100.mp3"}
-{"sl": "gos", "ru": "гусь", "cat": "thing", "audio": "c_44.mp3"}
-{"sl": "žuželka", "ru": "насекомое", "cat": "thing", "audio": "c_4.mp3"}
-{"sl": "hrošč", "ru": "жук", "cat": "thing", "audio": "c_103.mp3"}
-{"sl": "komar", "ru": "комар", "cat": "thing", "audio": "c_58.mp3"}
-{"sl": "muha", "ru": "муха", "cat": "thing", "audio": "c_53.mp3"}
-{"sl": "mravlja", "ru": "муравей", "cat": "thing", "audio": "c_51.mp3"}
-{"sl": "kit", "ru": "кит", "cat": "thing", "audio": "c_111.mp3"}
-{"sl": "morski pes", "ru": "акула", "cat": "thing", "audio": "c_67.mp3"}
-{"sl": "delfin", "ru": "дельфин", "cat": "thing", "audio": "c_60.mp3"}
-{"sl": "polž", "ru": "улитка", "cat": "thing", "audio": "c_115.mp3"}
-{"sl": "žaba", "ru": "лягушка", "cat": "thing", "audio": "c_81.mp3"}
-{"sl": "pogosto", "ru": "часто", "cat": "thing", "audio": "c_3662.mp3"}
-{"sl": "takoj", "ru": "немедленно", "cat": "thing", "audio": "c_3661.mp3"}
-{"sl": "nenadoma", "ru": "вдруг", "cat": "thing", "audio": "c_3658.mp3"}
-{"sl": "čeprav", "ru": "хотя", "cat": "thing", "audio": "c_3657.mp3"}
-{"sl": "gimnastika", "ru": "гимнастика", "cat": "thing", "audio": "c_141.mp3"}
-{"sl": "tenis", "ru": "теннис", "cat": "thing", "audio": "c_138.mp3"}
-{"sl": "tek", "ru": "бег", "cat": "thing", "audio": "c_129.mp3"}
-{"sl": "kolesarjenje", "ru": "езда на велосипеде", "cat": "thing", "audio": "c_122.mp3"}
-{"sl": "golf", "ru": "гольф", "cat": "thing", "audio": "c_125.mp3"}
-{"sl": "drsanje", "ru": "катание на коньках", "cat": "thing", "audio": "c_143.mp3"}
-{"sl": "nogomet", "ru": "футбол", "cat": "thing", "audio": "c_158.mp3"}
-{"sl": "košarka", "ru": "баскетбол", "cat": "thing", "audio": "c_155.mp3"}
-{"sl": "plavanje", "ru": "плавание", "cat": "thing", "audio": "c_208.mp3"}
-{"sl": "potapljanje", "ru": "дайвинг", "cat": "thing", "audio": "c_169.mp3"}
-{"sl": "pohodništvo", "ru": "пеший туризм", "cat": "thing", "audio": "c_191.mp3"}
-{"sl": "Združeno kraljestvo", "ru": "Великобритания", "cat": "info", "audio": "c_283.mp3"}
-{"sl": "Španija", "ru": "Испания", "cat": "info", "audio": "c_280.mp3"}
-{"sl": "Švica", "ru": "Швейцария", "cat": "info", "audio": "c_276.mp3"}
-{"sl": "Italija", "ru": "Италия", "cat": "info", "audio": "c_257.mp3"}
-{"sl": "Francija", "ru": "Франция", "cat": "info", "audio": "c_252.mp3"}
-{"sl": "Nemčija", "ru": "Германия", "cat": "info", "audio": "c_248.mp3"}
-{"sl": "Tajska", "ru": "Таиланд", "cat": "info", "audio": "c_334.mp3"}
-{"sl": "Singapur", "ru": "Сингапур", "cat": "info", "audio": "c_328.mp3"}
-{"sl": "Rusija", "ru": "Россия", "cat": "info", "audio": "c_326.mp3"}
-{"sl": "Japonska", "ru": "Япония", "cat": "info", "audio": "c_304.mp3"}
-{"sl": "Izrael", "ru": "Израиль", "cat": "info", "audio": "c_303.mp3"}
-{"sl": "Indija", "ru": "Индия", "cat": "info", "audio": "c_299.mp3"}
-{"sl": "Kitajska", "ru": "Китай", "cat": "info", "audio": "c_296.mp3"}
-{"sl": "Združene države Amerike", "ru": "Соединенные Штаты Америки", "cat": "thing", "audio": "c_378.mp3"}
-{"sl": "Mehika", "ru": "Мексика", "cat": "info", "audio": "c_365.mp3"}
-{"sl": "Kanada", "ru": "Канада", "cat": "info", "audio": "c_362.mp3"}
-{"sl": "Čile", "ru": "Чили", "cat": "info", "audio": "c_348.mp3"}
-{"sl": "Brazilija", "ru": "Бразилия", "cat": "info", "audio": "c_346.mp3"}
-{"sl": "Argentina", "ru": "Аргентина", "cat": "info", "audio": "c_340.mp3"}
-{"sl": "Južna Afrika", "ru": "Южная Африка", "cat": "info", "audio": "c_425.mp3"}
-{"sl": "Nigerija", "ru": "Нигерия", "cat": "info", "audio": "c_414.mp3"}
-{"sl": "Maroko", "ru": "Марокко", "cat": "info", "audio": "c_409.mp3"}
-{"sl": "Libija", "ru": "Ливия", "cat": "info", "audio": "c_404.mp3"}
-{"sl": "Kenija", "ru": "Кения", "cat": "info", "audio": "c_400.mp3"}
-{"sl": "Alžirija", "ru": "Алжир", "cat": "info", "audio": "c_382.mp3"}
-{"sl": "Egipt", "ru": "Египет", "cat": "info", "audio": "c_380.mp3"}
-{"sl": "Nova Zelandija", "ru": "Новая Зеландия", "cat": "info", "audio": "c_444.mp3"}
-{"sl": "Avstralija", "ru": "Австралия", "cat": "info", "audio": "c_435.mp3"}
-{"sl": "Afrika", "ru": "Африка", "cat": "info", "audio": "c_18.mp3"}
-{"sl": "Evropa", "ru": "Европа", "cat": "info", "audio": "c_15.mp3"}
-{"sl": "Azija", "ru": "Азия", "cat": "info", "audio": "c_16.mp3"}
-{"sl": "Amerika", "ru": "Америка", "cat": "info", "audio": "c_17.mp3"}
-{"sl": "četrt ure", "ru": "четверть часа", "cat": "time", "audio": "c_1639.mp3"}
-{"sl": "pol ure", "ru": "полчаса", "cat": "time", "audio": "c_1638.mp3"}
-{"sl": "tri četrt ure", "ru": "три четверти часа", "cat": "time", "audio": "c_1640.mp3"}
-{"sl": "ob enih", "ru": "1:00", "cat": "thing", "audio": "c_1641.mp3"}
-{"sl": "pet čez dve", "ru": "2:05", "cat": "thing", "audio": "c_1642.mp3"}
-{"sl": "deset čez tri", "ru": "3:10", "cat": "thing", "audio": "c_1643.mp3"}
-{"sl": "četrt čez štiri", "ru": "4:15", "cat": "thing", "audio": "c_1644.mp3"}
-{"sl": "dvajset čez pet", "ru": "5:20", "cat": "thing", "audio": "c_1645.mp3"}
-{"sl": "petindvajset čez šest", "ru": "6:25", "cat": "thing", "audio": "c_1646.mp3"}
-{"sl": "pol osmih", "ru": "7:30", "cat": "thing", "audio": "c_1647.mp3"}
-{"sl": "osem petintrideset", "ru": "8:35", "cat": "thing", "audio": "c_1648.mp3"}
-{"sl": "dvajset do desetih", "ru": "9:40", "cat": "thing", "audio": "c_1649.mp3"}
-{"sl": "petnajst do enajstih", "ru": "10:45", "cat": "thing", "audio": "c_1650.mp3"}
-{"sl": "deset do dvanajstih", "ru": "11:50", "cat": "thing", "audio": "c_1651.mp3"}
-{"sl": "pet do enih", "ru": "12:55", "cat": "thing", "audio": "c_1652.mp3"}
-{"sl": "ob enih zjutraj", "ru": "час ночи", "cat": "thing", "audio": "c_1636.mp3"}
-{"sl": "ob dveh popoldan", "ru": "два часа дня", "cat": "thing", "audio": "c_1637.mp3"}
-{"sl": "prejšnji teden", "ru": "на прошлой неделе", "cat": "time", "audio": "c_1705.mp3"}
-{"sl": "ta teden", "ru": "на этой неделе", "cat": "time", "audio": "c_1706.mp3"}
-{"sl": "naslednji teden", "ru": "на следующей неделе", "cat": "time", "audio": "c_1707.mp3"}
-{"sl": "lansko leto", "ru": "в прошлом году", "cat": "time", "audio": "c_1708.mp3"}
-{"sl": "to leto", "ru": "в этом году", "cat": "time", "audio": "c_1709.mp3"}
-{"sl": "naslednje leto", "ru": "в следующем году", "cat": "time", "audio": "c_1710.mp3"}
-{"sl": "prejšnji mesec", "ru": "в прошлом месяце", "cat": "time", "audio": "c_1711.mp3"}
-{"sl": "ta mesec", "ru": "в этом месяце", "cat": "time", "audio": "c_1712.mp3"}
-{"sl": "naslednji mesec", "ru": "в следующем месяце", "cat": "time", "audio": "c_1713.mp3"}
-{"sl": "prvi januar dva tisoč štirinajst", "ru": "2014-01-01", "cat": "thing", "audio": "c_1671.mp3"}
-{"sl": "petindvajseti februar dva tisoč tri", "ru": "2003-02-25", "cat": "thing", "audio": "c_1680.mp3"}
-{"sl": "dvanajsti april tisoč devetsto oseminosemdeset", "ru": "1988-04-12", "cat": "thing", "audio": "c_1674.mp3"}
-{"sl": "trinajsti oktober tisoč osemsto devetindevetdeset", "ru": "1899-10-13", "cat": "thing", "audio": "c_1675.mp3"}
-{"sl": "trideseti september tisoč devetsto sedem", "ru": "1907-09-30", "cat": "thing", "audio": "c_1679.mp3"}
-{"sl": "dvanajsti december dva tisoč", "ru": "2000-12-12", "cat": "thing", "audio": "c_1676.mp3"}
-{"sl": "čelo", "ru": "лоб", "cat": "body", "audio": "c_640.mp3"}
-{"sl": "guba", "ru": "морщина", "cat": "body", "audio": "c_639.mp3"}
-{"sl": "brada", "ru": "подбородок", "cat": "body", "audio": "c_636.mp3"}
-{"sl": "lice", "ru": "щека", "cat": "body", "audio": "c_635.mp3"}
-{"sl": "brada", "ru": "борода", "cat": "body", "audio": "c_634.mp3"}
-{"sl": "trepalnice", "ru": "ресницы", "cat": "body", "audio": "c_609.mp3"}
-{"sl": "obrv", "ru": "бровь", "cat": "body", "audio": "c_608.mp3"}
-{"sl": "pas", "ru": "талия", "cat": "body", "audio": "c_655.mp3"}
-{"sl": "tilnik", "ru": "затылок", "cat": "body", "audio": "c_652.mp3"}
-{"sl": "prsni koš", "ru": "грудная клетка", "cat": "body", "audio": "c_616.mp3"}
-{"sl": "palec", "ru": "большой палец", "cat": "body", "audio": "c_670.mp3"}
-{"sl": "mezinec", "ru": "мизинец", "cat": "body", "audio": "c_669.mp3"}
-{"sl": "prstanec", "ru": "безымянный палец", "cat": "body", "audio": "c_668.mp3"}
-{"sl": "sredinec", "ru": "средний палец", "cat": "body", "audio": "c_667.mp3"}
-{"sl": "kazalec", "ru": "указательный палец", "cat": "body", "audio": "c_666.mp3"}
-{"sl": "zapestje", "ru": "запястье", "cat": "body", "audio": "c_660.mp3"}
-{"sl": "noht", "ru": "ноготь", "cat": "body", "audio": "c_659.mp3"}
-{"sl": "peta", "ru": "пятка", "cat": "body", "audio": "c_657.mp3"}
-{"sl": "sočen", "ru": "сочный", "cat": "thing", "audio": "c_832.mp3"}
-{"sl": "pikanten", "ru": "острый", "cat": "thing", "audio": "c_831.mp3"}
-{"sl": "slan", "ru": "соленый", "cat": "thing", "audio": "c_830.mp3"}
-{"sl": "surov", "ru": "сырой", "cat": "thing", "audio": "c_824.mp3"}
-{"sl": "kuhan", "ru": "вареный", "cat": "thing", "audio": "c_823.mp3"}
-{"sl": "sramežljiv", "ru": "застенчивый", "cat": "thing", "audio": "c_870.mp3"}
-{"sl": "pohlepen", "ru": "жадный", "cat": "thing", "audio": "c_867.mp3"}
-{"sl": "strog", "ru": "строгий", "cat": "thing", "audio": "c_860.mp3"}
-{"sl": "gluh", "ru": "глухой", "cat": "thing", "audio": "c_851.mp3"}
+{"sl": "jaz", "ru": "я", "cat": "pron", "audio": "c_3621.mp3", "level": 1}
+{"sl": "ti", "ru": "ты", "cat": "pron", "audio": "c_3622.mp3", "level": 1}
+{"sl": "on", "ru": "он", "cat": "pron", "audio": "c_3623.mp3", "level": 1}
+{"sl": "ona", "ru": "она", "cat": "pron", "audio": "c_3624.mp3", "level": 1}
+{"sl": "ono", "ru": "оно", "cat": "pron", "audio": "c_3625.mp3", "level": 1}
+{"sl": "mi", "ru": "мы", "cat": "pron", "audio": "c_3626.mp3", "level": 1}
+{"sl": "vi", "ru": "вы", "cat": "pron", "audio": "c_3627.mp3", "level": 1}
+{"sl": "oni", "ru": "они", "cat": "pron", "audio": "c_3628.mp3", "level": 1}
+{"sl": "kaj", "ru": "что", "cat": "question", "audio": "c_3697.mp3", "level": 1}
+{"sl": "kdo", "ru": "кто", "cat": "question", "audio": "c_3695.mp3", "level": 1}
+{"sl": "kje", "ru": "где", "cat": "question", "audio": "c_3696.mp3", "level": 1}
+{"sl": "zakaj", "ru": "зачем", "cat": "question", "audio": "c_3698.mp3", "level": 1}
+{"sl": "kako", "ru": "как", "cat": "question", "audio": "c_3699.mp3", "level": 1}
+{"sl": "kateri", "ru": "какой", "cat": "question", "audio": "c_3700.mp3", "level": 1}
+{"sl": "kdaj", "ru": "когда", "cat": "question", "audio": "c_3791.mp3", "level": 1}
+{"sl": "potem", "ru": "тогда", "cat": "thing", "audio": "c_3659.mp3", "level": 2}
+{"sl": "če", "ru": "если", "cat": "thing", "audio": "c_3656.mp3", "level": 2}
+{"sl": "resnično", "ru": "на самом деле", "cat": "thing", "audio": "c_3655.mp3", "level": 2}
+{"sl": "ampak", "ru": "но", "cat": "thing", "audio": "c_3652.mp3", "level": 2}
+{"sl": "ker", "ru": "потому что", "cat": "thing", "audio": "c_3651.mp3", "level": 2}
+{"sl": "ne", "ru": "не", "cat": "thing", "audio": "c_3647.mp3", "level": 2}
+{"sl": "to", "ru": "это", "cat": "thing", "audio": "c_3646.mp3", "level": 2}
+{"sl": "Rabim to", "ru": "Мне нужно это", "cat": "thing", "audio": "c_3714.mp3", "level": 3}
+{"sl": "Koliko je to?", "ru": "Сколько это стоит?", "cat": "thing", "audio": "c_3693.mp3", "level": 3}
+{"sl": "tisto", "ru": "что", "cat": "question", "audio": "c_3645.mp3", "level": 1}
+{"sl": "vse", "ru": "все", "cat": "thing", "audio": "c_3643.mp3", "level": 2}
+{"sl": "ali", "ru": "или", "cat": "thing", "audio": "c_3641.mp3", "level": 2}
+{"sl": "in", "ru": "и", "cat": "thing", "audio": "c_3640.mp3", "level": 2}
+{"sl": "vedeti", "ru": "знать", "cat": "verb", "audio": "c_902.mp3", "level": 2}
+{"sl": "Vem", "ru": "Я знаю", "cat": "thing", "audio": "c_3750.mp3", "level": 2}
+{"sl": "Ne vem", "ru": "Я не знаю", "cat": "thing", "audio": "c_3751.mp3", "level": 3}
+{"sl": "misliti", "ru": "думать", "cat": "verb", "audio": "c_896.mp3", "level": 2}
+{"sl": "priti", "ru": "приходить", "cat": "verb", "audio": "c_895.mp3", "level": 2}
+{"sl": "položiti", "ru": "класть", "cat": "verb", "audio": "c_917.mp3", "level": 2}
+{"sl": "vzeti", "ru": "брать", "cat": "verb", "audio": "c_916.mp3", "level": 2}
+{"sl": "najti", "ru": "находить", "cat": "verb", "audio": "c_910.mp3", "level": 2}
+{"sl": "poslušati", "ru": "слушать", "cat": "verb", "audio": "c_941.mp3", "level": 2}
+{"sl": "delati", "ru": "работать", "cat": "verb", "audio": "c_940.mp3", "level": 2}
+{"sl": "govoriti", "ru": "говорить", "cat": "verb", "audio": "c_938.mp3", "level": 2}
+{"sl": "dati", "ru": "давать", "cat": "verb", "audio": "c_966.mp3", "level": 2}
+{"sl": "imeti rad", "ru": "нравиться", "cat": "verb", "audio": "c_965.mp3", "level": 3}
+{"sl": "pomagati", "ru": "помогать", "cat": "verb", "audio": "c_962.mp3", "level": 2}
+{"sl": "ljubiti", "ru": "любить", "cat": "verb", "audio": "c_961.mp3", "level": 2}
+{"sl": "poklicati", "ru": "звонить", "cat": "verb", "audio": "c_1005.mp3", "level": 2}
+{"sl": "čakati", "ru": "ждать", "cat": "verb", "audio": "c_1035.mp3", "level": 2}
+{"sl": "Všeč si mi", "ru": "Ты мне нравишься", "cat": "thing", "audio": "c_3715.mp3", "level": 3}
+{"sl": "To mi ni všeč", "ru": "Мне это не нравится", "cat": "thing", "audio": "c_3716.mp3", "level": 3}
+{"sl": "Ali me ljubiš?", "ru": "Ты любишь меня?", "cat": "thing", "audio": "c_3694.mp3", "level": 3}
+{"sl": "Ljubim te", "ru": "Я люблю тебя", "cat": "thing", "audio": "c_3732.mp3", "level": 3}
+{"sl": "nič", "ru": "0", "cat": "thing", "audio": "c_454.mp3", "level": 2}
+{"sl": "ena", "ru": "1", "cat": "thing", "audio": "c_455.mp3", "level": 2}
+{"sl": "dva", "ru": "2", "cat": "thing", "audio": "c_456.mp3", "level": 2}
+{"sl": "tri", "ru": "3", "cat": "thing", "audio": "c_457.mp3", "level": 2}
+{"sl": "štiri", "ru": "4", "cat": "thing", "audio": "c_458.mp3", "level": 2}
+{"sl": "pet", "ru": "5", "cat": "thing", "audio": "c_459.mp3", "level": 2}
+{"sl": "šest", "ru": "6", "cat": "thing", "audio": "c_460.mp3", "level": 2}
+{"sl": "sedem", "ru": "7", "cat": "thing", "audio": "c_461.mp3", "level": 2}
+{"sl": "osem", "ru": "8", "cat": "thing", "audio": "c_462.mp3", "level": 2}
+{"sl": "devet", "ru": "9", "cat": "thing", "audio": "c_463.mp3", "level": 2}
+{"sl": "deset", "ru": "10", "cat": "thing", "audio": "c_464.mp3", "level": 2}
+{"sl": "enajst", "ru": "11", "cat": "thing", "audio": "c_465.mp3", "level": 2}
+{"sl": "dvanajst", "ru": "12", "cat": "thing", "audio": "c_466.mp3", "level": 2}
+{"sl": "trinajst", "ru": "13", "cat": "thing", "audio": "c_467.mp3", "level": 2}
+{"sl": "štirinajst", "ru": "14", "cat": "thing", "audio": "c_468.mp3", "level": 2}
+{"sl": "petnajst", "ru": "15", "cat": "thing", "audio": "c_469.mp3", "level": 2}
+{"sl": "šestnajst", "ru": "16", "cat": "thing", "audio": "c_470.mp3", "level": 2}
+{"sl": "sedemnajst", "ru": "17", "cat": "thing", "audio": "c_471.mp3", "level": 2}
+{"sl": "osemnajst", "ru": "18", "cat": "thing", "audio": "c_472.mp3", "level": 2}
+{"sl": "devetnajst", "ru": "19", "cat": "thing", "audio": "c_473.mp3", "level": 2}
+{"sl": "dvajset", "ru": "20", "cat": "thing", "audio": "c_474.mp3", "level": 2}
+{"sl": "nov", "ru": "новый", "cat": "thing", "audio": "c_758.mp3", "level": 2}
+{"sl": "star", "ru": "старый", "cat": "thing", "audio": "c_757.mp3", "level": 2}
+{"sl": "malo", "ru": "немногие", "cat": "thing", "audio": "c_752.mp3", "level": 2}
+{"sl": "veliko", "ru": "многие", "cat": "thing", "audio": "c_751.mp3", "level": 2}
+{"sl": "koliko?", "ru": "сколько?", "cat": "question", "audio": "c_3702.mp3", "level": 1}
+{"sl": "koliko?", "ru": "сколько?", "cat": "question", "audio": "c_3701.mp3", "level": 1}
+{"sl": "napačen", "ru": "неправильный", "cat": "thing", "audio": "c_750.mp3", "level": 2}
+{"sl": "pravilen", "ru": "правильный", "cat": "thing", "audio": "c_749.mp3", "level": 2}
+{"sl": "slab", "ru": "плохой", "cat": "thing", "audio": "c_772.mp3", "level": 2}
+{"sl": "dober", "ru": "хороший", "cat": "thing", "audio": "c_771.mp3", "level": 2}
+{"sl": "srečen", "ru": "счастливый", "cat": "thing", "audio": "c_764.mp3", "level": 2}
+{"sl": "kratek", "ru": "короткий", "cat": "thing", "audio": "c_793.mp3", "level": 2}
+{"sl": "dolg", "ru": "длинный", "cat": "thing", "audio": "c_792.mp3", "level": 2}
+{"sl": "majhen", "ru": "маленький", "cat": "thing", "audio": "c_791.mp3", "level": 2}
+{"sl": "velik", "ru": "большой", "cat": "thing", "audio": "c_790.mp3", "level": 2}
+{"sl": "tam", "ru": "там", "cat": "thing", "audio": "c_808.mp3", "level": 2}
+{"sl": "tukaj", "ru": "здесь", "cat": "thing", "audio": "c_807.mp3", "level": 2}
+{"sl": "desno", "ru": "правый", "cat": "thing", "audio": "c_797.mp3", "level": 2}
+{"sl": "levo", "ru": "левый", "cat": "thing", "audio": "c_796.mp3", "level": 2}
+{"sl": "lep", "ru": "красивый", "cat": "thing", "audio": "c_862.mp3", "level": 2}
+{"sl": "mlad", "ru": "молодой", "cat": "thing", "audio": "c_853.mp3", "level": 2}
+{"sl": "star", "ru": "старый", "cat": "thing", "audio": "c_852.mp3", "level": 2}
+{"sl": "pozdravljeni", "ru": "здравствуйте", "cat": "greet", "audio": "c_3788.mp3", "level": 2}
+{"sl": "se vidimo", "ru": "увидимся позже", "cat": "greet", "audio": "c_3689.mp3", "level": 3}
+{"sl": "v redu", "ru": "окей", "cat": "greet", "audio": "c_3688.mp3", "level": 3}
+{"sl": "pazi nase", "ru": "береги себя", "cat": "greet", "audio": "c_3687.mp3", "level": 3}
+{"sl": "ne skrbi", "ru": "не переживай", "cat": "greet", "audio": "c_3685.mp3", "level": 3}
+{"sl": "seveda", "ru": "конечно", "cat": "greet", "audio": "c_3683.mp3", "level": 2}
+{"sl": "dober dan", "ru": "добрый день", "cat": "greet", "audio": "c_3679.mp3", "level": 3}
+{"sl": "živijo", "ru": "привет", "cat": "greet", "audio": "c_3678.mp3", "level": 2}
+{"sl": "adijo", "ru": "пока-пока", "cat": "greet", "audio": "c_3676.mp3", "level": 2}
+{"sl": "nasvidenje", "ru": "до свидания", "cat": "greet", "audio": "c_3675.mp3", "level": 2}
+{"sl": "oprostite", "ru": "простите", "cat": "greet", "audio": "c_3674.mp3", "level": 2}
+{"sl": "oprosti", "ru": "извините", "cat": "greet", "audio": "c_3673.mp3", "level": 2}
+{"sl": "hvala", "ru": "спасибо", "cat": "greet", "audio": "c_3671.mp3", "level": 2}
+{"sl": "prosim", "ru": "пожалуйста", "cat": "greet", "audio": "c_3670.mp3", "level": 2}
+{"sl": "hočem to", "ru": "я хочу это", "cat": "thing", "audio": "c_3665.mp3", "level": 3}
+{"sl": "zdaj", "ru": "сейчас", "cat": "time", "audio": "c_1659.mp3", "level": 2}
+{"sl": "popoldan", "ru": "вторая половина дня", "cat": "time", "audio": "c_1658.mp3", "level": 2}
+{"sl": "dopoldan", "ru": "первая половина дня", "cat": "time", "audio": "c_1657.mp3", "level": 2}
+{"sl": "noč", "ru": "ночь", "cat": "time", "audio": "c_1656.mp3", "level": 2}
+{"sl": "zjutraj", "ru": "утро", "cat": "time", "audio": "c_1655.mp3", "level": 2}
+{"sl": "večer", "ru": "вечер", "cat": "time", "audio": "c_1654.mp3", "level": 2}
+{"sl": "opoldne", "ru": "полдень", "cat": "time", "audio": "c_1653.mp3", "level": 2}
+{"sl": "polnoč", "ru": "полночь", "cat": "time", "audio": "c_1632.mp3", "level": 2}
+{"sl": "ura", "ru": "час", "cat": "time", "audio": "c_1635.mp3", "level": 2}
+{"sl": "minuta", "ru": "минута", "cat": "time", "audio": "c_1634.mp3", "level": 2}
+{"sl": "sekunda", "ru": "секунда", "cat": "time", "audio": "c_1633.mp3", "level": 2}
+{"sl": "dan", "ru": "день", "cat": "time", "audio": "c_1660.mp3", "level": 2}
+{"sl": "teden", "ru": "неделя", "cat": "time", "audio": "c_1661.mp3", "level": 2}
+{"sl": "mesec", "ru": "месяц", "cat": "time", "audio": "c_1662.mp3", "level": 2}
+{"sl": "leto", "ru": "год", "cat": "time", "audio": "c_1663.mp3", "level": 2}
+{"sl": "čas", "ru": "время", "cat": "time", "audio": "c_76.mp3", "level": 2}
+{"sl": "datum", "ru": "дата", "cat": "time", "audio": "c_77.mp3", "level": 2}
+{"sl": "predvčerajšnjim", "ru": "позавчера", "cat": "time", "audio": "c_1700.mp3", "level": 2}
+{"sl": "včeraj", "ru": "вчера", "cat": "time", "audio": "c_1701.mp3", "level": 2}
+{"sl": "danes", "ru": "сегодня", "cat": "time", "audio": "c_1702.mp3", "level": 2}
+{"sl": "jutri", "ru": "завтра", "cat": "time", "audio": "c_1703.mp3", "level": 2}
+{"sl": "pojutrišnjem", "ru": "послезавтра", "cat": "time", "audio": "c_1704.mp3", "level": 2}
+{"sl": "ponedeljek", "ru": "понедельник", "cat": "time", "audio": "c_3796.mp3", "level": 2}
+{"sl": "torek", "ru": "вторник", "cat": "time", "audio": "c_3797.mp3", "level": 2}
+{"sl": "sreda", "ru": "среда", "cat": "time", "audio": "c_3798.mp3", "level": 2}
+{"sl": "četrtek", "ru": "четверг", "cat": "time", "audio": "c_3799.mp3", "level": 2}
+{"sl": "petek", "ru": "пятница", "cat": "time", "audio": "c_3800.mp3", "level": 2}
+{"sl": "sobota", "ru": "суббота", "cat": "time", "audio": "c_3801.mp3", "level": 2}
+{"sl": "nedelja", "ru": "воскресенье", "cat": "time", "audio": "c_3802.mp3", "level": 2}
+{"sl": "Jutri je sobota", "ru": "Завтра суббота", "cat": "thing", "audio": "c_3745.mp3", "level": 3}
+{"sl": "življenje", "ru": "жизнь", "cat": "thing", "audio": "c_79.mp3", "level": 2}
+{"sl": "ženska", "ru": "женщина", "cat": "thing", "audio": "c_2829.mp3", "level": 2}
+{"sl": "moški", "ru": "мужчина", "cat": "thing", "audio": "c_2828.mp3", "level": 2}
+{"sl": "ljubezen", "ru": "любовь", "cat": "family", "audio": "c_1766.mp3", "level": 2}
+{"sl": "fant", "ru": "парень", "cat": "family", "audio": "c_1765.mp3", "level": 2}
+{"sl": "punca", "ru": "девушка", "cat": "family", "audio": "c_1764.mp3", "level": 2}
+{"sl": "prijatelj", "ru": "друг", "cat": "family", "audio": "c_1763.mp3", "level": 2}
+{"sl": "poljub", "ru": "поцелуй", "cat": "thing", "audio": "c_1776.mp3", "level": 2}
+{"sl": "seks", "ru": "секс", "cat": "thing", "audio": "c_1774.mp3", "level": 2}
+{"sl": "otrok", "ru": "ребенок", "cat": "family", "audio": "c_1758.mp3", "level": 2}
+{"sl": "dojenček", "ru": "малыш", "cat": "family", "audio": "c_1753.mp3", "level": 2}
+{"sl": "dekle", "ru": "девочка", "cat": "family", "audio": "c_2831.mp3", "level": 2}
+{"sl": "fant", "ru": "мальчик", "cat": "family", "audio": "c_2830.mp3", "level": 2}
+{"sl": "mami", "ru": "мама", "cat": "family", "audio": "c_3761.mp3", "level": 2}
+{"sl": "oči", "ru": "папа", "cat": "family", "audio": "c_3760.mp3", "level": 2}
+{"sl": "mati", "ru": "мать", "cat": "family", "audio": "c_1715.mp3", "level": 2}
+{"sl": "oče", "ru": "отец", "cat": "family", "audio": "c_1714.mp3", "level": 2}
+{"sl": "starši", "ru": "родители", "cat": "family", "audio": "c_1742.mp3", "level": 2}
+{"sl": "sin", "ru": "сын", "cat": "family", "audio": "c_1731.mp3", "level": 2}
+{"sl": "hči", "ru": "дочь", "cat": "family", "audio": "c_1730.mp3", "level": 2}
+{"sl": "mlajša sestra", "ru": "младшая сестра", "cat": "family", "audio": "c_1727.mp3", "level": 3}
+{"sl": "mlajši brat", "ru": "младший брат", "cat": "family", "audio": "c_1725.mp3", "level": 3}
+{"sl": "starejša sestra", "ru": "старшая сестра", "cat": "family", "audio": "c_1726.mp3", "level": 3}
+{"sl": "starejši brat", "ru": "старший брат", "cat": "family", "audio": "c_1724.mp3", "level": 3}
+{"sl": "stati", "ru": "стоять", "cat": "verb", "audio": "c_907.mp3", "level": 2}
+{"sl": "sedeti", "ru": "сидеть", "cat": "verb", "audio": "c_906.mp3", "level": 2}
+{"sl": "ležati", "ru": "лежать", "cat": "verb", "audio": "c_905.mp3", "level": 2}
+{"sl": "zapreti", "ru": "закрывать", "cat": "verb", "audio": "c_904.mp3", "level": 2}
+{"sl": "odpreti", "ru": "открывать", "cat": "verb", "audio": "c_903.mp3", "level": 2}
+{"sl": "izgubiti", "ru": "проигрывать", "cat": "verb", "audio": "c_900.mp3", "level": 2}
+{"sl": "zmagati", "ru": "побеждать", "cat": "verb", "audio": "c_899.mp3", "level": 2}
+{"sl": "umreti", "ru": "умирать", "cat": "verb", "audio": "c_898.mp3", "level": 2}
+{"sl": "živeti", "ru": "жить", "cat": "verb", "audio": "c_897.mp3", "level": 2}
+{"sl": "prižgati", "ru": "включать", "cat": "verb", "audio": "c_893.mp3", "level": 2}
+{"sl": "izklopiti", "ru": "выключать", "cat": "verb", "audio": "c_892.mp3", "level": 2}
+{"sl": "ubiti", "ru": "убивать", "cat": "verb", "audio": "c_919.mp3", "level": 2}
+{"sl": "poškodovati", "ru": "ранить", "cat": "verb", "audio": "c_918.mp3", "level": 2}
+{"sl": "dotakniti se", "ru": "трогать", "cat": "verb", "audio": "c_944.mp3", "level": 3}
+{"sl": "gledati", "ru": "смотреть", "cat": "verb", "audio": "c_943.mp3", "level": 2}
+{"sl": "piti", "ru": "пить", "cat": "verb", "audio": "c_935.mp3", "level": 2}
+{"sl": "jesti", "ru": "есть", "cat": "verb", "audio": "c_934.mp3", "level": 2}
+{"sl": "hoditi", "ru": "гулять", "cat": "verb", "audio": "c_931.mp3", "level": 2}
+{"sl": "srečati", "ru": "встречаться", "cat": "verb", "audio": "c_972.mp3", "level": 2}
+{"sl": "staviti", "ru": "держать пари", "cat": "verb", "audio": "c_970.mp3", "level": 2}
+{"sl": "poljubiti", "ru": "целовать", "cat": "verb", "audio": "c_969.mp3", "level": 2}
+{"sl": "slediti", "ru": "следовать", "cat": "verb", "audio": "c_967.mp3", "level": 2}
+{"sl": "poročiti se", "ru": "жениться", "cat": "verb", "audio": "c_964.mp3", "level": 3}
+{"sl": "odgovoriti", "ru": "отвечать", "cat": "verb", "audio": "c_960.mp3", "level": 2}
+{"sl": "vprašati", "ru": "спрашивать", "cat": "verb", "audio": "c_958.mp3", "level": 2}
+{"sl": "vprašanje", "ru": "вопрос", "cat": "thing", "audio": "c_169.mp3", "level": 2}
+{"sl": "podjetje", "ru": "компания", "cat": "shop", "audio": "c_150.mp3", "level": 2}
+{"sl": "posel", "ru": "бизнес", "cat": "shop", "audio": "c_149.mp3", "level": 2}
+{"sl": "zaposlitev", "ru": "работа", "cat": "job", "audio": "c_1777.mp3", "level": 2}
+{"sl": "denar", "ru": "деньги", "cat": "shop", "audio": "c_3471.mp3", "level": 2}
+{"sl": "telefon", "ru": "телефон", "cat": "shop", "audio": "c_3419.mp3", "level": 2}
+{"sl": "pisarna", "ru": "офис", "cat": "goplace", "audio": "c_3241.mp3", "level": 2}
+{"sl": "zdravnik", "ru": "врач", "cat": "job", "audio": "c_3313.mp3", "level": 2}
+{"sl": "bolnišnica", "ru": "больница", "cat": "goplace", "audio": "c_2923.mp3", "level": 2}
+{"sl": "medicinska sestra", "ru": "медсестра", "cat": "job", "audio": "c_3314.mp3", "level": 3}
+{"sl": "policist", "ru": "полицейский", "cat": "job", "audio": "c_3317.mp3", "level": 2}
+{"sl": "predsednik", "ru": "президент", "cat": "job", "audio": "c_3327.mp3", "level": 2}
+{"sl": "bel", "ru": "белый", "cat": "color", "audio": "c_744.mp3", "level": 2}
+{"sl": "črn", "ru": "черный", "cat": "color", "audio": "c_742.mp3", "level": 2}
+{"sl": "rdeč", "ru": "красный", "cat": "color", "audio": "c_741.mp3", "level": 2}
+{"sl": "moder", "ru": "синий", "cat": "color", "audio": "c_733.mp3", "level": 2}
+{"sl": "zelen", "ru": "зеленый", "cat": "color", "audio": "c_737.mp3", "level": 2}
+{"sl": "rumen", "ru": "желтый", "cat": "color", "audio": "c_735.mp3", "level": 2}
+{"sl": "počasen", "ru": "медленный", "cat": "thing", "audio": "c_762.mp3", "level": 2}
+{"sl": "hiter", "ru": "быстрый", "cat": "thing", "audio": "c_761.mp3", "level": 2}
+{"sl": "smešen", "ru": "смешной", "cat": "thing", "audio": "c_759.mp3", "level": 2}
+{"sl": "nepošten", "ru": "несправедливый", "cat": "thing", "audio": "c_756.mp3", "level": 2}
+{"sl": "pošten", "ru": "справедливый", "cat": "thing", "audio": "c_755.mp3", "level": 2}
+{"sl": "zahteven", "ru": "сложный", "cat": "thing", "audio": "c_748.mp3", "level": 2}
+{"sl": "enostaven", "ru": "легкий", "cat": "thing", "audio": "c_747.mp3", "level": 2}
+{"sl": "To je težko", "ru": "Это сложно", "cat": "thing", "audio": "c_3731.mp3", "level": 3}
+{"sl": "bogat", "ru": "богатый", "cat": "thing", "audio": "c_746.mp3", "level": 2}
+{"sl": "reven", "ru": "бедный", "cat": "thing", "audio": "c_745.mp3", "level": 2}
+{"sl": "močen", "ru": "сильный", "cat": "thing", "audio": "c_778.mp3", "level": 2}
+{"sl": "šibek", "ru": "слабый", "cat": "thing", "audio": "c_777.mp3", "level": 2}
+{"sl": "varen", "ru": "безопасный", "cat": "thing", "audio": "c_776.mp3", "level": 2}
+{"sl": "utrujen", "ru": "уставший", "cat": "thing", "audio": "c_775.mp3", "level": 2}
+{"sl": "ponosen", "ru": "гордый", "cat": "thing", "audio": "c_773.mp3", "level": 2}
+{"sl": "sit", "ru": "сытый", "cat": "thing", "audio": "c_770.mp3", "level": 2}
+{"sl": "bolan", "ru": "больной", "cat": "thing", "audio": "c_766.mp3", "level": 2}
+{"sl": "zdrav", "ru": "здоровый", "cat": "thing", "audio": "c_765.mp3", "level": 2}
+{"sl": "jezen", "ru": "сердитый", "cat": "thing", "audio": "c_763.mp3", "level": 2}
+{"sl": "nizek", "ru": "низкий", "cat": "thing", "audio": "c_795.mp3", "level": 2}
+{"sl": "visok", "ru": "высокий", "cat": "thing", "audio": "c_794.mp3", "level": 2}
+{"sl": "raven", "ru": "прямой", "cat": "thing", "audio": "c_788.mp3", "level": 2}
+{"sl": "vsak", "ru": "каждый", "cat": "thing", "audio": "c_3664.mp3", "level": 2}
+{"sl": "nenehno", "ru": "всегда", "cat": "thing", "audio": "c_3663.mp3", "level": 2}
+{"sl": "dejansko", "ru": "на самом деле", "cat": "thing", "audio": "c_3660.mp3", "level": 2}
+{"sl": "ponovno", "ru": "снова", "cat": "thing", "audio": "c_3654.mp3", "level": 2}
+{"sl": "že", "ru": "уже", "cat": "thing", "audio": "c_3653.mp3", "level": 2}
+{"sl": "manj", "ru": "меньше", "cat": "thing", "audio": "c_3650.mp3", "level": 2}
+{"sl": "najbolj", "ru": "наиболее", "cat": "thing", "audio": "c_3649.mp3", "level": 2}
+{"sl": "več", "ru": "больше", "cat": "thing", "audio": "c_3648.mp3", "level": 2}
+{"sl": "Hočem več", "ru": "Я хочу еще", "cat": "thing", "audio": "c_3746.mp3", "level": 3}
+{"sl": "nobena", "ru": "никто", "cat": "thing", "audio": "c_3644.mp3", "level": 2}
+{"sl": "zelo", "ru": "очень", "cat": "thing", "audio": "c_3642.mp3", "level": 2}
+{"sl": "žival", "ru": "животное", "cat": "thing", "audio": "c_1.mp3", "level": 2}
+{"sl": "prašič", "ru": "свинья", "cat": "thing", "audio": "c_198.mp3", "level": 2}
+{"sl": "krava", "ru": "корова", "cat": "thing", "audio": "c_86.mp3", "level": 2}
+{"sl": "konj", "ru": "лошадь", "cat": "thing", "audio": "c_85.mp3", "level": 2}
+{"sl": "pes", "ru": "собака", "cat": "thing", "audio": "c_79.mp3", "level": 2}
+{"sl": "ovca", "ru": "овца", "cat": "thing", "audio": "c_33.mp3", "level": 2}
+{"sl": "opica", "ru": "обезьяна", "cat": "thing", "audio": "c_28.mp3", "level": 2}
+{"sl": "mačka", "ru": "кошка", "cat": "thing", "audio": "c_21.mp3", "level": 2}
+{"sl": "medved", "ru": "медведь", "cat": "thing", "audio": "c_3.mp3", "level": 2}
+{"sl": "kokoš", "ru": "курица", "cat": "thing", "audio": "c_891.mp3", "level": 2}
+{"sl": "raca", "ru": "утка", "cat": "thing", "audio": "c_41.mp3", "level": 2}
+{"sl": "metulj", "ru": "бабочка", "cat": "thing", "audio": "c_106.mp3", "level": 2}
+{"sl": "čebela", "ru": "пчела", "cat": "thing", "audio": "c_52.mp3", "level": 2}
+{"sl": "riba", "ru": "рыба", "cat": "food", "audio": "c_1053.mp3", "level": 2}
+{"sl": "pajek", "ru": "паук", "cat": "thing", "audio": "c_116.mp3", "level": 2}
+{"sl": "kača", "ru": "змея", "cat": "thing", "audio": "c_75.mp3", "level": 2}
+{"sl": "zunaj", "ru": "снаружи", "cat": "thing", "audio": "c_810.mp3", "level": 2}
+{"sl": "znotraj", "ru": "внутри", "cat": "thing", "audio": "c_809.mp3", "level": 2}
+{"sl": "daleč", "ru": "далекий", "cat": "thing", "audio": "c_806.mp3", "level": 2}
+{"sl": "blizu", "ru": "близкий", "cat": "thing", "audio": "c_805.mp3", "level": 2}
+{"sl": "pod", "ru": "ниже", "cat": "thing", "audio": "c_804.mp3", "level": 2}
+{"sl": "nad", "ru": "выше", "cat": "thing", "audio": "c_803.mp3", "level": 2}
+{"sl": "poleg", "ru": "рядом", "cat": "thing", "audio": "c_802.mp3", "level": 2}
+{"sl": "spredaj", "ru": "передний", "cat": "thing", "audio": "c_801.mp3", "level": 2}
+{"sl": "zadaj", "ru": "задний", "cat": "thing", "audio": "c_800.mp3", "level": 2}
+{"sl": "sladek", "ru": "сладкий", "cat": "thing", "audio": "c_829.mp3", "level": 2}
+{"sl": "kisel", "ru": "кислый", "cat": "thing", "audio": "c_828.mp3", "level": 2}
+{"sl": "čuden", "ru": "странный", "cat": "thing", "audio": "c_827.mp3", "level": 2}
+{"sl": "mehek", "ru": "мягкий", "cat": "thing", "audio": "c_822.mp3", "level": 2}
+{"sl": "trd", "ru": "жесткий", "cat": "thing", "audio": "c_821.mp3", "level": 2}
+{"sl": "srčkan", "ru": "милый", "cat": "thing", "audio": "c_874.mp3", "level": 2}
+{"sl": "neumen", "ru": "глупый", "cat": "thing", "audio": "c_873.mp3", "level": 2}
+{"sl": "nor", "ru": "сумасшедший", "cat": "thing", "audio": "c_864.mp3", "level": 2}
+{"sl": "zaposlen", "ru": "занятый", "cat": "thing", "audio": "c_857.mp3", "level": 2}
+{"sl": "visok", "ru": "высокий", "cat": "thing", "audio": "c_840.mp3", "level": 2}
+{"sl": "nizek", "ru": "низкий", "cat": "thing", "audio": "c_839.mp3", "level": 2}
+{"sl": "zaskrbljen", "ru": "обеспокоенный", "cat": "thing", "audio": "c_837.mp3", "level": 2}
+{"sl": "presenečen", "ru": "удивленный", "cat": "thing", "audio": "c_838.mp3", "level": 2}
+{"sl": "kul", "ru": "крутой", "cat": "thing", "audio": "c_836.mp3", "level": 2}
+{"sl": "priden", "ru": "воспитанный", "cat": "thing", "audio": "c_835.mp3", "level": 2}
+{"sl": "hudoben", "ru": "злой", "cat": "thing", "audio": "c_834.mp3", "level": 2}
+{"sl": "pameten", "ru": "умный", "cat": "thing", "audio": "c_833.mp3", "level": 2}
+{"sl": "hladen", "ru": "холодный", "cat": "thing", "audio": "c_881.mp3", "level": 2}
+{"sl": "vroč", "ru": "горячий", "cat": "thing", "audio": "c_880.mp3", "level": 2}
+{"sl": "glava", "ru": "голова", "cat": "body", "audio": "c_621.mp3", "level": 2}
+{"sl": "nos", "ru": "нос", "cat": "body", "audio": "c_645.mp3", "level": 2}
+{"sl": "las", "ru": "волос", "cat": "body", "audio": "c_643.mp3", "level": 2}
+{"sl": "usta", "ru": "рот", "cat": "body", "audio": "c_641.mp3", "level": 2}
+{"sl": "uho", "ru": "ухо", "cat": "body", "audio": "c_638.mp3", "level": 2}
+{"sl": "oko", "ru": "глаз", "cat": "body", "audio": "c_607.mp3", "level": 2}
+{"sl": "roka", "ru": "рука", "cat": "body", "audio": "c_619.mp3", "level": 2}
+{"sl": "stopalo", "ru": "стопа", "cat": "body", "audio": "c_618.mp3", "level": 2}
+{"sl": "srce", "ru": "сердце", "cat": "body", "audio": "c_710.mp3", "level": 2}
+{"sl": "možgani", "ru": "головной мозг", "cat": "body", "audio": "c_633.mp3", "level": 2}
+{"sl": "vleči", "ru": "потянуть", "cat": "verb", "audio": "c_997.mp3", "level": 2}
+{"sl": "potisniti", "ru": "толкнуть", "cat": "verb", "audio": "c_996.mp3", "level": 2}
+{"sl": "pritisniti", "ru": "нажимать", "cat": "verb", "audio": "c_995.mp3", "level": 2}
+{"sl": "udariti", "ru": "ударить", "cat": "verb", "audio": "c_986.mp3", "level": 2}
+{"sl": "ujeti", "ru": "ловить", "cat": "verb", "audio": "c_985.mp3", "level": 2}
+{"sl": "boriti se", "ru": "бороться", "cat": "verb", "audio": "c_984.mp3", "level": 3}
+{"sl": "vreči", "ru": "бросать", "cat": "verb", "audio": "c_981.mp3", "level": 2}
+{"sl": "teči", "ru": "бежать", "cat": "verb", "audio": "c_980.mp3", "level": 2}
+{"sl": "brati", "ru": "читать", "cat": "verb", "audio": "c_1049.mp3", "level": 2}
+{"sl": "pisati", "ru": "писать", "cat": "verb", "audio": "c_1048.mp3", "level": 2}
+{"sl": "popraviti", "ru": "ремонтировать", "cat": "verb", "audio": "c_1047.mp3", "level": 2}
+{"sl": "šteti", "ru": "считать", "cat": "verb", "audio": "c_1043.mp3", "level": 2}
+{"sl": "rezati", "ru": "вырезать", "cat": "verb", "audio": "c_1042.mp3", "level": 2}
+{"sl": "prodati", "ru": "продавать", "cat": "verb", "audio": "c_1003.mp3", "level": 2}
+{"sl": "kupiti", "ru": "покупать", "cat": "verb", "audio": "c_1002.mp3", "level": 2}
+{"sl": "plačati", "ru": "платить", "cat": "verb", "audio": "c_1001.mp3", "level": 2}
+{"sl": "študirati", "ru": "учиться", "cat": "verb", "audio": "c_998.mp3", "level": 2}
+{"sl": "sanjati", "ru": "мечтать", "cat": "verb", "audio": "c_1036.mp3", "level": 2}
+{"sl": "spati", "ru": "спать", "cat": "verb", "audio": "c_1034.mp3", "level": 2}
+{"sl": "igrati", "ru": "играть", "cat": "verb", "audio": "c_1032.mp3", "level": 2}
+{"sl": "proslaviti", "ru": "праздновать", "cat": "verb", "audio": "c_1021.mp3", "level": 2}
+{"sl": "počivati", "ru": "отдыхать", "cat": "verb", "audio": "c_1018.mp3", "level": 2}
+{"sl": "uživati", "ru": "наслаждаться", "cat": "verb", "audio": "c_1013.mp3", "level": 2}
+{"sl": "čistiti", "ru": "чистить", "cat": "verb", "audio": "c_1007.mp3", "level": 2}
+{"sl": "šola", "ru": "школа", "cat": "goplace", "audio": "c_2927.mp3", "level": 2}
+{"sl": "hiša", "ru": "дом", "cat": "home", "audio": "c_2987.mp3", "level": 2}
+{"sl": "vrata", "ru": "дверь", "cat": "home", "audio": "c_1098.mp3", "level": 2}
+{"sl": "mož", "ru": "муж", "cat": "family", "audio": "c_1737.mp3", "level": 2}
+{"sl": "žena", "ru": "жена", "cat": "family", "audio": "c_1736.mp3", "level": 2}
+{"sl": "poroka", "ru": "свадьба", "cat": "family", "audio": "c_1778.mp3", "level": 2}
+{"sl": "oseba", "ru": "человек", "cat": "thing", "audio": "c_40.mp3", "level": 2}
+{"sl": "avto", "ru": "автомобиль", "cat": "transport", "audio": "c_81.mp3", "level": 2}
+{"sl": "dom", "ru": "дом", "cat": "home", "audio": "c_49.mp3", "level": 2}
+{"sl": "mesto", "ru": "город", "cat": "goplace", "audio": "c_129.mp3", "level": 2}
+{"sl": "število", "ru": "число", "cat": "thing", "audio": "c_20.mp3", "level": 2}
+{"sl": "enaindvajset", "ru": "21", "cat": "thing", "audio": "c_475.mp3", "level": 2}
+{"sl": "dvaindvajset", "ru": "22", "cat": "thing", "audio": "c_476.mp3", "level": 2}
+{"sl": "šestindvajset", "ru": "26", "cat": "thing", "audio": "c_477.mp3", "level": 2}
+{"sl": "trideset", "ru": "30", "cat": "thing", "audio": "c_478.mp3", "level": 2}
+{"sl": "enaintrideset", "ru": "31", "cat": "thing", "audio": "c_479.mp3", "level": 2}
+{"sl": "triintrideset", "ru": "33", "cat": "thing", "audio": "c_480.mp3", "level": 2}
+{"sl": "sedemintrideset", "ru": "37", "cat": "thing", "audio": "c_481.mp3", "level": 2}
+{"sl": "štirideset", "ru": "40", "cat": "thing", "audio": "c_482.mp3", "level": 2}
+{"sl": "enainštirideset", "ru": "41", "cat": "thing", "audio": "c_483.mp3", "level": 2}
+{"sl": "štiriinštirideset", "ru": "44", "cat": "thing", "audio": "c_484.mp3", "level": 2}
+{"sl": "oseminštirideset", "ru": "48", "cat": "thing", "audio": "c_485.mp3", "level": 2}
+{"sl": "petdeset", "ru": "50", "cat": "thing", "audio": "c_486.mp3", "level": 2}
+{"sl": "enainpetdeset", "ru": "51", "cat": "thing", "audio": "c_487.mp3", "level": 2}
+{"sl": "petinpetdeset", "ru": "55", "cat": "thing", "audio": "c_488.mp3", "level": 2}
+{"sl": "devetinpetdeset", "ru": "59", "cat": "thing", "audio": "c_489.mp3", "level": 2}
+{"sl": "šestdeset", "ru": "60", "cat": "thing", "audio": "c_490.mp3", "level": 2}
+{"sl": "enainšestdeset", "ru": "61", "cat": "thing", "audio": "c_491.mp3", "level": 2}
+{"sl": "dvainšestdeset", "ru": "62", "cat": "thing", "audio": "c_492.mp3", "level": 2}
+{"sl": "šestinšestdeset", "ru": "66", "cat": "thing", "audio": "c_493.mp3", "level": 2}
+{"sl": "sedemdeset", "ru": "70", "cat": "thing", "audio": "c_494.mp3", "level": 2}
+{"sl": "enainsedemdeset", "ru": "71", "cat": "thing", "audio": "c_495.mp3", "level": 2}
+{"sl": "triinsedemdeset", "ru": "73", "cat": "thing", "audio": "c_496.mp3", "level": 2}
+{"sl": "sedeminsedemdeset", "ru": "77", "cat": "thing", "audio": "c_497.mp3", "level": 2}
+{"sl": "osemdeset", "ru": "80", "cat": "thing", "audio": "c_498.mp3", "level": 2}
+{"sl": "enainosemdeset", "ru": "81", "cat": "thing", "audio": "c_499.mp3", "level": 2}
+{"sl": "štiriinosemdeset", "ru": "84", "cat": "thing", "audio": "c_500.mp3", "level": 2}
+{"sl": "oseminosemdeset", "ru": "88", "cat": "thing", "audio": "c_501.mp3", "level": 2}
+{"sl": "devetdeset", "ru": "90", "cat": "thing", "audio": "c_502.mp3", "level": 2}
+{"sl": "enaindevetdeset", "ru": "91", "cat": "thing", "audio": "c_503.mp3", "level": 2}
+{"sl": "petindevetdeset", "ru": "95", "cat": "thing", "audio": "c_504.mp3", "level": 2}
+{"sl": "devetindevetdeset", "ru": "99", "cat": "thing", "audio": "c_505.mp3", "level": 2}
+{"sl": "sto", "ru": "100", "cat": "thing", "audio": "c_506.mp3", "level": 2}
+{"sl": "tisoč", "ru": "1000", "cat": "thing", "audio": "c_551.mp3", "level": 2}
+{"sl": "deset tisoč", "ru": "10.000", "cat": "thing", "audio": "c_587.mp3", "level": 3}
+{"sl": "sto tisoč", "ru": "100.000", "cat": "thing", "audio": "c_592.mp3", "level": 3}
+{"sl": "milijon", "ru": "1.000.000", "cat": "thing", "audio": "c_594.mp3", "level": 2}
+{"sl": "moj pes", "ru": "моя собака", "cat": "thing", "audio": "c_3629.mp3", "level": 3}
+{"sl": "tvoja mačka", "ru": "твоя кошка", "cat": "thing", "audio": "c_3630.mp3", "level": 3}
+{"sl": "njena obleka", "ru": "ее платье", "cat": "thing", "audio": "c_3631.mp3", "level": 3}
+{"sl": "njegov avto", "ru": "его машина", "cat": "thing", "audio": "c_3632.mp3", "level": 3}
+{"sl": "njegova/njena žoga", "ru": "его мяч", "cat": "thing", "audio": "c_3633.mp3", "level": 3}
+{"sl": "naš dom", "ru": "наш дом", "cat": "thing", "audio": "c_3634.mp3", "level": 3}
+{"sl": "vaša ekipa", "ru": "ваша команда", "cat": "thing", "audio": "c_3635.mp3", "level": 3}
+{"sl": "njihovo podjetje", "ru": "их компания", "cat": "thing", "audio": "c_3636.mp3", "level": 3}
+{"sl": "vsi", "ru": "все", "cat": "thing", "audio": "c_3637.mp3", "level": 2}
+{"sl": "skupaj", "ru": "вместе", "cat": "thing", "audio": "c_3638.mp3", "level": 2}
+{"sl": "drugo", "ru": "другой", "cat": "thing", "audio": "c_3639.mp3", "level": 2}
+{"sl": "ni pomembno", "ru": "не имеет значения", "cat": "greet", "audio": "c_3691.mp3", "level": 3}
+{"sl": "na zdravje", "ru": "твое здоровье", "cat": "greet", "audio": "c_3690.mp3", "level": 3}
+{"sl": "sprosti se", "ru": "расслабься", "cat": "greet", "audio": "c_3686.mp3", "level": 3}
+{"sl": "strinjam se", "ru": "согласен", "cat": "greet", "audio": "c_3684.mp3", "level": 3}
+{"sl": "dobrodošli", "ru": "добро пожаловать", "cat": "greet", "audio": "c_3682.mp3", "level": 2}
+{"sl": "brez skrbi", "ru": "не беспокойся", "cat": "greet", "audio": "c_3680.mp3", "level": 3}
+{"sl": "zavij desno", "ru": "поверни направо", "cat": "thing", "audio": "c_3669.mp3", "level": 3}
+{"sl": "zavij levo", "ru": "поверни налево", "cat": "thing", "audio": "c_3668.mp3", "level": 3}
+{"sl": "pojdi naravnost", "ru": "езжай прямо", "cat": "thing", "audio": "c_3667.mp3", "level": 3}
+{"sl": "pridi z mano", "ru": "пойдем со мной", "cat": "thing", "audio": "c_3666.mp3", "level": 3}
+{"sl": "jajce", "ru": "яйцо", "cat": "food", "audio": "c_1289.mp3", "level": 2}
+{"sl": "sir", "ru": "сыр", "cat": "food", "audio": "c_1282.mp3", "level": 2}
+{"sl": "mleko", "ru": "молоко", "cat": "food", "audio": "c_1281.mp3", "level": 2}
+{"sl": "riba", "ru": "рыба", "cat": "food", "audio": "c_3780.mp3", "level": 2}
+{"sl": "meso", "ru": "мясо", "cat": "food", "audio": "c_3779.mp3", "level": 2}
+{"sl": "zelenjava", "ru": "овощ", "cat": "food", "audio": "c_62.mp3", "level": 2}
+{"sl": "sadje", "ru": "фрукт", "cat": "food", "audio": "c_63.mp3", "level": 2}
+{"sl": "kost", "ru": "кость", "cat": "food", "audio": "c_1322.mp3", "level": 2}
+{"sl": "olje", "ru": "масло", "cat": "food", "audio": "c_3795.mp3", "level": 2}
+{"sl": "kruh", "ru": "хлеб", "cat": "food", "audio": "c_1433.mp3", "level": 2}
+{"sl": "sladkor", "ru": "сахар", "cat": "food", "audio": "c_1424.mp3", "level": 2}
+{"sl": "čokolada", "ru": "шоколад", "cat": "food", "audio": "c_1484.mp3", "level": 2}
+{"sl": "sladkarije", "ru": "конфета", "cat": "food", "audio": "c_1477.mp3", "level": 2}
+{"sl": "torta", "ru": "торт", "cat": "food", "audio": "c_1468.mp3", "level": 2}
+{"sl": "pijača", "ru": "напиток", "cat": "food", "audio": "c_68.mp3", "level": 2}
+{"sl": "voda", "ru": "вода", "cat": "food", "audio": "c_1492.mp3", "level": 2}
+{"sl": "mineralna voda", "ru": "сода", "cat": "food", "audio": "c_1493.mp3", "level": 3}
+{"sl": "kava", "ru": "кофе", "cat": "food", "audio": "c_1495.mp3", "level": 2}
+{"sl": "čaj", "ru": "чай", "cat": "food", "audio": "c_1496.mp3", "level": 2}
+{"sl": "pivo", "ru": "пиво", "cat": "food", "audio": "c_1521.mp3", "level": 2}
+{"sl": "vino", "ru": "вино", "cat": "food", "audio": "c_1512.mp3", "level": 2}
+{"sl": "solata", "ru": "салат", "cat": "food", "audio": "c_1530.mp3", "level": 2}
+{"sl": "juha", "ru": "суп", "cat": "food", "audio": "c_1531.mp3", "level": 2}
+{"sl": "sladica", "ru": "десерт", "cat": "food", "audio": "c_1532.mp3", "level": 2}
+{"sl": "zajtrk", "ru": "завтрак", "cat": "food", "audio": "c_1537.mp3", "level": 2}
+{"sl": "kosilo", "ru": "обед", "cat": "food", "audio": "c_1538.mp3", "level": 2}
+{"sl": "večerja", "ru": "ужин", "cat": "food", "audio": "c_1539.mp3", "level": 2}
+{"sl": "pica", "ru": "пицца", "cat": "food", "audio": "c_1561.mp3", "level": 2}
+{"sl": "avtobus", "ru": "автобус", "cat": "transport", "audio": "c_1849.mp3", "level": 2}
+{"sl": "vlak", "ru": "поезд", "cat": "transport", "audio": "c_1869.mp3", "level": 2}
+{"sl": "železniška postaja", "ru": "железнодорожная станция", "cat": "transport", "audio": "c_1851.mp3", "level": 3}
+{"sl": "avtobusna postaja", "ru": "автобусная остановка", "cat": "transport", "audio": "c_3762.mp3", "level": 3}
+{"sl": "letalo", "ru": "самолет", "cat": "transport", "audio": "c_1975.mp3", "level": 2}
+{"sl": "ladja", "ru": "корабль", "cat": "transport", "audio": "c_1974.mp3", "level": 2}
+{"sl": "tovornjak", "ru": "грузовик", "cat": "transport", "audio": "c_1998.mp3", "level": 2}
+{"sl": "kolo", "ru": "велосипед", "cat": "transport", "audio": "c_1971.mp3", "level": 2}
+{"sl": "motorno kolo", "ru": "мотоцикл", "cat": "transport", "audio": "c_1970.mp3", "level": 3}
+{"sl": "taksi", "ru": "такси", "cat": "transport", "audio": "c_1964.mp3", "level": 2}
+{"sl": "semafor", "ru": "светофор", "cat": "transport", "audio": "c_3793.mp3", "level": 2}
+{"sl": "parkirišče", "ru": "автомобильная стоянка", "cat": "transport", "audio": "c_1948.mp3", "level": 2}
+{"sl": "cesta", "ru": "дорога", "cat": "transport", "audio": "c_1934.mp3", "level": 2}
+{"sl": "oblačilo", "ru": "одежда", "cat": "thing", "audio": "c_116.mp3", "level": 2}
+{"sl": "čevelj", "ru": "ботинок", "cat": "thing", "audio": "c_117.mp3", "level": 2}
+{"sl": "plašč", "ru": "пальто", "cat": "thing", "audio": "c_2714.mp3", "level": 2}
+{"sl": "pulover", "ru": "свитер", "cat": "thing", "audio": "c_2700.mp3", "level": 2}
+{"sl": "srajca", "ru": "рубашка", "cat": "thing", "audio": "c_2699.mp3", "level": 2}
+{"sl": "jakna", "ru": "куртка", "cat": "thing", "audio": "c_2697.mp3", "level": 2}
+{"sl": "obleka", "ru": "костюм", "cat": "thing", "audio": "c_2696.mp3", "level": 2}
+{"sl": "hlače", "ru": "брюки", "cat": "thing", "audio": "c_2693.mp3", "level": 2}
+{"sl": "obleka", "ru": "платье", "cat": "thing", "audio": "c_2691.mp3", "level": 2}
+{"sl": "majica", "ru": "футболка", "cat": "thing", "audio": "c_2688.mp3", "level": 2}
+{"sl": "nogavica", "ru": "носок", "cat": "thing", "audio": "c_2726.mp3", "level": 2}
+{"sl": "modrček", "ru": "бюстгальтер", "cat": "thing", "audio": "c_2725.mp3", "level": 2}
+{"sl": "spodnjice", "ru": "трусы", "cat": "thing", "audio": "c_2720.mp3", "level": 2}
+{"sl": "očala", "ru": "очки", "cat": "thing", "audio": "c_2761.mp3", "level": 2}
+{"sl": "ročna torba", "ru": "сумка", "cat": "thing", "audio": "c_2757.mp3", "level": 3}
+{"sl": "torbica", "ru": "кошелек", "cat": "thing", "audio": "c_2755.mp3", "level": 2}
+{"sl": "denarnica", "ru": "бумажник", "cat": "thing", "audio": "c_2754.mp3", "level": 2}
+{"sl": "prstan", "ru": "кольцо", "cat": "thing", "audio": "c_2751.mp3", "level": 2}
+{"sl": "klobuk", "ru": "шляпа", "cat": "thing", "audio": "c_2743.mp3", "level": 2}
+{"sl": "ura", "ru": "часы", "cat": "thing", "audio": "c_2741.mp3", "level": 2}
+{"sl": "žep", "ru": "карман", "cat": "thing", "audio": "c_2824.mp3", "level": 2}
+{"sl": "Kako ti je ime?", "ru": "Как тебя зовут?", "cat": "thing", "audio": "c_3709.mp3", "level": 3}
+{"sl": "Moje ime je David", "ru": "Меня зовут Дэвид", "cat": "thing", "audio": "c_3736.mp3", "level": 3}
+{"sl": "Imam 22 let", "ru": "Мне 22 года", "cat": "thing", "audio": "c_3737.mp3", "level": 3}
+{"sl": "Kako si?", "ru": "Как дела?", "cat": "thing", "audio": "c_3703.mp3", "level": 3}
+{"sl": "Si v redu?", "ru": "Ты в порядке?", "cat": "thing", "audio": "c_3704.mp3", "level": 3}
+{"sl": "Kje je stranišče?", "ru": "Где здесь туалет?", "cat": "thing", "audio": "c_3711.mp3", "level": 3}
+{"sl": "Pogrešam te", "ru": "Я скучаю по тебе", "cat": "thing", "audio": "c_3740.mp3", "level": 3}
+{"sl": "pomlad", "ru": "весна", "cat": "time", "audio": "c_1693.mp3", "level": 2}
+{"sl": "poletje", "ru": "лето", "cat": "time", "audio": "c_1694.mp3", "level": 2}
+{"sl": "jesen", "ru": "осень", "cat": "time", "audio": "c_1695.mp3", "level": 2}
+{"sl": "zima", "ru": "зима", "cat": "time", "audio": "c_1696.mp3", "level": 2}
+{"sl": "januar", "ru": "январь", "cat": "time", "audio": "c_1681.mp3", "level": 2}
+{"sl": "februar", "ru": "февраль", "cat": "time", "audio": "c_1682.mp3", "level": 2}
+{"sl": "marec", "ru": "март", "cat": "time", "audio": "c_1683.mp3", "level": 2}
+{"sl": "april", "ru": "апрель", "cat": "time", "audio": "c_1684.mp3", "level": 2}
+{"sl": "maj", "ru": "май", "cat": "time", "audio": "c_1685.mp3", "level": 2}
+{"sl": "junij", "ru": "июнь", "cat": "time", "audio": "c_1686.mp3", "level": 2}
+{"sl": "julij", "ru": "июль", "cat": "time", "audio": "c_1687.mp3", "level": 2}
+{"sl": "avgust", "ru": "август", "cat": "time", "audio": "c_1688.mp3", "level": 2}
+{"sl": "september", "ru": "сентябрь", "cat": "time", "audio": "c_1689.mp3", "level": 2}
+{"sl": "oktober", "ru": "октябрь", "cat": "time", "audio": "c_1690.mp3", "level": 2}
+{"sl": "november", "ru": "ноябрь", "cat": "time", "audio": "c_1691.mp3", "level": 2}
+{"sl": "december", "ru": "декабрь", "cat": "time", "audio": "c_1692.mp3", "level": 2}
+{"sl": "nakupovanje", "ru": "покупка", "cat": "shop", "audio": "c_130.mp3", "level": 2}
+{"sl": "račun", "ru": "счет", "cat": "shop", "audio": "c_2920.mp3", "level": 2}
+{"sl": "trg", "ru": "рынок", "cat": "goplace", "audio": "c_2902.mp3", "level": 2}
+{"sl": "supermarket", "ru": "супермаркет", "cat": "goplace", "audio": "c_2898.mp3", "level": 2}
+{"sl": "stavba", "ru": "здание", "cat": "goplace", "audio": "c_131.mp3", "level": 2}
+{"sl": "stanovanje", "ru": "квартира", "cat": "goplace", "audio": "c_2984.mp3", "level": 2}
+{"sl": "univerza", "ru": "университет", "cat": "goplace", "audio": "c_2928.mp3", "level": 2}
+{"sl": "kmetija", "ru": "ферма", "cat": "goplace", "audio": "c_2926.mp3", "level": 2}
+{"sl": "cerkev", "ru": "церковь", "cat": "goplace", "audio": "c_2930.mp3", "level": 2}
+{"sl": "restavracija", "ru": "ресторан", "cat": "goplace", "audio": "c_2951.mp3", "level": 2}
+{"sl": "bar", "ru": "бар", "cat": "goplace", "audio": "c_2950.mp3", "level": 2}
+{"sl": "fitnes center", "ru": "тренажерный зал", "cat": "goplace", "audio": "c_2947.mp3", "level": 3}
+{"sl": "park", "ru": "парк", "cat": "goplace", "audio": "c_2944.mp3", "level": 2}
+{"sl": "WC", "ru": "туалет", "cat": "home", "audio": "c_2956.mp3", "level": 2}
+{"sl": "zemljevid", "ru": "карта", "cat": "goplace", "audio": "c_2959.mp3", "level": 2}
+{"sl": "rešilec", "ru": "скорая помощь", "cat": "goplace", "audio": "c_3046.mp3", "level": 2}
+{"sl": "policija", "ru": "полиция", "cat": "goplace", "audio": "c_3047.mp3", "level": 2}
+{"sl": "pištola", "ru": "пистолет", "cat": "thing", "audio": "c_3061.mp3", "level": 2}
+{"sl": "gasilci", "ru": "пожарные", "cat": "goplace", "audio": "c_3777.mp3", "level": 2}
+{"sl": "država", "ru": "страна", "cat": "goplace", "audio": "c_3070.mp3", "level": 2}
+{"sl": "predmestje", "ru": "пригород", "cat": "goplace", "audio": "c_3077.mp3", "level": 2}
+{"sl": "vas", "ru": "деревня", "cat": "goplace", "audio": "c_3078.mp3", "level": 2}
+{"sl": "zdravje", "ru": "здоровье", "cat": "body", "audio": "c_139.mp3", "level": 2}
+{"sl": "zdravilo", "ru": "лекарственное средство", "cat": "body", "audio": "c_141.mp3", "level": 2}
+{"sl": "nesreča", "ru": "авария", "cat": "body", "audio": "c_3164.mp3", "level": 2}
+{"sl": "pacient", "ru": "пациент", "cat": "body", "audio": "c_3087.mp3", "level": 2}
+{"sl": "operacija", "ru": "хирургия", "cat": "body", "audio": "c_3088.mp3", "level": 2}
+{"sl": "tableta", "ru": "пилюля", "cat": "body", "audio": "c_3229.mp3", "level": 2}
+{"sl": "vročina", "ru": "лихорадка", "cat": "body", "audio": "c_3111.mp3", "level": 2}
+{"sl": "prehlad", "ru": "простуда", "cat": "body", "audio": "c_3114.mp3", "level": 2}
+{"sl": "rana", "ru": "рана", "cat": "body", "audio": "c_3168.mp3", "level": 2}
+{"sl": "termin", "ru": "прием", "cat": "body", "audio": "c_3089.mp3", "level": 2}
+{"sl": "kašelj", "ru": "кашель", "cat": "body", "audio": "c_3115.mp3", "level": 2}
+{"sl": "vrat", "ru": "шея", "cat": "body", "audio": "c_628.mp3", "level": 2}
+{"sl": "rit", "ru": "ягодицы", "cat": "body", "audio": "c_650.mp3", "level": 2}
+{"sl": "rama", "ru": "плечо", "cat": "body", "audio": "c_625.mp3", "level": 2}
+{"sl": "koleno", "ru": "колено", "cat": "body", "audio": "c_620.mp3", "level": 2}
+{"sl": "noga", "ru": "нога", "cat": "body", "audio": "c_613.mp3", "level": 2}
+{"sl": "roka", "ru": "рука", "cat": "body", "audio": "c_611.mp3", "level": 2}
+{"sl": "trebuh", "ru": "живот", "cat": "body", "audio": "c_614.mp3", "level": 2}
+{"sl": "prsi", "ru": "грудь", "cat": "body", "audio": "c_615.mp3", "level": 2}
+{"sl": "hrbet", "ru": "спина", "cat": "body", "audio": "c_653.mp3", "level": 2}
+{"sl": "zob", "ru": "зуб", "cat": "body", "audio": "c_649.mp3", "level": 2}
+{"sl": "jezik", "ru": "язык", "cat": "body", "audio": "c_646.mp3", "level": 2}
+{"sl": "ustnica", "ru": "губа", "cat": "body", "audio": "c_644.mp3", "level": 2}
+{"sl": "prst", "ru": "палец", "cat": "body", "audio": "c_890.mp3", "level": 2}
+{"sl": "prst na nogi", "ru": "палец на ноге", "cat": "body", "audio": "c_663.mp3", "level": 3}
+{"sl": "želodec", "ru": "желудок", "cat": "body", "audio": "c_714.mp3", "level": 2}
+{"sl": "pljuča", "ru": "легкое", "cat": "body", "audio": "c_713.mp3", "level": 2}
+{"sl": "jetra", "ru": "печень", "cat": "body", "audio": "c_711.mp3", "level": 2}
+{"sl": "živec", "ru": "нерв", "cat": "body", "audio": "c_704.mp3", "level": 2}
+{"sl": "ledvica", "ru": "почка", "cat": "body", "audio": "c_702.mp3", "level": 2}
+{"sl": "črevesje", "ru": "кишечник", "cat": "body", "audio": "c_696.mp3", "level": 2}
+{"sl": "barva", "ru": "цвет", "cat": "color", "audio": "c_34.mp3", "level": 2}
+{"sl": "oranžen", "ru": "оранжевый", "cat": "color", "audio": "c_739.mp3", "level": 2}
+{"sl": "siv", "ru": "серый", "cat": "color", "audio": "c_736.mp3", "level": 2}
+{"sl": "rjav", "ru": "коричневый", "cat": "color", "audio": "c_734.mp3", "level": 2}
+{"sl": "roza", "ru": "розовый", "cat": "color", "audio": "c_740.mp3", "level": 2}
+{"sl": "dolgočasen", "ru": "скучный", "cat": "thing", "audio": "c_760.mp3", "level": 2}
+{"sl": "težek", "ru": "тяжелый", "cat": "thing", "audio": "c_754.mp3", "level": 2}
+{"sl": "lahek", "ru": "легкий", "cat": "thing", "audio": "c_753.mp3", "level": 2}
+{"sl": "osamljen", "ru": "одинокий", "cat": "thing", "audio": "c_774.mp3", "level": 2}
+{"sl": "lačen", "ru": "голодный", "cat": "thing", "audio": "c_768.mp3", "level": 2}
+{"sl": "žejen", "ru": "жаждущий", "cat": "thing", "audio": "c_769.mp3", "level": 2}
+{"sl": "žalosten", "ru": "грустный", "cat": "thing", "audio": "c_767.mp3", "level": 2}
+{"sl": "strm", "ru": "крутой", "cat": "thing", "audio": "c_787.mp3", "level": 2}
+{"sl": "ploščat", "ru": "плоский", "cat": "thing", "audio": "c_786.mp3", "level": 2}
+{"sl": "okrogel", "ru": "круглый", "cat": "thing", "audio": "c_785.mp3", "level": 2}
+{"sl": "kvadraten", "ru": "квадратный", "cat": "thing", "audio": "c_784.mp3", "level": 2}
+{"sl": "ozek", "ru": "узкий", "cat": "thing", "audio": "c_782.mp3", "level": 2}
+{"sl": "širok", "ru": "широкий", "cat": "thing", "audio": "c_781.mp3", "level": 2}
+{"sl": "globok", "ru": "глубокий", "cat": "thing", "audio": "c_780.mp3", "level": 2}
+{"sl": "plitev", "ru": "мелкий", "cat": "thing", "audio": "c_779.mp3", "level": 2}
+{"sl": "ogromen", "ru": "огромный", "cat": "thing", "audio": "c_783.mp3", "level": 2}
+{"sl": "sever", "ru": "север", "cat": "thing", "audio": "c_812.mp3", "level": 2}
+{"sl": "vzhod", "ru": "восток", "cat": "thing", "audio": "c_811.mp3", "level": 2}
+{"sl": "jug", "ru": "юг", "cat": "thing", "audio": "c_813.mp3", "level": 2}
+{"sl": "zahod", "ru": "запад", "cat": "thing", "audio": "c_814.mp3", "level": 2}
+{"sl": "umazan", "ru": "грязный", "cat": "thing", "audio": "c_826.mp3", "level": 2}
+{"sl": "čist", "ru": "чистый", "cat": "thing", "audio": "c_825.mp3", "level": 2}
+{"sl": "poln", "ru": "полный", "cat": "thing", "audio": "c_820.mp3", "level": 2}
+{"sl": "prazen", "ru": "пустой", "cat": "thing", "audio": "c_819.mp3", "level": 2}
+{"sl": "drag", "ru": "дорогой", "cat": "thing", "audio": "c_818.mp3", "level": 2}
+{"sl": "poceni", "ru": "дешевый", "cat": "thing", "audio": "c_817.mp3", "level": 2}
+{"sl": "temen", "ru": "темный", "cat": "thing", "audio": "c_816.mp3", "level": 2}
+{"sl": "svetel", "ru": "светлый", "cat": "thing", "audio": "c_815.mp3", "level": 2}
+{"sl": "seksi", "ru": "сексуальный", "cat": "thing", "audio": "c_872.mp3", "level": 2}
+{"sl": "len", "ru": "ленивый", "cat": "thing", "audio": "c_871.mp3", "level": 2}
+{"sl": "pogumen", "ru": "храбрый", "cat": "thing", "audio": "c_869.mp3", "level": 2}
+{"sl": "velikodušen", "ru": "щедрый", "cat": "thing", "audio": "c_868.mp3", "level": 2}
+{"sl": "čeden", "ru": "красивый", "cat": "thing", "audio": "c_866.mp3", "level": 2}
+{"sl": "grd", "ru": "уродливый", "cat": "thing", "audio": "c_865.mp3", "level": 2}
+{"sl": "trapast", "ru": "глупый", "cat": "thing", "audio": "c_863.mp3", "level": 2}
+{"sl": "prijazen", "ru": "дружелюбный", "cat": "thing", "audio": "c_856.mp3", "level": 2}
+{"sl": "kriv", "ru": "виновный", "cat": "thing", "audio": "c_854.mp3", "level": 2}
+{"sl": "slep", "ru": "слепой", "cat": "thing", "audio": "c_849.mp3", "level": 2}
+{"sl": "pijan", "ru": "пьяный", "cat": "thing", "audio": "c_848.mp3", "level": 2}
+{"sl": "moker", "ru": "влажный", "cat": "thing", "audio": "c_875.mp3", "level": 2}
+{"sl": "suh", "ru": "сухой", "cat": "thing", "audio": "c_876.mp3", "level": 2}
+{"sl": "topel", "ru": "теплый", "cat": "thing", "audio": "c_877.mp3", "level": 2}
+{"sl": "glasen", "ru": "громкий", "cat": "thing", "audio": "c_882.mp3", "level": 2}
+{"sl": "miren", "ru": "тихий", "cat": "thing", "audio": "c_883.mp3", "level": 2}
+{"sl": "tih", "ru": "тихий", "cat": "thing", "audio": "c_884.mp3", "level": 2}
+{"sl": "kuhinja", "ru": "кухня", "cat": "home", "audio": "c_1089.mp3", "level": 2}
+{"sl": "kopalnica", "ru": "ванная", "cat": "home", "audio": "c_1096.mp3", "level": 2}
+{"sl": "dnevna soba", "ru": "гостиная", "cat": "home", "audio": "c_1087.mp3", "level": 3}
+{"sl": "spalnica", "ru": "спальня", "cat": "home", "audio": "c_1088.mp3", "level": 2}
+{"sl": "vrt", "ru": "сад", "cat": "home", "audio": "c_1110.mp3", "level": 2}
+{"sl": "garaža", "ru": "гараж", "cat": "home", "audio": "c_1109.mp3", "level": 2}
+{"sl": "zid", "ru": "стена", "cat": "home", "audio": "c_1106.mp3", "level": 2}
+{"sl": "klet", "ru": "подвал", "cat": "home", "audio": "c_1102.mp3", "level": 2}
+{"sl": "stranišče", "ru": "туалет", "cat": "home", "audio": "c_1100.mp3", "level": 2}
+{"sl": "stopnice", "ru": "лестница", "cat": "home", "audio": "c_1095.mp3", "level": 2}
+{"sl": "streha", "ru": "крыша", "cat": "home", "audio": "c_1093.mp3", "level": 2}
+{"sl": "okno", "ru": "окно", "cat": "home", "audio": "c_1092.mp3", "level": 2}
+{"sl": "nož", "ru": "нож", "cat": "thing", "audio": "c_1175.mp3", "level": 2}
+{"sl": "skodelica", "ru": "чашка", "cat": "thing", "audio": "c_1172.mp3", "level": 2}
+{"sl": "kozarec", "ru": "стакан", "cat": "thing", "audio": "c_1167.mp3", "level": 2}
+{"sl": "krožnik", "ru": "тарелка", "cat": "thing", "audio": "c_1166.mp3", "level": 2}
+{"sl": "skodelica", "ru": "кружка", "cat": "thing", "audio": "c_1119.mp3", "level": 2}
+{"sl": "smetnjak", "ru": "корзина для мусора", "cat": "thing", "audio": "c_1139.mp3", "level": 2}
+{"sl": "skleda", "ru": "миска", "cat": "thing", "audio": "c_1168.mp3", "level": 2}
+{"sl": "TV sprejemnik", "ru": "телевизор", "cat": "thing", "audio": "c_1140.mp3", "level": 3}
+{"sl": "miza", "ru": "письменный стол", "cat": "thing", "audio": "c_1194.mp3", "level": 2}
+{"sl": "postelja", "ru": "кровать", "cat": "thing", "audio": "c_1190.mp3", "level": 2}
+{"sl": "ogledalo", "ru": "зеркало", "cat": "thing", "audio": "c_1126.mp3", "level": 2}
+{"sl": "tuš", "ru": "душ", "cat": "thing", "audio": "c_1215.mp3", "level": 2}
+{"sl": "kavč", "ru": "диван", "cat": "thing", "audio": "c_1129.mp3", "level": 2}
+{"sl": "slika", "ru": "картина", "cat": "thing", "audio": "c_1136.mp3", "level": 2}
+{"sl": "ura", "ru": "часы", "cat": "thing", "audio": "c_1137.mp3", "level": 2}
+{"sl": "miza", "ru": "стол", "cat": "thing", "audio": "c_1234.mp3", "level": 2}
+{"sl": "stol", "ru": "стул", "cat": "thing", "audio": "c_1235.mp3", "level": 2}
+{"sl": "bazen", "ru": "бассейн", "cat": "thing", "audio": "c_1250.mp3", "level": 2}
+{"sl": "zvonec", "ru": "дверной звонок", "cat": "thing", "audio": "c_1278.mp3", "level": 2}
+{"sl": "sosed", "ru": "сосед", "cat": "thing", "audio": "c_1280.mp3", "level": 2}
+{"sl": "spodleteti", "ru": "потерпеть неудачу", "cat": "verb", "audio": "c_901.mp3", "level": 2}
+{"sl": "izbrati", "ru": "выбирать", "cat": "verb", "audio": "c_928.mp3", "level": 2}
+{"sl": "ustreliti", "ru": "стрелять", "cat": "verb", "audio": "c_926.mp3", "level": 2}
+{"sl": "voliti", "ru": "голосовать", "cat": "verb", "audio": "c_924.mp3", "level": 2}
+{"sl": "padati", "ru": "падать", "cat": "verb", "audio": "c_923.mp3", "level": 2}
+{"sl": "braniti", "ru": "защищать", "cat": "verb", "audio": "c_922.mp3", "level": 2}
+{"sl": "napasti", "ru": "атаковать", "cat": "verb", "audio": "c_921.mp3", "level": 2}
+{"sl": "ukrasti", "ru": "красть", "cat": "verb", "audio": "c_927.mp3", "level": 2}
+{"sl": "goreti", "ru": "жечь", "cat": "verb", "audio": "c_915.mp3", "level": 2}
+{"sl": "rešiti", "ru": "спасать", "cat": "verb", "audio": "c_914.mp3", "level": 2}
+{"sl": "kaditi", "ru": "курить", "cat": "verb", "audio": "c_913.mp3", "level": 2}
+{"sl": "leteti", "ru": "летать", "cat": "verb", "audio": "c_912.mp3", "level": 2}
+{"sl": "nositi", "ru": "носить", "cat": "verb", "audio": "c_909.mp3", "level": 2}
+{"sl": "pljuvati", "ru": "плевать", "cat": "verb", "audio": "c_953.mp3", "level": 2}
+{"sl": "brcniti", "ru": "пинать", "cat": "verb", "audio": "c_951.mp3", "level": 2}
+{"sl": "ugrizniti", "ru": "кусать", "cat": "verb", "audio": "c_947.mp3", "level": 2}
+{"sl": "dihati", "ru": "дышать", "cat": "verb", "audio": "c_945.mp3", "level": 2}
+{"sl": "vonjati", "ru": "нюхать", "cat": "verb", "audio": "c_942.mp3", "level": 2}
+{"sl": "jokati", "ru": "плакать", "cat": "verb", "audio": "c_937.mp3", "level": 2}
+{"sl": "peti", "ru": "петь", "cat": "verb", "audio": "c_936.mp3", "level": 2}
+{"sl": "smehljati se", "ru": "улыбаться", "cat": "verb", "audio": "c_933.mp3", "level": 3}
+{"sl": "smejati se", "ru": "смеяться", "cat": "verb", "audio": "c_932.mp3", "level": 3}
+{"sl": "rasti", "ru": "расти", "cat": "verb", "audio": "c_930.mp3", "level": 2}
+{"sl": "manjšati se", "ru": "уменьшаться", "cat": "verb", "audio": "c_929.mp3", "level": 3}
+{"sl": "kregati se", "ru": "спорить", "cat": "verb", "audio": "c_976.mp3", "level": 3}
+{"sl": "groziti", "ru": "угрожать", "cat": "verb", "audio": "c_975.mp3", "level": 2}
+{"sl": "deliti", "ru": "делиться", "cat": "verb", "audio": "c_973.mp3", "level": 2}
+{"sl": "nahraniti", "ru": "кормить", "cat": "verb", "audio": "c_971.mp3", "level": 2}
+{"sl": "skriti", "ru": "прятаться", "cat": "verb", "audio": "c_968.mp3", "level": 2}
+{"sl": "posvariti", "ru": "предупреждать", "cat": "verb", "audio": "c_959.mp3", "level": 2}
+{"sl": "plavati", "ru": "плавать", "cat": "verb", "audio": "c_979.mp3", "level": 2}
+{"sl": "skočiti", "ru": "прыгать", "cat": "verb", "audio": "c_983.mp3", "level": 2}
+{"sl": "kotaliti se", "ru": "сворачивать", "cat": "thing", "audio": "c_988.mp3", "level": 3}
+{"sl": "dvigniti", "ru": "поднимать", "cat": "verb", "audio": "c_991.mp3", "level": 2}
+{"sl": "kopati", "ru": "копать", "cat": "verb", "audio": "c_992.mp3", "level": 2}
+{"sl": "kopirati", "ru": "копировать", "cat": "verb", "audio": "c_1046.mp3", "level": 2}
+{"sl": "dostaviti", "ru": "доставлять", "cat": "verb", "audio": "c_1052.mp3", "level": 2}
+{"sl": "iskati", "ru": "искать", "cat": "verb", "audio": "c_1038.mp3", "level": 2}
+{"sl": "vaditi", "ru": "тренироваться", "cat": "verb", "audio": "c_1004.mp3", "level": 2}
+{"sl": "potovati", "ru": "путешествовать", "cat": "verb", "audio": "c_1033.mp3", "level": 2}
+{"sl": "slikati", "ru": "рисовать", "cat": "verb", "audio": "c_1031.mp3", "level": 2}
+{"sl": "stuširati se", "ru": "принимать душ", "cat": "verb", "audio": "c_1024.mp3", "level": 3}
+{"sl": "odpreti", "ru": "открывать", "cat": "verb", "audio": "c_1020.mp3", "level": 2}
+{"sl": "zakleniti", "ru": "закрывать", "cat": "verb", "audio": "c_1019.mp3", "level": 2}
+{"sl": "prati", "ru": "мыть", "cat": "verb", "audio": "c_1017.mp3", "level": 2}
+{"sl": "moliti", "ru": "молиться", "cat": "verb", "audio": "c_1016.mp3", "level": 2}
+{"sl": "kuhati", "ru": "готовить", "cat": "verb", "audio": "c_1015.mp3", "level": 2}
+{"sl": "knjiga", "ru": "книга", "cat": "school", "audio": "c_2166.mp3", "level": 2}
+{"sl": "knjižnica", "ru": "библиотека", "cat": "school", "audio": "c_2162.mp3", "level": 2}
+{"sl": "domača naloga", "ru": "домашнее задание", "cat": "school", "audio": "c_2157.mp3", "level": 3}
+{"sl": "izpit", "ru": "экзамен", "cat": "school", "audio": "c_2156.mp3", "level": 2}
+{"sl": "lekcija", "ru": "урок", "cat": "school", "audio": "c_2155.mp3", "level": 2}
+{"sl": "znanost", "ru": "наука", "cat": "school", "audio": "c_2168.mp3", "level": 2}
+{"sl": "zgodovina", "ru": "история", "cat": "school", "audio": "c_2167.mp3", "level": 2}
+{"sl": "umetnost", "ru": "изобразительное искусство", "cat": "school", "audio": "c_2171.mp3", "level": 2}
+{"sl": "angleščina", "ru": "английский язык", "cat": "school", "audio": "c_2172.mp3", "level": 2}
+{"sl": "francoščina", "ru": "французский язык", "cat": "school", "audio": "c_2177.mp3", "level": 2}
+{"sl": "pero", "ru": "ручка", "cat": "school", "audio": "c_2190.mp3", "level": 2}
+{"sl": "svinčnik", "ru": "карандаш", "cat": "school", "audio": "c_2188.mp3", "level": 2}
+{"sl": "trije odstotki", "ru": "3%", "cat": "thing", "audio": "c_2214.mp3", "level": 3}
+{"sl": "prvi", "ru": "первый", "cat": "thing", "audio": "c_2217.mp3", "level": 2}
+{"sl": "drugi", "ru": "второй", "cat": "thing", "audio": "c_2218.mp3", "level": 2}
+{"sl": "tretji", "ru": "третий", "cat": "thing", "audio": "c_2219.mp3", "level": 2}
+{"sl": "četrti", "ru": "четвертый", "cat": "thing", "audio": "c_2220.mp3", "level": 2}
+{"sl": "rezultat", "ru": "результат", "cat": "thing", "audio": "c_2216.mp3", "level": 2}
+{"sl": "kvadrat", "ru": "квадрат", "cat": "thing", "audio": "c_2237.mp3", "level": 2}
+{"sl": "krog", "ru": "круг", "cat": "thing", "audio": "c_2231.mp3", "level": 2}
+{"sl": "površina", "ru": "площадь", "cat": "thing", "audio": "c_2254.mp3", "level": 2}
+{"sl": "raziskava", "ru": "исследование", "cat": "school", "audio": "c_2292.mp3", "level": 2}
+{"sl": "stopnja", "ru": "степень", "cat": "school", "audio": "c_2290.mp3", "level": 2}
+{"sl": "diplomant", "ru": "бакалавр", "cat": "school", "audio": "c_2285.mp3", "level": 2}
+{"sl": "magisterij", "ru": "магистр", "cat": "school", "audio": "c_2286.mp3", "level": 2}
+{"sl": "x je manjši od y", "ru": "x < y", "cat": "thing", "audio": "c_2319.mp3", "level": 3}
+{"sl": "x je večji od y", "ru": "x > y", "cat": "thing", "audio": "c_2320.mp3", "level": 3}
+{"sl": "stres", "ru": "стресс", "cat": "thing", "audio": "c_3255.mp3", "level": 2}
+{"sl": "zavarovanje", "ru": "страхование", "cat": "shop", "audio": "c_3246.mp3", "level": 2}
+{"sl": "osebje", "ru": "персонал", "cat": "shop", "audio": "c_3242.mp3", "level": 2}
+{"sl": "oddelek", "ru": "отдел", "cat": "shop", "audio": "c_3247.mp3", "level": 2}
+{"sl": "plača", "ru": "зарплата", "cat": "shop", "audio": "c_3243.mp3", "level": 2}
+{"sl": "naslov", "ru": "адрес", "cat": "shop", "audio": "c_3265.mp3", "level": 2}
+{"sl": "pismo", "ru": "письмо", "cat": "shop", "audio": "c_3262.mp3", "level": 2}
+{"sl": "kapitan", "ru": "капитан", "cat": "job", "audio": "c_3310.mp3", "level": 2}
+{"sl": "detektiv", "ru": "детектив", "cat": "job", "audio": "c_3319.mp3", "level": 2}
+{"sl": "pilot", "ru": "пилот", "cat": "job", "audio": "c_3302.mp3", "level": 2}
+{"sl": "profesor", "ru": "профессор", "cat": "job", "audio": "c_3301.mp3", "level": 2}
+{"sl": "učitelj", "ru": "учитель", "cat": "job", "audio": "c_3298.mp3", "level": 2}
+{"sl": "odvetnik", "ru": "адвокат", "cat": "job", "audio": "c_3292.mp3", "level": 2}
+{"sl": "tajnica", "ru": "секретарь", "cat": "job", "audio": "c_3290.mp3", "level": 2}
+{"sl": "pomočnik", "ru": "помощник", "cat": "job", "audio": "c_3289.mp3", "level": 2}
+{"sl": "sodnik", "ru": "судья", "cat": "job", "audio": "c_3288.mp3", "level": 2}
+{"sl": "direktor", "ru": "директор", "cat": "job", "audio": "c_3287.mp3", "level": 2}
+{"sl": "vodja", "ru": "менеджер", "cat": "job", "audio": "c_3285.mp3", "level": 2}
+{"sl": "kuhar", "ru": "повар", "cat": "job", "audio": "c_3359.mp3", "level": 2}
+{"sl": "voznik taksija", "ru": "водитель такси", "cat": "job", "audio": "c_3358.mp3", "level": 3}
+{"sl": "voznik avtobusa", "ru": "водитель автобуса", "cat": "job", "audio": "c_3356.mp3", "level": 3}
+{"sl": "kriminalec", "ru": "преступник", "cat": "job", "audio": "c_3393.mp3", "level": 2}
+{"sl": "model", "ru": "модель", "cat": "job", "audio": "c_3380.mp3", "level": 2}
+{"sl": "umetnik", "ru": "художник", "cat": "job", "audio": "c_3378.mp3", "level": 2}
+{"sl": "telefonska številka", "ru": "номер телефона", "cat": "shop", "audio": "c_3442.mp3", "level": 3}
+{"sl": "signal", "ru": "сигнал", "cat": "shop", "audio": "c_3439.mp3", "level": 2}
+{"sl": "aplikacija", "ru": "приложение", "cat": "shop", "audio": "c_3437.mp3", "level": 2}
+{"sl": "klepet", "ru": "чат", "cat": "shop", "audio": "c_3436.mp3", "level": 2}
+{"sl": "datoteka", "ru": "файл", "cat": "shop", "audio": "c_3434.mp3", "level": 2}
+{"sl": "url", "ru": "URL", "cat": "shop", "audio": "c_3429.mp3", "level": 2}
+{"sl": "e-naslov", "ru": "адрес электронной почты", "cat": "shop", "audio": "c_3428.mp3", "level": 2}
+{"sl": "spletna stran", "ru": "веб-сайт", "cat": "shop", "audio": "c_3427.mp3", "level": 3}
+{"sl": "e-pošta", "ru": "электронная почта", "cat": "shop", "audio": "c_3425.mp3", "level": 2}
+{"sl": "mobilni telefon", "ru": "мобильный телефон", "cat": "shop", "audio": "c_3418.mp3", "level": 3}
+{"sl": "zakon", "ru": "закон", "cat": "shop", "audio": "c_3456.mp3", "level": 2}
+{"sl": "zapor", "ru": "тюрьма", "cat": "shop", "audio": "c_3451.mp3", "level": 2}
+{"sl": "dokaz", "ru": "доказательство", "cat": "shop", "audio": "c_3449.mp3", "level": 2}
+{"sl": "globa", "ru": "штраф", "cat": "shop", "audio": "c_3448.mp3", "level": 2}
+{"sl": "priča", "ru": "свидетель", "cat": "shop", "audio": "c_3445.mp3", "level": 2}
+{"sl": "sodišče", "ru": "суд", "cat": "shop", "audio": "c_3443.mp3", "level": 2}
+{"sl": "podpis", "ru": "подпись", "cat": "shop", "audio": "c_3487.mp3", "level": 2}
+{"sl": "izguba", "ru": "потеря", "cat": "shop", "audio": "c_3545.mp3", "level": 2}
+{"sl": "dobiček", "ru": "прибыль", "cat": "shop", "audio": "c_3544.mp3", "level": 2}
+{"sl": "stranka", "ru": "клиент", "cat": "shop", "audio": "c_3464.mp3", "level": 2}
+{"sl": "znesek", "ru": "сумма", "cat": "shop", "audio": "c_3461.mp3", "level": 2}
+{"sl": "kreditna kartica", "ru": "кредитная карточка", "cat": "shop", "audio": "c_3457.mp3", "level": 3}
+{"sl": "geslo", "ru": "пароль", "cat": "shop", "audio": "c_3459.mp3", "level": 2}
+{"sl": "bankomat", "ru": "банкомат", "cat": "shop", "audio": "c_3473.mp3", "level": 2}
+{"sl": "bazen", "ru": "бассейн", "cat": "thing", "audio": "c_3527.mp3", "level": 2}
+{"sl": "elektrika", "ru": "ток", "cat": "thing", "audio": "c_3562.mp3", "level": 2}
+{"sl": "kamera", "ru": "камера", "cat": "thing", "audio": "c_3553.mp3", "level": 2}
+{"sl": "radio", "ru": "радио", "cat": "thing", "audio": "c_3549.mp3", "level": 2}
+{"sl": "darilo", "ru": "подарок", "cat": "thing", "audio": "c_3584.mp3", "level": 2}
+{"sl": "steklenica", "ru": "бутылка", "cat": "thing", "audio": "c_3574.mp3", "level": 2}
+{"sl": "vrečka", "ru": "пакет", "cat": "thing", "audio": "c_3575.mp3", "level": 2}
+{"sl": "ključ", "ru": "ключ", "cat": "thing", "audio": "c_3568.mp3", "level": 2}
+{"sl": "lutka", "ru": "кукла", "cat": "thing", "audio": "c_3609.mp3", "level": 2}
+{"sl": "angel", "ru": "ангел", "cat": "thing", "audio": "c_3614.mp3", "level": 2}
+{"sl": "glavnik", "ru": "расческа", "cat": "thing", "audio": "c_2863.mp3", "level": 2}
+{"sl": "zobna pasta", "ru": "зубная паста", "cat": "thing", "audio": "c_2862.mp3", "level": 3}
+{"sl": "zobna ščetka", "ru": "зубная щетка", "cat": "thing", "audio": "c_2861.mp3", "level": 3}
+{"sl": "šampon", "ru": "шампунь", "cat": "thing", "audio": "c_2860.mp3", "level": 2}
+{"sl": "krema", "ru": "крем", "cat": "thing", "audio": "c_2858.mp3", "level": 2}
+{"sl": "robček", "ru": "бумажная салфетка", "cat": "thing", "audio": "c_2856.mp3", "level": 2}
+{"sl": "šminka", "ru": "губная помада", "cat": "thing", "audio": "c_2877.mp3", "level": 2}
+{"sl": "TV", "ru": "ТВ", "cat": "thing", "audio": "c_3782.mp3", "level": 2}
+{"sl": "kino", "ru": "кино", "cat": "thing", "audio": "c_3781.mp3", "level": 2}
+{"sl": "novice", "ru": "новости", "cat": "thing", "audio": "c_2018.mp3", "level": 2}
+{"sl": "sedež", "ru": "место", "cat": "thing", "audio": "c_2016.mp3", "level": 2}
+{"sl": "vstopnica", "ru": "билет", "cat": "thing", "audio": "c_2015.mp3", "level": 2}
+{"sl": "platno", "ru": "экран", "cat": "thing", "audio": "c_2014.mp3", "level": 2}
+{"sl": "glasba", "ru": "музыка", "cat": "thing", "audio": "c_90.mp3", "level": 2}
+{"sl": "oder", "ru": "сцена", "cat": "thing", "audio": "c_2103.mp3", "level": 2}
+{"sl": "občinstvo", "ru": "зритель", "cat": "thing", "audio": "c_2100.mp3", "level": 2}
+{"sl": "slika", "ru": "картина", "cat": "thing", "audio": "c_2083.mp3", "level": 2}
+{"sl": "šala", "ru": "шутка", "cat": "thing", "audio": "c_2129.mp3", "level": 2}
+{"sl": "članek", "ru": "статья", "cat": "thing", "audio": "c_2126.mp3", "level": 2}
+{"sl": "časopis", "ru": "газета", "cat": "thing", "audio": "c_2124.mp3", "level": 2}
+{"sl": "revija", "ru": "журнал", "cat": "thing", "audio": "c_2123.mp3", "level": 2}
+{"sl": "oglaševanje", "ru": "реклама", "cat": "thing", "audio": "c_2120.mp3", "level": 2}
+{"sl": "narava", "ru": "природа", "cat": "weather", "audio": "c_104.mp3", "level": 2}
+{"sl": "pepel", "ru": "пепел", "cat": "weather", "audio": "c_2351.mp3", "level": 2}
+{"sl": "ogenj", "ru": "огонь", "cat": "weather", "audio": "c_2347.mp3", "level": 2}
+{"sl": "diamant", "ru": "алмаз", "cat": "weather", "audio": "c_2339.mp3", "level": 2}
+{"sl": "luna", "ru": "Луна", "cat": "weather", "audio": "c_2364.mp3", "level": 2}
+{"sl": "Zemlja", "ru": "Земля", "cat": "weather", "audio": "c_2357.mp3", "level": 2}
+{"sl": "sonce", "ru": "солнце", "cat": "weather", "audio": "c_2354.mp3", "level": 2}
+{"sl": "zvezda", "ru": "звезда", "cat": "weather", "audio": "c_2353.mp3", "level": 2}
+{"sl": "planet", "ru": "планета", "cat": "weather", "audio": "c_2352.mp3", "level": 2}
+{"sl": "vesolje", "ru": "вселенная", "cat": "weather", "audio": "c_106.mp3", "level": 2}
+{"sl": "obala", "ru": "побережье", "cat": "weather", "audio": "c_2444.mp3", "level": 2}
+{"sl": "jezero", "ru": "озеро", "cat": "weather", "audio": "c_2442.mp3", "level": 2}
+{"sl": "gozd", "ru": "лес", "cat": "weather", "audio": "c_2437.mp3", "level": 2}
+{"sl": "puščava", "ru": "пустыня", "cat": "weather", "audio": "c_2436.mp3", "level": 2}
+{"sl": "hrib", "ru": "холм", "cat": "weather", "audio": "c_2432.mp3", "level": 2}
+{"sl": "skala", "ru": "утес", "cat": "weather", "audio": "c_2431.mp3", "level": 2}
+{"sl": "reka", "ru": "река", "cat": "weather", "audio": "c_2427.mp3", "level": 2}
+{"sl": "dolina", "ru": "долина", "cat": "weather", "audio": "c_2426.mp3", "level": 2}
+{"sl": "gora", "ru": "гора", "cat": "weather", "audio": "c_2417.mp3", "level": 2}
+{"sl": "otok", "ru": "остров", "cat": "weather", "audio": "c_2412.mp3", "level": 2}
+{"sl": "ocean", "ru": "океан", "cat": "weather", "audio": "c_2411.mp3", "level": 2}
+{"sl": "morje", "ru": "море", "cat": "weather", "audio": "c_2410.mp3", "level": 2}
+{"sl": "vreme", "ru": "погода", "cat": "weather", "audio": "c_109.mp3", "level": 2}
+{"sl": "led", "ru": "лед", "cat": "weather", "audio": "c_2465.mp3", "level": 2}
+{"sl": "sneg", "ru": "снег", "cat": "weather", "audio": "c_2464.mp3", "level": 2}
+{"sl": "nevihta", "ru": "буря", "cat": "weather", "audio": "c_2460.mp3", "level": 2}
+{"sl": "dež", "ru": "дождь", "cat": "weather", "audio": "c_2450.mp3", "level": 2}
+{"sl": "veter", "ru": "ветер", "cat": "weather", "audio": "c_2449.mp3", "level": 2}
+{"sl": "rastlina", "ru": "растение", "cat": "weather", "audio": "c_111.mp3", "level": 2}
+{"sl": "drevo", "ru": "дерево", "cat": "weather", "audio": "c_2477.mp3", "level": 2}
+{"sl": "trava", "ru": "трава", "cat": "weather", "audio": "c_2508.mp3", "level": 2}
+{"sl": "vrtnica", "ru": "роза", "cat": "weather", "audio": "c_2503.mp3", "level": 2}
+{"sl": "roža", "ru": "цветок", "cat": "weather", "audio": "c_2495.mp3", "level": 2}
+{"sl": "plin", "ru": "газ", "cat": "weather", "audio": "c_2534.mp3", "level": 2}
+{"sl": "kovina", "ru": "металл", "cat": "weather", "audio": "c_2531.mp3", "level": 2}
+{"sl": "zlato", "ru": "золото", "cat": "shop", "audio": "c_2628.mp3", "level": 2}
+{"sl": "srebro", "ru": "серебро", "cat": "shop", "audio": "c_2596.mp3", "level": 2}
+{"sl": "Srebro je cenejše od zlata", "ru": "Серебро дешевле золота", "cat": "thing", "audio": "c_3747.mp3", "level": 3}
+{"sl": "Zlato je dražje od srebra", "ru": "Золото дороже серебра", "cat": "thing", "audio": "c_3748.mp3", "level": 3}
+{"sl": "počitnice", "ru": "отпуск", "cat": "thing", "audio": "c_75.mp3", "level": 2}
+{"sl": "član", "ru": "член", "cat": "thing", "audio": "c_3759.mp3", "level": 2}
+{"sl": "hotel", "ru": "гостиница", "cat": "goplace", "audio": "c_1620.mp3", "level": 2}
+{"sl": "plaža", "ru": "пляж", "cat": "goplace", "audio": "c_1618.mp3", "level": 2}
+{"sl": "gost", "ru": "гость", "cat": "thing", "audio": "c_1602.mp3", "level": 2}
+{"sl": "rojstni dan", "ru": "день рождения", "cat": "thing", "audio": "c_1664.mp3", "level": 3}
+{"sl": "božič", "ru": "Рождество", "cat": "thing", "audio": "c_1665.mp3", "level": 2}
+{"sl": "novo leto", "ru": "Новый год", "cat": "thing", "audio": "c_1666.mp3", "level": 3}
+{"sl": "velika noč", "ru": "Пасха", "cat": "thing", "audio": "c_1670.mp3", "level": 3}
+{"sl": "stric", "ru": "дядя", "cat": "family", "audio": "c_1721.mp3", "level": 2}
+{"sl": "teta", "ru": "тетя", "cat": "family", "audio": "c_1720.mp3", "level": 2}
+{"sl": "babica", "ru": "бабушка", "cat": "family", "audio": "c_1718.mp3", "level": 2}
+{"sl": "dedek", "ru": "дедушка", "cat": "family", "audio": "c_1716.mp3", "level": 2}
+{"sl": "babica", "ru": "бабушка", "cat": "family", "audio": "c_1719.mp3", "level": 2}
+{"sl": "dedek", "ru": "дедушка", "cat": "family", "audio": "c_1717.mp3", "level": 2}
+{"sl": "smrt", "ru": "смерть", "cat": "thing", "audio": "c_1801.mp3", "level": 2}
+{"sl": "grob", "ru": "могила", "cat": "thing", "audio": "c_1795.mp3", "level": 2}
+{"sl": "ločitev", "ru": "развод", "cat": "family", "audio": "c_1779.mp3", "level": 2}
+{"sl": "nevesta", "ru": "невеста", "cat": "family", "audio": "c_1781.mp3", "level": 2}
+{"sl": "ženin", "ru": "жених", "cat": "family", "audio": "c_1780.mp3", "level": 2}
+{"sl": "sto ena", "ru": "101", "cat": "thing", "audio": "c_507.mp3", "level": 3}
+{"sl": "sto pet", "ru": "105", "cat": "thing", "audio": "c_508.mp3", "level": 3}
+{"sl": "sto deset", "ru": "110", "cat": "thing", "audio": "c_509.mp3", "level": 3}
+{"sl": "sto enainpetdeset", "ru": "151", "cat": "thing", "audio": "c_510.mp3", "level": 3}
+{"sl": "dvesto", "ru": "200", "cat": "thing", "audio": "c_511.mp3", "level": 2}
+{"sl": "dvesto dva", "ru": "202", "cat": "thing", "audio": "c_512.mp3", "level": 3}
+{"sl": "dvesto šest", "ru": "206", "cat": "thing", "audio": "c_513.mp3", "level": 3}
+{"sl": "dvesto dvajset", "ru": "220", "cat": "thing", "audio": "c_514.mp3", "level": 3}
+{"sl": "dvesto dvainšestdeset", "ru": "262", "cat": "thing", "audio": "c_515.mp3", "level": 3}
+{"sl": "tristo", "ru": "300", "cat": "thing", "audio": "c_516.mp3", "level": 2}
+{"sl": "tristo tri", "ru": "303", "cat": "thing", "audio": "c_517.mp3", "level": 3}
+{"sl": "tristo sedem", "ru": "307", "cat": "thing", "audio": "c_518.mp3", "level": 3}
+{"sl": "tristo trideset", "ru": "330", "cat": "thing", "audio": "c_519.mp3", "level": 3}
+{"sl": "tristo triinsedemdeset", "ru": "373", "cat": "thing", "audio": "c_520.mp3", "level": 3}
+{"sl": "štiristo", "ru": "400", "cat": "thing", "audio": "c_521.mp3", "level": 2}
+{"sl": "štiristo štiri", "ru": "404", "cat": "thing", "audio": "c_522.mp3", "level": 3}
+{"sl": "štiristo osem", "ru": "408", "cat": "thing", "audio": "c_523.mp3", "level": 3}
+{"sl": "štiristo štirideset", "ru": "440", "cat": "thing", "audio": "c_524.mp3", "level": 3}
+{"sl": "štiristo štiriinosemdeset", "ru": "484", "cat": "thing", "audio": "c_525.mp3", "level": 3}
+{"sl": "petsto", "ru": "500", "cat": "thing", "audio": "c_526.mp3", "level": 2}
+{"sl": "petsto pet", "ru": "505", "cat": "thing", "audio": "c_527.mp3", "level": 3}
+{"sl": "petsto devet", "ru": "509", "cat": "thing", "audio": "c_528.mp3", "level": 3}
+{"sl": "petsto petdeset", "ru": "550", "cat": "thing", "audio": "c_529.mp3", "level": 3}
+{"sl": "petsto petindevetdeset", "ru": "595", "cat": "thing", "audio": "c_530.mp3", "level": 3}
+{"sl": "šeststo", "ru": "600", "cat": "thing", "audio": "c_531.mp3", "level": 2}
+{"sl": "šeststo ena", "ru": "601", "cat": "thing", "audio": "c_532.mp3", "level": 3}
+{"sl": "šeststo šest", "ru": "606", "cat": "thing", "audio": "c_533.mp3", "level": 3}
+{"sl": "šeststo šestnajst", "ru": "616", "cat": "thing", "audio": "c_534.mp3", "level": 3}
+{"sl": "šeststo šestdeset", "ru": "660", "cat": "thing", "audio": "c_535.mp3", "level": 3}
+{"sl": "sedemsto", "ru": "700", "cat": "thing", "audio": "c_536.mp3", "level": 2}
+{"sl": "sedemsto dva", "ru": "702", "cat": "thing", "audio": "c_537.mp3", "level": 3}
+{"sl": "sedemsto sedem", "ru": "707", "cat": "thing", "audio": "c_538.mp3", "level": 3}
+{"sl": "sedemsto sedemindvajset", "ru": "727", "cat": "thing", "audio": "c_539.mp3", "level": 3}
+{"sl": "sedemsto sedemdeset", "ru": "770", "cat": "thing", "audio": "c_540.mp3", "level": 3}
+{"sl": "osemsto", "ru": "800", "cat": "thing", "audio": "c_541.mp3", "level": 2}
+{"sl": "osemsto tri", "ru": "803", "cat": "thing", "audio": "c_542.mp3", "level": 3}
+{"sl": "osemsto osem", "ru": "808", "cat": "thing", "audio": "c_543.mp3", "level": 3}
+{"sl": "osemsto osemintrideset", "ru": "838", "cat": "thing", "audio": "c_544.mp3", "level": 3}
+{"sl": "osemsto osemdeset", "ru": "880", "cat": "thing", "audio": "c_545.mp3", "level": 3}
+{"sl": "devetsto", "ru": "900", "cat": "thing", "audio": "c_546.mp3", "level": 2}
+{"sl": "devetsto štiri", "ru": "904", "cat": "thing", "audio": "c_547.mp3", "level": 3}
+{"sl": "devetsto devet", "ru": "909", "cat": "thing", "audio": "c_548.mp3", "level": 3}
+{"sl": "devetsto devetinštirideset", "ru": "949", "cat": "thing", "audio": "c_549.mp3", "level": 3}
+{"sl": "devetsto devetdeset", "ru": "990", "cat": "thing", "audio": "c_550.mp3", "level": 3}
+{"sl": "tiger", "ru": "тигр", "cat": "thing", "audio": "c_92.mp3", "level": 2}
+{"sl": "miš", "ru": "мышь", "cat": "thing", "audio": "c_192.mp3", "level": 2}
+{"sl": "podgana", "ru": "крыса", "cat": "thing", "audio": "c_195.mp3", "level": 2}
+{"sl": "zajec", "ru": "кролик", "cat": "thing", "audio": "c_89.mp3", "level": 2}
+{"sl": "lev", "ru": "лев", "cat": "thing", "audio": "c_25.mp3", "level": 2}
+{"sl": "osel", "ru": "осел", "cat": "thing", "audio": "c_2.mp3", "level": 2}
+{"sl": "slon", "ru": "слон", "cat": "thing", "audio": "c_9.mp3", "level": 2}
+{"sl": "ptica", "ru": "птица", "cat": "thing", "audio": "c_3.mp3", "level": 2}
+{"sl": "petelin", "ru": "петух", "cat": "thing", "audio": "c_17.mp3", "level": 2}
+{"sl": "golob", "ru": "голубь", "cat": "thing", "audio": "c_100.mp3", "level": 2}
+{"sl": "gos", "ru": "гусь", "cat": "thing", "audio": "c_44.mp3", "level": 2}
+{"sl": "žuželka", "ru": "насекомое", "cat": "thing", "audio": "c_4.mp3", "level": 2}
+{"sl": "hrošč", "ru": "жук", "cat": "thing", "audio": "c_103.mp3", "level": 2}
+{"sl": "komar", "ru": "комар", "cat": "thing", "audio": "c_58.mp3", "level": 2}
+{"sl": "muha", "ru": "муха", "cat": "thing", "audio": "c_53.mp3", "level": 2}
+{"sl": "mravlja", "ru": "муравей", "cat": "thing", "audio": "c_51.mp3", "level": 2}
+{"sl": "kit", "ru": "кит", "cat": "thing", "audio": "c_111.mp3", "level": 2}
+{"sl": "morski pes", "ru": "акула", "cat": "thing", "audio": "c_67.mp3", "level": 3}
+{"sl": "delfin", "ru": "дельфин", "cat": "thing", "audio": "c_60.mp3", "level": 2}
+{"sl": "polž", "ru": "улитка", "cat": "thing", "audio": "c_115.mp3", "level": 2}
+{"sl": "žaba", "ru": "лягушка", "cat": "thing", "audio": "c_81.mp3", "level": 2}
+{"sl": "pogosto", "ru": "часто", "cat": "thing", "audio": "c_3662.mp3", "level": 2}
+{"sl": "takoj", "ru": "немедленно", "cat": "thing", "audio": "c_3661.mp3", "level": 2}
+{"sl": "nenadoma", "ru": "вдруг", "cat": "thing", "audio": "c_3658.mp3", "level": 2}
+{"sl": "čeprav", "ru": "хотя", "cat": "thing", "audio": "c_3657.mp3", "level": 2}
+{"sl": "gimnastika", "ru": "гимнастика", "cat": "thing", "audio": "c_141.mp3", "level": 2}
+{"sl": "tenis", "ru": "теннис", "cat": "thing", "audio": "c_138.mp3", "level": 2}
+{"sl": "tek", "ru": "бег", "cat": "thing", "audio": "c_129.mp3", "level": 2}
+{"sl": "kolesarjenje", "ru": "езда на велосипеде", "cat": "thing", "audio": "c_122.mp3", "level": 2}
+{"sl": "golf", "ru": "гольф", "cat": "thing", "audio": "c_125.mp3", "level": 2}
+{"sl": "drsanje", "ru": "катание на коньках", "cat": "thing", "audio": "c_143.mp3", "level": 2}
+{"sl": "nogomet", "ru": "футбол", "cat": "thing", "audio": "c_158.mp3", "level": 2}
+{"sl": "košarka", "ru": "баскетбол", "cat": "thing", "audio": "c_155.mp3", "level": 2}
+{"sl": "plavanje", "ru": "плавание", "cat": "thing", "audio": "c_208.mp3", "level": 2}
+{"sl": "potapljanje", "ru": "дайвинг", "cat": "thing", "audio": "c_169.mp3", "level": 2}
+{"sl": "pohodništvo", "ru": "пеший туризм", "cat": "thing", "audio": "c_191.mp3", "level": 2}
+{"sl": "Združeno kraljestvo", "ru": "Великобритания", "cat": "info", "audio": "c_283.mp3", "level": 3}
+{"sl": "Španija", "ru": "Испания", "cat": "info", "audio": "c_280.mp3", "level": 2}
+{"sl": "Švica", "ru": "Швейцария", "cat": "info", "audio": "c_276.mp3", "level": 2}
+{"sl": "Italija", "ru": "Италия", "cat": "info", "audio": "c_257.mp3", "level": 2}
+{"sl": "Francija", "ru": "Франция", "cat": "info", "audio": "c_252.mp3", "level": 2}
+{"sl": "Nemčija", "ru": "Германия", "cat": "info", "audio": "c_248.mp3", "level": 2}
+{"sl": "Tajska", "ru": "Таиланд", "cat": "info", "audio": "c_334.mp3", "level": 2}
+{"sl": "Singapur", "ru": "Сингапур", "cat": "info", "audio": "c_328.mp3", "level": 2}
+{"sl": "Rusija", "ru": "Россия", "cat": "info", "audio": "c_326.mp3", "level": 2}
+{"sl": "Japonska", "ru": "Япония", "cat": "info", "audio": "c_304.mp3", "level": 2}
+{"sl": "Izrael", "ru": "Израиль", "cat": "info", "audio": "c_303.mp3", "level": 2}
+{"sl": "Indija", "ru": "Индия", "cat": "info", "audio": "c_299.mp3", "level": 2}
+{"sl": "Kitajska", "ru": "Китай", "cat": "info", "audio": "c_296.mp3", "level": 2}
+{"sl": "Združene države Amerike", "ru": "Соединенные Штаты Америки", "cat": "thing", "audio": "c_378.mp3", "level": 3}
+{"sl": "Mehika", "ru": "Мексика", "cat": "info", "audio": "c_365.mp3", "level": 2}
+{"sl": "Kanada", "ru": "Канада", "cat": "info", "audio": "c_362.mp3", "level": 2}
+{"sl": "Čile", "ru": "Чили", "cat": "info", "audio": "c_348.mp3", "level": 2}
+{"sl": "Brazilija", "ru": "Бразилия", "cat": "info", "audio": "c_346.mp3", "level": 2}
+{"sl": "Argentina", "ru": "Аргентина", "cat": "info", "audio": "c_340.mp3", "level": 2}
+{"sl": "Južna Afrika", "ru": "Южная Африка", "cat": "info", "audio": "c_425.mp3", "level": 3}
+{"sl": "Nigerija", "ru": "Нигерия", "cat": "info", "audio": "c_414.mp3", "level": 2}
+{"sl": "Maroko", "ru": "Марокко", "cat": "info", "audio": "c_409.mp3", "level": 2}
+{"sl": "Libija", "ru": "Ливия", "cat": "info", "audio": "c_404.mp3", "level": 2}
+{"sl": "Kenija", "ru": "Кения", "cat": "info", "audio": "c_400.mp3", "level": 2}
+{"sl": "Alžirija", "ru": "Алжир", "cat": "info", "audio": "c_382.mp3", "level": 2}
+{"sl": "Egipt", "ru": "Египет", "cat": "info", "audio": "c_380.mp3", "level": 2}
+{"sl": "Nova Zelandija", "ru": "Новая Зеландия", "cat": "info", "audio": "c_444.mp3", "level": 3}
+{"sl": "Avstralija", "ru": "Австралия", "cat": "info", "audio": "c_435.mp3", "level": 2}
+{"sl": "Afrika", "ru": "Африка", "cat": "info", "audio": "c_18.mp3", "level": 2}
+{"sl": "Evropa", "ru": "Европа", "cat": "info", "audio": "c_15.mp3", "level": 2}
+{"sl": "Azija", "ru": "Азия", "cat": "info", "audio": "c_16.mp3", "level": 2}
+{"sl": "Amerika", "ru": "Америка", "cat": "info", "audio": "c_17.mp3", "level": 2}
+{"sl": "četrt ure", "ru": "четверть часа", "cat": "time", "audio": "c_1639.mp3", "level": 3}
+{"sl": "pol ure", "ru": "полчаса", "cat": "time", "audio": "c_1638.mp3", "level": 3}
+{"sl": "tri četrt ure", "ru": "три четверти часа", "cat": "time", "audio": "c_1640.mp3", "level": 3}
+{"sl": "ob enih", "ru": "1:00", "cat": "thing", "audio": "c_1641.mp3", "level": 3}
+{"sl": "pet čez dve", "ru": "2:05", "cat": "thing", "audio": "c_1642.mp3", "level": 3}
+{"sl": "deset čez tri", "ru": "3:10", "cat": "thing", "audio": "c_1643.mp3", "level": 3}
+{"sl": "četrt čez štiri", "ru": "4:15", "cat": "thing", "audio": "c_1644.mp3", "level": 3}
+{"sl": "dvajset čez pet", "ru": "5:20", "cat": "thing", "audio": "c_1645.mp3", "level": 3}
+{"sl": "petindvajset čez šest", "ru": "6:25", "cat": "thing", "audio": "c_1646.mp3", "level": 3}
+{"sl": "pol osmih", "ru": "7:30", "cat": "thing", "audio": "c_1647.mp3", "level": 3}
+{"sl": "osem petintrideset", "ru": "8:35", "cat": "thing", "audio": "c_1648.mp3", "level": 3}
+{"sl": "dvajset do desetih", "ru": "9:40", "cat": "thing", "audio": "c_1649.mp3", "level": 3}
+{"sl": "petnajst do enajstih", "ru": "10:45", "cat": "thing", "audio": "c_1650.mp3", "level": 3}
+{"sl": "deset do dvanajstih", "ru": "11:50", "cat": "thing", "audio": "c_1651.mp3", "level": 3}
+{"sl": "pet do enih", "ru": "12:55", "cat": "thing", "audio": "c_1652.mp3", "level": 3}
+{"sl": "ob enih zjutraj", "ru": "час ночи", "cat": "thing", "audio": "c_1636.mp3", "level": 3}
+{"sl": "ob dveh popoldan", "ru": "два часа дня", "cat": "thing", "audio": "c_1637.mp3", "level": 3}
+{"sl": "prejšnji teden", "ru": "на прошлой неделе", "cat": "time", "audio": "c_1705.mp3", "level": 3}
+{"sl": "ta teden", "ru": "на этой неделе", "cat": "time", "audio": "c_1706.mp3", "level": 3}
+{"sl": "naslednji teden", "ru": "на следующей неделе", "cat": "time", "audio": "c_1707.mp3", "level": 3}
+{"sl": "lansko leto", "ru": "в прошлом году", "cat": "time", "audio": "c_1708.mp3", "level": 3}
+{"sl": "to leto", "ru": "в этом году", "cat": "time", "audio": "c_1709.mp3", "level": 3}
+{"sl": "naslednje leto", "ru": "в следующем году", "cat": "time", "audio": "c_1710.mp3", "level": 3}
+{"sl": "prejšnji mesec", "ru": "в прошлом месяце", "cat": "time", "audio": "c_1711.mp3", "level": 3}
+{"sl": "ta mesec", "ru": "в этом месяце", "cat": "time", "audio": "c_1712.mp3", "level": 3}
+{"sl": "naslednji mesec", "ru": "в следующем месяце", "cat": "time", "audio": "c_1713.mp3", "level": 3}
+{"sl": "prvi januar dva tisoč štirinajst", "ru": "2014-01-01", "cat": "thing", "audio": "c_1671.mp3", "level": 3}
+{"sl": "petindvajseti februar dva tisoč tri", "ru": "2003-02-25", "cat": "thing", "audio": "c_1680.mp3", "level": 3}
+{"sl": "dvanajsti april tisoč devetsto oseminosemdeset", "ru": "1988-04-12", "cat": "thing", "audio": "c_1674.mp3", "level": 3}
+{"sl": "trinajsti oktober tisoč osemsto devetindevetdeset", "ru": "1899-10-13", "cat": "thing", "audio": "c_1675.mp3", "level": 3}
+{"sl": "trideseti september tisoč devetsto sedem", "ru": "1907-09-30", "cat": "thing", "audio": "c_1679.mp3", "level": 3}
+{"sl": "dvanajsti december dva tisoč", "ru": "2000-12-12", "cat": "thing", "audio": "c_1676.mp3", "level": 3}
+{"sl": "čelo", "ru": "лоб", "cat": "body", "audio": "c_640.mp3", "level": 2}
+{"sl": "guba", "ru": "морщина", "cat": "body", "audio": "c_639.mp3", "level": 2}
+{"sl": "brada", "ru": "подбородок", "cat": "body", "audio": "c_636.mp3", "level": 2}
+{"sl": "lice", "ru": "щека", "cat": "body", "audio": "c_635.mp3", "level": 2}
+{"sl": "brada", "ru": "борода", "cat": "body", "audio": "c_634.mp3", "level": 2}
+{"sl": "trepalnice", "ru": "ресницы", "cat": "body", "audio": "c_609.mp3", "level": 2}
+{"sl": "obrv", "ru": "бровь", "cat": "body", "audio": "c_608.mp3", "level": 2}
+{"sl": "pas", "ru": "талия", "cat": "body", "audio": "c_655.mp3", "level": 2}
+{"sl": "tilnik", "ru": "затылок", "cat": "body", "audio": "c_652.mp3", "level": 2}
+{"sl": "prsni koš", "ru": "грудная клетка", "cat": "body", "audio": "c_616.mp3", "level": 3}
+{"sl": "palec", "ru": "большой палец", "cat": "body", "audio": "c_670.mp3", "level": 2}
+{"sl": "mezinec", "ru": "мизинец", "cat": "body", "audio": "c_669.mp3", "level": 2}
+{"sl": "prstanec", "ru": "безымянный палец", "cat": "body", "audio": "c_668.mp3", "level": 2}
+{"sl": "sredinec", "ru": "средний палец", "cat": "body", "audio": "c_667.mp3", "level": 2}
+{"sl": "kazalec", "ru": "указательный палец", "cat": "body", "audio": "c_666.mp3", "level": 2}
+{"sl": "zapestje", "ru": "запястье", "cat": "body", "audio": "c_660.mp3", "level": 2}
+{"sl": "noht", "ru": "ноготь", "cat": "body", "audio": "c_659.mp3", "level": 2}
+{"sl": "peta", "ru": "пятка", "cat": "body", "audio": "c_657.mp3", "level": 2}
+{"sl": "sočen", "ru": "сочный", "cat": "thing", "audio": "c_832.mp3", "level": 2}
+{"sl": "pikanten", "ru": "острый", "cat": "thing", "audio": "c_831.mp3", "level": 2}
+{"sl": "slan", "ru": "соленый", "cat": "thing", "audio": "c_830.mp3", "level": 2}
+{"sl": "surov", "ru": "сырой", "cat": "thing", "audio": "c_824.mp3", "level": 2}
+{"sl": "kuhan", "ru": "вареный", "cat": "thing", "audio": "c_823.mp3", "level": 2}
+{"sl": "sramežljiv", "ru": "застенчивый", "cat": "thing", "audio": "c_870.mp3", "level": 2}
+{"sl": "pohlepen", "ru": "жадный", "cat": "thing", "audio": "c_867.mp3", "level": 2}
+{"sl": "strog", "ru": "строгий", "cat": "thing", "audio": "c_860.mp3", "level": 2}
+{"sl": "gluh", "ru": "глухой", "cat": "thing", "audio": "c_851.mp3", "level": 2}
