@@ -102,10 +102,35 @@ export function retryVerbMistakes() {
 
 // --- VERB TABLE ---
 export function showVerbList() {
+  const groups = [
+    { id: "vg1", label: "🌱 Osnovno", level: 1, open: true },
+    { id: "vg2", label: "📚 Srednje",  level: 2, open: false },
+    { id: "vg3", label: "🎓 Napredno", level: 3, open: false },
+  ];
+  const sectionsHTML = groups.map(({ id, label, level, open }) => {
+    const verbs = state.VERBS.map((v, i) => ({ v, i })).filter(({ v }) => v.level === level);
+    const chips = verbs.map(({ v, i }) => `<button class="verb-chip" onclick="showVerbTable(${i})">${v.inf}</button>`).join("");
+    return `
+      <div style="margin-bottom:8px;border:1px solid rgba(255,255,255,.08);border-radius:10px;overflow:hidden">
+        <div onclick="(function(el){var c=document.getElementById('${id}');c.style.display=c.style.display==='none'?'block':'none';el.querySelector('.acc-arrow').textContent=c.style.display==='none'?'▶':'▼'})(this)" style="display:flex;justify-content:space-between;align-items:center;padding:12px 14px;cursor:pointer;background:#1a1a1a;font-weight:600;font-size:14px">
+          <span>${label} <span style="font-size:12px;opacity:.6">(${verbs.length})</span></span>
+          <span class="acc-arrow">${open ? "▼" : "▶"}</span>
+        </div>
+        <div id="${id}" style="display:${open ? "block" : "none"};padding:10px">
+          <div class="verb-grid">${chips}</div>
+        </div>
+      </div>`;
+  }).join("");
+
   app().innerHTML = `<div class="table-card">
     <button class="back-btn" onclick="goMenu()">← Meni</button>
-    <div style="font-size:20px;font-weight:700;margin-bottom:16px">Tabele spregatev</div>
-    <div class="verb-grid">${state.VERBS.map((v, i) => `<button class="verb-chip" onclick="showVerbTable(${i})">${v.inf}</button>`).join("")}</div>
+    <div style="font-size:20px;font-weight:700;margin-bottom:12px">Tabele spregatev</div>
+    <div style="display:flex;gap:6px;margin-bottom:14px">
+      <button style="flex:1;padding:8px;border-radius:8px;border:1px solid rgba(249,168,212,.4);background:rgba(249,168,212,.15);color:#f9a8d4;font-size:13px;font-weight:600;cursor:pointer">Sedanjik</button>
+      <button style="flex:1;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,.1);background:#1a1a1a;color:#888;font-size:13px;cursor:not-allowed;opacity:.4" disabled>Preteklik</button>
+      <button style="flex:1;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,.1);background:#1a1a1a;color:#888;font-size:13px;cursor:not-allowed;opacity:.4" disabled>Prihodnjik</button>
+    </div>
+    ${sectionsHTML}
   </div>`;
 }
 
