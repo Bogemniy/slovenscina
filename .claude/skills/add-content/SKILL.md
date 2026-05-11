@@ -9,7 +9,7 @@ Your job: take whatever the user pastes (image, text, list, anything) and turn i
 
 ## Files you write to (gitignored, persists across sessions)
 
-- `data/_pending-words.jsonl` — same schema as `data/words.jsonl`: `{"sl":"...","ru":"...","cat":"..."}`
+- `data/_pending-words.jsonl` — same schema as `data/words.jsonl`: `{"sl":"...","ru":"...","cat":"...","level":1}`
 - `data/_pending-verbs.jsonl` — same schema as `data/verbs.jsonl`: `{"inf":"...","ru":"...","forms":{...9 pronouns}}`
 
 Append-only. Same line format as the real files (no extra fields, no whitespace inside the JSON object).
@@ -42,6 +42,19 @@ Words go to `_pending-words.jsonl`. Verbs go to `_pending-verbs.jsonl`.
 Read the keys of `related` in [data/taxonomy.json](../../../data/taxonomy.json) — that's the closed set of valid categories. **Never invent a new category.** If a word doesn't fit any existing one, ask the user which to use, and offer the closest matches.
 
 Lookup pattern: peek at existing entries in `data/words.jsonl` that share the category to confirm the word "feels right" there. E.g. clothing → `thing`, body parts → `body`, food → `food`, drinks → also `food`.
+
+### 3.5 Assess level
+
+For each word, automatically determine the suggested level:
+- level 3 — if `sl` contains a space (phrase or collocation)
+- level 1 — if `cat` is `pron` or `question`
+- level 2 — everything else
+
+Then ask the user to confirm before writing. If the whole batch is the same level, ask once for the batch:
+"Все слова — уровень 2. Верно?"
+If there are mixed levels, list them grouped:
+"Level 1: jaz, ti, on — верно? Level 2: hiša, miza — верно?"
+Wait for confirmation before proceeding to step 4.
 
 ### 4. For verbs: produce 9 conjugation forms
 
@@ -81,6 +94,7 @@ After processing a batch, summarize what happened:
 - Added: N words, M verbs (list briefly: `hvala`, `prosim`, `živeti`, …)
 - Skipped duplicates: X (with reason)
 - Skipped unparseable: Y (with reason)
+- Level distribution: N×1, M×2, K×3
 - Anything that needs the user's decision (category choice, irregular verb confirmation)
 
 Don't push. Don't commit. The user knows when to do that.
