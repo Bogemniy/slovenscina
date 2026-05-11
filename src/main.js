@@ -26,6 +26,10 @@ import {
   renderReadingResult, nextExercise,
 } from "./ui/reading.js";
 
+import {
+  startLesson, renderLesson, selectLessonChoice, checkLessonInput, skipLessonInput,
+  addLessonTile, removeLessonTile, checkLessonTiles, advanceLesson,
+} from "./ui/lesson.js";
 import { initFirebase, fbSignIn, fbSignOut } from "./firebase-sync.js";
 
 async function bootstrap() {
@@ -70,6 +74,9 @@ async function bootstrap() {
     startReading, renderReadingMenu, startReadingExercise, startReadingRandom,
     renderReadingQuiz, selectBlankOption, selectQuestionOption,
     renderReadingResult, nextExercise,
+    // lesson
+    startLesson, renderLesson, selectLessonChoice, checkLessonInput, skipLessonInput,
+    addLessonTile, removeLessonTile, checkLessonTiles, advanceLesson,
     // firebase
     fbSignIn, fbSignOut,
   });

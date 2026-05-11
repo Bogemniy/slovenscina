@@ -2,6 +2,11 @@ import { state } from "../state.js";
 import { genWritingQuiz } from "../engine/writing.js";
 import { app } from "./dom.js";
 
+function isCorrectAnswer(input, correct) {
+  const norm = s => s.toLowerCase().replace(/č/g,"c").replace(/š/g,"s").replace(/ž/g,"z");
+  return input.toLowerCase() === correct.toLowerCase() || norm(input) === norm(correct);
+}
+
 export function startWriting() {
   const cards = genWritingQuiz(10);
   state.ui = {
@@ -20,7 +25,7 @@ export function renderWritingQuiz() {
   const { cards, current, score, checked, inputValue } = state.ui;
   const c = cards[current];
 
-  const isCorrect = checked && inputValue.trim().toLowerCase() === c.sl.toLowerCase();
+  const isCorrect = checked && isCorrectAnswer(inputValue.trim(), c.sl);
   const isWrong = checked && !isCorrect;
 
   app().innerHTML = `<div>
@@ -44,9 +49,15 @@ export function renderWritingQuiz() {
       <input id="writing-input" type="text" value="${inputValue}"
         onkeydown="if(event.key==='Enter')checkWriting()"
         placeholder="Napiši v slovenščini..."
-        style="width:100%;box-sizing:border-box;padding:14px;font-size:18px;border-radius:10px;border:1px solid rgba(255,255,255,.15);background:#1a1a1a;color:#e8eaed;outline:none;margin-bottom:12px"
+        style="width:100%;box-sizing:border-box;padding:14px;font-size:18px;border-radius:10px;border:1px solid rgba(255,255,255,.15);background:#1a1a1a;color:#e8eaed;outline:none;margin-bottom:8px"
         autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
       />
+      <div style="display:flex;gap:6px;margin-bottom:10px">
+        ${["č","š","ž","Č","Š","Ž"].map(l =>
+          `<button onclick="document.getElementById('writing-input').value+=('${l}');document.getElementById('writing-input').focus()"
+           style="padding:8px 12px;border:1px solid rgba(255,255,255,.15);background:#1a1a1a;color:#e8eaed;border-radius:8px;cursor:pointer;font-size:16px">${l}</button>`
+        ).join("")}
+      </div>
       <div style="display:flex;gap:8px;margin-top:4px">
         <button class="self-btn dont" onclick="skipWriting()" style="flex:1;padding:12px;border:none;border-radius:10px;background:rgba(252,165,165,.12);color:#fca5a5;font-weight:600;cursor:pointer;font-size:14px">✗ Ne vem</button>
         <button class="btn-new words" style="flex:2" onclick="checkWriting()">Preveri</button>
@@ -60,13 +71,25 @@ export function renderWritingQuiz() {
       if (input) input.focus();
     }, 50);
   }
+  setTimeout(() => {
+    const handler = (e) => {
+      if (e.key !== "Enter") return;
+      document.removeEventListener("keydown", handler);
+      if (state.ui.checked) {
+        advanceWriting();
+      } else {
+        checkWriting();
+      }
+    };
+    document.addEventListener("keydown", handler);
+  }, 100);
 }
 
 export function checkWriting() {
   const input = document.getElementById("writing-input");
   const value = input ? input.value.trim() : "";
   const c = state.ui.cards[state.ui.current];
-  const correct = value !== "" && value.toLowerCase() === c.sl.toLowerCase();
+  const correct = value !== "" && isCorrectAnswer(value, c.sl);
   state.ui.checked = true;
   state.ui.inputValue = value;
   if (correct) {
