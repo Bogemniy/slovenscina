@@ -2,6 +2,8 @@ import { state, shuffle, updateLP, bucketLearn } from "../state.js";
 import { genLearnQuiz, genLearnOptions } from "../engine/learn.js";
 import { app } from "./dom.js";
 
+const AUDIO_AVAILABLE = window.location.hostname !== 'bogemniy.github.io';
+
 export function startLearn() {
   state.ui = { mode: "learn-menu" };
   renderLearnMenu();
@@ -52,7 +54,7 @@ export function renderLearnQuiz() {
   const p = state.learnProgress[c.sl];
   const lvl = p ? p.level : 0;
   const lvlBar = `<span style="font-size:11px;color:#888">lvl ${lvl}/5</span>`;
-  const audioBtn = (c.dir === "sl2ru" && c.audio)
+  const audioBtn = (c.dir === "sl2ru" && c.audio && AUDIO_AVAILABLE)
     ? `<button onclick="playWordAudio('${c.audio}')" style="background:transparent;border:none;color:#888;cursor:pointer;font-size:22px;padding:0">🔊</button>`
     : "";
   const questionHTML = `<div class="card words">
@@ -72,7 +74,7 @@ export function renderLearnQuiz() {
     ? `<div style="background:#1a1a1a;border:1px solid rgba(255,255,255,.1);border-radius:10px;padding:12px;margin-bottom:10px;text-align:center"><div style="font-size:11px;color:#888;margin-bottom:4px">Pravilen odgovor:</div><div style="font-size:18px;font-weight:600;color:#e8eaed">${ans}</div></div>`
     : "";
   app().innerHTML = `<div>
-    <div class="top-bar"><span class="progress-text">${current + 1}/${cards.length}</span><span style="font-size:11px;color:#888">${srMode === "new" ? "novo" : srMode === "review" ? "ponavljanje" : "vse skupaj"} · ${lvlBar}</span><span class="score-text score-words">✓ ${score}</span></div>
+    <div class="top-bar"><button onclick="startLearn()" style="background:transparent;border:none;color:#888;cursor:pointer;font-size:20px;padding:0;line-height:1">←</button><span class="progress-text">${current + 1}/${cards.length}</span><span style="font-size:11px;color:#888">${srMode === "new" ? "novo" : srMode === "review" ? "ponavljanje" : "vse skupaj"} · ${lvlBar}</span><span class="score-text score-words">✓ ${score}</span></div>
     <div class="progress-track words"><div class="progress-fill words" style="width:${(current / cards.length) * 100}%"></div></div>
     ${streak >= 3 ? `<div class="streak">🔥 ${streak} zapored!</div>` : ""}
     ${questionHTML}
