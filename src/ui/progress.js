@@ -2,17 +2,17 @@ import { state } from "../state.js";
 import { app } from "./dom.js";
 
 const TOPIC_GROUPS = [
-  { label: "🗣️ Общение", cats: ["greet", "phrase", "question"] },
-  { label: "👨‍👩‍👧 Люди и семья", cats: ["people", "family", "pron"] },
-  { label: "🏠 Дом и место", cats: ["home", "where", "goplace"] },
-  { label: "🍕 Еда и покупки", cats: ["food", "shop"] },
-  { label: "💼 Работа и учёба", cats: ["job", "school", "info"] },
-  { label: "⏰ Время и сезоны", cats: ["time", "season"] },
-  { label: "🌤️ Природа и погода", cats: ["weather"] },
-  { label: "🏃 Действия", cats: ["verb", "daily", "activity"] },
-  { label: "💬 Описания", cats: ["adj", "color", "feel", "body"] },
-  { label: "🚗 Транспорт", cats: ["transport"] },
-  { label: "🔢 Числа и прочее", cats: ["number", "thing"] },
+  { label: "🗣️ Sporazumevanje", cats: ["greet", "phrase", "question"] },
+  { label: "👨‍👩‍👧 Ljudje in družina", cats: ["people", "family", "pron"] },
+  { label: "🏠 Dom in kraj", cats: ["home", "where", "goplace"] },
+  { label: "🍕 Hrana in nakupovanje", cats: ["food", "shop"] },
+  { label: "💼 Delo in šola", cats: ["job", "school", "info"] },
+  { label: "⏰ Čas in letni časi", cats: ["time", "season"] },
+  { label: "🌤️ Narava in vreme", cats: ["weather"] },
+  { label: "🏃 Dejanja", cats: ["verb", "daily", "activity"] },
+  { label: "💬 Opisi", cats: ["adj", "color", "feel", "body"] },
+  { label: "🚗 Prevoz", cats: ["transport"] },
+  { label: "🔢 Števila in ostalo", cats: ["number", "thing"] },
 ];
 
 export function showProgress() {
