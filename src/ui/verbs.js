@@ -17,6 +17,11 @@ export function renderVerbsMenu() {
     <div class="menu-flag">🔤</div>
     <div class="menu-title" style="font-size:24px">Spregatve glagolov</div>
     <div class="menu-sub" style="margin-bottom:18px">Izberi težavnost</div>
+    <div style="display:flex;gap:6px;margin-bottom:18px">
+      <button style="flex:1;padding:8px;border-radius:8px;border:1px solid rgba(249,168,212,.4);background:rgba(249,168,212,.15);color:#f9a8d4;font-size:13px;font-weight:600;cursor:pointer">Sedanjik</button>
+      <button style="flex:1;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,.1);background:#1a1a1a;color:#888;font-size:13px;cursor:not-allowed;opacity:.4" disabled>Preteklik</button>
+      <button style="flex:1;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,.1);background:#1a1a1a;color:#888;font-size:13px;cursor:not-allowed;opacity:.4" disabled>Prihodnjik</button>
+    </div>
     <button class="menu-btn" style="background:linear-gradient(135deg,rgba(249,168,212,.18),rgba(236,72,153,.1));border:1px solid rgba(249,168,212,.25);color:#f9a8d4" onclick="startVerbsLevel(1)">🌱 Osnovno <span style="opacity:.7;font-size:12px">(${counts[1]} glagolov)</span></button>
     <button class="menu-btn" style="background:linear-gradient(135deg,rgba(249,168,212,.18),rgba(236,72,153,.1));border:1px solid rgba(249,168,212,.25);color:#f9a8d4" onclick="startVerbsLevel(2)">📚 Srednje <span style="opacity:.7;font-size:12px">(${counts[2]} glagolov)</span></button>
     <button class="menu-btn" style="background:linear-gradient(135deg,rgba(249,168,212,.18),rgba(236,72,153,.1));border:1px solid rgba(249,168,212,.25);color:#f9a8d4" onclick="startVerbsLevel(3)">🎓 Napredno <span style="opacity:.7;font-size:12px">(${counts[3]} glagolov)</span></button>
