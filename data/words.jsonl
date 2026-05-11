@@ -73,7 +73,6 @@
 {"sl": "malo", "ru": "немногие", "cat": "thing", "audio": "c_752.mp3", "level": 2}
 {"sl": "veliko", "ru": "многие", "cat": "thing", "audio": "c_751.mp3", "level": 2}
 {"sl": "koliko?", "ru": "сколько?", "cat": "question", "audio": "c_3702.mp3", "level": 1}
-{"sl": "koliko?", "ru": "сколько?", "cat": "question", "audio": "c_3701.mp3", "level": 1}
 {"sl": "napačen", "ru": "неправильный", "cat": "thing", "audio": "c_750.mp3", "level": 2}
 {"sl": "pravilen", "ru": "правильный", "cat": "thing", "audio": "c_749.mp3", "level": 2}
 {"sl": "slab", "ru": "плохой", "cat": "thing", "audio": "c_772.mp3", "level": 2}
@@ -89,7 +88,6 @@
 {"sl": "levo", "ru": "левый", "cat": "thing", "audio": "c_796.mp3", "level": 2}
 {"sl": "lep", "ru": "красивый", "cat": "thing", "audio": "c_862.mp3", "level": 2}
 {"sl": "mlad", "ru": "молодой", "cat": "thing", "audio": "c_853.mp3", "level": 2}
-{"sl": "star", "ru": "старый", "cat": "thing", "audio": "c_852.mp3", "level": 2}
 {"sl": "pozdravljeni", "ru": "здравствуйте", "cat": "greet", "audio": "c_3788.mp3", "level": 2}
 {"sl": "se vidimo", "ru": "увидимся позже", "cat": "greet", "audio": "c_3689.mp3", "level": 3}
 {"sl": "v redu", "ru": "окей", "cat": "greet", "audio": "c_3688.mp3", "level": 3}
@@ -147,7 +145,6 @@
 {"sl": "otrok", "ru": "ребенок", "cat": "family", "audio": "c_1758.mp3", "level": 2}
 {"sl": "dojenček", "ru": "малыш", "cat": "family", "audio": "c_1753.mp3", "level": 2}
 {"sl": "dekle", "ru": "девочка", "cat": "family", "audio": "c_2831.mp3", "level": 2}
-{"sl": "fant", "ru": "мальчик", "cat": "family", "audio": "c_2830.mp3", "level": 2}
 {"sl": "mami", "ru": "мама", "cat": "family", "audio": "c_3761.mp3", "level": 2}
 {"sl": "oči", "ru": "папа", "cat": "family", "audio": "c_3760.mp3", "level": 2}
 {"sl": "mati", "ru": "мать", "cat": "family", "audio": "c_1715.mp3", "level": 2}
@@ -269,8 +266,6 @@
 {"sl": "neumen", "ru": "глупый", "cat": "thing", "audio": "c_873.mp3", "level": 2}
 {"sl": "nor", "ru": "сумасшедший", "cat": "thing", "audio": "c_864.mp3", "level": 2}
 {"sl": "zaposlen", "ru": "занятый", "cat": "thing", "audio": "c_857.mp3", "level": 2}
-{"sl": "visok", "ru": "высокий", "cat": "thing", "audio": "c_840.mp3", "level": 2}
-{"sl": "nizek", "ru": "низкий", "cat": "thing", "audio": "c_839.mp3", "level": 2}
 {"sl": "zaskrbljen", "ru": "обеспокоенный", "cat": "thing", "audio": "c_837.mp3", "level": 2}
 {"sl": "presenečen", "ru": "удивленный", "cat": "thing", "audio": "c_838.mp3", "level": 2}
 {"sl": "kul", "ru": "крутой", "cat": "thing", "audio": "c_836.mp3", "level": 2}
@@ -384,7 +379,6 @@
 {"sl": "jajce", "ru": "яйцо", "cat": "food", "audio": "c_1289.mp3", "level": 2}
 {"sl": "sir", "ru": "сыр", "cat": "food", "audio": "c_1282.mp3", "level": 2}
 {"sl": "mleko", "ru": "молоко", "cat": "food", "audio": "c_1281.mp3", "level": 2}
-{"sl": "riba", "ru": "рыба", "cat": "food", "audio": "c_3780.mp3", "level": 2}
 {"sl": "meso", "ru": "мясо", "cat": "food", "audio": "c_3779.mp3", "level": 2}
 {"sl": "zelenjava", "ru": "овощ", "cat": "food", "audio": "c_62.mp3", "level": 2}
 {"sl": "sadje", "ru": "фрукт", "cat": "food", "audio": "c_63.mp3", "level": 2}
@@ -430,7 +424,6 @@
 {"sl": "jakna", "ru": "куртка", "cat": "thing", "audio": "c_2697.mp3", "level": 2}
 {"sl": "obleka", "ru": "костюм", "cat": "thing", "audio": "c_2696.mp3", "level": 2}
 {"sl": "hlače", "ru": "брюки", "cat": "thing", "audio": "c_2693.mp3", "level": 2}
-{"sl": "obleka", "ru": "платье", "cat": "thing", "audio": "c_2691.mp3", "level": 2}
 {"sl": "majica", "ru": "футболка", "cat": "thing", "audio": "c_2688.mp3", "level": 2}
 {"sl": "nogavica", "ru": "носок", "cat": "thing", "audio": "c_2726.mp3", "level": 2}
 {"sl": "modrček", "ru": "бюстгальтер", "cat": "thing", "audio": "c_2725.mp3", "level": 2}
@@ -441,7 +434,6 @@
 {"sl": "denarnica", "ru": "бумажник", "cat": "thing", "audio": "c_2754.mp3", "level": 2}
 {"sl": "prstan", "ru": "кольцо", "cat": "thing", "audio": "c_2751.mp3", "level": 2}
 {"sl": "klobuk", "ru": "шляпа", "cat": "thing", "audio": "c_2743.mp3", "level": 2}
-{"sl": "ura", "ru": "часы", "cat": "thing", "audio": "c_2741.mp3", "level": 2}
 {"sl": "žep", "ru": "карман", "cat": "thing", "audio": "c_2824.mp3", "level": 2}
 {"sl": "Kako ti je ime?", "ru": "Как тебя зовут?", "cat": "thing", "audio": "c_3709.mp3", "level": 3}
 {"sl": "Moje ime je David", "ru": "Меня зовут Дэвид", "cat": "thing", "audio": "c_3736.mp3", "level": 3}
@@ -504,7 +496,6 @@
 {"sl": "rama", "ru": "плечо", "cat": "body", "audio": "c_625.mp3", "level": 2}
 {"sl": "koleno", "ru": "колено", "cat": "body", "audio": "c_620.mp3", "level": 2}
 {"sl": "noga", "ru": "нога", "cat": "body", "audio": "c_613.mp3", "level": 2}
-{"sl": "roka", "ru": "рука", "cat": "body", "audio": "c_611.mp3", "level": 2}
 {"sl": "trebuh", "ru": "живот", "cat": "body", "audio": "c_614.mp3", "level": 2}
 {"sl": "prsi", "ru": "грудь", "cat": "body", "audio": "c_615.mp3", "level": 2}
 {"sl": "hrbet", "ru": "спина", "cat": "body", "audio": "c_653.mp3", "level": 2}
@@ -585,7 +576,6 @@
 {"sl": "skodelica", "ru": "чашка", "cat": "thing", "audio": "c_1172.mp3", "level": 2}
 {"sl": "kozarec", "ru": "стакан", "cat": "thing", "audio": "c_1167.mp3", "level": 2}
 {"sl": "krožnik", "ru": "тарелка", "cat": "thing", "audio": "c_1166.mp3", "level": 2}
-{"sl": "skodelica", "ru": "кружка", "cat": "thing", "audio": "c_1119.mp3", "level": 2}
 {"sl": "smetnjak", "ru": "корзина для мусора", "cat": "thing", "audio": "c_1139.mp3", "level": 2}
 {"sl": "skleda", "ru": "миска", "cat": "thing", "audio": "c_1168.mp3", "level": 2}
 {"sl": "TV sprejemnik", "ru": "телевизор", "cat": "thing", "audio": "c_1140.mp3", "level": 3}
@@ -595,8 +585,6 @@
 {"sl": "tuš", "ru": "душ", "cat": "thing", "audio": "c_1215.mp3", "level": 2}
 {"sl": "kavč", "ru": "диван", "cat": "thing", "audio": "c_1129.mp3", "level": 2}
 {"sl": "slika", "ru": "картина", "cat": "thing", "audio": "c_1136.mp3", "level": 2}
-{"sl": "ura", "ru": "часы", "cat": "thing", "audio": "c_1137.mp3", "level": 2}
-{"sl": "miza", "ru": "стол", "cat": "thing", "audio": "c_1234.mp3", "level": 2}
 {"sl": "stol", "ru": "стул", "cat": "thing", "audio": "c_1235.mp3", "level": 2}
 {"sl": "bazen", "ru": "бассейн", "cat": "thing", "audio": "c_1250.mp3", "level": 2}
 {"sl": "zvonec", "ru": "дверной звонок", "cat": "thing", "audio": "c_1278.mp3", "level": 2}
@@ -643,7 +631,6 @@
 {"sl": "potovati", "ru": "путешествовать", "cat": "verb", "audio": "c_1033.mp3", "level": 2}
 {"sl": "slikati", "ru": "рисовать", "cat": "verb", "audio": "c_1031.mp3", "level": 2}
 {"sl": "stuširati se", "ru": "принимать душ", "cat": "verb", "audio": "c_1024.mp3", "level": 3}
-{"sl": "odpreti", "ru": "открывать", "cat": "verb", "audio": "c_1020.mp3", "level": 2}
 {"sl": "zakleniti", "ru": "закрывать", "cat": "verb", "audio": "c_1019.mp3", "level": 2}
 {"sl": "prati", "ru": "мыть", "cat": "verb", "audio": "c_1017.mp3", "level": 2}
 {"sl": "moliti", "ru": "молиться", "cat": "verb", "audio": "c_1016.mp3", "level": 2}
@@ -723,7 +710,6 @@
 {"sl": "kreditna kartica", "ru": "кредитная карточка", "cat": "shop", "audio": "c_3457.mp3", "level": 3}
 {"sl": "geslo", "ru": "пароль", "cat": "shop", "audio": "c_3459.mp3", "level": 2}
 {"sl": "bankomat", "ru": "банкомат", "cat": "shop", "audio": "c_3473.mp3", "level": 2}
-{"sl": "bazen", "ru": "бассейн", "cat": "thing", "audio": "c_3527.mp3", "level": 2}
 {"sl": "elektrika", "ru": "ток", "cat": "thing", "audio": "c_3562.mp3", "level": 2}
 {"sl": "kamera", "ru": "камера", "cat": "thing", "audio": "c_3553.mp3", "level": 2}
 {"sl": "radio", "ru": "радио", "cat": "thing", "audio": "c_3549.mp3", "level": 2}
@@ -749,7 +735,6 @@
 {"sl": "glasba", "ru": "музыка", "cat": "thing", "audio": "c_90.mp3", "level": 2}
 {"sl": "oder", "ru": "сцена", "cat": "thing", "audio": "c_2103.mp3", "level": 2}
 {"sl": "občinstvo", "ru": "зритель", "cat": "thing", "audio": "c_2100.mp3", "level": 2}
-{"sl": "slika", "ru": "картина", "cat": "thing", "audio": "c_2083.mp3", "level": 2}
 {"sl": "šala", "ru": "шутка", "cat": "thing", "audio": "c_2129.mp3", "level": 2}
 {"sl": "članek", "ru": "статья", "cat": "thing", "audio": "c_2126.mp3", "level": 2}
 {"sl": "časopis", "ru": "газета", "cat": "thing", "audio": "c_2124.mp3", "level": 2}
@@ -807,8 +792,6 @@
 {"sl": "teta", "ru": "тетя", "cat": "family", "audio": "c_1720.mp3", "level": 2}
 {"sl": "babica", "ru": "бабушка", "cat": "family", "audio": "c_1718.mp3", "level": 2}
 {"sl": "dedek", "ru": "дедушка", "cat": "family", "audio": "c_1716.mp3", "level": 2}
-{"sl": "babica", "ru": "бабушка", "cat": "family", "audio": "c_1719.mp3", "level": 2}
-{"sl": "dedek", "ru": "дедушка", "cat": "family", "audio": "c_1717.mp3", "level": 2}
 {"sl": "smrt", "ru": "смерть", "cat": "thing", "audio": "c_1801.mp3", "level": 2}
 {"sl": "grob", "ru": "могила", "cat": "thing", "audio": "c_1795.mp3", "level": 2}
 {"sl": "ločitev", "ru": "развод", "cat": "family", "audio": "c_1779.mp3", "level": 2}
@@ -962,7 +945,6 @@
 {"sl": "guba", "ru": "морщина", "cat": "body", "audio": "c_639.mp3", "level": 2}
 {"sl": "brada", "ru": "подбородок", "cat": "body", "audio": "c_636.mp3", "level": 2}
 {"sl": "lice", "ru": "щека", "cat": "body", "audio": "c_635.mp3", "level": 2}
-{"sl": "brada", "ru": "борода", "cat": "body", "audio": "c_634.mp3", "level": 2}
 {"sl": "trepalnice", "ru": "ресницы", "cat": "body", "audio": "c_609.mp3", "level": 2}
 {"sl": "obrv", "ru": "бровь", "cat": "body", "audio": "c_608.mp3", "level": 2}
 {"sl": "pas", "ru": "талия", "cat": "body", "audio": "c_655.mp3", "level": 2}
