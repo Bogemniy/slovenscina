@@ -1,10 +1,8 @@
-import { state, bucketWords, bucketLearn, shuffle, loadWordQueue, loadVerbQueue, loadWordProgress } from "../state.js";
+import { state, shuffle, loadWordQueue, loadVerbQueue, loadWordProgress } from "../state.js";
 import { fbState, updateAuthBar } from "./auth-bar.js";
 import { app } from "./dom.js";
 
 export function renderMenu() {
-  const b = bucketWords();
-  const bl = bucketLearn();
   app().innerHTML = `<div class="menu-card">
     <div class="menu-flag">🇸🇮</div>
     <div class="menu-title">Slovenščina</div>
@@ -15,10 +13,6 @@ export function renderMenu() {
     <button class="menu-btn" style="background:#1a1a1a;border:1px solid rgba(255,255,255,.3);color:#ffffff;font-weight:700" onclick="startWords()">📝 Kartice besed</button>
     <button class="menu-btn" style="background:linear-gradient(135deg,rgba(249,168,212,.18),rgba(236,72,153,.1));border:1px solid rgba(249,168,212,.25);color:#f9a8d4" onclick="startVerbs()">🔤 Spregatve glagolov</button>
     <button class="menu-btn table-btn" style="margin-top:6px" onclick="showVerbList()">📖 Tabele spregatev</button>
-    <div class="divider"></div>
-    <div style="font-size:12px;color:#777;margin-bottom:4px">Besede: učim ${b.learning.length} · za ponavljanje ${b.due.length} · znam ${b.mastered.length} · novih ${b.new.length}</div>
-    <div style="font-size:12px;color:#777;margin-bottom:4px">Hočem vedeti: učim ${bl.learning.length} · za ponavljanje ${bl.due.length} · znam ${bl.mastered.length} · novih ${bl.new.length}</div>
-    <div style="font-size:11px;color:#777;margin-bottom:8px">Glagoli: ${state.verbsSeen}/${state.VERBS.length * 9}</div>
     <div class="divider"></div>
     <div id="auth-status" style="display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:#1a1a1a;border-radius:14px;border:1px solid rgba(255,255,255,.07);min-height:46px"></div>
   </div>`;
