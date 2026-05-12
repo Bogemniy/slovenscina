@@ -1785,3 +1785,20 @@
 {"sl":"sošolka","ru":"одноклассница","cat":"school","level":2}
 {"sl":"dvakrat","ru":"дважды","cat":"time","level":2}
 {"sl":"trikrat","ru":"трижды","cat":"time","level":2}
+{"sl":"ogrevanje","ru":"отопление","cat":"thing","level":2}
+{"sl":"predstava","ru":"спектакль","cat":"thing","level":2}
+{"sl":"čarovnik","ru":"волшебник","cat":"people","level":2}
+{"sl":"čarovnica","ru":"волшебница","cat":"people","level":2}
+{"sl":"škornji","ru":"сапоги","cat":"thing","level":2}
+{"sl":"tamle","ru":"вон там","cat":"where","level":2}
+{"sl":"tole","ru":"вот это","cat":"adj","level":2}
+{"sl":"po nesreči","ru":"случайно","cat":"phrase","level":3}
+{"sl":"zadnji","ru":"последний","cat":"adj","level":2}
+{"sl":"krat","ru":"раз (счётное)","cat":"thing","level":2}
+{"sl":"zadnji krat","ru":"последний раз","cat":"phrase","level":3}
+{"sl":"ovčka","ru":"овечка","cat":"animal","level":2}
+{"sl":"šele","ru":"только, лишь","cat":"adj","level":2}
+{"sl":"prav","ru":"правильно / именно","cat":"adj","level":2}
+{"sl":"imeti prav","ru":"быть правым","cat":"phrase","level":3}
+{"sl":"trdno spati","ru":"крепко спать","cat":"phrase","level":3}
+{"sl":"čudežni","ru":"волшебный","cat":"adj","level":2}
