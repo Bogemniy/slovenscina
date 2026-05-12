@@ -1774,3 +1774,14 @@
 {"sl":"Ne smemo prezreti dejstva, da...","ru":"Нельзя игнорировать тот факт, что...","cat":"phrase","level":3}
 {"sl":"Gledano z drugega zornega kota...","ru":"Если смотреть с другой точки зрения...","cat":"phrase","level":3}
 {"sl":"To je predmet razprave.","ru":"Это предмет для дискуссии.","cat":"phrase","level":3}
+{"sl":"kapa","ru":"шапка","cat":"thing","level":2}
+{"sl":"igrača","ru":"игрушка","cat":"thing","level":2}
+{"sl":"smisel","ru":"смысл","cat":"thing","level":2}
+{"sl":"slika","ru":"картина","cat":"thing","level":2}
+{"sl":"ekipa","ru":"команда","cat":"thing","level":2}
+{"sl":"frizura","ru":"причёска","cat":"thing","level":2}
+{"sl":"razredničarka","ru":"классный руководитель (ж.)","cat":"job","level":2}
+{"sl":"sodelavec","ru":"коллега","cat":"job","level":2}
+{"sl":"sošolka","ru":"одноклассница","cat":"school","level":2}
+{"sl":"dvakrat","ru":"дважды","cat":"time","level":2}
+{"sl":"trikrat","ru":"трижды","cat":"time","level":2}
