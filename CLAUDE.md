@@ -79,6 +79,7 @@ scripts/
 When changing data:
 - [ ] Run `node scripts/validate-data.mjs` locally before pushing.
 - [ ] Append-only — diff must show only added lines in JSONL files.
+- [ ] After adding new words to `learn.jsonl`, run `node scripts/assign-levels.mjs` to update level fields.
 
 When changing code:
 - [ ] Don't introduce build tooling.

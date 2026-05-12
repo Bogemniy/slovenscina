@@ -35,5 +35,21 @@ function processExercises() {
   console.log(`exercises.jsonl: ${out.length} lines updated`);
 }
 
+function processLearn() {
+  const path = join(root, "data/learn.jsonl");
+  const lines = readFileSync(path, "utf8").trimEnd().split("\n");
+  const out = lines.map((line) => {
+    const obj = JSON.parse(line);
+    let level;
+    if (obj.sl.includes(" ")) level = 3;
+    else if (obj.cat === "pron" || obj.cat === "question") level = 1;
+    else level = 2;
+    return JSON.stringify({ ...obj, level });
+  });
+  writeFileSync(path, out.join("\n") + "\n");
+  console.log(`learn.jsonl: ${out.length} lines updated`);
+}
+
 processWords();
 processExercises();
+processLearn();
