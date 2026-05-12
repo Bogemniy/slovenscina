@@ -92,7 +92,9 @@ async function bootstrap() {
 
   // 6. Register service worker for offline support
   if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("./sw.js").catch((e) => console.warn("SW registration failed:", e));
+    navigator.serviceWorker.register("./sw.js").then(reg => {
+      reg.update();
+    }).catch((e) => console.warn("SW registration failed:", e));
   }
 }
 
