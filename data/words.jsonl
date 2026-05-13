@@ -319,37 +319,6 @@
 {"sl":"dom","ru":"дом","cat":"home","audio":"c_49.mp3","level":2}
 {"sl":"mesto","ru":"город","cat":"goplace","audio":"c_129.mp3","level":2}
 {"sl":"število","ru":"число","cat":"thing","audio":"c_20.mp3","level":2}
-{"sl":"enaindvajset","ru":"21","cat":"thing","audio":"c_475.mp3","level":2}
-{"sl":"dvaindvajset","ru":"22","cat":"thing","audio":"c_476.mp3","level":2}
-{"sl":"šestindvajset","ru":"26","cat":"thing","audio":"c_477.mp3","level":2}
-{"sl":"trideset","ru":"30","cat":"thing","audio":"c_478.mp3","level":2}
-{"sl":"enaintrideset","ru":"31","cat":"thing","audio":"c_479.mp3","level":2}
-{"sl":"triintrideset","ru":"33","cat":"thing","audio":"c_480.mp3","level":2}
-{"sl":"sedemintrideset","ru":"37","cat":"thing","audio":"c_481.mp3","level":2}
-{"sl":"štirideset","ru":"40","cat":"thing","audio":"c_482.mp3","level":2}
-{"sl":"enainštirideset","ru":"41","cat":"thing","audio":"c_483.mp3","level":2}
-{"sl":"štiriinštirideset","ru":"44","cat":"thing","audio":"c_484.mp3","level":2}
-{"sl":"oseminštirideset","ru":"48","cat":"thing","audio":"c_485.mp3","level":2}
-{"sl":"petdeset","ru":"50","cat":"thing","audio":"c_486.mp3","level":2}
-{"sl":"enainpetdeset","ru":"51","cat":"thing","audio":"c_487.mp3","level":2}
-{"sl":"petinpetdeset","ru":"55","cat":"thing","audio":"c_488.mp3","level":2}
-{"sl":"devetinpetdeset","ru":"59","cat":"thing","audio":"c_489.mp3","level":2}
-{"sl":"šestdeset","ru":"60","cat":"thing","audio":"c_490.mp3","level":2}
-{"sl":"enainšestdeset","ru":"61","cat":"thing","audio":"c_491.mp3","level":2}
-{"sl":"dvainšestdeset","ru":"62","cat":"thing","audio":"c_492.mp3","level":2}
-{"sl":"šestinšestdeset","ru":"66","cat":"thing","audio":"c_493.mp3","level":2}
-{"sl":"sedemdeset","ru":"70","cat":"thing","audio":"c_494.mp3","level":2}
-{"sl":"enainsedemdeset","ru":"71","cat":"thing","audio":"c_495.mp3","level":2}
-{"sl":"triinsedemdeset","ru":"73","cat":"thing","audio":"c_496.mp3","level":2}
-{"sl":"sedeminsedemdeset","ru":"77","cat":"thing","audio":"c_497.mp3","level":2}
-{"sl":"osemdeset","ru":"80","cat":"thing","audio":"c_498.mp3","level":2}
-{"sl":"enainosemdeset","ru":"81","cat":"thing","audio":"c_499.mp3","level":2}
-{"sl":"štiriinosemdeset","ru":"84","cat":"thing","audio":"c_500.mp3","level":2}
-{"sl":"oseminosemdeset","ru":"88","cat":"thing","audio":"c_501.mp3","level":2}
-{"sl":"devetdeset","ru":"90","cat":"thing","audio":"c_502.mp3","level":2}
-{"sl":"enaindevetdeset","ru":"91","cat":"thing","audio":"c_503.mp3","level":2}
-{"sl":"petindevetdeset","ru":"95","cat":"thing","audio":"c_504.mp3","level":2}
-{"sl":"devetindevetdeset","ru":"99","cat":"thing","audio":"c_505.mp3","level":2}
 {"sl":"sto","ru":"100","cat":"thing","audio":"c_506.mp3","level":2}
 {"sl":"tisoč","ru":"1000","cat":"thing","audio":"c_551.mp3","level":2}
 {"sl":"deset tisoč","ru":"10.000","cat":"thing","audio":"c_587.mp3","level":3}
@@ -647,7 +616,6 @@
 {"sl":"francoščina","ru":"французский язык","cat":"school","audio":"c_2177.mp3","level":2}
 {"sl":"pero","ru":"ручка","cat":"school","audio":"c_2190.mp3","level":2}
 {"sl":"svinčnik","ru":"карандаш","cat":"school","audio":"c_2188.mp3","level":2}
-{"sl":"trije odstotki","ru":"3%","cat":"thing","audio":"c_2214.mp3","level":3}
 {"sl":"prvi","ru":"первый","cat":"thing","audio":"c_2217.mp3","level":2}
 {"sl":"drugi","ru":"второй","cat":"thing","audio":"c_2218.mp3","level":2}
 {"sl":"tretji","ru":"третий","cat":"thing","audio":"c_2219.mp3","level":2}
@@ -660,8 +628,6 @@
 {"sl":"stopnja","ru":"степень","cat":"school","audio":"c_2290.mp3","level":2}
 {"sl":"diplomant","ru":"бакалавр","cat":"school","audio":"c_2285.mp3","level":2}
 {"sl":"magisterij","ru":"магистр","cat":"school","audio":"c_2286.mp3","level":2}
-{"sl":"x je manjši od y","ru":"x < y","cat":"thing","audio":"c_2319.mp3","level":3}
-{"sl":"x je večji od y","ru":"x > y","cat":"thing","audio":"c_2320.mp3","level":3}
 {"sl":"stres","ru":"стресс","cat":"thing","audio":"c_3255.mp3","level":2}
 {"sl":"zavarovanje","ru":"страхование","cat":"shop","audio":"c_3246.mp3","level":2}
 {"sl":"osebje","ru":"персонал","cat":"shop","audio":"c_3242.mp3","level":2}
@@ -797,50 +763,6 @@
 {"sl":"ločitev","ru":"развод","cat":"family","audio":"c_1779.mp3","level":2}
 {"sl":"nevesta","ru":"невеста","cat":"family","audio":"c_1781.mp3","level":2}
 {"sl":"ženin","ru":"жених","cat":"family","audio":"c_1780.mp3","level":2}
-{"sl":"sto ena","ru":"101","cat":"thing","audio":"c_507.mp3","level":3}
-{"sl":"sto pet","ru":"105","cat":"thing","audio":"c_508.mp3","level":3}
-{"sl":"sto deset","ru":"110","cat":"thing","audio":"c_509.mp3","level":3}
-{"sl":"sto enainpetdeset","ru":"151","cat":"thing","audio":"c_510.mp3","level":3}
-{"sl":"dvesto","ru":"200","cat":"thing","audio":"c_511.mp3","level":2}
-{"sl":"dvesto dva","ru":"202","cat":"thing","audio":"c_512.mp3","level":3}
-{"sl":"dvesto šest","ru":"206","cat":"thing","audio":"c_513.mp3","level":3}
-{"sl":"dvesto dvajset","ru":"220","cat":"thing","audio":"c_514.mp3","level":3}
-{"sl":"dvesto dvainšestdeset","ru":"262","cat":"thing","audio":"c_515.mp3","level":3}
-{"sl":"tristo","ru":"300","cat":"thing","audio":"c_516.mp3","level":2}
-{"sl":"tristo tri","ru":"303","cat":"thing","audio":"c_517.mp3","level":3}
-{"sl":"tristo sedem","ru":"307","cat":"thing","audio":"c_518.mp3","level":3}
-{"sl":"tristo trideset","ru":"330","cat":"thing","audio":"c_519.mp3","level":3}
-{"sl":"tristo triinsedemdeset","ru":"373","cat":"thing","audio":"c_520.mp3","level":3}
-{"sl":"štiristo","ru":"400","cat":"thing","audio":"c_521.mp3","level":2}
-{"sl":"štiristo štiri","ru":"404","cat":"thing","audio":"c_522.mp3","level":3}
-{"sl":"štiristo osem","ru":"408","cat":"thing","audio":"c_523.mp3","level":3}
-{"sl":"štiristo štirideset","ru":"440","cat":"thing","audio":"c_524.mp3","level":3}
-{"sl":"štiristo štiriinosemdeset","ru":"484","cat":"thing","audio":"c_525.mp3","level":3}
-{"sl":"petsto","ru":"500","cat":"thing","audio":"c_526.mp3","level":2}
-{"sl":"petsto pet","ru":"505","cat":"thing","audio":"c_527.mp3","level":3}
-{"sl":"petsto devet","ru":"509","cat":"thing","audio":"c_528.mp3","level":3}
-{"sl":"petsto petdeset","ru":"550","cat":"thing","audio":"c_529.mp3","level":3}
-{"sl":"petsto petindevetdeset","ru":"595","cat":"thing","audio":"c_530.mp3","level":3}
-{"sl":"šeststo","ru":"600","cat":"thing","audio":"c_531.mp3","level":2}
-{"sl":"šeststo ena","ru":"601","cat":"thing","audio":"c_532.mp3","level":3}
-{"sl":"šeststo šest","ru":"606","cat":"thing","audio":"c_533.mp3","level":3}
-{"sl":"šeststo šestnajst","ru":"616","cat":"thing","audio":"c_534.mp3","level":3}
-{"sl":"šeststo šestdeset","ru":"660","cat":"thing","audio":"c_535.mp3","level":3}
-{"sl":"sedemsto","ru":"700","cat":"thing","audio":"c_536.mp3","level":2}
-{"sl":"sedemsto dva","ru":"702","cat":"thing","audio":"c_537.mp3","level":3}
-{"sl":"sedemsto sedem","ru":"707","cat":"thing","audio":"c_538.mp3","level":3}
-{"sl":"sedemsto sedemindvajset","ru":"727","cat":"thing","audio":"c_539.mp3","level":3}
-{"sl":"sedemsto sedemdeset","ru":"770","cat":"thing","audio":"c_540.mp3","level":3}
-{"sl":"osemsto","ru":"800","cat":"thing","audio":"c_541.mp3","level":2}
-{"sl":"osemsto tri","ru":"803","cat":"thing","audio":"c_542.mp3","level":3}
-{"sl":"osemsto osem","ru":"808","cat":"thing","audio":"c_543.mp3","level":3}
-{"sl":"osemsto osemintrideset","ru":"838","cat":"thing","audio":"c_544.mp3","level":3}
-{"sl":"osemsto osemdeset","ru":"880","cat":"thing","audio":"c_545.mp3","level":3}
-{"sl":"devetsto","ru":"900","cat":"thing","audio":"c_546.mp3","level":2}
-{"sl":"devetsto štiri","ru":"904","cat":"thing","audio":"c_547.mp3","level":3}
-{"sl":"devetsto devet","ru":"909","cat":"thing","audio":"c_548.mp3","level":3}
-{"sl":"devetsto devetinštirideset","ru":"949","cat":"thing","audio":"c_549.mp3","level":3}
-{"sl":"devetsto devetdeset","ru":"990","cat":"thing","audio":"c_550.mp3","level":3}
 {"sl":"tiger","ru":"тигр","cat":"thing","audio":"c_92.mp3","level":2}
 {"sl":"miš","ru":"мышь","cat":"thing","audio":"c_192.mp3","level":2}
 {"sl":"podgana","ru":"крыса","cat":"thing","audio":"c_195.mp3","level":2}
@@ -909,23 +831,7 @@
 {"sl":"Evropa","ru":"Европа","cat":"info","audio":"c_15.mp3","level":2}
 {"sl":"Azija","ru":"Азия","cat":"info","audio":"c_16.mp3","level":2}
 {"sl":"Amerika","ru":"Америка","cat":"info","audio":"c_17.mp3","level":2}
-{"sl":"četrt ure","ru":"четверть часа","cat":"time","audio":"c_1639.mp3","level":3}
-{"sl":"pol ure","ru":"полчаса","cat":"time","audio":"c_1638.mp3","level":3}
-{"sl":"tri četrt ure","ru":"три четверти часа","cat":"time","audio":"c_1640.mp3","level":3}
-{"sl":"ob enih","ru":"1:00","cat":"thing","audio":"c_1641.mp3","level":3}
-{"sl":"pet čez dve","ru":"2:05","cat":"thing","audio":"c_1642.mp3","level":3}
-{"sl":"deset čez tri","ru":"3:10","cat":"thing","audio":"c_1643.mp3","level":3}
-{"sl":"četrt čez štiri","ru":"4:15","cat":"thing","audio":"c_1644.mp3","level":3}
-{"sl":"dvajset čez pet","ru":"5:20","cat":"thing","audio":"c_1645.mp3","level":3}
-{"sl":"petindvajset čez šest","ru":"6:25","cat":"thing","audio":"c_1646.mp3","level":3}
-{"sl":"pol osmih","ru":"7:30","cat":"thing","audio":"c_1647.mp3","level":3}
-{"sl":"osem petintrideset","ru":"8:35","cat":"thing","audio":"c_1648.mp3","level":3}
-{"sl":"dvajset do desetih","ru":"9:40","cat":"thing","audio":"c_1649.mp3","level":3}
-{"sl":"petnajst do enajstih","ru":"10:45","cat":"thing","audio":"c_1650.mp3","level":3}
 {"sl":"deset do dvanajstih","ru":"11:50","cat":"thing","audio":"c_1651.mp3","level":3}
-{"sl":"pet do enih","ru":"12:55","cat":"thing","audio":"c_1652.mp3","level":3}
-{"sl":"ob enih zjutraj","ru":"час ночи","cat":"thing","audio":"c_1636.mp3","level":3}
-{"sl":"ob dveh popoldan","ru":"два часа дня","cat":"thing","audio":"c_1637.mp3","level":3}
 {"sl":"prejšnji teden","ru":"на прошлой неделе","cat":"time","audio":"c_1705.mp3","level":3}
 {"sl":"ta teden","ru":"на этой неделе","cat":"time","audio":"c_1706.mp3","level":3}
 {"sl":"naslednji teden","ru":"на следующей неделе","cat":"time","audio":"c_1707.mp3","level":3}
@@ -935,12 +841,6 @@
 {"sl":"prejšnji mesec","ru":"в прошлом месяце","cat":"time","audio":"c_1711.mp3","level":3}
 {"sl":"ta mesec","ru":"в этом месяце","cat":"time","audio":"c_1712.mp3","level":3}
 {"sl":"naslednji mesec","ru":"в следующем месяце","cat":"time","audio":"c_1713.mp3","level":3}
-{"sl":"prvi januar dva tisoč štirinajst","ru":"2014-01-01","cat":"thing","audio":"c_1671.mp3","level":3}
-{"sl":"petindvajseti februar dva tisoč tri","ru":"2003-02-25","cat":"thing","audio":"c_1680.mp3","level":3}
-{"sl":"dvanajsti april tisoč devetsto oseminosemdeset","ru":"1988-04-12","cat":"thing","audio":"c_1674.mp3","level":3}
-{"sl":"trinajsti oktober tisoč osemsto devetindevetdeset","ru":"1899-10-13","cat":"thing","audio":"c_1675.mp3","level":3}
-{"sl":"trideseti september tisoč devetsto sedem","ru":"1907-09-30","cat":"thing","audio":"c_1679.mp3","level":3}
-{"sl":"dvanajsti december dva tisoč","ru":"2000-12-12","cat":"thing","audio":"c_1676.mp3","level":3}
 {"sl":"čelo","ru":"лоб","cat":"body","audio":"c_640.mp3","level":2}
 {"sl":"guba","ru":"морщина","cat":"body","audio":"c_639.mp3","level":2}
 {"sl":"brada","ru":"подбородок","cat":"body","audio":"c_636.mp3","level":2}

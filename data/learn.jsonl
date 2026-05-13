@@ -475,38 +475,12 @@
 {"sl":"dom","ru":"дом","cat":"adj","level":2}
 {"sl":"mesto","ru":"город","cat":"where","level":2}
 {"sl":"število","ru":"число","cat":"adj","level":2}
-{"sl":"enaindvajset","ru":"21","cat":"number","level":2}
-{"sl":"dvaindvajset","ru":"22","cat":"number","level":2}
-{"sl":"šestindvajset","ru":"26","cat":"number","level":2}
-{"sl":"enaintrideset","ru":"31","cat":"number","level":2}
-{"sl":"triintrideset","ru":"33","cat":"number","level":2}
-{"sl":"sedemintrideset","ru":"37","cat":"number","level":2}
 {"sl":"štirideset","ru":"40","cat":"number","level":2}
-{"sl":"enainštirideset","ru":"41","cat":"number","level":2}
-{"sl":"štiriinštirideset","ru":"44","cat":"number","level":2}
-{"sl":"oseminštirideset","ru":"48","cat":"number","level":2}
 {"sl":"petdeset","ru":"50","cat":"number","level":2}
-{"sl":"enainpetdeset","ru":"51","cat":"number","level":2}
-{"sl":"petinpetdeset","ru":"55","cat":"number","level":2}
-{"sl":"devetinpetdeset","ru":"59","cat":"number","level":2}
 {"sl":"šestdeset","ru":"60","cat":"number","level":2}
-{"sl":"enainšestdeset","ru":"61","cat":"number","level":2}
-{"sl":"dvainšestdeset","ru":"62","cat":"number","level":2}
-{"sl":"šestinšestdeset","ru":"66","cat":"number","level":2}
 {"sl":"sedemdeset","ru":"70","cat":"number","level":2}
-{"sl":"enainsedemdeset","ru":"71","cat":"number","level":2}
-{"sl":"triinsedemdeset","ru":"73","cat":"number","level":2}
-{"sl":"sedeminsedemdeset","ru":"77","cat":"number","level":2}
 {"sl":"osemdeset","ru":"80","cat":"number","level":2}
-{"sl":"enainosemdeset","ru":"81","cat":"number","level":2}
-{"sl":"štiriinosemdeset","ru":"84","cat":"number","level":2}
-{"sl":"oseminosemdeset","ru":"88","cat":"number","level":2}
 {"sl":"devetdeset","ru":"90","cat":"number","level":2}
-{"sl":"enaindevetdeset","ru":"91","cat":"number","level":2}
-{"sl":"petindevetdeset","ru":"95","cat":"number","level":2}
-{"sl":"devetindevetdeset","ru":"99","cat":"number","level":2}
-{"sl":"deset tisoč","ru":"10000","cat":"number","level":3}
-{"sl":"sto tisoč","ru":"100000","cat":"number","level":3}
 {"sl":"milijon","ru":"1000000","cat":"number","level":2}
 {"sl":"moj pes","ru":"моя собака","cat":"adj","level":3}
 {"sl":"tvoja mačka","ru":"твоя кошка","cat":"adj","level":3}
@@ -893,17 +867,6 @@
 {"sl":"ločitev","ru":"развод","cat":"adj","level":2}
 {"sl":"nevesta","ru":"невеста","cat":"adj","level":2}
 {"sl":"ženin","ru":"жених","cat":"adj","level":2}
-{"sl":"sto ena","ru":"101","cat":"number","level":3}
-{"sl":"sto pet","ru":"105","cat":"number","level":3}
-{"sl":"sto deset","ru":"110","cat":"number","level":3}
-{"sl":"dvesto","ru":"200","cat":"number","level":2}
-{"sl":"tristo","ru":"300","cat":"number","level":2}
-{"sl":"štiristo","ru":"400","cat":"number","level":2}
-{"sl":"petsto","ru":"500","cat":"number","level":2}
-{"sl":"šeststo","ru":"600","cat":"number","level":2}
-{"sl":"sedemsto","ru":"700","cat":"number","level":2}
-{"sl":"osemsto","ru":"800","cat":"number","level":2}
-{"sl":"devetsto","ru":"900","cat":"number","level":2}
 {"sl":"tiger","ru":"тигр","cat":"animal","level":2}
 {"sl":"miš","ru":"мышь","cat":"animal","level":2}
 {"sl":"podgana","ru":"крыса","cat":"animal","level":2}
@@ -969,20 +932,6 @@
 {"sl":"Evropa","ru":"Европа","cat":"place","level":2}
 {"sl":"Azija","ru":"Азия","cat":"place","level":2}
 {"sl":"Amerika","ru":"Америка","cat":"place","level":2}
-{"sl":"ob enih","ru":"1:00","cat":"number","level":3}
-{"sl":"pet čez dve","ru":"2:05","cat":"number","level":3}
-{"sl":"deset čez tri","ru":"3:10","cat":"number","level":3}
-{"sl":"četrt čez štiri","ru":"4:15","cat":"number","level":3}
-{"sl":"dvajset čez pet","ru":"5:20","cat":"number","level":3}
-{"sl":"petindvajset čez šest","ru":"6:25","cat":"number","level":3}
-{"sl":"pol osmih","ru":"7:30","cat":"number","level":3}
-{"sl":"osem petintrideset","ru":"8:35","cat":"number","level":3}
-{"sl":"dvajset do desetih","ru":"9:40","cat":"number","level":3}
-{"sl":"petnajst do enajstih","ru":"10:45","cat":"number","level":3}
-{"sl":"deset do dvanajstih","ru":"11:50","cat":"number","level":3}
-{"sl":"pet do enih","ru":"12:55","cat":"number","level":3}
-{"sl":"ob enih zjutraj","ru":"час ночи","cat":"time","level":3}
-{"sl":"ob dveh popoldan","ru":"два часа дня","cat":"time","level":3}
 {"sl":"prejšnji teden","ru":"на прошлой неделе","cat":"time","level":3}
 {"sl":"ta teden","ru":"на этой неделе","cat":"time","level":3}
 {"sl":"naslednji teden","ru":"на следующей неделе","cat":"time","level":3}
