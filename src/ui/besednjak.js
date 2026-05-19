@@ -1,25 +1,28 @@
 import { state } from "../state.js";
 import { app } from "./dom.js";
 
-export function showBesednjak(query = "") {
+export function showBesednjak() {
   const words = state.LEARN.filter(w => w.cat !== "verb");
-
-  const resultsHTML = query.trim()
-    ? buildSearchResults(words, query.trim().toLowerCase())
-    : buildGrouped(words);
 
   app().innerHTML = `<div class="table-card">
     <button class="back-btn" onclick="goMenu()">← Meni</button>
     <div style="font-size:20px;font-weight:700;margin-bottom:12px">Besednjak</div>
     <input id="besednjak-search" type="text"
-      oninput="showBesednjak(this.value)"
+      oninput="filterBesednjak(this.value)"
       placeholder="Išči besedo..."
-      value="${query}"
       style="width:100%;box-sizing:border-box;padding:10px 14px;font-size:15px;border-radius:10px;border:1px solid rgba(255,255,255,.15);background:#1a1a1a;color:#e8eaed;outline:none;margin-bottom:12px"
       autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
     />
-    <div id="besednjak-content">${resultsHTML}</div>
+    <div id="besednjak-content">${buildGrouped(words)}</div>
   </div>`;
+}
+
+export function filterBesednjak(query) {
+  const words = state.LEARN.filter(w => w.cat !== "verb");
+  const content = document.getElementById("besednjak-content");
+  if (!content) return;
+  const q = query.trim().toLowerCase();
+  content.innerHTML = q ? buildSearchResults(words, q) : buildGrouped(words);
 }
 
 const CAT_LABELS = {

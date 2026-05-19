@@ -31,7 +31,7 @@ import {
   addLessonTile, removeLessonTile, checkLessonTiles, advanceLesson,
 } from "./ui/lesson.js";
 import { showProgress } from "./ui/progress.js";
-import { showBesednjak } from "./ui/besednjak.js";
+import { showBesednjak, filterBesednjak } from "./ui/besednjak.js";
 import { initFirebase, fbSignIn, fbSignOut } from "./firebase-sync.js";
 
 async function bootstrap() {
@@ -81,7 +81,7 @@ async function bootstrap() {
     addLessonTile, removeLessonTile, checkLessonTiles, advanceLesson,
     // progress
     showProgress,
-    showBesednjak,
+    showBesednjak, filterBesednjak,
     // firebase
     fbSignIn, fbSignOut,
   });
