@@ -1759,3 +1759,8 @@
 {"sl":"beseda","ru":"слово","cat":"thing","level":2}
 {"sl":"zame","ru":"для меня, обо мне","cat":"pron","level":1}
 {"sl":"odgovoren","ru":"ответственный","cat":"adj","level":2}
+{"sl":"spet","ru":"снова, опять","cat":"adj","level":2}
+{"sl":"enako","ru":"одинаково, так же","cat":"adj","level":2}
+{"sl":"sendvič","ru":"бутерброд","cat":"food","level":2}
+{"sl":"palačinke","ru":"блины","cat":"food","level":2}
+{"sl":"popravilo","ru":"ремонт","cat":"thing","level":2}
