@@ -1764,3 +1764,27 @@
 {"sl":"sendvič","ru":"бутерброд","cat":"food","level":2}
 {"sl":"palačinke","ru":"блины","cat":"food","level":2}
 {"sl":"popravilo","ru":"ремонт","cat":"thing","level":2}
+{"sl":"gostilna","ru":"ресторан / трактир","cat":"shop","level":2}
+{"sl":"dobiti obisk","ru":"принять гостей","cat":"phrase","level":3}
+{"sl":"okusen","ru":"вкусный","cat":"adj","level":2}
+{"sl":"krilo","ru":"юбка","cat":"thing","level":2}
+{"sl":"gumijast","ru":"резиновый","cat":"adj","level":2}
+{"sl":"copati","ru":"тапочки","cat":"thing","level":2}
+{"sl":"športni copati","ru":"кроссовки","cat":"thing","level":3}
+{"sl":"spodnje perilo","ru":"нижнее бельё","cat":"thing","level":3}
+{"sl":"zadrga","ru":"молния (на одежде)","cat":"thing","level":2}
+{"sl":"gumb","ru":"пуговица","cat":"thing","level":2}
+{"sl":"kratke hlače","ru":"шорты","cat":"thing","level":3}
+{"sl":"telovnik","ru":"жилет","cat":"thing","level":2}
+{"sl":"suknjič","ru":"пиджак","cat":"thing","level":2}
+{"sl":"nahrbtnik","ru":"рюкзак","cat":"thing","level":2}
+{"sl":"brezrokavnik","ru":"майка без рукавов","cat":"thing","level":2}
+{"sl":"nakit","ru":"украшения","cat":"thing","level":2}
+{"sl":"uhani","ru":"серьги","cat":"thing","level":2}
+{"sl":"ogrlica","ru":"ожерелье","cat":"thing","level":2}
+{"sl":"medaljon","ru":"медальон","cat":"thing","level":2}
+{"sl":"zapestnica","ru":"браслет","cat":"thing","level":2}
+{"sl":"zapestna ura","ru":"наручные часы","cat":"thing","level":3}
+{"sl":"obroč","ru":"кольцо / обруч","cat":"thing","level":2}
+{"sl":"gumica","ru":"резинка","cat":"thing","level":2}
+{"sl":"sponka","ru":"заколка","cat":"thing","level":2}
