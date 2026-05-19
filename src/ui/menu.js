@@ -13,6 +13,7 @@ export function renderMenu() {
     <button class="menu-btn" style="background:#1a1a1a;border:1px solid rgba(255,255,255,.3);color:#ffffff;font-weight:700" onclick="startWords()">📝 Kartice besed</button>
     <button class="menu-btn" style="background:linear-gradient(135deg,rgba(249,168,212,.18),rgba(236,72,153,.1));border:1px solid rgba(249,168,212,.25);color:#f9a8d4" onclick="startVerbs()">🔤 Spregatve glagolov</button>
     <button class="menu-btn table-btn" style="margin-top:6px" onclick="showVerbList()">📖 Tabele spregatev</button>
+    <button class="menu-btn table-btn" style="margin-top:6px" onclick="showBesednjak()">📖 Besednjak</button>
     <button class="menu-btn table-btn" onclick="showProgress()">📊 Moj napredek</button>
     <div class="divider"></div>
     <div id="auth-status" style="display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:#1a1a1a;border-radius:14px;border:1px solid rgba(255,255,255,.07);min-height:46px"></div>
