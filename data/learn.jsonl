@@ -1792,3 +1792,13 @@
 {"sl":"oglas","ru":"объявление","cat":"thing","level":2}
 {"sl":"lignji","ru":"кальмары","cat":"food","level":2}
 {"sl":"ocvrt","ru":"жареный","cat":"adj","level":2}
+{"sl":"bronast","ru":"бронзовый","cat":"adj","level":2}
+{"sl":"bleščeč","ru":"блестящий, сверкающий","cat":"adj","level":2}
+{"sl":"obvezen","ru":"обязательный","cat":"adj","level":2}
+{"sl":"obveznost","ru":"обязанность","cat":"thing","level":2}
+{"sl":"preprost","ru":"простой","cat":"adj","level":2}
+{"sl":"običajen","ru":"обычный","cat":"adj","level":2}
+{"sl":"udoben","ru":"удобный","cat":"adj","level":2}
+{"sl":"ni mi treba","ru":"мне не нужно","cat":"phrase","level":3}
+{"sl":"ne potrebujem","ru":"я не нуждаюсь","cat":"phrase","level":3}
+{"sl":"paše mi","ru":"мне идёт / подходит","cat":"phrase","level":3}
