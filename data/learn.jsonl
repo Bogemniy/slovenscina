@@ -1788,3 +1788,7 @@
 {"sl":"obroč","ru":"кольцо / обруч","cat":"thing","level":2}
 {"sl":"gumica","ru":"резинка","cat":"thing","level":2}
 {"sl":"sponka","ru":"заколка","cat":"thing","level":2}
+{"sl":"dopust","ru":"отпуск (с работы)","cat":"thing","level":2}
+{"sl":"oglas","ru":"объявление","cat":"thing","level":2}
+{"sl":"lignji","ru":"кальмары","cat":"food","level":2}
+{"sl":"ocvrt","ru":"жареный","cat":"adj","level":2}
