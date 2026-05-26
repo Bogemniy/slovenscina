@@ -10,7 +10,8 @@ function isCorrectAnswer(input, correct) {
 }
 
 export function startLesson() {
-  const { cat, cards } = genLesson();
+  const { cat, cards: rawCards } = genLesson();
+  const cards = rawCards.map(c => ({ ...c, _sel: null, _checked: false, _input: "" }));
   state.ui = {
     mode: "lesson",
     cat,
@@ -115,9 +116,9 @@ export function renderLesson() {
 
   app().innerHTML = `<div>
     <div class="top-bar">
-      <button onclick="${current > 0 ? 'goBackLesson()' : 'goMenu()'}" style="background:transparent;border:none;color:#888;cursor:pointer;font-size:20px;padding:0;line-height:1">←</button>
+      ${current > 0 ? `<button onclick="goBackLesson()" style="background:transparent;border:none;color:#888;cursor:pointer;font-size:20px;padding:0;line-height:1">←</button>` : `<span></span>`}
       <span class="progress-text">${current + 1}/${cards.length}</span>
-      <span class="score-text score-words">✓ ${score}</span>
+      <span style="display:flex;align-items:center;gap:10px"><span class="score-text score-words">✓ ${score}</span><button onclick="goMenu()" style="background:transparent;border:none;color:#888;cursor:pointer;font-size:16px;padding:0;line-height:1">✕</button></span>
     </div>
     <div class="progress-track words"><div class="progress-fill words" style="width:${(current / cards.length) * 100}%"></div></div>
     ${bodyHTML}
@@ -142,11 +143,10 @@ export function renderLesson() {
 
 export function goBackLesson() {
   state.ui.current--;
-  state.ui.checked = false;
-  state.ui.inputValue = "";
-  state.ui.selected = null;
   const c = state.ui.cards[state.ui.current];
-  if (c.type === "tiles") { c.answer = []; c.checked = false; }
+  state.ui.checked = c._checked || false;
+  state.ui.inputValue = c._input || "";
+  state.ui.selected = c._sel || null;
   renderLesson();
 }
 
@@ -154,8 +154,10 @@ export function selectLessonChoice(i) {
   if (state.ui.selected !== null) return;
   const c = state.ui.cards[state.ui.current];
   state.ui.selected = c.options[i];
+  c._sel = c.options[i];
   const correct = state.ui.selected === c.sl;
   state.ui.checked = true;
+  c._checked = true;
   if (correct) state.ui.score++;
   else state.ui.mistakes.push({ sl: c.sl, ru: c.ru });
   renderLesson();
@@ -168,6 +170,8 @@ export function checkLessonInput() {
   const correct = isCorrectAnswer(value, c.sl);
   state.ui.checked = true;
   state.ui.inputValue = value;
+  c._checked = true;
+  c._input = value;
   if (correct) state.ui.score++;
   else state.ui.mistakes.push({ sl: c.sl, ru: c.ru, given: value });
   renderLesson();
@@ -177,6 +181,8 @@ export function skipLessonInput() {
   const c = state.ui.cards[state.ui.current];
   state.ui.checked = true;
   state.ui.inputValue = "";
+  c._checked = true;
+  c._input = "";
   state.ui.mistakes.push({ sl: c.sl, ru: c.ru, given: "" });
   renderLesson();
 }
@@ -198,6 +204,7 @@ export function removeLessonTile(ansIdx) {
 export function checkLessonTiles() {
   const c = state.ui.cards[state.ui.current];
   c.checked = true;
+  c._checked = true;
   c.correct = c.answer.join(" ") === c.sl.join(" ");
   if (c.correct) state.ui.score++;
   else state.ui.mistakes.push({ sl: c.sl.join(" "), ru: c.ru });

@@ -39,7 +39,7 @@ export function renderVerbsMenu(tense = "present") {
 }
 
 export function startVerbsLevel(level, tense = "present") {
-  const cards = tense === "past" ? genVerbPastQuiz(10, level) : genVerbQuiz(10, level);
+  const cards = (tense === "past" ? genVerbPastQuiz(10, level) : genVerbQuiz(10, level)).map(c => ({ ...c, answeredWith: null }));
   state.ui = { mode: "verbs-quiz", verbLevel: level, tense, cards, current: 0, selected: null, score: 0, mistakes: [], streak: 0, bestStreak: 0 };
   renderVerbsQuiz();
 }
@@ -49,8 +49,10 @@ export function renderVerbsQuiz() {
   const c = cards[current];
   const isPast = tense === "past";
   const correctAns = isPast ? c.verb.past[c.pronoun] : (c.negative ? getNegForm(c.verb, c.pronoun) : c.verb.forms[c.pronoun]);
+  const restoredState = selected === null && c.answeredWith !== null;
+  const displayAns = selected !== null ? selected : (restoredState ? c.answeredWith : null);
   app().innerHTML = `<div>
-    <div class="top-bar"><button onclick="${current > 0 ? 'goBackVerb()' : 'startVerbs()'}" style="background:transparent;border:none;color:#888;cursor:pointer;font-size:20px;padding:0;line-height:1">←</button><span class="progress-text">${current + 1}/${cards.length}</span><span class="score-text score-verbs">✓ ${score}</span></div>
+    <div class="top-bar">${current > 0 ? `<button onclick="goBackVerb()" style="background:transparent;border:none;color:#888;cursor:pointer;font-size:20px;padding:0;line-height:1">←</button>` : `<span></span>`}<span class="progress-text">${current + 1}/${cards.length}</span><span style="display:flex;align-items:center;gap:10px"><span class="score-text score-verbs">✓ ${score}</span><button onclick="startVerbs()" style="background:transparent;border:none;color:#888;cursor:pointer;font-size:16px;padding:0;line-height:1">✕</button></span></div>
     <div class="progress-track verbs"><div class="progress-fill verbs" style="width:${(current / cards.length) * 100}%"></div></div>
     ${streak >= 3 ? `<div class="streak">🔥 ${streak} zapored!</div>` : ""}
     <div class="card verbs">
@@ -64,23 +66,25 @@ export function renderVerbsQuiz() {
     <div class="options">${c.options
       .map((o, i) => {
         let cls = "opt-btn verbs";
-        if (selected !== null) {
+        if (displayAns !== null) {
           if (o === correctAns) cls += " correct";
-          else if (o === selected) cls += " wrong";
+          else if (o === displayAns) cls += " wrong";
           else cls += " faded";
         }
-        return `<button class="${cls}" ${selected !== null ? "disabled" : ""} onclick="selectVerb(${i})">${o}</button>`;
+        return `<button class="${cls}" ${displayAns !== null ? "disabled" : ""} onclick="selectVerb(${i})">${o}</button>`;
       })
       .join("")}</div>
+    ${restoredState ? `<button class="btn-new verbs" style="margin-top:12px;width:100%" onclick="advanceVerb()">Naprej →</button>` : ""}
   </div>`;
 }
 
 export function selectVerb(i) {
-  if (state.ui.selected !== null) return;
+  if (state.ui.selected !== null || state.ui.cards[state.ui.current].answeredWith !== null) return;
   const c = state.ui.cards[state.ui.current];
   const isPast = state.ui.tense === "past";
   const correctAns = isPast ? c.verb.past[c.pronoun] : (c.negative ? getNegForm(c.verb, c.pronoun) : c.verb.forms[c.pronoun]);
   state.ui.selected = c.options[i];
+  c.answeredWith = c.options[i];
   if (state.ui.selected === correctAns) {
     state.ui.score++;
     state.ui.streak++;
@@ -90,16 +94,18 @@ export function selectVerb(i) {
     state.ui.mistakes.push(c);
   }
   renderVerbsQuiz();
-  setTimeout(() => {
-    if (state.ui.current + 1 >= state.ui.cards.length) {
-      state.ui.mode = "verbs-result";
-      renderVerbsResult();
-    } else {
-      state.ui.current++;
-      state.ui.selected = null;
-      renderVerbsQuiz();
-    }
-  }, 900);
+  setTimeout(advanceVerb, 900);
+}
+
+export function advanceVerb() {
+  if (state.ui.current + 1 >= state.ui.cards.length) {
+    state.ui.mode = "verbs-result";
+    renderVerbsResult();
+  } else {
+    state.ui.current++;
+    state.ui.selected = null;
+    renderVerbsQuiz();
+  }
 }
 
 export function renderVerbsResult() {
@@ -135,6 +141,7 @@ export function retryVerbMistakes() {
     pronoun: q.pronoun,
     negative: isPast ? false : q.negative,
     options: isPast ? genVerbPastOptions(q.verb, q.pronoun) : genVerbOptions(q.verb, q.pronoun, q.negative),
+    answeredWith: null,
   }));
   state.ui = { mode: "verbs-quiz", tense, cards, current: 0, selected: null, score: 0, mistakes: [], streak: 0, bestStreak: 0 };
   renderVerbsQuiz();
