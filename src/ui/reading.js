@@ -21,19 +21,17 @@ export function renderReadingMenu() {
     <div class="menu-flag">📖</div>
     <div class="menu-title" style="font-size:24px">Branje in razumevanje</div>
     <div class="menu-sub" style="margin-bottom:18px">${count} besedil · nivo A2</div>
-    <button class="menu-btn reading-btn" onclick="startReadingExercise(0)">📝 Začni od začetka</button>
-    <button class="menu-btn reading-btn" onclick="startReadingRandom()">🎲 Naključno besedilo</button>
+    <button class="menu-btn reading-btn" onclick="startReadingOrdered()">📋 Vse po vrsti</button>
+    <button class="menu-btn reading-btn" onclick="startReadingRandom()">🎲 Naključno</button>
     <button class="btn-menu" onclick="goMenu()" style="margin-top:14px">← Glavni meni</button>
   </div>`;
 }
 
-export function startReadingExercise(idx) {
+function launchPlaylist(playlist, pos, playlistMode) {
+  const idx = playlist[pos];
   const exercise = getExercise(idx);
   if (!exercise) return;
-  const blanks = exercise.blanks.map((b) => ({
-    ...b,
-    shuffledOptions: shuffle(b.options),
-  }));
+  const blanks = exercise.blanks.map((b) => ({ ...b, shuffledOptions: shuffle(b.options) }));
   state.ui = {
     mode: "reading-quiz",
     exerciseIdx: idx,
@@ -46,12 +44,45 @@ export function startReadingExercise(idx) {
     selectedOption: null,
     blankScore: 0,
     questionScore: 0,
+    playlist,
+    playlistPos: pos,
+    playlistMode,
   };
   renderReadingQuiz();
 }
 
+export function startReadingOrdered() {
+  const count = getExerciseCount();
+  launchPlaylist(Array.from({ length: count }, (_, i) => i), 0, "ordered");
+}
+
 export function startReadingRandom() {
-  startReadingExercise(Math.floor(Math.random() * getExerciseCount()));
+  const count = getExerciseCount();
+  launchPlaylist(shuffle(Array.from({ length: count }, (_, i) => i)), 0, "random");
+}
+
+export function startReadingExercise(idx) {
+  const { playlist, playlistPos, playlistMode } = state.ui || {};
+  const exercise = getExercise(idx);
+  if (!exercise) return;
+  const blanks = exercise.blanks.map((b) => ({ ...b, shuffledOptions: shuffle(b.options) }));
+  state.ui = {
+    mode: "reading-quiz",
+    exerciseIdx: idx,
+    exercise: { ...exercise, blanks },
+    phase: "blanks",
+    blankIdx: 0,
+    blankAnswers: [],
+    questionIdx: 0,
+    questionAnswers: [],
+    selectedOption: null,
+    blankScore: 0,
+    questionScore: 0,
+    playlist: playlist || null,
+    playlistPos: playlistPos ?? 0,
+    playlistMode: playlistMode || null,
+  };
+  renderReadingQuiz();
 }
 
 function renderTextWithBlanks() {
@@ -209,5 +240,12 @@ export function renderReadingResult() {
 }
 
 export function nextExercise() {
-  startReadingExercise((state.ui.exerciseIdx + 1) % state.EXERCISES.length);
+  const { playlist, playlistPos, playlistMode } = state.ui;
+  if (playlist && playlistPos + 1 < playlist.length) {
+    launchPlaylist(playlist, playlistPos + 1, playlistMode);
+  } else if (playlist) {
+    launchPlaylist(playlist, 0, playlistMode);
+  } else {
+    startReadingExercise((state.ui.exerciseIdx + 1) % getExerciseCount());
+  }
 }
