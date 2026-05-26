@@ -115,7 +115,7 @@ export function renderLesson() {
 
   app().innerHTML = `<div>
     <div class="top-bar">
-      <button onclick="goMenu()" style="background:transparent;border:none;color:#888;cursor:pointer;font-size:20px;padding:0;line-height:1">←</button>
+      <button onclick="${current > 0 ? 'goBackLesson()' : 'goMenu()'}" style="background:transparent;border:none;color:#888;cursor:pointer;font-size:20px;padding:0;line-height:1">←</button>
       <span class="progress-text">${current + 1}/${cards.length}</span>
       <span class="score-text score-words">✓ ${score}</span>
     </div>
@@ -138,6 +138,16 @@ export function renderLesson() {
     }
   };
   setTimeout(() => document.addEventListener("keydown", _keyHandler), 100);
+}
+
+export function goBackLesson() {
+  state.ui.current--;
+  state.ui.checked = false;
+  state.ui.inputValue = "";
+  state.ui.selected = null;
+  const c = state.ui.cards[state.ui.current];
+  if (c.type === "tiles") { c.answer = []; c.checked = false; }
+  renderLesson();
 }
 
 export function selectLessonChoice(i) {

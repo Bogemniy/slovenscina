@@ -9,7 +9,7 @@ import {
 } from "./ui/words.js";
 import {
   startVerbs, renderVerbsMenu, startVerbsLevel, renderVerbsQuiz, selectVerb, renderVerbsResult,
-  retryVerbMistakes, showVerbList, showVerbTable, filterVerbs,
+  retryVerbMistakes, goBackVerb, showVerbList, showVerbTable, filterVerbs,
 } from "./ui/verbs.js";
 import { startWriting, renderWritingQuiz, checkWriting, advanceWriting, skipWriting } from "./ui/writing.js";
 import {
@@ -18,7 +18,7 @@ import {
 import {
   startLearn, renderLearnMenu, startLearnMode, renderLearnQuiz,
   selfLearnAnswer, advanceLearnWord, selectLearnWord, renderLearnResult,
-  retryLearnMistakes,
+  retryLearnMistakes, goBackLearn,
 } from "./ui/learn.js";
 import {
   startReading, renderReadingMenu, startReadingExercise, startReadingRandom,
@@ -28,7 +28,7 @@ import {
 
 import {
   startLesson, renderLesson, selectLessonChoice, checkLessonInput, skipLessonInput,
-  addLessonTile, removeLessonTile, checkLessonTiles, advanceLesson,
+  addLessonTile, removeLessonTile, checkLessonTiles, advanceLesson, goBackLesson,
 } from "./ui/lesson.js";
 import { showProgress } from "./ui/progress.js";
 import { showBesednjak, filterBesednjak } from "./ui/besednjak.js";
@@ -63,13 +63,13 @@ async function bootstrap() {
     retryWordMistakes, showMasteredList, unmasterAndRefresh, playWordAudio,
     // verbs
     startVerbs, renderVerbsMenu, startVerbsLevel, renderVerbsQuiz, selectVerb, renderVerbsResult,
-    retryVerbMistakes, showVerbList, showVerbTable, filterVerbs,
+    retryVerbMistakes, goBackVerb, showVerbList, showVerbTable, filterVerbs,
     // writing
     startWriting, renderWritingQuiz, checkWriting, advanceWriting, skipWriting,
     // learn
     startLearn, renderLearnMenu, startLearnMode, renderLearnQuiz,
     selfLearnAnswer, advanceLearnWord, selectLearnWord, renderLearnResult,
-    retryLearnMistakes,
+    retryLearnMistakes, goBackLearn,
     // sentences
     startSents, renderSentQuiz, addTile, removeTile, checkSent, nextSent,
     // reading
@@ -78,7 +78,7 @@ async function bootstrap() {
     renderReadingResult, nextExercise,
     // lesson
     startLesson, renderLesson, selectLessonChoice, checkLessonInput, skipLessonInput,
-    addLessonTile, removeLessonTile, checkLessonTiles, advanceLesson,
+    addLessonTile, removeLessonTile, checkLessonTiles, advanceLesson, goBackLesson,
     // progress
     showProgress,
     showBesednjak, filterBesednjak,
