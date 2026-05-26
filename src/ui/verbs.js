@@ -182,7 +182,10 @@ export function filterVerbs(query, tense = "present") {
   }
   const matches = state.VERBS
     .map((v, i) => ({ v, i }))
-    .filter(({ v }) => v.inf.toLowerCase().includes(q) || v.ru.toLowerCase().includes(q));
+    .filter(({ v }) => {
+      const allForms = [v.inf, v.ru, ...Object.values(v.forms || {}), ...Object.values(v.past || {})];
+      return allForms.some(f => f.toLowerCase().includes(q));
+    });
   resultsDiv.style.display = "block";
   sectionsDiv.style.display = "none";
   resultsDiv.innerHTML = matches.length === 0
