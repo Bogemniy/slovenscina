@@ -1843,3 +1843,31 @@
 {"sl":"številka","ru":"номер / размер","cat":"thing","level":2}
 {"sl":"svetlo modra","ru":"светло-синий","cat":"color","level":3}
 {"sl":"čevlji na peti","ru":"туфли на каблуке","cat":"thing","level":3}
+{"sl":"točka","ru":"точка","cat":"general","level":2}
+{"sl":"sestavljati","ru":"составлять","cat":"verbs","level":2}
+{"sl":"seznam","ru":"список","cat":"general","level":2}
+{"sl":"nakup","ru":"покупка","cat":"general","level":2}
+{"sl":"kavarna","ru":"кафе","cat":"general","level":2}
+{"sl":"ovratnik","ru":"воротник","cat":"clothing","level":2}
+{"sl":"puli","ru":"пуловер/свитер","cat":"clothing","level":2}
+{"sl":"črtast","ru":"полосатый","cat":"clothing","level":2}
+{"sl":"karirast","ru":"клетчатый","cat":"clothing","level":2}
+{"sl":"urejen","ru":"аккуратный/опрятный","cat":"general","level":2}
+{"sl":"ruta","ru":"платок","cat":"clothing","level":2}
+{"sl":"snežiti","ru":"идти снегу","cat":"weather","level":2}
+{"sl":"delno","ru":"частично","cat":"weather","level":2}
+{"sl":"pršenje","ru":"морось","cat":"weather","level":2}
+{"sl":"sapica","ru":"лёгкий ветерок","cat":"weather","level":2}
+{"sl":"sunek vetra","ru":"порыв ветра","cat":"weather","level":3}
+{"sl":"sunkovit","ru":"порывистый","cat":"weather","level":2}
+{"sl":"vetrovno","ru":"ветрено","cat":"weather","level":2}
+{"sl":"pihati","ru":"дуть","cat":"weather","level":2}
+{"sl":"zasneženo","ru":"заснеженно","cat":"weather","level":2}
+{"sl":"megleno","ru":"туманно","cat":"weather","level":2}
+{"sl":"snežak","ru":"снеговик","cat":"weather","level":2}
+{"sl":"ostati","ru":"остаться","cat":"verbs","level":2}
+{"sl":"skozi okna","ru":"через окна","cat":"general","level":3}
+{"sl":"zvezdnik","ru":"звезда (м.р.)","cat":"general","level":2}
+{"sl":"zvezdnica","ru":"звезда (ж.р.)","cat":"general","level":2}
+{"sl":"nadnaravne sposobnosti","ru":"сверхъестественные способности","cat":"general","level":3}
+{"sl":"treba","ru":"надо/нужно","cat":"general","level":2}
