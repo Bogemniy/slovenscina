@@ -1872,3 +1872,73 @@
 {"sl":"nadnaravne sposobnosti","ru":"сверхъестественные способности","cat":"general","level":3}
 {"sl":"treba","ru":"надо/нужно","cat":"general","level":2}
 {"sl":"tehnika","ru":"техника (выполнения)","cat":"thing","level":2}
+{"sl":"zato","ru":"поэтому","cat":"adj","level":2}
+{"sl":"torej","ru":"итак, значит","cat":"adj","level":2}
+{"sl":"sicer","ru":"иначе, а то","cat":"adj","level":2}
+{"sl":"saj","ru":"ведь, же","cat":"adj","level":2}
+{"sl":"pač","ru":"ну, просто (частица)","cat":"adj","level":2}
+{"sl":"namreč","ru":"а именно, ведь","cat":"adj","level":2}
+{"sl":"mogoče","ru":"может быть","cat":"adj","level":2}
+{"sl":"verjetno","ru":"наверное","cat":"adj","level":2}
+{"sl":"morda","ru":"возможно","cat":"adj","level":2}
+{"sl":"gotovo","ru":"точно, наверняка","cat":"adj","level":2}
+{"sl":"ja","ru":"да (разг.)","cat":"greet","level":2}
+{"sl":"no","ru":"ну (междометие)","cat":"greet","level":2}
+{"sl":"aha","ru":"ага","cat":"greet","level":2}
+{"sl":"super","ru":"супер","cat":"greet","level":2}
+{"sl":"odlično","ru":"отлично","cat":"greet","level":2}
+{"sl":"žal","ru":"к сожалению","cat":"adj","level":2}
+{"sl":"res","ru":"правда, действительно","cat":"adj","level":2}
+{"sl":"bolje","ru":"лучше","cat":"adj","level":2}
+{"sl":"slabše","ru":"хуже","cat":"adj","level":2}
+{"sl":"grlo","ru":"горло","cat":"body","level":2}
+{"sl":"problem","ru":"проблема","cat":"thing","level":2}
+{"sl":"rešitev","ru":"решение","cat":"thing","level":2}
+{"sl":"razlog","ru":"причина","cat":"thing","level":2}
+{"sl":"pogovor","ru":"разговор","cat":"thing","level":2}
+{"sl":"sporočilo","ru":"сообщение","cat":"thing","level":2}
+{"sl":"klic","ru":"звонок","cat":"thing","level":2}
+{"sl":"srečanje","ru":"встреча","cat":"thing","level":2}
+{"sl":"paradižnik","ru":"помидор","cat":"food","level":2}
+{"sl":"čebula","ru":"лук","cat":"food","level":2}
+{"sl":"česen","ru":"чеснок","cat":"food","level":2}
+{"sl":"paprika","ru":"перец","cat":"food","level":2}
+{"sl":"kumarica","ru":"огурец","cat":"food","level":2}
+{"sl":"korenje","ru":"морковь","cat":"food","level":2}
+{"sl":"jagoda","ru":"клубника","cat":"food","level":2}
+{"sl":"malina","ru":"малина","cat":"food","level":2}
+{"sl":"hruška","ru":"груша","cat":"food","level":2}
+{"sl":"žlica","ru":"ложка","cat":"thing","level":2}
+{"sl":"vilice","ru":"вилка","cat":"thing","level":2}
+{"sl":"lonec","ru":"кастрюля","cat":"thing","level":2}
+{"sl":"ponev","ru":"сковорода","cat":"thing","level":2}
+{"sl":"hladilnik","ru":"холодильник","cat":"home","level":2}
+{"sl":"pralni stroj","ru":"стиральная машина","cat":"home","level":3}
+{"sl":"šporet","ru":"плита","cat":"home","level":2}
+{"sl":"pečica","ru":"духовка","cat":"home","level":2}
+{"sl":"luč","ru":"лампа / свет","cat":"home","level":2}
+{"sl":"omara","ru":"шкаф","cat":"home","level":2}
+{"sl":"polica","ru":"полка","cat":"home","level":2}
+{"sl":"preproga","ru":"ковёр","cat":"home","level":2}
+{"sl":"injekcija","ru":"укол","cat":"body","level":2}
+{"sl":"obliž","ru":"пластырь","cat":"body","level":2}
+{"sl":"zrak","ru":"воздух","cat":"adj","level":2}
+{"sl":"kamen","ru":"камень","cat":"thing","level":2}
+{"sl":"pol","ru":"половина","cat":"number","level":2}
+{"sl":"odstotek","ru":"процент","cat":"number","level":2}
+{"sl":"projekt","ru":"проект","cat":"thing","level":2}
+{"sl":"rok","ru":"срок","cat":"time","level":2}
+{"sl":"lila","ru":"сиреневый","cat":"color","level":2}
+{"sl":"turkizna","ru":"бирюзовый","cat":"color","level":2}
+{"sl":"bordo","ru":"бордовый","cat":"color","level":2}
+{"sl":"kaki","ru":"хаки","cat":"color","level":2}
+{"sl":"kremna","ru":"кремовый","cat":"color","level":2}
+{"sl":"svila","ru":"шёлк","cat":"thing","level":2}
+{"sl":"volna","ru":"шерсть","cat":"thing","level":2}
+{"sl":"lan","ru":"лён","cat":"thing","level":2}
+{"sl":"usnje","ru":"кожа (материал)","cat":"thing","level":2}
+{"sl":"žamet","ru":"бархат","cat":"thing","level":2}
+{"sl":"čipka","ru":"кружево","cat":"thing","level":2}
+{"sl":"poliester","ru":"полиэстер","cat":"thing","level":2}
+{"sl":"pikčast","ru":"в горошек","cat":"adj","level":2}
+{"sl":"enobarvna","ru":"однотонный","cat":"adj","level":2}
