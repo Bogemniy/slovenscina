@@ -1942,3 +1942,22 @@
 {"sl":"poliester","ru":"полиэстер","cat":"thing","level":2}
 {"sl":"pikčast","ru":"в горошек","cat":"adj","level":2}
 {"sl":"enobarvna","ru":"однотонный","cat":"adj","level":2}
+{"sl":"boljši","ru":"лучший","cat":"adj","level":2}
+{"sl":"deževno","ru":"дождливо","cat":"weather","level":2}
+{"sl":"klop","ru":"скамейка","cat":"thing","level":2}
+{"sl":"barvast","ru":"цветной","cat":"adj","level":2}
+{"sl":"blok","ru":"многоквартирный дом","cat":"home","level":2}
+{"sl":"žerjav","ru":"(строительный) кран / журавль","cat":"thing","level":2}
+{"sl":"aleja","ru":"аллея","cat":"where","level":2}
+{"sl":"dobrodelna organizacija","ru":"благотворительная организация","cat":"thing","level":3}
+{"sl":"bogataš","ru":"богач","cat":"people","level":2}
+{"sl":"nadnaraven","ru":"сверхъестественный","cat":"adj","level":2}
+{"sl":"sposobnost","ru":"способность","cat":"thing","level":2}
+{"sl":"misel","ru":"мысль","cat":"thing","level":2}
+{"sl":"vseeno","ru":"всё равно","cat":"adj","level":2}
+{"sl":"šah","ru":"шахматы","cat":"thing","level":2}
+{"sl":"dvorišče","ru":"двор","cat":"where","level":2}
+{"sl":"na dvorišču","ru":"во дворе","cat":"where","level":3}
+{"sl":"brez telefona","ru":"без телефона","cat":"phrase","level":3}
+{"sl":"resnica","ru":"правда / истина","cat":"thing","level":2}
+{"sl":"kunec","ru":"кролик","cat":"animal","level":2}
