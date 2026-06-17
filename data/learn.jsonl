@@ -331,7 +331,7 @@
 {"sl":"fant","ru":"парень","cat":"people","level":2}
 {"sl":"mami","ru":"мама (ласково)","cat":"family","level":2}
 {"sl":"oči","ru":"глаза","cat":"body","level":2}
-{"sl":"mati","ru":"мать","cat":"verb","level":2}
+{"sl":"mati","ru":"мать","cat":"family","level":2}
 {"sl":"oče","ru":"отец","cat":"family","level":2}
 {"sl":"starši","ru":"родители","cat":"family","level":2}
 {"sl":"sin","ru":"сын","cat":"people","level":2}
@@ -495,7 +495,7 @@
 {"sl":"drugo","ru":"другой","cat":"adj","level":2}
 {"sl":"ni pomembno","ru":"не имеет значения","cat":"greet","level":3}
 {"sl":"na zdravje","ru":"на здоровье (тост)","cat":"greet","level":3}
-{"sl":"sprosti se","ru":"расслабься","cat":"verb","level":3}
+{"sl":"sprosti se","ru":"расслабься","cat":"phrase","level":3}
 {"sl":"strinjam se","ru":"согласен","cat":"greet","level":3}
 {"sl":"dobrodošli","ru":"добро пожаловать","cat":"adj","level":2}
 {"sl":"brez skrbi","ru":"не беспокойся","cat":"greet","level":3}
@@ -1090,8 +1090,8 @@
 {"sl":"grem k zdravniku","ru":"иду к врачу","cat":"goplace","level":3}
 {"sl":"trpeti","ru":"терпеть","cat":"verb","level":2}
 {"sl":"preživeti","ru":"пережить","cat":"verb","level":2}
-{"sl":"samoučiti se","ru":"учиться самостоятельно","cat":"verb","level":3}
-{"sl":"delati kot","ru":"работать в качестве","cat":"verb","level":3}
+{"sl":"samoučiti se","ru":"учиться самостоятельно","cat":"phrase","level":3}
+{"sl":"delati kot","ru":"работать в качестве","cat":"phrase","level":3}
 {"sl":"posebej","ru":"особенно","cat":"adj","level":2}
 {"sl":"lagodno","ru":"уютно","cat":"adj","level":2}
 {"sl":"vljuden","ru":"вежливый","cat":"adj","level":2}
@@ -1156,7 +1156,7 @@
 {"sl":"navada","ru":"привычка","cat":"thing","level":2}
 {"sl":"razvada","ru":"вредная привычка","cat":"thing","level":2}
 {"sl":"dežuje","ru":"дождь идёт","cat":"weather","level":2}
-{"sl":"iti na živce","ru":"действовать на нервы","cat":"verb","level":3}
+{"sl":"iti na živce","ru":"действовать на нервы","cat":"phrase","level":3}
 {"sl":"naročilo","ru":"заказ","cat":"thing","level":2}
 {"sl":"zaspan","ru":"сонный","cat":"adj","level":2}
 {"sl":"kavbojke","ru":"джинсы","cat":"thing","level":2}
@@ -1197,9 +1197,9 @@
 {"sl":"cenejši","ru":"дешевле","cat":"adj","level":2}
 {"sl":"družabni stiki","ru":"общение","cat":"thing","level":3}
 {"sl":"načrt","ru":"план","cat":"thing","level":2}
-{"sl":"biti zaseden","ru":"быть занятым","cat":"verb","level":3}
+{"sl":"biti zaseden","ru":"быть занятым","cat":"phrase","level":3}
 {"sl":"izkušnja","ru":"опыт","cat":"thing","level":2}
-{"sl":"je odvisno od","ru":"зависит от","cat":"verb","level":3}
+{"sl":"je odvisno od","ru":"зависит от","cat":"phrase","level":3}
 {"sl":"stolpnica","ru":"столбчатая диаграмма","cat":"thing","level":2}
 {"sl":"peči","ru":"печь","cat":"verb","level":2}
 {"sl":"poslati","ru":"отправить","cat":"verb","level":2}
@@ -1246,7 +1246,7 @@
 {"sl":"klepetati","ru":"болтать","cat":"verb","level":2}
 {"sl":"čvekati","ru":"болтать","cat":"verb","level":2}
 {"sl":"ustrezati","ru":"подходить","cat":"verb","level":2}
-{"sl":"preživljati čas","ru":"проводить время","cat":"verb","level":3}
+{"sl":"preživljati čas","ru":"проводить время","cat":"phrase","level":3}
 {"sl":"nesti","ru":"нести","cat":"verb","level":2}
 {"sl":"potrebovati","ru":"нуждаться","cat":"verb","level":2}
 {"sl":"poskušati","ru":"пробовать","cat":"verb","level":2}
@@ -1255,7 +1255,7 @@
 {"sl":"narediti","ru":"сделать (сов.)","cat":"verb","level":2}
 {"sl":"izgledati","ru":"выглядеть","cat":"verb","level":2}
 {"sl":"ogledati si","ru":"посмотреть (фильм и т.п.)","cat":"verb","level":3}
-{"sl":"dati povedati","ru":"дать сказать","cat":"verb","level":3}
+{"sl":"dati povedati","ru":"дать сказать","cat":"phrase","level":3}
 {"sl":"veliko ljudi","ru":"много людей","cat":"people","level":3}
 {"sl":"s prijatelji","ru":"с друзьями","cat":"people","level":3}
 {"sl":"v lokalu","ru":"в баре","cat":"where","level":3}
@@ -1273,7 +1273,7 @@
 {"sl":"vpisati se","ru":"записаться","cat":"verb","level":3}
 {"sl":"poročati se","ru":"жениться (несов.)","cat":"verb","level":3}
 {"sl":"zanimati","ru":"интересовать","cat":"verb","level":2}
-{"sl":"biti poročen","ru":"быть женатым","cat":"verb","level":3}
+{"sl":"biti poročen","ru":"быть женатым","cat":"phrase","level":3}
 {"sl":"član družine","ru":"член семьи","cat":"family","level":3}
 {"sl":"mamica","ru":"мамочка","cat":"family","level":2}
 {"sl":"nečak","ru":"племянник","cat":"family","level":2}
@@ -1493,7 +1493,7 @@
 {"sl":"prehrambna vrednost","ru":"пищевая ценность","cat":"adj","level":3}
 {"sl":"kalorije","ru":"калории","cat":"adj","level":2}
 {"sl":"beljakovine","ru":"белки","cat":"adj","level":2}
-{"sl":"ogljikovi hidrati","ru":"углеводы","cat":"verb","level":3}
+{"sl":"ogljikovi hidrati","ru":"углеводы","cat":"food","level":3}
 {"sl":"maščobe","ru":"жиры","cat":"adj","level":2}
 {"sl":"vitamini","ru":"витамины","cat":"adj","level":2}
 {"sl":"minerali","ru":"минералы","cat":"adj","level":2}
