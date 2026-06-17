@@ -241,7 +241,6 @@
 {"sl":"vedeti","ru":"знать","cat":"verb","level":2}
 {"sl":"Vem","ru":"Я знаю","cat":"adj","level":2}
 {"sl":"Ne vem","ru":"Я не знаю","cat":"phrase","level":3}
-{"sl":"položiti","ru":"класть","cat":"verb","level":2}
 {"sl":"vzeti","ru":"взять (сов.)","cat":"verb","level":2}
 {"sl":"najti","ru":"находить","cat":"adj","level":2}
 {"sl":"dati","ru":"дать (сов.","cat":"verb","level":2}
@@ -348,15 +347,9 @@
 {"sl":"izgubiti","ru":"проигрывать","cat":"verb","level":2}
 {"sl":"zmagati","ru":"побеждать","cat":"verb","level":2}
 {"sl":"umreti","ru":"умирать","cat":"verb","level":2}
-{"sl":"prižgati","ru":"включать","cat":"verb","level":2}
-{"sl":"izklopiti","ru":"выключать","cat":"verb","level":2}
-{"sl":"ubiti","ru":"убивать","cat":"verb","level":2}
-{"sl":"poškodovati","ru":"ранить","cat":"verb","level":2}
-{"sl":"dotakniti se","ru":"трогать","cat":"verb","level":3}
 {"sl":"gledati","ru":"смотреть","cat":"verb","level":2}
 {"sl":"hoditi","ru":"гулять","cat":"verb","level":2}
 {"sl":"srečati","ru":"встречаться","cat":"verb","level":2}
-{"sl":"poljubiti","ru":"целовать","cat":"verb","level":2}
 {"sl":"slediti","ru":"следовать","cat":"verb","level":2}
 {"sl":"poročiti se","ru":"жениться (сов.)","cat":"verb","level":3}
 {"sl":"odgovoriti","ru":"отвечать","cat":"verb","level":2}
@@ -454,16 +447,8 @@
 {"sl":"boriti se","ru":"бороться","cat":"verb","level":3}
 {"sl":"vreči","ru":"бросать","cat":"adj","level":2}
 {"sl":"teči","ru":"бежать","cat":"verb","level":2}
-{"sl":"popraviti","ru":"ремонтировать","cat":"verb","level":2}
-{"sl":"šteti","ru":"считать","cat":"verb","level":2}
-{"sl":"rezati","ru":"вырезать","cat":"verb","level":2}
-{"sl":"prodati","ru":"продавать","cat":"verb","level":2}
-{"sl":"študirati","ru":"учиться","cat":"verb","level":2}
-{"sl":"sanjati","ru":"мечтать","cat":"verb","level":2}
-{"sl":"proslaviti","ru":"праздновать","cat":"verb","level":2}
 {"sl":"počivati","ru":"отдыхать","cat":"verb","level":2}
 {"sl":"uživati","ru":"наслаждаться","cat":"verb","level":2}
-{"sl":"čistiti","ru":"чистить","cat":"verb","level":2}
 {"sl":"šola","ru":"школа","cat":"adj","level":2}
 {"sl":"hiša","ru":"дом","cat":"home","level":2}
 {"sl":"vrata","ru":"дверь","cat":"school","level":2}
