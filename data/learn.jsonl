@@ -1946,3 +1946,21 @@
 {"sl":"brez telefona","ru":"без телефона","cat":"phrase","level":3}
 {"sl":"resnica","ru":"правда / истина","cat":"thing","level":2}
 {"sl":"kunec","ru":"кролик","cat":"animal","level":2}
+{"sl":"ničesar","ru":"ничего","cat":"pron","level":1}
+{"sl":"dokument","ru":"документ","cat":"thing","level":2}
+{"sl":"azijski","ru":"азиатский","cat":"adj","level":2}
+{"sl":"sram me je","ru":"мне стыдно","cat":"phrase","level":3}
+{"sl":"vložek","ru":"вклад / вкладыш","cat":"thing","level":2}
+{"sl":"padalec","ru":"парашютист","cat":"people","level":2}
+{"sl":"padalka","ru":"парашютистка","cat":"people","level":2}
+{"sl":"začetek","ru":"начало","cat":"thing","level":2}
+{"sl":"na začetku","ru":"в начале","cat":"phrase","level":3}
+{"sl":"strah me je","ru":"мне страшно","cat":"phrase","level":3}
+{"sl":"nevarno","ru":"опасно","cat":"adj","level":2}
+{"sl":"norec","ru":"дурак","cat":"people","level":2}
+{"sl":"del","ru":"часть","cat":"thing","level":2}
+{"sl":"delček","ru":"частица, кусочек","cat":"thing","level":2}
+{"sl":"rahlo","ru":"слегка, легко","cat":"adj","level":2}
+{"sl":"povprečen","ru":"средний","cat":"adj","level":2}
+{"sl":"ponekod","ru":"местами, кое-где","cat":"where","level":2}
+{"sl":"drugod","ru":"в других местах","cat":"where","level":2}
