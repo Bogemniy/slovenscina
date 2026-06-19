@@ -1827,3 +1827,18 @@
 {"sl":"loterija","ru":"лотерея","cat":"thing","level":2}
 {"sl":"biologija","ru":"биология","cat":"school","level":2}
 {"sl":"vozniški izpit","ru":"водительские права","cat":"thing","level":3}
+{"sl":"da","ru":"что; чтобы","cat":"phrase","level":2}
+{"sl":"toda","ru":"но; однако","cat":"phrase","level":2}
+{"sl":"vendar","ru":"однако; всё же","cat":"phrase","level":2}
+{"sl":"ter","ru":"и; а также","cat":"phrase","level":2}
+{"sl":"kakor","ru":"как; словно","cat":"phrase","level":2}
+{"sl":"samo","ru":"только; лишь","cat":"phrase","level":2}
+{"sl":"le","ru":"только; лишь","cat":"phrase","level":2}
+{"sl":"niti","ru":"даже не; ни","cat":"phrase","level":2}
+{"sl":"vsaj","ru":"хотя бы; по крайней мере","cat":"phrase","level":2}
+{"sl":"kar","ru":"прямо; просто (усил.)","cat":"phrase","level":2}
+{"sl":"najbrž","ru":"наверное; скорее всего","cat":"phrase","level":2}
+{"sl":"menda","ru":"кажется; вроде бы","cat":"phrase","level":2}
+{"sl":"baje","ru":"якобы; говорят","cat":"phrase","level":2}
+{"sl":"enostavno","ru":"просто; элементарно","cat":"phrase","level":2}
+{"sl":"preprosto","ru":"просто; попросту","cat":"phrase","level":2}
