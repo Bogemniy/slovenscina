@@ -160,30 +160,6 @@
 {"sl":"oktober","ru":"октябрь","cat":"month","level":2}
 {"sl":"november","ru":"ноябрь","cat":"month","level":2}
 {"sl":"december","ru":"декабрь","cat":"month","level":2}
-{"sl":"delati","ru":"работать","cat":"verb","level":2}
-{"sl":"igrati","ru":"играть","cat":"verb","level":2}
-{"sl":"plavati","ru":"плавать","cat":"verb","level":2}
-{"sl":"smučati","ru":"кататься на лыжах","cat":"verb","level":2}
-{"sl":"brati","ru":"читать","cat":"verb","level":2}
-{"sl":"pisati","ru":"писать","cat":"verb","level":2}
-{"sl":"govoriti","ru":"говорить","cat":"verb","level":2}
-{"sl":"razumeti","ru":"понимать","cat":"verb","level":2}
-{"sl":"poslušati","ru":"слушать","cat":"verb","level":2}
-{"sl":"jesti","ru":"есть","cat":"verb","level":2}
-{"sl":"piti","ru":"пить","cat":"verb","level":2}
-{"sl":"kupiti","ru":"купить","cat":"verb","level":2}
-{"sl":"iti","ru":"идти","cat":"verb","level":2}
-{"sl":"priti","ru":"прийти","cat":"verb","level":2}
-{"sl":"potovati","ru":"путешествовать","cat":"verb","level":2}
-{"sl":"pomagati","ru":"помогать","cat":"verb","level":2}
-{"sl":"misliti","ru":"думать","cat":"verb","level":2}
-{"sl":"vprašati","ru":"спросить","cat":"verb","level":2}
-{"sl":"naročiti","ru":"заказать","cat":"verb","level":2}
-{"sl":"plačati","ru":"заплатить","cat":"verb","level":2}
-{"sl":"spati","ru":"спать","cat":"verb","level":2}
-{"sl":"skuhati","ru":"приготовить еду","cat":"verb","level":2}
-{"sl":"živeti","ru":"жить","cat":"verb","level":2}
-{"sl":"učiti se","ru":"учиться","cat":"verb","level":3}
 {"sl":"internet","ru":"интернет","cat":"noun","level":2}
 {"sl":"fotografija","ru":"фотография","cat":"noun","level":2}
 {"sl":"revija","ru":"журнал","cat":"noun","level":2}
@@ -238,16 +214,10 @@
 {"sl":"vse","ru":"все","cat":"adj","level":2}
 {"sl":"ali","ru":"или","cat":"adj","level":2}
 {"sl":"in","ru":"и","cat":"adj","level":2}
-{"sl":"vedeti","ru":"знать","cat":"verb","level":2}
 {"sl":"Vem","ru":"Я знаю","cat":"adj","level":2}
 {"sl":"Ne vem","ru":"Я не знаю","cat":"phrase","level":3}
-{"sl":"vzeti","ru":"взять (сов.)","cat":"verb","level":2}
 {"sl":"najti","ru":"находить","cat":"adj","level":2}
-{"sl":"dati","ru":"дать (сов.","cat":"verb","level":2}
 {"sl":"imeti rad","ru":"нравиться","cat":"adj","level":3}
-{"sl":"ljubiti","ru":"любить","cat":"verb","level":2}
-{"sl":"poklicati","ru":"звонить","cat":"verb","level":2}
-{"sl":"čakati","ru":"ждать","cat":"verb","level":2}
 {"sl":"Všeč si mi","ru":"Ты мне нравишься","cat":"phrase","level":3}
 {"sl":"To mi ni všeč","ru":"Мне это не нравится","cat":"phrase","level":3}
 {"sl":"Ali me ljubiš?","ru":"Ты любишь меня?","cat":"phrase","level":3}
@@ -339,20 +309,6 @@
 {"sl":"mlajši brat","ru":"младший брат","cat":"adj","level":3}
 {"sl":"starejša sestra","ru":"старшая сестра","cat":"adj","level":3}
 {"sl":"starejši brat","ru":"старший брат","cat":"adj","level":3}
-{"sl":"stati","ru":"стоять","cat":"verb","level":2}
-{"sl":"sedeti","ru":"сидеть","cat":"verb","level":2}
-{"sl":"ležati","ru":"лежать","cat":"verb","level":2}
-{"sl":"zapreti","ru":"закрывать","cat":"verb","level":2}
-{"sl":"odpreti","ru":"открывать","cat":"verb","level":2}
-{"sl":"izgubiti","ru":"проигрывать","cat":"verb","level":2}
-{"sl":"zmagati","ru":"побеждать","cat":"verb","level":2}
-{"sl":"umreti","ru":"умирать","cat":"verb","level":2}
-{"sl":"gledati","ru":"смотреть","cat":"verb","level":2}
-{"sl":"hoditi","ru":"гулять","cat":"verb","level":2}
-{"sl":"srečati","ru":"встречаться","cat":"verb","level":2}
-{"sl":"slediti","ru":"следовать","cat":"verb","level":2}
-{"sl":"poročiti se","ru":"жениться (сов.)","cat":"verb","level":3}
-{"sl":"odgovoriti","ru":"отвечать","cat":"verb","level":2}
 {"sl":"vprašanje","ru":"вопрос","cat":"adj","level":2}
 {"sl":"podjetje","ru":"предприятие","cat":"thing","level":2}
 {"sl":"posel","ru":"бизнес","cat":"adj","level":2}
@@ -440,15 +396,7 @@
 {"sl":"srce","ru":"сердце","cat":"thing","level":2}
 {"sl":"možgani","ru":"головной мозг","cat":"adj","level":2}
 {"sl":"vleči","ru":"потянуть","cat":"adj","level":2}
-{"sl":"potisniti","ru":"толкнуть","cat":"verb","level":2}
-{"sl":"pritisniti","ru":"нажимать","cat":"verb","level":2}
-{"sl":"udariti","ru":"ударить","cat":"verb","level":2}
-{"sl":"ujeti","ru":"ловить","cat":"verb","level":2}
-{"sl":"boriti se","ru":"бороться","cat":"verb","level":3}
 {"sl":"vreči","ru":"бросать","cat":"adj","level":2}
-{"sl":"teči","ru":"бежать","cat":"verb","level":2}
-{"sl":"počivati","ru":"отдыхать","cat":"verb","level":2}
-{"sl":"uživati","ru":"наслаждаться","cat":"verb","level":2}
 {"sl":"šola","ru":"школа","cat":"adj","level":2}
 {"sl":"hiša","ru":"дом","cat":"home","level":2}
 {"sl":"vrata","ru":"дверь","cat":"school","level":2}
@@ -671,48 +619,9 @@
 {"sl":"bazen","ru":"бассейн","cat":"adj","level":2}
 {"sl":"zvonec","ru":"дверной звонок","cat":"adj","level":2}
 {"sl":"sosed","ru":"сосед","cat":"people","level":2}
-{"sl":"spodleteti","ru":"потерпеть неудачу","cat":"verb","level":2}
-{"sl":"izbrati","ru":"выбирать","cat":"verb","level":2}
-{"sl":"ustreliti","ru":"стрелять","cat":"verb","level":2}
-{"sl":"voliti","ru":"голосовать","cat":"verb","level":2}
-{"sl":"padati","ru":"падать","cat":"verb","level":2}
-{"sl":"braniti","ru":"защищать","cat":"verb","level":2}
 {"sl":"napasti","ru":"атаковать","cat":"adj","level":2}
 {"sl":"ukrasti","ru":"красть","cat":"adj","level":2}
-{"sl":"goreti","ru":"жечь","cat":"verb","level":2}
-{"sl":"rešiti","ru":"спасать","cat":"verb","level":2}
-{"sl":"kaditi","ru":"курить","cat":"verb","level":2}
-{"sl":"leteti","ru":"летать","cat":"verb","level":2}
-{"sl":"nositi","ru":"носить","cat":"verb","level":2}
-{"sl":"pljuvati","ru":"плевать","cat":"verb","level":2}
-{"sl":"brcniti","ru":"пинать","cat":"verb","level":2}
-{"sl":"ugrizniti","ru":"кусать","cat":"verb","level":2}
-{"sl":"dihati","ru":"дышать","cat":"verb","level":2}
-{"sl":"vonjati","ru":"нюхать","cat":"verb","level":2}
-{"sl":"jokati","ru":"плакать","cat":"verb","level":2}
-{"sl":"peti","ru":"петь","cat":"verb","level":2}
-{"sl":"smehljati se","ru":"улыбаться","cat":"verb","level":3}
-{"sl":"smejati se","ru":"смеяться","cat":"verb","level":3}
 {"sl":"rasti","ru":"расти","cat":"adj","level":2}
-{"sl":"manjšati se","ru":"уменьшаться","cat":"verb","level":3}
-{"sl":"kregati se","ru":"спорить","cat":"verb","level":3}
-{"sl":"groziti","ru":"угрожать","cat":"verb","level":2}
-{"sl":"deliti","ru":"делиться","cat":"verb","level":2}
-{"sl":"nahraniti","ru":"кормить","cat":"verb","level":2}
-{"sl":"skriti","ru":"прятаться","cat":"verb","level":2}
-{"sl":"posvariti","ru":"предупреждать","cat":"verb","level":2}
-{"sl":"skočiti","ru":"прыгать","cat":"verb","level":2}
-{"sl":"dvigniti","ru":"поднимать","cat":"verb","level":2}
-{"sl":"kopati","ru":"копать","cat":"verb","level":2}
-{"sl":"kopirati","ru":"копировать","cat":"verb","level":2}
-{"sl":"dostaviti","ru":"доставлять","cat":"verb","level":2}
-{"sl":"iskati","ru":"искать","cat":"verb","level":2}
-{"sl":"vaditi","ru":"тренироваться","cat":"verb","level":2}
-{"sl":"slikati","ru":"рисовать","cat":"verb","level":2}
-{"sl":"stuširati se","ru":"принимать душ","cat":"verb","level":3}
-{"sl":"prati","ru":"мыть","cat":"verb","level":2}
-{"sl":"moliti","ru":"молиться","cat":"verb","level":2}
-{"sl":"kuhati","ru":"готовить","cat":"verb","level":2}
 {"sl":"knjiga","ru":"книга","cat":"school","level":2}
 {"sl":"domača naloga","ru":"домашнее задание","cat":"school","level":3}
 {"sl":"izpit","ru":"экзамен","cat":"school","level":2}
@@ -956,7 +865,6 @@
 {"sl":"pohlepen","ru":"жадный","cat":"adj","level":2}
 {"sl":"strog","ru":"строгий","cat":"adj","level":2}
 {"sl":"gluh","ru":"глухой","cat":"adj","level":2}
-{"sl":"staviti","ru":"держать пари","cat":"verb","level":2}
 {"sl":"dobro jutro","ru":"доброе утро","cat":"greet","level":3}
 {"sl":"dober večer","ru":"добрый вечер","cat":"greet","level":3}
 {"sl":"živjo","ru":"привет","cat":"greet","level":2}
@@ -1073,8 +981,6 @@
 {"sl":"grem na obisk","ru":"иду в гости","cat":"goplace","level":3}
 {"sl":"grem po nakupih","ru":"иду за покупками","cat":"goplace","level":3}
 {"sl":"grem k zdravniku","ru":"иду к врачу","cat":"goplace","level":3}
-{"sl":"trpeti","ru":"терпеть","cat":"verb","level":2}
-{"sl":"preživeti","ru":"пережить","cat":"verb","level":2}
 {"sl":"samoučiti se","ru":"учиться самостоятельно","cat":"phrase","level":3}
 {"sl":"delati kot","ru":"работать в качестве","cat":"phrase","level":3}
 {"sl":"posebej","ru":"особенно","cat":"adj","level":2}
@@ -1129,8 +1035,6 @@
 {"sl":"sem v službi","ru":"я на работе","cat":"where","level":3}
 {"sl":"sem na zabavi","ru":"я на вечеринке","cat":"where","level":3}
 {"sl":"sem v mestu","ru":"я в городе","cat":"where","level":3}
-{"sl":"skrbeti","ru":"заботиться","cat":"verb","level":2}
-{"sl":"obiskati","ru":"навестить","cat":"verb","level":2}
 {"sl":"prijetno","ru":"приятно","cat":"adj","level":2}
 {"sl":"redno","ru":"регулярно","cat":"adj","level":2}
 {"sl":"redko","ru":"редко","cat":"adj","level":2}
@@ -1154,10 +1058,6 @@
 {"sl":"otroški vrtec","ru":"детский сад","cat":"where","level":3}
 {"sl":"ležim na postelji","ru":"лежу на кровати","cat":"daily","level":3}
 {"sl":"serija","ru":"сериал","cat":"thing","level":2}
-{"sl":"peljati","ru":"вести","cat":"verb","level":2}
-{"sl":"vrniti se","ru":"вернуться","cat":"verb","level":3}
-{"sl":"začeti","ru":"начать","cat":"verb","level":2}
-{"sl":"lenariti","ru":"лениться","cat":"verb","level":2}
 {"sl":"sončna očala","ru":"солнечные очки","cat":"thing","level":3}
 {"sl":"po","ru":"после","cat":"adj","level":2}
 {"sl":"ponavadi","ru":"обычно","cat":"adj","level":2}
@@ -1186,13 +1086,6 @@
 {"sl":"izkušnja","ru":"опыт","cat":"thing","level":2}
 {"sl":"je odvisno od","ru":"зависит от","cat":"phrase","level":3}
 {"sl":"stolpnica","ru":"столбчатая диаграмма","cat":"thing","level":2}
-{"sl":"peči","ru":"печь","cat":"verb","level":2}
-{"sl":"poslati","ru":"отправить","cat":"verb","level":2}
-{"sl":"zaspati","ru":"заснуть","cat":"verb","level":2}
-{"sl":"moči","ru":"мочь","cat":"verb","level":2}
-{"sl":"drsati","ru":"кататься на коньках","cat":"verb","level":2}
-{"sl":"deskati","ru":"кататься на доске","cat":"verb","level":2}
-{"sl":"brskati","ru":"искать","cat":"verb","level":2}
 {"sl":"sok","ru":"сок","cat":"food","level":2}
 {"sl":"riž","ru":"рис","cat":"food","level":2}
 {"sl":"sol","ru":"соль","cat":"food","level":2}
@@ -1228,18 +1121,7 @@
 {"sl":"z menoj","ru":"со мной (вариант)","cat":"pron","level":3}
 {"sl":"s tabo","ru":"с тобой","cat":"pron","level":3}
 {"sl":"s teboj","ru":"с тобой (вариант)","cat":"pron","level":3}
-{"sl":"klepetati","ru":"болтать","cat":"verb","level":2}
-{"sl":"čvekati","ru":"болтать","cat":"verb","level":2}
-{"sl":"ustrezati","ru":"подходить","cat":"verb","level":2}
 {"sl":"preživljati čas","ru":"проводить время","cat":"phrase","level":3}
-{"sl":"nesti","ru":"нести","cat":"verb","level":2}
-{"sl":"potrebovati","ru":"нуждаться","cat":"verb","level":2}
-{"sl":"poskušati","ru":"пробовать","cat":"verb","level":2}
-{"sl":"poskusiti","ru":"попробовать","cat":"verb","level":2}
-{"sl":"izkoristiti","ru":"использовать","cat":"verb","level":2}
-{"sl":"narediti","ru":"сделать (сов.)","cat":"verb","level":2}
-{"sl":"izgledati","ru":"выглядеть","cat":"verb","level":2}
-{"sl":"ogledati si","ru":"посмотреть (фильм и т.п.)","cat":"verb","level":3}
 {"sl":"dati povedati","ru":"дать сказать","cat":"phrase","level":3}
 {"sl":"veliko ljudi","ru":"много людей","cat":"people","level":3}
 {"sl":"s prijatelji","ru":"с друзьями","cat":"people","level":3}
@@ -1247,17 +1129,6 @@
 {"sl":"tečaj","ru":"курс (учебный)","cat":"school","level":2}
 {"sl":"stvar","ru":"вещь","cat":"thing","level":2}
 {"sl":"čim več","ru":"как можно больше","cat":"adj","level":3}
-{"sl":"marati","ru":"любить","cat":"verb","level":2}
-{"sl":"računati","ru":"считать","cat":"verb","level":2}
-{"sl":"povedati","ru":"сказать","cat":"verb","level":2}
-{"sl":"povabiti","ru":"пригласить (сов.","cat":"verb","level":2}
-{"sl":"ukvarjati se","ru":"заниматься (чем-л.)","cat":"verb","level":3}
-{"sl":"zabavati se","ru":"развлекаться","cat":"verb","level":3}
-{"sl":"navajati se","ru":"привыкать (несов.)","cat":"verb","level":3}
-{"sl":"navaditi se","ru":"привыкнуть (сов.)","cat":"verb","level":3}
-{"sl":"vpisati se","ru":"записаться","cat":"verb","level":3}
-{"sl":"poročati se","ru":"жениться (несов.)","cat":"verb","level":3}
-{"sl":"zanimati","ru":"интересовать","cat":"verb","level":2}
 {"sl":"biti poročen","ru":"быть женатым","cat":"phrase","level":3}
 {"sl":"član družine","ru":"член семьи","cat":"family","level":3}
 {"sl":"mamica","ru":"мамочка","cat":"family","level":2}
@@ -1312,16 +1183,9 @@
 {"sl":"učenec","ru":"ученик","cat":"people","level":2}
 {"sl":"učenka","ru":"ученица","cat":"people","level":2}
 {"sl":"kar pomeni","ru":"что означает","cat":"phrase","level":3}
-{"sl":"dopolniti","ru":"достичь","cat":"verb","level":2}
-{"sl":"privoščiti si","ru":"позволить себе (сов.)","cat":"verb","level":3}
-{"sl":"razvajati","ru":"баловать","cat":"verb","level":2}
-{"sl":"zbrati se","ru":"собраться (сов.)","cat":"verb","level":3}
-{"sl":"zbirati se","ru":"собираться (несов.)","cat":"verb","level":3}
-{"sl":"pomeniti","ru":"значить","cat":"verb","level":2}
 {"sl":"letnik","ru":"класс","cat":"school","level":2}
 {"sl":"večkrat","ru":"несколько раз","cat":"time","level":2}
 {"sl":"oba","ru":"obe","cat":"adj","level":2}
-{"sl":"vstati","ru":"встать","cat":"verb","level":2}
 {"sl":"iti spat","ru":"идти спать","cat":"adj","level":3}
 {"sl":"zobati zobe","ru":"чистить зубы","cat":"adj","level":3}
 {"sl":"umiti roke","ru":"мыть руки","cat":"adj","level":3}
@@ -1365,9 +1229,6 @@
 {"sl":"skleniti hipoteko","ru":"взять ипотеку","cat":"adj","level":3}
 {"sl":"upravljati s premoženjem","ru":"управлять имуществом","cat":"adj","level":3}
 {"sl":"prestrašen","ru":"испуганный","cat":"adj","level":2}
-{"sl":"presenetiti","ru":"удивить","cat":"verb","level":2}
-{"sl":"sovražiti","ru":"ненавидеть","cat":"verb","level":2}
-{"sl":"se bati","ru":"бояться","cat":"verb","level":3}
 {"sl":"biti srečen","ru":"быть счастливым","cat":"adj","level":3}
 {"sl":"biti žalosten","ru":"быть грустным","cat":"adj","level":3}
 {"sl":"razočaran","ru":"разочарованный","cat":"adj","level":2}
@@ -1486,10 +1347,7 @@
 {"sl":"kulinarična fuzija","ru":"кулинарный фьюжн","cat":"adj","level":3}
 {"sl":"trajnostna prehrana","ru":"устойчивое питание","cat":"adj","level":3}
 {"sl":"prehrambna varnost","ru":"продовольственная безопасность","cat":"adj","level":3}
-{"sl":"oblačiti se","ru":"одеваться","cat":"verb","level":3}
-{"sl":"slačiti se","ru":"раздеваться","cat":"verb","level":3}
 {"sl":"oprati oblačila","ru":"постирать одежду","cat":"adj","level":3}
-{"sl":"likati","ru":"гладить","cat":"verb","level":2}
 {"sl":"velikost","ru":"размер","cat":"adj","level":2}
 {"sl":"barva","ru":"цвет","cat":"adj","level":2}
 {"sl":"modni trend","ru":"модный тренд","cat":"adj","level":3}
@@ -1521,7 +1379,6 @@
 {"sl":"boli me trebuh","ru":"у меня болит живот","cat":"adj","level":3}
 {"sl":"boli me grlo","ru":"у меня болит горло","cat":"adj","level":3}
 {"sl":"kašljam","ru":"я кашляю","cat":"adj","level":2}
-{"sl":"kihati","ru":"чихать","cat":"verb","level":2}
 {"sl":"mrzlica","ru":"озноб","cat":"adj","level":2}
 {"sl":"slabo mi je","ru":"мне плохо","cat":"adj","level":3}
 {"sl":"poklicati zdravnika","ru":"вызвать врача","cat":"adj","level":3}
@@ -1566,7 +1423,6 @@
 {"sl":"sedeti v avtobusu","ru":"сидеть в автобусе","cat":"adj","level":3}
 {"sl":"kupiti karto","ru":"купить билет","cat":"adj","level":3}
 {"sl":"zamuditi vlak","ru":"опоздать на поезд","cat":"adj","level":3}
-{"sl":"prispeti","ru":"прибыть","cat":"verb","level":2}
 {"sl":"promet","ru":"дорожное движение","cat":"adj","level":2}
 {"sl":"zastoj","ru":"пробка","cat":"adj","level":2}
 {"sl":"obvoz","ru":"объезд","cat":"adj","level":2}
@@ -1595,7 +1451,6 @@
 {"sl":"dron dostava","ru":"доставка дронами","cat":"adj","level":3}
 {"sl":"pametna mesta","ru":"умные города","cat":"adj","level":3}
 {"sl":"upravljanje prometa","ru":"управление трафиком","cat":"adj","level":3}
-{"sl":"vklopiti","ru":"включить","cat":"verb","level":2}
 {"sl":"napolniti telefon","ru":"зарядить телефон","cat":"adj","level":3}
 {"sl":"poslati sporočilo","ru":"отправить сообщение","cat":"adj","level":3}
 {"sl":"narediti fotografijo","ru":"сделать фото","cat":"adj","level":3}
@@ -1828,17 +1683,16 @@
 {"sl":"številka","ru":"номер / размер","cat":"thing","level":2}
 {"sl":"svetlo modra","ru":"светло-синий","cat":"color","level":3}
 {"sl":"čevlji na peti","ru":"туфли на каблуке","cat":"thing","level":3}
-{"sl":"točka","ru":"точка","cat":"general","level":2}
-{"sl":"sestavljati","ru":"составлять","cat":"verbs","level":2}
-{"sl":"seznam","ru":"список","cat":"general","level":2}
-{"sl":"nakup","ru":"покупка","cat":"general","level":2}
-{"sl":"kavarna","ru":"кафе","cat":"general","level":2}
-{"sl":"ovratnik","ru":"воротник","cat":"clothing","level":2}
-{"sl":"puli","ru":"пуловер/свитер","cat":"clothing","level":2}
-{"sl":"črtast","ru":"полосатый","cat":"clothing","level":2}
-{"sl":"karirast","ru":"клетчатый","cat":"clothing","level":2}
-{"sl":"urejen","ru":"аккуратный/опрятный","cat":"general","level":2}
-{"sl":"ruta","ru":"платок","cat":"clothing","level":2}
+{"sl":"točka","ru":"точка","cat":"thing","level":2}
+{"sl":"seznam","ru":"список","cat":"thing","level":2}
+{"sl":"nakup","ru":"покупка","cat":"shop","level":2}
+{"sl":"kavarna","ru":"кафе","cat":"place","level":2}
+{"sl":"ovratnik","ru":"воротник","cat":"thing","level":2}
+{"sl":"puli","ru":"пуловер/свитер","cat":"thing","level":2}
+{"sl":"črtast","ru":"полосатый","cat":"adj","level":2}
+{"sl":"karirast","ru":"клетчатый","cat":"adj","level":2}
+{"sl":"urejen","ru":"аккуратный/опрятный","cat":"adj","level":2}
+{"sl":"ruta","ru":"платок","cat":"thing","level":2}
 {"sl":"snežiti","ru":"идти снегу","cat":"weather","level":2}
 {"sl":"delno","ru":"частично","cat":"weather","level":2}
 {"sl":"pršenje","ru":"морось","cat":"weather","level":2}
@@ -1850,12 +1704,11 @@
 {"sl":"zasneženo","ru":"заснеженно","cat":"weather","level":2}
 {"sl":"megleno","ru":"туманно","cat":"weather","level":2}
 {"sl":"snežak","ru":"снеговик","cat":"weather","level":2}
-{"sl":"ostati","ru":"остаться","cat":"verbs","level":2}
-{"sl":"skozi okna","ru":"через окна","cat":"general","level":3}
-{"sl":"zvezdnik","ru":"звезда (м.р.)","cat":"general","level":2}
-{"sl":"zvezdnica","ru":"звезда (ж.р.)","cat":"general","level":2}
-{"sl":"nadnaravne sposobnosti","ru":"сверхъестественные способности","cat":"general","level":3}
-{"sl":"treba","ru":"надо/нужно","cat":"general","level":2}
+{"sl":"skozi okna","ru":"через окна","cat":"phrase","level":3}
+{"sl":"zvezdnik","ru":"звезда (м.р.)","cat":"people","level":2}
+{"sl":"zvezdnica","ru":"звезда (ж.р.)","cat":"people","level":2}
+{"sl":"nadnaravne sposobnosti","ru":"сверхъестественные способности","cat":"phrase","level":3}
+{"sl":"treba","ru":"надо/нужно","cat":"adverb","level":2}
 {"sl":"tehnika","ru":"техника (выполнения)","cat":"thing","level":2}
 {"sl":"zato","ru":"поэтому","cat":"adj","level":2}
 {"sl":"torej","ru":"итак, значит","cat":"adj","level":2}
