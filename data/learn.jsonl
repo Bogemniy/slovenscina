@@ -1964,3 +1964,13 @@
 {"sl":"povprečen","ru":"средний","cat":"adj","level":2}
 {"sl":"ponekod","ru":"местами, кое-где","cat":"where","level":2}
 {"sl":"drugod","ru":"в других местах","cat":"where","level":2}
+{"sl":"naliv","ru":"ливень","cat":"weather","level":2}
+{"sl":"jasno","ru":"ясно (о погоде)","cat":"weather","level":2}
+{"sl":"ploha","ru":"ливень с прояснениями","cat":"weather","level":2}
+{"sl":"sodra","ru":"крупа (мелкий град)","cat":"weather","level":2}
+{"sl":"kapljica","ru":"капля","cat":"weather","level":2}
+{"sl":"pirat","ru":"пират","cat":"thing","level":2}
+{"sl":"piratski","ru":"пиратский","cat":"adj","level":2}
+{"sl":"loterija","ru":"лотерея","cat":"thing","level":2}
+{"sl":"biologija","ru":"биология","cat":"school","level":2}
+{"sl":"vozniški izpit","ru":"водительские права","cat":"thing","level":3}
