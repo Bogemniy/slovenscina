@@ -1842,3 +1842,18 @@
 {"sl":"baje","ru":"якобы; говорят","cat":"phrase","level":2}
 {"sl":"enostavno","ru":"просто; элементарно","cat":"phrase","level":2}
 {"sl":"preprosto","ru":"просто; попросту","cat":"phrase","level":2}
+{"sl":"z","ru":"с (твор.); посредством","cat":"phrase","level":2}
+{"sl":"s","ru":"с (твор.) [перед п,т,к,ф,х,с,ш,ц,ч]","cat":"phrase","level":2}
+{"sl":"k","ru":"к (дат.)","cat":"phrase","level":2}
+{"sl":"h","ru":"к (дат.) [перед к,г]","cat":"phrase","level":2}
+{"sl":"o","ru":"о, об (мест.)","cat":"phrase","level":2}
+{"sl":"proti","ru":"против; к (дат.)","cat":"phrase","level":2}
+{"sl":"skozi","ru":"сквозь, через (вин.)","cat":"phrase","level":2}
+{"sl":"okoli","ru":"вокруг; около (род.)","cat":"phrase","level":2}
+{"sl":"okrog","ru":"вокруг (род.)","cat":"phrase","level":2}
+{"sl":"zaradi","ru":"из-за, ради (род.)","cat":"phrase","level":2}
+{"sl":"mimo","ru":"мимо (род.)","cat":"phrase","level":2}
+{"sl":"razen","ru":"кроме (род.)","cat":"phrase","level":2}
+{"sl":"zraven","ru":"рядом с (род.)","cat":"phrase","level":2}
+{"sl":"daleč od","ru":"далеко от (род.)","cat":"phrase","level":3}
+{"sl":"proč od","ru":"прочь от (род.)","cat":"phrase","level":3}
