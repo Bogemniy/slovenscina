@@ -1869,3 +1869,39 @@
 {"sl":"najin","ru":"наш (двоих)","cat":"pron","level":1}
 {"sl":"vajin","ru":"ваш (двоих)","cat":"pron","level":1}
 {"sl":"njun","ru":"их (двоих)","cat":"pron","level":1}
+{"sl":"preveč","ru":"слишком; чересчур","cat":"adverb","level":2}
+{"sl":"premalo","ru":"слишком мало","cat":"adverb","level":2}
+{"sl":"dovolj","ru":"достаточно","cat":"adverb","level":2}
+{"sl":"bolj","ru":"более","cat":"adverb","level":2}
+{"sl":"najmanj","ru":"меньше всего; минимум","cat":"adverb","level":2}
+{"sl":"največ","ru":"больше всего; максимум","cat":"adverb","level":2}
+{"sl":"čisto","ru":"совсем; совершенно","cat":"adverb","level":2}
+{"sl":"popolnoma","ru":"полностью; абсолютно","cat":"adverb","level":2}
+{"sl":"komaj","ru":"едва; еле","cat":"adverb","level":2}
+{"sl":"približno","ru":"примерно; приблизительно","cat":"adverb","level":2}
+{"sl":"skoraj","ru":"почти","cat":"adverb","level":2}
+{"sl":"tu","ru":"тут","cat":"where","level":2}
+{"sl":"tja","ru":"туда","cat":"where","level":2}
+{"sl":"gor","ru":"вверх; наверх","cat":"where","level":2}
+{"sl":"dol","ru":"вниз","cat":"where","level":2}
+{"sl":"noter","ru":"внутрь","cat":"where","level":2}
+{"sl":"povsod","ru":"везде; повсюду","cat":"where","level":2}
+{"sl":"nikjer","ru":"нигде","cat":"where","level":2}
+{"sl":"nekje","ru":"где-то","cat":"where","level":2}
+{"sl":"drugje","ru":"в другом месте","cat":"where","level":2}
+{"sl":"naokrog","ru":"вокруг; кругом","cat":"where","level":2}
+{"sl":"Rad bi","ru":"я бы хотел (м.р.)","cat":"phrase","level":3}
+{"sl":"Rada bi","ru":"я бы хотела (ж.р.)","cat":"phrase","level":3}
+{"sl":"Ali lahko ...?","ru":"Можно ли ...? / Могу ли я ...?","cat":"phrase","level":3}
+{"sl":"Ali imate ...?","ru":"У вас есть ...?","cat":"phrase","level":3}
+{"sl":"Koliko stane?","ru":"Сколько стоит?","cat":"phrase","level":3}
+{"sl":"Kje je ...?","ru":"Где находится ...?","cat":"phrase","level":3}
+{"sl":"Mi lahko pomagate?","ru":"Вы можете мне помочь?","cat":"phrase","level":3}
+{"sl":"Ne govorim slovensko.","ru":"Я не говорю по-словенски.","cat":"phrase","level":3}
+{"sl":"Govorite angleško?","ru":"Вы говорите по-английски?","cat":"phrase","level":3}
+{"sl":"Še enkrat, prosim.","ru":"Ещё раз, пожалуйста.","cat":"phrase","level":3}
+{"sl":"Kako se reče ...?","ru":"Как сказать ...?","cat":"phrase","level":3}
+{"sl":"Kaj pomeni ...?","ru":"Что значит ...?","cat":"phrase","level":3}
+{"sl":"Kako, prosim?","ru":"Простите, что? (не расслышал)","cat":"phrase","level":3}
+{"sl":"Se opravičujem.","ru":"Прошу прощения.","cat":"phrase","level":3}
+{"sl":"Kako vam je ime?","ru":"Как вас зовут?","cat":"phrase","level":3}
