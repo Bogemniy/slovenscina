@@ -1857,3 +1857,15 @@
 {"sl":"zraven","ru":"рядом с (род.)","cat":"phrase","level":2}
 {"sl":"daleč od","ru":"далеко от (род.)","cat":"phrase","level":3}
 {"sl":"proč od","ru":"прочь от (род.)","cat":"phrase","level":3}
+{"sl":"ta","ru":"этот","cat":"pron","level":1}
+{"sl":"tisti","ru":"тот","cat":"pron","level":1}
+{"sl":"tale","ru":"вот этот","cat":"pron","level":1}
+{"sl":"tak","ru":"такой","cat":"pron","level":1}
+{"sl":"takšen","ru":"такой (какой)","cat":"pron","level":1}
+{"sl":"toliko","ru":"столько","cat":"pron","level":1}
+{"sl":"svoj","ru":"свой (возвр.)","cat":"pron","level":1}
+{"sl":"naš","ru":"наш","cat":"pron","level":1}
+{"sl":"njihov","ru":"их","cat":"pron","level":1}
+{"sl":"najin","ru":"наш (двоих)","cat":"pron","level":1}
+{"sl":"vajin","ru":"ваш (двоих)","cat":"pron","level":1}
+{"sl":"njun","ru":"их (двоих)","cat":"pron","level":1}
