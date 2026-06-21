@@ -40,7 +40,7 @@
 {"sl":"zrezek","ru":"стейк","cat":"food","level":2}
 {"sl":"malica","ru":"перекус","cat":"food","level":2}
 {"sl":"krompir","ru":"картофель","cat":"food","level":2}
-{"sl":"narezek","ru":"мясная нарезка","cat":"food","level":2}
+{"sl":"narezek","ru":"мясная нарезка","cat":"food","level":3}
 {"sl":"banka","ru":"банк","cat":"place","level":1}
 {"sl":"knjižnica","ru":"библиотека","cat":"place","level":2}
 {"sl":"gledališče","ru":"театр","cat":"place","level":2}
@@ -954,7 +954,7 @@
 {"sl":"vsak dan","ru":"каждый день","cat":"time","level":3}
 {"sl":"včasih","ru":"иногда","cat":"time","level":2}
 {"sl":"vedno","ru":"всегда","cat":"time","level":2}
-{"sl":"potica","ru":"потица (выпечка)","cat":"food","level":2}
+{"sl":"potica","ru":"потица (выпечка)","cat":"food","level":3}
 {"sl":"skuta","ru":"творог","cat":"food","level":2}
 {"sl":"italijanska hrana","ru":"итальянская кухня","cat":"food","level":3}
 {"sl":"sem","ru":"сюда","cat":"where","level":2}
@@ -1630,7 +1630,7 @@
 {"sl":"sponka","ru":"заколка","cat":"thing","level":2}
 {"sl":"dopust","ru":"отпуск (с работы)","cat":"thing","level":2}
 {"sl":"oglas","ru":"объявление","cat":"thing","level":2}
-{"sl":"lignji","ru":"кальмары","cat":"food","level":2}
+{"sl":"lignji","ru":"кальмары","cat":"food","level":3}
 {"sl":"ocvrt","ru":"жареный","cat":"adj","level":2}
 {"sl":"bronast","ru":"бронзовый","cat":"adj","level":2}
 {"sl":"bleščeč","ru":"блестящий, сверкающий","cat":"adj","level":2}

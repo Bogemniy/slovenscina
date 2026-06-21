@@ -68,6 +68,14 @@ const CORE = new Set([
   "sonce","dež","sneg","veter","toplo","mraz",
 ]);
 
+// === РЕДКИЕ / СПЕЦИФИЧНЫЕ слова (level 3): нечастотное, узкое, культурно-специфичное ===
+// Сюда заносим только то, что осознанно хотим опустить в "редкое".
+// CORE всегда побеждает RARE — если слово в обоих списках, выиграет CORE.
+const RARE = new Set([
+  // food
+  "potica","narezek","lignji",
+]);
+
 function processLearn() {
   const path = join(root, "data/learn.jsonl");
   const lines = readFileSync(path, "utf8").trimEnd().split("\n");
@@ -77,8 +85,9 @@ function processLearn() {
     let level;
     if (CORE.has(sl)) level = 1;                          // ядро выживания — приоритет
     else if (obj.sl.includes(" ")) level = 3;             // фразы
+    else if (RARE.has(sl)) level = 3;                     // редкое (чёрный список)
     else if (obj.cat === "pron" || obj.cat === "question") level = 1;  // местоимения/вопросы
-    else level = 2;                                        // всё остальное
+    else level = 2;                                        // быт по умолчанию
     return JSON.stringify({ ...obj, level });
   });
   writeFileSync(path, out.join("\n") + "\n");
