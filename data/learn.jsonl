@@ -1905,3 +1905,9 @@
 {"sl":"Kako, prosim?","ru":"Простите, что? (не расслышал)","cat":"phrase","level":3}
 {"sl":"Se opravičujem.","ru":"Прошу прощения.","cat":"phrase","level":3}
 {"sl":"Kako vam je ime?","ru":"Как вас зовут?","cat":"phrase","level":3}
+{"sl":"človek","ru":"человек","cat":"people","level":1}
+{"sl":"dve","ru":"два, две (ж./ср.р.)","cat":"number","level":1}
+{"sl":"jutro","ru":"утро","cat":"time","level":1}
+{"sl":"težak","ru":"тяжёлый; трудный","cat":"adj","level":1}
+{"sl":"čevlji","ru":"туфли; обувь","cat":"thing","level":1}
+{"sl":"dobro","ru":"хорошо","cat":"adverb","level":1}
