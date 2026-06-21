@@ -1072,7 +1072,7 @@
 {"sl":"velikokrat","ru":"часто","cat":"adj","level":2}
 {"sl":"koristen","ru":"полезный","cat":"adj","level":2}
 {"sl":"butast","ru":"глупый","cat":"adj","level":2}
-{"sl":"traparije","ru":"глупости","cat":"thing","level":2}
+{"sl":"traparije","ru":"глупости","cat":"thing","level":3}
 {"sl":"očitno","ru":"очевидно","cat":"adj","level":2}
 {"sl":"amaterski","ru":"любительский","cat":"adj","level":2}
 {"sl":"tudi","ru":"тоже","cat":"adj","level":1}
@@ -1085,7 +1085,7 @@
 {"sl":"biti zaseden","ru":"быть занятым","cat":"phrase","level":3}
 {"sl":"izkušnja","ru":"опыт","cat":"thing","level":2}
 {"sl":"je odvisno od","ru":"зависит от","cat":"phrase","level":3}
-{"sl":"stolpnica","ru":"столбчатая диаграмма","cat":"thing","level":2}
+{"sl":"stolpnica","ru":"высотка / многоэтажка","cat":"home","level":2}
 {"sl":"sok","ru":"сок","cat":"food","level":2}
 {"sl":"riž","ru":"рис","cat":"food","level":2}
 {"sl":"sol","ru":"соль","cat":"food","level":1}
@@ -1615,14 +1615,14 @@
 {"sl":"zadrga","ru":"молния (на одежде)","cat":"thing","level":2}
 {"sl":"gumb","ru":"пуговица","cat":"thing","level":2}
 {"sl":"kratke hlače","ru":"шорты","cat":"thing","level":3}
-{"sl":"telovnik","ru":"жилет","cat":"thing","level":2}
+{"sl":"telovnik","ru":"жилет","cat":"thing","level":3}
 {"sl":"suknjič","ru":"пиджак","cat":"thing","level":2}
 {"sl":"nahrbtnik","ru":"рюкзак","cat":"thing","level":2}
-{"sl":"brezrokavnik","ru":"майка без рукавов","cat":"thing","level":2}
+{"sl":"brezrokavnik","ru":"майка без рукавов","cat":"thing","level":3}
 {"sl":"nakit","ru":"украшения","cat":"thing","level":2}
 {"sl":"uhani","ru":"серьги","cat":"thing","level":2}
 {"sl":"ogrlica","ru":"ожерелье","cat":"thing","level":2}
-{"sl":"medaljon","ru":"медальон","cat":"thing","level":2}
+{"sl":"medaljon","ru":"медальон","cat":"thing","level":3}
 {"sl":"zapestnica","ru":"браслет","cat":"thing","level":2}
 {"sl":"zapestna ura","ru":"наручные часы","cat":"thing","level":3}
 {"sl":"obroč","ru":"кольцо / обруч","cat":"thing","level":2}
@@ -1651,10 +1651,10 @@
 {"sl":"superge","ru":"кроссовки / кеды","cat":"thing","level":2}
 {"sl":"nekaj","ru":"что-то / немного","cat":"adj","level":2}
 {"sl":"vaj","ru":"фу! / ой! (восклицание)","cat":"phrase","level":2}
-{"sl":"fantovščina","ru":"мальчишник","cat":"thing","level":2}
-{"sl":"dekliščina","ru":"девичник","cat":"thing","level":2}
+{"sl":"fantovščina","ru":"мальчишник","cat":"thing","level":3}
+{"sl":"dekliščina","ru":"девичник","cat":"thing","level":3}
 {"sl":"pečeno meso","ru":"жареное мясо","cat":"food","level":3}
-{"sl":"vampir","ru":"вампир","cat":"thing","level":2}
+{"sl":"vampir","ru":"вампир","cat":"thing","level":3}
 {"sl":"podeželje","ru":"сельская местность","cat":"where","level":2}
 {"sl":"dolgočasno","ru":"скучно","cat":"adj","level":2}
 {"sl":"svet","ru":"мир / свет","cat":"thing","level":2}
@@ -1669,12 +1669,12 @@
 {"sl":"načeloma","ru":"в принципе / как правило","cat":"adj","level":2}
 {"sl":"oblekica","ru":"платьице","cat":"thing","level":2}
 {"sl":"volk","ru":"волк","cat":"animal","level":3}
-{"sl":"metuljček","ru":"галстук-бабочка","cat":"thing","level":2}
+{"sl":"metuljček","ru":"галстук-бабочка","cat":"thing","level":3}
 {"sl":"kravata","ru":"галстук","cat":"thing","level":2}
 {"sl":"proge","ru":"полоски","cat":"thing","level":2}
 {"sl":"bombaž","ru":"хлопок","cat":"thing","level":2}
-{"sl":"naramnice","ru":"подтяжки / бретели","cat":"thing","level":2}
-{"sl":"pentlja","ru":"бант","cat":"thing","level":2}
+{"sl":"naramnice","ru":"подтяжки / бретели","cat":"thing","level":3}
+{"sl":"pentlja","ru":"бант","cat":"thing","level":3}
 {"sl":"vzorec","ru":"узор","cat":"thing","level":2}
 {"sl":"proga","ru":"полоска","cat":"thing","level":2}
 {"sl":"karirasta","ru":"клетчатый","cat":"adj","level":2}
@@ -1773,11 +1773,11 @@
 {"sl":"kremna","ru":"кремовый","cat":"color","level":2}
 {"sl":"svila","ru":"шёлк","cat":"thing","level":2}
 {"sl":"volna","ru":"шерсть","cat":"thing","level":2}
-{"sl":"lan","ru":"лён","cat":"thing","level":2}
+{"sl":"lan","ru":"лён","cat":"thing","level":3}
 {"sl":"usnje","ru":"кожа (материал)","cat":"thing","level":2}
-{"sl":"žamet","ru":"бархат","cat":"thing","level":2}
-{"sl":"čipka","ru":"кружево","cat":"thing","level":2}
-{"sl":"poliester","ru":"полиэстер","cat":"thing","level":2}
+{"sl":"žamet","ru":"бархат","cat":"thing","level":3}
+{"sl":"čipka","ru":"кружево","cat":"thing","level":3}
+{"sl":"poliester","ru":"полиэстер","cat":"thing","level":3}
 {"sl":"pikčast","ru":"в горошек","cat":"adj","level":2}
 {"sl":"enobarvna","ru":"однотонный","cat":"adj","level":2}
 {"sl":"boljši","ru":"лучший","cat":"adj","level":2}
@@ -1785,7 +1785,7 @@
 {"sl":"klop","ru":"скамейка","cat":"thing","level":2}
 {"sl":"barvast","ru":"цветной","cat":"adj","level":2}
 {"sl":"blok","ru":"многоквартирный дом","cat":"home","level":2}
-{"sl":"žerjav","ru":"(строительный) кран / журавль","cat":"thing","level":2}
+{"sl":"žerjav","ru":"(строительный) кран / журавль","cat":"thing","level":3}
 {"sl":"aleja","ru":"аллея","cat":"where","level":2}
 {"sl":"dobrodelna organizacija","ru":"благотворительная организация","cat":"thing","level":3}
 {"sl":"bogataš","ru":"богач","cat":"people","level":2}
@@ -1803,7 +1803,7 @@
 {"sl":"dokument","ru":"документ","cat":"thing","level":2}
 {"sl":"azijski","ru":"азиатский","cat":"adj","level":2}
 {"sl":"sram me je","ru":"мне стыдно","cat":"phrase","level":3}
-{"sl":"vložek","ru":"вклад / вкладыш","cat":"thing","level":2}
+{"sl":"vložek","ru":"вклад / вкладыш","cat":"thing","level":3}
 {"sl":"padalec","ru":"парашютист","cat":"people","level":2}
 {"sl":"padalka","ru":"парашютистка","cat":"people","level":2}
 {"sl":"začetek","ru":"начало","cat":"thing","level":2}
@@ -1822,9 +1822,9 @@
 {"sl":"ploha","ru":"ливень с прояснениями","cat":"weather","level":2}
 {"sl":"sodra","ru":"крупа (мелкий град)","cat":"weather","level":2}
 {"sl":"kapljica","ru":"капля","cat":"weather","level":2}
-{"sl":"pirat","ru":"пират","cat":"thing","level":2}
+{"sl":"pirat","ru":"пират","cat":"thing","level":3}
 {"sl":"piratski","ru":"пиратский","cat":"adj","level":2}
-{"sl":"loterija","ru":"лотерея","cat":"thing","level":2}
+{"sl":"loterija","ru":"лотерея","cat":"thing","level":3}
 {"sl":"biologija","ru":"биология","cat":"school","level":2}
 {"sl":"vozniški izpit","ru":"водительские права","cat":"thing","level":3}
 {"sl":"da","ru":"что; чтобы","cat":"phrase","level":1}

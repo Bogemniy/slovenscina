@@ -77,6 +77,10 @@ const RARE = new Set([
   // animal (insects, marine, exotic; common animals stay at level:2)
   "opica","metulj","pajek","tiger","podgana","petelin","gos","žuželka",
   "hrošč","komar","mravlja","kit","delfin","polž","volk","ovčka","kunec",
+  // thing (specific accessories, materials, niche items)
+  "telovnik","brezrokavnik","metuljček","naramnice","pentlja","medaljon",
+  "žamet","čipka","poliester","lan","žerjav","vložek","pirat","vampir",
+  "loterija","dekliščina","fantovščina","traparije",
 ]);
 
 function processLearn() {
