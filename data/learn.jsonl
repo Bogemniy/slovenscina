@@ -389,11 +389,11 @@
 {"sl":"nos","ru":"нос","cat":"body","level":1}
 {"sl":"usta","ru":"рот","cat":"body","level":1}
 {"sl":"uho","ru":"ухо","cat":"body","level":1}
-{"sl":"oko","ru":"глаз","cat":"adj","level":1}
+{"sl":"oko","ru":"глаз","cat":"body","level":1}
 {"sl":"roka","ru":"рука","cat":"body","level":1}
-{"sl":"stopalo","ru":"стопа","cat":"adj","level":2}
+{"sl":"stopalo","ru":"стопа","cat":"body","level":2}
 {"sl":"srce","ru":"сердце","cat":"thing","level":1}
-{"sl":"možgani","ru":"головной мозг","cat":"adj","level":2}
+{"sl":"možgani","ru":"головной мозг","cat":"body","level":2}
 {"sl":"vleči","ru":"потянуть","cat":"adj","level":2}
 {"sl":"vreči","ru":"бросать","cat":"adj","level":2}
 {"sl":"šola","ru":"школа","cat":"place","level":2}
@@ -465,11 +465,11 @@
 {"sl":"železniška postaja","ru":"железнодорожная станция","cat":"adj","level":3}
 {"sl":"avtobusna postaja","ru":"автобусная остановка","cat":"adj","level":3}
 {"sl":"letalo","ru":"самолёт","cat":"transport","level":2}
-{"sl":"tovornjak","ru":"грузовик","cat":"adj","level":2}
+{"sl":"tovornjak","ru":"грузовик","cat":"transport","level":2}
 {"sl":"kolo","ru":"велосипед","cat":"transport","level":2}
 {"sl":"motorno kolo","ru":"мотоцикл","cat":"adj","level":3}
 {"sl":"taksi","ru":"такси","cat":"transport","level":2}
-{"sl":"semafor","ru":"светофор","cat":"adj","level":2}
+{"sl":"semafor","ru":"светофор","cat":"transport","level":2}
 {"sl":"parkirišče","ru":"автомобильная стоянка","cat":"place","level":2}
 {"sl":"cesta","ru":"дорога","cat":"where","level":2}
 {"sl":"oblačilo","ru":"одежда","cat":"thing","level":2}
@@ -516,7 +516,7 @@
 {"sl":"fitnes center","ru":"тренажерный зал","cat":"adj","level":3}
 {"sl":"WC","ru":"туалет","cat":"adj","level":2}
 {"sl":"zemljevid","ru":"карта","cat":"thing","level":2}
-{"sl":"rešilec","ru":"скорая помощь","cat":"adj","level":2}
+{"sl":"rešilec","ru":"скорая помощь","cat":"transport","level":2}
 {"sl":"policija","ru":"полиция","cat":"adj","level":2}
 {"sl":"pištola","ru":"пистолет","cat":"thing","level":2}
 {"sl":"gasilci","ru":"пожарные","cat":"adj","level":2}
@@ -532,17 +532,17 @@
 {"sl":"rana","ru":"рана","cat":"adj","level":2}
 {"sl":"termin","ru":"прием","cat":"adj","level":2}
 {"sl":"kašelj","ru":"кашель","cat":"adj","level":2}
-{"sl":"rit","ru":"ягодицы","cat":"adj","level":2}
+{"sl":"rit","ru":"ягодицы","cat":"body","level":2}
 {"sl":"noga","ru":"нога","cat":"body","level":1}
 {"sl":"hrbet","ru":"спина","cat":"body","level":2}
 {"sl":"jezik","ru":"язык","cat":"info","level":2}
-{"sl":"ustnica","ru":"губа","cat":"adj","level":2}
+{"sl":"ustnica","ru":"губа","cat":"body","level":2}
 {"sl":"prst na nogi","ru":"палец на ноге","cat":"adj","level":3}
-{"sl":"želodec","ru":"желудок","cat":"adj","level":2}
-{"sl":"pljuča","ru":"легкое","cat":"adj","level":2}
-{"sl":"jetra","ru":"печень","cat":"adj","level":2}
+{"sl":"želodec","ru":"желудок","cat":"body","level":2}
+{"sl":"pljuča","ru":"легкое","cat":"body","level":2}
+{"sl":"jetra","ru":"печень","cat":"body","level":2}
 {"sl":"živec","ru":"нерв","cat":"adj","level":2}
-{"sl":"ledvica","ru":"почка","cat":"adj","level":2}
+{"sl":"ledvica","ru":"почка","cat":"body","level":2}
 {"sl":"črevesje","ru":"кишечник","cat":"adj","level":2}
 {"sl":"oranžen","ru":"оранжевый","cat":"color","level":2}
 {"sl":"siv","ru":"серый","cat":"color","level":2}
@@ -1428,10 +1428,10 @@
 {"sl":"električni avto","ru":"электромобиль","cat":"adj","level":3}
 {"sl":"hibridni avto","ru":"гибридный автомобиль","cat":"adj","level":3}
 {"sl":"podzemna železnica","ru":"метро","cat":"adj","level":3}
-{"sl":"tramvaj","ru":"трамвай","cat":"adj","level":2}
+{"sl":"tramvaj","ru":"трамвай","cat":"transport","level":2}
 {"sl":"trolejbus","ru":"троллейбус","cat":"adj","level":2}
-{"sl":"jahta","ru":"яхта","cat":"adj","level":2}
-{"sl":"helikopter","ru":"вертолёт","cat":"adj","level":2}
+{"sl":"jahta","ru":"яхта","cat":"transport","level":2}
+{"sl":"helikopter","ru":"вертолёт","cat":"transport","level":2}
 {"sl":"podmornica","ru":"подводная лодка","cat":"adj","level":2}
 {"sl":"prometna infrastruktura","ru":"дорожная инфраструктура","cat":"adj","level":3}
 {"sl":"javni prevoz","ru":"общественный транспорт","cat":"adj","level":3}
