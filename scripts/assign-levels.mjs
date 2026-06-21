@@ -74,6 +74,9 @@ const CORE = new Set([
 const RARE = new Set([
   // food
   "potica","narezek","lignji",
+  // animal (insects, marine, exotic; common animals stay at level:2)
+  "opica","metulj","pajek","tiger","podgana","petelin","gos","žuželka",
+  "hrošč","komar","mravlja","kit","delfin","polž","volk","ovčka","kunec",
 ]);
 
 function processLearn() {

@@ -358,14 +358,14 @@
 {"sl":"krava","ru":"корова","cat":"animal","level":2}
 {"sl":"konj","ru":"лошадь","cat":"animal","level":2}
 {"sl":"ovca","ru":"овца","cat":"animal","level":2}
-{"sl":"opica","ru":"обезьяна","cat":"animal","level":2}
+{"sl":"opica","ru":"обезьяна","cat":"animal","level":3}
 {"sl":"medved","ru":"медведь","cat":"animal","level":2}
 {"sl":"kokoš","ru":"курица","cat":"animal","level":2}
 {"sl":"raca","ru":"утка","cat":"animal","level":2}
-{"sl":"metulj","ru":"бабочка","cat":"animal","level":2}
+{"sl":"metulj","ru":"бабочка","cat":"animal","level":3}
 {"sl":"čebela","ru":"пчела","cat":"animal","level":2}
 {"sl":"riba","ru":"рыба","cat":"food","level":1}
-{"sl":"pajek","ru":"паук","cat":"animal","level":2}
+{"sl":"pajek","ru":"паук","cat":"animal","level":3}
 {"sl":"kača","ru":"змея","cat":"animal","level":2}
 {"sl":"zunaj","ru":"снаружи","cat":"where","level":2}
 {"sl":"znotraj","ru":"внутри","cat":"adj","level":2}
@@ -761,26 +761,26 @@
 {"sl":"ločitev","ru":"развод","cat":"adj","level":2}
 {"sl":"nevesta","ru":"невеста","cat":"adj","level":2}
 {"sl":"ženin","ru":"жених","cat":"adj","level":2}
-{"sl":"tiger","ru":"тигр","cat":"animal","level":2}
+{"sl":"tiger","ru":"тигр","cat":"animal","level":3}
 {"sl":"miš","ru":"мышь","cat":"animal","level":2}
-{"sl":"podgana","ru":"крыса","cat":"animal","level":2}
+{"sl":"podgana","ru":"крыса","cat":"animal","level":3}
 {"sl":"zajec","ru":"кролик","cat":"animal","level":2}
 {"sl":"lev","ru":"лев","cat":"animal","level":2}
 {"sl":"osel","ru":"осел","cat":"animal","level":2}
 {"sl":"slon","ru":"слон","cat":"animal","level":2}
 {"sl":"ptica","ru":"птица","cat":"animal","level":2}
-{"sl":"petelin","ru":"петух","cat":"animal","level":2}
+{"sl":"petelin","ru":"петух","cat":"animal","level":3}
 {"sl":"golob","ru":"голубь","cat":"animal","level":2}
-{"sl":"gos","ru":"гусь","cat":"animal","level":2}
-{"sl":"žuželka","ru":"насекомое","cat":"animal","level":2}
-{"sl":"hrošč","ru":"жук","cat":"animal","level":2}
-{"sl":"komar","ru":"комар","cat":"animal","level":2}
+{"sl":"gos","ru":"гусь","cat":"animal","level":3}
+{"sl":"žuželka","ru":"насекомое","cat":"animal","level":3}
+{"sl":"hrošč","ru":"жук","cat":"animal","level":3}
+{"sl":"komar","ru":"комар","cat":"animal","level":3}
 {"sl":"muha","ru":"муха","cat":"animal","level":2}
-{"sl":"mravlja","ru":"муравей","cat":"animal","level":2}
-{"sl":"kit","ru":"кит","cat":"animal","level":2}
+{"sl":"mravlja","ru":"муравей","cat":"animal","level":3}
+{"sl":"kit","ru":"кит","cat":"animal","level":3}
 {"sl":"morski pes","ru":"акула","cat":"animal","level":3}
-{"sl":"delfin","ru":"дельфин","cat":"animal","level":2}
-{"sl":"polž","ru":"улитка","cat":"animal","level":2}
+{"sl":"delfin","ru":"дельфин","cat":"animal","level":3}
+{"sl":"polž","ru":"улитка","cat":"animal","level":3}
 {"sl":"žaba","ru":"лягушка","cat":"animal","level":2}
 {"sl":"pogosto","ru":"часто","cat":"adj","level":2}
 {"sl":"takoj","ru":"немедленно","cat":"adj","level":2}
@@ -1585,7 +1585,7 @@
 {"sl":"zadnji","ru":"последний","cat":"adj","level":2}
 {"sl":"krat","ru":"раз (счётное)","cat":"thing","level":2}
 {"sl":"zadnji krat","ru":"последний раз","cat":"phrase","level":3}
-{"sl":"ovčka","ru":"овечка","cat":"animal","level":2}
+{"sl":"ovčka","ru":"овечка","cat":"animal","level":3}
 {"sl":"šele","ru":"только, лишь","cat":"adj","level":2}
 {"sl":"prav","ru":"правильно / именно","cat":"adj","level":2}
 {"sl":"imeti prav","ru":"быть правым","cat":"phrase","level":3}
@@ -1668,7 +1668,7 @@
 {"sl":"nenavaden","ru":"необычный","cat":"adj","level":2}
 {"sl":"načeloma","ru":"в принципе / как правило","cat":"adj","level":2}
 {"sl":"oblekica","ru":"платьице","cat":"thing","level":2}
-{"sl":"volk","ru":"волк","cat":"animal","level":2}
+{"sl":"volk","ru":"волк","cat":"animal","level":3}
 {"sl":"metuljček","ru":"галстук-бабочка","cat":"thing","level":2}
 {"sl":"kravata","ru":"галстук","cat":"thing","level":2}
 {"sl":"proge","ru":"полоски","cat":"thing","level":2}
@@ -1798,7 +1798,7 @@
 {"sl":"na dvorišču","ru":"во дворе","cat":"where","level":3}
 {"sl":"brez telefona","ru":"без телефона","cat":"phrase","level":3}
 {"sl":"resnica","ru":"правда / истина","cat":"thing","level":2}
-{"sl":"kunec","ru":"кролик","cat":"animal","level":2}
+{"sl":"kunec","ru":"кролик","cat":"animal","level":3}
 {"sl":"ničesar","ru":"ничего","cat":"pron","level":1}
 {"sl":"dokument","ru":"документ","cat":"thing","level":2}
 {"sl":"azijski","ru":"азиатский","cat":"adj","level":2}
