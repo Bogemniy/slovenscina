@@ -340,7 +340,7 @@
 {"sl":"bolan","ru":"больной","cat":"body","level":2}
 {"sl":"jezen","ru":"злой","cat":"feel","level":2}
 {"sl":"raven","ru":"прямой","cat":"adj","level":2}
-{"sl":"vsak","ru":"каждый","cat":"adj","level":2}
+{"sl":"vsak","ru":"каждый","cat":"pron","level":1}
 {"sl":"nenehno","ru":"всегда","cat":"adverb","level":2}
 {"sl":"dejansko","ru":"на самом деле","cat":"adverb","level":2}
 {"sl":"ponovno","ru":"снова","cat":"adverb","level":2}
@@ -380,7 +380,7 @@
 {"sl":"zaposlen","ru":"занятый","cat":"adj","level":2}
 {"sl":"zaskrbljen","ru":"обеспокоенный","cat":"adj","level":2}
 {"sl":"presenečen","ru":"удивленный","cat":"adj","level":2}
-{"sl":"kul","ru":"крутой","cat":"adj","level":2}
+{"sl":"kul","ru":"крутой","cat":"adverb","level":2}
 {"sl":"priden","ru":"прилежный","cat":"adj","level":2}
 {"sl":"hudoben","ru":"злой","cat":"adj","level":2}
 {"sl":"hladen","ru":"холодный","cat":"adj","level":1}
@@ -400,7 +400,7 @@
 {"sl":"mož","ru":"муж","cat":"family","level":1}
 {"sl":"žena","ru":"жена","cat":"family","level":1}
 {"sl":"poroka","ru":"свадьба","cat":"adj","level":2}
-{"sl":"oseba","ru":"человек","cat":"adj","level":2}
+{"sl":"oseba","ru":"человек","cat":"people","level":2}
 {"sl":"avto","ru":"машина","cat":"transport","level":1}
 {"sl":"dom","ru":"дом","cat":"place","level":2}
 {"sl":"mesto","ru":"город","cat":"where","level":1}
@@ -422,7 +422,7 @@
 {"sl":"njihovo podjetje","ru":"их компания","cat":"adj","level":3}
 {"sl":"vsi","ru":"все","cat":"pron","level":1}
 {"sl":"skupaj","ru":"вместе","cat":"adverb","level":2}
-{"sl":"drugo","ru":"другой","cat":"adj","level":2}
+{"sl":"drugo","ru":"другой","cat":"pron","level":1}
 {"sl":"ni pomembno","ru":"не имеет значения","cat":"greet","level":3}
 {"sl":"na zdravje","ru":"на здоровье (тост)","cat":"greet","level":3}
 {"sl":"sprosti se","ru":"расслабься","cat":"phrase","level":3}
@@ -515,9 +515,9 @@
 {"sl":"WC","ru":"туалет","cat":"adj","level":2}
 {"sl":"zemljevid","ru":"карта","cat":"thing","level":2}
 {"sl":"rešilec","ru":"скорая помощь","cat":"transport","level":2}
-{"sl":"policija","ru":"полиция","cat":"adj","level":2}
+{"sl":"policija","ru":"полиция","cat":"people","level":2}
 {"sl":"pištola","ru":"пистолет","cat":"thing","level":2}
-{"sl":"gasilci","ru":"пожарные","cat":"adj","level":2}
+{"sl":"gasilci","ru":"пожарные","cat":"people","level":2}
 {"sl":"predmestje","ru":"пригород","cat":"place","level":2}
 {"sl":"vas","ru":"деревня","cat":"place","level":1}
 {"sl":"zdravilo","ru":"лекарство","cat":"body","level":2}
@@ -568,7 +568,7 @@
 {"sl":"poln","ru":"полный","cat":"adj","level":2}
 {"sl":"prazen","ru":"пустой","cat":"adj","level":2}
 {"sl":"drag","ru":"дорогой","cat":"adj","level":1}
-{"sl":"poceni","ru":"дёшево","cat":"adj","level":1}
+{"sl":"poceni","ru":"дёшево","cat":"adverb","level":1}
 {"sl":"temen","ru":"темный","cat":"adj","level":2}
 {"sl":"svetel","ru":"светлый","cat":"adj","level":2}
 {"sl":"seksi","ru":"сексуальный","cat":"adj","level":2}
@@ -590,24 +590,24 @@
 {"sl":"dnevna soba","ru":"гостиная","cat":"home","level":3}
 {"sl":"spalnica","ru":"спальня","cat":"home","level":2}
 {"sl":"vrt","ru":"сад","cat":"home","level":2}
-{"sl":"garaža","ru":"гараж","cat":"adj","level":2}
+{"sl":"garaža","ru":"гараж","cat":"home","level":2}
 {"sl":"zid","ru":"стена","cat":"place","level":2}
-{"sl":"klet","ru":"подвал","cat":"adj","level":2}
+{"sl":"klet","ru":"подвал","cat":"home","level":2}
 {"sl":"stranišče","ru":"туалет","cat":"thing","level":1}
 {"sl":"stopnice","ru":"лестница","cat":"adj","level":2}
 {"sl":"streha","ru":"крыша","cat":"place","level":2}
 {"sl":"okno","ru":"окно","cat":"school","level":1}
-{"sl":"nož","ru":"нож","cat":"adj","level":2}
-{"sl":"skodelica","ru":"чашка","cat":"adj","level":2}
-{"sl":"kozarec","ru":"стакан","cat":"adj","level":2}
-{"sl":"krožnik","ru":"тарелка","cat":"adj","level":2}
-{"sl":"smetnjak","ru":"корзина для мусора","cat":"adj","level":2}
-{"sl":"skleda","ru":"миска","cat":"adj","level":2}
+{"sl":"nož","ru":"нож","cat":"thing","level":2}
+{"sl":"skodelica","ru":"чашка","cat":"thing","level":2}
+{"sl":"kozarec","ru":"стакан","cat":"thing","level":2}
+{"sl":"krožnik","ru":"тарелка","cat":"thing","level":2}
+{"sl":"smetnjak","ru":"корзина для мусора","cat":"thing","level":2}
+{"sl":"skleda","ru":"миска","cat":"thing","level":2}
 {"sl":"TV sprejemnik","ru":"телевизор","cat":"phrase","level":3}
 {"sl":"postelja","ru":"кровать","cat":"thing","level":1}
 {"sl":"ogledalo","ru":"зеркало","cat":"thing","level":2}
-{"sl":"tuš","ru":"душ","cat":"adj","level":2}
-{"sl":"kavč","ru":"диван","cat":"adj","level":2}
+{"sl":"tuš","ru":"душ","cat":"home","level":2}
+{"sl":"kavč","ru":"диван","cat":"thing","level":2}
 {"sl":"miza","ru":"стол","cat":"school","level":1}
 {"sl":"stol","ru":"стул","cat":"school","level":1}
 {"sl":"bazen","ru":"бассейн","cat":"place","level":2}
@@ -625,12 +625,12 @@
 {"sl":"umetnost","ru":"искусство","cat":"thing","level":2}
 {"sl":"angleščina","ru":"английский язык","cat":"adj","level":2}
 {"sl":"francoščina","ru":"французский язык","cat":"adj","level":2}
-{"sl":"pero","ru":"ручка","cat":"adj","level":2}
+{"sl":"pero","ru":"ручка","cat":"thing","level":2}
 {"sl":"svinčnik","ru":"карандаш","cat":"school","level":2}
 {"sl":"četrti","ru":"четвертый","cat":"number","level":2}
 {"sl":"rezultat","ru":"результат","cat":"info","level":2}
-{"sl":"kvadrat","ru":"квадрат","cat":"adj","level":2}
-{"sl":"krog","ru":"круг","cat":"adj","level":2}
+{"sl":"kvadrat","ru":"квадрат","cat":"thing","level":2}
+{"sl":"krog","ru":"круг","cat":"thing","level":2}
 {"sl":"površina","ru":"площадь","cat":"info","level":2}
 {"sl":"raziskava","ru":"исследование","cat":"info","level":2}
 {"sl":"stopnja","ru":"степень","cat":"info","level":2}
@@ -641,7 +641,7 @@
 {"sl":"osebje","ru":"персонал","cat":"info","level":2}
 {"sl":"oddelek","ru":"отдел","cat":"info","level":2}
 {"sl":"plača","ru":"зарплата","cat":"info","level":2}
-{"sl":"pismo","ru":"письмо","cat":"adj","level":2}
+{"sl":"pismo","ru":"письмо","cat":"thing","level":2}
 {"sl":"kapitan","ru":"капитан","cat":"adj","level":2}
 {"sl":"detektiv","ru":"детектив","cat":"adj","level":2}
 {"sl":"učitelj","ru":"учитель","cat":"job","level":2}
@@ -651,14 +651,14 @@
 {"sl":"sodnik","ru":"судья","cat":"job","level":2}
 {"sl":"voznik taksija","ru":"водитель такси","cat":"adj","level":3}
 {"sl":"voznik avtobusa","ru":"водитель автобуса","cat":"adj","level":3}
-{"sl":"kriminalec","ru":"преступник","cat":"adj","level":2}
+{"sl":"kriminalec","ru":"преступник","cat":"people","level":2}
 {"sl":"model","ru":"модель","cat":"info","level":2}
 {"sl":"umetnik","ru":"художник","cat":"job","level":2}
 {"sl":"telefonska številka","ru":"номер телефона","cat":"adj","level":3}
 {"sl":"signal","ru":"сигнал","cat":"info","level":2}
 {"sl":"aplikacija","ru":"приложение","cat":"info","level":2}
 {"sl":"klepet","ru":"чат","cat":"info","level":2}
-{"sl":"datoteka","ru":"файл","cat":"adj","level":2}
+{"sl":"datoteka","ru":"файл","cat":"thing","level":2}
 {"sl":"url","ru":"URL","cat":"info","level":2}
 {"sl":"e-naslov","ru":"е-мейл","cat":"info","level":2}
 {"sl":"spletna stran","ru":"веб-сайт","cat":"info","level":3}
@@ -678,36 +678,36 @@
 {"sl":"kreditna kartica","ru":"кредитная карточка","cat":"adj","level":3}
 {"sl":"geslo","ru":"пароль","cat":"info","level":2}
 {"sl":"bankomat","ru":"банкомат","cat":"place","level":2}
-{"sl":"elektrika","ru":"ток","cat":"adj","level":2}
+{"sl":"elektrika","ru":"ток","cat":"thing","level":2}
 {"sl":"kamera","ru":"камера","cat":"thing","level":2}
 {"sl":"radio","ru":"радио","cat":"info","level":2}
 {"sl":"darilo","ru":"подарок","cat":"thing","level":2}
-{"sl":"steklenica","ru":"бутылка","cat":"adj","level":2}
+{"sl":"steklenica","ru":"бутылка","cat":"thing","level":2}
 {"sl":"vrečka","ru":"пакет","cat":"thing","level":2}
 {"sl":"ključ","ru":"ключ","cat":"home","level":1}
 {"sl":"lutka","ru":"кукла","cat":"thing","level":2}
 {"sl":"angel","ru":"ангел","cat":"adj","level":2}
-{"sl":"glavnik","ru":"расческа","cat":"adj","level":2}
+{"sl":"glavnik","ru":"расческа","cat":"thing","level":2}
 {"sl":"zobna pasta","ru":"зубная паста","cat":"adj","level":3}
 {"sl":"zobna ščetka","ru":"зубная щетка","cat":"adj","level":3}
-{"sl":"šampon","ru":"шампунь","cat":"adj","level":2}
+{"sl":"šampon","ru":"шампунь","cat":"thing","level":2}
 {"sl":"krema","ru":"крем","cat":"thing","level":2}
-{"sl":"robček","ru":"бумажная салфетка","cat":"adj","level":2}
-{"sl":"šminka","ru":"губная помада","cat":"adj","level":2}
+{"sl":"robček","ru":"бумажная салфетка","cat":"thing","level":2}
+{"sl":"šminka","ru":"губная помада","cat":"thing","level":2}
 {"sl":"novice","ru":"новости","cat":"info","level":2}
 {"sl":"sedež","ru":"место","cat":"info","level":2}
 {"sl":"platno","ru":"экран","cat":"info","level":2}
 {"sl":"glasba","ru":"музыка","cat":"thing","level":2}
-{"sl":"oder","ru":"сцена","cat":"adj","level":2}
+{"sl":"oder","ru":"сцена","cat":"home","level":2}
 {"sl":"občinstvo","ru":"зритель","cat":"adj","level":2}
-{"sl":"šala","ru":"шутка","cat":"adj","level":2}
+{"sl":"šala","ru":"шутка","cat":"thing","level":2}
 {"sl":"članek","ru":"статья","cat":"info","level":2}
 {"sl":"časopis","ru":"газета","cat":"thing","level":2}
 {"sl":"oglaševanje","ru":"реклама","cat":"info","level":2}
 {"sl":"narava","ru":"природа","cat":"place","level":2}
 {"sl":"pepel","ru":"пепел","cat":"place","level":2}
 {"sl":"ogenj","ru":"огонь","cat":"place","level":2}
-{"sl":"diamant","ru":"алмаз","cat":"adj","level":2}
+{"sl":"diamant","ru":"алмаз","cat":"thing","level":2}
 {"sl":"luna","ru":"Луна","cat":"place","level":2}
 {"sl":"Zemlja","ru":"Земля","cat":"place","level":2}
 {"sl":"sonce","ru":"солнце","cat":"adj","level":1}
@@ -734,9 +734,9 @@
 {"sl":"trava","ru":"трава","cat":"place","level":2}
 {"sl":"vrtnica","ru":"роза","cat":"place","level":2}
 {"sl":"roža","ru":"цветок","cat":"place","level":2}
-{"sl":"kovina","ru":"металл","cat":"adj","level":2}
-{"sl":"zlato","ru":"золото","cat":"adj","level":2}
-{"sl":"srebro","ru":"серебро","cat":"adj","level":2}
+{"sl":"kovina","ru":"металл","cat":"thing","level":2}
+{"sl":"zlato","ru":"золото","cat":"thing","level":2}
+{"sl":"srebro","ru":"серебро","cat":"thing","level":2}
 {"sl":"Srebro je cenejše od zlata","ru":"Серебро дешевле золота","cat":"phrase","level":3}
 {"sl":"Zlato je dražje od srebra","ru":"Золото дороже серебра","cat":"phrase","level":3}
 {"sl":"počitnice","ru":"каникулы","cat":"thing","level":2}
@@ -753,8 +753,8 @@
 {"sl":"smrt","ru":"смерть","cat":"info","level":2}
 {"sl":"grob","ru":"могила","cat":"adj","level":2}
 {"sl":"ločitev","ru":"развод","cat":"info","level":2}
-{"sl":"nevesta","ru":"невеста","cat":"adj","level":2}
-{"sl":"ženin","ru":"жених","cat":"adj","level":2}
+{"sl":"nevesta","ru":"невеста","cat":"people","level":2}
+{"sl":"ženin","ru":"жених","cat":"people","level":2}
 {"sl":"tiger","ru":"тигр","cat":"animal","level":3}
 {"sl":"miš","ru":"мышь","cat":"animal","level":2}
 {"sl":"podgana","ru":"крыса","cat":"animal","level":3}
@@ -776,10 +776,10 @@
 {"sl":"delfin","ru":"дельфин","cat":"animal","level":3}
 {"sl":"polž","ru":"улитка","cat":"animal","level":3}
 {"sl":"žaba","ru":"лягушка","cat":"animal","level":2}
-{"sl":"pogosto","ru":"часто","cat":"adj","level":2}
-{"sl":"takoj","ru":"немедленно","cat":"adj","level":2}
-{"sl":"nenadoma","ru":"вдруг","cat":"adj","level":2}
-{"sl":"čeprav","ru":"хотя","cat":"adj","level":2}
+{"sl":"pogosto","ru":"часто","cat":"adverb","level":2}
+{"sl":"takoj","ru":"немедленно","cat":"phrase","level":2}
+{"sl":"nenadoma","ru":"вдруг","cat":"adverb","level":2}
+{"sl":"čeprav","ru":"хотя","cat":"phrase","level":2}
 {"sl":"gimnastika","ru":"гимнастика","cat":"sport","level":2}
 {"sl":"tenis","ru":"теннис","cat":"sport","level":2}
 {"sl":"golf","ru":"гольф","cat":"sport","level":2}
@@ -873,12 +873,12 @@
 {"sl":"lep večer","ru":"хорошего вечера","cat":"greet","level":3}
 {"sl":"lepo se imejte","ru":"всего хорошего","cat":"greet","level":3}
 {"sl":"zelo dobro","ru":"очень хорошо","cat":"adj","level":3}
-{"sl":"slabo","ru":"плохо","cat":"adj","level":1}
+{"sl":"slabo","ru":"плохо","cat":"adverb","level":1}
 {"sl":"zelo slabo","ru":"очень плохо","cat":"adj","level":3}
 {"sl":"še kar","ru":"нормально","cat":"adj","level":3}
 {"sl":"tako tako","ru":"ни так ни сяк","cat":"adj","level":3}
-{"sl":"zanič","ru":"отстой","cat":"adj","level":2}
-{"sl":"grozno","ru":"ужасно","cat":"adj","level":2}
+{"sl":"zanič","ru":"отстой","cat":"adverb","level":2}
+{"sl":"grozno","ru":"ужасно","cat":"adverb","level":2}
 {"sl":"razred","ru":"класс","cat":"school","level":2}
 {"sl":"tabla","ru":"доска","cat":"school","level":2}
 {"sl":"kreda","ru":"мел","cat":"school","level":3}
@@ -977,15 +977,15 @@
 {"sl":"grem k zdravniku","ru":"иду к врачу","cat":"goplace","level":3}
 {"sl":"samoučiti se","ru":"учиться самостоятельно","cat":"phrase","level":3}
 {"sl":"delati kot","ru":"работать в качестве","cat":"phrase","level":3}
-{"sl":"posebej","ru":"особенно","cat":"adj","level":2}
-{"sl":"lagodno","ru":"уютно","cat":"adj","level":2}
+{"sl":"posebej","ru":"особенно","cat":"adverb","level":2}
+{"sl":"lagodno","ru":"уютно","cat":"adverb","level":2}
 {"sl":"vljuden","ru":"вежливый","cat":"adj","level":2}
 {"sl":"simpatičen","ru":"симпатичный","cat":"adj","level":2}
-{"sl":"sploh","ru":"совсем","cat":"adj","level":2}
+{"sl":"sploh","ru":"совсем","cat":"phrase","level":2}
 {"sl":"predvsem","ru":"прежде всего","cat":"adj","level":2}
 {"sl":"prosti","ru":"свободный","cat":"adj","level":2}
 {"sl":"ko","ru":"когда","cat":"phrase","level":2}
-{"sl":"pa","ru":"а","cat":"adj","level":2}
+{"sl":"pa","ru":"а","cat":"phrase","level":2}
 {"sl":"besedilo","ru":"текст","cat":"thing","level":2}
 {"sl":"služba","ru":"работа","cat":"thing","level":2}
 {"sl":"potovanje","ru":"путешествие","cat":"thing","level":2}
@@ -1029,10 +1029,10 @@
 {"sl":"sem v službi","ru":"я на работе","cat":"where","level":3}
 {"sl":"sem na zabavi","ru":"я на вечеринке","cat":"where","level":3}
 {"sl":"sem v mestu","ru":"я в городе","cat":"where","level":3}
-{"sl":"prijetno","ru":"приятно","cat":"adj","level":2}
-{"sl":"redno","ru":"регулярно","cat":"adj","level":2}
-{"sl":"redko","ru":"редко","cat":"adj","level":2}
-{"sl":"običajno","ru":"обычно","cat":"adj","level":2}
+{"sl":"prijetno","ru":"приятно","cat":"adverb","level":2}
+{"sl":"redno","ru":"регулярно","cat":"adverb","level":2}
+{"sl":"redko","ru":"редко","cat":"adverb","level":2}
+{"sl":"običajno","ru":"обычно","cat":"adverb","level":2}
 {"sl":"žurka","ru":"вечеринка (разг.)","cat":"thing","level":2}
 {"sl":"žur","ru":"тусовка","cat":"thing","level":2}
 {"sl":"telovadba","ru":"гимнастика","cat":"thing","level":2}
@@ -1047,14 +1047,14 @@
 {"sl":"potni list","ru":"паспорт","cat":"info","level":3}
 {"sl":"upravna enota","ru":"административная единица","cat":"info","level":3}
 {"sl":"na koncu dneva","ru":"в конце дня","cat":"time","level":3}
-{"sl":"čez","ru":"через","cat":"adj","level":2}
+{"sl":"čez","ru":"через","cat":"phrase","level":2}
 {"sl":"na univerzi","ru":"в университете","cat":"where","level":3}
 {"sl":"otroški vrtec","ru":"детский сад","cat":"where","level":3}
 {"sl":"ležim na postelji","ru":"лежу на кровати","cat":"daily","level":3}
 {"sl":"serija","ru":"сериал","cat":"thing","level":2}
 {"sl":"sončna očala","ru":"солнечные очки","cat":"thing","level":3}
-{"sl":"po","ru":"после","cat":"adj","level":2}
-{"sl":"ponavadi","ru":"обычно","cat":"adj","level":2}
+{"sl":"po","ru":"после","cat":"phrase","level":2}
+{"sl":"ponavadi","ru":"обычно","cat":"adverb","level":2}
 {"sl":"nato","ru":"затем","cat":"time","level":2}
 {"sl":"tujec","ru":"иностранец","cat":"people","level":2}
 {"sl":"tuji jezik","ru":"иностранный язык","cat":"info","level":3}
@@ -1063,16 +1063,16 @@
 {"sl":"izobraževanje","ru":"образование","cat":"school","level":2}
 {"sl":"izobrazba","ru":"образование (уровень)","cat":"school","level":3}
 {"sl":"ob sobotah","ru":"по субботам","cat":"time","level":3}
-{"sl":"velikokrat","ru":"часто","cat":"adj","level":2}
+{"sl":"velikokrat","ru":"часто","cat":"adverb","level":2}
 {"sl":"koristen","ru":"полезный","cat":"adj","level":2}
 {"sl":"butast","ru":"глупый","cat":"adj","level":2}
 {"sl":"traparije","ru":"глупости","cat":"thing","level":3}
-{"sl":"očitno","ru":"очевидно","cat":"adj","level":2}
+{"sl":"očitno","ru":"очевидно","cat":"adverb","level":2}
 {"sl":"amaterski","ru":"любительский","cat":"adj","level":3}
-{"sl":"tudi","ru":"тоже","cat":"adj","level":1}
-{"sl":"precej","ru":"довольно","cat":"adj","level":2}
+{"sl":"tudi","ru":"тоже","cat":"phrase","level":1}
+{"sl":"precej","ru":"довольно","cat":"adverb","level":2}
 {"sl":"brez","ru":"без","cat":"phrase","level":2}
-{"sl":"lahko","ru":"можно","cat":"adj","level":2}
+{"sl":"lahko","ru":"можно","cat":"adverb","level":2}
 {"sl":"cenejši","ru":"дешевле","cat":"adj","level":2}
 {"sl":"družabni stiki","ru":"общение","cat":"thing","level":3}
 {"sl":"načrt","ru":"план","cat":"thing","level":2}
@@ -1138,7 +1138,7 @@
 {"sl":"skrb","ru":"забота","cat":"thing","level":2}
 {"sl":"pokoj","ru":"пенсия","cat":"thing","level":2}
 {"sl":"luškan","ru":"милый","cat":"adj","level":3}
-{"sl":"zanimivo","ru":"интересно","cat":"adj","level":2}
+{"sl":"zanimivo","ru":"интересно","cat":"adverb","level":2}
 {"sl":"prejšnji","ru":"прошлый","cat":"adj","level":2}
 {"sl":"prej","ru":"раньше","cat":"time","level":2}
 {"sl":"letos","ru":"в этом году","cat":"time","level":2}
@@ -1179,7 +1179,7 @@
 {"sl":"kar pomeni","ru":"что означает","cat":"phrase","level":3}
 {"sl":"letnik","ru":"класс","cat":"school","level":3}
 {"sl":"večkrat","ru":"несколько раз","cat":"time","level":2}
-{"sl":"oba","ru":"obe","cat":"adj","level":2}
+{"sl":"oba","ru":"obe","cat":"pron","level":1}
 {"sl":"iti spat","ru":"идти спать","cat":"adj","level":3}
 {"sl":"zobati zobe","ru":"чистить зубы","cat":"adj","level":3}
 {"sl":"umiti roke","ru":"мыть руки","cat":"adj","level":3}
@@ -1302,10 +1302,10 @@
 {"sl":"lačen sem","ru":"я голоден","cat":"adj","level":3}
 {"sl":"žejen sem","ru":"я хочу пить","cat":"adj","level":3}
 {"sl":"hočem jesti","ru":"хочу есть","cat":"adj","level":3}
-{"sl":"vroče","ru":"горячее","cat":"adj","level":2}
-{"sl":"sladko","ru":"сладкое","cat":"adj","level":2}
-{"sl":"kislo","ru":"кислое","cat":"adj","level":2}
-{"sl":"grenko","ru":"горькое","cat":"adj","level":2}
+{"sl":"vroče","ru":"горячее","cat":"adverb","level":2}
+{"sl":"sladko","ru":"сладкое","cat":"adverb","level":2}
+{"sl":"kislo","ru":"кислое","cat":"adverb","level":2}
+{"sl":"grenko","ru":"горькое","cat":"adverb","level":2}
 {"sl":"recept","ru":"рецепт","cat":"food","level":2}
 {"sl":"sestavina","ru":"ингредиент","cat":"food","level":2}
 {"sl":"porcija","ru":"порция","cat":"food","level":2}
@@ -1343,7 +1343,7 @@
 {"sl":"prehrambna varnost","ru":"продовольственная безопасность","cat":"adj","level":3}
 {"sl":"oprati oblačila","ru":"постирать одежду","cat":"adj","level":3}
 {"sl":"velikost","ru":"размер","cat":"info","level":2}
-{"sl":"barva","ru":"цвет","cat":"adj","level":2}
+{"sl":"barva","ru":"цвет","cat":"thing","level":2}
 {"sl":"modni trend","ru":"модный тренд","cat":"adj","level":3}
 {"sl":"garderoба","ru":"гардероб","cat":"adj","level":2}
 {"sl":"zimska jakna","ru":"зимняя куртка","cat":"adj","level":3}
@@ -1353,10 +1353,10 @@
 {"sl":"športna oblačila","ru":"спортивная одежда","cat":"adj","level":3}
 {"sl":"plavalne kopalke","ru":"купальный костюм","cat":"adj","level":3}
 {"sl":"dežni plašč","ru":"дождевик","cat":"adj","level":3}
-{"sl":"šal","ru":"шарф","cat":"adj","level":2}
-{"sl":"rokavice","ru":"перчатки","cat":"adj","level":2}
+{"sl":"šal","ru":"шарф","cat":"thing","level":2}
+{"sl":"rokavice","ru":"перчатки","cat":"thing","level":2}
 {"sl":"nogavice do kolen","ru":"гольфы","cat":"adj","level":3}
-{"sl":"pasovi","ru":"ремни","cat":"adj","level":2}
+{"sl":"pasovi","ru":"ремни","cat":"thing","level":2}
 {"sl":"obleka za posebne priložnosti","ru":"одежда для особых случаев","cat":"adj","level":3}
 {"sl":"tekstilna industrija","ru":"текстильная промышленность","cat":"adj","level":3}
 {"sl":"trajnostna moda","ru":"устойчивая мода","cat":"adj","level":3}
@@ -1482,19 +1482,19 @@
 {"sl":"avtomatizacija","ru":"автоматизация","cat":"info","level":2}
 {"sl":"digitalna transformacija","ru":"цифровая трансформация","cat":"adj","level":3}
 {"sl":"veliki podatki","ru":"большие данные","cat":"adj","level":3}
-{"sl":"na","ru":"на","cat":"adj","level":2}
-{"sl":"v","ru":"в","cat":"adj","level":2}
+{"sl":"na","ru":"на","cat":"phrase","level":2}
+{"sl":"v","ru":"в","cat":"phrase","level":2}
 {"sl":"iz","ru":"из","cat":"phrase","level":2}
 {"sl":"do","ru":"до","cat":"phrase","level":2}
-{"sl":"od","ru":"от","cat":"adj","level":2}
-{"sl":"pri","ru":"при, у","cat":"adj","level":2}
-{"sl":"za","ru":"за, для","cat":"adj","level":2}
-{"sl":"pred","ru":"перед","cat":"adj","level":2}
-{"sl":"med","ru":"между, во время","cat":"adj","level":2}
-{"sl":"ob","ru":"при, у","cat":"adj","level":2}
+{"sl":"od","ru":"от","cat":"phrase","level":2}
+{"sl":"pri","ru":"при, у","cat":"phrase","level":2}
+{"sl":"za","ru":"за, для","cat":"phrase","level":2}
+{"sl":"pred","ru":"перед","cat":"phrase","level":2}
+{"sl":"med","ru":"между, во время","cat":"phrase","level":2}
+{"sl":"ob","ru":"при, у","cat":"phrase","level":2}
 {"sl":"kot","ru":"как, в качестве","cat":"phrase","level":2}
 {"sl":"kljub","ru":"несмотря на","cat":"phrase","level":2}
-{"sl":"namesto","ru":"вместо","cat":"adj","level":2}
+{"sl":"namesto","ru":"вместо","cat":"phrase","level":2}
 {"sl":"glede na","ru":"относительно, в зависимости от","cat":"adj","level":3}
 {"sl":"v primerjavi z","ru":"по сравнению с","cat":"adj","level":3}
 {"sl":"z namenom","ru":"с целью","cat":"adj","level":3}
@@ -1517,7 +1517,7 @@
 {"sl":"ob upoštevanju","ru":"принимая во внимание","cat":"adj","level":3}
 {"sl":"ne da bi","ru":"не + герунд","cat":"adj","level":3}
 {"sl":"kakor koli","ru":"как бы то ни было","cat":"adj","level":3}
-{"sl":"četudi","ru":"даже если","cat":"adj","level":2}
+{"sl":"četudi","ru":"даже если","cat":"phrase","level":2}
 {"sl":"toliko bolj","ru":"тем более","cat":"adj","level":3}
 {"sl":"Kaj delaš?","ru":"Что ты делаешь?","cat":"phrase","level":3}
 {"sl":"Kje si?","ru":"Где ты?","cat":"phrase","level":3}
@@ -1572,26 +1572,26 @@
 {"sl":"čarovnica","ru":"волшебница","cat":"people","level":2}
 {"sl":"škornji","ru":"сапоги","cat":"thing","level":2}
 {"sl":"tamle","ru":"вон там","cat":"where","level":2}
-{"sl":"tole","ru":"вот это","cat":"adj","level":2}
+{"sl":"tole","ru":"вот это","cat":"pron","level":1}
 {"sl":"po nesreči","ru":"случайно","cat":"phrase","level":3}
 {"sl":"zadnji","ru":"последний","cat":"adj","level":2}
 {"sl":"krat","ru":"раз (счётное)","cat":"thing","level":2}
 {"sl":"zadnji krat","ru":"последний раз","cat":"phrase","level":3}
 {"sl":"ovčka","ru":"овечка","cat":"animal","level":3}
-{"sl":"šele","ru":"только, лишь","cat":"adj","level":2}
-{"sl":"prav","ru":"правильно / именно","cat":"adj","level":2}
+{"sl":"šele","ru":"только, лишь","cat":"phrase","level":2}
+{"sl":"prav","ru":"правильно / именно","cat":"phrase","level":2}
 {"sl":"imeti prav","ru":"быть правым","cat":"phrase","level":3}
 {"sl":"trdno spati","ru":"крепко спать","cat":"phrase","level":3}
 {"sl":"čudežni","ru":"волшебный","cat":"adj","level":2}
 {"sl":"pomočnica","ru":"помощница","cat":"job","level":2}
-{"sl":"skrivaj","ru":"тайно, украдкой","cat":"adj","level":2}
+{"sl":"skrivaj","ru":"тайно, украдкой","cat":"adverb","level":2}
 {"sl":"na skrivaj","ru":"украдкой, втайне","cat":"phrase","level":3}
 {"sl":"nikomur","ru":"никому","cat":"pron","level":1}
 {"sl":"čaroben","ru":"волшебный, чарующий","cat":"adj","level":3}
 {"sl":"beseda","ru":"слово","cat":"thing","level":2}
 {"sl":"zame","ru":"для меня, обо мне","cat":"pron","level":1}
 {"sl":"odgovoren","ru":"ответственный","cat":"adj","level":2}
-{"sl":"spet","ru":"снова, опять","cat":"adj","level":2}
+{"sl":"spet","ru":"снова, опять","cat":"phrase","level":2}
 {"sl":"enako","ru":"одинаково, так же","cat":"adverb","level":2}
 {"sl":"sendvič","ru":"бутерброд","cat":"food","level":2}
 {"sl":"palačinke","ru":"блины","cat":"food","level":2}
@@ -1641,14 +1641,14 @@
 {"sl":"trenirka","ru":"спортивный костюм","cat":"thing","level":2}
 {"sl":"kopalke","ru":"купальник","cat":"thing","level":2}
 {"sl":"superge","ru":"кроссовки / кеды","cat":"thing","level":2}
-{"sl":"nekaj","ru":"что-то / немного","cat":"adj","level":2}
+{"sl":"nekaj","ru":"что-то / немного","cat":"adverb","level":2}
 {"sl":"vaj","ru":"фу! / ой! (восклицание)","cat":"phrase","level":2}
 {"sl":"fantovščina","ru":"мальчишник","cat":"thing","level":3}
 {"sl":"dekliščina","ru":"девичник","cat":"thing","level":3}
 {"sl":"pečeno meso","ru":"жареное мясо","cat":"food","level":3}
 {"sl":"vampir","ru":"вампир","cat":"thing","level":3}
 {"sl":"podeželje","ru":"сельская местность","cat":"where","level":2}
-{"sl":"dolgočasno","ru":"скучно","cat":"adj","level":2}
+{"sl":"dolgočasno","ru":"скучно","cat":"adverb","level":2}
 {"sl":"svet","ru":"мир / свет","cat":"thing","level":2}
 {"sl":"ličilo","ru":"макияж / косметика","cat":"thing","level":2}
 {"sl":"kozmetika","ru":"косметика","cat":"thing","level":2}
@@ -1658,7 +1658,7 @@
 {"sl":"vzdušje","ru":"атмосфера / настроение","cat":"thing","level":2}
 {"sl":"verižica","ru":"цепочка (украшение)","cat":"thing","level":2}
 {"sl":"nenavaden","ru":"необычный","cat":"adj","level":2}
-{"sl":"načeloma","ru":"в принципе / как правило","cat":"adj","level":2}
+{"sl":"načeloma","ru":"в принципе / как правило","cat":"adverb","level":2}
 {"sl":"oblekica","ru":"платьице","cat":"thing","level":2}
 {"sl":"volk","ru":"волк","cat":"animal","level":3}
 {"sl":"metuljček","ru":"галстук-бабочка","cat":"thing","level":3}
@@ -1702,24 +1702,24 @@
 {"sl":"nadnaravne sposobnosti","ru":"сверхъестественные способности","cat":"phrase","level":3}
 {"sl":"treba","ru":"надо/нужно","cat":"adverb","level":2}
 {"sl":"tehnika","ru":"техника (выполнения)","cat":"thing","level":2}
-{"sl":"zato","ru":"поэтому","cat":"adj","level":2}
-{"sl":"torej","ru":"итак, значит","cat":"adj","level":2}
-{"sl":"sicer","ru":"иначе, а то","cat":"adj","level":2}
-{"sl":"saj","ru":"ведь, же","cat":"adj","level":2}
+{"sl":"zato","ru":"поэтому","cat":"phrase","level":2}
+{"sl":"torej","ru":"итак, значит","cat":"phrase","level":2}
+{"sl":"sicer","ru":"иначе, а то","cat":"phrase","level":2}
+{"sl":"saj","ru":"ведь, же","cat":"phrase","level":2}
 {"sl":"pač","ru":"ну, просто (частица)","cat":"adj","level":2}
-{"sl":"namreč","ru":"а именно, ведь","cat":"adj","level":2}
+{"sl":"namreč","ru":"а именно, ведь","cat":"phrase","level":2}
 {"sl":"mogoče","ru":"может быть","cat":"phrase","level":2}
-{"sl":"verjetno","ru":"наверное","cat":"adj","level":2}
-{"sl":"morda","ru":"возможно","cat":"adj","level":2}
+{"sl":"verjetno","ru":"наверное","cat":"adverb","level":2}
+{"sl":"morda","ru":"возможно","cat":"phrase","level":2}
 {"sl":"gotovo","ru":"точно, наверняка","cat":"adverb","level":2}
 {"sl":"ja","ru":"да (разг.)","cat":"greet","level":2}
 {"sl":"no","ru":"ну (междометие)","cat":"greet","level":2}
 {"sl":"aha","ru":"ага","cat":"greet","level":2}
 {"sl":"super","ru":"супер","cat":"greet","level":2}
 {"sl":"odlično","ru":"отлично","cat":"greet","level":2}
-{"sl":"žal","ru":"к сожалению","cat":"adj","level":2}
-{"sl":"res","ru":"правда, действительно","cat":"adj","level":2}
-{"sl":"bolje","ru":"лучше","cat":"adj","level":2}
+{"sl":"žal","ru":"к сожалению","cat":"phrase","level":2}
+{"sl":"res","ru":"правда, действительно","cat":"phrase","level":2}
+{"sl":"bolje","ru":"лучше","cat":"adverb","level":2}
 {"sl":"slabše","ru":"хуже","cat":"adj","level":2}
 {"sl":"grlo","ru":"горло","cat":"body","level":2}
 {"sl":"problem","ru":"проблема","cat":"thing","level":2}
@@ -1784,7 +1784,7 @@
 {"sl":"nadnaraven","ru":"сверхъестественный","cat":"adj","level":3}
 {"sl":"sposobnost","ru":"способность","cat":"thing","level":2}
 {"sl":"misel","ru":"мысль","cat":"thing","level":2}
-{"sl":"vseeno","ru":"всё равно","cat":"adj","level":2}
+{"sl":"vseeno","ru":"всё равно","cat":"phrase","level":2}
 {"sl":"šah","ru":"шахматы","cat":"thing","level":2}
 {"sl":"dvorišče","ru":"двор","cat":"where","level":2}
 {"sl":"na dvorišču","ru":"во дворе","cat":"where","level":3}
@@ -1801,11 +1801,11 @@
 {"sl":"začetek","ru":"начало","cat":"thing","level":2}
 {"sl":"na začetku","ru":"в начале","cat":"phrase","level":3}
 {"sl":"strah me je","ru":"мне страшно","cat":"phrase","level":3}
-{"sl":"nevarno","ru":"опасно","cat":"adj","level":2}
+{"sl":"nevarno","ru":"опасно","cat":"adverb","level":2}
 {"sl":"norec","ru":"дурак","cat":"people","level":2}
 {"sl":"del","ru":"часть","cat":"thing","level":2}
 {"sl":"delček","ru":"частица, кусочек","cat":"thing","level":2}
-{"sl":"rahlo","ru":"слегка, легко","cat":"adj","level":2}
+{"sl":"rahlo","ru":"слегка, легко","cat":"adverb","level":2}
 {"sl":"povprečen","ru":"средний","cat":"adj","level":3}
 {"sl":"ponekod","ru":"местами, кое-где","cat":"where","level":2}
 {"sl":"drugod","ru":"в других местах","cat":"where","level":2}
