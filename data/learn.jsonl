@@ -317,7 +317,7 @@
 {"sl":"zdravnik","ru":"врач","cat":"job","level":2}
 {"sl":"bolnišnica","ru":"больница","cat":"place","level":1}
 {"sl":"medicinska sestra","ru":"медсестра","cat":"adj","level":3}
-{"sl":"predsednik","ru":"президент","cat":"adj","level":2}
+{"sl":"predsednik","ru":"президент","cat":"job","level":2}
 {"sl":"bel","ru":"белый","cat":"color","level":2}
 {"sl":"črn","ru":"черный","cat":"color","level":2}
 {"sl":"rdeč","ru":"красный","cat":"color","level":2}
@@ -439,11 +439,11 @@
 {"sl":"meso","ru":"мясо","cat":"food","level":1}
 {"sl":"zelenjava","ru":"овощи","cat":"food","level":1}
 {"sl":"sadje","ru":"фрукты","cat":"food","level":1}
-{"sl":"olje","ru":"масло","cat":"adj","level":2}
+{"sl":"olje","ru":"масло","cat":"food","level":2}
 {"sl":"kruh","ru":"хлеб","cat":"food","level":1}
 {"sl":"sladkor","ru":"сахар","cat":"food","level":1}
-{"sl":"čokolada","ru":"шоколад","cat":"adj","level":2}
-{"sl":"sladkarije","ru":"конфета","cat":"adj","level":2}
+{"sl":"čokolada","ru":"шоколад","cat":"food","level":2}
+{"sl":"sladkarije","ru":"конфета","cat":"food","level":2}
 {"sl":"torta","ru":"торт","cat":"food","level":2}
 {"sl":"pijača","ru":"напиток","cat":"food","level":2}
 {"sl":"voda","ru":"вода","cat":"food","level":1}
@@ -522,14 +522,14 @@
 {"sl":"vas","ru":"деревня","cat":"place","level":1}
 {"sl":"zdravilo","ru":"лекарство","cat":"body","level":2}
 {"sl":"nesreča","ru":"авария","cat":"adj","level":2}
-{"sl":"pacient","ru":"пациент","cat":"adj","level":2}
-{"sl":"operacija","ru":"хирургия","cat":"adj","level":2}
-{"sl":"tableta","ru":"пилюля","cat":"adj","level":2}
-{"sl":"vročina","ru":"лихорадка","cat":"adj","level":2}
-{"sl":"prehlad","ru":"простуда","cat":"adj","level":2}
-{"sl":"rana","ru":"рана","cat":"adj","level":2}
+{"sl":"pacient","ru":"пациент","cat":"job","level":2}
+{"sl":"operacija","ru":"хирургия","cat":"body","level":2}
+{"sl":"tableta","ru":"пилюля","cat":"body","level":2}
+{"sl":"vročina","ru":"лихорадка","cat":"weather","level":2}
+{"sl":"prehlad","ru":"простуда","cat":"body","level":2}
+{"sl":"rana","ru":"рана","cat":"body","level":2}
 {"sl":"termin","ru":"прием","cat":"adj","level":2}
-{"sl":"kašelj","ru":"кашель","cat":"adj","level":2}
+{"sl":"kašelj","ru":"кашель","cat":"body","level":2}
 {"sl":"rit","ru":"ягодицы","cat":"body","level":2}
 {"sl":"noga","ru":"нога","cat":"body","level":1}
 {"sl":"hrbet","ru":"спина","cat":"body","level":2}
@@ -539,9 +539,9 @@
 {"sl":"želodec","ru":"желудок","cat":"body","level":2}
 {"sl":"pljuča","ru":"легкое","cat":"body","level":2}
 {"sl":"jetra","ru":"печень","cat":"body","level":2}
-{"sl":"živec","ru":"нерв","cat":"adj","level":2}
+{"sl":"živec","ru":"нерв","cat":"body","level":2}
 {"sl":"ledvica","ru":"почка","cat":"body","level":2}
-{"sl":"črevesje","ru":"кишечник","cat":"adj","level":2}
+{"sl":"črevesje","ru":"кишечник","cat":"body","level":2}
 {"sl":"oranžen","ru":"оранжевый","cat":"color","level":2}
 {"sl":"siv","ru":"серый","cat":"color","level":2}
 {"sl":"rjav","ru":"коричневый","cat":"color","level":2}
@@ -559,10 +559,10 @@
 {"sl":"globok","ru":"глубокий","cat":"adj","level":2}
 {"sl":"plitev","ru":"мелкий","cat":"adj","level":2}
 {"sl":"ogromen","ru":"огромный","cat":"adj","level":2}
-{"sl":"sever","ru":"север","cat":"adj","level":2}
-{"sl":"vzhod","ru":"восток","cat":"adj","level":2}
-{"sl":"jug","ru":"юг","cat":"adj","level":2}
-{"sl":"zahod","ru":"запад","cat":"adj","level":2}
+{"sl":"sever","ru":"север","cat":"place","level":2}
+{"sl":"vzhod","ru":"восток","cat":"place","level":2}
+{"sl":"jug","ru":"юг","cat":"place","level":2}
+{"sl":"zahod","ru":"запад","cat":"place","level":2}
 {"sl":"umazan","ru":"грязный","cat":"adj","level":2}
 {"sl":"čist","ru":"чистый","cat":"adj","level":2}
 {"sl":"poln","ru":"полный","cat":"adj","level":2}
@@ -591,11 +591,11 @@
 {"sl":"spalnica","ru":"спальня","cat":"home","level":2}
 {"sl":"vrt","ru":"сад","cat":"home","level":2}
 {"sl":"garaža","ru":"гараж","cat":"adj","level":2}
-{"sl":"zid","ru":"стена","cat":"adj","level":2}
+{"sl":"zid","ru":"стена","cat":"place","level":2}
 {"sl":"klet","ru":"подвал","cat":"adj","level":2}
 {"sl":"stranišče","ru":"туалет","cat":"thing","level":1}
 {"sl":"stopnice","ru":"лестница","cat":"adj","level":2}
-{"sl":"streha","ru":"крыша","cat":"adj","level":2}
+{"sl":"streha","ru":"крыша","cat":"place","level":2}
 {"sl":"okno","ru":"окно","cat":"school","level":1}
 {"sl":"nož","ru":"нож","cat":"adj","level":2}
 {"sl":"skodelica","ru":"чашка","cat":"adj","level":2}
@@ -619,68 +619,68 @@
 {"sl":"knjiga","ru":"книга","cat":"school","level":1}
 {"sl":"domača naloga","ru":"домашнее задание","cat":"school","level":3}
 {"sl":"izpit","ru":"экзамен","cat":"school","level":2}
-{"sl":"lekcija","ru":"урок","cat":"adj","level":2}
-{"sl":"znanost","ru":"наука","cat":"adj","level":2}
-{"sl":"zgodovina","ru":"история","cat":"adj","level":2}
+{"sl":"lekcija","ru":"урок","cat":"info","level":2}
+{"sl":"znanost","ru":"наука","cat":"info","level":2}
+{"sl":"zgodovina","ru":"история","cat":"info","level":2}
 {"sl":"umetnost","ru":"искусство","cat":"thing","level":2}
 {"sl":"angleščina","ru":"английский язык","cat":"adj","level":2}
 {"sl":"francoščina","ru":"французский язык","cat":"adj","level":2}
 {"sl":"pero","ru":"ручка","cat":"adj","level":2}
 {"sl":"svinčnik","ru":"карандаш","cat":"school","level":2}
 {"sl":"četrti","ru":"четвертый","cat":"number","level":2}
-{"sl":"rezultat","ru":"результат","cat":"adj","level":2}
+{"sl":"rezultat","ru":"результат","cat":"info","level":2}
 {"sl":"kvadrat","ru":"квадрат","cat":"adj","level":2}
 {"sl":"krog","ru":"круг","cat":"adj","level":2}
-{"sl":"površina","ru":"площадь","cat":"adj","level":2}
-{"sl":"raziskava","ru":"исследование","cat":"adj","level":2}
-{"sl":"stopnja","ru":"степень","cat":"adj","level":2}
-{"sl":"diplomant","ru":"бакалавр","cat":"adj","level":2}
-{"sl":"magisterij","ru":"магистр","cat":"adj","level":2}
-{"sl":"stres","ru":"стресс","cat":"adj","level":2}
+{"sl":"površina","ru":"площадь","cat":"info","level":2}
+{"sl":"raziskava","ru":"исследование","cat":"info","level":2}
+{"sl":"stopnja","ru":"степень","cat":"info","level":2}
+{"sl":"diplomant","ru":"бакалавр","cat":"job","level":2}
+{"sl":"magisterij","ru":"магистр","cat":"info","level":2}
+{"sl":"stres","ru":"стресс","cat":"info","level":2}
 {"sl":"zavarovanje","ru":"страхование","cat":"adj","level":2}
-{"sl":"osebje","ru":"персонал","cat":"adj","level":2}
-{"sl":"oddelek","ru":"отдел","cat":"adj","level":2}
-{"sl":"plača","ru":"зарплата","cat":"adj","level":2}
+{"sl":"osebje","ru":"персонал","cat":"info","level":2}
+{"sl":"oddelek","ru":"отдел","cat":"info","level":2}
+{"sl":"plača","ru":"зарплата","cat":"info","level":2}
 {"sl":"pismo","ru":"письмо","cat":"adj","level":2}
 {"sl":"kapitan","ru":"капитан","cat":"adj","level":2}
 {"sl":"detektiv","ru":"детектив","cat":"adj","level":2}
 {"sl":"učitelj","ru":"учитель","cat":"job","level":2}
-{"sl":"odvetnik","ru":"адвокат","cat":"adj","level":2}
-{"sl":"tajnica","ru":"секретарь","cat":"adj","level":2}
-{"sl":"pomočnik","ru":"помощник","cat":"adj","level":2}
-{"sl":"sodnik","ru":"судья","cat":"adj","level":2}
+{"sl":"odvetnik","ru":"адвокат","cat":"job","level":2}
+{"sl":"tajnica","ru":"секретарь","cat":"job","level":2}
+{"sl":"pomočnik","ru":"помощник","cat":"job","level":2}
+{"sl":"sodnik","ru":"судья","cat":"job","level":2}
 {"sl":"voznik taksija","ru":"водитель такси","cat":"adj","level":3}
 {"sl":"voznik avtobusa","ru":"водитель автобуса","cat":"adj","level":3}
 {"sl":"kriminalec","ru":"преступник","cat":"adj","level":2}
-{"sl":"model","ru":"модель","cat":"adj","level":2}
-{"sl":"umetnik","ru":"художник","cat":"adj","level":2}
+{"sl":"model","ru":"модель","cat":"info","level":2}
+{"sl":"umetnik","ru":"художник","cat":"job","level":2}
 {"sl":"telefonska številka","ru":"номер телефона","cat":"adj","level":3}
-{"sl":"signal","ru":"сигнал","cat":"adj","level":2}
-{"sl":"aplikacija","ru":"приложение","cat":"adj","level":2}
-{"sl":"klepet","ru":"чат","cat":"adj","level":2}
+{"sl":"signal","ru":"сигнал","cat":"info","level":2}
+{"sl":"aplikacija","ru":"приложение","cat":"info","level":2}
+{"sl":"klepet","ru":"чат","cat":"info","level":2}
 {"sl":"datoteka","ru":"файл","cat":"adj","level":2}
-{"sl":"url","ru":"URL","cat":"adj","level":2}
+{"sl":"url","ru":"URL","cat":"info","level":2}
 {"sl":"e-naslov","ru":"е-мейл","cat":"info","level":2}
 {"sl":"spletna stran","ru":"веб-сайт","cat":"info","level":3}
 {"sl":"e-pošta","ru":"электронная почта","cat":"adj","level":2}
 {"sl":"mobilni telefon","ru":"мобильный телефон","cat":"adj","level":3}
-{"sl":"zakon","ru":"закон","cat":"adj","level":2}
-{"sl":"zapor","ru":"тюрьма","cat":"adj","level":2}
-{"sl":"dokaz","ru":"доказательство","cat":"adj","level":2}
-{"sl":"globa","ru":"штраф","cat":"adj","level":2}
-{"sl":"priča","ru":"свидетель","cat":"adj","level":2}
-{"sl":"sodišče","ru":"суд","cat":"adj","level":2}
+{"sl":"zakon","ru":"закон","cat":"info","level":2}
+{"sl":"zapor","ru":"тюрьма","cat":"place","level":2}
+{"sl":"dokaz","ru":"доказательство","cat":"info","level":2}
+{"sl":"globa","ru":"штраф","cat":"info","level":2}
+{"sl":"priča","ru":"свидетель","cat":"job","level":2}
+{"sl":"sodišče","ru":"суд","cat":"place","level":2}
 {"sl":"podpis","ru":"подпись","cat":"info","level":2}
-{"sl":"izguba","ru":"потеря","cat":"adj","level":2}
-{"sl":"dobiček","ru":"прибыль","cat":"adj","level":2}
-{"sl":"stranka","ru":"клиент","cat":"adj","level":2}
-{"sl":"znesek","ru":"сумма","cat":"adj","level":2}
+{"sl":"izguba","ru":"потеря","cat":"info","level":2}
+{"sl":"dobiček","ru":"прибыль","cat":"info","level":2}
+{"sl":"stranka","ru":"клиент","cat":"job","level":2}
+{"sl":"znesek","ru":"сумма","cat":"info","level":2}
 {"sl":"kreditna kartica","ru":"кредитная карточка","cat":"adj","level":3}
-{"sl":"geslo","ru":"пароль","cat":"adj","level":2}
+{"sl":"geslo","ru":"пароль","cat":"info","level":2}
 {"sl":"bankomat","ru":"банкомат","cat":"place","level":2}
 {"sl":"elektrika","ru":"ток","cat":"adj","level":2}
 {"sl":"kamera","ru":"камера","cat":"thing","level":2}
-{"sl":"radio","ru":"радио","cat":"adj","level":2}
+{"sl":"radio","ru":"радио","cat":"info","level":2}
 {"sl":"darilo","ru":"подарок","cat":"thing","level":2}
 {"sl":"steklenica","ru":"бутылка","cat":"adj","level":2}
 {"sl":"vrečka","ru":"пакет","cat":"thing","level":2}
@@ -694,53 +694,53 @@
 {"sl":"krema","ru":"крем","cat":"thing","level":2}
 {"sl":"robček","ru":"бумажная салфетка","cat":"adj","level":2}
 {"sl":"šminka","ru":"губная помада","cat":"adj","level":2}
-{"sl":"novice","ru":"новости","cat":"adj","level":2}
-{"sl":"sedež","ru":"место","cat":"adj","level":2}
-{"sl":"platno","ru":"экран","cat":"adj","level":2}
+{"sl":"novice","ru":"новости","cat":"info","level":2}
+{"sl":"sedež","ru":"место","cat":"info","level":2}
+{"sl":"platno","ru":"экран","cat":"info","level":2}
 {"sl":"glasba","ru":"музыка","cat":"thing","level":2}
 {"sl":"oder","ru":"сцена","cat":"adj","level":2}
 {"sl":"občinstvo","ru":"зритель","cat":"adj","level":2}
 {"sl":"šala","ru":"шутка","cat":"adj","level":2}
-{"sl":"članek","ru":"статья","cat":"adj","level":2}
+{"sl":"članek","ru":"статья","cat":"info","level":2}
 {"sl":"časopis","ru":"газета","cat":"thing","level":2}
-{"sl":"oglaševanje","ru":"реклама","cat":"adj","level":2}
-{"sl":"narava","ru":"природа","cat":"adj","level":2}
-{"sl":"pepel","ru":"пепел","cat":"adj","level":2}
-{"sl":"ogenj","ru":"огонь","cat":"adj","level":2}
+{"sl":"oglaševanje","ru":"реклама","cat":"info","level":2}
+{"sl":"narava","ru":"природа","cat":"place","level":2}
+{"sl":"pepel","ru":"пепел","cat":"place","level":2}
+{"sl":"ogenj","ru":"огонь","cat":"place","level":2}
 {"sl":"diamant","ru":"алмаз","cat":"adj","level":2}
-{"sl":"luna","ru":"Луна","cat":"adj","level":2}
-{"sl":"Zemlja","ru":"Земля","cat":"adj","level":2}
+{"sl":"luna","ru":"Луна","cat":"place","level":2}
+{"sl":"Zemlja","ru":"Земля","cat":"place","level":2}
 {"sl":"sonce","ru":"солнце","cat":"adj","level":1}
-{"sl":"zvezda","ru":"звезда","cat":"adj","level":2}
-{"sl":"planet","ru":"планета","cat":"adj","level":2}
-{"sl":"vesolje","ru":"вселенная","cat":"adj","level":2}
-{"sl":"obala","ru":"побережье","cat":"adj","level":2}
+{"sl":"zvezda","ru":"звезда","cat":"place","level":2}
+{"sl":"planet","ru":"планета","cat":"place","level":2}
+{"sl":"vesolje","ru":"вселенная","cat":"place","level":2}
+{"sl":"obala","ru":"побережье","cat":"place","level":2}
 {"sl":"jezero","ru":"озеро","cat":"place","level":2}
 {"sl":"gozd","ru":"лес","cat":"place","level":2}
-{"sl":"puščava","ru":"пустыня","cat":"adj","level":2}
+{"sl":"puščava","ru":"пустыня","cat":"place","level":2}
 {"sl":"hrib","ru":"холм","cat":"place","level":2}
-{"sl":"skala","ru":"утес","cat":"adj","level":2}
+{"sl":"skala","ru":"утес","cat":"place","level":2}
 {"sl":"dolina","ru":"долина","cat":"place","level":2}
-{"sl":"otok","ru":"остров","cat":"adj","level":2}
+{"sl":"otok","ru":"остров","cat":"place","level":2}
 {"sl":"ocean","ru":"океан","cat":"place","level":2}
 {"sl":"vreme","ru":"погода","cat":"weather","level":2}
-{"sl":"led","ru":"лед","cat":"adj","level":2}
+{"sl":"led","ru":"лед","cat":"place","level":2}
 {"sl":"sneg","ru":"снег","cat":"adj","level":1}
-{"sl":"nevihta","ru":"буря","cat":"adj","level":2}
+{"sl":"nevihta","ru":"буря","cat":"weather","level":2}
 {"sl":"dež","ru":"дождь","cat":"weather","level":1}
-{"sl":"veter","ru":"ветер","cat":"adj","level":1}
-{"sl":"rastlina","ru":"растение","cat":"adj","level":2}
+{"sl":"veter","ru":"ветер","cat":"weather","level":1}
+{"sl":"rastlina","ru":"растение","cat":"place","level":2}
 {"sl":"drevo","ru":"дерево","cat":"adj","level":2}
-{"sl":"trava","ru":"трава","cat":"adj","level":2}
-{"sl":"vrtnica","ru":"роза","cat":"adj","level":2}
-{"sl":"roža","ru":"цветок","cat":"adj","level":2}
+{"sl":"trava","ru":"трава","cat":"place","level":2}
+{"sl":"vrtnica","ru":"роза","cat":"place","level":2}
+{"sl":"roža","ru":"цветок","cat":"place","level":2}
 {"sl":"kovina","ru":"металл","cat":"adj","level":2}
 {"sl":"zlato","ru":"золото","cat":"adj","level":2}
 {"sl":"srebro","ru":"серебро","cat":"adj","level":2}
 {"sl":"Srebro je cenejše od zlata","ru":"Серебро дешевле золота","cat":"phrase","level":3}
 {"sl":"Zlato je dražje od srebra","ru":"Золото дороже серебра","cat":"phrase","level":3}
 {"sl":"počitnice","ru":"каникулы","cat":"thing","level":2}
-{"sl":"plaža","ru":"пляж","cat":"adj","level":2}
+{"sl":"plaža","ru":"пляж","cat":"place","level":2}
 {"sl":"gost","ru":"гость","cat":"people","level":2}
 {"sl":"rojstni dan","ru":"день рождения","cat":"adj","level":3}
 {"sl":"božič","ru":"Рождество","cat":"adj","level":2}
@@ -752,7 +752,7 @@
 {"sl":"dedek","ru":"дедушка","cat":"family","level":2}
 {"sl":"smrt","ru":"смерть","cat":"info","level":2}
 {"sl":"grob","ru":"могила","cat":"adj","level":2}
-{"sl":"ločitev","ru":"развод","cat":"adj","level":2}
+{"sl":"ločitev","ru":"развод","cat":"info","level":2}
 {"sl":"nevesta","ru":"невеста","cat":"adj","level":2}
 {"sl":"ženin","ru":"жених","cat":"adj","level":2}
 {"sl":"tiger","ru":"тигр","cat":"animal","level":3}
@@ -1257,35 +1257,35 @@
 {"sl":"anksioznost","ru":"тревожность","cat":"feel","level":2}
 {"sl":"čustvena odpornost","ru":"эмоциональная устойчивость","cat":"adj","level":3}
 {"sl":"notranja motivacija","ru":"внутренняя мотивация","cat":"adj","level":3}
-{"sl":"sneži","ru":"идёт снег","cat":"adj","level":2}
+{"sl":"sneži","ru":"идёт снег","cat":"weather","level":2}
 {"sl":"sije sonce","ru":"светит солнце","cat":"adj","level":3}
 {"sl":"piha veter","ru":"дует ветер","cat":"adj","level":3}
-{"sl":"nebo","ru":"небо","cat":"adj","level":2}
-{"sl":"oblak","ru":"облако","cat":"adj","level":2}
-{"sl":"mavrica","ru":"радуга","cat":"adj","level":2}
-{"sl":"grom","ru":"гром","cat":"adj","level":2}
-{"sl":"strela","ru":"молния","cat":"adj","level":2}
-{"sl":"polje","ru":"поле","cat":"adj","level":2}
-{"sl":"potok","ru":"ручей","cat":"adj","level":2}
-{"sl":"pesek","ru":"песок","cat":"adj","level":2}
-{"sl":"suša","ru":"засуха","cat":"adj","level":2}
-{"sl":"poplava","ru":"наводнение","cat":"adj","level":2}
-{"sl":"tornádo","ru":"торнадо","cat":"adj","level":2}
+{"sl":"nebo","ru":"небо","cat":"place","level":2}
+{"sl":"oblak","ru":"облако","cat":"weather","level":2}
+{"sl":"mavrica","ru":"радуга","cat":"place","level":2}
+{"sl":"grom","ru":"гром","cat":"weather","level":2}
+{"sl":"strela","ru":"молния","cat":"weather","level":2}
+{"sl":"polje","ru":"поле","cat":"place","level":2}
+{"sl":"potok","ru":"ручей","cat":"place","level":2}
+{"sl":"pesek","ru":"песок","cat":"place","level":2}
+{"sl":"suša","ru":"засуха","cat":"weather","level":2}
+{"sl":"poplava","ru":"наводнение","cat":"weather","level":2}
+{"sl":"tornádo","ru":"торнадо","cat":"weather","level":2}
 {"sl":"cunami","ru":"цунами","cat":"adj","level":2}
-{"sl":"potres","ru":"землетрясение","cat":"adj","level":2}
+{"sl":"potres","ru":"землетрясение","cat":"weather","level":2}
 {"sl":"vulkan","ru":"вулкан","cat":"place","level":2}
-{"sl":"padavine","ru":"осадки","cat":"adj","level":2}
+{"sl":"padavine","ru":"осадки","cat":"weather","level":2}
 {"sl":"vlažnost","ru":"влажность","cat":"weather","level":2}
 {"sl":"temperatura zraka","ru":"температура воздуха","cat":"adj","level":3}
-{"sl":"mraz","ru":"мороз","cat":"adj","level":1}
+{"sl":"mraz","ru":"мороз","cat":"weather","level":1}
 {"sl":"leden","ru":"ледяной","cat":"adj","level":2}
-{"sl":"megla","ru":"туман","cat":"adj","level":2}
-{"sl":"rosa","ru":"роса","cat":"adj","level":2}
-{"sl":"toča","ru":"град","cat":"adj","level":2}
-{"sl":"snežinka","ru":"снежинка","cat":"adj","level":2}
+{"sl":"megla","ru":"туман","cat":"weather","level":2}
+{"sl":"rosa","ru":"роса","cat":"weather","level":2}
+{"sl":"toča","ru":"град","cat":"weather","level":2}
+{"sl":"snežinka","ru":"снежинка","cat":"weather","level":2}
 {"sl":"podnebne spremembe","ru":"изменение климата","cat":"adj","level":3}
 {"sl":"globalno segrevanje","ru":"глобальное потепление","cat":"adj","level":3}
-{"sl":"ekosistem","ru":"экосистема","cat":"adj","level":2}
+{"sl":"ekosistem","ru":"экосистема","cat":"info","level":2}
 {"sl":"biotska raznovrstnost","ru":"биоразнообразие","cat":"adj","level":3}
 {"sl":"obnovljivi viri energije","ru":"возобновляемые источники энергии","cat":"adj","level":3}
 {"sl":"onesnaževanje zraka","ru":"загрязнение воздуха","cat":"adj","level":3}
@@ -1306,43 +1306,43 @@
 {"sl":"sladko","ru":"сладкое","cat":"adj","level":2}
 {"sl":"kislo","ru":"кислое","cat":"adj","level":2}
 {"sl":"grenko","ru":"горькое","cat":"adj","level":2}
-{"sl":"recept","ru":"рецепт","cat":"adj","level":2}
-{"sl":"sestavina","ru":"ингредиент","cat":"adj","level":2}
-{"sl":"porcija","ru":"порция","cat":"adj","level":2}
+{"sl":"recept","ru":"рецепт","cat":"food","level":2}
+{"sl":"sestavina","ru":"ингредиент","cat":"food","level":2}
+{"sl":"porcija","ru":"порция","cat":"food","level":2}
 {"sl":"alergija na hrano","ru":"пищевая аллергия","cat":"adj","level":3}
-{"sl":"vegetarijanec","ru":"вегетарианец","cat":"adj","level":2}
+{"sl":"vegetarijanec","ru":"вегетарианец","cat":"job","level":2}
 {"sl":"vegan","ru":"веган","cat":"adj","level":2}
 {"sl":"brezglutenski","ru":"безглютеновый","cat":"adj","level":3}
 {"sl":"organska hrana","ru":"органическая еда","cat":"adj","level":3}
 {"sl":"hitra hrana","ru":"фастфуд","cat":"adj","level":3}
 {"sl":"domača kuhinja","ru":"домашняя кухня","cat":"adj","level":3}
 {"sl":"meni","ru":"меню","cat":"adj","level":2}
-{"sl":"napitnina","ru":"чаевые","cat":"adj","level":2}
-{"sl":"postrežba","ru":"обслуживание","cat":"adj","level":2}
+{"sl":"napitnina","ru":"чаевые","cat":"info","level":2}
+{"sl":"postrežba","ru":"обслуживание","cat":"info","level":2}
 {"sl":"kuhati na žaru","ru":"готовить на гриле","cat":"adj","level":3}
 {"sl":"peči v pečici","ru":"печь в духовке","cat":"adj","level":3}
 {"sl":"cvrti","ru":"жарить","cat":"adj","level":2}
 {"sl":"kuhati na pari","ru":"готовить на пару","cat":"adj","level":3}
-{"sl":"gastronomija","ru":"гастрономия","cat":"adj","level":2}
+{"sl":"gastronomija","ru":"гастрономия","cat":"info","level":2}
 {"sl":"kulinarska tradicija","ru":"кулинарная традиция","cat":"adj","level":3}
 {"sl":"fermentirana hrana","ru":"ферментированная еда","cat":"adj","level":3}
-{"sl":"začimbe","ru":"специи","cat":"adj","level":2}
-{"sl":"omaka","ru":"соус","cat":"adj","level":2}
-{"sl":"marinade","ru":"маринады","cat":"adj","level":2}
-{"sl":"konzerviranje","ru":"консервирование","cat":"adj","level":2}
+{"sl":"začimbe","ru":"специи","cat":"food","level":2}
+{"sl":"omaka","ru":"соус","cat":"food","level":2}
+{"sl":"marinade","ru":"маринады","cat":"food","level":2}
+{"sl":"konzerviranje","ru":"консервирование","cat":"info","level":2}
 {"sl":"prehrambna vrednost","ru":"пищевая ценность","cat":"adj","level":3}
-{"sl":"kalorije","ru":"калории","cat":"adj","level":2}
-{"sl":"beljakovine","ru":"белки","cat":"adj","level":2}
+{"sl":"kalorije","ru":"калории","cat":"food","level":2}
+{"sl":"beljakovine","ru":"белки","cat":"food","level":2}
 {"sl":"ogljikovi hidrati","ru":"углеводы","cat":"food","level":3}
-{"sl":"maščobe","ru":"жиры","cat":"adj","level":2}
-{"sl":"vitamini","ru":"витамины","cat":"adj","level":2}
-{"sl":"minerali","ru":"минералы","cat":"adj","level":2}
+{"sl":"maščobe","ru":"жиры","cat":"food","level":2}
+{"sl":"vitamini","ru":"витамины","cat":"food","level":2}
+{"sl":"minerali","ru":"минералы","cat":"food","level":2}
 {"sl":"molekularna gastronomija","ru":"молекулярная гастрономия","cat":"adj","level":3}
 {"sl":"kulinarična fuzija","ru":"кулинарный фьюжн","cat":"adj","level":3}
 {"sl":"trajnostna prehrana","ru":"устойчивое питание","cat":"adj","level":3}
 {"sl":"prehrambna varnost","ru":"продовольственная безопасность","cat":"adj","level":3}
 {"sl":"oprati oblačila","ru":"постирать одежду","cat":"adj","level":3}
-{"sl":"velikost","ru":"размер","cat":"adj","level":2}
+{"sl":"velikost","ru":"размер","cat":"info","level":2}
 {"sl":"barva","ru":"цвет","cat":"adj","level":2}
 {"sl":"modni trend","ru":"модный тренд","cat":"adj","level":3}
 {"sl":"garderoба","ru":"гардероб","cat":"adj","level":2}
@@ -1373,41 +1373,41 @@
 {"sl":"boli me trebuh","ru":"у меня болит живот","cat":"adj","level":3}
 {"sl":"boli me grlo","ru":"у меня болит горло","cat":"adj","level":3}
 {"sl":"kašljam","ru":"я кашляю","cat":"adj","level":2}
-{"sl":"mrzlica","ru":"озноб","cat":"adj","level":2}
+{"sl":"mrzlica","ru":"озноб","cat":"weather","level":2}
 {"sl":"slabo mi je","ru":"мне плохо","cat":"adj","level":3}
 {"sl":"poklicati zdravnika","ru":"вызвать врача","cat":"adj","level":3}
 {"sl":"vzeti zdravilo","ru":"принять лекарство","cat":"adj","level":3}
-{"sl":"alergija","ru":"аллергija","cat":"adj","level":2}
-{"sl":"astma","ru":"астма","cat":"adj","level":2}
+{"sl":"alergija","ru":"аллергija","cat":"body","level":2}
+{"sl":"astma","ru":"астма","cat":"body","level":2}
 {"sl":"sladkorna bolezen","ru":"сахарный диабет","cat":"adj","level":3}
 {"sl":"visok krvni tlak","ru":"высокое кровяное давление","cat":"adj","level":3}
 {"sl":"nizek krvni tlak","ru":"низкое давление","cat":"adj","level":3}
-{"sl":"zlom","ru":"перелом","cat":"adj","level":2}
-{"sl":"zvine","ru":"растяжение","cat":"adj","level":2}
-{"sl":"modrica","ru":"синяк","cat":"adj","level":2}
-{"sl":"antibiotik","ru":"антибиотик","cat":"adj","level":2}
+{"sl":"zlom","ru":"перелом","cat":"body","level":2}
+{"sl":"zvine","ru":"растяжение","cat":"body","level":2}
+{"sl":"modrica","ru":"синяк","cat":"body","level":2}
+{"sl":"antibiotik","ru":"антибиотик","cat":"body","level":2}
 {"sl":"protibolečinska sredstva","ru":"обезболивающее","cat":"adj","level":3}
 {"sl":"zavarovalnica","ru":"страховая компания","cat":"adj","level":2}
 {"sl":"nujna pomoč","ru":"скорая помощь","cat":"adj","level":3}
-{"sl":"reanimacija","ru":"реанимация","cat":"adj","level":2}
+{"sl":"reanimacija","ru":"реанимация","cat":"body","level":2}
 {"sl":"kronična bolezen","ru":"хроническое заболевание","cat":"adj","level":3}
 {"sl":"duševno zdravje","ru":"психическое здоровье","cat":"adj","level":3}
-{"sl":"terapija","ru":"терапия","cat":"adj","level":2}
-{"sl":"psihiater","ru":"психиатр","cat":"adj","level":2}
-{"sl":"nevrolog","ru":"невролог","cat":"adj","level":2}
-{"sl":"kardiolog","ru":"кардиолог","cat":"adj","level":2}
-{"sl":"onkolog","ru":"онколог","cat":"adj","level":2}
-{"sl":"ortoped","ru":"ортопед","cat":"adj","level":2}
+{"sl":"terapija","ru":"терапия","cat":"body","level":2}
+{"sl":"psihiater","ru":"психиатр","cat":"job","level":2}
+{"sl":"nevrolog","ru":"невролог","cat":"job","level":2}
+{"sl":"kardiolog","ru":"кардиолог","cat":"job","level":2}
+{"sl":"onkolog","ru":"онколог","cat":"job","level":2}
+{"sl":"ortoped","ru":"ортопед","cat":"job","level":2}
 {"sl":"imunski sistem","ru":"иммунная система","cat":"adj","level":3}
-{"sl":"diagnoza","ru":"диагноз","cat":"adj","level":2}
-{"sl":"simptomi","ru":"симптомы","cat":"adj","level":2}
-{"sl":"zdravljenje","ru":"лечение","cat":"adj","level":2}
-{"sl":"rehabilitacija","ru":"реабилитация","cat":"adj","level":2}
-{"sl":"preventiva","ru":"профилактика","cat":"adj","level":2}
-{"sl":"genomika","ru":"геномика","cat":"adj","level":2}
-{"sl":"proteomika","ru":"протеомика","cat":"adj","level":2}
+{"sl":"diagnoza","ru":"диагноз","cat":"body","level":2}
+{"sl":"simptomi","ru":"симптомы","cat":"body","level":2}
+{"sl":"zdravljenje","ru":"лечение","cat":"body","level":2}
+{"sl":"rehabilitacija","ru":"реабилитация","cat":"body","level":2}
+{"sl":"preventiva","ru":"профилактика","cat":"body","level":2}
+{"sl":"genomika","ru":"геномика","cat":"info","level":2}
+{"sl":"proteomika","ru":"протеомика","cat":"info","level":2}
 {"sl":"precizna medicina","ru":"прецизионная медицина","cat":"adj","level":3}
-{"sl":"imunoterapija","ru":"иммунотерапия","cat":"adj","level":2}
+{"sl":"imunoterapija","ru":"иммунотерапия","cat":"body","level":2}
 {"sl":"gensko zdravljenje","ru":"генная терапия","cat":"adj","level":3}
 {"sl":"klinična preskušanja","ru":"клинические испытания","cat":"adj","level":3}
 {"sl":"medicinska etika","ru":"медицинская этика","cat":"adj","level":3}
@@ -1416,9 +1416,9 @@
 {"sl":"sedeti v avtobusu","ru":"сидеть в автобусе","cat":"adj","level":3}
 {"sl":"kupiti karto","ru":"купить билет","cat":"adj","level":3}
 {"sl":"zamuditi vlak","ru":"опоздать на поезд","cat":"adj","level":3}
-{"sl":"promet","ru":"дорожное движение","cat":"adj","level":2}
-{"sl":"zastoj","ru":"пробка","cat":"adj","level":2}
-{"sl":"obvoz","ru":"объезд","cat":"adj","level":2}
+{"sl":"promet","ru":"дорожное движение","cat":"info","level":2}
+{"sl":"zastoj","ru":"пробка","cat":"info","level":2}
+{"sl":"obvoz","ru":"объезд","cat":"info","level":2}
 {"sl":"prehod za pešce","ru":"пешеходный переход","cat":"adj","level":3}
 {"sl":"kolesarska pot","ru":"велосипедная дорожка","cat":"adj","level":3}
 {"sl":"bencinska postaja","ru":"бензозаправка","cat":"adj","level":3}
@@ -1436,11 +1436,11 @@
 {"sl":"trajnostna mobilnost","ru":"устойчивая мобильность","cat":"adj","level":3}
 {"sl":"avtonomno vozilo","ru":"автономный транспорт","cat":"adj","level":3}
 {"sl":"delitev prevoza","ru":"каршеринг","cat":"adj","level":3}
-{"sl":"logistika","ru":"логистика","cat":"adj","level":2}
+{"sl":"logistika","ru":"логистика","cat":"info","level":2}
 {"sl":"tovorni promet","ru":"грузовые перевозки","cat":"adj","level":3}
 {"sl":"letalska industrija","ru":"авиационная промышленность","cat":"adj","level":3}
 {"sl":"pomorski promet","ru":"морские перевозки","cat":"adj","level":3}
-{"sl":"hiperloop","ru":"гиперлуп","cat":"adj","level":2}
+{"sl":"hiperloop","ru":"гиперлуп","cat":"info","level":2}
 {"sl":"dron dostava","ru":"доставка дронами","cat":"adj","level":3}
 {"sl":"pametna mesta","ru":"умные города","cat":"adj","level":3}
 {"sl":"upravljanje prometa","ru":"управление трафиком","cat":"adj","level":3}
@@ -1453,24 +1453,24 @@
 {"sl":"varnostna kopija","ru":"резервная копия","cat":"adj","level":3}
 {"sl":"oblačno shranjevanje","ru":"облачное хранилище","cat":"adj","level":3}
 {"sl":"socialna omrežja","ru":"социальные сети","cat":"adj","level":3}
-{"sl":"videoklici","ru":"видеозвонки","cat":"adj","level":2}
+{"sl":"videoklici","ru":"видеозвонки","cat":"info","level":2}
 {"sl":"spletno nakupovanje","ru":"онлайн-покупки","cat":"adj","level":3}
 {"sl":"spletno bančništvo","ru":"интернет-банкинг","cat":"adj","level":3}
 {"sl":"brezžično omrežje","ru":"беспроводная сеть","cat":"adj","level":3}
-{"sl":"bluetooth","ru":"Bluetooth","cat":"adj","level":2}
+{"sl":"bluetooth","ru":"Bluetooth","cat":"info","level":2}
 {"sl":"pametni telefon","ru":"смартфон","cat":"adj","level":3}
-{"sl":"tablica","ru":"планшет","cat":"adj","level":2}
-{"sl":"prenosnik","ru":"ноутбук","cat":"adj","level":2}
+{"sl":"tablica","ru":"планшет","cat":"info","level":2}
+{"sl":"prenosnik","ru":"ноутбук","cat":"info","level":2}
 {"sl":"umetna inteligenca","ru":"искусственный интеллект","cat":"adj","level":3}
 {"sl":"strojno učenje","ru":"машинное обучение","cat":"adj","level":3}
 {"sl":"kibernetska varnost","ru":"кибербезопасность","cat":"adj","level":3}
-{"sl":"programiranje","ru":"программирование","cat":"adj","level":2}
-{"sl":"algoritem","ru":"алгоритм","cat":"adj","level":2}
+{"sl":"programiranje","ru":"программирование","cat":"info","level":2}
+{"sl":"algoritem","ru":"алгоритм","cat":"info","level":2}
 {"sl":"podatkovna baza","ru":"база данных","cat":"adj","level":3}
 {"sl":"spletni strežnik","ru":"веб-сервер","cat":"adj","level":3}
-{"sl":"šifriranje","ru":"шифрование","cat":"adj","level":2}
+{"sl":"šifriranje","ru":"шифрование","cat":"info","level":2}
 {"sl":"kripto valuta","ru":"криптовалюта","cat":"adj","level":3}
-{"sl":"blockchain","ru":"блокчейн","cat":"adj","level":2}
+{"sl":"blockchain","ru":"блокчейн","cat":"info","level":2}
 {"sl":"internet stvari","ru":"интернет вещей","cat":"adj","level":3}
 {"sl":"virtualna resničnost","ru":"виртуальная реальность","cat":"adj","level":3}
 {"sl":"razširjena resničnost","ru":"дополненная реальность","cat":"adj","level":3}
@@ -1478,8 +1478,8 @@
 {"sl":"nevronska mreža","ru":"нейронная сеть","cat":"adj","level":3}
 {"sl":"naravna obdelava jezika","ru":"обработка естественного языка","cat":"adj","level":3}
 {"sl":"računalniški vid","ru":"компьютерное зрение","cat":"adj","level":3}
-{"sl":"robotika","ru":"робототехника","cat":"adj","level":2}
-{"sl":"avtomatizacija","ru":"автоматизация","cat":"adj","level":2}
+{"sl":"robotika","ru":"робототехника","cat":"info","level":2}
+{"sl":"avtomatizacija","ru":"автоматизация","cat":"info","level":2}
 {"sl":"digitalna transformacija","ru":"цифровая трансформация","cat":"adj","level":3}
 {"sl":"veliki podatki","ru":"большие данные","cat":"adj","level":3}
 {"sl":"na","ru":"на","cat":"adj","level":2}
@@ -1752,7 +1752,7 @@
 {"sl":"preproga","ru":"ковёр","cat":"home","level":2}
 {"sl":"injekcija","ru":"укол","cat":"body","level":2}
 {"sl":"obliž","ru":"пластырь","cat":"body","level":2}
-{"sl":"zrak","ru":"воздух","cat":"adj","level":2}
+{"sl":"zrak","ru":"воздух","cat":"place","level":2}
 {"sl":"kamen","ru":"камень","cat":"thing","level":2}
 {"sl":"pol","ru":"половина","cat":"number","level":2}
 {"sl":"odstotek","ru":"процент","cat":"number","level":2}
