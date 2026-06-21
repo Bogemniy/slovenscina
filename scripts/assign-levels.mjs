@@ -90,6 +90,12 @@ const RARE = new Set([
   "predlani","rok",
   // school (narrow school items)
   "flomaster","projektor","kreda","letnik","izobrazba",
+  // adj (narrow/literary/specific adjectives; basic emotions and qualities stay at level:2)
+  "ambivalenten","apatičen","melanholičen","nostalgičen","evforičen","stoičen",
+  "ekstravertiran","introvertiran","empatičen","impulziven","depresiven","velikodušen",
+  "nadnaraven","čaroben","piratski","brezglutenski","kvadraten","povprečen",
+  "amaterski","ambiciozen","azijski","bronast","gumijast","pikčast","črtast",
+  "karirast","trapast","luškan",
 ]);
 
 function processLearn() {

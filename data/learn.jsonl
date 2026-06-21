@@ -561,7 +561,7 @@
 {"sl":"strm","ru":"крутой","cat":"adj","level":2}
 {"sl":"ploščat","ru":"плоский","cat":"adj","level":2}
 {"sl":"okrogel","ru":"круглый","cat":"adj","level":2}
-{"sl":"kvadraten","ru":"квадратный","cat":"adj","level":2}
+{"sl":"kvadraten","ru":"квадратный","cat":"adj","level":3}
 {"sl":"globok","ru":"глубокий","cat":"adj","level":2}
 {"sl":"plitev","ru":"мелкий","cat":"adj","level":2}
 {"sl":"ogromen","ru":"огромный","cat":"adj","level":2}
@@ -580,9 +580,9 @@
 {"sl":"seksi","ru":"сексуальный","cat":"adj","level":2}
 {"sl":"len","ru":"ленивый","cat":"adj","level":2}
 {"sl":"pogumen","ru":"храбрый","cat":"adj","level":2}
-{"sl":"velikodušen","ru":"щедрый","cat":"adj","level":2}
+{"sl":"velikodušen","ru":"щедрый","cat":"adj","level":3}
 {"sl":"čeden","ru":"красивый","cat":"adj","level":2}
-{"sl":"trapast","ru":"дурацкий","cat":"adj","level":2}
+{"sl":"trapast","ru":"дурацкий","cat":"adj","level":3}
 {"sl":"kriv","ru":"виновный","cat":"adj","level":2}
 {"sl":"slep","ru":"слепой","cat":"adj","level":2}
 {"sl":"pijan","ru":"пьяный","cat":"adj","level":2}
@@ -1074,7 +1074,7 @@
 {"sl":"butast","ru":"глупый","cat":"adj","level":2}
 {"sl":"traparije","ru":"глупости","cat":"thing","level":3}
 {"sl":"očitno","ru":"очевидно","cat":"adj","level":2}
-{"sl":"amaterski","ru":"любительский","cat":"adj","level":2}
+{"sl":"amaterski","ru":"любительский","cat":"adj","level":3}
 {"sl":"tudi","ru":"тоже","cat":"adj","level":1}
 {"sl":"precej","ru":"довольно","cat":"adj","level":2}
 {"sl":"brez","ru":"без","cat":"phrase","level":2}
@@ -1143,7 +1143,7 @@
 {"sl":"punčka","ru":"куколка","cat":"thing","level":2}
 {"sl":"skrb","ru":"забота","cat":"thing","level":2}
 {"sl":"pokoj","ru":"пенсия","cat":"thing","level":2}
-{"sl":"luškan","ru":"милый","cat":"adj","level":2}
+{"sl":"luškan","ru":"милый","cat":"adj","level":3}
 {"sl":"zanimivo","ru":"интересно","cat":"adj","level":2}
 {"sl":"prejšnji","ru":"прошлый","cat":"adj","level":2}
 {"sl":"prej","ru":"раньше","cat":"time","level":2}
@@ -1240,13 +1240,13 @@
 {"sl":"nezadovoljen","ru":"недовольный","cat":"adj","level":2}
 {"sl":"razburjen","ru":"расстроенный","cat":"adj","level":2}
 {"sl":"živčen","ru":"нервный","cat":"adj","level":2}
-{"sl":"melanholičen","ru":"меланхоличный","cat":"adj","level":2}
-{"sl":"nostalgičen","ru":"ностальгический","cat":"adj","level":2}
-{"sl":"ambiciozen","ru":"амбициозный","cat":"adj","level":2}
-{"sl":"empatičen","ru":"эмпатичный","cat":"adj","level":2}
-{"sl":"introvertiran","ru":"интровертированный","cat":"adj","level":2}
-{"sl":"ekstravertiran","ru":"экстравертированный","cat":"adj","level":2}
-{"sl":"impulziven","ru":"импульсивный","cat":"adj","level":2}
+{"sl":"melanholičen","ru":"меланхоличный","cat":"adj","level":3}
+{"sl":"nostalgičen","ru":"ностальгический","cat":"adj","level":3}
+{"sl":"ambiciozen","ru":"амбициозный","cat":"adj","level":3}
+{"sl":"empatičen","ru":"эмпатичный","cat":"adj","level":3}
+{"sl":"introvertiran","ru":"интровертированный","cat":"adj","level":3}
+{"sl":"ekstravertiran","ru":"экстравертированный","cat":"adj","level":3}
+{"sl":"impulziven","ru":"импульсивный","cat":"adj","level":3}
 {"sl":"potrpežljiv","ru":"терпеливый","cat":"adj","level":2}
 {"sl":"samozavesten","ru":"уверенный в себе","cat":"adj","level":2}
 {"sl":"negotov","ru":"неуверенный","cat":"adj","level":2}
@@ -1255,11 +1255,11 @@
 {"sl":"čustveno inteligenten","ru":"эмоционально интеллигентный","cat":"adj","level":3}
 {"sl":"frustriran","ru":"фрустрированный","cat":"adj","level":2}
 {"sl":"motiviran","ru":"мотивированный","cat":"adj","level":2}
-{"sl":"ambivalenten","ru":"амбивалентный","cat":"adj","level":2}
-{"sl":"apatičen","ru":"апатичный","cat":"adj","level":2}
-{"sl":"depresiven","ru":"депрессивный","cat":"adj","level":2}
-{"sl":"evforičen","ru":"эйфоричный","cat":"adj","level":2}
-{"sl":"stoičen","ru":"стоичный","cat":"adj","level":2}
+{"sl":"ambivalenten","ru":"амбивалентный","cat":"adj","level":3}
+{"sl":"apatičen","ru":"апатичный","cat":"adj","level":3}
+{"sl":"depresiven","ru":"депрессивный","cat":"adj","level":3}
+{"sl":"evforičen","ru":"эйфоричный","cat":"adj","level":3}
+{"sl":"stoičen","ru":"стоичный","cat":"adj","level":3}
 {"sl":"anksioznost","ru":"тревожность","cat":"adj","level":2}
 {"sl":"čustvena odpornost","ru":"эмоциональная устойчивость","cat":"adj","level":3}
 {"sl":"notranja motivacija","ru":"внутренняя мотивация","cat":"adj","level":3}
@@ -1318,7 +1318,7 @@
 {"sl":"alergija na hrano","ru":"пищевая аллергия","cat":"adj","level":3}
 {"sl":"vegetarijanec","ru":"вегетарианец","cat":"adj","level":2}
 {"sl":"vegan","ru":"веган","cat":"adj","level":2}
-{"sl":"brezglutenski","ru":"безглютеновый","cat":"adj","level":2}
+{"sl":"brezglutenski","ru":"безглютеновый","cat":"adj","level":3}
 {"sl":"organska hrana","ru":"органическая еда","cat":"adj","level":3}
 {"sl":"hitra hrana","ru":"фастфуд","cat":"adj","level":3}
 {"sl":"domača kuhinja","ru":"домашняя кухня","cat":"adj","level":3}
@@ -1595,7 +1595,7 @@
 {"sl":"skrivaj","ru":"тайно, украдкой","cat":"adj","level":2}
 {"sl":"na skrivaj","ru":"украдкой, втайне","cat":"phrase","level":3}
 {"sl":"nikomur","ru":"никому","cat":"pron","level":1}
-{"sl":"čaroben","ru":"волшебный, чарующий","cat":"adj","level":2}
+{"sl":"čaroben","ru":"волшебный, чарующий","cat":"adj","level":3}
 {"sl":"beseda","ru":"слово","cat":"thing","level":2}
 {"sl":"zame","ru":"для меня, обо мне","cat":"pron","level":1}
 {"sl":"odgovoren","ru":"ответственный","cat":"adj","level":2}
@@ -1608,7 +1608,7 @@
 {"sl":"dobiti obisk","ru":"принять гостей","cat":"phrase","level":3}
 {"sl":"okusen","ru":"вкусный","cat":"adj","level":2}
 {"sl":"krilo","ru":"юбка","cat":"thing","level":2}
-{"sl":"gumijast","ru":"резиновый","cat":"adj","level":2}
+{"sl":"gumijast","ru":"резиновый","cat":"adj","level":3}
 {"sl":"copati","ru":"тапочки","cat":"thing","level":2}
 {"sl":"športni copati","ru":"кроссовки","cat":"thing","level":3}
 {"sl":"spodnje perilo","ru":"нижнее бельё","cat":"thing","level":3}
@@ -1632,7 +1632,7 @@
 {"sl":"oglas","ru":"объявление","cat":"thing","level":2}
 {"sl":"lignji","ru":"кальмары","cat":"food","level":3}
 {"sl":"ocvrt","ru":"жареный","cat":"adj","level":2}
-{"sl":"bronast","ru":"бронзовый","cat":"adj","level":2}
+{"sl":"bronast","ru":"бронзовый","cat":"adj","level":3}
 {"sl":"bleščeč","ru":"блестящий, сверкающий","cat":"adj","level":2}
 {"sl":"obvezen","ru":"обязательный","cat":"adj","level":2}
 {"sl":"obveznost","ru":"обязанность","cat":"thing","level":2}
@@ -1689,8 +1689,8 @@
 {"sl":"kavarna","ru":"кафе","cat":"place","level":2}
 {"sl":"ovratnik","ru":"воротник","cat":"thing","level":2}
 {"sl":"puli","ru":"пуловер/свитер","cat":"thing","level":2}
-{"sl":"črtast","ru":"полосатый","cat":"adj","level":2}
-{"sl":"karirast","ru":"клетчатый","cat":"adj","level":2}
+{"sl":"črtast","ru":"полосатый","cat":"adj","level":3}
+{"sl":"karirast","ru":"клетчатый","cat":"adj","level":3}
 {"sl":"urejen","ru":"аккуратный/опрятный","cat":"adj","level":2}
 {"sl":"ruta","ru":"платок","cat":"thing","level":2}
 {"sl":"snežiti","ru":"идти снегу","cat":"weather","level":2}
@@ -1778,7 +1778,7 @@
 {"sl":"žamet","ru":"бархат","cat":"thing","level":3}
 {"sl":"čipka","ru":"кружево","cat":"thing","level":3}
 {"sl":"poliester","ru":"полиэстер","cat":"thing","level":3}
-{"sl":"pikčast","ru":"в горошек","cat":"adj","level":2}
+{"sl":"pikčast","ru":"в горошек","cat":"adj","level":3}
 {"sl":"enobarvna","ru":"однотонный","cat":"adj","level":2}
 {"sl":"boljši","ru":"лучший","cat":"adj","level":2}
 {"sl":"deževno","ru":"дождливо","cat":"weather","level":2}
@@ -1789,7 +1789,7 @@
 {"sl":"aleja","ru":"аллея","cat":"where","level":2}
 {"sl":"dobrodelna organizacija","ru":"благотворительная организация","cat":"thing","level":3}
 {"sl":"bogataš","ru":"богач","cat":"people","level":2}
-{"sl":"nadnaraven","ru":"сверхъестественный","cat":"adj","level":2}
+{"sl":"nadnaraven","ru":"сверхъестественный","cat":"adj","level":3}
 {"sl":"sposobnost","ru":"способность","cat":"thing","level":2}
 {"sl":"misel","ru":"мысль","cat":"thing","level":2}
 {"sl":"vseeno","ru":"всё равно","cat":"adj","level":2}
@@ -1801,7 +1801,7 @@
 {"sl":"kunec","ru":"кролик","cat":"animal","level":3}
 {"sl":"ničesar","ru":"ничего","cat":"pron","level":1}
 {"sl":"dokument","ru":"документ","cat":"thing","level":2}
-{"sl":"azijski","ru":"азиатский","cat":"adj","level":2}
+{"sl":"azijski","ru":"азиатский","cat":"adj","level":3}
 {"sl":"sram me je","ru":"мне стыдно","cat":"phrase","level":3}
 {"sl":"vložek","ru":"вклад / вкладыш","cat":"thing","level":3}
 {"sl":"padalec","ru":"парашютист","cat":"people","level":2}
@@ -1814,7 +1814,7 @@
 {"sl":"del","ru":"часть","cat":"thing","level":2}
 {"sl":"delček","ru":"частица, кусочек","cat":"thing","level":2}
 {"sl":"rahlo","ru":"слегка, легко","cat":"adj","level":2}
-{"sl":"povprečen","ru":"средний","cat":"adj","level":2}
+{"sl":"povprečen","ru":"средний","cat":"adj","level":3}
 {"sl":"ponekod","ru":"местами, кое-где","cat":"where","level":2}
 {"sl":"drugod","ru":"в других местах","cat":"where","level":2}
 {"sl":"naliv","ru":"ливень","cat":"weather","level":2}
@@ -1823,7 +1823,7 @@
 {"sl":"sodra","ru":"крупа (мелкий град)","cat":"weather","level":2}
 {"sl":"kapljica","ru":"капля","cat":"weather","level":2}
 {"sl":"pirat","ru":"пират","cat":"thing","level":3}
-{"sl":"piratski","ru":"пиратский","cat":"adj","level":2}
+{"sl":"piratski","ru":"пиратский","cat":"adj","level":3}
 {"sl":"loterija","ru":"лотерея","cat":"thing","level":3}
 {"sl":"biologija","ru":"биология","cat":"school","level":2}
 {"sl":"vozniški izpit","ru":"водительские права","cat":"thing","level":3}
