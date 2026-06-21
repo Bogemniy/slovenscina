@@ -35,15 +35,50 @@ function processExercises() {
   console.log(`exercises.jsonl: ${out.length} lines updated`);
 }
 
+// === ЯДРО ВЫЖИВАНИЯ (level 1): самые частотные слова A1 ===
+// Список живёт в коде, поэтому переживает любой повторный запуск скрипта.
+// Дополнять сюда по мере аудита частотности.
+const CORE = new Set([
+  // еда/напитки
+  "voda","kava","čaj","kruh","mleko","sir","jajce","meso","riba","sadje","zelenjava",
+  "sol","sladkor","pivo","vino","juha","solata","jabolko",
+  // числа
+  "ena","dve","tri","štiri","pet","šest","sedem","osem","devet","deset",
+  // время/дни
+  "danes","jutri","včeraj","zdaj","ura","dan","teden","mesec","leto","jutro","večer","noč",
+  "ponedeljek","torek","sreda","četrtek","petek","sobota","nedelja",
+  // прилагательные
+  "dober","slab","velik","majhen","nov","star","lep","grd","vroč","mrzel","topel","hladen",
+  "drag","poceni","težak","lahek","hiter","počasen","dolg","kratek",
+  // семья/люди
+  "mama","oče","sin","hči","brat","sestra","mož","žena","otrok","prijatelj","človek",
+  "ženska","moški","fant","dekle",
+  // места/быт
+  "doma","hiša","stanovanje","soba","kuhinja","kopalnica","stranišče","trgovina","restavracija",
+  "hotel","bolnišnica","lekarna","banka","pošta","postaja","letališče","ulica","mesto","vas",
+  // вещи
+  "denar","telefon","avto","vlak","avtobus","vrata","okno","miza","stol","postelja","ključ",
+  "torba","obleka","čevlji","knjiga",
+  // тело
+  "glava","roka","noga","oko","uho","nos","usta","zob","trebuh","srce",
+  // вежливость / да-нет / частотные наречия
+  "da","ne","prosim","hvala","oprostite","dobro","slabo","veliko","malo","zelo",
+  "tukaj","tam","tudi","samo",
+  // погода
+  "sonce","dež","sneg","veter","toplo","mraz",
+]);
+
 function processLearn() {
   const path = join(root, "data/learn.jsonl");
   const lines = readFileSync(path, "utf8").trimEnd().split("\n");
   const out = lines.map((line) => {
     const obj = JSON.parse(line);
+    const sl = obj.sl.toLowerCase();
     let level;
-    if (obj.sl.includes(" ")) level = 3;
-    else if (obj.cat === "pron" || obj.cat === "question") level = 1;
-    else level = 2;
+    if (CORE.has(sl)) level = 1;                          // ядро выживания — приоритет
+    else if (obj.sl.includes(" ")) level = 3;             // фразы
+    else if (obj.cat === "pron" || obj.cat === "question") level = 1;  // местоимения/вопросы
+    else level = 2;                                        // всё остальное
     return JSON.stringify({ ...obj, level });
   });
   writeFileSync(path, out.join("\n") + "\n");

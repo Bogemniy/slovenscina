@@ -17,11 +17,11 @@
 {"sl":"taksist","ru":"таксист","cat":"profession","level":2}
 {"sl":"lektor","ru":"преподаватель иностранного языка","cat":"profession","level":2}
 {"sl":"las","ru":"волос","cat":"body","level":2}
-{"sl":"zob","ru":"зуб","cat":"body","level":2}
+{"sl":"zob","ru":"зуб","cat":"body","level":1}
 {"sl":"vrat","ru":"шея","cat":"body","level":2}
 {"sl":"rama","ru":"плечо","cat":"body","level":2}
 {"sl":"prsi","ru":"грудь","cat":"body","level":2}
-{"sl":"trebuh","ru":"живот","cat":"body","level":2}
+{"sl":"trebuh","ru":"живот","cat":"body","level":1}
 {"sl":"kri","ru":"кровь","cat":"body","level":2}
 {"sl":"kost","ru":"кость","cat":"body","level":2}
 {"sl":"koža","ru":"кожа","cat":"body","level":2}
@@ -30,7 +30,7 @@
 {"sl":"prst","ru":"палец","cat":"body","level":2}
 {"sl":"brada","ru":"подбородок","cat":"body","level":2}
 {"sl":"čelo","ru":"лоб","cat":"body","level":2}
-{"sl":"jabolko","ru":"яблоко","cat":"food","level":2}
+{"sl":"jabolko","ru":"яблоко","cat":"food","level":1}
 {"sl":"breskev","ru":"персик","cat":"food","level":2}
 {"sl":"pomaranča","ru":"апельсин","cat":"food","level":2}
 {"sl":"banana","ru":"банан","cat":"food","level":2}
@@ -41,7 +41,7 @@
 {"sl":"malica","ru":"перекус","cat":"food","level":2}
 {"sl":"krompir","ru":"картофель","cat":"food","level":2}
 {"sl":"narezek","ru":"мясная нарезка","cat":"food","level":2}
-{"sl":"banka","ru":"банк","cat":"place","level":2}
+{"sl":"banka","ru":"банк","cat":"place","level":1}
 {"sl":"knjižnica","ru":"библиотека","cat":"place","level":2}
 {"sl":"gledališče","ru":"театр","cat":"place","level":2}
 {"sl":"kino","ru":"кино","cat":"place","level":2}
@@ -53,8 +53,8 @@
 {"sl":"morje","ru":"море","cat":"place","level":2}
 {"sl":"tržnica","ru":"рынок","cat":"place","level":2}
 {"sl":"grad","ru":"замок","cat":"place","level":2}
-{"sl":"hotel","ru":"отель","cat":"place","level":2}
-{"sl":"lekarna","ru":"аптека","cat":"place","level":2}
+{"sl":"hotel","ru":"отель","cat":"place","level":1}
+{"sl":"lekarna","ru":"аптека","cat":"place","level":1}
 {"sl":"vrtec","ru":"детский сад","cat":"education","level":2}
 {"sl":"fakulteta","ru":"университет","cat":"education","level":2}
 {"sl":"matura","ru":"выпускной экзамен","cat":"education","level":2}
@@ -67,7 +67,7 @@
 {"sl":"predavalnica","ru":"аудитория","cat":"education","level":2}
 {"sl":"ladja","ru":"корабль","cat":"transport","level":2}
 {"sl":"kovček","ru":"чемодан","cat":"transport","level":2}
-{"sl":"torba","ru":"сумка","cat":"transport","level":2}
+{"sl":"torba","ru":"сумка","cat":"transport","level":1}
 {"sl":"carina","ru":"таможня","cat":"transport","level":2}
 {"sl":"potnik","ru":"пассажир","cat":"transport","level":2}
 {"sl":"nočitev","ru":"ночёвка","cat":"transport","level":2}
@@ -88,20 +88,20 @@
 {"sl":"flavta","ru":"флейта","cat":"instrument","level":2}
 {"sl":"trobenta","ru":"труба","cat":"instrument","level":2}
 {"sl":"bobni","ru":"барабаны","cat":"instrument","level":2}
-{"sl":"lep","ru":"красивый","cat":"adjective","level":2}
-{"sl":"grd","ru":"некрасивый","cat":"adjective","level":2}
-{"sl":"hiter","ru":"быстрый","cat":"adjective","level":2}
-{"sl":"počasen","ru":"медленный","cat":"adjective","level":2}
-{"sl":"lahek","ru":"лёгкий","cat":"adjective","level":2}
+{"sl":"lep","ru":"красивый","cat":"adjective","level":1}
+{"sl":"grd","ru":"некрасивый","cat":"adjective","level":1}
+{"sl":"hiter","ru":"быстрый","cat":"adjective","level":1}
+{"sl":"počasen","ru":"медленный","cat":"adjective","level":1}
+{"sl":"lahek","ru":"лёгкий","cat":"adjective","level":1}
 {"sl":"visok","ru":"высокий","cat":"adjective","level":2}
 {"sl":"nizek","ru":"низкий","cat":"adjective","level":2}
-{"sl":"dolg","ru":"длинный","cat":"adjective","level":2}
-{"sl":"kratek","ru":"короткий","cat":"adjective","level":2}
+{"sl":"dolg","ru":"длинный","cat":"adjective","level":1}
+{"sl":"kratek","ru":"короткий","cat":"adjective","level":1}
 {"sl":"širok","ru":"широкий","cat":"adjective","level":2}
 {"sl":"ozek","ru":"узкий","cat":"adjective","level":2}
-{"sl":"vroč","ru":"горячий","cat":"adjective","level":2}
-{"sl":"mrzel","ru":"холодный","cat":"adjective","level":2}
-{"sl":"topel","ru":"тёплый","cat":"adjective","level":2}
+{"sl":"vroč","ru":"горячий","cat":"adjective","level":1}
+{"sl":"mrzel","ru":"холодный","cat":"adjective","level":1}
+{"sl":"topel","ru":"тёплый","cat":"adjective","level":1}
 {"sl":"svež","ru":"свежий","cat":"adjective","level":2}
 {"sl":"debel","ru":"толстый","cat":"adjective","level":2}
 {"sl":"tanek","ru":"тонкий","cat":"adjective","level":2}
@@ -113,9 +113,9 @@
 {"sl":"zanimiv","ru":"интересный","cat":"adjective","level":2}
 {"sl":"zdrav","ru":"здоровый","cat":"adjective","level":2}
 {"sl":"mlad","ru":"молодой","cat":"adjective","level":2}
-{"sl":"nov","ru":"новый","cat":"adjective","level":2}
-{"sl":"dober","ru":"хороший","cat":"adjective","level":2}
-{"sl":"slab","ru":"плохой","cat":"adjective","level":2}
+{"sl":"nov","ru":"новый","cat":"adjective","level":1}
+{"sl":"dober","ru":"хороший","cat":"adjective","level":1}
+{"sl":"slab","ru":"плохой","cat":"adjective","level":1}
 {"sl":"okusno","ru":"вкусно","cat":"adverb","level":2}
 {"sl":"blizu","ru":"рядом","cat":"adverb","level":2}
 {"sl":"daleč","ru":"далеко","cat":"adverb","level":2}
@@ -129,16 +129,16 @@
 {"sl":"notri","ru":"внутри","cat":"adverb","level":2}
 {"sl":"spredaj","ru":"спереди","cat":"adverb","level":2}
 {"sl":"zadaj","ru":"сзади","cat":"adverb","level":2}
-{"sl":"ena","ru":"один","cat":"number","level":2}
+{"sl":"ena","ru":"один","cat":"number","level":1}
 {"sl":"dva","ru":"два","cat":"number","level":2}
-{"sl":"tri","ru":"три","cat":"number","level":2}
-{"sl":"štiri","ru":"четыре","cat":"number","level":2}
-{"sl":"pet","ru":"пять","cat":"number","level":2}
-{"sl":"šest","ru":"шесть","cat":"number","level":2}
-{"sl":"sedem","ru":"семь","cat":"number","level":2}
-{"sl":"osem","ru":"восемь","cat":"number","level":2}
-{"sl":"devet","ru":"девять","cat":"number","level":2}
-{"sl":"deset","ru":"десять","cat":"number","level":2}
+{"sl":"tri","ru":"три","cat":"number","level":1}
+{"sl":"štiri","ru":"четыре","cat":"number","level":1}
+{"sl":"pet","ru":"пять","cat":"number","level":1}
+{"sl":"šest","ru":"шесть","cat":"number","level":1}
+{"sl":"sedem","ru":"семь","cat":"number","level":1}
+{"sl":"osem","ru":"восемь","cat":"number","level":1}
+{"sl":"devet","ru":"девять","cat":"number","level":1}
+{"sl":"deset","ru":"десять","cat":"number","level":1}
 {"sl":"enajst","ru":"одиннадцать","cat":"number","level":2}
 {"sl":"dvanajst","ru":"двенадцать","cat":"number","level":2}
 {"sl":"dvajset","ru":"двадцать","cat":"number","level":2}
@@ -177,7 +177,7 @@
 {"sl":"pes","ru":"собака","cat":"noun","level":2}
 {"sl":"mačka","ru":"кошка","cat":"noun","level":2}
 {"sl":"papiga","ru":"попугай","cat":"noun","level":2}
-{"sl":"prijatelj","ru":"друг","cat":"noun","level":2}
+{"sl":"prijatelj","ru":"друг","cat":"noun","level":1}
 {"sl":"vdova","ru":"вдова","cat":"noun","level":2}
 {"sl":"vdovec","ru":"вдовец","cat":"noun","level":2}
 {"sl":"dober tek","ru":"приятного аппетита","cat":"phrase","level":3}
@@ -206,7 +206,7 @@
 {"sl":"resnično","ru":"на самом деле","cat":"adj","level":2}
 {"sl":"ampak","ru":"но","cat":"adj","level":2}
 {"sl":"ker","ru":"потому что","cat":"adj","level":2}
-{"sl":"ne","ru":"не","cat":"adj","level":2}
+{"sl":"ne","ru":"не","cat":"adj","level":1}
 {"sl":"to","ru":"это","cat":"adj","level":2}
 {"sl":"Rabim to","ru":"Мне нужно это","cat":"phrase","level":3}
 {"sl":"Koliko je to?","ru":"Сколько это стоит?","cat":"phrase","level":3}
@@ -230,17 +230,17 @@
 {"sl":"sedemnajst","ru":"17","cat":"number","level":2}
 {"sl":"osemnajst","ru":"18","cat":"number","level":2}
 {"sl":"devetnajst","ru":"19","cat":"number","level":2}
-{"sl":"star","ru":"старый","cat":"adj","level":2}
-{"sl":"malo","ru":"мало","cat":"adj","level":2}
-{"sl":"veliko","ru":"многие","cat":"adj","level":2}
+{"sl":"star","ru":"старый","cat":"adj","level":1}
+{"sl":"malo","ru":"мало","cat":"adj","level":1}
+{"sl":"veliko","ru":"многие","cat":"adj","level":1}
 {"sl":"koliko?","ru":"сколько?","cat":"phrase","level":2}
 {"sl":"napačen","ru":"неправильный","cat":"adj","level":2}
 {"sl":"pravilen","ru":"правильный","cat":"adj","level":2}
 {"sl":"srečen","ru":"счастливый","cat":"adj","level":2}
-{"sl":"majhen","ru":"маленький","cat":"adj","level":2}
-{"sl":"velik","ru":"большой","cat":"adj","level":2}
-{"sl":"tam","ru":"там","cat":"where","level":2}
-{"sl":"tukaj","ru":"здесь","cat":"where","level":2}
+{"sl":"majhen","ru":"маленький","cat":"adj","level":1}
+{"sl":"velik","ru":"большой","cat":"adj","level":1}
+{"sl":"tam","ru":"там","cat":"where","level":1}
+{"sl":"tukaj","ru":"здесь","cat":"where","level":1}
 {"sl":"pozdravljeni","ru":"здравствуйте","cat":"greet","level":2}
 {"sl":"se vidimo","ru":"увидимся позже","cat":"greet","level":3}
 {"sl":"v redu","ru":"в порядке","cat":"adj","level":3}
@@ -251,60 +251,60 @@
 {"sl":"živijo","ru":"привет","cat":"adj","level":2}
 {"sl":"adijo","ru":"пока","cat":"greet","level":2}
 {"sl":"nasvidenje","ru":"до свидания","cat":"greet","level":2}
-{"sl":"oprostite","ru":"извините","cat":"greet","level":2}
+{"sl":"oprostite","ru":"извините","cat":"greet","level":1}
 {"sl":"oprosti","ru":"извините","cat":"adj","level":2}
-{"sl":"hvala","ru":"спасибо","cat":"greet","level":2}
-{"sl":"prosim","ru":"пожалуйста","cat":"greet","level":2}
+{"sl":"hvala","ru":"спасибо","cat":"greet","level":1}
+{"sl":"prosim","ru":"пожалуйста","cat":"greet","level":1}
 {"sl":"hočem to","ru":"я хочу это","cat":"greet","level":3}
-{"sl":"zdaj","ru":"сейчас","cat":"time","level":2}
+{"sl":"zdaj","ru":"сейчас","cat":"time","level":1}
 {"sl":"popoldan","ru":"вторая половина дня","cat":"adj","level":2}
 {"sl":"dopoldan","ru":"первая половина дня","cat":"adj","level":2}
-{"sl":"noč","ru":"ночь","cat":"adj","level":2}
+{"sl":"noč","ru":"ночь","cat":"adj","level":1}
 {"sl":"zjutraj","ru":"утром","cat":"time","level":2}
-{"sl":"večer","ru":"вечер","cat":"adj","level":2}
+{"sl":"večer","ru":"вечер","cat":"adj","level":1}
 {"sl":"opoldne","ru":"полдень","cat":"adj","level":2}
 {"sl":"polnoč","ru":"полночь","cat":"adj","level":2}
-{"sl":"ura","ru":"урок / час","cat":"school","level":2}
+{"sl":"ura","ru":"урок / час","cat":"school","level":1}
 {"sl":"minuta","ru":"минута","cat":"adj","level":2}
 {"sl":"sekunda","ru":"секунда","cat":"adj","level":2}
-{"sl":"dan","ru":"день","cat":"adj","level":2}
-{"sl":"teden","ru":"неделя","cat":"time","level":2}
-{"sl":"mesec","ru":"месяц","cat":"adj","level":2}
-{"sl":"leto","ru":"год","cat":"season","level":2}
+{"sl":"dan","ru":"день","cat":"adj","level":1}
+{"sl":"teden","ru":"неделя","cat":"time","level":1}
+{"sl":"mesec","ru":"месяц","cat":"adj","level":1}
+{"sl":"leto","ru":"год","cat":"season","level":1}
 {"sl":"čas","ru":"время","cat":"adj","level":2}
 {"sl":"datum","ru":"дата","cat":"adj","level":2}
 {"sl":"predvčerajšnjim","ru":"позавчера","cat":"adj","level":2}
-{"sl":"včeraj","ru":"вчера","cat":"time","level":2}
-{"sl":"danes","ru":"сегодня","cat":"time","level":2}
-{"sl":"jutri","ru":"завтра","cat":"adj","level":2}
+{"sl":"včeraj","ru":"вчера","cat":"time","level":1}
+{"sl":"danes","ru":"сегодня","cat":"time","level":1}
+{"sl":"jutri","ru":"завтра","cat":"adj","level":1}
 {"sl":"pojutrišnjem","ru":"послезавтра","cat":"adj","level":2}
-{"sl":"ponedeljek","ru":"понедельник","cat":"time","level":2}
-{"sl":"torek","ru":"вторник","cat":"time","level":2}
-{"sl":"sreda","ru":"среда","cat":"time","level":2}
-{"sl":"četrtek","ru":"четверг","cat":"time","level":2}
-{"sl":"petek","ru":"пятница","cat":"time","level":2}
-{"sl":"sobota","ru":"суббота","cat":"time","level":2}
-{"sl":"nedelja","ru":"воскресенье","cat":"time","level":2}
+{"sl":"ponedeljek","ru":"понедельник","cat":"time","level":1}
+{"sl":"torek","ru":"вторник","cat":"time","level":1}
+{"sl":"sreda","ru":"среда","cat":"time","level":1}
+{"sl":"četrtek","ru":"четверг","cat":"time","level":1}
+{"sl":"petek","ru":"пятница","cat":"time","level":1}
+{"sl":"sobota","ru":"суббота","cat":"time","level":1}
+{"sl":"nedelja","ru":"воскресенье","cat":"time","level":1}
 {"sl":"Jutri je sobota","ru":"Завтра суббота","cat":"phrase","level":3}
 {"sl":"življenje","ru":"жизнь","cat":"thing","level":2}
-{"sl":"ženska","ru":"женщина","cat":"people","level":2}
-{"sl":"moški","ru":"мужчина","cat":"people","level":2}
+{"sl":"ženska","ru":"женщина","cat":"people","level":1}
+{"sl":"moški","ru":"мужчина","cat":"people","level":1}
 {"sl":"ljubezen","ru":"любовь","cat":"adj","level":2}
-{"sl":"fant","ru":"парень","cat":"people","level":2}
+{"sl":"fant","ru":"парень","cat":"people","level":1}
 {"sl":"punca","ru":"девушка (разг.)","cat":"people","level":2}
 {"sl":"poljub","ru":"поцелуй","cat":"adj","level":2}
 {"sl":"seks","ru":"секс","cat":"adj","level":2}
-{"sl":"otrok","ru":"ребёнок","cat":"people","level":2}
+{"sl":"otrok","ru":"ребёнок","cat":"people","level":1}
 {"sl":"dojenček","ru":"младенец","cat":"family","level":2}
-{"sl":"dekle","ru":"девушка","cat":"people","level":2}
-{"sl":"fant","ru":"парень","cat":"people","level":2}
+{"sl":"dekle","ru":"девушка","cat":"people","level":1}
+{"sl":"fant","ru":"парень","cat":"people","level":1}
 {"sl":"mami","ru":"мама (ласково)","cat":"family","level":2}
 {"sl":"oči","ru":"глаза","cat":"body","level":2}
 {"sl":"mati","ru":"мать","cat":"family","level":2}
-{"sl":"oče","ru":"отец","cat":"family","level":2}
+{"sl":"oče","ru":"отец","cat":"family","level":1}
 {"sl":"starši","ru":"родители","cat":"family","level":2}
-{"sl":"sin","ru":"сын","cat":"people","level":2}
-{"sl":"hči","ru":"дочь","cat":"adj","level":2}
+{"sl":"sin","ru":"сын","cat":"people","level":1}
+{"sl":"hči","ru":"дочь","cat":"adj","level":1}
 {"sl":"mlajša sestra","ru":"младшая сестра","cat":"adj","level":3}
 {"sl":"mlajši brat","ru":"младший брат","cat":"adj","level":3}
 {"sl":"starejša sestra","ru":"старшая сестра","cat":"adj","level":3}
@@ -313,11 +313,11 @@
 {"sl":"podjetje","ru":"предприятие","cat":"thing","level":2}
 {"sl":"posel","ru":"бизнес","cat":"adj","level":2}
 {"sl":"zaposlitev","ru":"работа","cat":"adj","level":2}
-{"sl":"denar","ru":"деньги","cat":"shop","level":2}
-{"sl":"telefon","ru":"телефон","cat":"thing","level":2}
+{"sl":"denar","ru":"деньги","cat":"shop","level":1}
+{"sl":"telefon","ru":"телефон","cat":"thing","level":1}
 {"sl":"pisarna","ru":"офис","cat":"thing","level":2}
 {"sl":"zdravnik","ru":"врач","cat":"job","level":2}
-{"sl":"bolnišnica","ru":"больница","cat":"adj","level":2}
+{"sl":"bolnišnica","ru":"больница","cat":"adj","level":1}
 {"sl":"medicinska sestra","ru":"медсестра","cat":"adj","level":3}
 {"sl":"predsednik","ru":"президент","cat":"adj","level":2}
 {"sl":"bel","ru":"белый","cat":"color","level":2}
@@ -352,7 +352,7 @@
 {"sl":"več","ru":"больше","cat":"adj","level":2}
 {"sl":"Hočem več","ru":"Я хочу еще","cat":"phrase","level":3}
 {"sl":"nobena","ru":"никто","cat":"adj","level":2}
-{"sl":"zelo","ru":"очень","cat":"adj","level":2}
+{"sl":"zelo","ru":"очень","cat":"adj","level":1}
 {"sl":"žival","ru":"животное","cat":"animal","level":2}
 {"sl":"prašič","ru":"свинья","cat":"animal","level":2}
 {"sl":"krava","ru":"корова","cat":"animal","level":2}
@@ -364,7 +364,7 @@
 {"sl":"raca","ru":"утка","cat":"animal","level":2}
 {"sl":"metulj","ru":"бабочка","cat":"animal","level":2}
 {"sl":"čebela","ru":"пчела","cat":"animal","level":2}
-{"sl":"riba","ru":"рыба","cat":"food","level":2}
+{"sl":"riba","ru":"рыба","cat":"food","level":1}
 {"sl":"pajek","ru":"паук","cat":"animal","level":2}
 {"sl":"kača","ru":"змея","cat":"animal","level":2}
 {"sl":"zunaj","ru":"снаружи","cat":"where","level":2}
@@ -385,28 +385,28 @@
 {"sl":"kul","ru":"крутой","cat":"adj","level":2}
 {"sl":"priden","ru":"прилежный","cat":"adj","level":2}
 {"sl":"hudoben","ru":"злой","cat":"adj","level":2}
-{"sl":"hladen","ru":"холодный","cat":"adj","level":2}
-{"sl":"glava","ru":"голова","cat":"body","level":2}
-{"sl":"nos","ru":"нос","cat":"body","level":2}
-{"sl":"usta","ru":"рот","cat":"body","level":2}
-{"sl":"uho","ru":"ухо","cat":"body","level":2}
-{"sl":"oko","ru":"глаз","cat":"adj","level":2}
-{"sl":"roka","ru":"рука","cat":"body","level":2}
+{"sl":"hladen","ru":"холодный","cat":"adj","level":1}
+{"sl":"glava","ru":"голова","cat":"body","level":1}
+{"sl":"nos","ru":"нос","cat":"body","level":1}
+{"sl":"usta","ru":"рот","cat":"body","level":1}
+{"sl":"uho","ru":"ухо","cat":"body","level":1}
+{"sl":"oko","ru":"глаз","cat":"adj","level":1}
+{"sl":"roka","ru":"рука","cat":"body","level":1}
 {"sl":"stopalo","ru":"стопа","cat":"adj","level":2}
-{"sl":"srce","ru":"сердце","cat":"thing","level":2}
+{"sl":"srce","ru":"сердце","cat":"thing","level":1}
 {"sl":"možgani","ru":"головной мозг","cat":"adj","level":2}
 {"sl":"vleči","ru":"потянуть","cat":"adj","level":2}
 {"sl":"vreči","ru":"бросать","cat":"adj","level":2}
 {"sl":"šola","ru":"школа","cat":"adj","level":2}
-{"sl":"hiša","ru":"дом","cat":"home","level":2}
-{"sl":"vrata","ru":"дверь","cat":"school","level":2}
-{"sl":"mož","ru":"муж","cat":"family","level":2}
-{"sl":"žena","ru":"жена","cat":"family","level":2}
+{"sl":"hiša","ru":"дом","cat":"home","level":1}
+{"sl":"vrata","ru":"дверь","cat":"school","level":1}
+{"sl":"mož","ru":"муж","cat":"family","level":1}
+{"sl":"žena","ru":"жена","cat":"family","level":1}
 {"sl":"poroka","ru":"свадьба","cat":"adj","level":2}
 {"sl":"oseba","ru":"человек","cat":"adj","level":2}
-{"sl":"avto","ru":"машина","cat":"transport","level":2}
+{"sl":"avto","ru":"машина","cat":"transport","level":1}
 {"sl":"dom","ru":"дом","cat":"adj","level":2}
-{"sl":"mesto","ru":"город","cat":"where","level":2}
+{"sl":"mesto","ru":"город","cat":"where","level":1}
 {"sl":"število","ru":"число","cat":"adj","level":2}
 {"sl":"štirideset","ru":"40","cat":"number","level":2}
 {"sl":"petdeset","ru":"50","cat":"number","level":2}
@@ -436,34 +436,34 @@
 {"sl":"zavij levo","ru":"поверни налево","cat":"adj","level":3}
 {"sl":"pojdi naravnost","ru":"езжай прямо","cat":"adj","level":3}
 {"sl":"pridi z mano","ru":"пойдем со мной","cat":"adj","level":3}
-{"sl":"jajce","ru":"яйцо","cat":"food","level":2}
-{"sl":"sir","ru":"сыр","cat":"food","level":2}
-{"sl":"mleko","ru":"молоко","cat":"food","level":2}
-{"sl":"riba","ru":"рыба","cat":"food","level":2}
-{"sl":"meso","ru":"мясо","cat":"food","level":2}
-{"sl":"zelenjava","ru":"овощи","cat":"food","level":2}
-{"sl":"sadje","ru":"фрукты","cat":"food","level":2}
+{"sl":"jajce","ru":"яйцо","cat":"food","level":1}
+{"sl":"sir","ru":"сыр","cat":"food","level":1}
+{"sl":"mleko","ru":"молоко","cat":"food","level":1}
+{"sl":"riba","ru":"рыба","cat":"food","level":1}
+{"sl":"meso","ru":"мясо","cat":"food","level":1}
+{"sl":"zelenjava","ru":"овощи","cat":"food","level":1}
+{"sl":"sadje","ru":"фрукты","cat":"food","level":1}
 {"sl":"olje","ru":"масло","cat":"adj","level":2}
-{"sl":"kruh","ru":"хлеб","cat":"food","level":2}
-{"sl":"sladkor","ru":"сахар","cat":"food","level":2}
+{"sl":"kruh","ru":"хлеб","cat":"food","level":1}
+{"sl":"sladkor","ru":"сахар","cat":"food","level":1}
 {"sl":"čokolada","ru":"шоколад","cat":"adj","level":2}
 {"sl":"sladkarije","ru":"конфета","cat":"adj","level":2}
 {"sl":"torta","ru":"торт","cat":"food","level":2}
 {"sl":"pijača","ru":"напиток","cat":"food","level":2}
-{"sl":"voda","ru":"вода","cat":"food","level":2}
+{"sl":"voda","ru":"вода","cat":"food","level":1}
 {"sl":"mineralna voda","ru":"сода","cat":"adj","level":3}
-{"sl":"kava","ru":"кофе","cat":"food","level":2}
-{"sl":"čaj","ru":"чай","cat":"food","level":2}
-{"sl":"pivo","ru":"пиво","cat":"food","level":2}
-{"sl":"vino","ru":"вино","cat":"food","level":2}
-{"sl":"solata","ru":"салат","cat":"food","level":2}
-{"sl":"juha","ru":"суп","cat":"food","level":2}
+{"sl":"kava","ru":"кофе","cat":"food","level":1}
+{"sl":"čaj","ru":"чай","cat":"food","level":1}
+{"sl":"pivo","ru":"пиво","cat":"food","level":1}
+{"sl":"vino","ru":"вино","cat":"food","level":1}
+{"sl":"solata","ru":"салат","cat":"food","level":1}
+{"sl":"juha","ru":"суп","cat":"food","level":1}
 {"sl":"zajtrk","ru":"завтрак","cat":"food","level":2}
 {"sl":"kosilo","ru":"обед","cat":"food","level":2}
 {"sl":"večerja","ru":"ужин","cat":"food","level":2}
 {"sl":"pica","ru":"пицца","cat":"food","level":2}
-{"sl":"avtobus","ru":"автобус","cat":"transport","level":2}
-{"sl":"vlak","ru":"поезд","cat":"transport","level":2}
+{"sl":"avtobus","ru":"автобус","cat":"transport","level":1}
+{"sl":"vlak","ru":"поезд","cat":"transport","level":1}
 {"sl":"železniška postaja","ru":"железнодорожная станция","cat":"adj","level":3}
 {"sl":"avtobusna postaja","ru":"автобусная остановка","cat":"adj","level":3}
 {"sl":"letalo","ru":"самолёт","cat":"transport","level":2}
@@ -480,9 +480,9 @@
 {"sl":"pulover","ru":"свитер","cat":"adj","level":2}
 {"sl":"srajca","ru":"рубашка","cat":"thing","level":2}
 {"sl":"jakna","ru":"куртка","cat":"adj","level":2}
-{"sl":"obleka","ru":"платье","cat":"adj","level":2}
+{"sl":"obleka","ru":"платье","cat":"adj","level":1}
 {"sl":"hlače","ru":"брюки","cat":"adj","level":2}
-{"sl":"obleka","ru":"платье","cat":"adj","level":2}
+{"sl":"obleka","ru":"платье","cat":"adj","level":1}
 {"sl":"majica","ru":"футболка","cat":"adj","level":2}
 {"sl":"nogavica","ru":"носок","cat":"adj","level":2}
 {"sl":"modrček","ru":"бюстгальтер","cat":"adj","level":2}
@@ -493,7 +493,7 @@
 {"sl":"denarnica","ru":"бумажник","cat":"adj","level":2}
 {"sl":"prstan","ru":"кольцо","cat":"adj","level":2}
 {"sl":"klobuk","ru":"шляпа","cat":"adj","level":2}
-{"sl":"ura","ru":"урок / час","cat":"school","level":2}
+{"sl":"ura","ru":"урок / час","cat":"school","level":1}
 {"sl":"žep","ru":"карман","cat":"adj","level":2}
 {"sl":"Kako ti je ime?","ru":"Как тебя зовут?","cat":"phrase","level":3}
 {"sl":"Moje ime je David","ru":"Меня зовут Дэвид","cat":"phrase","level":3}
@@ -511,11 +511,11 @@
 {"sl":"trg","ru":"рынок","cat":"adj","level":2}
 {"sl":"supermarket","ru":"супермаркет","cat":"adj","level":2}
 {"sl":"stavba","ru":"здание","cat":"adj","level":2}
-{"sl":"stanovanje","ru":"квартира","cat":"home","level":2}
+{"sl":"stanovanje","ru":"квартира","cat":"home","level":1}
 {"sl":"univerza","ru":"университет","cat":"adj","level":2}
 {"sl":"kmetija","ru":"ферма","cat":"adj","level":2}
 {"sl":"cerkev","ru":"церковь","cat":"adj","level":2}
-{"sl":"restavracija","ru":"ресторан","cat":"shop","level":2}
+{"sl":"restavracija","ru":"ресторан","cat":"shop","level":1}
 {"sl":"bar","ru":"бар","cat":"adj","level":2}
 {"sl":"fitnes center","ru":"тренажерный зал","cat":"adj","level":3}
 {"sl":"WC","ru":"туалет","cat":"adj","level":2}
@@ -525,7 +525,7 @@
 {"sl":"pištola","ru":"пистолет","cat":"adj","level":2}
 {"sl":"gasilci","ru":"пожарные","cat":"adj","level":2}
 {"sl":"predmestje","ru":"пригород","cat":"adj","level":2}
-{"sl":"vas","ru":"деревня","cat":"adj","level":2}
+{"sl":"vas","ru":"деревня","cat":"adj","level":1}
 {"sl":"zdravilo","ru":"лекарство","cat":"body","level":2}
 {"sl":"nesreča","ru":"авария","cat":"adj","level":2}
 {"sl":"pacient","ru":"пациент","cat":"adj","level":2}
@@ -537,7 +537,7 @@
 {"sl":"termin","ru":"прием","cat":"adj","level":2}
 {"sl":"kašelj","ru":"кашель","cat":"adj","level":2}
 {"sl":"rit","ru":"ягодицы","cat":"adj","level":2}
-{"sl":"noga","ru":"нога","cat":"body","level":2}
+{"sl":"noga","ru":"нога","cat":"body","level":1}
 {"sl":"hrbet","ru":"спина","cat":"body","level":2}
 {"sl":"jezik","ru":"язык","cat":"info","level":2}
 {"sl":"ustnica","ru":"губа","cat":"adj","level":2}
@@ -573,8 +573,8 @@
 {"sl":"čist","ru":"чистый","cat":"adj","level":2}
 {"sl":"poln","ru":"полный","cat":"adj","level":2}
 {"sl":"prazen","ru":"пустой","cat":"adj","level":2}
-{"sl":"drag","ru":"дорогой","cat":"adj","level":2}
-{"sl":"poceni","ru":"дёшево","cat":"adj","level":2}
+{"sl":"drag","ru":"дорогой","cat":"adj","level":1}
+{"sl":"poceni","ru":"дёшево","cat":"adj","level":1}
 {"sl":"temen","ru":"темный","cat":"adj","level":2}
 {"sl":"svetel","ru":"светлый","cat":"adj","level":2}
 {"sl":"seksi","ru":"сексуальный","cat":"adj","level":2}
@@ -591,18 +591,18 @@
 {"sl":"glasen","ru":"громкий","cat":"adj","level":2}
 {"sl":"miren","ru":"тихий","cat":"adj","level":2}
 {"sl":"tih","ru":"тихий","cat":"adj","level":2}
-{"sl":"kuhinja","ru":"кухня (помещение)","cat":"home","level":2}
-{"sl":"kopalnica","ru":"ванная комната","cat":"school","level":2}
+{"sl":"kuhinja","ru":"кухня (помещение)","cat":"home","level":1}
+{"sl":"kopalnica","ru":"ванная комната","cat":"school","level":1}
 {"sl":"dnevna soba","ru":"гостиная","cat":"home","level":3}
 {"sl":"spalnica","ru":"спальня","cat":"home","level":2}
 {"sl":"vrt","ru":"сад","cat":"home","level":2}
 {"sl":"garaža","ru":"гараж","cat":"adj","level":2}
 {"sl":"zid","ru":"стена","cat":"adj","level":2}
 {"sl":"klet","ru":"подвал","cat":"adj","level":2}
-{"sl":"stranišče","ru":"туалет","cat":"thing","level":2}
+{"sl":"stranišče","ru":"туалет","cat":"thing","level":1}
 {"sl":"stopnice","ru":"лестница","cat":"adj","level":2}
 {"sl":"streha","ru":"крыша","cat":"adj","level":2}
-{"sl":"okno","ru":"окно","cat":"school","level":2}
+{"sl":"okno","ru":"окно","cat":"school","level":1}
 {"sl":"nož","ru":"нож","cat":"adj","level":2}
 {"sl":"skodelica","ru":"чашка","cat":"adj","level":2}
 {"sl":"kozarec","ru":"стакан","cat":"adj","level":2}
@@ -610,19 +610,19 @@
 {"sl":"smetnjak","ru":"корзина для мусора","cat":"adj","level":2}
 {"sl":"skleda","ru":"миска","cat":"adj","level":2}
 {"sl":"TV sprejemnik","ru":"телевизор","cat":"phrase","level":3}
-{"sl":"postelja","ru":"кровать","cat":"thing","level":2}
+{"sl":"postelja","ru":"кровать","cat":"thing","level":1}
 {"sl":"ogledalo","ru":"зеркало","cat":"adj","level":2}
 {"sl":"tuš","ru":"душ","cat":"adj","level":2}
 {"sl":"kavč","ru":"диван","cat":"adj","level":2}
-{"sl":"miza","ru":"стол","cat":"school","level":2}
-{"sl":"stol","ru":"стул","cat":"school","level":2}
+{"sl":"miza","ru":"стол","cat":"school","level":1}
+{"sl":"stol","ru":"стул","cat":"school","level":1}
 {"sl":"bazen","ru":"бассейн","cat":"adj","level":2}
 {"sl":"zvonec","ru":"дверной звонок","cat":"adj","level":2}
 {"sl":"sosed","ru":"сосед","cat":"people","level":2}
 {"sl":"napasti","ru":"атаковать","cat":"adj","level":2}
 {"sl":"ukrasti","ru":"красть","cat":"adj","level":2}
 {"sl":"rasti","ru":"расти","cat":"adj","level":2}
-{"sl":"knjiga","ru":"книга","cat":"school","level":2}
+{"sl":"knjiga","ru":"книга","cat":"school","level":1}
 {"sl":"domača naloga","ru":"домашнее задание","cat":"school","level":3}
 {"sl":"izpit","ru":"экзамен","cat":"school","level":2}
 {"sl":"lekcija","ru":"урок","cat":"adj","level":2}
@@ -690,7 +690,7 @@
 {"sl":"darilo","ru":"подарок","cat":"adj","level":2}
 {"sl":"steklenica","ru":"бутылка","cat":"adj","level":2}
 {"sl":"vrečka","ru":"пакет","cat":"thing","level":2}
-{"sl":"ključ","ru":"ключ","cat":"home","level":2}
+{"sl":"ključ","ru":"ключ","cat":"home","level":1}
 {"sl":"lutka","ru":"кукла","cat":"thing","level":2}
 {"sl":"angel","ru":"ангел","cat":"adj","level":2}
 {"sl":"glavnik","ru":"расческа","cat":"adj","level":2}
@@ -716,7 +716,7 @@
 {"sl":"diamant","ru":"алмаз","cat":"adj","level":2}
 {"sl":"luna","ru":"Луна","cat":"adj","level":2}
 {"sl":"Zemlja","ru":"Земля","cat":"adj","level":2}
-{"sl":"sonce","ru":"солнце","cat":"adj","level":2}
+{"sl":"sonce","ru":"солнце","cat":"adj","level":1}
 {"sl":"zvezda","ru":"звезда","cat":"adj","level":2}
 {"sl":"planet","ru":"планета","cat":"adj","level":2}
 {"sl":"vesolje","ru":"вселенная","cat":"adj","level":2}
@@ -731,10 +731,10 @@
 {"sl":"ocean","ru":"океан","cat":"adj","level":2}
 {"sl":"vreme","ru":"погода","cat":"weather","level":2}
 {"sl":"led","ru":"лед","cat":"adj","level":2}
-{"sl":"sneg","ru":"снег","cat":"adj","level":2}
+{"sl":"sneg","ru":"снег","cat":"adj","level":1}
 {"sl":"nevihta","ru":"буря","cat":"adj","level":2}
-{"sl":"dež","ru":"дождь","cat":"weather","level":2}
-{"sl":"veter","ru":"ветер","cat":"adj","level":2}
+{"sl":"dež","ru":"дождь","cat":"weather","level":1}
+{"sl":"veter","ru":"ветер","cat":"adj","level":1}
 {"sl":"rastlina","ru":"растение","cat":"adj","level":2}
 {"sl":"drevo","ru":"дерево","cat":"adj","level":2}
 {"sl":"trava","ru":"трава","cat":"adj","level":2}
@@ -879,7 +879,7 @@
 {"sl":"lep večer","ru":"хорошего вечера","cat":"greet","level":3}
 {"sl":"lepo se imejte","ru":"всего хорошего","cat":"greet","level":3}
 {"sl":"zelo dobro","ru":"очень хорошо","cat":"adj","level":3}
-{"sl":"slabo","ru":"плохо","cat":"adj","level":2}
+{"sl":"slabo","ru":"плохо","cat":"adj","level":1}
 {"sl":"zelo slabo","ru":"очень плохо","cat":"adj","level":3}
 {"sl":"še kar","ru":"нормально","cat":"adj","level":3}
 {"sl":"tako tako","ru":"ни так ни сяк","cat":"adj","level":3}
@@ -923,15 +923,15 @@
 {"sl":"priimek","ru":"фамилия","cat":"info","level":2}
 {"sl":"poklic","ru":"профессия","cat":"info","level":2}
 {"sl":"naslov","ru":"адрес","cat":"info","level":2}
-{"sl":"ulica","ru":"улица","cat":"info","level":2}
+{"sl":"ulica","ru":"улица","cat":"info","level":1}
 {"sl":"kraj","ru":"место","cat":"info","level":2}
 {"sl":"država","ru":"государство","cat":"info","level":2}
 {"sl":"dežela","ru":"земля","cat":"info","level":2}
-{"sl":"pošta","ru":"почта","cat":"info","level":2}
+{"sl":"pošta","ru":"почта","cat":"info","level":1}
 {"sl":"datum rojstva","ru":"дата рождения","cat":"info","level":3}
 {"sl":"oblačno","ru":"облачно","cat":"weather","level":2}
 {"sl":"sončno","ru":"солнечно","cat":"weather","level":2}
-{"sl":"toplo","ru":"тепло","cat":"weather","level":2}
+{"sl":"toplo","ru":"тепло","cat":"weather","level":1}
 {"sl":"hladno","ru":"холодно","cat":"weather","level":2}
 {"sl":"stopinja","ru":"градус","cat":"weather","level":2}
 {"sl":"toplota","ru":"теплота","cat":"weather","level":2}
@@ -959,7 +959,7 @@
 {"sl":"italijanska hrana","ru":"итальянская кухня","cat":"food","level":3}
 {"sl":"sem","ru":"сюда","cat":"where","level":2}
 {"sl":"domov","ru":"домой","cat":"where","level":2}
-{"sl":"doma","ru":"дома","cat":"where","level":2}
+{"sl":"doma","ru":"дома","cat":"where","level":1}
 {"sl":"od doma","ru":"из дома","cat":"where","level":3}
 {"sl":"ven","ru":"наружу","cat":"where","level":2}
 {"sl":"sprehod","ru":"прогулка","cat":"where","level":2}
@@ -1075,7 +1075,7 @@
 {"sl":"traparije","ru":"глупости","cat":"thing","level":2}
 {"sl":"očitno","ru":"очевидно","cat":"adj","level":2}
 {"sl":"amaterski","ru":"любительский","cat":"adj","level":2}
-{"sl":"tudi","ru":"тоже","cat":"adj","level":2}
+{"sl":"tudi","ru":"тоже","cat":"adj","level":1}
 {"sl":"precej","ru":"довольно","cat":"adj","level":2}
 {"sl":"brez","ru":"без","cat":"adj","level":2}
 {"sl":"lahko","ru":"можно","cat":"adj","level":2}
@@ -1088,7 +1088,7 @@
 {"sl":"stolpnica","ru":"столбчатая диаграмма","cat":"thing","level":2}
 {"sl":"sok","ru":"сок","cat":"food","level":2}
 {"sl":"riž","ru":"рис","cat":"food","level":2}
-{"sl":"sol","ru":"соль","cat":"food","level":2}
+{"sl":"sol","ru":"соль","cat":"food","level":1}
 {"sl":"maslo","ru":"масло","cat":"food","level":2}
 {"sl":"sladoled","ru":"мороженое","cat":"food","level":2}
 {"sl":"bela","ru":"белый","cat":"color","level":2}
@@ -1100,18 +1100,18 @@
 {"sl":"rjava","ru":"коричневый","cat":"color","level":2}
 {"sl":"siva","ru":"серый","cat":"color","level":2}
 {"sl":"oranžna","ru":"оранжевый","cat":"color","level":2}
-{"sl":"mama","ru":"мама","cat":"family","level":2}
+{"sl":"mama","ru":"мама","cat":"family","level":1}
 {"sl":"ata","ru":"папа (разг.)","cat":"family","level":2}
-{"sl":"brat","ru":"брат","cat":"family","level":2}
-{"sl":"sestra","ru":"сестра","cat":"family","level":2}
+{"sl":"brat","ru":"брат","cat":"family","level":1}
+{"sl":"sestra","ru":"сестра","cat":"family","level":1}
 {"sl":"družina","ru":"семья","cat":"family","level":2}
-{"sl":"postaja","ru":"остановка","cat":"transport","level":2}
+{"sl":"postaja","ru":"остановка","cat":"transport","level":1}
 {"sl":"vozovnica","ru":"билет (проездной)","cat":"transport","level":2}
-{"sl":"letališče","ru":"аэропорт","cat":"transport","level":2}
+{"sl":"letališče","ru":"аэропорт","cat":"transport","level":1}
 {"sl":"bolečina","ru":"боль","cat":"body","level":2}
-{"sl":"soba","ru":"комната","cat":"home","level":2}
+{"sl":"soba","ru":"комната","cat":"home","level":1}
 {"sl":"nadstropje","ru":"этаж","cat":"home","level":2}
-{"sl":"trgovina","ru":"магазин","cat":"shop","level":2}
+{"sl":"trgovina","ru":"магазин","cat":"shop","level":1}
 {"sl":"cena","ru":"цена","cat":"shop","level":2}
 {"sl":"drago","ru":"дорого","cat":"shop","level":2}
 {"sl":"jedilni list","ru":"меню","cat":"shop","level":3}
@@ -1283,7 +1283,7 @@
 {"sl":"padavine","ru":"осадки","cat":"adj","level":2}
 {"sl":"vlažnost","ru":"влажность","cat":"adj","level":2}
 {"sl":"temperatura zraka","ru":"температура воздуха","cat":"adj","level":3}
-{"sl":"mraz","ru":"мороз","cat":"adj","level":2}
+{"sl":"mraz","ru":"мороз","cat":"adj","level":1}
 {"sl":"leden","ru":"ледяной","cat":"adj","level":2}
 {"sl":"megla","ru":"туман","cat":"adj","level":2}
 {"sl":"rosa","ru":"роса","cat":"adj","level":2}
@@ -1827,12 +1827,12 @@
 {"sl":"loterija","ru":"лотерея","cat":"thing","level":2}
 {"sl":"biologija","ru":"биология","cat":"school","level":2}
 {"sl":"vozniški izpit","ru":"водительские права","cat":"thing","level":3}
-{"sl":"da","ru":"что; чтобы","cat":"phrase","level":2}
+{"sl":"da","ru":"что; чтобы","cat":"phrase","level":1}
 {"sl":"toda","ru":"но; однако","cat":"phrase","level":2}
 {"sl":"vendar","ru":"однако; всё же","cat":"phrase","level":2}
 {"sl":"ter","ru":"и; а также","cat":"phrase","level":2}
 {"sl":"kakor","ru":"как; словно","cat":"phrase","level":2}
-{"sl":"samo","ru":"только; лишь","cat":"phrase","level":2}
+{"sl":"samo","ru":"только; лишь","cat":"phrase","level":1}
 {"sl":"le","ru":"только; лишь","cat":"phrase","level":2}
 {"sl":"niti","ru":"даже не; ни","cat":"phrase","level":2}
 {"sl":"vsaj","ru":"хотя бы; по крайней мере","cat":"phrase","level":2}
