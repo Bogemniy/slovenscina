@@ -814,11 +814,11 @@
 {"sl":"Brazilija","ru":"Бразилия","cat":"place","level":2}
 {"sl":"Argentina","ru":"Аргентина","cat":"place","level":2}
 {"sl":"Južna Afrika","ru":"Южная Африка","cat":"place","level":3}
-{"sl":"Nigerija","ru":"Нигерия","cat":"place","level":2}
-{"sl":"Maroko","ru":"Марокко","cat":"place","level":2}
-{"sl":"Libija","ru":"Ливия","cat":"place","level":2}
-{"sl":"Kenija","ru":"Кения","cat":"place","level":2}
-{"sl":"Alžirija","ru":"Алжир","cat":"place","level":2}
+{"sl":"Nigerija","ru":"Нигерия","cat":"place","level":3}
+{"sl":"Maroko","ru":"Марокко","cat":"place","level":3}
+{"sl":"Libija","ru":"Ливия","cat":"place","level":3}
+{"sl":"Kenija","ru":"Кения","cat":"place","level":3}
+{"sl":"Alžirija","ru":"Алжир","cat":"place","level":3}
 {"sl":"Egipt","ru":"Египет","cat":"place","level":2}
 {"sl":"Nova Zelandija","ru":"Новая Зеландия","cat":"place","level":3}
 {"sl":"Avstralija","ru":"Австралия","cat":"place","level":2}
@@ -835,28 +835,28 @@
 {"sl":"prejšnji mesec","ru":"в прошлом месяце","cat":"time","level":3}
 {"sl":"ta mesec","ru":"в этом месяце","cat":"time","level":3}
 {"sl":"naslednji mesec","ru":"в следующем месяце","cat":"time","level":3}
-{"sl":"guba","ru":"морщина","cat":"body","level":2}
+{"sl":"guba","ru":"морщина","cat":"body","level":3}
 {"sl":"lice","ru":"щека","cat":"body","level":2}
-{"sl":"trepalnice","ru":"ресницы","cat":"body","level":2}
-{"sl":"obrv","ru":"бровь","cat":"body","level":2}
+{"sl":"trepalnice","ru":"ресницы","cat":"body","level":3}
+{"sl":"obrv","ru":"бровь","cat":"body","level":3}
 {"sl":"pas","ru":"талия","cat":"body","level":2}
-{"sl":"tilnik","ru":"затылок","cat":"body","level":2}
+{"sl":"tilnik","ru":"затылок","cat":"body","level":3}
 {"sl":"prsni koš","ru":"грудная клетка","cat":"body","level":3}
 {"sl":"palec","ru":"большой палец","cat":"body","level":2}
-{"sl":"mezinec","ru":"мизинец","cat":"body","level":2}
-{"sl":"prstanec","ru":"безымянный палец","cat":"body","level":2}
-{"sl":"sredinec","ru":"средний палец","cat":"body","level":2}
+{"sl":"mezinec","ru":"мизинец","cat":"body","level":3}
+{"sl":"prstanec","ru":"безымянный палец","cat":"body","level":3}
+{"sl":"sredinec","ru":"средний палец","cat":"body","level":3}
 {"sl":"kazalec","ru":"указательный палец","cat":"body","level":2}
 {"sl":"zapestje","ru":"запястье","cat":"body","level":2}
 {"sl":"noht","ru":"ноготь","cat":"body","level":2}
 {"sl":"peta","ru":"пятка","cat":"body","level":2}
-{"sl":"hrbtenica","ru":"позвоночник","cat":"body","level":2}
-{"sl":"skelet","ru":"скелет","cat":"body","level":2}
-{"sl":"rebra","ru":"ребро","cat":"body","level":2}
-{"sl":"vretence","ru":"позвонок","cat":"body","level":2}
-{"sl":"mehur","ru":"мочевой пузырь","cat":"body","level":2}
-{"sl":"vena","ru":"вена","cat":"body","level":2}
-{"sl":"arterija","ru":"артерия","cat":"body","level":2}
+{"sl":"hrbtenica","ru":"позвоночник","cat":"body","level":3}
+{"sl":"skelet","ru":"скелет","cat":"body","level":3}
+{"sl":"rebra","ru":"ребро","cat":"body","level":3}
+{"sl":"vretence","ru":"позвонок","cat":"body","level":3}
+{"sl":"mehur","ru":"мочевой пузырь","cat":"body","level":3}
+{"sl":"vena","ru":"вена","cat":"body","level":3}
+{"sl":"arterija","ru":"артерия","cat":"body","level":3}
 {"sl":"sočen","ru":"сочный","cat":"adj","level":2}
 {"sl":"pikanten","ru":"острый","cat":"adj","level":2}
 {"sl":"surov","ru":"сырой","cat":"adj","level":2}
@@ -887,13 +887,13 @@
 {"sl":"grozno","ru":"ужасно","cat":"adj","level":2}
 {"sl":"razred","ru":"класс","cat":"school","level":2}
 {"sl":"tabla","ru":"доска","cat":"school","level":2}
-{"sl":"kreda","ru":"мел","cat":"school","level":2}
-{"sl":"flomaster","ru":"фломастер","cat":"school","level":2}
+{"sl":"kreda","ru":"мел","cat":"school","level":3}
+{"sl":"flomaster","ru":"фломастер","cat":"school","level":3}
 {"sl":"učbenik","ru":"учебник","cat":"school","level":2}
 {"sl":"delovni zvezek","ru":"рабочая тетрадь","cat":"school","level":3}
 {"sl":"slovar","ru":"словарь","cat":"school","level":2}
 {"sl":"stran","ru":"страница","cat":"school","level":2}
-{"sl":"projektor","ru":"проектор","cat":"school","level":2}
+{"sl":"projektor","ru":"проектор","cat":"school","level":3}
 {"sl":"zvezek","ru":"тетрадь","cat":"school","level":2}
 {"sl":"papir","ru":"бумага","cat":"school","level":2}
 {"sl":"kuli","ru":"ручка (шариковая)","cat":"school","level":2}
@@ -1067,7 +1067,7 @@
 {"sl":"tujina","ru":"заграница","cat":"where","level":2}
 {"sl":"grem v tujino","ru":"еду за границу","cat":"goplace","level":3}
 {"sl":"izobraževanje","ru":"образование","cat":"school","level":2}
-{"sl":"izobrazba","ru":"образование (уровень)","cat":"school","level":2}
+{"sl":"izobrazba","ru":"образование (уровень)","cat":"school","level":3}
 {"sl":"ob sobotah","ru":"по субботам","cat":"time","level":3}
 {"sl":"velikokrat","ru":"часто","cat":"adj","level":2}
 {"sl":"koristen","ru":"полезный","cat":"adj","level":2}
@@ -1149,7 +1149,7 @@
 {"sl":"prej","ru":"раньше","cat":"time","level":2}
 {"sl":"letos","ru":"в этом году","cat":"time","level":2}
 {"sl":"lani","ru":"в прошлом году","cat":"time","level":2}
-{"sl":"predlani","ru":"в позапрошлом году","cat":"time","level":2}
+{"sl":"predlani","ru":"в позапрошлом году","cat":"time","level":3}
 {"sl":"Kaj pomeni ta beseda?","ru":"Что значит это слово?","cat":"phrase","level":3}
 {"sl":"koliko","ru":"сколько","cat":"question","level":1}
 {"sl":"očka","ru":"папа","cat":"family","level":2}
@@ -1183,7 +1183,7 @@
 {"sl":"učenec","ru":"ученик","cat":"people","level":2}
 {"sl":"učenka","ru":"ученица","cat":"people","level":2}
 {"sl":"kar pomeni","ru":"что означает","cat":"phrase","level":3}
-{"sl":"letnik","ru":"класс","cat":"school","level":2}
+{"sl":"letnik","ru":"класс","cat":"school","level":3}
 {"sl":"večkrat","ru":"несколько раз","cat":"time","level":2}
 {"sl":"oba","ru":"obe","cat":"adj","level":2}
 {"sl":"iti spat","ru":"идти спать","cat":"adj","level":3}
@@ -1765,7 +1765,7 @@
 {"sl":"pol","ru":"половина","cat":"number","level":2}
 {"sl":"odstotek","ru":"процент","cat":"number","level":2}
 {"sl":"projekt","ru":"проект","cat":"thing","level":2}
-{"sl":"rok","ru":"срок","cat":"time","level":2}
+{"sl":"rok","ru":"срок","cat":"time","level":3}
 {"sl":"lila","ru":"сиреневый","cat":"color","level":2}
 {"sl":"turkizna","ru":"бирюзовый","cat":"color","level":2}
 {"sl":"bordo","ru":"бордовый","cat":"color","level":2}

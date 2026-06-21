@@ -81,6 +81,15 @@ const RARE = new Set([
   "telovnik","brezrokavnik","metuljček","naramnice","pentlja","medaljon",
   "žamet","čipka","poliester","lan","žerjav","vložek","pirat","vampir",
   "loterija","dekliščina","fantovščina","traparije",
+  // place (narrow African countries for A1)
+  "libija","alžirija","nigerija","kenija","maroko",
+  // body (detailed/medical anatomy)
+  "vretence","skelet","hrbtenica","rebra","mehur","vena","arterija",
+  "tilnik","prstanec","sredinec","mezinec","guba","obrv","trepalnice",
+  // time (rarely used time expressions)
+  "predlani","rok",
+  // school (narrow school items)
+  "flomaster","projektor","kreda","letnik","izobrazba",
 ]);
 
 function processLearn() {
