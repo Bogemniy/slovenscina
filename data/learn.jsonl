@@ -216,7 +216,6 @@
 {"sl":"in","ru":"и","cat":"phrase","level":2}
 {"sl":"Vem","ru":"Я знаю","cat":"adj","level":2}
 {"sl":"Ne vem","ru":"Я не знаю","cat":"phrase","level":3}
-{"sl":"najti","ru":"находить","cat":"adj","level":2}
 {"sl":"imeti rad","ru":"нравиться","cat":"adj","level":3}
 {"sl":"Všeč si mi","ru":"Ты мне нравишься","cat":"phrase","level":3}
 {"sl":"To mi ni všeč","ru":"Мне это не нравится","cat":"phrase","level":3}
@@ -252,7 +251,7 @@
 {"sl":"adijo","ru":"пока","cat":"greet","level":2}
 {"sl":"nasvidenje","ru":"до свидания","cat":"greet","level":2}
 {"sl":"oprostite","ru":"извините","cat":"greet","level":1}
-{"sl":"oprosti","ru":"извините","cat":"adj","level":2}
+{"sl":"oprosti","ru":"извините","cat":"greet","level":2}
 {"sl":"hvala","ru":"спасибо","cat":"greet","level":1}
 {"sl":"prosim","ru":"пожалуйста","cat":"greet","level":1}
 {"sl":"hočem to","ru":"я хочу это","cat":"greet","level":3}
@@ -303,7 +302,7 @@
 {"sl":"oče","ru":"отец","cat":"family","level":1}
 {"sl":"starši","ru":"родители","cat":"family","level":2}
 {"sl":"sin","ru":"сын","cat":"people","level":1}
-{"sl":"hči","ru":"дочь","cat":"adj","level":1}
+{"sl":"hči","ru":"дочь","cat":"family","level":1}
 {"sl":"mlajša sestra","ru":"младшая сестра","cat":"adj","level":3}
 {"sl":"mlajši brat","ru":"младший брат","cat":"adj","level":3}
 {"sl":"starejša sestra","ru":"старшая сестра","cat":"adj","level":3}
@@ -395,7 +394,6 @@
 {"sl":"srce","ru":"сердце","cat":"thing","level":1}
 {"sl":"možgani","ru":"головной мозг","cat":"body","level":2}
 {"sl":"vleči","ru":"потянуть","cat":"adj","level":2}
-{"sl":"vreči","ru":"бросать","cat":"adj","level":2}
 {"sl":"šola","ru":"школа","cat":"place","level":2}
 {"sl":"hiša","ru":"дом","cat":"home","level":1}
 {"sl":"vrata","ru":"дверь","cat":"school","level":1}
@@ -429,7 +427,7 @@
 {"sl":"na zdravje","ru":"на здоровье (тост)","cat":"greet","level":3}
 {"sl":"sprosti se","ru":"расслабься","cat":"phrase","level":3}
 {"sl":"strinjam se","ru":"согласен","cat":"greet","level":3}
-{"sl":"dobrodošli","ru":"добро пожаловать","cat":"adj","level":2}
+{"sl":"dobrodošli","ru":"добро пожаловать","cat":"greet","level":2}
 {"sl":"brez skrbi","ru":"не беспокойся","cat":"greet","level":3}
 {"sl":"zavij desno","ru":"поверни направо","cat":"adj","level":3}
 {"sl":"zavij levo","ru":"поверни налево","cat":"adj","level":3}
@@ -629,7 +627,7 @@
 {"sl":"francoščina","ru":"французский язык","cat":"adj","level":2}
 {"sl":"pero","ru":"ручка","cat":"adj","level":2}
 {"sl":"svinčnik","ru":"карандаш","cat":"school","level":2}
-{"sl":"četrti","ru":"четвертый","cat":"adj","level":2}
+{"sl":"četrti","ru":"четвертый","cat":"number","level":2}
 {"sl":"rezultat","ru":"результат","cat":"adj","level":2}
 {"sl":"kvadrat","ru":"квадрат","cat":"adj","level":2}
 {"sl":"krog","ru":"круг","cat":"adj","level":2}
@@ -743,7 +741,7 @@
 {"sl":"Zlato je dražje od srebra","ru":"Золото дороже серебра","cat":"phrase","level":3}
 {"sl":"počitnice","ru":"каникулы","cat":"thing","level":2}
 {"sl":"plaža","ru":"пляж","cat":"adj","level":2}
-{"sl":"gost","ru":"гость","cat":"adj","level":2}
+{"sl":"gost","ru":"гость","cat":"people","level":2}
 {"sl":"rojstni dan","ru":"день рождения","cat":"adj","level":3}
 {"sl":"božič","ru":"Рождество","cat":"adj","level":2}
 {"sl":"novo leto","ru":"Новый год","cat":"adj","level":3}
@@ -752,7 +750,7 @@
 {"sl":"teta","ru":"тётя","cat":"family","level":2}
 {"sl":"babica","ru":"бабушка","cat":"family","level":2}
 {"sl":"dedek","ru":"дедушка","cat":"family","level":2}
-{"sl":"smrt","ru":"смерть","cat":"adj","level":2}
+{"sl":"smrt","ru":"смерть","cat":"info","level":2}
 {"sl":"grob","ru":"могила","cat":"adj","level":2}
 {"sl":"ločitev","ru":"развод","cat":"adj","level":2}
 {"sl":"nevesta","ru":"невеста","cat":"adj","level":2}
@@ -1256,7 +1254,7 @@
 {"sl":"depresiven","ru":"депрессивный","cat":"adj","level":3}
 {"sl":"evforičen","ru":"эйфоричный","cat":"adj","level":3}
 {"sl":"stoičen","ru":"стоичный","cat":"adj","level":3}
-{"sl":"anksioznost","ru":"тревожность","cat":"adj","level":2}
+{"sl":"anksioznost","ru":"тревожность","cat":"feel","level":2}
 {"sl":"čustvena odpornost","ru":"эмоциональная устойчивость","cat":"adj","level":3}
 {"sl":"notranja motivacija","ru":"внутренняя мотивация","cat":"adj","level":3}
 {"sl":"sneži","ru":"идёт снег","cat":"adj","level":2}
@@ -1277,7 +1275,7 @@
 {"sl":"potres","ru":"землетрясение","cat":"adj","level":2}
 {"sl":"vulkan","ru":"вулкан","cat":"place","level":2}
 {"sl":"padavine","ru":"осадки","cat":"adj","level":2}
-{"sl":"vlažnost","ru":"влажность","cat":"adj","level":2}
+{"sl":"vlažnost","ru":"влажность","cat":"weather","level":2}
 {"sl":"temperatura zraka","ru":"температура воздуха","cat":"adj","level":3}
 {"sl":"mraz","ru":"мороз","cat":"adj","level":1}
 {"sl":"leden","ru":"ледяной","cat":"adj","level":2}
@@ -1710,7 +1708,7 @@
 {"sl":"saj","ru":"ведь, же","cat":"adj","level":2}
 {"sl":"pač","ru":"ну, просто (частица)","cat":"adj","level":2}
 {"sl":"namreč","ru":"а именно, ведь","cat":"adj","level":2}
-{"sl":"mogoče","ru":"может быть","cat":"adj","level":2}
+{"sl":"mogoče","ru":"может быть","cat":"phrase","level":2}
 {"sl":"verjetno","ru":"наверное","cat":"adj","level":2}
 {"sl":"morda","ru":"возможно","cat":"adj","level":2}
 {"sl":"gotovo","ru":"точно, наверняка","cat":"adverb","level":2}
