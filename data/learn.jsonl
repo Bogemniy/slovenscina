@@ -393,7 +393,6 @@
 {"sl":"stopalo","ru":"стопа","cat":"body","level":2}
 {"sl":"srce","ru":"сердце","cat":"thing","level":1}
 {"sl":"možgani","ru":"головной мозг","cat":"body","level":2}
-{"sl":"vleči","ru":"потянуть","cat":"adj","level":2}
 {"sl":"šola","ru":"школа","cat":"place","level":2}
 {"sl":"hiša","ru":"дом","cat":"home","level":1}
 {"sl":"vrata","ru":"дверь","cat":"school","level":1}
@@ -613,9 +612,6 @@
 {"sl":"bazen","ru":"бассейн","cat":"place","level":2}
 {"sl":"zvonec","ru":"дверной звонок","cat":"home","level":2}
 {"sl":"sosed","ru":"сосед","cat":"people","level":2}
-{"sl":"napasti","ru":"атаковать","cat":"adj","level":2}
-{"sl":"ukrasti","ru":"красть","cat":"adj","level":2}
-{"sl":"rasti","ru":"расти","cat":"adj","level":2}
 {"sl":"knjiga","ru":"книга","cat":"school","level":1}
 {"sl":"domača naloga","ru":"домашнее задание","cat":"school","level":3}
 {"sl":"izpit","ru":"экзамен","cat":"school","level":2}
@@ -1321,7 +1317,6 @@
 {"sl":"postrežba","ru":"обслуживание","cat":"info","level":2}
 {"sl":"kuhati na žaru","ru":"готовить на гриле","cat":"adj","level":3}
 {"sl":"peči v pečici","ru":"печь в духовке","cat":"adj","level":3}
-{"sl":"cvrti","ru":"жарить","cat":"adj","level":2}
 {"sl":"kuhati na pari","ru":"готовить на пару","cat":"adj","level":3}
 {"sl":"gastronomija","ru":"гастрономия","cat":"info","level":2}
 {"sl":"kulinarska tradicija","ru":"кулинарная традиция","cat":"adj","level":3}
