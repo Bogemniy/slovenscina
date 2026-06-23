@@ -210,7 +210,7 @@
 {"sl":"to","ru":"это","cat":"pron","level":1}
 {"sl":"Rabim to","ru":"Мне нужно это","cat":"phrase","level":3}
 {"sl":"Koliko je to?","ru":"Сколько это стоит?","cat":"phrase","level":3}
-{"sl":"tisto","ru":"что","cat":"pron","level":1}
+{"sl":"tisto","ru":"то","cat":"pron","level":1}
 {"sl":"vse","ru":"все","cat":"pron","level":1}
 {"sl":"ali","ru":"или","cat":"phrase","level":2}
 {"sl":"in","ru":"и","cat":"phrase","level":2}
@@ -231,7 +231,7 @@
 {"sl":"devetnajst","ru":"19","cat":"number","level":2}
 {"sl":"star","ru":"старый","cat":"adj","level":1}
 {"sl":"malo","ru":"мало","cat":"adverb","level":1}
-{"sl":"veliko","ru":"многие","cat":"adverb","level":1}
+{"sl":"veliko","ru":"много","cat":"adverb","level":1}
 {"sl":"koliko?","ru":"сколько?","cat":"phrase","level":2}
 {"sl":"napačen","ru":"неправильный","cat":"adj","level":2}
 {"sl":"pravilen","ru":"правильный","cat":"adj","level":2}
@@ -341,7 +341,7 @@
 {"sl":"jezen","ru":"злой","cat":"feel","level":2}
 {"sl":"raven","ru":"прямой","cat":"adj","level":2}
 {"sl":"vsak","ru":"каждый","cat":"pron","level":1}
-{"sl":"nenehno","ru":"всегда","cat":"adverb","level":2}
+{"sl":"nenehno","ru":"непрестанно, постоянно","cat":"adverb","level":2}
 {"sl":"dejansko","ru":"на самом деле","cat":"adverb","level":2}
 {"sl":"ponovno","ru":"снова","cat":"adverb","level":2}
 {"sl":"že","ru":"уже","cat":"time","level":2}
@@ -349,7 +349,7 @@
 {"sl":"najbolj","ru":"наиболее","cat":"adverb","level":2}
 {"sl":"več","ru":"больше","cat":"adverb","level":2}
 {"sl":"Hočem več","ru":"Я хочу еще","cat":"phrase","level":3}
-{"sl":"nobena","ru":"никто","cat":"pron","level":1}
+{"sl":"nobena","ru":"никакая, ни одна","cat":"pron","level":1}
 {"sl":"zelo","ru":"очень","cat":"adverb","level":1}
 {"sl":"žival","ru":"животное","cat":"animal","level":2}
 {"sl":"prašič","ru":"свинья","cat":"animal","level":2}
@@ -367,8 +367,8 @@
 {"sl":"kača","ru":"змея","cat":"animal","level":2}
 {"sl":"zunaj","ru":"снаружи","cat":"where","level":2}
 {"sl":"znotraj","ru":"внутри","cat":"adverb","level":2}
-{"sl":"pod","ru":"ниже","cat":"phrase","level":2}
-{"sl":"nad","ru":"выше","cat":"phrase","level":2}
+{"sl":"pod","ru":"под","cat":"phrase","level":2}
+{"sl":"nad","ru":"над","cat":"phrase","level":2}
 {"sl":"poleg","ru":"рядом","cat":"phrase","level":2}
 {"sl":"kisel","ru":"кислый","cat":"adj","level":2}
 {"sl":"čuden","ru":"странный","cat":"adj","level":2}
@@ -1175,7 +1175,7 @@
 {"sl":"kar pomeni","ru":"что означает","cat":"phrase","level":3}
 {"sl":"letnik","ru":"класс","cat":"school","level":3}
 {"sl":"večkrat","ru":"несколько раз","cat":"time","level":2}
-{"sl":"oba","ru":"obe","cat":"pron","level":1}
+{"sl":"oba","ru":"оба","cat":"pron","level":1}
 {"sl":"iti spat","ru":"идти спать","cat":"adj","level":3}
 {"sl":"zobati zobe","ru":"чистить зубы","cat":"adj","level":3}
 {"sl":"umiti roke","ru":"мыть руки","cat":"adj","level":3}
