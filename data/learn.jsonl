@@ -415,7 +415,7 @@
 {"sl":"tvoja mačka","ru":"твоя кошка","cat":"phrase","level":3}
 {"sl":"njena obleka","ru":"ее платье","cat":"phrase","level":3}
 {"sl":"njegov avto","ru":"его машина","cat":"phrase","level":3}
-{"sl":"njegova/njena žoga","ru":"его мяч","cat":"phrase","level":3}
+{"sl":"žoga","ru":"мяч","cat":"phrase","level":2}
 {"sl":"naš dom","ru":"наш дом","cat":"phrase","level":3}
 {"sl":"vaša ekipa","ru":"ваша команда","cat":"phrase","level":3}
 {"sl":"njihovo podjetje","ru":"их компания","cat":"phrase","level":3}
@@ -446,7 +446,7 @@
 {"sl":"torta","ru":"торт","cat":"food","level":2}
 {"sl":"pijača","ru":"напиток","cat":"food","level":2}
 {"sl":"voda","ru":"вода","cat":"food","level":1}
-{"sl":"mineralna voda","ru":"сода","cat":"food","level":3}
+{"sl":"mineralna voda","ru":"минеральная вода","cat":"food","level":3}
 {"sl":"kava","ru":"кофе","cat":"food","level":1}
 {"sl":"čaj","ru":"чай","cat":"food","level":1}
 {"sl":"pivo","ru":"пиво","cat":"food","level":1}
@@ -754,7 +754,7 @@
 {"sl":"tiger","ru":"тигр","cat":"animal","level":3}
 {"sl":"miš","ru":"мышь","cat":"animal","level":2}
 {"sl":"podgana","ru":"крыса","cat":"animal","level":3}
-{"sl":"zajec","ru":"кролик","cat":"animal","level":2}
+{"sl":"zajec","ru":"заяц / кролик","cat":"animal","level":2}
 {"sl":"lev","ru":"лев","cat":"animal","level":2}
 {"sl":"osel","ru":"осел","cat":"animal","level":2}
 {"sl":"slon","ru":"слон","cat":"animal","level":2}
@@ -1370,7 +1370,7 @@
 {"sl":"slabo mi je","ru":"мне плохо","cat":"phrase","level":3}
 {"sl":"poklicati zdravnika","ru":"вызвать врача","cat":"phrase","level":3}
 {"sl":"vzeti zdravilo","ru":"принять лекарство","cat":"phrase","level":3}
-{"sl":"alergija","ru":"аллергija","cat":"body","level":2}
+{"sl":"alergija","ru":"аллергия","cat":"body","level":2}
 {"sl":"astma","ru":"астма","cat":"body","level":2}
 {"sl":"sladkorna bolezen","ru":"сахарный диабет","cat":"body","level":3}
 {"sl":"visok krvni tlak","ru":"высокое кровяное давление","cat":"body","level":3}
