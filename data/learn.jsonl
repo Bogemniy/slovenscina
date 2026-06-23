@@ -1251,8 +1251,8 @@
 {"sl":"evforičen","ru":"эйфоричный","cat":"adj","level":3}
 {"sl":"stoičen","ru":"стоичный","cat":"adj","level":3}
 {"sl":"anksioznost","ru":"тревожность","cat":"feel","level":2}
-{"sl":"čustvena odpornost","ru":"эмоциональная устойчивость","cat":"adj","level":3}
-{"sl":"notranja motivacija","ru":"внутренняя мотивация","cat":"adj","level":3}
+{"sl":"čustvena odpornost","ru":"эмоциональная устойчивость","cat":"feel","level":3}
+{"sl":"notranja motivacija","ru":"внутренняя мотивация","cat":"feel","level":3}
 {"sl":"sneži","ru":"идёт снег","cat":"weather","level":2}
 {"sl":"sije sonce","ru":"светит солнце","cat":"phrase","level":3}
 {"sl":"piha veter","ru":"дует ветер","cat":"phrase","level":3}
@@ -1280,21 +1280,21 @@
 {"sl":"toča","ru":"град","cat":"weather","level":2}
 {"sl":"snežinka","ru":"снежинка","cat":"weather","level":2}
 {"sl":"podnebne spremembe","ru":"изменение климата","cat":"weather","level":3}
-{"sl":"globalno segrevanje","ru":"глобальное потепление","cat":"adj","level":3}
+{"sl":"globalno segrevanje","ru":"глобальное потепление","cat":"weather","level":3}
 {"sl":"ekosistem","ru":"экосистема","cat":"info","level":2}
-{"sl":"biotska raznovrstnost","ru":"биоразнообразие","cat":"adj","level":3}
-{"sl":"obnovljivi viri energije","ru":"возобновляемые источники энергии","cat":"adj","level":3}
-{"sl":"onesnaževanje zraka","ru":"загрязнение воздуха","cat":"adj","level":3}
+{"sl":"biotska raznovrstnost","ru":"биоразнообразие","cat":"thing","level":3}
+{"sl":"obnovljivi viri energije","ru":"возобновляемые источники энергии","cat":"thing","level":3}
+{"sl":"onesnaževanje zraka","ru":"загрязнение воздуха","cat":"weather","level":3}
 {"sl":"ozonska plast","ru":"озоновый слой","cat":"weather","level":3}
-{"sl":"toplogredni plini","ru":"парниковые газы","cat":"adj","level":3}
+{"sl":"toplogredni plini","ru":"парниковые газы","cat":"weather","level":3}
 {"sl":"sončna energija","ru":"солнечная энергия","cat":"thing","level":3}
 {"sl":"vetrna energija","ru":"ветровая энергия","cat":"thing","level":3}
 {"sl":"geotermalna energija","ru":"геотермальная энергия","cat":"thing","level":3}
-{"sl":"trajnostni razvoj","ru":"устойчивое развитие","cat":"adj","level":3}
-{"sl":"ekološki odtis","ru":"экологический след","cat":"adj","level":3}
-{"sl":"razgradnja okolja","ru":"деградация окружающей среды","cat":"adj","level":3}
-{"sl":"ohranjanje narave","ru":"охрана природы","cat":"adj","level":3}
-{"sl":"okoljska politika","ru":"экологическая политика","cat":"adj","level":3}
+{"sl":"trajnostni razvoj","ru":"устойчивое развитие","cat":"thing","level":3}
+{"sl":"ekološki odtis","ru":"экологический след","cat":"thing","level":3}
+{"sl":"razgradnja okolja","ru":"деградация окружающей среды","cat":"thing","level":3}
+{"sl":"ohranjanje narave","ru":"охрана природы","cat":"thing","level":3}
+{"sl":"okoljska politika","ru":"экологическая политика","cat":"thing","level":3}
 {"sl":"lačen sem","ru":"я голоден","cat":"phrase","level":3}
 {"sl":"žejen sem","ru":"я хочу пить","cat":"phrase","level":3}
 {"sl":"hočem jesti","ru":"хочу есть","cat":"phrase","level":3}
@@ -1305,13 +1305,13 @@
 {"sl":"recept","ru":"рецепт","cat":"food","level":2}
 {"sl":"sestavina","ru":"ингредиент","cat":"food","level":2}
 {"sl":"porcija","ru":"порция","cat":"food","level":2}
-{"sl":"alergija na hrano","ru":"пищевая аллергия","cat":"adj","level":3}
+{"sl":"alergija na hrano","ru":"пищевая аллергия","cat":"food","level":3}
 {"sl":"vegetarijanec","ru":"вегетарианец","cat":"job","level":2}
 {"sl":"vegan","ru":"веган","cat":"adj","level":2}
 {"sl":"brezglutenski","ru":"безглютеновый","cat":"adj","level":3}
-{"sl":"organska hrana","ru":"органическая еда","cat":"adj","level":3}
-{"sl":"hitra hrana","ru":"фастфуд","cat":"adj","level":3}
-{"sl":"domača kuhinja","ru":"домашняя кухня","cat":"adj","level":3}
+{"sl":"organska hrana","ru":"органическая еда","cat":"food","level":3}
+{"sl":"hitra hrana","ru":"фастфуд","cat":"food","level":3}
+{"sl":"domača kuhinja","ru":"домашняя кухня","cat":"food","level":3}
 {"sl":"meni","ru":"меню","cat":"thing","level":2}
 {"sl":"napitnina","ru":"чаевые","cat":"info","level":2}
 {"sl":"postrežba","ru":"обслуживание","cat":"info","level":2}
@@ -1319,51 +1319,51 @@
 {"sl":"peči v pečici","ru":"печь в духовке","cat":"phrase","level":3}
 {"sl":"kuhati na pari","ru":"готовить на пару","cat":"phrase","level":3}
 {"sl":"gastronomija","ru":"гастрономия","cat":"info","level":2}
-{"sl":"kulinarska tradicija","ru":"кулинарная традиция","cat":"adj","level":3}
-{"sl":"fermentirana hrana","ru":"ферментированная еда","cat":"adj","level":3}
+{"sl":"kulinarska tradicija","ru":"кулинарная традиция","cat":"food","level":3}
+{"sl":"fermentirana hrana","ru":"ферментированная еда","cat":"food","level":3}
 {"sl":"začimbe","ru":"специи","cat":"food","level":2}
 {"sl":"omaka","ru":"соус","cat":"food","level":2}
 {"sl":"marinade","ru":"маринады","cat":"food","level":2}
 {"sl":"konzerviranje","ru":"консервирование","cat":"info","level":2}
-{"sl":"prehrambna vrednost","ru":"пищевая ценность","cat":"adj","level":3}
+{"sl":"prehrambna vrednost","ru":"пищевая ценность","cat":"food","level":3}
 {"sl":"kalorije","ru":"калории","cat":"food","level":2}
 {"sl":"beljakovine","ru":"белки","cat":"food","level":2}
 {"sl":"ogljikovi hidrati","ru":"углеводы","cat":"food","level":3}
 {"sl":"maščobe","ru":"жиры","cat":"food","level":2}
 {"sl":"vitamini","ru":"витамины","cat":"food","level":2}
 {"sl":"minerali","ru":"минералы","cat":"food","level":2}
-{"sl":"molekularna gastronomija","ru":"молекулярная гастрономия","cat":"adj","level":3}
-{"sl":"kulinarična fuzija","ru":"кулинарный фьюжн","cat":"adj","level":3}
-{"sl":"trajnostna prehrana","ru":"устойчивое питание","cat":"adj","level":3}
-{"sl":"prehrambna varnost","ru":"продовольственная безопасность","cat":"adj","level":3}
+{"sl":"molekularna gastronomija","ru":"молекулярная гастрономия","cat":"food","level":3}
+{"sl":"kulinarična fuzija","ru":"кулинарный фьюжн","cat":"food","level":3}
+{"sl":"trajnostna prehrana","ru":"устойчивое питание","cat":"food","level":3}
+{"sl":"prehrambna varnost","ru":"продовольственная безопасность","cat":"food","level":3}
 {"sl":"oprati oblačila","ru":"постирать одежду","cat":"phrase","level":3}
 {"sl":"velikost","ru":"размер","cat":"info","level":2}
 {"sl":"barva","ru":"цвет","cat":"thing","level":2}
-{"sl":"modni trend","ru":"модный тренд","cat":"adj","level":3}
+{"sl":"modni trend","ru":"модный тренд","cat":"thing","level":3}
 {"sl":"garderoба","ru":"гардероб","cat":"adj","level":2}
-{"sl":"zimska jakna","ru":"зимняя куртка","cat":"adj","level":3}
-{"sl":"poletna obleka","ru":"летнее платье","cat":"adj","level":3}
-{"sl":"formalna oblačila","ru":"официальная одежда","cat":"adj","level":3}
-{"sl":"neformalna oblačila","ru":"неформальная одежда","cat":"adj","level":3}
-{"sl":"športna oblačila","ru":"спортивная одежда","cat":"adj","level":3}
-{"sl":"plavalne kopalke","ru":"купальный костюм","cat":"adj","level":3}
-{"sl":"dežni plašč","ru":"дождевик","cat":"adj","level":3}
+{"sl":"zimska jakna","ru":"зимняя куртка","cat":"thing","level":3}
+{"sl":"poletna obleka","ru":"летнее платье","cat":"thing","level":3}
+{"sl":"formalna oblačila","ru":"официальная одежда","cat":"thing","level":3}
+{"sl":"neformalna oblačila","ru":"неформальная одежда","cat":"thing","level":3}
+{"sl":"športna oblačila","ru":"спортивная одежда","cat":"thing","level":3}
+{"sl":"plavalne kopalke","ru":"купальный костюм","cat":"thing","level":3}
+{"sl":"dežni plašč","ru":"дождевик","cat":"thing","level":3}
 {"sl":"šal","ru":"шарф","cat":"thing","level":2}
 {"sl":"rokavice","ru":"перчатки","cat":"thing","level":2}
-{"sl":"nogavice do kolen","ru":"гольфы","cat":"adj","level":3}
+{"sl":"nogavice do kolen","ru":"гольфы","cat":"thing","level":3}
 {"sl":"pasovi","ru":"ремни","cat":"thing","level":2}
-{"sl":"obleka za posebne priložnosti","ru":"одежда для особых случаев","cat":"adj","level":3}
-{"sl":"tekstilna industrija","ru":"текстильная промышленность","cat":"adj","level":3}
-{"sl":"trajnostna moda","ru":"устойчивая мода","cat":"adj","level":3}
-{"sl":"reciklirana oblačila","ru":"переработанная одежда","cat":"adj","level":3}
-{"sl":"ročno narejena oblačila","ru":"одежда ручной работы","cat":"adj","level":3}
-{"sl":"haute couture","ru":"от кутюр","cat":"adj","level":3}
-{"sl":"prêt-à-porter","ru":"прет-а-порте","cat":"adj","level":2}
+{"sl":"obleka za posebne priložnosti","ru":"одежда для особых случаев","cat":"thing","level":3}
+{"sl":"tekstilna industrija","ru":"текстильная промышленность","cat":"thing","level":3}
+{"sl":"trajnostna moda","ru":"устойчивая мода","cat":"thing","level":3}
+{"sl":"reciklirana oblačila","ru":"переработанная одежда","cat":"thing","level":3}
+{"sl":"ročno narejena oblačila","ru":"одежда ручной работы","cat":"thing","level":3}
+{"sl":"haute couture","ru":"от кутюр","cat":"thing","level":3}
+{"sl":"prêt-à-porter","ru":"прет-а-порте","cat":"thing","level":2}
 {"sl":"modni oblikovalec","ru":"модельер","cat":"job","level":3}
-{"sl":"tekstilne vlakne","ru":"текстильные волокна","cat":"adj","level":3}
-{"sl":"fast fashion","ru":"быстрая мода","cat":"adj","level":3}
-{"sl":"etična moda","ru":"этичная мода","cat":"adj","level":3}
-{"sl":"greenwashing v modi","ru":"гринвошинг в моде","cat":"adj","level":3}
+{"sl":"tekstilne vlakne","ru":"текстильные волокна","cat":"thing","level":3}
+{"sl":"fast fashion","ru":"быстрая мода","cat":"thing","level":3}
+{"sl":"etična moda","ru":"этичная мода","cat":"thing","level":3}
+{"sl":"greenwashing v modi","ru":"гринвошинг в моде","cat":"thing","level":3}
 {"sl":"boli me glava","ru":"у меня болит голова","cat":"phrase","level":3}
 {"sl":"boli me trebuh","ru":"у меня болит живот","cat":"phrase","level":3}
 {"sl":"boli me grlo","ru":"у меня болит горло","cat":"phrase","level":3}
@@ -1373,26 +1373,26 @@
 {"sl":"vzeti zdravilo","ru":"принять лекарство","cat":"phrase","level":3}
 {"sl":"alergija","ru":"аллергija","cat":"body","level":2}
 {"sl":"astma","ru":"астма","cat":"body","level":2}
-{"sl":"sladkorna bolezen","ru":"сахарный диабет","cat":"adj","level":3}
-{"sl":"visok krvni tlak","ru":"высокое кровяное давление","cat":"adj","level":3}
-{"sl":"nizek krvni tlak","ru":"низкое давление","cat":"adj","level":3}
+{"sl":"sladkorna bolezen","ru":"сахарный диабет","cat":"body","level":3}
+{"sl":"visok krvni tlak","ru":"высокое кровяное давление","cat":"body","level":3}
+{"sl":"nizek krvni tlak","ru":"низкое давление","cat":"body","level":3}
 {"sl":"zlom","ru":"перелом","cat":"body","level":2}
 {"sl":"zvine","ru":"растяжение","cat":"body","level":2}
 {"sl":"modrica","ru":"синяк","cat":"body","level":2}
 {"sl":"antibiotik","ru":"антибиотик","cat":"body","level":2}
-{"sl":"protibolečinska sredstva","ru":"обезболивающее","cat":"adj","level":3}
+{"sl":"protibolečinska sredstva","ru":"обезболивающее","cat":"body","level":3}
 {"sl":"zavarovalnica","ru":"страховая компания","cat":"info","level":2}
-{"sl":"nujna pomoč","ru":"скорая помощь","cat":"adj","level":3}
+{"sl":"nujna pomoč","ru":"скорая помощь","cat":"body","level":3}
 {"sl":"reanimacija","ru":"реанимация","cat":"body","level":2}
-{"sl":"kronična bolezen","ru":"хроническое заболевание","cat":"adj","level":3}
-{"sl":"duševno zdravje","ru":"психическое здоровье","cat":"adj","level":3}
+{"sl":"kronična bolezen","ru":"хроническое заболевание","cat":"body","level":3}
+{"sl":"duševno zdravje","ru":"психическое здоровье","cat":"body","level":3}
 {"sl":"terapija","ru":"терапия","cat":"body","level":2}
 {"sl":"psihiater","ru":"психиатр","cat":"job","level":2}
 {"sl":"nevrolog","ru":"невролог","cat":"job","level":2}
 {"sl":"kardiolog","ru":"кардиолог","cat":"job","level":2}
 {"sl":"onkolog","ru":"онколог","cat":"job","level":2}
 {"sl":"ortoped","ru":"ортопед","cat":"job","level":2}
-{"sl":"imunski sistem","ru":"иммунная система","cat":"adj","level":3}
+{"sl":"imunski sistem","ru":"иммунная система","cat":"body","level":3}
 {"sl":"diagnoza","ru":"диагноз","cat":"body","level":2}
 {"sl":"simptomi","ru":"симптомы","cat":"body","level":2}
 {"sl":"zdravljenje","ru":"лечение","cat":"body","level":2}
@@ -1400,11 +1400,11 @@
 {"sl":"preventiva","ru":"профилактика","cat":"body","level":2}
 {"sl":"genomika","ru":"геномика","cat":"info","level":2}
 {"sl":"proteomika","ru":"протеомика","cat":"info","level":2}
-{"sl":"precizna medicina","ru":"прецизионная медицина","cat":"adj","level":3}
+{"sl":"precizna medicina","ru":"прецизионная медицина","cat":"body","level":3}
 {"sl":"imunoterapija","ru":"иммунотерапия","cat":"body","level":2}
-{"sl":"gensko zdravljenje","ru":"генная терапия","cat":"adj","level":3}
-{"sl":"klinična preskušanja","ru":"клинические испытания","cat":"adj","level":3}
-{"sl":"medicinska etika","ru":"медицинская этика","cat":"adj","level":3}
+{"sl":"gensko zdravljenje","ru":"генная терапия","cat":"body","level":3}
+{"sl":"klinična preskušanja","ru":"клинические испытания","cat":"body","level":3}
+{"sl":"medicinska etika","ru":"медицинская этика","cat":"body","level":3}
 {"sl":"iti peš","ru":"идти пешком","cat":"phrase","level":3}
 {"sl":"voziti avto","ru":"водить машину","cat":"phrase","level":3}
 {"sl":"sedeti v avtobusu","ru":"сидеть в автобусе","cat":"phrase","level":3}
@@ -1413,69 +1413,69 @@
 {"sl":"promet","ru":"дорожное движение","cat":"info","level":2}
 {"sl":"zastoj","ru":"пробка","cat":"info","level":2}
 {"sl":"obvoz","ru":"объезд","cat":"info","level":2}
-{"sl":"prehod za pešce","ru":"пешеходный переход","cat":"adj","level":3}
-{"sl":"kolesarska pot","ru":"велосипедная дорожка","cat":"adj","level":3}
-{"sl":"bencinska postaja","ru":"бензозаправка","cat":"adj","level":3}
+{"sl":"prehod za pešce","ru":"пешеходный переход","cat":"transport","level":3}
+{"sl":"kolesarska pot","ru":"велосипедная дорожка","cat":"transport","level":3}
+{"sl":"bencinska postaja","ru":"бензозаправка","cat":"transport","level":3}
 {"sl":"polniti gorivo","ru":"заправлять","cat":"phrase","level":3}
-{"sl":"električni avto","ru":"электромобиль","cat":"adj","level":3}
-{"sl":"hibridni avto","ru":"гибридный автомобиль","cat":"adj","level":3}
-{"sl":"podzemna železnica","ru":"метро","cat":"adj","level":3}
+{"sl":"električni avto","ru":"электромобиль","cat":"transport","level":3}
+{"sl":"hibridni avto","ru":"гибридный автомобиль","cat":"transport","level":3}
+{"sl":"podzemna železnica","ru":"метро","cat":"transport","level":3}
 {"sl":"tramvaj","ru":"трамвай","cat":"transport","level":2}
 {"sl":"trolejbus","ru":"троллейбус","cat":"transport","level":2}
 {"sl":"jahta","ru":"яхта","cat":"transport","level":2}
 {"sl":"helikopter","ru":"вертолёт","cat":"transport","level":2}
 {"sl":"podmornica","ru":"подводная лодка","cat":"transport","level":2}
-{"sl":"prometna infrastruktura","ru":"дорожная инфраструктура","cat":"adj","level":3}
-{"sl":"javni prevoz","ru":"общественный транспорт","cat":"adj","level":3}
-{"sl":"trajnostna mobilnost","ru":"устойчивая мобильность","cat":"adj","level":3}
-{"sl":"avtonomno vozilo","ru":"автономный транспорт","cat":"adj","level":3}
-{"sl":"delitev prevoza","ru":"каршеринг","cat":"adj","level":3}
+{"sl":"prometna infrastruktura","ru":"дорожная инфраструктура","cat":"transport","level":3}
+{"sl":"javni prevoz","ru":"общественный транспорт","cat":"transport","level":3}
+{"sl":"trajnostna mobilnost","ru":"устойчивая мобильность","cat":"transport","level":3}
+{"sl":"avtonomno vozilo","ru":"автономный транспорт","cat":"transport","level":3}
+{"sl":"delitev prevoza","ru":"каршеринг","cat":"transport","level":3}
 {"sl":"logistika","ru":"логистика","cat":"info","level":2}
-{"sl":"tovorni promet","ru":"грузовые перевозки","cat":"adj","level":3}
-{"sl":"letalska industrija","ru":"авиационная промышленность","cat":"adj","level":3}
-{"sl":"pomorski promet","ru":"морские перевозки","cat":"adj","level":3}
+{"sl":"tovorni promet","ru":"грузовые перевозки","cat":"transport","level":3}
+{"sl":"letalska industrija","ru":"авиационная промышленность","cat":"transport","level":3}
+{"sl":"pomorski promet","ru":"морские перевозки","cat":"transport","level":3}
 {"sl":"hiperloop","ru":"гиперлуп","cat":"info","level":2}
-{"sl":"dron dostava","ru":"доставка дронами","cat":"adj","level":3}
-{"sl":"pametna mesta","ru":"умные города","cat":"adj","level":3}
-{"sl":"upravljanje prometa","ru":"управление трафиком","cat":"adj","level":3}
+{"sl":"dron dostava","ru":"доставка дронами","cat":"transport","level":3}
+{"sl":"pametna mesta","ru":"умные города","cat":"transport","level":3}
+{"sl":"upravljanje prometa","ru":"управление трафиком","cat":"transport","level":3}
 {"sl":"napolniti telefon","ru":"зарядить телефон","cat":"phrase","level":3}
 {"sl":"poslati sporočilo","ru":"отправить сообщение","cat":"phrase","level":3}
 {"sl":"narediti fotografijo","ru":"сделать фото","cat":"phrase","level":3}
 {"sl":"iskati na internetu","ru":"искать в интернете","cat":"phrase","level":3}
 {"sl":"prenesti aplikacijo","ru":"скачать приложение","cat":"phrase","level":3}
 {"sl":"posodobiti programsko opremo","ru":"обновить ПО","cat":"phrase","level":3}
-{"sl":"varnostna kopija","ru":"резервная копия","cat":"adj","level":3}
-{"sl":"oblačno shranjevanje","ru":"облачное хранилище","cat":"adj","level":3}
-{"sl":"socialna omrežja","ru":"социальные сети","cat":"adj","level":3}
+{"sl":"varnostna kopija","ru":"резервная копия","cat":"thing","level":3}
+{"sl":"oblačno shranjevanje","ru":"облачное хранилище","cat":"thing","level":3}
+{"sl":"socialna omrežja","ru":"социальные сети","cat":"thing","level":3}
 {"sl":"videoklici","ru":"видеозвонки","cat":"info","level":2}
-{"sl":"spletno nakupovanje","ru":"онлайн-покупки","cat":"adj","level":3}
-{"sl":"spletno bančništvo","ru":"интернет-банкинг","cat":"adj","level":3}
-{"sl":"brezžično omrežje","ru":"беспроводная сеть","cat":"adj","level":3}
+{"sl":"spletno nakupovanje","ru":"онлайн-покупки","cat":"thing","level":3}
+{"sl":"spletno bančništvo","ru":"интернет-банкинг","cat":"thing","level":3}
+{"sl":"brezžično omrežje","ru":"беспроводная сеть","cat":"thing","level":3}
 {"sl":"bluetooth","ru":"Bluetooth","cat":"info","level":2}
-{"sl":"pametni telefon","ru":"смартфон","cat":"adj","level":3}
+{"sl":"pametni telefon","ru":"смартфон","cat":"thing","level":3}
 {"sl":"tablica","ru":"планшет","cat":"info","level":2}
 {"sl":"prenosnik","ru":"ноутбук","cat":"info","level":2}
-{"sl":"umetna inteligenca","ru":"искусственный интеллект","cat":"adj","level":3}
-{"sl":"strojno učenje","ru":"машинное обучение","cat":"adj","level":3}
-{"sl":"kibernetska varnost","ru":"кибербезопасность","cat":"adj","level":3}
+{"sl":"umetna inteligenca","ru":"искусственный интеллект","cat":"thing","level":3}
+{"sl":"strojno učenje","ru":"машинное обучение","cat":"thing","level":3}
+{"sl":"kibernetska varnost","ru":"кибербезопасность","cat":"thing","level":3}
 {"sl":"programiranje","ru":"программирование","cat":"info","level":2}
 {"sl":"algoritem","ru":"алгоритм","cat":"info","level":2}
-{"sl":"podatkovna baza","ru":"база данных","cat":"adj","level":3}
-{"sl":"spletni strežnik","ru":"веб-сервер","cat":"adj","level":3}
+{"sl":"podatkovna baza","ru":"база данных","cat":"thing","level":3}
+{"sl":"spletni strežnik","ru":"веб-сервер","cat":"thing","level":3}
 {"sl":"šifriranje","ru":"шифрование","cat":"info","level":2}
-{"sl":"kripto valuta","ru":"криптовалюта","cat":"adj","level":3}
+{"sl":"kripto valuta","ru":"криптовалюта","cat":"thing","level":3}
 {"sl":"blockchain","ru":"блокчейн","cat":"info","level":2}
-{"sl":"internet stvari","ru":"интернет вещей","cat":"adj","level":3}
-{"sl":"virtualna resničnost","ru":"виртуальная реальность","cat":"adj","level":3}
-{"sl":"razširjena resničnost","ru":"дополненная реальность","cat":"adj","level":3}
-{"sl":"kvantno računalništvo","ru":"квантовые вычисления","cat":"adj","level":3}
-{"sl":"nevronska mreža","ru":"нейронная сеть","cat":"adj","level":3}
-{"sl":"naravna obdelava jezika","ru":"обработка естественного языка","cat":"adj","level":3}
-{"sl":"računalniški vid","ru":"компьютерное зрение","cat":"adj","level":3}
+{"sl":"internet stvari","ru":"интернет вещей","cat":"thing","level":3}
+{"sl":"virtualna resničnost","ru":"виртуальная реальность","cat":"thing","level":3}
+{"sl":"razširjena resničnost","ru":"дополненная реальность","cat":"thing","level":3}
+{"sl":"kvantno računalništvo","ru":"квантовые вычисления","cat":"thing","level":3}
+{"sl":"nevronska mreža","ru":"нейронная сеть","cat":"thing","level":3}
+{"sl":"naravna obdelava jezika","ru":"обработка естественного языка","cat":"thing","level":3}
+{"sl":"računalniški vid","ru":"компьютерное зрение","cat":"thing","level":3}
 {"sl":"robotika","ru":"робототехника","cat":"info","level":2}
 {"sl":"avtomatizacija","ru":"автоматизация","cat":"info","level":2}
-{"sl":"digitalna transformacija","ru":"цифровая трансформация","cat":"adj","level":3}
-{"sl":"veliki podatki","ru":"большие данные","cat":"adj","level":3}
+{"sl":"digitalna transformacija","ru":"цифровая трансформация","cat":"thing","level":3}
+{"sl":"veliki podatki","ru":"большие данные","cat":"thing","level":3}
 {"sl":"na","ru":"на","cat":"phrase","level":2}
 {"sl":"v","ru":"в","cat":"phrase","level":2}
 {"sl":"iz","ru":"из","cat":"phrase","level":2}
