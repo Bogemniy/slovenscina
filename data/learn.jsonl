@@ -1911,3 +1911,17 @@
 {"sl":"blagajna","ru":"касса","cat":"shop","level":2}
 {"sl":"odgovor","ru":"ответ","cat":"info","level":2}
 {"sl":"vijoličen","ru":"фиолетовый","cat":"color","level":2}
+{"sl":"med vikendom","ru":"в выходные","cat":"time","level":3}
+{"sl":"srečen konec","ru":"счастливый конец","cat":"phrase","level":3}
+{"sl":"skupina","ru":"группа","cat":"thing","level":2}
+{"sl":"poraz","ru":"поражение","cat":"thing","level":2}
+{"sl":"tekmovanje","ru":"соревнование","cat":"thing","level":2}
+{"sl":"polnilo","ru":"начинка / наполнитель","cat":"thing","level":2}
+{"sl":"navadna","ru":"обычная","cat":"adj","level":2}
+{"sl":"obvezno","ru":"обязательно","cat":"adj","level":2}
+{"sl":"nujno","ru":"срочно, необходимо","cat":"adj","level":2}
+{"sl":"shramba","ru":"кладовка / хранилище","cat":"home","level":2}
+{"sl":"namestitev","ru":"размещение / установка","cat":"thing","level":2}
+{"sl":"spalna vrečka","ru":"спальный мешок","cat":"thing","level":3}
+{"sl":"afna","ru":"собака (символ @)","cat":"thing","level":2}
+{"sl":"pika","ru":"точка","cat":"thing","level":2}
