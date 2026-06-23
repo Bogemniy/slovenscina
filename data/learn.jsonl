@@ -1897,3 +1897,11 @@
 {"sl":"težak","ru":"тяжёлый; трудный","cat":"adj","level":1}
 {"sl":"čevlji","ru":"туфли; обувь","cat":"thing","level":1}
 {"sl":"dobro","ru":"хорошо","cat":"adverb","level":1}
+{"sl":"pretežno","ru":"преимущественно","cat":"weather","level":2}
+{"sl":"oblačnost","ru":"облачность","cat":"weather","level":2}
+{"sl":"severni veter","ru":"северный ветер","cat":"weather","level":3}
+{"sl":"jugozahodnik","ru":"юго-западный ветер","cat":"weather","level":2}
+{"sl":"povprečen","ru":"средний","cat":"adj","level":3}
+{"sl":"rahel","ru":"слабый, лёгкий","cat":"adj","level":2}
+{"sl":"vihar","ru":"буря, шторм","cat":"weather","level":2}
+{"sl":"snežni vihar","ru":"метель, буран","cat":"weather","level":3}
