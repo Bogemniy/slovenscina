@@ -288,7 +288,7 @@
 {"sl":"življenje","ru":"жизнь","cat":"thing","level":2}
 {"sl":"ženska","ru":"женщина","cat":"people","level":1}
 {"sl":"moški","ru":"мужчина","cat":"people","level":1}
-{"sl":"ljubezen","ru":"любовь","cat":"adj","level":2}
+{"sl":"ljubezen","ru":"любовь","cat":"feel","level":2}
 {"sl":"fant","ru":"парень","cat":"people","level":1}
 {"sl":"punca","ru":"девушка (разг.)","cat":"people","level":2}
 {"sl":"poljub","ru":"поцелуй","cat":"feel","level":2}
@@ -446,7 +446,7 @@
 {"sl":"torta","ru":"торт","cat":"food","level":2}
 {"sl":"pijača","ru":"напиток","cat":"food","level":2}
 {"sl":"voda","ru":"вода","cat":"food","level":1}
-{"sl":"mineralna voda","ru":"сода","cat":"adj","level":3}
+{"sl":"mineralna voda","ru":"сода","cat":"food","level":3}
 {"sl":"kava","ru":"кофе","cat":"food","level":1}
 {"sl":"čaj","ru":"чай","cat":"food","level":1}
 {"sl":"pivo","ru":"пиво","cat":"food","level":1}
@@ -650,7 +650,7 @@
 {"sl":"kriminalec","ru":"преступник","cat":"people","level":2}
 {"sl":"model","ru":"модель","cat":"info","level":2}
 {"sl":"umetnik","ru":"художник","cat":"job","level":2}
-{"sl":"telefonska številka","ru":"номер телефона","cat":"adj","level":3}
+{"sl":"telefonska številka","ru":"номер телефона","cat":"thing","level":3}
 {"sl":"signal","ru":"сигнал","cat":"info","level":2}
 {"sl":"aplikacija","ru":"приложение","cat":"info","level":2}
 {"sl":"klepet","ru":"чат","cat":"info","level":2}
@@ -659,7 +659,7 @@
 {"sl":"e-naslov","ru":"е-мейл","cat":"info","level":2}
 {"sl":"spletna stran","ru":"веб-сайт","cat":"info","level":3}
 {"sl":"e-pošta","ru":"электронная почта","cat":"info","level":2}
-{"sl":"mobilni telefon","ru":"мобильный телефон","cat":"adj","level":3}
+{"sl":"mobilni telefon","ru":"мобильный телефон","cat":"thing","level":3}
 {"sl":"zakon","ru":"закон","cat":"info","level":2}
 {"sl":"zapor","ru":"тюрьма","cat":"place","level":2}
 {"sl":"dokaz","ru":"доказательство","cat":"info","level":2}
@@ -671,7 +671,7 @@
 {"sl":"dobiček","ru":"прибыль","cat":"info","level":2}
 {"sl":"stranka","ru":"клиент","cat":"job","level":2}
 {"sl":"znesek","ru":"сумма","cat":"info","level":2}
-{"sl":"kreditna kartica","ru":"кредитная карточка","cat":"adj","level":3}
+{"sl":"kreditna kartica","ru":"кредитная карточка","cat":"thing","level":3}
 {"sl":"geslo","ru":"пароль","cat":"info","level":2}
 {"sl":"bankomat","ru":"банкомат","cat":"place","level":2}
 {"sl":"elektrika","ru":"ток","cat":"thing","level":2}
@@ -684,8 +684,8 @@
 {"sl":"lutka","ru":"кукла","cat":"thing","level":2}
 {"sl":"angel","ru":"ангел","cat":"info","level":2}
 {"sl":"glavnik","ru":"расческа","cat":"thing","level":2}
-{"sl":"zobna pasta","ru":"зубная паста","cat":"adj","level":3}
-{"sl":"zobna ščetka","ru":"зубная щетка","cat":"adj","level":3}
+{"sl":"zobna pasta","ru":"зубная паста","cat":"thing","level":3}
+{"sl":"zobna ščetka","ru":"зубная щетка","cat":"thing","level":3}
 {"sl":"šampon","ru":"шампунь","cat":"thing","level":2}
 {"sl":"krema","ru":"крем","cat":"thing","level":2}
 {"sl":"robček","ru":"бумажная салфетка","cat":"thing","level":2}
@@ -695,7 +695,7 @@
 {"sl":"platno","ru":"экран","cat":"info","level":2}
 {"sl":"glasba","ru":"музыка","cat":"thing","level":2}
 {"sl":"oder","ru":"сцена","cat":"home","level":2}
-{"sl":"občinstvo","ru":"зритель","cat":"people","level":2}
+{"sl":"občinstvo","ru":"зритель","cat":"thing","level":2}
 {"sl":"šala","ru":"шутка","cat":"thing","level":2}
 {"sl":"članek","ru":"статья","cat":"info","level":2}
 {"sl":"časopis","ru":"газета","cat":"thing","level":2}
@@ -738,16 +738,16 @@
 {"sl":"počitnice","ru":"каникулы","cat":"thing","level":2}
 {"sl":"plaža","ru":"пляж","cat":"place","level":2}
 {"sl":"gost","ru":"гость","cat":"people","level":2}
-{"sl":"rojstni dan","ru":"день рождения","cat":"adj","level":3}
+{"sl":"rojstni dan","ru":"день рождения","cat":"thing","level":3}
 {"sl":"božič","ru":"Рождество","cat":"info","level":2}
-{"sl":"novo leto","ru":"Новый год","cat":"adj","level":3}
-{"sl":"velika noč","ru":"Пасха","cat":"adj","level":3}
+{"sl":"novo leto","ru":"Новый год","cat":"thing","level":3}
+{"sl":"velika noč","ru":"Пасха","cat":"thing","level":3}
 {"sl":"stric","ru":"дядя","cat":"family","level":2}
 {"sl":"teta","ru":"тётя","cat":"family","level":2}
 {"sl":"babica","ru":"бабушка","cat":"family","level":2}
 {"sl":"dedek","ru":"дедушка","cat":"family","level":2}
 {"sl":"smrt","ru":"смерть","cat":"info","level":2}
-{"sl":"grob","ru":"могила","cat":"place","level":2}
+{"sl":"grob","ru":"могила","cat":"thing","level":2}
 {"sl":"ločitev","ru":"развод","cat":"info","level":2}
 {"sl":"nevesta","ru":"невеста","cat":"people","level":2}
 {"sl":"ženin","ru":"жених","cat":"people","level":2}
@@ -1272,24 +1272,24 @@
 {"sl":"vulkan","ru":"вулкан","cat":"place","level":2}
 {"sl":"padavine","ru":"осадки","cat":"weather","level":2}
 {"sl":"vlažnost","ru":"влажность","cat":"weather","level":2}
-{"sl":"temperatura zraka","ru":"температура воздуха","cat":"adj","level":3}
+{"sl":"temperatura zraka","ru":"температура воздуха","cat":"weather","level":3}
 {"sl":"mraz","ru":"мороз","cat":"weather","level":1}
 {"sl":"leden","ru":"ледяной","cat":"adj","level":2}
 {"sl":"megla","ru":"туман","cat":"weather","level":2}
 {"sl":"rosa","ru":"роса","cat":"weather","level":2}
 {"sl":"toča","ru":"град","cat":"weather","level":2}
 {"sl":"snežinka","ru":"снежинка","cat":"weather","level":2}
-{"sl":"podnebne spremembe","ru":"изменение климата","cat":"adj","level":3}
+{"sl":"podnebne spremembe","ru":"изменение климата","cat":"weather","level":3}
 {"sl":"globalno segrevanje","ru":"глобальное потепление","cat":"adj","level":3}
 {"sl":"ekosistem","ru":"экосистема","cat":"info","level":2}
 {"sl":"biotska raznovrstnost","ru":"биоразнообразие","cat":"adj","level":3}
 {"sl":"obnovljivi viri energije","ru":"возобновляемые источники энергии","cat":"adj","level":3}
 {"sl":"onesnaževanje zraka","ru":"загрязнение воздуха","cat":"adj","level":3}
-{"sl":"ozonska plast","ru":"озоновый слой","cat":"adj","level":3}
+{"sl":"ozonska plast","ru":"озоновый слой","cat":"weather","level":3}
 {"sl":"toplogredni plini","ru":"парниковые газы","cat":"adj","level":3}
-{"sl":"sončna energija","ru":"солнечная энергия","cat":"adj","level":3}
-{"sl":"vetrna energija","ru":"ветровая энергия","cat":"adj","level":3}
-{"sl":"geotermalna energija","ru":"геотермальная энергия","cat":"adj","level":3}
+{"sl":"sončna energija","ru":"солнечная энергия","cat":"thing","level":3}
+{"sl":"vetrna energija","ru":"ветровая энергия","cat":"thing","level":3}
+{"sl":"geotermalna energija","ru":"геотермальная энергия","cat":"thing","level":3}
 {"sl":"trajnostni razvoj","ru":"устойчивое развитие","cat":"adj","level":3}
 {"sl":"ekološki odtis","ru":"экологический след","cat":"adj","level":3}
 {"sl":"razgradnja okolja","ru":"деградация окружающей среды","cat":"adj","level":3}
@@ -1312,7 +1312,7 @@
 {"sl":"organska hrana","ru":"органическая еда","cat":"adj","level":3}
 {"sl":"hitra hrana","ru":"фастфуд","cat":"adj","level":3}
 {"sl":"domača kuhinja","ru":"домашняя кухня","cat":"adj","level":3}
-{"sl":"meni","ru":"меню","cat":"food","level":2}
+{"sl":"meni","ru":"меню","cat":"thing","level":2}
 {"sl":"napitnina","ru":"чаевые","cat":"info","level":2}
 {"sl":"postrežba","ru":"обслуживание","cat":"info","level":2}
 {"sl":"kuhati na žaru","ru":"готовить на гриле","cat":"adj","level":3}
