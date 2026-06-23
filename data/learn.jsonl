@@ -303,10 +303,10 @@
 {"sl":"starši","ru":"родители","cat":"family","level":2}
 {"sl":"sin","ru":"сын","cat":"people","level":1}
 {"sl":"hči","ru":"дочь","cat":"family","level":1}
-{"sl":"mlajša sestra","ru":"младшая сестра","cat":"adj","level":3}
-{"sl":"mlajši brat","ru":"младший брат","cat":"adj","level":3}
-{"sl":"starejša sestra","ru":"старшая сестра","cat":"adj","level":3}
-{"sl":"starejši brat","ru":"старший брат","cat":"adj","level":3}
+{"sl":"mlajša sestra","ru":"младшая сестра","cat":"family","level":3}
+{"sl":"mlajši brat","ru":"младший брат","cat":"family","level":3}
+{"sl":"starejša sestra","ru":"старшая сестра","cat":"family","level":3}
+{"sl":"starejši brat","ru":"старший брат","cat":"family","level":3}
 {"sl":"vprašanje","ru":"вопрос","cat":"info","level":2}
 {"sl":"podjetje","ru":"предприятие","cat":"thing","level":2}
 {"sl":"posel","ru":"бизнес","cat":"info","level":2}
@@ -411,14 +411,14 @@
 {"sl":"osemdeset","ru":"80","cat":"number","level":2}
 {"sl":"devetdeset","ru":"90","cat":"number","level":2}
 {"sl":"milijon","ru":"1000000","cat":"number","level":2}
-{"sl":"moj pes","ru":"моя собака","cat":"adj","level":3}
-{"sl":"tvoja mačka","ru":"твоя кошка","cat":"adj","level":3}
-{"sl":"njena obleka","ru":"ее платье","cat":"adj","level":3}
-{"sl":"njegov avto","ru":"его машина","cat":"adj","level":3}
-{"sl":"njegova/njena žoga","ru":"его мяч","cat":"adj","level":3}
-{"sl":"naš dom","ru":"наш дом","cat":"adj","level":3}
-{"sl":"vaša ekipa","ru":"ваша команда","cat":"adj","level":3}
-{"sl":"njihovo podjetje","ru":"их компания","cat":"adj","level":3}
+{"sl":"moj pes","ru":"моя собака","cat":"phrase","level":3}
+{"sl":"tvoja mačka","ru":"твоя кошка","cat":"phrase","level":3}
+{"sl":"njena obleka","ru":"ее платье","cat":"phrase","level":3}
+{"sl":"njegov avto","ru":"его машина","cat":"phrase","level":3}
+{"sl":"njegova/njena žoga","ru":"его мяч","cat":"phrase","level":3}
+{"sl":"naš dom","ru":"наш дом","cat":"phrase","level":3}
+{"sl":"vaša ekipa","ru":"ваша команда","cat":"phrase","level":3}
+{"sl":"njihovo podjetje","ru":"их компания","cat":"phrase","level":3}
 {"sl":"vsi","ru":"все","cat":"pron","level":1}
 {"sl":"skupaj","ru":"вместе","cat":"adverb","level":2}
 {"sl":"drugo","ru":"другой","cat":"pron","level":1}
@@ -459,12 +459,12 @@
 {"sl":"pica","ru":"пицца","cat":"food","level":2}
 {"sl":"avtobus","ru":"автобус","cat":"transport","level":1}
 {"sl":"vlak","ru":"поезд","cat":"transport","level":1}
-{"sl":"železniška postaja","ru":"железнодорожная станция","cat":"adj","level":3}
-{"sl":"avtobusna postaja","ru":"автобусная остановка","cat":"adj","level":3}
+{"sl":"železniška postaja","ru":"железнодорожная станция","cat":"transport","level":3}
+{"sl":"avtobusna postaja","ru":"автобусная остановка","cat":"transport","level":3}
 {"sl":"letalo","ru":"самолёт","cat":"transport","level":2}
 {"sl":"tovornjak","ru":"грузовик","cat":"transport","level":2}
 {"sl":"kolo","ru":"велосипед","cat":"transport","level":2}
-{"sl":"motorno kolo","ru":"мотоцикл","cat":"adj","level":3}
+{"sl":"motorno kolo","ru":"мотоцикл","cat":"transport","level":3}
 {"sl":"taksi","ru":"такси","cat":"transport","level":2}
 {"sl":"semafor","ru":"светофор","cat":"transport","level":2}
 {"sl":"parkirišče","ru":"автомобильная стоянка","cat":"place","level":2}
@@ -482,7 +482,7 @@
 {"sl":"modrček","ru":"бюстгальтер","cat":"thing","level":2}
 {"sl":"spodnjice","ru":"трусы","cat":"thing","level":2}
 {"sl":"očala","ru":"очки","cat":"thing","level":2}
-{"sl":"ročna torba","ru":"сумка","cat":"adj","level":3}
+{"sl":"ročna torba","ru":"сумка","cat":"transport","level":3}
 {"sl":"torbica","ru":"кошелек","cat":"thing","level":2}
 {"sl":"denarnica","ru":"бумажник","cat":"thing","level":2}
 {"sl":"prstan","ru":"кольцо","cat":"thing","level":2}
@@ -510,8 +510,8 @@
 {"sl":"cerkev","ru":"церковь","cat":"place","level":2}
 {"sl":"restavracija","ru":"ресторан","cat":"shop","level":1}
 {"sl":"bar","ru":"бар","cat":"place","level":2}
-{"sl":"fitnes center","ru":"тренажерный зал","cat":"adj","level":3}
-{"sl":"WC","ru":"туалет","cat":"place","level":2}
+{"sl":"fitnes center","ru":"тренажерный зал","cat":"place","level":3}
+{"sl":"WC","ru":"туалет","cat":"thing","level":2}
 {"sl":"zemljevid","ru":"карта","cat":"thing","level":2}
 {"sl":"rešilec","ru":"скорая помощь","cat":"transport","level":2}
 {"sl":"policija","ru":"полиция","cat":"people","level":2}
@@ -534,7 +534,7 @@
 {"sl":"hrbet","ru":"спина","cat":"body","level":2}
 {"sl":"jezik","ru":"язык","cat":"info","level":2}
 {"sl":"ustnica","ru":"губа","cat":"body","level":2}
-{"sl":"prst na nogi","ru":"палец на ноге","cat":"adj","level":3}
+{"sl":"prst na nogi","ru":"палец на ноге","cat":"body","level":3}
 {"sl":"želodec","ru":"желудок","cat":"body","level":2}
 {"sl":"pljuča","ru":"легкое","cat":"body","level":2}
 {"sl":"jetra","ru":"печень","cat":"body","level":2}
@@ -1219,8 +1219,8 @@
 {"sl":"skleniti hipoteko","ru":"взять ипотеку","cat":"phrase","level":3}
 {"sl":"upravljati s premoženjem","ru":"управлять имуществом","cat":"phrase","level":3}
 {"sl":"prestrašen","ru":"испуганный","cat":"adj","level":2}
-{"sl":"biti srečen","ru":"быть счастливым","cat":"adj","level":3}
-{"sl":"biti žalosten","ru":"быть грустным","cat":"adj","level":3}
+{"sl":"biti srečen","ru":"быть счастливым","cat":"phrase","level":3}
+{"sl":"biti žalosten","ru":"быть грустным","cat":"phrase","level":3}
 {"sl":"razočaran","ru":"разочарованный","cat":"adj","level":2}
 {"sl":"hvaležen","ru":"благодарный","cat":"adj","level":2}
 {"sl":"ljubosumen","ru":"ревнивый","cat":"adj","level":2}
@@ -1307,8 +1307,8 @@
 {"sl":"porcija","ru":"порция","cat":"food","level":2}
 {"sl":"alergija na hrano","ru":"пищевая аллергия","cat":"food","level":3}
 {"sl":"vegetarijanec","ru":"вегетарианец","cat":"job","level":2}
-{"sl":"vegan","ru":"веган","cat":"adj","level":2}
-{"sl":"brezglutenski","ru":"безглютеновый","cat":"adj","level":3}
+{"sl":"vegan","ru":"веган","cat":"food","level":2}
+{"sl":"brezglutenski","ru":"безглютеновый","cat":"food","level":3}
 {"sl":"organska hrana","ru":"органическая еда","cat":"food","level":3}
 {"sl":"hitra hrana","ru":"фастфуд","cat":"food","level":3}
 {"sl":"domača kuhinja","ru":"домашняя кухня","cat":"food","level":3}
@@ -1340,7 +1340,6 @@
 {"sl":"velikost","ru":"размер","cat":"info","level":2}
 {"sl":"barva","ru":"цвет","cat":"thing","level":2}
 {"sl":"modni trend","ru":"модный тренд","cat":"thing","level":3}
-{"sl":"garderoба","ru":"гардероб","cat":"adj","level":2}
 {"sl":"zimska jakna","ru":"зимняя куртка","cat":"thing","level":3}
 {"sl":"poletna obleka","ru":"летнее платье","cat":"thing","level":3}
 {"sl":"formalna oblačila","ru":"официальная одежда","cat":"thing","level":3}
