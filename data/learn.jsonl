@@ -428,10 +428,10 @@
 {"sl":"strinjam se","ru":"согласен","cat":"greet","level":3}
 {"sl":"dobrodošli","ru":"добро пожаловать","cat":"greet","level":2}
 {"sl":"brez skrbi","ru":"не беспокойся","cat":"greet","level":3}
-{"sl":"zavij desno","ru":"поверни направо","cat":"adj","level":3}
-{"sl":"zavij levo","ru":"поверни налево","cat":"adj","level":3}
-{"sl":"pojdi naravnost","ru":"езжай прямо","cat":"adj","level":3}
-{"sl":"pridi z mano","ru":"пойдем со мной","cat":"adj","level":3}
+{"sl":"zavij desno","ru":"поверни направо","cat":"phrase","level":3}
+{"sl":"zavij levo","ru":"поверни налево","cat":"phrase","level":3}
+{"sl":"pojdi naravnost","ru":"езжай прямо","cat":"phrase","level":3}
+{"sl":"pridi z mano","ru":"пойдем со мной","cat":"phrase","level":3}
 {"sl":"jajce","ru":"яйцо","cat":"food","level":1}
 {"sl":"sir","ru":"сыр","cat":"food","level":1}
 {"sl":"mleko","ru":"молоко","cat":"food","level":1}
@@ -1176,48 +1176,48 @@
 {"sl":"letnik","ru":"класс","cat":"school","level":3}
 {"sl":"večkrat","ru":"несколько раз","cat":"time","level":2}
 {"sl":"oba","ru":"оба","cat":"pron","level":1}
-{"sl":"iti spat","ru":"идти спать","cat":"adj","level":3}
-{"sl":"zobati zobe","ru":"чистить зубы","cat":"adj","level":3}
-{"sl":"umiti roke","ru":"мыть руки","cat":"adj","level":3}
-{"sl":"odpreti vrata","ru":"открыть дверь","cat":"adj","level":3}
-{"sl":"zapreti okno","ru":"закрыть окно","cat":"adj","level":3}
-{"sl":"prižgati luč","ru":"включить свет","cat":"adj","level":3}
-{"sl":"ugasniti luč","ru":"выключить свет","cat":"adj","level":3}
-{"sl":"skuhati kavo","ru":"приготовить кофе","cat":"adj","level":3}
-{"sl":"pojesti zajtrk","ru":"позавтракать","cat":"adj","level":3}
-{"sl":"pospraviti sobo","ru":"убрать комнату","cat":"adj","level":3}
-{"sl":"oditi od doma","ru":"уйти из дома","cat":"adj","level":3}
-{"sl":"priti domov","ru":"прийти домой","cat":"adj","level":3}
-{"sl":"odpreti hladilnik","ru":"открыть холодильник","cat":"adj","level":3}
-{"sl":"nastaviti budilko","ru":"поставить будильник","cat":"adj","level":3}
-{"sl":"vzeti ključe","ru":"взять ключи","cat":"adj","level":3}
-{"sl":"plačati položnice","ru":"оплатить счета","cat":"adj","level":3}
-{"sl":"naročiti dostavo","ru":"заказать доставку","cat":"adj","level":3}
-{"sl":"rezervirati mizo","ru":"зарезервировать стол","cat":"adj","level":3}
-{"sl":"klicati taksi","ru":"вызвать такси","cat":"adj","level":3}
-{"sl":"iti po nakupih","ru":"идти за покупками","cat":"adj","level":3}
-{"sl":"poiskati parkirišče","ru":"найти парковку","cat":"adj","level":3}
-{"sl":"čakati v vrsti","ru":"стоять в очереди","cat":"adj","level":3}
-{"sl":"oditi na dopust","ru":"уйти в отпуск","cat":"adj","level":3}
-{"sl":"prenesti prtljago","ru":"перенести багаж","cat":"adj","level":3}
-{"sl":"preveriti e-pošto","ru":"проверить почту","cat":"adj","level":3}
-{"sl":"urediti sestanak","ru":"назначить встречу","cat":"adj","level":3}
-{"sl":"odpovedati naročilo","ru":"отменить заказ","cat":"adj","level":3}
-{"sl":"urediti papirje","ru":"оформить документы","cat":"adj","level":3}
-{"sl":"obnoviti potni list","ru":"обновить паспорт","cat":"adj","level":3}
-{"sl":"prijaviti se na tečaj","ru":"записаться на курс","cat":"adj","level":3}
-{"sl":"oddati vlogo","ru":"подать заявление","cat":"adj","level":3}
-{"sl":"urejati davke","ru":"разбираться с налогами","cat":"adj","level":3}
-{"sl":"skleniti pogodbo","ru":"заключить договор","cat":"adj","level":3}
-{"sl":"najeti stanovanje","ru":"снять квартиру","cat":"adj","level":3}
-{"sl":"prijaviti okvaro","ru":"сообщить о неисправности","cat":"adj","level":3}
-{"sl":"uveljavljati garancijo","ru":"воспользоваться гарантией","cat":"adj","level":3}
-{"sl":"uveljavljati pravice","ru":"отстаивать права","cat":"adj","level":3}
-{"sl":"vložiti pritožbo","ru":"подать жалобу","cat":"adj","level":3}
-{"sl":"pogajati se o ceni","ru":"торговаться о цене","cat":"adj","level":3}
-{"sl":"preurediti stanovanje","ru":"перепланировать квартиру","cat":"adj","level":3}
-{"sl":"skleniti hipoteko","ru":"взять ипотеку","cat":"adj","level":3}
-{"sl":"upravljati s premoženjem","ru":"управлять имуществом","cat":"adj","level":3}
+{"sl":"iti spat","ru":"идти спать","cat":"phrase","level":3}
+{"sl":"zobati zobe","ru":"чистить зубы","cat":"phrase","level":3}
+{"sl":"umiti roke","ru":"мыть руки","cat":"phrase","level":3}
+{"sl":"odpreti vrata","ru":"открыть дверь","cat":"phrase","level":3}
+{"sl":"zapreti okno","ru":"закрыть окно","cat":"phrase","level":3}
+{"sl":"prižgati luč","ru":"включить свет","cat":"phrase","level":3}
+{"sl":"ugasniti luč","ru":"выключить свет","cat":"phrase","level":3}
+{"sl":"skuhati kavo","ru":"приготовить кофе","cat":"phrase","level":3}
+{"sl":"pojesti zajtrk","ru":"позавтракать","cat":"phrase","level":3}
+{"sl":"pospraviti sobo","ru":"убрать комнату","cat":"phrase","level":3}
+{"sl":"oditi od doma","ru":"уйти из дома","cat":"phrase","level":3}
+{"sl":"priti domov","ru":"прийти домой","cat":"phrase","level":3}
+{"sl":"odpreti hladilnik","ru":"открыть холодильник","cat":"phrase","level":3}
+{"sl":"nastaviti budilko","ru":"поставить будильник","cat":"phrase","level":3}
+{"sl":"vzeti ključe","ru":"взять ключи","cat":"phrase","level":3}
+{"sl":"plačati položnice","ru":"оплатить счета","cat":"phrase","level":3}
+{"sl":"naročiti dostavo","ru":"заказать доставку","cat":"phrase","level":3}
+{"sl":"rezervirati mizo","ru":"зарезервировать стол","cat":"phrase","level":3}
+{"sl":"klicati taksi","ru":"вызвать такси","cat":"phrase","level":3}
+{"sl":"iti po nakupih","ru":"идти за покупками","cat":"phrase","level":3}
+{"sl":"poiskati parkirišče","ru":"найти парковку","cat":"phrase","level":3}
+{"sl":"čakati v vrsti","ru":"стоять в очереди","cat":"phrase","level":3}
+{"sl":"oditi na dopust","ru":"уйти в отпуск","cat":"phrase","level":3}
+{"sl":"prenesti prtljago","ru":"перенести багаж","cat":"phrase","level":3}
+{"sl":"preveriti e-pošto","ru":"проверить почту","cat":"phrase","level":3}
+{"sl":"urediti sestanak","ru":"назначить встречу","cat":"phrase","level":3}
+{"sl":"odpovedati naročilo","ru":"отменить заказ","cat":"phrase","level":3}
+{"sl":"urediti papirje","ru":"оформить документы","cat":"phrase","level":3}
+{"sl":"obnoviti potni list","ru":"обновить паспорт","cat":"phrase","level":3}
+{"sl":"prijaviti se na tečaj","ru":"записаться на курс","cat":"phrase","level":3}
+{"sl":"oddati vlogo","ru":"подать заявление","cat":"phrase","level":3}
+{"sl":"urejati davke","ru":"разбираться с налогами","cat":"phrase","level":3}
+{"sl":"skleniti pogodbo","ru":"заключить договор","cat":"phrase","level":3}
+{"sl":"najeti stanovanje","ru":"снять квартиру","cat":"phrase","level":3}
+{"sl":"prijaviti okvaro","ru":"сообщить о неисправности","cat":"phrase","level":3}
+{"sl":"uveljavljati garancijo","ru":"воспользоваться гарантией","cat":"phrase","level":3}
+{"sl":"uveljavljati pravice","ru":"отстаивать права","cat":"phrase","level":3}
+{"sl":"vložiti pritožbo","ru":"подать жалобу","cat":"phrase","level":3}
+{"sl":"pogajati se o ceni","ru":"торговаться о цене","cat":"phrase","level":3}
+{"sl":"preurediti stanovanje","ru":"перепланировать квартиру","cat":"phrase","level":3}
+{"sl":"skleniti hipoteko","ru":"взять ипотеку","cat":"phrase","level":3}
+{"sl":"upravljati s premoženjem","ru":"управлять имуществом","cat":"phrase","level":3}
 {"sl":"prestrašen","ru":"испуганный","cat":"adj","level":2}
 {"sl":"biti srečen","ru":"быть счастливым","cat":"adj","level":3}
 {"sl":"biti žalosten","ru":"быть грустным","cat":"adj","level":3}
@@ -1254,8 +1254,8 @@
 {"sl":"čustvena odpornost","ru":"эмоциональная устойчивость","cat":"adj","level":3}
 {"sl":"notranja motivacija","ru":"внутренняя мотивация","cat":"adj","level":3}
 {"sl":"sneži","ru":"идёт снег","cat":"weather","level":2}
-{"sl":"sije sonce","ru":"светит солнце","cat":"adj","level":3}
-{"sl":"piha veter","ru":"дует ветер","cat":"adj","level":3}
+{"sl":"sije sonce","ru":"светит солнце","cat":"phrase","level":3}
+{"sl":"piha veter","ru":"дует ветер","cat":"phrase","level":3}
 {"sl":"nebo","ru":"небо","cat":"place","level":2}
 {"sl":"oblak","ru":"облако","cat":"weather","level":2}
 {"sl":"mavrica","ru":"радуга","cat":"place","level":2}
@@ -1295,9 +1295,9 @@
 {"sl":"razgradnja okolja","ru":"деградация окружающей среды","cat":"adj","level":3}
 {"sl":"ohranjanje narave","ru":"охрана природы","cat":"adj","level":3}
 {"sl":"okoljska politika","ru":"экологическая политика","cat":"adj","level":3}
-{"sl":"lačen sem","ru":"я голоден","cat":"adj","level":3}
-{"sl":"žejen sem","ru":"я хочу пить","cat":"adj","level":3}
-{"sl":"hočem jesti","ru":"хочу есть","cat":"adj","level":3}
+{"sl":"lačen sem","ru":"я голоден","cat":"phrase","level":3}
+{"sl":"žejen sem","ru":"я хочу пить","cat":"phrase","level":3}
+{"sl":"hočem jesti","ru":"хочу есть","cat":"phrase","level":3}
 {"sl":"vroče","ru":"горячее","cat":"adverb","level":2}
 {"sl":"sladko","ru":"сладкое","cat":"adverb","level":2}
 {"sl":"kislo","ru":"кислое","cat":"adverb","level":2}
@@ -1315,9 +1315,9 @@
 {"sl":"meni","ru":"меню","cat":"thing","level":2}
 {"sl":"napitnina","ru":"чаевые","cat":"info","level":2}
 {"sl":"postrežba","ru":"обслуживание","cat":"info","level":2}
-{"sl":"kuhati na žaru","ru":"готовить на гриле","cat":"adj","level":3}
-{"sl":"peči v pečici","ru":"печь в духовке","cat":"adj","level":3}
-{"sl":"kuhati na pari","ru":"готовить на пару","cat":"adj","level":3}
+{"sl":"kuhati na žaru","ru":"готовить на гриле","cat":"phrase","level":3}
+{"sl":"peči v pečici","ru":"печь в духовке","cat":"phrase","level":3}
+{"sl":"kuhati na pari","ru":"готовить на пару","cat":"phrase","level":3}
 {"sl":"gastronomija","ru":"гастрономия","cat":"info","level":2}
 {"sl":"kulinarska tradicija","ru":"кулинарная традиция","cat":"adj","level":3}
 {"sl":"fermentirana hrana","ru":"ферментированная еда","cat":"adj","level":3}
@@ -1336,7 +1336,7 @@
 {"sl":"kulinarična fuzija","ru":"кулинарный фьюжн","cat":"adj","level":3}
 {"sl":"trajnostna prehrana","ru":"устойчивое питание","cat":"adj","level":3}
 {"sl":"prehrambna varnost","ru":"продовольственная безопасность","cat":"adj","level":3}
-{"sl":"oprati oblačila","ru":"постирать одежду","cat":"adj","level":3}
+{"sl":"oprati oblačila","ru":"постирать одежду","cat":"phrase","level":3}
 {"sl":"velikost","ru":"размер","cat":"info","level":2}
 {"sl":"barva","ru":"цвет","cat":"thing","level":2}
 {"sl":"modni trend","ru":"модный тренд","cat":"adj","level":3}
@@ -1364,13 +1364,13 @@
 {"sl":"fast fashion","ru":"быстрая мода","cat":"adj","level":3}
 {"sl":"etična moda","ru":"этичная мода","cat":"adj","level":3}
 {"sl":"greenwashing v modi","ru":"гринвошинг в моде","cat":"adj","level":3}
-{"sl":"boli me glava","ru":"у меня болит голова","cat":"adj","level":3}
-{"sl":"boli me trebuh","ru":"у меня болит живот","cat":"adj","level":3}
-{"sl":"boli me grlo","ru":"у меня болит горло","cat":"adj","level":3}
+{"sl":"boli me glava","ru":"у меня болит голова","cat":"phrase","level":3}
+{"sl":"boli me trebuh","ru":"у меня болит живот","cat":"phrase","level":3}
+{"sl":"boli me grlo","ru":"у меня болит горло","cat":"phrase","level":3}
 {"sl":"mrzlica","ru":"озноб","cat":"weather","level":2}
-{"sl":"slabo mi je","ru":"мне плохо","cat":"adj","level":3}
-{"sl":"poklicati zdravnika","ru":"вызвать врача","cat":"adj","level":3}
-{"sl":"vzeti zdravilo","ru":"принять лекарство","cat":"adj","level":3}
+{"sl":"slabo mi je","ru":"мне плохо","cat":"phrase","level":3}
+{"sl":"poklicati zdravnika","ru":"вызвать врача","cat":"phrase","level":3}
+{"sl":"vzeti zdravilo","ru":"принять лекарство","cat":"phrase","level":3}
 {"sl":"alergija","ru":"аллергija","cat":"body","level":2}
 {"sl":"astma","ru":"астма","cat":"body","level":2}
 {"sl":"sladkorna bolezen","ru":"сахарный диабет","cat":"adj","level":3}
@@ -1405,18 +1405,18 @@
 {"sl":"gensko zdravljenje","ru":"генная терапия","cat":"adj","level":3}
 {"sl":"klinična preskušanja","ru":"клинические испытания","cat":"adj","level":3}
 {"sl":"medicinska etika","ru":"медицинская этика","cat":"adj","level":3}
-{"sl":"iti peš","ru":"идти пешком","cat":"adj","level":3}
-{"sl":"voziti avto","ru":"водить машину","cat":"adj","level":3}
-{"sl":"sedeti v avtobusu","ru":"сидеть в автобусе","cat":"adj","level":3}
-{"sl":"kupiti karto","ru":"купить билет","cat":"adj","level":3}
-{"sl":"zamuditi vlak","ru":"опоздать на поезд","cat":"adj","level":3}
+{"sl":"iti peš","ru":"идти пешком","cat":"phrase","level":3}
+{"sl":"voziti avto","ru":"водить машину","cat":"phrase","level":3}
+{"sl":"sedeti v avtobusu","ru":"сидеть в автобусе","cat":"phrase","level":3}
+{"sl":"kupiti karto","ru":"купить билет","cat":"phrase","level":3}
+{"sl":"zamuditi vlak","ru":"опоздать на поезд","cat":"phrase","level":3}
 {"sl":"promet","ru":"дорожное движение","cat":"info","level":2}
 {"sl":"zastoj","ru":"пробка","cat":"info","level":2}
 {"sl":"obvoz","ru":"объезд","cat":"info","level":2}
 {"sl":"prehod za pešce","ru":"пешеходный переход","cat":"adj","level":3}
 {"sl":"kolesarska pot","ru":"велосипедная дорожка","cat":"adj","level":3}
 {"sl":"bencinska postaja","ru":"бензозаправка","cat":"adj","level":3}
-{"sl":"polniti gorivo","ru":"заправлять","cat":"adj","level":3}
+{"sl":"polniti gorivo","ru":"заправлять","cat":"phrase","level":3}
 {"sl":"električni avto","ru":"электромобиль","cat":"adj","level":3}
 {"sl":"hibridni avto","ru":"гибридный автомобиль","cat":"adj","level":3}
 {"sl":"podzemna železnica","ru":"метро","cat":"adj","level":3}
@@ -1438,12 +1438,12 @@
 {"sl":"dron dostava","ru":"доставка дронами","cat":"adj","level":3}
 {"sl":"pametna mesta","ru":"умные города","cat":"adj","level":3}
 {"sl":"upravljanje prometa","ru":"управление трафиком","cat":"adj","level":3}
-{"sl":"napolniti telefon","ru":"зарядить телефон","cat":"adj","level":3}
-{"sl":"poslati sporočilo","ru":"отправить сообщение","cat":"adj","level":3}
-{"sl":"narediti fotografijo","ru":"сделать фото","cat":"adj","level":3}
-{"sl":"iskati na internetu","ru":"искать в интернете","cat":"adj","level":3}
-{"sl":"prenesti aplikacijo","ru":"скачать приложение","cat":"adj","level":3}
-{"sl":"posodobiti programsko opremo","ru":"обновить ПО","cat":"adj","level":3}
+{"sl":"napolniti telefon","ru":"зарядить телефон","cat":"phrase","level":3}
+{"sl":"poslati sporočilo","ru":"отправить сообщение","cat":"phrase","level":3}
+{"sl":"narediti fotografijo","ru":"сделать фото","cat":"phrase","level":3}
+{"sl":"iskati na internetu","ru":"искать в интернете","cat":"phrase","level":3}
+{"sl":"prenesti aplikacijo","ru":"скачать приложение","cat":"phrase","level":3}
+{"sl":"posodobiti programsko opremo","ru":"обновить ПО","cat":"phrase","level":3}
 {"sl":"varnostna kopija","ru":"резервная копия","cat":"adj","level":3}
 {"sl":"oblačno shranjevanje","ru":"облачное хранилище","cat":"adj","level":3}
 {"sl":"socialna omrežja","ru":"социальные сети","cat":"adj","level":3}
