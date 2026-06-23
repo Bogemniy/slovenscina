@@ -214,7 +214,7 @@
 {"sl":"vse","ru":"все","cat":"pron","level":1}
 {"sl":"ali","ru":"или","cat":"phrase","level":2}
 {"sl":"in","ru":"и","cat":"phrase","level":2}
-{"sl":"Vem","ru":"Я знаю","cat":"adj","level":2}
+{"sl":"Vem","ru":"Я знаю","cat":"phrase","level":2}
 {"sl":"Ne vem","ru":"Я не знаю","cat":"phrase","level":3}
 {"sl":"imeti rad","ru":"нравиться","cat":"adj","level":3}
 {"sl":"Všeč si mi","ru":"Ты мне нравишься","cat":"phrase","level":3}
@@ -511,7 +511,7 @@
 {"sl":"restavracija","ru":"ресторан","cat":"shop","level":1}
 {"sl":"bar","ru":"бар","cat":"place","level":2}
 {"sl":"fitnes center","ru":"тренажерный зал","cat":"adj","level":3}
-{"sl":"WC","ru":"туалет","cat":"adj","level":2}
+{"sl":"WC","ru":"туалет","cat":"place","level":2}
 {"sl":"zemljevid","ru":"карта","cat":"thing","level":2}
 {"sl":"rešilec","ru":"скорая помощь","cat":"transport","level":2}
 {"sl":"policija","ru":"полиция","cat":"people","level":2}
@@ -695,7 +695,7 @@
 {"sl":"platno","ru":"экран","cat":"info","level":2}
 {"sl":"glasba","ru":"музыка","cat":"thing","level":2}
 {"sl":"oder","ru":"сцена","cat":"home","level":2}
-{"sl":"občinstvo","ru":"зритель","cat":"adj","level":2}
+{"sl":"občinstvo","ru":"зритель","cat":"people","level":2}
 {"sl":"šala","ru":"шутка","cat":"thing","level":2}
 {"sl":"članek","ru":"статья","cat":"info","level":2}
 {"sl":"časopis","ru":"газета","cat":"thing","level":2}
@@ -721,7 +721,7 @@
 {"sl":"ocean","ru":"океан","cat":"place","level":2}
 {"sl":"vreme","ru":"погода","cat":"weather","level":2}
 {"sl":"led","ru":"лед","cat":"place","level":2}
-{"sl":"sneg","ru":"снег","cat":"adj","level":1}
+{"sl":"sneg","ru":"снег","cat":"weather","level":1}
 {"sl":"nevihta","ru":"буря","cat":"weather","level":2}
 {"sl":"dež","ru":"дождь","cat":"weather","level":1}
 {"sl":"veter","ru":"ветер","cat":"weather","level":1}
@@ -747,7 +747,7 @@
 {"sl":"babica","ru":"бабушка","cat":"family","level":2}
 {"sl":"dedek","ru":"дедушка","cat":"family","level":2}
 {"sl":"smrt","ru":"смерть","cat":"info","level":2}
-{"sl":"grob","ru":"могила","cat":"adj","level":2}
+{"sl":"grob","ru":"могила","cat":"place","level":2}
 {"sl":"ločitev","ru":"развод","cat":"info","level":2}
 {"sl":"nevesta","ru":"невеста","cat":"people","level":2}
 {"sl":"ženin","ru":"жених","cat":"people","level":2}
@@ -978,7 +978,7 @@
 {"sl":"vljuden","ru":"вежливый","cat":"adj","level":2}
 {"sl":"simpatičen","ru":"симпатичный","cat":"adj","level":2}
 {"sl":"sploh","ru":"совсем","cat":"phrase","level":2}
-{"sl":"predvsem","ru":"прежде всего","cat":"adj","level":2}
+{"sl":"predvsem","ru":"прежде всего","cat":"phrase","level":2}
 {"sl":"prosti","ru":"свободный","cat":"adj","level":2}
 {"sl":"ko","ru":"когда","cat":"phrase","level":2}
 {"sl":"pa","ru":"а","cat":"phrase","level":2}
@@ -1312,7 +1312,7 @@
 {"sl":"organska hrana","ru":"органическая еда","cat":"adj","level":3}
 {"sl":"hitra hrana","ru":"фастфуд","cat":"adj","level":3}
 {"sl":"domača kuhinja","ru":"домашняя кухня","cat":"adj","level":3}
-{"sl":"meni","ru":"меню","cat":"adj","level":2}
+{"sl":"meni","ru":"меню","cat":"food","level":2}
 {"sl":"napitnina","ru":"чаевые","cat":"info","level":2}
 {"sl":"postrežba","ru":"обслуживание","cat":"info","level":2}
 {"sl":"kuhati na žaru","ru":"готовить на гриле","cat":"adj","level":3}
@@ -1901,7 +1901,13 @@
 {"sl":"oblačnost","ru":"облачность","cat":"weather","level":2}
 {"sl":"severni veter","ru":"северный ветер","cat":"weather","level":3}
 {"sl":"jugozahodnik","ru":"юго-западный ветер","cat":"weather","level":2}
-{"sl":"povprečen","ru":"средний","cat":"adj","level":3}
 {"sl":"rahel","ru":"слабый, лёгкий","cat":"adj","level":2}
 {"sl":"vihar","ru":"буря, шторм","cat":"weather","level":2}
 {"sl":"snežni vihar","ru":"метель, буран","cat":"weather","level":3}
+{"sl":"gotovina","ru":"наличные","cat":"shop","level":2}
+{"sl":"kartica","ru":"карта (банковская)","cat":"shop","level":2}
+{"sl":"popust","ru":"скидка","cat":"shop","level":2}
+{"sl":"drobiž","ru":"мелочь, сдача","cat":"shop","level":2}
+{"sl":"blagajna","ru":"касса","cat":"shop","level":2}
+{"sl":"odgovor","ru":"ответ","cat":"info","level":2}
+{"sl":"vijoličen","ru":"фиолетовый","cat":"color","level":2}
