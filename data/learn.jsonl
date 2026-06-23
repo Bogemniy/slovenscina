@@ -316,7 +316,7 @@
 {"sl":"pisarna","ru":"офис","cat":"thing","level":2}
 {"sl":"zdravnik","ru":"врач","cat":"job","level":2}
 {"sl":"bolnišnica","ru":"больница","cat":"place","level":1}
-{"sl":"medicinska sestra","ru":"медсестра","cat":"adj","level":3}
+{"sl":"medicinska sestra","ru":"медсестра","cat":"job","level":3}
 {"sl":"predsednik","ru":"президент","cat":"job","level":2}
 {"sl":"bel","ru":"белый","cat":"color","level":2}
 {"sl":"črn","ru":"черный","cat":"color","level":2}
@@ -638,15 +638,15 @@
 {"sl":"oddelek","ru":"отдел","cat":"info","level":2}
 {"sl":"plača","ru":"зарплата","cat":"info","level":2}
 {"sl":"pismo","ru":"письмо","cat":"thing","level":2}
-{"sl":"kapitan","ru":"капитан","cat":"adj","level":2}
+{"sl":"kapitan","ru":"капитан","cat":"job","level":2}
 {"sl":"detektiv","ru":"детектив","cat":"job","level":2}
 {"sl":"učitelj","ru":"учитель","cat":"job","level":2}
 {"sl":"odvetnik","ru":"адвокат","cat":"job","level":2}
 {"sl":"tajnica","ru":"секретарь","cat":"job","level":2}
 {"sl":"pomočnik","ru":"помощник","cat":"job","level":2}
 {"sl":"sodnik","ru":"судья","cat":"job","level":2}
-{"sl":"voznik taksija","ru":"водитель такси","cat":"adj","level":3}
-{"sl":"voznik avtobusa","ru":"водитель автобуса","cat":"adj","level":3}
+{"sl":"voznik taksija","ru":"водитель такси","cat":"job","level":3}
+{"sl":"voznik avtobusa","ru":"водитель автобуса","cat":"job","level":3}
 {"sl":"kriminalec","ru":"преступник","cat":"people","level":2}
 {"sl":"model","ru":"модель","cat":"info","level":2}
 {"sl":"umetnik","ru":"художник","cat":"job","level":2}
@@ -1359,7 +1359,7 @@
 {"sl":"ročno narejena oblačila","ru":"одежда ручной работы","cat":"adj","level":3}
 {"sl":"haute couture","ru":"от кутюр","cat":"adj","level":3}
 {"sl":"prêt-à-porter","ru":"прет-а-порте","cat":"adj","level":2}
-{"sl":"modni oblikovalec","ru":"модельер","cat":"adj","level":3}
+{"sl":"modni oblikovalec","ru":"модельер","cat":"job","level":3}
 {"sl":"tekstilne vlakne","ru":"текстильные волокна","cat":"adj","level":3}
 {"sl":"fast fashion","ru":"быстрая мода","cat":"adj","level":3}
 {"sl":"etična moda","ru":"этичная мода","cat":"adj","level":3}
