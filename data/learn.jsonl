@@ -1924,3 +1924,12 @@
 {"sl":"spalna vrečka","ru":"спальный мешок","cat":"thing","level":3}
 {"sl":"afna","ru":"собака (символ @)","cat":"thing","level":2}
 {"sl":"pika","ru":"точка","cat":"thing","level":2}
+{"sl":"recepcija","ru":"ресепшн / стойка регистрации","cat":"thing","level":2}
+{"sl":"receptor","ru":"администратор (на ресепшене)","cat":"job","level":2}
+{"sl":"rezervacija","ru":"бронь, резервация","cat":"thing","level":2}
+{"sl":"osebna izkaznica","ru":"удостоверение личности","cat":"info","level":3}
+{"sl":"prtljaga","ru":"багаж","cat":"transport","level":2}
+{"sl":"naokoli","ru":"вокруг, поблизости","cat":"where","level":2}
+{"sl":"trenutek","ru":"момент, минутка","cat":"time","level":2}
+{"sl":"brezplačno","ru":"бесплатно","cat":"adj","level":2}
+{"sl":"klubska soba","ru":"клубная комната","cat":"place","level":3}
