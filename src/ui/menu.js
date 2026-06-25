@@ -7,14 +7,21 @@ export function renderMenu() {
     <div class="menu-flag">🇸🇮</div>
     <div class="menu-title">Slovenščina</div>
     <div class="menu-sub">${state.WORDS.length} besed · ${state.VERBS.length} glagolov · ${state.SENTENCES.length} stavkov</div>
-    <button class="menu-btn" style="background:linear-gradient(135deg,rgba(99,102,241,.18),rgba(79,70,229,.1));border:1px solid rgba(99,102,241,.25);color:#a5b4fc" onclick="startLesson()">📚 Lekcija</button>
+
+    <button class="menu-btn table-btn" style="font-size:17px;padding:16px" onclick="startGrammar()">📐 Slovnica</button>
+    <div style="display:flex;gap:6px;margin-top:6px">
+      <button class="menu-btn table-btn" style="flex:1;font-size:17px;padding:16px;margin:0" onclick="showBesednjak()">📖 Besednjak</button>
+      <button class="menu-btn table-btn" style="flex:1;font-size:17px;padding:16px;margin:0" onclick="showVerbList('present',true)">🔤 Glagoli</button>
+    </div>
+
+    <div class="divider"></div>
+
     <button class="menu-btn" style="background:linear-gradient(135deg,rgba(52,211,153,.18),rgba(16,185,129,.1));border:1px solid rgba(52,211,153,.25);color:#6ee7b7" onclick="startLearn()">🧠 Hočem vedeti</button>
-<button class="menu-btn" style="background:linear-gradient(135deg,rgba(252,211,77,.18),rgba(245,158,11,.1));border:1px solid rgba(252,211,77,.25);color:#fcd34d" onclick="startReading()">📖 Branje in razumevanje</button>
-<button class="menu-btn" style="background:linear-gradient(135deg,rgba(249,168,212,.18),rgba(236,72,153,.1));border:1px solid rgba(249,168,212,.25);color:#f9a8d4" onclick="startVerbs()">🔤 Spregatve glagolov</button>
-    <button class="menu-btn table-btn" style="margin-top:6px" onclick="showVerbList('present',true)">📖 Tabele spregatev</button>
-    <button class="menu-btn table-btn" style="margin-top:6px" onclick="showBesednjak()">📖 Besednjak</button>
-    <button class="menu-btn table-btn" style="margin-top:6px" onclick="startGrammar()">📐 Slovnica</button>
-<div class="divider"></div>
+    <button class="menu-btn" style="background:linear-gradient(135deg,rgba(249,168,212,.18),rgba(236,72,153,.1));border:1px solid rgba(249,168,212,.25);color:#f9a8d4" onclick="startVerbs()">🔤 Spregatve glagolov</button>
+    <button class="menu-btn" style="background:linear-gradient(135deg,rgba(99,102,241,.18),rgba(79,70,229,.1));border:1px solid rgba(99,102,241,.25);color:#a5b4fc" onclick="startLesson()">📚 Lekcija</button>
+    <button class="menu-btn" style="background:linear-gradient(135deg,rgba(252,211,77,.18),rgba(245,158,11,.1));border:1px solid rgba(252,211,77,.25);color:#fcd34d" onclick="startReading()">📖 Branje in razumevanje</button>
+
+    <div class="divider"></div>
     <div id="auth-status" style="display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:#1a1a1a;border-radius:14px;border:1px solid rgba(255,255,255,.07);min-height:46px"></div>
   </div>`;
   updateAuthBar();
