@@ -15,6 +15,7 @@ function tenseTabs(tense, onClickFn) {
 }
 
 export function startVerbs() {
+  state.verbSearchQuery = "";
   state.ui = { mode: "verbs-menu" };
   renderVerbsMenu();
 }
@@ -154,7 +155,8 @@ export function retryVerbMistakes() {
 }
 
 // --- VERB TABLE ---
-export function showVerbList(tense = "present") {
+export function showVerbList(tense = "present", resetSearch = false) {
+  if (resetSearch) state.verbSearchQuery = "";
   const groups = [
     { id: "vg1", label: "🌱 Osnovno", level: 1, open: false },
     { id: "vg2", label: "📚 Srednje",  level: 2, open: false },
@@ -188,28 +190,47 @@ export function showVerbList(tense = "present") {
     <div id="verb-search-results" style="display:none"></div>
     <div id="verb-sections">${sectionsHTML}</div>
   </div>`;
+  const sq = state.verbSearchQuery || "";
+  if (sq) {
+    const inp = document.getElementById("verb-search");
+    if (inp) { inp.value = sq; filterVerbs(sq, tense); }
+  }
 }
 
 export function filterVerbs(query, tense = "present") {
   const q = query.trim().toLowerCase();
+  state.verbSearchQuery = query;
   const resultsDiv = document.getElementById("verb-search-results");
   const sectionsDiv = document.getElementById("verb-sections");
   if (!q) {
     resultsDiv.style.display = "none";
     sectionsDiv.style.display = "block";
+    resultsDiv.innerHTML = "";
     return;
   }
-  const matches = state.VERBS
-    .map((v, i) => ({ v, i }))
-    .filter(({ v }) => {
-      const allForms = [v.inf, v.ru, ...Object.values(v.forms || {}), ...Object.values(v.past || {}), ...Object.values(v.future || {})];
-      return allForms.some(f => f.toLowerCase().includes(q));
-    });
   resultsDiv.style.display = "block";
   sectionsDiv.style.display = "none";
-  resultsDiv.innerHTML = matches.length === 0
-    ? '<div style="text-align:center;color:#777;padding:20px">Ni rezultatov</div>'
-    : '<div class="verb-grid">' + matches.map(({ v, i }) => `<button class="verb-chip" onclick="showVerbTable(${i},'${tense}')">${v.inf}</button>`).join("") + '</div>';
+
+  const matchIn = (vals) => (vals || []).some(f => f && f.toLowerCase().includes(q));
+  const timeSections = [
+    { key: "present", label: "Sedanjik", forms: (v) => Object.values(v.forms || {}) },
+    { key: "past",    label: "Preteklik", forms: (v) => Object.values(v.past || {}) },
+    { key: "future",  label: "Prihodnjik", forms: (v) => Object.values(v.future || {}) },
+  ];
+
+  const html = timeSections.map(({ key, label, forms }) => {
+    const inSection = state.VERBS
+      .map((v, i) => ({ v, i }))
+      .filter(({ v }) => matchIn([v.inf, v.ru]) || matchIn(forms(v)));
+    if (inSection.length === 0) return "";
+    const chips = inSection.map(({ v, i }) => `<button class="verb-chip" onclick="showVerbTable(${i},'${key}')">${v.inf}</button>`).join("");
+    return `<div style="margin-bottom:14px">
+      <div style="font-size:13px;font-weight:600;color:#f9a8d4;margin-bottom:8px;padding-bottom:6px;border-bottom:1px solid rgba(255,255,255,.1)">${label} <span style="opacity:.6">(${inSection.length})</span></div>
+      <div class="verb-grid">${chips}</div>
+    </div>`;
+  }).join("");
+
+  resultsDiv.innerHTML = html || '<div style="text-align:center;color:#777;padding:20px">Ni rezultatov</div>';
 }
 
 export function showVerbTable(i, tense = "present") {
