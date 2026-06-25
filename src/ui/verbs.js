@@ -210,33 +210,26 @@ export function filterVerbs(query, tense = "present") {
   }
   resultsDiv.style.display = "block";
   sectionsDiv.style.display = "none";
-
-  const matchIn = (vals) => (vals || []).some(f => f && f.toLowerCase().includes(q));
-  const timeSections = [
-    { key: "present", label: "Sedanjik", forms: (v) => Object.values(v.forms || {}) },
-    { key: "past",    label: "Preteklik", forms: (v) => Object.values(v.past || {}) },
-    { key: "future",  label: "Prihodnjik", forms: (v) => Object.values(v.future || {}) },
-  ];
-
-  const html = timeSections.map(({ key, label, forms }) => {
-    const inSection = state.VERBS
-      .map((v, i) => ({ v, i }))
-      .filter(({ v }) => matchIn([v.inf, v.ru]) || matchIn(forms(v)));
-    if (inSection.length === 0) return "";
-    const chips = inSection.map(({ v, i }) => `<button class="verb-chip" onclick="showVerbTable(${i},'${key}')">${v.inf}</button>`).join("");
-    return `<div style="margin-bottom:14px">
-      <div style="font-size:13px;font-weight:600;color:#f9a8d4;margin-bottom:8px;padding-bottom:6px;border-bottom:1px solid rgba(255,255,255,.1)">${label} <span style="opacity:.6">(${inSection.length})</span></div>
-      <div class="verb-grid">${chips}</div>
-    </div>`;
-  }).join("");
-
-  resultsDiv.innerHTML = html || '<div style="text-align:center;color:#777;padding:20px">Ni rezultatov</div>';
+  const matches = state.VERBS
+    .map((v, i) => ({ v, i }))
+    .filter(({ v }) => {
+      const allForms = [v.inf, v.ru, ...Object.values(v.forms || {}), ...Object.values(v.past || {}), ...Object.values(v.future || {})];
+      return allForms.some(f => f && f.toLowerCase().includes(q));
+    });
+  resultsDiv.innerHTML = matches.length === 0
+    ? '<div style="text-align:center;color:#777;padding:20px">Ni rezultatov</div>'
+    : '<div class="verb-grid">' + matches.map(({ v, i }) => `<button class="verb-chip" onclick="showVerbTable(${i},'present')">${v.inf}</button>`).join("") + '</div>';
 }
 
 export function showVerbTable(i, tense = "present") {
   const v = state.VERBS[i];
   const isPast = tense === "past";
   const isFuture = tense === "future";
+  const tabs = `<div style="display:flex;gap:6px;margin:12px 0">
+    <button style="${tense === "present" ? TAB_ACTIVE : TAB_INACTIVE}" onclick="showVerbTable(${i},'present')">Sedanjik</button>
+    <button style="${tense === "past" ? TAB_ACTIVE : TAB_INACTIVE}" onclick="showVerbTable(${i},'past')">Preteklik</button>
+    <button style="${tense === "future" ? TAB_ACTIVE : TAB_INACTIVE}" onclick="showVerbTable(${i},'future')">Prihodnjik</button>
+  </div>`;
   const header = (isPast || isFuture)
     ? `<div class="table-header"><span style="flex:1">zaimek</span><span class="pos" style="flex:2;text-align:left;padding-left:8px">${isFuture ? "prihodnjik" : "preteklik"}</span></div>`
     : `<div class="table-header"><span style="flex:1">zaimek</span><span class="pos" style="flex:1;text-align:center">✓</span><span class="neg" style="flex:1;text-align:right">✗</span></div>`;
@@ -246,8 +239,8 @@ export function showVerbTable(i, tense = "present") {
   app().innerHTML = `<div class="table-card">
     <button class="back-btn" onclick="showVerbList('${tense}')">← Nazaj</button>
     <div class="table-inf">${v.inf}</div><div class="table-ru">${v.ru}</div>
+    ${tabs}
     ${header}
     ${rows}
-    <div style="margin-top:16px"><button class="back-btn" onclick="showVerbList('${tense}')">← Vsi glagoli</button></div>
   </div>`;
 }
