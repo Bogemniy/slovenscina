@@ -1933,3 +1933,24 @@
 {"sl":"trenutek","ru":"момент, минутка","cat":"time","level":2}
 {"sl":"brezplačno","ru":"бесплатно","cat":"adj","level":2}
 {"sl":"klubska soba","ru":"клубная комната","cat":"place","level":3}
+{"sl":"ničesar novega","ru":"ничего нового","cat":"phrase","level":3}
+{"sl":"nič novega","ru":"ничего нового","cat":"phrase","level":3}
+{"sl":"pranje","ru":"стирка","cat":"thing","level":2}
+{"sl":"lasje","ru":"волосы (мн.ч.)","cat":"body","level":2}
+{"sl":"likalnik","ru":"утюг","cat":"home","level":2}
+{"sl":"fen","ru":"фен","cat":"home","level":2}
+{"sl":"samopostrežen","ru":"самообслуживания","cat":"adj","level":2}
+{"sl":"dvigalo","ru":"лифт","cat":"home","level":2}
+{"sl":"čiščenje sob","ru":"уборка номеров","cat":"thing","level":3}
+{"sl":"storitev","ru":"услуга","cat":"thing","level":2}
+{"sl":"odhod","ru":"отъезд","cat":"thing","level":2}
+{"sl":"pozni","ru":"поздний","cat":"adj","level":2}
+{"sl":"ribolov","ru":"рыбалка","cat":"activity","level":2}
+{"sl":"jahati konja","ru":"ездить верхом","cat":"phrase","level":3}
+{"sl":"vljudno","ru":"вежливо","cat":"adj","level":2}
+{"sl":"trebušček","ru":"животик","cat":"body","level":2}
+{"sl":"križišče","ru":"перекрёсток","cat":"where","level":2}
+{"sl":"križ","ru":"крест","cat":"thing","level":2}
+{"sl":"pot","ru":"путь, дорога","cat":"where","level":2}
+{"sl":"boljše","ru":"лучше (вариант)","cat":"adj","level":2}
+{"sl":"vzeti taksi","ru":"взять такси","cat":"phrase","level":3}
