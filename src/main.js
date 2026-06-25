@@ -32,6 +32,7 @@ import {
 } from "./ui/lesson.js";
 import { showProgress } from "./ui/progress.js";
 import { showBesednjak, filterBesednjak } from "./ui/besednjak.js";
+import { startGrammar, showGrammarTopic } from "./ui/grammar.js";
 import { initFirebase, fbSignIn, fbSignOut } from "./firebase-sync.js";
 
 async function bootstrap() {
@@ -82,6 +83,7 @@ async function bootstrap() {
     // progress
     showProgress,
     showBesednjak, filterBesednjak,
+    startGrammar, showGrammarTopic,
     // firebase
     fbSignIn, fbSignOut,
   });
