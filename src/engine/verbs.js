@@ -29,6 +29,28 @@ export function genVerbPastQuiz(n = 10, level = 0) {
   return reordered.map((q) => ({ ...q, negative: false, options: genVerbPastOptions(q.verb, q.pronoun) }));
 }
 
+export function genVerbFutureOptions(v, p) {
+  const correct = v.future[p];
+  const others = state.PRONOUNS.filter((x) => x !== p).map((x) => v.future[x]).filter((x) => x !== correct);
+  return shuffle([correct, ...shuffle([...new Set(others)]).slice(0, 2)]);
+}
+
+export function genVerbFutureQuiz(n = 10, level = 0) {
+  const allVerbs = level === 0 ? state.VERBS : state.VERBS.filter((v) => v.level === level);
+  const pool = allVerbs.filter((v) => v.future);
+  const combos = [];
+  for (const v of pool) for (const p of state.PRONOUNS) combos.push({ verb: v, pronoun: p });
+  const picked = shuffle(combos).slice(0, n);
+  const reordered = [];
+  const rem = [...picked];
+  while (rem.length > 0) {
+    const last = reordered.length ? reordered[reordered.length - 1].pronoun : null;
+    const idx = rem.findIndex((q) => q.pronoun !== last);
+    reordered.push(idx >= 0 ? rem.splice(idx, 1)[0] : rem.shift());
+  }
+  return reordered.map((q) => ({ ...q, negative: false, options: genVerbFutureOptions(q.verb, q.pronoun) }));
+}
+
 export function genVerbQuiz(n = 10, level = 0) {
   const pool = level === 0 ? state.VERBS : state.VERBS.filter((v) => v.level === level);
   if (state.verbQueue.length < n) {

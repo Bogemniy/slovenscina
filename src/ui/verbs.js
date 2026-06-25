@@ -1,5 +1,5 @@
 import { state, shuffle, getNegForm } from "../state.js";
-import { genVerbQuiz, genVerbPastQuiz, genVerbOptions, genVerbPastOptions } from "../engine/verbs.js";
+import { genVerbQuiz, genVerbPastQuiz, genVerbFutureQuiz, genVerbOptions, genVerbPastOptions, genVerbFutureOptions } from "../engine/verbs.js";
 import { app } from "./dom.js";
 
 const TAB_ACTIVE = `flex:1;padding:8px;border-radius:8px;border:1px solid rgba(249,168,212,.4);background:rgba(249,168,212,.15);color:#f9a8d4;font-size:13px;font-weight:600;cursor:pointer`;
@@ -10,7 +10,7 @@ function tenseTabs(tense, onClickFn) {
   return `<div style="display:flex;gap:6px;margin-bottom:18px">
     <button style="${tense === "present" ? TAB_ACTIVE : TAB_INACTIVE}" onclick="${onClickFn}('present')">Sedanjik</button>
     <button style="${tense === "past" ? TAB_ACTIVE : TAB_INACTIVE}" onclick="${onClickFn}('past')">Preteklik</button>
-    <button style="${TAB_DISABLED}" disabled>Prihodnjik</button>
+    <button style="${tense === "future" ? TAB_ACTIVE : TAB_INACTIVE}" onclick="${onClickFn}('future')">Prihodnjik</button>
   </div>`;
 }
 
@@ -39,7 +39,8 @@ export function renderVerbsMenu(tense = "present") {
 }
 
 export function startVerbsLevel(level, tense = "present") {
-  const cards = (tense === "past" ? genVerbPastQuiz(10, level) : genVerbQuiz(10, level)).map(c => ({ ...c, answeredWith: null }));
+  const gen = tense === "past" ? genVerbPastQuiz : tense === "future" ? genVerbFutureQuiz : genVerbQuiz;
+  const cards = gen(10, level).map(c => ({ ...c, answeredWith: null }));
   state.ui = { mode: "verbs-quiz", verbLevel: level, tense, cards, current: 0, selected: null, score: 0, mistakes: [], streak: 0, bestStreak: 0 };
   renderVerbsQuiz();
 }
@@ -48,7 +49,8 @@ export function renderVerbsQuiz() {
   const { cards, current, selected, score, streak, tense } = state.ui;
   const c = cards[current];
   const isPast = tense === "past";
-  const correctAns = isPast ? c.verb.past[c.pronoun] : (c.negative ? getNegForm(c.verb, c.pronoun) : c.verb.forms[c.pronoun]);
+  const isFuture = tense === "future";
+  const correctAns = isPast ? c.verb.past[c.pronoun] : isFuture ? c.verb.future[c.pronoun] : (c.negative ? getNegForm(c.verb, c.pronoun) : c.verb.forms[c.pronoun]);
   const restoredState = selected === null && c.answeredWith !== null;
   const displayAns = selected !== null ? selected : (restoredState ? c.answeredWith : null);
   app().innerHTML = `<div>
@@ -56,12 +58,12 @@ export function renderVerbsQuiz() {
     <div class="progress-track verbs"><div class="progress-fill verbs" style="width:${(current / cards.length) * 100}%"></div></div>
     ${streak >= 3 ? `<div class="streak">🔥 ${streak} zapored!</div>` : ""}
     <div class="card verbs">
-      <div class="card-label verbs">${isPast ? "Preteklik" : "Glagol"}</div>
+      <div class="card-label verbs">${isPast ? "Preteklik" : isFuture ? "Prihodnjik" : "Glagol"}</div>
       <div class="card-word">${c.verb.inf}</div>
       <div class="card-sub">${c.verb.ru}</div>
-      ${!isPast && c.negative ? '<div class="neg-badge">NEGATIVNO</div>' : ""}
+      ${!isPast && !isFuture && c.negative ? '<div class="neg-badge">NEGATIVNO</div>' : ""}
       <div class="pronoun-box"><span class="pronoun-label">${c.pronoun}</span></div>
-      <div class="card-hint">${isPast ? "Izberi obliko preteklika:" : (c.negative ? "Izberi nikalno obliko:" : "Izberi pravilno obliko:")}</div>
+      <div class="card-hint">${isPast ? "Izberi obliko preteklika:" : isFuture ? "Izberi obliko prihodnjika:" : (c.negative ? "Izberi nikalno obliko:" : "Izberi pravilno obliko:")}</div>
     </div>
     <div class="options">${c.options
       .map((o, i) => {
@@ -82,7 +84,8 @@ export function selectVerb(i) {
   if (state.ui.selected !== null || state.ui.cards[state.ui.current].answeredWith !== null) return;
   const c = state.ui.cards[state.ui.current];
   const isPast = state.ui.tense === "past";
-  const correctAns = isPast ? c.verb.past[c.pronoun] : (c.negative ? getNegForm(c.verb, c.pronoun) : c.verb.forms[c.pronoun]);
+  const isFuture = state.ui.tense === "future";
+  const correctAns = isPast ? c.verb.past[c.pronoun] : isFuture ? c.verb.future[c.pronoun] : (c.negative ? getNegForm(c.verb, c.pronoun) : c.verb.forms[c.pronoun]);
   state.ui.selected = c.options[i];
   c.answeredWith = c.options[i];
   if (state.ui.selected === correctAns) {
@@ -113,12 +116,13 @@ export function renderVerbsResult() {
   const pct = Math.round((score / cards.length) * 100);
   const emoji = pct === 100 ? "🏆" : pct >= 80 ? "🌟" : pct >= 60 ? "👍" : "💪";
   const isPast = tense === "past";
-  const getCorrect = (m) => isPast ? m.verb.past[m.pronoun] : (m.negative ? getNegForm(m.verb, m.pronoun) : m.verb.forms[m.pronoun]);
+  const isFuture = tense === "future";
+  const getCorrect = (m) => isPast ? m.verb.past[m.pronoun] : isFuture ? m.verb.future[m.pronoun] : (m.negative ? getNegForm(m.verb, m.pronoun) : m.verb.forms[m.pronoun]);
   app().innerHTML = `<div class="result-card verbs">
     <div class="result-emoji">${emoji}</div><div class="result-title">Runda končana!</div>
     <div class="result-score verbs">${score}/${cards.length}</div><div class="result-pct">${pct}% pravilno</div>
     ${bestStreak > 1 ? `<div class="streak-badge">Najboljša serija: ${bestStreak} zapored</div>` : ""}
-    ${mistakes.length ? `<div class="mistakes-block"><div class="mistakes-title">Ponovi:</div>${mistakes.map((m) => `<div class="mistake-row"><span class="mistake-sl verbs">${m.verb.inf}${!isPast && m.negative ? " ✗" : ""}</span><span style="color:#f9a8d4;font-size:12px">${state.PRONOUN_SHORT[m.pronoun]}</span><span class="mistake-arrow">→</span><span class="mistake-ru">${getCorrect(m)}</span></div>`).join("")}</div>` : ""}
+    ${mistakes.length ? `<div class="mistakes-block"><div class="mistakes-title">Ponovi:</div>${mistakes.map((m) => `<div class="mistake-row"><span class="mistake-sl verbs">${m.verb.inf}${!isPast && !isFuture && m.negative ? " ✗" : ""}</span><span style="color:#f9a8d4;font-size:12px">${state.PRONOUN_SHORT[m.pronoun]}</span><span class="mistake-arrow">→</span><span class="mistake-ru">${getCorrect(m)}</span></div>`).join("")}</div>` : ""}
     <div class="btn-row">
       ${mistakes.length ? `<button class="btn-retry" onclick="retryVerbMistakes()">Ponovi napake</button>` : ""}
       <button class="btn-new verbs" onclick="startVerbsLevel(${verbLevel || 0},'${tense || "present"}')">Nova runda</button>
@@ -136,11 +140,13 @@ export function goBackVerb() {
 export function retryVerbMistakes() {
   const { tense } = state.ui;
   const isPast = tense === "past";
+  const isFuture = tense === "future";
+  const optGen = (q) => isPast ? genVerbPastOptions(q.verb, q.pronoun) : isFuture ? genVerbFutureOptions(q.verb, q.pronoun) : genVerbOptions(q.verb, q.pronoun, q.negative);
   const cards = shuffle(state.ui.mistakes).map((q) => ({
     verb: q.verb,
     pronoun: q.pronoun,
-    negative: isPast ? false : q.negative,
-    options: isPast ? genVerbPastOptions(q.verb, q.pronoun) : genVerbOptions(q.verb, q.pronoun, q.negative),
+    negative: (isPast || isFuture) ? false : q.negative,
+    options: optGen(q),
     answeredWith: null,
   }));
   state.ui = { mode: "verbs-quiz", tense, cards, current: 0, selected: null, score: 0, mistakes: [], streak: 0, bestStreak: 0 };
@@ -196,7 +202,7 @@ export function filterVerbs(query, tense = "present") {
   const matches = state.VERBS
     .map((v, i) => ({ v, i }))
     .filter(({ v }) => {
-      const allForms = [v.inf, v.ru, ...Object.values(v.forms || {}), ...Object.values(v.past || {})];
+      const allForms = [v.inf, v.ru, ...Object.values(v.forms || {}), ...Object.values(v.past || {}), ...Object.values(v.future || {})];
       return allForms.some(f => f.toLowerCase().includes(q));
     });
   resultsDiv.style.display = "block";
@@ -209,11 +215,12 @@ export function filterVerbs(query, tense = "present") {
 export function showVerbTable(i, tense = "present") {
   const v = state.VERBS[i];
   const isPast = tense === "past";
-  const header = isPast
-    ? `<div class="table-header"><span style="flex:1">zaimek</span><span class="pos" style="flex:2;text-align:left;padding-left:8px">preteklik</span></div>`
+  const isFuture = tense === "future";
+  const header = (isPast || isFuture)
+    ? `<div class="table-header"><span style="flex:1">zaimek</span><span class="pos" style="flex:2;text-align:left;padding-left:8px">${isFuture ? "prihodnjik" : "preteklik"}</span></div>`
     : `<div class="table-header"><span style="flex:1">zaimek</span><span class="pos" style="flex:1;text-align:center">✓</span><span class="neg" style="flex:1;text-align:right">✗</span></div>`;
-  const rows = isPast
-    ? state.PRONOUNS.map((p) => `<div class="table-row"><span class="table-pronoun">${p}</span><span class="table-form" style="flex:2;text-align:left">${v.past ? v.past[p] : "—"}</span></div>`).join("")
+  const rows = (isPast || isFuture)
+    ? state.PRONOUNS.map((p) => `<div class="table-row"><span class="table-pronoun">${p}</span><span class="table-form" style="flex:2;text-align:left">${isFuture ? (v.future ? v.future[p] : "—") : (v.past ? v.past[p] : "—")}</span></div>`).join("")
     : state.PRONOUNS.map((p) => `<div class="table-row"><span class="table-pronoun">${p}</span><span class="table-form">${v.forms[p]}</span><span class="table-neg">${getNegForm(v, p)}</span></div>`).join("");
   app().innerHTML = `<div class="table-card">
     <button class="back-btn" onclick="showVerbList('${tense}')">← Nazaj</button>
