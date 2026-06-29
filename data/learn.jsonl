@@ -1598,7 +1598,7 @@
 {"sl":"športni copati","ru":"кроссовки","cat":"thing","level":3}
 {"sl":"spodnje perilo","ru":"нижнее бельё","cat":"thing","level":3}
 {"sl":"zadrga","ru":"молния (на одежде)","cat":"thing","level":2}
-{"sl":"gumb","ru":"пуговица","cat":"thing","level":2}
+{"sl":"gumb","ru":"кнопка / пуговица","cat":"thing","level":2}
 {"sl":"kratke hlače","ru":"шорты","cat":"thing","level":3}
 {"sl":"telovnik","ru":"жилет","cat":"thing","level":3}
 {"sl":"suknjič","ru":"пиджак","cat":"thing","level":2}
@@ -1954,3 +1954,20 @@
 {"sl":"pot","ru":"путь, дорога","cat":"where","level":2}
 {"sl":"boljše","ru":"лучше (вариант)","cat":"adj","level":2}
 {"sl":"vzeti taksi","ru":"взять такси","cat":"phrase","level":3}
+{"sl":"lega","ru":"положение, расположение","cat":"thing","level":2}
+{"sl":"zavesa","ru":"занавеска, штора","cat":"home","level":2}
+{"sl":"naokoli","ru":"вокруг, поблизости","cat":"where","level":2}
+{"sl":"prtljaga","ru":"багаж","cat":"transport","level":2}
+{"sl":"enkrat","ru":"однажды, один раз","cat":"time","level":2}
+{"sl":"hostel","ru":"хостел","cat":"thing","level":2}
+{"sl":"dvoposteljen","ru":"двухместный","cat":"adj","level":2}
+{"sl":"večposteljen","ru":"многоместный","cat":"adj","level":2}
+{"sl":"polpenzion","ru":"полупансион","cat":"thing","level":2}
+{"sl":"polni penzion","ru":"полный пансион","cat":"thing","level":3}
+{"sl":"terasa","ru":"терраса","cat":"home","level":2}
+{"sl":"samopostrežni zajtrk","ru":"завтрак-шведский стол","cat":"food","level":3}
+{"sl":"sušilec","ru":"сушилка / фен","cat":"home","level":2}
+{"sl":"promenada","ru":"променад, набережная","cat":"where","level":2}
+{"sl":"okolica","ru":"окрестности","cat":"where","level":2}
+{"sl":"obisk","ru":"визит, посещение","cat":"thing","level":2}
+{"sl":"znanci","ru":"знакомые","cat":"people","level":2}
