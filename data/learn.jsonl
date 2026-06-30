@@ -1971,3 +1971,9 @@
 {"sl":"okolica","ru":"окрестности","cat":"where","level":2}
 {"sl":"obisk","ru":"визит, посещение","cat":"thing","level":2}
 {"sl":"znanci","ru":"знакомые","cat":"people","level":2}
+{"sl":"izjema","ru":"исключение","cat":"thing","level":2}
+{"sl":"soparno","ru":"душно (жарко и влажно)","cat":"weather","level":2}
+{"sl":"urnik","ru":"расписание","cat":"thing","level":2}
+{"sl":"univerzitetni","ru":"университетский","cat":"adj","level":2}
+{"sl":"isti","ru":"тот же, одинаковый","cat":"adj","level":2}
+{"sl":"biti prepričan","ru":"быть уверенным","cat":"phrase","level":3}
