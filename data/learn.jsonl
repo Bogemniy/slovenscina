@@ -199,7 +199,7 @@
 {"sl":"kje","ru":"где","cat":"where","level":2}
 {"sl":"zakaj","ru":"почему","cat":"question","level":1}
 {"sl":"kako","ru":"как","cat":"question","level":1}
-{"sl":"kateri","ru":"какой","cat":"pron","level":1}
+{"sl":"kateri","ru":"который / какой (выбор)","cat":"pron","level":1}
 {"sl":"kdaj","ru":"когда","cat":"question","level":1}
 {"sl":"potem","ru":"потом","cat":"time","level":2}
 {"sl":"če","ru":"если","cat":"phrase","level":2}
@@ -1977,3 +1977,51 @@
 {"sl":"univerzitetni","ru":"университетский","cat":"adj","level":2}
 {"sl":"isti","ru":"тот же, одинаковый","cat":"adj","level":2}
 {"sl":"biti prepričan","ru":"быть уверенным","cat":"phrase","level":3}
+{"sl":"Nič hudega","ru":"Ничего страшного","cat":"phrase","level":3}
+{"sl":"Nič ni narobe","ru":"Ничего плохого / Всё нормально","cat":"phrase","level":3}
+{"sl":"Vse je v redu","ru":"Всё в порядке","cat":"phrase","level":3}
+{"sl":"Nič se ni zgodilo","ru":"Ничего не случилось","cat":"phrase","level":3}
+{"sl":"Nič ne skrbi","ru":"Не волнуйся","cat":"phrase","level":3}
+{"sl":"Brez skrbi","ru":"Без забот / Не беспокойся","cat":"phrase","level":3}
+{"sl":"Ni problema","ru":"Без проблем","cat":"phrase","level":3}
+{"sl":"Ni panike","ru":"Без паники","cat":"phrase","level":3}
+{"sl":"Vse bo v redu","ru":"Всё будет хорошо","cat":"phrase","level":3}
+{"sl":"Nič takega","ru":"Ничего такого / Пустяки","cat":"phrase","level":3}
+{"sl":"ki","ru":"который (относит.)","cat":"pron","level":1}
+{"sl":"še posebej","ru":"особенно / в особенности","cat":"adverb","level":3}
+{"sl":"ura pa pol","ru":"полтора часа","cat":"time","level":3}
+{"sl":"zmagati","ru":"побеждать","cat":"verb","level":2}
+{"sl":"zmaga","ru":"победа","cat":"thing","level":2}
+{"sl":"tekma","ru":"матч / игра","cat":"sport","level":2}
+{"sl":"svetovno prvenstvo","ru":"чемпионат мира","cat":"sport","level":3}
+{"sl":"zaščita","ru":"защита","cat":"thing","level":2}
+{"sl":"koča","ru":"хижина / горный приют","cat":"place","level":2}
+{"sl":"pet odstotkov","ru":"пять процентов","cat":"number","level":3}
+{"sl":"žito","ru":"зерно / злак","cat":"food","level":2}
+{"sl":"živilo","ru":"продукт питания","cat":"food","level":2}
+{"sl":"žemlja","ru":"булочка","cat":"food","level":2}
+{"sl":"rogljiček","ru":"круассан","cat":"food","level":2}
+{"sl":"burek","ru":"бурек","cat":"food","level":2}
+{"sl":"krof","ru":"пончик","cat":"food","level":2}
+{"sl":"pecivo","ru":"выпечка","cat":"food","level":2}
+{"sl":"kavica","ru":"кофеёк (уменьш.)","cat":"food","level":2}
+{"sl":"redkev","ru":"редис / редька","cat":"food","level":2}
+{"sl":"buča","ru":"тыква","cat":"food","level":2}
+{"sl":"jajčevec","ru":"баклажан","cat":"food","level":2}
+{"sl":"por","ru":"лук-порей","cat":"food","level":2}
+{"sl":"peteršilj","ru":"петрушка","cat":"food","level":2}
+{"sl":"koper","ru":"укроп","cat":"food","level":2}
+{"sl":"puran","ru":"индейка","cat":"food","level":2}
+{"sl":"govedina","ru":"говядина","cat":"food","level":2}
+{"sl":"svinjsko meso","ru":"свинина","cat":"food","level":3}
+{"sl":"losos","ru":"лосось","cat":"food","level":2}
+{"sl":"kaviar","ru":"икра","cat":"food","level":2}
+{"sl":"šunka","ru":"ветчина","cat":"food","level":2}
+{"sl":"slanina","ru":"бекон / сало","cat":"food","level":2}
+{"sl":"kisla smetana","ru":"сметана","cat":"food","level":3}
+{"sl":"grški jogurt","ru":"греческий йогурт","cat":"food","level":3}
+{"sl":"konzervirano mleko","ru":"сгущённое / консервированное молоко","cat":"food","level":3}
+{"sl":"gozdne jagode","ru":"лесные ягоды","cat":"food","level":3}
+{"sl":"borovnice","ru":"черника","cat":"food","level":2}
+{"sl":"brusnica","ru":"брусника / клюква","cat":"food","level":2}
+{"sl":"penina","ru":"игристое вино","cat":"food","level":2}
