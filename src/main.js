@@ -27,7 +27,7 @@ import {
 } from "./ui/reading.js";
 
 import {
-  startLesson, renderLesson, selectLessonChoice, checkLessonInput, skipLessonInput,
+  startLesson, renderLesson,
   addLessonTile, removeLessonTile, checkLessonTiles, advanceLesson, goBackLesson,
 } from "./ui/lesson.js";
 import { showProgress } from "./ui/progress.js";
@@ -78,7 +78,7 @@ async function bootstrap() {
     renderReadingQuiz, selectBlankOption, selectQuestionOption,
     renderReadingResult, nextExercise,
     // lesson
-    startLesson, renderLesson, selectLessonChoice, checkLessonInput, skipLessonInput,
+    startLesson, renderLesson,
     addLessonTile, removeLessonTile, checkLessonTiles, advanceLesson, goBackLesson,
     // progress
     showProgress,
