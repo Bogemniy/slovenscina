@@ -38,3 +38,23 @@
 {"sl": ["Imam", "izpit", "v", "petek", "in", "se", "učim", "vsak", "dan"], "ru": "У меня экзамен в пятницу и учусь каждый день", "extra": ["sem", "ponedeljek", "delam", "včasih", "nikoli", "grem"], "cats": ["school", "time"]}
 {"sl": ["Ponavadi", "jem", "kosilo", "doma", "ampak", "danes", "grem", "v", "restavracijo"], "ru": "Обычно обедаю дома, но сегодня иду в ресторан", "extra": ["včasih", "zajtrk", "ven", "včeraj", "sem", "na", "kuham"], "cats": ["food", "goplace"]}
 {"sl": ["Začnem", "delati", "ob", "osmih", "in", "končam", "ob", "štirih"], "ru": "Начинаю работать в восемь и заканчиваю в четыре", "extra": ["sem", "grem", "imam", "petih", "devetih", "kuham"], "cats": ["job", "time"]}
+{"sl": ["Jaz", "berem", "knjigo"], "ru": "Я читаю книгу", "extra": ["pišem", "časopis"], "cats": ["daily"]}
+{"sl": ["Ti", "piješ", "vodo"], "ru": "Ты пьёшь воду", "extra": ["jem", "kavo"], "cats": ["food"]}
+{"sl": ["Ona", "je", "jabolko"], "ru": "Она ест яблоко", "extra": ["pije", "hruško"], "cats": ["food"]}
+{"sl": ["Midva", "kuhava", "kosilo"], "ru": "Мы вдвоём готовим обед", "extra": ["kuhamo", "večerjo"], "cats": ["food"]}
+{"sl": ["Vidva", "gledata", "film"], "ru": "Вы двое смотрите фильм", "extra": ["gledate", "televizijo"], "cats": ["daily"]}
+{"sl": ["Oni", "pišejo", "pismo"], "ru": "Они пишут письмо", "extra": ["berejo", "nalogo"], "cats": ["daily"]}
+{"sl": ["Jaz", "sem", "bral", "knjigo"], "ru": "Я читал книгу", "extra": ["si", "pisal"], "cats": ["daily"]}
+{"sl": ["Ti", "si", "kupil", "kruh"], "ru": "Ты купил хлеб", "extra": ["sem", "mleko"], "cats": ["shop"]}
+{"sl": ["On", "je", "šel", "v", "šolo"], "ru": "Он пошёл в школу", "extra": ["hodil", "službo"], "cats": ["goplace"]}
+{"sl": ["Midva", "sva", "jedla", "pico"], "ru": "Мы вдвоём ели пиццу", "extra": ["sta", "kavo"], "cats": ["food"]}
+{"sl": ["Oni", "so", "rekli", "resnico"], "ru": "Они сказали правду", "extra": ["smo", "rekla"], "cats": ["daily"]}
+{"sl": ["Jaz", "se", "bom", "učil", "slovenščino"], "ru": "Я буду учить словенский", "extra": ["boš", "angleščino"], "cats": ["school"]}
+{"sl": ["Ti", "boš", "pil", "kavo"], "ru": "Ты будешь пить кофе", "extra": ["bom", "čaj"], "cats": ["food"]}
+{"sl": ["Ona", "bo", "kuhala", "večerjo"], "ru": "Она будет готовить ужин", "extra": ["bom", "kosilo"], "cats": ["food"]}
+{"sl": ["Mi", "bomo", "gledali", "tekmo"], "ru": "Мы будем смотреть матч", "extra": ["boste", "film"], "cats": ["sport"]}
+{"sl": ["On", "se", "uči", "v", "šoli"], "ru": "Он учится в школе", "extra": ["dela", "šolo"], "cats": ["school"]}
+{"sl": ["Včeraj", "se", "je", "učila", "doma"], "ru": "Вчера она училась дома", "extra": ["danes", "učil"], "cats": ["school"]}
+{"sl": ["Jaz", "hočem", "vodo"], "ru": "Я хочу воду", "extra": ["morem", "kavo"], "cats": ["daily"]}
+{"sl": ["Jaz", "moram", "delati"], "ru": "Я должен работать", "extra": ["hočem", "spati"], "cats": ["job"]}
+{"sl": ["Onadva", "spita"], "ru": "Они вдвоём спят", "extra": ["spimo", "počivata"], "cats": ["daily"]}
