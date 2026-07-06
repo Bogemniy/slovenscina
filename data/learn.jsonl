@@ -2025,3 +2025,34 @@
 {"sl":"borovnice","ru":"черника","cat":"food","level":2}
 {"sl":"brusnica","ru":"брусника / клюква","cat":"food","level":2}
 {"sl":"penina","ru":"игристое вино","cat":"food","level":2}
+{"sl":"mlečni izdelki","ru":"молочные продукты","cat":"food","level":3}
+{"sl":"jabolčni zavitek","ru":"яблочный штрудель","cat":"food","level":3}
+{"sl":"makaroni","ru":"макароны","cat":"food","level":2}
+{"sl":"špageti","ru":"спагетти","cat":"food","level":2}
+{"sl":"špinača","ru":"шпинат","cat":"food","level":2}
+{"sl":"zelje","ru":"капуста","cat":"food","level":2}
+{"sl":"fižol","ru":"фасоль","cat":"food","level":2}
+{"sl":"grah","ru":"горох","cat":"food","level":2}
+{"sl":"cvetača","ru":"цветная капуста","cat":"food","level":2}
+{"sl":"češnja","ru":"черешня","cat":"food","level":2}
+{"sl":"grozdje","ru":"виноград","cat":"food","level":2}
+{"sl":"marelica","ru":"абрикос","cat":"food","level":2}
+{"sl":"ananas","ru":"ананас","cat":"food","level":2}
+{"sl":"limona","ru":"лимон","cat":"food","level":2}
+{"sl":"kivi","ru":"киви","cat":"food","level":2}
+{"sl":"melona","ru":"дыня","cat":"food","level":2}
+{"sl":"lubenica","ru":"арбуз","cat":"food","level":2}
+{"sl":"klobasa","ru":"колбаса","cat":"food","level":2}
+{"sl":"hrenovka","ru":"сосиска","cat":"food","level":2}
+{"sl":"pašteta","ru":"паштет","cat":"food","level":2}
+{"sl":"jogurt","ru":"йогурт","cat":"food","level":2}
+{"sl":"kakav","ru":"какао","cat":"food","level":2}
+{"sl":"poper","ru":"чёрный перец","cat":"food","level":2}
+{"sl":"morska hrana","ru":"морепродукты","cat":"food","level":3}
+{"sl":"namizni tenis","ru":"настольный теннис","cat":"sport","level":3}
+{"sl":"referat","ru":"реферат / доклад","cat":"school","level":2}
+{"sl":"mobitel","ru":"мобильный телефон","cat":"thing","level":2}
+{"sl":"domače branje","ru":"внеклассное чтение","cat":"school","level":3}
+{"sl":"najraje","ru":"больше всего (люблю)","cat":"adverb","level":2}
+{"sl":"najljubši","ru":"любимый","cat":"adj","level":2}
+{"sl":"marati","ru":"любить / нравиться","cat":"verb","level":2}
