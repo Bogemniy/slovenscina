@@ -58,3 +58,23 @@
 {"sl": ["Jaz", "hočem", "vodo"], "ru": "Я хочу воду", "extra": ["morem", "kavo"], "cats": ["daily"]}
 {"sl": ["Jaz", "moram", "delati"], "ru": "Я должен работать", "extra": ["hočem", "spati"], "cats": ["job"]}
 {"sl": ["Onadva", "spita"], "ru": "Они вдвоём спят", "extra": ["spimo", "počivata"], "cats": ["daily"]}
+{"sl": ["Kje", "je", "najbližja", "lekarna"], "ru": "Где ближайшая аптека?", "extra": ["trgovina", "kam"], "cats": ["where", "shop"]}
+{"sl": ["Iščem", "stanovanje", "v", "centru"], "ru": "Ищу квартиру в центре", "extra": ["imam", "hišo"], "cats": ["home", "where"]}
+{"sl": ["Včeraj", "sem", "plačal", "položnico"], "ru": "Вчера я оплатил счёт", "extra": ["danes", "kupil"], "cats": ["home", "shop"]}
+{"sl": ["Jutri", "bom", "šel", "k", "zdravniku"], "ru": "Завтра я пойду к врачу", "extra": ["danes", "hodil"], "cats": ["goplace", "body"]}
+{"sl": ["Midva", "iščeva", "službo"], "ru": "Мы вдвоём ищем работу", "extra": ["iščemo", "stanovanje"], "cats": ["job"]}
+{"sl": ["Ali", "sprejemate", "kartico"], "ru": "Вы принимаете карту?", "extra": ["imate", "gotovino"], "cats": ["shop", "phrase"]}
+{"sl": ["Vlak", "odpelje", "ob", "osmih"], "ru": "Поезд отправляется в восемь", "extra": ["pride", "devetih"], "cats": ["transport", "time"]}
+{"sl": ["Rezerviral", "sem", "termin", "pri", "zobozdravniku"], "ru": "Я записался на приём к стоматологу", "extra": ["rezervirala", "zdravniku"], "cats": ["body", "daily"]}
+{"sl": ["Ona", "se", "je", "prijavila", "na", "tečaj"], "ru": "Она записалась на курс", "extra": ["prijavil", "šolo"], "cats": ["school", "daily"]}
+{"sl": ["Vidva", "bosta", "podpisala", "pogodbo"], "ru": "Вы двое подпишете договор", "extra": ["podpisali", "boste"], "cats": ["job", "home"]}
+{"sl": ["Vsak", "teden", "grem", "v", "trgovino"], "ru": "Каждую неделю хожу в магазин", "extra": ["dan", "službo"], "cats": ["daily", "shop"]}
+{"sl": ["Sosed", "je", "popravil", "pralni", "stroj"], "ru": "Сосед починил стиральную машину", "extra": ["popravila", "hladilnik"], "cats": ["home", "people"]}
+{"sl": ["Moram", "podaljšati", "dovoljenje"], "ru": "Мне нужно продлить разрешение", "extra": ["hočem", "kartico"], "cats": ["info", "phrase"]}
+{"sl": ["Oni", "so", "se", "preselili", "v", "Ljubljano"], "ru": "Они переехали в Любляну", "extra": ["smo", "preselil"], "cats": ["goplace", "place"]}
+{"sl": ["Zjutraj", "se", "peljem", "z", "avtobusom"], "ru": "Утром еду на автобусе", "extra": ["zvečer", "vlakom"], "cats": ["transport", "daily"]}
+{"sl": ["Bomo", "najeli", "stanovanje", "za", "eno", "leto"], "ru": "Мы снимем квартиру на год", "extra": ["kupili", "hišo"], "cats": ["home"]}
+{"sl": ["Ti", "si", "pozabil", "ključe"], "ru": "Ты забыл ключи", "extra": ["sem", "denar"], "cats": ["home", "thing"]}
+{"sl": ["Danes", "moram", "na", "banko"], "ru": "Сегодня мне нужно в банк", "extra": ["jutri", "pošto"], "cats": ["goplace", "info"]}
+{"sl": ["Ona", "kuha", "kosilo", "vsak", "dan"], "ru": "Она готовит обед каждый день", "extra": ["peče", "večerjo"], "cats": ["food", "daily"]}
+{"sl": ["Prejšnji", "teden", "sva", "obiskala", "prijatelje"], "ru": "На прошлой неделе мы вдвоём навестили друзей", "extra": ["obiskali", "sosede"], "cats": ["people", "daily"]}
