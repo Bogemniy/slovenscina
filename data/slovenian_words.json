@@ -1,0 +1,4937 @@
+[
+  {
+    "audio": "c_3621.mp3",
+    "slovenian": "я",
+    "russian": "jaz"
+  },
+  {
+    "audio": "c_3622.mp3",
+    "slovenian": "ты",
+    "russian": "ti"
+  },
+  {
+    "audio": "c_3623.mp3",
+    "slovenian": "он",
+    "russian": "on"
+  },
+  {
+    "audio": "c_3624.mp3",
+    "slovenian": "она",
+    "russian": "ona"
+  },
+  {
+    "audio": "c_3625.mp3",
+    "slovenian": "оно",
+    "russian": "ono"
+  },
+  {
+    "audio": "c_3626.mp3",
+    "slovenian": "мы",
+    "russian": "mi"
+  },
+  {
+    "audio": "c_3627.mp3",
+    "slovenian": "вы",
+    "russian": "vi"
+  },
+  {
+    "audio": "c_3628.mp3",
+    "slovenian": "они",
+    "russian": "oni"
+  },
+  {
+    "audio": "c_3697.mp3",
+    "slovenian": "что",
+    "russian": "kaj"
+  },
+  {
+    "audio": "c_3695.mp3",
+    "slovenian": "кто",
+    "russian": "kdo"
+  },
+  {
+    "audio": "c_3696.mp3",
+    "slovenian": "где",
+    "russian": "kje"
+  },
+  {
+    "audio": "c_3698.mp3",
+    "slovenian": "зачем",
+    "russian": "zakaj"
+  },
+  {
+    "audio": "c_3699.mp3",
+    "slovenian": "как",
+    "russian": "kako"
+  },
+  {
+    "audio": "c_3700.mp3",
+    "slovenian": "какой",
+    "russian": "kateri"
+  },
+  {
+    "audio": "c_3791.mp3",
+    "slovenian": "когда",
+    "russian": "kdaj"
+  },
+  {
+    "audio": "c_3659.mp3",
+    "slovenian": "тогда",
+    "russian": "potem"
+  },
+  {
+    "audio": "c_3656.mp3",
+    "slovenian": "если",
+    "russian": "če"
+  },
+  {
+    "audio": "c_3655.mp3",
+    "slovenian": "на самом деле",
+    "russian": "resnično"
+  },
+  {
+    "audio": "c_3652.mp3",
+    "slovenian": "но",
+    "russian": "ampak"
+  },
+  {
+    "audio": "c_3651.mp3",
+    "slovenian": "потому что",
+    "russian": "ker"
+  },
+  {
+    "audio": "c_3647.mp3",
+    "slovenian": "не",
+    "russian": "ne"
+  },
+  {
+    "audio": "c_3646.mp3",
+    "slovenian": "это",
+    "russian": "to"
+  },
+  {
+    "audio": "c_3714.mp3",
+    "slovenian": "Мне нужно это",
+    "russian": "Rabim to"
+  },
+  {
+    "audio": "c_3693.mp3",
+    "slovenian": "Сколько это стоит?",
+    "russian": "Koliko je to?"
+  },
+  {
+    "audio": "c_3645.mp3",
+    "slovenian": "что",
+    "russian": "tisto"
+  },
+  {
+    "audio": "c_3643.mp3",
+    "slovenian": "все",
+    "russian": "vse"
+  },
+  {
+    "audio": "c_3641.mp3",
+    "slovenian": "или",
+    "russian": "ali"
+  },
+  {
+    "audio": "c_3640.mp3",
+    "slovenian": "и",
+    "russian": "in"
+  },
+  {
+    "audio": "c_902.mp3",
+    "slovenian": "знать",
+    "russian": "vedeti"
+  },
+  {
+    "audio": "c_3750.mp3",
+    "slovenian": "Я знаю",
+    "russian": "Vem"
+  },
+  {
+    "audio": "c_3751.mp3",
+    "slovenian": "Я не знаю",
+    "russian": "Ne vem"
+  },
+  {
+    "audio": "c_896.mp3",
+    "slovenian": "думать",
+    "russian": "misliti"
+  },
+  {
+    "audio": "c_895.mp3",
+    "slovenian": "приходить",
+    "russian": "priti"
+  },
+  {
+    "audio": "c_917.mp3",
+    "slovenian": "класть",
+    "russian": "položiti"
+  },
+  {
+    "audio": "c_916.mp3",
+    "slovenian": "брать",
+    "russian": "vzeti"
+  },
+  {
+    "audio": "c_910.mp3",
+    "slovenian": "находить",
+    "russian": "najti"
+  },
+  {
+    "audio": "c_941.mp3",
+    "slovenian": "слушать",
+    "russian": "poslušati"
+  },
+  {
+    "audio": "c_940.mp3",
+    "slovenian": "работать",
+    "russian": "delati"
+  },
+  {
+    "audio": "c_938.mp3",
+    "slovenian": "говорить",
+    "russian": "govoriti"
+  },
+  {
+    "audio": "c_966.mp3",
+    "slovenian": "давать",
+    "russian": "dati"
+  },
+  {
+    "audio": "c_965.mp3",
+    "slovenian": "нравиться",
+    "russian": "imeti rad"
+  },
+  {
+    "audio": "c_962.mp3",
+    "slovenian": "помогать",
+    "russian": "pomagati"
+  },
+  {
+    "audio": "c_961.mp3",
+    "slovenian": "любить",
+    "russian": "ljubiti"
+  },
+  {
+    "audio": "c_1005.mp3",
+    "slovenian": "звонить",
+    "russian": "poklicati"
+  },
+  {
+    "audio": "c_1035.mp3",
+    "slovenian": "ждать",
+    "russian": "čakati"
+  },
+  {
+    "audio": "c_3715.mp3",
+    "slovenian": "Ты мне нравишься",
+    "russian": "Všeč si mi"
+  },
+  {
+    "audio": "c_3716.mp3",
+    "slovenian": "Мне это не нравится",
+    "russian": "To mi ni všeč"
+  },
+  {
+    "audio": "c_3694.mp3",
+    "slovenian": "Ты любишь меня?",
+    "russian": "Ali me ljubiš?"
+  },
+  {
+    "audio": "c_3732.mp3",
+    "slovenian": "Я люблю тебя",
+    "russian": "Ljubim te"
+  },
+  {
+    "audio": "c_454.mp3",
+    "slovenian": "0",
+    "russian": "nič"
+  },
+  {
+    "audio": "c_455.mp3",
+    "slovenian": "1",
+    "russian": "ena"
+  },
+  {
+    "audio": "c_456.mp3",
+    "slovenian": "2",
+    "russian": "dva"
+  },
+  {
+    "audio": "c_457.mp3",
+    "slovenian": "3",
+    "russian": "tri"
+  },
+  {
+    "audio": "c_458.mp3",
+    "slovenian": "4",
+    "russian": "štiri"
+  },
+  {
+    "audio": "c_459.mp3",
+    "slovenian": "5",
+    "russian": "pet"
+  },
+  {
+    "audio": "c_460.mp3",
+    "slovenian": "6",
+    "russian": "šest"
+  },
+  {
+    "audio": "c_461.mp3",
+    "slovenian": "7",
+    "russian": "sedem"
+  },
+  {
+    "audio": "c_462.mp3",
+    "slovenian": "8",
+    "russian": "osem"
+  },
+  {
+    "audio": "c_463.mp3",
+    "slovenian": "9",
+    "russian": "devet"
+  },
+  {
+    "audio": "c_464.mp3",
+    "slovenian": "10",
+    "russian": "deset"
+  },
+  {
+    "audio": "c_465.mp3",
+    "slovenian": "11",
+    "russian": "enajst"
+  },
+  {
+    "audio": "c_466.mp3",
+    "slovenian": "12",
+    "russian": "dvanajst"
+  },
+  {
+    "audio": "c_467.mp3",
+    "slovenian": "13",
+    "russian": "trinajst"
+  },
+  {
+    "audio": "c_468.mp3",
+    "slovenian": "14",
+    "russian": "štirinajst"
+  },
+  {
+    "audio": "c_469.mp3",
+    "slovenian": "15",
+    "russian": "petnajst"
+  },
+  {
+    "audio": "c_470.mp3",
+    "slovenian": "16",
+    "russian": "šestnajst"
+  },
+  {
+    "audio": "c_471.mp3",
+    "slovenian": "17",
+    "russian": "sedemnajst"
+  },
+  {
+    "audio": "c_472.mp3",
+    "slovenian": "18",
+    "russian": "osemnajst"
+  },
+  {
+    "audio": "c_473.mp3",
+    "slovenian": "19",
+    "russian": "devetnajst"
+  },
+  {
+    "audio": "c_474.mp3",
+    "slovenian": "20",
+    "russian": "dvajset"
+  },
+  {
+    "audio": "c_758.mp3",
+    "slovenian": "новый",
+    "russian": "nov"
+  },
+  {
+    "audio": "c_757.mp3",
+    "slovenian": "старый",
+    "russian": "star"
+  },
+  {
+    "audio": "c_752.mp3",
+    "slovenian": "немногие",
+    "russian": "malo"
+  },
+  {
+    "audio": "c_751.mp3",
+    "slovenian": "многие",
+    "russian": "veliko"
+  },
+  {
+    "audio": "c_3702.mp3",
+    "slovenian": "сколько?",
+    "russian": "koliko?"
+  },
+  {
+    "audio": "c_3701.mp3",
+    "slovenian": "сколько?",
+    "russian": "koliko?"
+  },
+  {
+    "audio": "c_750.mp3",
+    "slovenian": "неправильный",
+    "russian": "napačen"
+  },
+  {
+    "audio": "c_749.mp3",
+    "slovenian": "правильный",
+    "russian": "pravilen"
+  },
+  {
+    "audio": "c_772.mp3",
+    "slovenian": "плохой",
+    "russian": "slab"
+  },
+  {
+    "audio": "c_771.mp3",
+    "slovenian": "хороший",
+    "russian": "dober"
+  },
+  {
+    "audio": "c_764.mp3",
+    "slovenian": "счастливый",
+    "russian": "srečen"
+  },
+  {
+    "audio": "c_793.mp3",
+    "slovenian": "короткий",
+    "russian": "kratek"
+  },
+  {
+    "audio": "c_792.mp3",
+    "slovenian": "длинный",
+    "russian": "dolg"
+  },
+  {
+    "audio": "c_791.mp3",
+    "slovenian": "маленький",
+    "russian": "majhen"
+  },
+  {
+    "audio": "c_790.mp3",
+    "slovenian": "большой",
+    "russian": "velik"
+  },
+  {
+    "audio": "c_808.mp3",
+    "slovenian": "там",
+    "russian": "tam"
+  },
+  {
+    "audio": "c_807.mp3",
+    "slovenian": "здесь",
+    "russian": "tukaj"
+  },
+  {
+    "audio": "c_797.mp3",
+    "slovenian": "правый",
+    "russian": "desno"
+  },
+  {
+    "audio": "c_796.mp3",
+    "slovenian": "левый",
+    "russian": "levo"
+  },
+  {
+    "audio": "c_862.mp3",
+    "slovenian": "красивый",
+    "russian": "lep"
+  },
+  {
+    "audio": "c_853.mp3",
+    "slovenian": "молодой",
+    "russian": "mlad"
+  },
+  {
+    "audio": "c_852.mp3",
+    "slovenian": "старый",
+    "russian": "star"
+  },
+  {
+    "audio": "c_3788.mp3",
+    "slovenian": "здравствуйте",
+    "russian": "pozdravljeni"
+  },
+  {
+    "audio": "c_3689.mp3",
+    "slovenian": "увидимся позже",
+    "russian": "se vidimo"
+  },
+  {
+    "audio": "c_3688.mp3",
+    "slovenian": "окей",
+    "russian": "v redu"
+  },
+  {
+    "audio": "c_3687.mp3",
+    "slovenian": "береги себя",
+    "russian": "pazi nase"
+  },
+  {
+    "audio": "c_3685.mp3",
+    "slovenian": "не переживай",
+    "russian": "ne skrbi"
+  },
+  {
+    "audio": "c_3683.mp3",
+    "slovenian": "конечно",
+    "russian": "seveda"
+  },
+  {
+    "audio": "c_3679.mp3",
+    "slovenian": "добрый день",
+    "russian": "dober dan"
+  },
+  {
+    "audio": "c_3678.mp3",
+    "slovenian": "привет",
+    "russian": "živijo"
+  },
+  {
+    "audio": "c_3676.mp3",
+    "slovenian": "пока-пока",
+    "russian": "adijo"
+  },
+  {
+    "audio": "c_3675.mp3",
+    "slovenian": "до свидания",
+    "russian": "nasvidenje"
+  },
+  {
+    "audio": "c_3674.mp3",
+    "slovenian": "простите",
+    "russian": "oprostite"
+  },
+  {
+    "audio": "c_3673.mp3",
+    "slovenian": "извините",
+    "russian": "oprosti"
+  },
+  {
+    "audio": "c_3671.mp3",
+    "slovenian": "спасибо",
+    "russian": "hvala"
+  },
+  {
+    "audio": "c_3670.mp3",
+    "slovenian": "пожалуйста",
+    "russian": "prosim"
+  },
+  {
+    "audio": "c_3665.mp3",
+    "slovenian": "я хочу это",
+    "russian": "hočem to"
+  },
+  {
+    "audio": "c_1659.mp3",
+    "slovenian": "сейчас",
+    "russian": "zdaj"
+  },
+  {
+    "audio": "c_1658.mp3",
+    "slovenian": "вторая половина дня",
+    "russian": "popoldan"
+  },
+  {
+    "audio": "c_1657.mp3",
+    "slovenian": "первая половина дня",
+    "russian": "dopoldan"
+  },
+  {
+    "audio": "c_1656.mp3",
+    "slovenian": "ночь",
+    "russian": "noč"
+  },
+  {
+    "audio": "c_1655.mp3",
+    "slovenian": "утро",
+    "russian": "zjutraj"
+  },
+  {
+    "audio": "c_1654.mp3",
+    "slovenian": "вечер",
+    "russian": "večer"
+  },
+  {
+    "audio": "c_1653.mp3",
+    "slovenian": "полдень",
+    "russian": "opoldne"
+  },
+  {
+    "audio": "c_1632.mp3",
+    "slovenian": "полночь",
+    "russian": "polnoč"
+  },
+  {
+    "audio": "c_1635.mp3",
+    "slovenian": "час",
+    "russian": "ura"
+  },
+  {
+    "audio": "c_1634.mp3",
+    "slovenian": "минута",
+    "russian": "minuta"
+  },
+  {
+    "audio": "c_1633.mp3",
+    "slovenian": "секунда",
+    "russian": "sekunda"
+  },
+  {
+    "audio": "c_1660.mp3",
+    "slovenian": "день",
+    "russian": "dan"
+  },
+  {
+    "audio": "c_1661.mp3",
+    "slovenian": "неделя",
+    "russian": "teden"
+  },
+  {
+    "audio": "c_1662.mp3",
+    "slovenian": "месяц",
+    "russian": "mesec"
+  },
+  {
+    "audio": "c_1663.mp3",
+    "slovenian": "год",
+    "russian": "leto"
+  },
+  {
+    "audio": "c_76.mp3",
+    "slovenian": "время",
+    "russian": "čas"
+  },
+  {
+    "audio": "c_77.mp3",
+    "slovenian": "дата",
+    "russian": "datum"
+  },
+  {
+    "audio": "c_1700.mp3",
+    "slovenian": "позавчера",
+    "russian": "predvčerajšnjim"
+  },
+  {
+    "audio": "c_1701.mp3",
+    "slovenian": "вчера",
+    "russian": "včeraj"
+  },
+  {
+    "audio": "c_1702.mp3",
+    "slovenian": "сегодня",
+    "russian": "danes"
+  },
+  {
+    "audio": "c_1703.mp3",
+    "slovenian": "завтра",
+    "russian": "jutri"
+  },
+  {
+    "audio": "c_1704.mp3",
+    "slovenian": "послезавтра",
+    "russian": "pojutrišnjem"
+  },
+  {
+    "audio": "c_3796.mp3",
+    "slovenian": "понедельник",
+    "russian": "ponedeljek"
+  },
+  {
+    "audio": "c_3797.mp3",
+    "slovenian": "вторник",
+    "russian": "torek"
+  },
+  {
+    "audio": "c_3798.mp3",
+    "slovenian": "среда",
+    "russian": "sreda"
+  },
+  {
+    "audio": "c_3799.mp3",
+    "slovenian": "четверг",
+    "russian": "četrtek"
+  },
+  {
+    "audio": "c_3800.mp3",
+    "slovenian": "пятница",
+    "russian": "petek"
+  },
+  {
+    "audio": "c_3801.mp3",
+    "slovenian": "суббота",
+    "russian": "sobota"
+  },
+  {
+    "audio": "c_3802.mp3",
+    "slovenian": "воскресенье",
+    "russian": "nedelja"
+  },
+  {
+    "audio": "c_3745.mp3",
+    "slovenian": "Завтра суббота",
+    "russian": "Jutri je sobota"
+  },
+  {
+    "audio": "c_79.mp3",
+    "slovenian": "жизнь",
+    "russian": "življenje"
+  },
+  {
+    "audio": "c_2829.mp3",
+    "slovenian": "женщина",
+    "russian": "ženska"
+  },
+  {
+    "audio": "c_2828.mp3",
+    "slovenian": "мужчина",
+    "russian": "moški"
+  },
+  {
+    "audio": "c_1766.mp3",
+    "slovenian": "любовь",
+    "russian": "ljubezen"
+  },
+  {
+    "audio": "c_1765.mp3",
+    "slovenian": "парень",
+    "russian": "fant"
+  },
+  {
+    "audio": "c_1764.mp3",
+    "slovenian": "девушка",
+    "russian": "punca"
+  },
+  {
+    "audio": "c_1763.mp3",
+    "slovenian": "друг",
+    "russian": "prijatelj"
+  },
+  {
+    "audio": "c_1776.mp3",
+    "slovenian": "поцелуй",
+    "russian": "poljub"
+  },
+  {
+    "audio": "c_1774.mp3",
+    "slovenian": "секс",
+    "russian": "seks"
+  },
+  {
+    "audio": "c_1758.mp3",
+    "slovenian": "ребенок",
+    "russian": "otrok"
+  },
+  {
+    "audio": "c_1753.mp3",
+    "slovenian": "малыш",
+    "russian": "dojenček"
+  },
+  {
+    "audio": "c_2831.mp3",
+    "slovenian": "девочка",
+    "russian": "dekle"
+  },
+  {
+    "audio": "c_2830.mp3",
+    "slovenian": "мальчик",
+    "russian": "fant"
+  },
+  {
+    "audio": "c_3761.mp3",
+    "slovenian": "мама",
+    "russian": "mami"
+  },
+  {
+    "audio": "c_3760.mp3",
+    "slovenian": "папа",
+    "russian": "oči"
+  },
+  {
+    "audio": "c_1715.mp3",
+    "slovenian": "мать",
+    "russian": "mati"
+  },
+  {
+    "audio": "c_1714.mp3",
+    "slovenian": "отец",
+    "russian": "oče"
+  },
+  {
+    "audio": "c_1742.mp3",
+    "slovenian": "родители",
+    "russian": "starši"
+  },
+  {
+    "audio": "c_1731.mp3",
+    "slovenian": "сын",
+    "russian": "sin"
+  },
+  {
+    "audio": "c_1730.mp3",
+    "slovenian": "дочь",
+    "russian": "hči"
+  },
+  {
+    "audio": "c_1727.mp3",
+    "slovenian": "младшая сестра",
+    "russian": "mlajša sestra"
+  },
+  {
+    "audio": "c_1725.mp3",
+    "slovenian": "младший брат",
+    "russian": "mlajši brat"
+  },
+  {
+    "audio": "c_1726.mp3",
+    "slovenian": "старшая сестра",
+    "russian": "starejša sestra"
+  },
+  {
+    "audio": "c_1724.mp3",
+    "slovenian": "старший брат",
+    "russian": "starejši brat"
+  },
+  {
+    "audio": "c_907.mp3",
+    "slovenian": "стоять",
+    "russian": "stati"
+  },
+  {
+    "audio": "c_906.mp3",
+    "slovenian": "сидеть",
+    "russian": "sedeti"
+  },
+  {
+    "audio": "c_905.mp3",
+    "slovenian": "лежать",
+    "russian": "ležati"
+  },
+  {
+    "audio": "c_904.mp3",
+    "slovenian": "закрывать",
+    "russian": "zapreti"
+  },
+  {
+    "audio": "c_903.mp3",
+    "slovenian": "открывать",
+    "russian": "odpreti"
+  },
+  {
+    "audio": "c_900.mp3",
+    "slovenian": "проигрывать",
+    "russian": "izgubiti"
+  },
+  {
+    "audio": "c_899.mp3",
+    "slovenian": "побеждать",
+    "russian": "zmagati"
+  },
+  {
+    "audio": "c_898.mp3",
+    "slovenian": "умирать",
+    "russian": "umreti"
+  },
+  {
+    "audio": "c_897.mp3",
+    "slovenian": "жить",
+    "russian": "živeti"
+  },
+  {
+    "audio": "c_893.mp3",
+    "slovenian": "включать",
+    "russian": "prižgati"
+  },
+  {
+    "audio": "c_892.mp3",
+    "slovenian": "выключать",
+    "russian": "izklopiti"
+  },
+  {
+    "audio": "c_919.mp3",
+    "slovenian": "убивать",
+    "russian": "ubiti"
+  },
+  {
+    "audio": "c_918.mp3",
+    "slovenian": "ранить",
+    "russian": "poškodovati"
+  },
+  {
+    "audio": "c_944.mp3",
+    "slovenian": "трогать",
+    "russian": "dotakniti se"
+  },
+  {
+    "audio": "c_943.mp3",
+    "slovenian": "смотреть",
+    "russian": "gledati"
+  },
+  {
+    "audio": "c_935.mp3",
+    "slovenian": "пить",
+    "russian": "piti"
+  },
+  {
+    "audio": "c_934.mp3",
+    "slovenian": "есть",
+    "russian": "jesti"
+  },
+  {
+    "audio": "c_931.mp3",
+    "slovenian": "гулять",
+    "russian": "hoditi"
+  },
+  {
+    "audio": "c_972.mp3",
+    "slovenian": "встречаться",
+    "russian": "srečati"
+  },
+  {
+    "audio": "c_970.mp3",
+    "slovenian": "держать пари",
+    "russian": "staviti"
+  },
+  {
+    "audio": "c_969.mp3",
+    "slovenian": "целовать",
+    "russian": "poljubiti"
+  },
+  {
+    "audio": "c_967.mp3",
+    "slovenian": "следовать",
+    "russian": "slediti"
+  },
+  {
+    "audio": "c_964.mp3",
+    "slovenian": "жениться",
+    "russian": "poročiti se"
+  },
+  {
+    "audio": "c_960.mp3",
+    "slovenian": "отвечать",
+    "russian": "odgovoriti"
+  },
+  {
+    "audio": "c_958.mp3",
+    "slovenian": "спрашивать",
+    "russian": "vprašati"
+  },
+  {
+    "audio": "c_169.mp3",
+    "slovenian": "вопрос",
+    "russian": "vprašanje"
+  },
+  {
+    "audio": "c_150.mp3",
+    "slovenian": "компания",
+    "russian": "podjetje"
+  },
+  {
+    "audio": "c_149.mp3",
+    "slovenian": "бизнес",
+    "russian": "posel"
+  },
+  {
+    "audio": "c_1777.mp3",
+    "slovenian": "работа",
+    "russian": "zaposlitev"
+  },
+  {
+    "audio": "c_3471.mp3",
+    "slovenian": "деньги",
+    "russian": "denar"
+  },
+  {
+    "audio": "c_3419.mp3",
+    "slovenian": "телефон",
+    "russian": "telefon"
+  },
+  {
+    "audio": "c_3241.mp3",
+    "slovenian": "офис",
+    "russian": "pisarna"
+  },
+  {
+    "audio": "c_3313.mp3",
+    "slovenian": "врач",
+    "russian": "zdravnik"
+  },
+  {
+    "audio": "c_2923.mp3",
+    "slovenian": "больница",
+    "russian": "bolnišnica"
+  },
+  {
+    "audio": "c_3314.mp3",
+    "slovenian": "медсестра",
+    "russian": "medicinska sestra"
+  },
+  {
+    "audio": "c_3317.mp3",
+    "slovenian": "полицейский",
+    "russian": "policist"
+  },
+  {
+    "audio": "c_3327.mp3",
+    "slovenian": "президент",
+    "russian": "predsednik"
+  },
+  {
+    "audio": "c_744.mp3",
+    "slovenian": "белый",
+    "russian": "bel"
+  },
+  {
+    "audio": "c_742.mp3",
+    "slovenian": "черный",
+    "russian": "črn"
+  },
+  {
+    "audio": "c_741.mp3",
+    "slovenian": "красный",
+    "russian": "rdeč"
+  },
+  {
+    "audio": "c_733.mp3",
+    "slovenian": "синий",
+    "russian": "moder"
+  },
+  {
+    "audio": "c_737.mp3",
+    "slovenian": "зеленый",
+    "russian": "zelen"
+  },
+  {
+    "audio": "c_735.mp3",
+    "slovenian": "желтый",
+    "russian": "rumen"
+  },
+  {
+    "audio": "c_762.mp3",
+    "slovenian": "медленный",
+    "russian": "počasen"
+  },
+  {
+    "audio": "c_761.mp3",
+    "slovenian": "быстрый",
+    "russian": "hiter"
+  },
+  {
+    "audio": "c_759.mp3",
+    "slovenian": "смешной",
+    "russian": "smešen"
+  },
+  {
+    "audio": "c_756.mp3",
+    "slovenian": "несправедливый",
+    "russian": "nepošten"
+  },
+  {
+    "audio": "c_755.mp3",
+    "slovenian": "справедливый",
+    "russian": "pošten"
+  },
+  {
+    "audio": "c_748.mp3",
+    "slovenian": "сложный",
+    "russian": "zahteven"
+  },
+  {
+    "audio": "c_747.mp3",
+    "slovenian": "легкий",
+    "russian": "enostaven"
+  },
+  {
+    "audio": "c_3731.mp3",
+    "slovenian": "Это сложно",
+    "russian": "To je težko"
+  },
+  {
+    "audio": "c_746.mp3",
+    "slovenian": "богатый",
+    "russian": "bogat"
+  },
+  {
+    "audio": "c_745.mp3",
+    "slovenian": "бедный",
+    "russian": "reven"
+  },
+  {
+    "audio": "c_778.mp3",
+    "slovenian": "сильный",
+    "russian": "močen"
+  },
+  {
+    "audio": "c_777.mp3",
+    "slovenian": "слабый",
+    "russian": "šibek"
+  },
+  {
+    "audio": "c_776.mp3",
+    "slovenian": "безопасный",
+    "russian": "varen"
+  },
+  {
+    "audio": "c_775.mp3",
+    "slovenian": "уставший",
+    "russian": "utrujen"
+  },
+  {
+    "audio": "c_773.mp3",
+    "slovenian": "гордый",
+    "russian": "ponosen"
+  },
+  {
+    "audio": "c_770.mp3",
+    "slovenian": "сытый",
+    "russian": "sit"
+  },
+  {
+    "audio": "c_766.mp3",
+    "slovenian": "больной",
+    "russian": "bolan"
+  },
+  {
+    "audio": "c_765.mp3",
+    "slovenian": "здоровый",
+    "russian": "zdrav"
+  },
+  {
+    "audio": "c_763.mp3",
+    "slovenian": "сердитый",
+    "russian": "jezen"
+  },
+  {
+    "audio": "c_795.mp3",
+    "slovenian": "низкий",
+    "russian": "nizek"
+  },
+  {
+    "audio": "c_794.mp3",
+    "slovenian": "высокий",
+    "russian": "visok"
+  },
+  {
+    "audio": "c_788.mp3",
+    "slovenian": "прямой",
+    "russian": "raven"
+  },
+  {
+    "audio": "c_3664.mp3",
+    "slovenian": "каждый",
+    "russian": "vsak"
+  },
+  {
+    "audio": "c_3663.mp3",
+    "slovenian": "всегда",
+    "russian": "nenehno"
+  },
+  {
+    "audio": "c_3660.mp3",
+    "slovenian": "на самом деле",
+    "russian": "dejansko"
+  },
+  {
+    "audio": "c_3654.mp3",
+    "slovenian": "снова",
+    "russian": "ponovno"
+  },
+  {
+    "audio": "c_3653.mp3",
+    "slovenian": "уже",
+    "russian": "že"
+  },
+  {
+    "audio": "c_3650.mp3",
+    "slovenian": "меньше",
+    "russian": "manj"
+  },
+  {
+    "audio": "c_3649.mp3",
+    "slovenian": "наиболее",
+    "russian": "najbolj"
+  },
+  {
+    "audio": "c_3648.mp3",
+    "slovenian": "больше",
+    "russian": "več"
+  },
+  {
+    "audio": "c_3746.mp3",
+    "slovenian": "Я хочу еще",
+    "russian": "Hočem več"
+  },
+  {
+    "audio": "c_3644.mp3",
+    "slovenian": "никто",
+    "russian": "nobena"
+  },
+  {
+    "audio": "c_3642.mp3",
+    "slovenian": "очень",
+    "russian": "zelo"
+  },
+  {
+    "audio": "c_1.mp3",
+    "slovenian": "животное",
+    "russian": "žival"
+  },
+  {
+    "audio": "c_198.mp3",
+    "slovenian": "свинья",
+    "russian": "prašič"
+  },
+  {
+    "audio": "c_86.mp3",
+    "slovenian": "корова",
+    "russian": "krava"
+  },
+  {
+    "audio": "c_85.mp3",
+    "slovenian": "лошадь",
+    "russian": "konj"
+  },
+  {
+    "audio": "c_79.mp3",
+    "slovenian": "собака",
+    "russian": "pes"
+  },
+  {
+    "audio": "c_33.mp3",
+    "slovenian": "овца",
+    "russian": "ovca"
+  },
+  {
+    "audio": "c_28.mp3",
+    "slovenian": "обезьяна",
+    "russian": "opica"
+  },
+  {
+    "audio": "c_21.mp3",
+    "slovenian": "кошка",
+    "russian": "mačka"
+  },
+  {
+    "audio": "c_3.mp3",
+    "slovenian": "медведь",
+    "russian": "medved"
+  },
+  {
+    "audio": "c_891.mp3",
+    "slovenian": "курица",
+    "russian": "kokoš"
+  },
+  {
+    "audio": "c_41.mp3",
+    "slovenian": "утка",
+    "russian": "raca"
+  },
+  {
+    "audio": "c_106.mp3",
+    "slovenian": "бабочка",
+    "russian": "metulj"
+  },
+  {
+    "audio": "c_52.mp3",
+    "slovenian": "пчела",
+    "russian": "čebela"
+  },
+  {
+    "audio": "c_1053.mp3",
+    "slovenian": "рыба",
+    "russian": "riba"
+  },
+  {
+    "audio": "c_116.mp3",
+    "slovenian": "паук",
+    "russian": "pajek"
+  },
+  {
+    "audio": "c_75.mp3",
+    "slovenian": "змея",
+    "russian": "kača"
+  },
+  {
+    "audio": "c_810.mp3",
+    "slovenian": "снаружи",
+    "russian": "zunaj"
+  },
+  {
+    "audio": "c_809.mp3",
+    "slovenian": "внутри",
+    "russian": "znotraj"
+  },
+  {
+    "audio": "c_806.mp3",
+    "slovenian": "далекий",
+    "russian": "daleč"
+  },
+  {
+    "audio": "c_805.mp3",
+    "slovenian": "близкий",
+    "russian": "blizu"
+  },
+  {
+    "audio": "c_804.mp3",
+    "slovenian": "ниже",
+    "russian": "pod"
+  },
+  {
+    "audio": "c_803.mp3",
+    "slovenian": "выше",
+    "russian": "nad"
+  },
+  {
+    "audio": "c_802.mp3",
+    "slovenian": "рядом",
+    "russian": "poleg"
+  },
+  {
+    "audio": "c_801.mp3",
+    "slovenian": "передний",
+    "russian": "spredaj"
+  },
+  {
+    "audio": "c_800.mp3",
+    "slovenian": "задний",
+    "russian": "zadaj"
+  },
+  {
+    "audio": "c_829.mp3",
+    "slovenian": "сладкий",
+    "russian": "sladek"
+  },
+  {
+    "audio": "c_828.mp3",
+    "slovenian": "кислый",
+    "russian": "kisel"
+  },
+  {
+    "audio": "c_827.mp3",
+    "slovenian": "странный",
+    "russian": "čuden"
+  },
+  {
+    "audio": "c_822.mp3",
+    "slovenian": "мягкий",
+    "russian": "mehek"
+  },
+  {
+    "audio": "c_821.mp3",
+    "slovenian": "жесткий",
+    "russian": "trd"
+  },
+  {
+    "audio": "c_874.mp3",
+    "slovenian": "милый",
+    "russian": "srčkan"
+  },
+  {
+    "audio": "c_873.mp3",
+    "slovenian": "глупый",
+    "russian": "neumen"
+  },
+  {
+    "audio": "c_864.mp3",
+    "slovenian": "сумасшедший",
+    "russian": "nor"
+  },
+  {
+    "audio": "c_857.mp3",
+    "slovenian": "занятый",
+    "russian": "zaposlen"
+  },
+  {
+    "audio": "c_840.mp3",
+    "slovenian": "высокий",
+    "russian": "visok"
+  },
+  {
+    "audio": "c_839.mp3",
+    "slovenian": "низкий",
+    "russian": "nizek"
+  },
+  {
+    "audio": "c_837.mp3",
+    "slovenian": "обеспокоенный",
+    "russian": "zaskrbljen"
+  },
+  {
+    "audio": "c_838.mp3",
+    "slovenian": "удивленный",
+    "russian": "presenečen"
+  },
+  {
+    "audio": "c_836.mp3",
+    "slovenian": "крутой",
+    "russian": "kul"
+  },
+  {
+    "audio": "c_835.mp3",
+    "slovenian": "воспитанный",
+    "russian": "priden"
+  },
+  {
+    "audio": "c_834.mp3",
+    "slovenian": "злой",
+    "russian": "hudoben"
+  },
+  {
+    "audio": "c_833.mp3",
+    "slovenian": "умный",
+    "russian": "pameten"
+  },
+  {
+    "audio": "c_881.mp3",
+    "slovenian": "холодный",
+    "russian": "hladen"
+  },
+  {
+    "audio": "c_880.mp3",
+    "slovenian": "горячий",
+    "russian": "vroč"
+  },
+  {
+    "audio": "c_621.mp3",
+    "slovenian": "голова",
+    "russian": "glava"
+  },
+  {
+    "audio": "c_645.mp3",
+    "slovenian": "нос",
+    "russian": "nos"
+  },
+  {
+    "audio": "c_643.mp3",
+    "slovenian": "волос",
+    "russian": "las"
+  },
+  {
+    "audio": "c_641.mp3",
+    "slovenian": "рот",
+    "russian": "usta"
+  },
+  {
+    "audio": "c_638.mp3",
+    "slovenian": "ухо",
+    "russian": "uho"
+  },
+  {
+    "audio": "c_607.mp3",
+    "slovenian": "глаз",
+    "russian": "oko"
+  },
+  {
+    "audio": "c_619.mp3",
+    "slovenian": "рука",
+    "russian": "roka"
+  },
+  {
+    "audio": "c_618.mp3",
+    "slovenian": "стопа",
+    "russian": "stopalo"
+  },
+  {
+    "audio": "c_710.mp3",
+    "slovenian": "сердце",
+    "russian": "srce"
+  },
+  {
+    "audio": "c_633.mp3",
+    "slovenian": "головной мозг",
+    "russian": "možgani"
+  },
+  {
+    "audio": "c_997.mp3",
+    "slovenian": "потянуть",
+    "russian": "vleči"
+  },
+  {
+    "audio": "c_996.mp3",
+    "slovenian": "толкнуть",
+    "russian": "potisniti"
+  },
+  {
+    "audio": "c_995.mp3",
+    "slovenian": "нажимать",
+    "russian": "pritisniti"
+  },
+  {
+    "audio": "c_986.mp3",
+    "slovenian": "ударить",
+    "russian": "udariti"
+  },
+  {
+    "audio": "c_985.mp3",
+    "slovenian": "ловить",
+    "russian": "ujeti"
+  },
+  {
+    "audio": "c_984.mp3",
+    "slovenian": "бороться",
+    "russian": "boriti se"
+  },
+  {
+    "audio": "c_981.mp3",
+    "slovenian": "бросать",
+    "russian": "vreči"
+  },
+  {
+    "audio": "c_980.mp3",
+    "slovenian": "бежать",
+    "russian": "teči"
+  },
+  {
+    "audio": "c_1049.mp3",
+    "slovenian": "читать",
+    "russian": "brati"
+  },
+  {
+    "audio": "c_1048.mp3",
+    "slovenian": "писать",
+    "russian": "pisati"
+  },
+  {
+    "audio": "c_1047.mp3",
+    "slovenian": "ремонтировать",
+    "russian": "popraviti"
+  },
+  {
+    "audio": "c_1043.mp3",
+    "slovenian": "считать",
+    "russian": "šteti"
+  },
+  {
+    "audio": "c_1042.mp3",
+    "slovenian": "вырезать",
+    "russian": "rezati"
+  },
+  {
+    "audio": "c_1003.mp3",
+    "slovenian": "продавать",
+    "russian": "prodati"
+  },
+  {
+    "audio": "c_1002.mp3",
+    "slovenian": "покупать",
+    "russian": "kupiti"
+  },
+  {
+    "audio": "c_1001.mp3",
+    "slovenian": "платить",
+    "russian": "plačati"
+  },
+  {
+    "audio": "c_998.mp3",
+    "slovenian": "учиться",
+    "russian": "študirati"
+  },
+  {
+    "audio": "c_1036.mp3",
+    "slovenian": "мечтать",
+    "russian": "sanjati"
+  },
+  {
+    "audio": "c_1034.mp3",
+    "slovenian": "спать",
+    "russian": "spati"
+  },
+  {
+    "audio": "c_1032.mp3",
+    "slovenian": "играть",
+    "russian": "igrati"
+  },
+  {
+    "audio": "c_1021.mp3",
+    "slovenian": "праздновать",
+    "russian": "proslaviti"
+  },
+  {
+    "audio": "c_1018.mp3",
+    "slovenian": "отдыхать",
+    "russian": "počivati"
+  },
+  {
+    "audio": "c_1013.mp3",
+    "slovenian": "наслаждаться",
+    "russian": "uživati"
+  },
+  {
+    "audio": "c_1007.mp3",
+    "slovenian": "чистить",
+    "russian": "čistiti"
+  },
+  {
+    "audio": "c_2927.mp3",
+    "slovenian": "школа",
+    "russian": "šola"
+  },
+  {
+    "audio": "c_2987.mp3",
+    "slovenian": "дом",
+    "russian": "hiša"
+  },
+  {
+    "audio": "c_1098.mp3",
+    "slovenian": "дверь",
+    "russian": "vrata"
+  },
+  {
+    "audio": "c_1737.mp3",
+    "slovenian": "муж",
+    "russian": "mož"
+  },
+  {
+    "audio": "c_1736.mp3",
+    "slovenian": "жена",
+    "russian": "žena"
+  },
+  {
+    "audio": "c_1778.mp3",
+    "slovenian": "свадьба",
+    "russian": "poroka"
+  },
+  {
+    "audio": "c_40.mp3",
+    "slovenian": "человек",
+    "russian": "oseba"
+  },
+  {
+    "audio": "c_81.mp3",
+    "slovenian": "автомобиль",
+    "russian": "avto"
+  },
+  {
+    "audio": "c_49.mp3",
+    "slovenian": "дом",
+    "russian": "dom"
+  },
+  {
+    "audio": "c_129.mp3",
+    "slovenian": "город",
+    "russian": "mesto"
+  },
+  {
+    "audio": "c_20.mp3",
+    "slovenian": "число",
+    "russian": "število"
+  },
+  {
+    "audio": "c_475.mp3",
+    "slovenian": "21",
+    "russian": "enaindvajset"
+  },
+  {
+    "audio": "c_476.mp3",
+    "slovenian": "22",
+    "russian": "dvaindvajset"
+  },
+  {
+    "audio": "c_477.mp3",
+    "slovenian": "26",
+    "russian": "šestindvajset"
+  },
+  {
+    "audio": "c_478.mp3",
+    "slovenian": "30",
+    "russian": "trideset"
+  },
+  {
+    "audio": "c_479.mp3",
+    "slovenian": "31",
+    "russian": "enaintrideset"
+  },
+  {
+    "audio": "c_480.mp3",
+    "slovenian": "33",
+    "russian": "triintrideset"
+  },
+  {
+    "audio": "c_481.mp3",
+    "slovenian": "37",
+    "russian": "sedemintrideset"
+  },
+  {
+    "audio": "c_482.mp3",
+    "slovenian": "40",
+    "russian": "štirideset"
+  },
+  {
+    "audio": "c_483.mp3",
+    "slovenian": "41",
+    "russian": "enainštirideset"
+  },
+  {
+    "audio": "c_484.mp3",
+    "slovenian": "44",
+    "russian": "štiriinštirideset"
+  },
+  {
+    "audio": "c_485.mp3",
+    "slovenian": "48",
+    "russian": "oseminštirideset"
+  },
+  {
+    "audio": "c_486.mp3",
+    "slovenian": "50",
+    "russian": "petdeset"
+  },
+  {
+    "audio": "c_487.mp3",
+    "slovenian": "51",
+    "russian": "enainpetdeset"
+  },
+  {
+    "audio": "c_488.mp3",
+    "slovenian": "55",
+    "russian": "petinpetdeset"
+  },
+  {
+    "audio": "c_489.mp3",
+    "slovenian": "59",
+    "russian": "devetinpetdeset"
+  },
+  {
+    "audio": "c_490.mp3",
+    "slovenian": "60",
+    "russian": "šestdeset"
+  },
+  {
+    "audio": "c_491.mp3",
+    "slovenian": "61",
+    "russian": "enainšestdeset"
+  },
+  {
+    "audio": "c_492.mp3",
+    "slovenian": "62",
+    "russian": "dvainšestdeset"
+  },
+  {
+    "audio": "c_493.mp3",
+    "slovenian": "66",
+    "russian": "šestinšestdeset"
+  },
+  {
+    "audio": "c_494.mp3",
+    "slovenian": "70",
+    "russian": "sedemdeset"
+  },
+  {
+    "audio": "c_495.mp3",
+    "slovenian": "71",
+    "russian": "enainsedemdeset"
+  },
+  {
+    "audio": "c_496.mp3",
+    "slovenian": "73",
+    "russian": "triinsedemdeset"
+  },
+  {
+    "audio": "c_497.mp3",
+    "slovenian": "77",
+    "russian": "sedeminsedemdeset"
+  },
+  {
+    "audio": "c_498.mp3",
+    "slovenian": "80",
+    "russian": "osemdeset"
+  },
+  {
+    "audio": "c_499.mp3",
+    "slovenian": "81",
+    "russian": "enainosemdeset"
+  },
+  {
+    "audio": "c_500.mp3",
+    "slovenian": "84",
+    "russian": "štiriinosemdeset"
+  },
+  {
+    "audio": "c_501.mp3",
+    "slovenian": "88",
+    "russian": "oseminosemdeset"
+  },
+  {
+    "audio": "c_502.mp3",
+    "slovenian": "90",
+    "russian": "devetdeset"
+  },
+  {
+    "audio": "c_503.mp3",
+    "slovenian": "91",
+    "russian": "enaindevetdeset"
+  },
+  {
+    "audio": "c_504.mp3",
+    "slovenian": "95",
+    "russian": "petindevetdeset"
+  },
+  {
+    "audio": "c_505.mp3",
+    "slovenian": "99",
+    "russian": "devetindevetdeset"
+  },
+  {
+    "audio": "c_506.mp3",
+    "slovenian": "100",
+    "russian": "sto"
+  },
+  {
+    "audio": "c_551.mp3",
+    "slovenian": "1000",
+    "russian": "tisoč"
+  },
+  {
+    "audio": "c_587.mp3",
+    "slovenian": "10.000",
+    "russian": "deset tisoč"
+  },
+  {
+    "audio": "c_592.mp3",
+    "slovenian": "100.000",
+    "russian": "sto tisoč"
+  },
+  {
+    "audio": "c_594.mp3",
+    "slovenian": "1.000.000",
+    "russian": "milijon"
+  },
+  {
+    "audio": "c_3629.mp3",
+    "slovenian": "моя собака",
+    "russian": "moj pes"
+  },
+  {
+    "audio": "c_3630.mp3",
+    "slovenian": "твоя кошка",
+    "russian": "tvoja mačka"
+  },
+  {
+    "audio": "c_3631.mp3",
+    "slovenian": "ее платье",
+    "russian": "njena obleka"
+  },
+  {
+    "audio": "c_3632.mp3",
+    "slovenian": "его машина",
+    "russian": "njegov avto"
+  },
+  {
+    "audio": "c_3633.mp3",
+    "slovenian": "его мяч",
+    "russian": "njegova/njena žoga"
+  },
+  {
+    "audio": "c_3634.mp3",
+    "slovenian": "наш дом",
+    "russian": "naš dom"
+  },
+  {
+    "audio": "c_3635.mp3",
+    "slovenian": "ваша команда",
+    "russian": "vaša ekipa"
+  },
+  {
+    "audio": "c_3636.mp3",
+    "slovenian": "их компания",
+    "russian": "njihovo podjetje"
+  },
+  {
+    "audio": "c_3637.mp3",
+    "slovenian": "все",
+    "russian": "vsi"
+  },
+  {
+    "audio": "c_3638.mp3",
+    "slovenian": "вместе",
+    "russian": "skupaj"
+  },
+  {
+    "audio": "c_3639.mp3",
+    "slovenian": "другой",
+    "russian": "drugo"
+  },
+  {
+    "audio": "c_3691.mp3",
+    "slovenian": "не имеет значения",
+    "russian": "ni pomembno"
+  },
+  {
+    "audio": "c_3690.mp3",
+    "slovenian": "твое здоровье",
+    "russian": "na zdravje"
+  },
+  {
+    "audio": "c_3686.mp3",
+    "slovenian": "расслабься",
+    "russian": "sprosti se"
+  },
+  {
+    "audio": "c_3684.mp3",
+    "slovenian": "согласен",
+    "russian": "strinjam se"
+  },
+  {
+    "audio": "c_3682.mp3",
+    "slovenian": "добро пожаловать",
+    "russian": "dobrodošli"
+  },
+  {
+    "audio": "c_3680.mp3",
+    "slovenian": "не беспокойся",
+    "russian": "brez skrbi"
+  },
+  {
+    "audio": "c_3669.mp3",
+    "slovenian": "поверни направо",
+    "russian": "zavij desno"
+  },
+  {
+    "audio": "c_3668.mp3",
+    "slovenian": "поверни налево",
+    "russian": "zavij levo"
+  },
+  {
+    "audio": "c_3667.mp3",
+    "slovenian": "езжай прямо",
+    "russian": "pojdi naravnost"
+  },
+  {
+    "audio": "c_3666.mp3",
+    "slovenian": "пойдем со мной",
+    "russian": "pridi z mano"
+  },
+  {
+    "audio": "c_1289.mp3",
+    "slovenian": "яйцо",
+    "russian": "jajce"
+  },
+  {
+    "audio": "c_1282.mp3",
+    "slovenian": "сыр",
+    "russian": "sir"
+  },
+  {
+    "audio": "c_1281.mp3",
+    "slovenian": "молоко",
+    "russian": "mleko"
+  },
+  {
+    "audio": "c_3780.mp3",
+    "slovenian": "рыба",
+    "russian": "riba"
+  },
+  {
+    "audio": "c_3779.mp3",
+    "slovenian": "мясо",
+    "russian": "meso"
+  },
+  {
+    "audio": "c_62.mp3",
+    "slovenian": "овощ",
+    "russian": "zelenjava"
+  },
+  {
+    "audio": "c_63.mp3",
+    "slovenian": "фрукт",
+    "russian": "sadje"
+  },
+  {
+    "audio": "c_1322.mp3",
+    "slovenian": "кость",
+    "russian": "kost"
+  },
+  {
+    "audio": "c_3795.mp3",
+    "slovenian": "масло",
+    "russian": "olje"
+  },
+  {
+    "audio": "c_1433.mp3",
+    "slovenian": "хлеб",
+    "russian": "kruh"
+  },
+  {
+    "audio": "c_1424.mp3",
+    "slovenian": "сахар",
+    "russian": "sladkor"
+  },
+  {
+    "audio": "c_1484.mp3",
+    "slovenian": "шоколад",
+    "russian": "čokolada"
+  },
+  {
+    "audio": "c_1477.mp3",
+    "slovenian": "конфета",
+    "russian": "sladkarije"
+  },
+  {
+    "audio": "c_1468.mp3",
+    "slovenian": "торт",
+    "russian": "torta"
+  },
+  {
+    "audio": "c_68.mp3",
+    "slovenian": "напиток",
+    "russian": "pijača"
+  },
+  {
+    "audio": "c_1492.mp3",
+    "slovenian": "вода",
+    "russian": "voda"
+  },
+  {
+    "audio": "c_1493.mp3",
+    "slovenian": "сода",
+    "russian": "mineralna voda"
+  },
+  {
+    "audio": "c_1495.mp3",
+    "slovenian": "кофе",
+    "russian": "kava"
+  },
+  {
+    "audio": "c_1496.mp3",
+    "slovenian": "чай",
+    "russian": "čaj"
+  },
+  {
+    "audio": "c_1521.mp3",
+    "slovenian": "пиво",
+    "russian": "pivo"
+  },
+  {
+    "audio": "c_1512.mp3",
+    "slovenian": "вино",
+    "russian": "vino"
+  },
+  {
+    "audio": "c_1530.mp3",
+    "slovenian": "салат",
+    "russian": "solata"
+  },
+  {
+    "audio": "c_1531.mp3",
+    "slovenian": "суп",
+    "russian": "juha"
+  },
+  {
+    "audio": "c_1532.mp3",
+    "slovenian": "десерт",
+    "russian": "sladica"
+  },
+  {
+    "audio": "c_1537.mp3",
+    "slovenian": "завтрак",
+    "russian": "zajtrk"
+  },
+  {
+    "audio": "c_1538.mp3",
+    "slovenian": "обед",
+    "russian": "kosilo"
+  },
+  {
+    "audio": "c_1539.mp3",
+    "slovenian": "ужин",
+    "russian": "večerja"
+  },
+  {
+    "audio": "c_1561.mp3",
+    "slovenian": "пицца",
+    "russian": "pica"
+  },
+  {
+    "audio": "c_1849.mp3",
+    "slovenian": "автобус",
+    "russian": "avtobus"
+  },
+  {
+    "audio": "c_1869.mp3",
+    "slovenian": "поезд",
+    "russian": "vlak"
+  },
+  {
+    "audio": "c_1851.mp3",
+    "slovenian": "железнодорожная станция",
+    "russian": "železniška postaja"
+  },
+  {
+    "audio": "c_3762.mp3",
+    "slovenian": "автобусная остановка",
+    "russian": "avtobusna postaja"
+  },
+  {
+    "audio": "c_1975.mp3",
+    "slovenian": "самолет",
+    "russian": "letalo"
+  },
+  {
+    "audio": "c_1974.mp3",
+    "slovenian": "корабль",
+    "russian": "ladja"
+  },
+  {
+    "audio": "c_1998.mp3",
+    "slovenian": "грузовик",
+    "russian": "tovornjak"
+  },
+  {
+    "audio": "c_1971.mp3",
+    "slovenian": "велосипед",
+    "russian": "kolo"
+  },
+  {
+    "audio": "c_1970.mp3",
+    "slovenian": "мотоцикл",
+    "russian": "motorno kolo"
+  },
+  {
+    "audio": "c_1964.mp3",
+    "slovenian": "такси",
+    "russian": "taksi"
+  },
+  {
+    "audio": "c_3793.mp3",
+    "slovenian": "светофор",
+    "russian": "semafor"
+  },
+  {
+    "audio": "c_1948.mp3",
+    "slovenian": "автомобильная стоянка",
+    "russian": "parkirišče"
+  },
+  {
+    "audio": "c_1934.mp3",
+    "slovenian": "дорога",
+    "russian": "cesta"
+  },
+  {
+    "audio": "c_116.mp3",
+    "slovenian": "одежда",
+    "russian": "oblačilo"
+  },
+  {
+    "audio": "c_117.mp3",
+    "slovenian": "ботинок",
+    "russian": "čevelj"
+  },
+  {
+    "audio": "c_2714.mp3",
+    "slovenian": "пальто",
+    "russian": "plašč"
+  },
+  {
+    "audio": "c_2700.mp3",
+    "slovenian": "свитер",
+    "russian": "pulover"
+  },
+  {
+    "audio": "c_2699.mp3",
+    "slovenian": "рубашка",
+    "russian": "srajca"
+  },
+  {
+    "audio": "c_2697.mp3",
+    "slovenian": "куртка",
+    "russian": "jakna"
+  },
+  {
+    "audio": "c_2696.mp3",
+    "slovenian": "костюм",
+    "russian": "obleka"
+  },
+  {
+    "audio": "c_2693.mp3",
+    "slovenian": "брюки",
+    "russian": "hlače"
+  },
+  {
+    "audio": "c_2691.mp3",
+    "slovenian": "платье",
+    "russian": "obleka"
+  },
+  {
+    "audio": "c_2688.mp3",
+    "slovenian": "футболка",
+    "russian": "majica"
+  },
+  {
+    "audio": "c_2726.mp3",
+    "slovenian": "носок",
+    "russian": "nogavica"
+  },
+  {
+    "audio": "c_2725.mp3",
+    "slovenian": "бюстгальтер",
+    "russian": "modrček"
+  },
+  {
+    "audio": "c_2720.mp3",
+    "slovenian": "трусы",
+    "russian": "spodnjice"
+  },
+  {
+    "audio": "c_2761.mp3",
+    "slovenian": "очки",
+    "russian": "očala"
+  },
+  {
+    "audio": "c_2757.mp3",
+    "slovenian": "сумка",
+    "russian": "ročna torba"
+  },
+  {
+    "audio": "c_2755.mp3",
+    "slovenian": "кошелек",
+    "russian": "torbica"
+  },
+  {
+    "audio": "c_2754.mp3",
+    "slovenian": "бумажник",
+    "russian": "denarnica"
+  },
+  {
+    "audio": "c_2751.mp3",
+    "slovenian": "кольцо",
+    "russian": "prstan"
+  },
+  {
+    "audio": "c_2743.mp3",
+    "slovenian": "шляпа",
+    "russian": "klobuk"
+  },
+  {
+    "audio": "c_2741.mp3",
+    "slovenian": "часы",
+    "russian": "ura"
+  },
+  {
+    "audio": "c_2824.mp3",
+    "slovenian": "карман",
+    "russian": "žep"
+  },
+  {
+    "audio": "c_3709.mp3",
+    "slovenian": "Как тебя зовут?",
+    "russian": "Kako ti je ime?"
+  },
+  {
+    "audio": "c_3736.mp3",
+    "slovenian": "Меня зовут Дэвид",
+    "russian": "Moje ime je David"
+  },
+  {
+    "audio": "c_3737.mp3",
+    "slovenian": "Мне 22 года",
+    "russian": "Imam 22 let"
+  },
+  {
+    "audio": "c_3703.mp3",
+    "slovenian": "Как дела?",
+    "russian": "Kako si?"
+  },
+  {
+    "audio": "c_3704.mp3",
+    "slovenian": "Ты в порядке?",
+    "russian": "Si v redu?"
+  },
+  {
+    "audio": "c_3711.mp3",
+    "slovenian": "Где здесь туалет?",
+    "russian": "Kje je stranišče?"
+  },
+  {
+    "audio": "c_3740.mp3",
+    "slovenian": "Я скучаю по тебе",
+    "russian": "Pogrešam te"
+  },
+  {
+    "audio": "c_1693.mp3",
+    "slovenian": "весна",
+    "russian": "pomlad"
+  },
+  {
+    "audio": "c_1694.mp3",
+    "slovenian": "лето",
+    "russian": "poletje"
+  },
+  {
+    "audio": "c_1695.mp3",
+    "slovenian": "осень",
+    "russian": "jesen"
+  },
+  {
+    "audio": "c_1696.mp3",
+    "slovenian": "зима",
+    "russian": "zima"
+  },
+  {
+    "audio": "c_1681.mp3",
+    "slovenian": "январь",
+    "russian": "januar"
+  },
+  {
+    "audio": "c_1682.mp3",
+    "slovenian": "февраль",
+    "russian": "februar"
+  },
+  {
+    "audio": "c_1683.mp3",
+    "slovenian": "март",
+    "russian": "marec"
+  },
+  {
+    "audio": "c_1684.mp3",
+    "slovenian": "апрель",
+    "russian": "april"
+  },
+  {
+    "audio": "c_1685.mp3",
+    "slovenian": "май",
+    "russian": "maj"
+  },
+  {
+    "audio": "c_1686.mp3",
+    "slovenian": "июнь",
+    "russian": "junij"
+  },
+  {
+    "audio": "c_1687.mp3",
+    "slovenian": "июль",
+    "russian": "julij"
+  },
+  {
+    "audio": "c_1688.mp3",
+    "slovenian": "август",
+    "russian": "avgust"
+  },
+  {
+    "audio": "c_1689.mp3",
+    "slovenian": "сентябрь",
+    "russian": "september"
+  },
+  {
+    "audio": "c_1690.mp3",
+    "slovenian": "октябрь",
+    "russian": "oktober"
+  },
+  {
+    "audio": "c_1691.mp3",
+    "slovenian": "ноябрь",
+    "russian": "november"
+  },
+  {
+    "audio": "c_1692.mp3",
+    "slovenian": "декабрь",
+    "russian": "december"
+  },
+  {
+    "audio": "c_130.mp3",
+    "slovenian": "покупка",
+    "russian": "nakupovanje"
+  },
+  {
+    "audio": "c_2920.mp3",
+    "slovenian": "счет",
+    "russian": "račun"
+  },
+  {
+    "audio": "c_2902.mp3",
+    "slovenian": "рынок",
+    "russian": "trg"
+  },
+  {
+    "audio": "c_2898.mp3",
+    "slovenian": "супермаркет",
+    "russian": "supermarket"
+  },
+  {
+    "audio": "c_131.mp3",
+    "slovenian": "здание",
+    "russian": "stavba"
+  },
+  {
+    "audio": "c_2984.mp3",
+    "slovenian": "квартира",
+    "russian": "stanovanje"
+  },
+  {
+    "audio": "c_2928.mp3",
+    "slovenian": "университет",
+    "russian": "univerza"
+  },
+  {
+    "audio": "c_2926.mp3",
+    "slovenian": "ферма",
+    "russian": "kmetija"
+  },
+  {
+    "audio": "c_2930.mp3",
+    "slovenian": "церковь",
+    "russian": "cerkev"
+  },
+  {
+    "audio": "c_2951.mp3",
+    "slovenian": "ресторан",
+    "russian": "restavracija"
+  },
+  {
+    "audio": "c_2950.mp3",
+    "slovenian": "бар",
+    "russian": "bar"
+  },
+  {
+    "audio": "c_2947.mp3",
+    "slovenian": "тренажерный зал",
+    "russian": "fitnes center"
+  },
+  {
+    "audio": "c_2944.mp3",
+    "slovenian": "парк",
+    "russian": "park"
+  },
+  {
+    "audio": "c_2956.mp3",
+    "slovenian": "туалет",
+    "russian": "WC"
+  },
+  {
+    "audio": "c_2959.mp3",
+    "slovenian": "карта",
+    "russian": "zemljevid"
+  },
+  {
+    "audio": "c_3046.mp3",
+    "slovenian": "скорая помощь",
+    "russian": "rešilec"
+  },
+  {
+    "audio": "c_3047.mp3",
+    "slovenian": "полиция",
+    "russian": "policija"
+  },
+  {
+    "audio": "c_3061.mp3",
+    "slovenian": "пистолет",
+    "russian": "pištola"
+  },
+  {
+    "audio": "c_3777.mp3",
+    "slovenian": "пожарные",
+    "russian": "gasilci"
+  },
+  {
+    "audio": "c_3070.mp3",
+    "slovenian": "страна",
+    "russian": "država"
+  },
+  {
+    "audio": "c_3077.mp3",
+    "slovenian": "пригород",
+    "russian": "predmestje"
+  },
+  {
+    "audio": "c_3078.mp3",
+    "slovenian": "деревня",
+    "russian": "vas"
+  },
+  {
+    "audio": "c_139.mp3",
+    "slovenian": "здоровье",
+    "russian": "zdravje"
+  },
+  {
+    "audio": "c_141.mp3",
+    "slovenian": "лекарственное средство",
+    "russian": "zdravilo"
+  },
+  {
+    "audio": "c_3164.mp3",
+    "slovenian": "авария",
+    "russian": "nesreča"
+  },
+  {
+    "audio": "c_3087.mp3",
+    "slovenian": "пациент",
+    "russian": "pacient"
+  },
+  {
+    "audio": "c_3088.mp3",
+    "slovenian": "хирургия",
+    "russian": "operacija"
+  },
+  {
+    "audio": "c_3229.mp3",
+    "slovenian": "пилюля",
+    "russian": "tableta"
+  },
+  {
+    "audio": "c_3111.mp3",
+    "slovenian": "лихорадка",
+    "russian": "vročina"
+  },
+  {
+    "audio": "c_3114.mp3",
+    "slovenian": "простуда",
+    "russian": "prehlad"
+  },
+  {
+    "audio": "c_3168.mp3",
+    "slovenian": "рана",
+    "russian": "rana"
+  },
+  {
+    "audio": "c_3089.mp3",
+    "slovenian": "прием",
+    "russian": "termin"
+  },
+  {
+    "audio": "c_3115.mp3",
+    "slovenian": "кашель",
+    "russian": "kašelj"
+  },
+  {
+    "audio": "c_628.mp3",
+    "slovenian": "шея",
+    "russian": "vrat"
+  },
+  {
+    "audio": "c_650.mp3",
+    "slovenian": "ягодицы",
+    "russian": "rit"
+  },
+  {
+    "audio": "c_625.mp3",
+    "slovenian": "плечо",
+    "russian": "rama"
+  },
+  {
+    "audio": "c_620.mp3",
+    "slovenian": "колено",
+    "russian": "koleno"
+  },
+  {
+    "audio": "c_613.mp3",
+    "slovenian": "нога",
+    "russian": "noga"
+  },
+  {
+    "audio": "c_611.mp3",
+    "slovenian": "рука",
+    "russian": "roka"
+  },
+  {
+    "audio": "c_614.mp3",
+    "slovenian": "живот",
+    "russian": "trebuh"
+  },
+  {
+    "audio": "c_615.mp3",
+    "slovenian": "грудь",
+    "russian": "prsi"
+  },
+  {
+    "audio": "c_653.mp3",
+    "slovenian": "спина",
+    "russian": "hrbet"
+  },
+  {
+    "audio": "c_649.mp3",
+    "slovenian": "зуб",
+    "russian": "zob"
+  },
+  {
+    "audio": "c_646.mp3",
+    "slovenian": "язык",
+    "russian": "jezik"
+  },
+  {
+    "audio": "c_644.mp3",
+    "slovenian": "губа",
+    "russian": "ustnica"
+  },
+  {
+    "audio": "c_890.mp3",
+    "slovenian": "палец",
+    "russian": "prst"
+  },
+  {
+    "audio": "c_663.mp3",
+    "slovenian": "палец на ноге",
+    "russian": "prst na nogi"
+  },
+  {
+    "audio": "c_714.mp3",
+    "slovenian": "желудок",
+    "russian": "želodec"
+  },
+  {
+    "audio": "c_713.mp3",
+    "slovenian": "легкое",
+    "russian": "pljuča"
+  },
+  {
+    "audio": "c_711.mp3",
+    "slovenian": "печень",
+    "russian": "jetra"
+  },
+  {
+    "audio": "c_704.mp3",
+    "slovenian": "нерв",
+    "russian": "živec"
+  },
+  {
+    "audio": "c_702.mp3",
+    "slovenian": "почка",
+    "russian": "ledvica"
+  },
+  {
+    "audio": "c_696.mp3",
+    "slovenian": "кишечник",
+    "russian": "črevesje"
+  },
+  {
+    "audio": "c_34.mp3",
+    "slovenian": "цвет",
+    "russian": "barva"
+  },
+  {
+    "audio": "c_739.mp3",
+    "slovenian": "оранжевый",
+    "russian": "oranžen"
+  },
+  {
+    "audio": "c_736.mp3",
+    "slovenian": "серый",
+    "russian": "siv"
+  },
+  {
+    "audio": "c_734.mp3",
+    "slovenian": "коричневый",
+    "russian": "rjav"
+  },
+  {
+    "audio": "c_740.mp3",
+    "slovenian": "розовый",
+    "russian": "roza"
+  },
+  {
+    "audio": "c_760.mp3",
+    "slovenian": "скучный",
+    "russian": "dolgočasen"
+  },
+  {
+    "audio": "c_754.mp3",
+    "slovenian": "тяжелый",
+    "russian": "težek"
+  },
+  {
+    "audio": "c_753.mp3",
+    "slovenian": "легкий",
+    "russian": "lahek"
+  },
+  {
+    "audio": "c_774.mp3",
+    "slovenian": "одинокий",
+    "russian": "osamljen"
+  },
+  {
+    "audio": "c_768.mp3",
+    "slovenian": "голодный",
+    "russian": "lačen"
+  },
+  {
+    "audio": "c_769.mp3",
+    "slovenian": "жаждущий",
+    "russian": "žejen"
+  },
+  {
+    "audio": "c_767.mp3",
+    "slovenian": "грустный",
+    "russian": "žalosten"
+  },
+  {
+    "audio": "c_787.mp3",
+    "slovenian": "крутой",
+    "russian": "strm"
+  },
+  {
+    "audio": "c_786.mp3",
+    "slovenian": "плоский",
+    "russian": "ploščat"
+  },
+  {
+    "audio": "c_785.mp3",
+    "slovenian": "круглый",
+    "russian": "okrogel"
+  },
+  {
+    "audio": "c_784.mp3",
+    "slovenian": "квадратный",
+    "russian": "kvadraten"
+  },
+  {
+    "audio": "c_782.mp3",
+    "slovenian": "узкий",
+    "russian": "ozek"
+  },
+  {
+    "audio": "c_781.mp3",
+    "slovenian": "широкий",
+    "russian": "širok"
+  },
+  {
+    "audio": "c_780.mp3",
+    "slovenian": "глубокий",
+    "russian": "globok"
+  },
+  {
+    "audio": "c_779.mp3",
+    "slovenian": "мелкий",
+    "russian": "plitev"
+  },
+  {
+    "audio": "c_783.mp3",
+    "slovenian": "огромный",
+    "russian": "ogromen"
+  },
+  {
+    "audio": "c_812.mp3",
+    "slovenian": "север",
+    "russian": "sever"
+  },
+  {
+    "audio": "c_811.mp3",
+    "slovenian": "восток",
+    "russian": "vzhod"
+  },
+  {
+    "audio": "c_813.mp3",
+    "slovenian": "юг",
+    "russian": "jug"
+  },
+  {
+    "audio": "c_814.mp3",
+    "slovenian": "запад",
+    "russian": "zahod"
+  },
+  {
+    "audio": "c_826.mp3",
+    "slovenian": "грязный",
+    "russian": "umazan"
+  },
+  {
+    "audio": "c_825.mp3",
+    "slovenian": "чистый",
+    "russian": "čist"
+  },
+  {
+    "audio": "c_820.mp3",
+    "slovenian": "полный",
+    "russian": "poln"
+  },
+  {
+    "audio": "c_819.mp3",
+    "slovenian": "пустой",
+    "russian": "prazen"
+  },
+  {
+    "audio": "c_818.mp3",
+    "slovenian": "дорогой",
+    "russian": "drag"
+  },
+  {
+    "audio": "c_817.mp3",
+    "slovenian": "дешевый",
+    "russian": "poceni"
+  },
+  {
+    "audio": "c_816.mp3",
+    "slovenian": "темный",
+    "russian": "temen"
+  },
+  {
+    "audio": "c_815.mp3",
+    "slovenian": "светлый",
+    "russian": "svetel"
+  },
+  {
+    "audio": "c_872.mp3",
+    "slovenian": "сексуальный",
+    "russian": "seksi"
+  },
+  {
+    "audio": "c_871.mp3",
+    "slovenian": "ленивый",
+    "russian": "len"
+  },
+  {
+    "audio": "c_869.mp3",
+    "slovenian": "храбрый",
+    "russian": "pogumen"
+  },
+  {
+    "audio": "c_868.mp3",
+    "slovenian": "щедрый",
+    "russian": "velikodušen"
+  },
+  {
+    "audio": "c_866.mp3",
+    "slovenian": "красивый",
+    "russian": "čeden"
+  },
+  {
+    "audio": "c_865.mp3",
+    "slovenian": "уродливый",
+    "russian": "grd"
+  },
+  {
+    "audio": "c_863.mp3",
+    "slovenian": "глупый",
+    "russian": "trapast"
+  },
+  {
+    "audio": "c_856.mp3",
+    "slovenian": "дружелюбный",
+    "russian": "prijazen"
+  },
+  {
+    "audio": "c_854.mp3",
+    "slovenian": "виновный",
+    "russian": "kriv"
+  },
+  {
+    "audio": "c_849.mp3",
+    "slovenian": "слепой",
+    "russian": "slep"
+  },
+  {
+    "audio": "c_848.mp3",
+    "slovenian": "пьяный",
+    "russian": "pijan"
+  },
+  {
+    "audio": "c_875.mp3",
+    "slovenian": "влажный",
+    "russian": "moker"
+  },
+  {
+    "audio": "c_876.mp3",
+    "slovenian": "сухой",
+    "russian": "suh"
+  },
+  {
+    "audio": "c_877.mp3",
+    "slovenian": "теплый",
+    "russian": "topel"
+  },
+  {
+    "audio": "c_882.mp3",
+    "slovenian": "громкий",
+    "russian": "glasen"
+  },
+  {
+    "audio": "c_883.mp3",
+    "slovenian": "тихий",
+    "russian": "miren"
+  },
+  {
+    "audio": "c_884.mp3",
+    "slovenian": "тихий",
+    "russian": "tih"
+  },
+  {
+    "audio": "c_1089.mp3",
+    "slovenian": "кухня",
+    "russian": "kuhinja"
+  },
+  {
+    "audio": "c_1096.mp3",
+    "slovenian": "ванная",
+    "russian": "kopalnica"
+  },
+  {
+    "audio": "c_1087.mp3",
+    "slovenian": "гостиная",
+    "russian": "dnevna soba"
+  },
+  {
+    "audio": "c_1088.mp3",
+    "slovenian": "спальня",
+    "russian": "spalnica"
+  },
+  {
+    "audio": "c_1110.mp3",
+    "slovenian": "сад",
+    "russian": "vrt"
+  },
+  {
+    "audio": "c_1109.mp3",
+    "slovenian": "гараж",
+    "russian": "garaža"
+  },
+  {
+    "audio": "c_1106.mp3",
+    "slovenian": "стена",
+    "russian": "zid"
+  },
+  {
+    "audio": "c_1102.mp3",
+    "slovenian": "подвал",
+    "russian": "klet"
+  },
+  {
+    "audio": "c_1100.mp3",
+    "slovenian": "туалет",
+    "russian": "stranišče"
+  },
+  {
+    "audio": "c_1095.mp3",
+    "slovenian": "лестница",
+    "russian": "stopnice"
+  },
+  {
+    "audio": "c_1093.mp3",
+    "slovenian": "крыша",
+    "russian": "streha"
+  },
+  {
+    "audio": "c_1092.mp3",
+    "slovenian": "окно",
+    "russian": "okno"
+  },
+  {
+    "audio": "c_1175.mp3",
+    "slovenian": "нож",
+    "russian": "nož"
+  },
+  {
+    "audio": "c_1172.mp3",
+    "slovenian": "чашка",
+    "russian": "skodelica"
+  },
+  {
+    "audio": "c_1167.mp3",
+    "slovenian": "стакан",
+    "russian": "kozarec"
+  },
+  {
+    "audio": "c_1166.mp3",
+    "slovenian": "тарелка",
+    "russian": "krožnik"
+  },
+  {
+    "audio": "c_1119.mp3",
+    "slovenian": "кружка",
+    "russian": "skodelica"
+  },
+  {
+    "audio": "c_1139.mp3",
+    "slovenian": "корзина для мусора",
+    "russian": "smetnjak"
+  },
+  {
+    "audio": "c_1168.mp3",
+    "slovenian": "миска",
+    "russian": "skleda"
+  },
+  {
+    "audio": "c_1140.mp3",
+    "slovenian": "телевизор",
+    "russian": "TV sprejemnik"
+  },
+  {
+    "audio": "c_1194.mp3",
+    "slovenian": "письменный стол",
+    "russian": "miza"
+  },
+  {
+    "audio": "c_1190.mp3",
+    "slovenian": "кровать",
+    "russian": "postelja"
+  },
+  {
+    "audio": "c_1126.mp3",
+    "slovenian": "зеркало",
+    "russian": "ogledalo"
+  },
+  {
+    "audio": "c_1215.mp3",
+    "slovenian": "душ",
+    "russian": "tuš"
+  },
+  {
+    "audio": "c_1129.mp3",
+    "slovenian": "диван",
+    "russian": "kavč"
+  },
+  {
+    "audio": "c_1136.mp3",
+    "slovenian": "картина",
+    "russian": "slika"
+  },
+  {
+    "audio": "c_1137.mp3",
+    "slovenian": "часы",
+    "russian": "ura"
+  },
+  {
+    "audio": "c_1234.mp3",
+    "slovenian": "стол",
+    "russian": "miza"
+  },
+  {
+    "audio": "c_1235.mp3",
+    "slovenian": "стул",
+    "russian": "stol"
+  },
+  {
+    "audio": "c_1250.mp3",
+    "slovenian": "бассейн",
+    "russian": "bazen"
+  },
+  {
+    "audio": "c_1278.mp3",
+    "slovenian": "дверной звонок",
+    "russian": "zvonec"
+  },
+  {
+    "audio": "c_1280.mp3",
+    "slovenian": "сосед",
+    "russian": "sosed"
+  },
+  {
+    "audio": "c_901.mp3",
+    "slovenian": "потерпеть неудачу",
+    "russian": "spodleteti"
+  },
+  {
+    "audio": "c_928.mp3",
+    "slovenian": "выбирать",
+    "russian": "izbrati"
+  },
+  {
+    "audio": "c_926.mp3",
+    "slovenian": "стрелять",
+    "russian": "ustreliti"
+  },
+  {
+    "audio": "c_924.mp3",
+    "slovenian": "голосовать",
+    "russian": "voliti"
+  },
+  {
+    "audio": "c_923.mp3",
+    "slovenian": "падать",
+    "russian": "padati"
+  },
+  {
+    "audio": "c_922.mp3",
+    "slovenian": "защищать",
+    "russian": "braniti"
+  },
+  {
+    "audio": "c_921.mp3",
+    "slovenian": "атаковать",
+    "russian": "napasti"
+  },
+  {
+    "audio": "c_927.mp3",
+    "slovenian": "красть",
+    "russian": "ukrasti"
+  },
+  {
+    "audio": "c_915.mp3",
+    "slovenian": "жечь",
+    "russian": "goreti"
+  },
+  {
+    "audio": "c_914.mp3",
+    "slovenian": "спасать",
+    "russian": "rešiti"
+  },
+  {
+    "audio": "c_913.mp3",
+    "slovenian": "курить",
+    "russian": "kaditi"
+  },
+  {
+    "audio": "c_912.mp3",
+    "slovenian": "летать",
+    "russian": "leteti"
+  },
+  {
+    "audio": "c_909.mp3",
+    "slovenian": "носить",
+    "russian": "nositi"
+  },
+  {
+    "audio": "c_953.mp3",
+    "slovenian": "плевать",
+    "russian": "pljuvati"
+  },
+  {
+    "audio": "c_951.mp3",
+    "slovenian": "пинать",
+    "russian": "brcniti"
+  },
+  {
+    "audio": "c_947.mp3",
+    "slovenian": "кусать",
+    "russian": "ugrizniti"
+  },
+  {
+    "audio": "c_945.mp3",
+    "slovenian": "дышать",
+    "russian": "dihati"
+  },
+  {
+    "audio": "c_942.mp3",
+    "slovenian": "нюхать",
+    "russian": "vonjati"
+  },
+  {
+    "audio": "c_937.mp3",
+    "slovenian": "плакать",
+    "russian": "jokati"
+  },
+  {
+    "audio": "c_936.mp3",
+    "slovenian": "петь",
+    "russian": "peti"
+  },
+  {
+    "audio": "c_933.mp3",
+    "slovenian": "улыбаться",
+    "russian": "smehljati se"
+  },
+  {
+    "audio": "c_932.mp3",
+    "slovenian": "смеяться",
+    "russian": "smejati se"
+  },
+  {
+    "audio": "c_930.mp3",
+    "slovenian": "расти",
+    "russian": "rasti"
+  },
+  {
+    "audio": "c_929.mp3",
+    "slovenian": "уменьшаться",
+    "russian": "manjšati se"
+  },
+  {
+    "audio": "c_976.mp3",
+    "slovenian": "спорить",
+    "russian": "kregati se"
+  },
+  {
+    "audio": "c_975.mp3",
+    "slovenian": "угрожать",
+    "russian": "groziti"
+  },
+  {
+    "audio": "c_973.mp3",
+    "slovenian": "делиться",
+    "russian": "deliti"
+  },
+  {
+    "audio": "c_971.mp3",
+    "slovenian": "кормить",
+    "russian": "nahraniti"
+  },
+  {
+    "audio": "c_968.mp3",
+    "slovenian": "прятаться",
+    "russian": "skriti"
+  },
+  {
+    "audio": "c_959.mp3",
+    "slovenian": "предупреждать",
+    "russian": "posvariti"
+  },
+  {
+    "audio": "c_979.mp3",
+    "slovenian": "плавать",
+    "russian": "plavati"
+  },
+  {
+    "audio": "c_983.mp3",
+    "slovenian": "прыгать",
+    "russian": "skočiti"
+  },
+  {
+    "audio": "c_988.mp3",
+    "slovenian": "сворачивать",
+    "russian": "kotaliti se"
+  },
+  {
+    "audio": "c_991.mp3",
+    "slovenian": "поднимать",
+    "russian": "dvigniti"
+  },
+  {
+    "audio": "c_992.mp3",
+    "slovenian": "копать",
+    "russian": "kopati"
+  },
+  {
+    "audio": "c_1046.mp3",
+    "slovenian": "копировать",
+    "russian": "kopirati"
+  },
+  {
+    "audio": "c_1052.mp3",
+    "slovenian": "доставлять",
+    "russian": "dostaviti"
+  },
+  {
+    "audio": "c_1038.mp3",
+    "slovenian": "искать",
+    "russian": "iskati"
+  },
+  {
+    "audio": "c_1004.mp3",
+    "slovenian": "тренироваться",
+    "russian": "vaditi"
+  },
+  {
+    "audio": "c_1033.mp3",
+    "slovenian": "путешествовать",
+    "russian": "potovati"
+  },
+  {
+    "audio": "c_1031.mp3",
+    "slovenian": "рисовать",
+    "russian": "slikati"
+  },
+  {
+    "audio": "c_1024.mp3",
+    "slovenian": "принимать душ",
+    "russian": "stuširati se"
+  },
+  {
+    "audio": "c_1020.mp3",
+    "slovenian": "открывать",
+    "russian": "odpreti"
+  },
+  {
+    "audio": "c_1019.mp3",
+    "slovenian": "закрывать",
+    "russian": "zakleniti"
+  },
+  {
+    "audio": "c_1017.mp3",
+    "slovenian": "мыть",
+    "russian": "prati"
+  },
+  {
+    "audio": "c_1016.mp3",
+    "slovenian": "молиться",
+    "russian": "moliti"
+  },
+  {
+    "audio": "c_1015.mp3",
+    "slovenian": "готовить",
+    "russian": "kuhati"
+  },
+  {
+    "audio": "c_2166.mp3",
+    "slovenian": "книга",
+    "russian": "knjiga"
+  },
+  {
+    "audio": "c_2162.mp3",
+    "slovenian": "библиотека",
+    "russian": "knjižnica"
+  },
+  {
+    "audio": "c_2157.mp3",
+    "slovenian": "домашнее задание",
+    "russian": "domača naloga"
+  },
+  {
+    "audio": "c_2156.mp3",
+    "slovenian": "экзамен",
+    "russian": "izpit"
+  },
+  {
+    "audio": "c_2155.mp3",
+    "slovenian": "урок",
+    "russian": "lekcija"
+  },
+  {
+    "audio": "c_2168.mp3",
+    "slovenian": "наука",
+    "russian": "znanost"
+  },
+  {
+    "audio": "c_2167.mp3",
+    "slovenian": "история",
+    "russian": "zgodovina"
+  },
+  {
+    "audio": "c_2171.mp3",
+    "slovenian": "изобразительное искусство",
+    "russian": "umetnost"
+  },
+  {
+    "audio": "c_2172.mp3",
+    "slovenian": "английский язык",
+    "russian": "angleščina"
+  },
+  {
+    "audio": "c_2177.mp3",
+    "slovenian": "французский язык",
+    "russian": "francoščina"
+  },
+  {
+    "audio": "c_2190.mp3",
+    "slovenian": "ручка",
+    "russian": "pero"
+  },
+  {
+    "audio": "c_2188.mp3",
+    "slovenian": "карандаш",
+    "russian": "svinčnik"
+  },
+  {
+    "audio": "c_2214.mp3",
+    "slovenian": "3%",
+    "russian": "trije odstotki"
+  },
+  {
+    "audio": "c_2217.mp3",
+    "slovenian": "первый",
+    "russian": "prvi"
+  },
+  {
+    "audio": "c_2218.mp3",
+    "slovenian": "второй",
+    "russian": "drugi"
+  },
+  {
+    "audio": "c_2219.mp3",
+    "slovenian": "третий",
+    "russian": "tretji"
+  },
+  {
+    "audio": "c_2220.mp3",
+    "slovenian": "четвертый",
+    "russian": "četrti"
+  },
+  {
+    "audio": "c_2216.mp3",
+    "slovenian": "результат",
+    "russian": "rezultat"
+  },
+  {
+    "audio": "c_2237.mp3",
+    "slovenian": "квадрат",
+    "russian": "kvadrat"
+  },
+  {
+    "audio": "c_2231.mp3",
+    "slovenian": "круг",
+    "russian": "krog"
+  },
+  {
+    "audio": "c_2254.mp3",
+    "slovenian": "площадь",
+    "russian": "površina"
+  },
+  {
+    "audio": "c_2292.mp3",
+    "slovenian": "исследование",
+    "russian": "raziskava"
+  },
+  {
+    "audio": "c_2290.mp3",
+    "slovenian": "степень",
+    "russian": "stopnja"
+  },
+  {
+    "audio": "c_2285.mp3",
+    "slovenian": "бакалавр",
+    "russian": "diplomant"
+  },
+  {
+    "audio": "c_2286.mp3",
+    "slovenian": "магистр",
+    "russian": "magisterij"
+  },
+  {
+    "audio": "c_2319.mp3",
+    "slovenian": "x < y",
+    "russian": "x je manjši od y"
+  },
+  {
+    "audio": "c_2320.mp3",
+    "slovenian": "x > y",
+    "russian": "x je večji od y"
+  },
+  {
+    "audio": "c_3255.mp3",
+    "slovenian": "стресс",
+    "russian": "stres"
+  },
+  {
+    "audio": "c_3246.mp3",
+    "slovenian": "страхование",
+    "russian": "zavarovanje"
+  },
+  {
+    "audio": "c_3242.mp3",
+    "slovenian": "персонал",
+    "russian": "osebje"
+  },
+  {
+    "audio": "c_3247.mp3",
+    "slovenian": "отдел",
+    "russian": "oddelek"
+  },
+  {
+    "audio": "c_3243.mp3",
+    "slovenian": "зарплата",
+    "russian": "plača"
+  },
+  {
+    "audio": "c_3265.mp3",
+    "slovenian": "адрес",
+    "russian": "naslov"
+  },
+  {
+    "audio": "c_3262.mp3",
+    "slovenian": "письмо",
+    "russian": "pismo"
+  },
+  {
+    "audio": "c_3310.mp3",
+    "slovenian": "капитан",
+    "russian": "kapitan"
+  },
+  {
+    "audio": "c_3319.mp3",
+    "slovenian": "детектив",
+    "russian": "detektiv"
+  },
+  {
+    "audio": "c_3302.mp3",
+    "slovenian": "пилот",
+    "russian": "pilot"
+  },
+  {
+    "audio": "c_3301.mp3",
+    "slovenian": "профессор",
+    "russian": "profesor"
+  },
+  {
+    "audio": "c_3298.mp3",
+    "slovenian": "учитель",
+    "russian": "učitelj"
+  },
+  {
+    "audio": "c_3292.mp3",
+    "slovenian": "адвокат",
+    "russian": "odvetnik"
+  },
+  {
+    "audio": "c_3290.mp3",
+    "slovenian": "секретарь",
+    "russian": "tajnica"
+  },
+  {
+    "audio": "c_3289.mp3",
+    "slovenian": "помощник",
+    "russian": "pomočnik"
+  },
+  {
+    "audio": "c_3288.mp3",
+    "slovenian": "судья",
+    "russian": "sodnik"
+  },
+  {
+    "audio": "c_3287.mp3",
+    "slovenian": "директор",
+    "russian": "direktor"
+  },
+  {
+    "audio": "c_3285.mp3",
+    "slovenian": "менеджер",
+    "russian": "vodja"
+  },
+  {
+    "audio": "c_3359.mp3",
+    "slovenian": "повар",
+    "russian": "kuhar"
+  },
+  {
+    "audio": "c_3358.mp3",
+    "slovenian": "водитель такси",
+    "russian": "voznik taksija"
+  },
+  {
+    "audio": "c_3356.mp3",
+    "slovenian": "водитель автобуса",
+    "russian": "voznik avtobusa"
+  },
+  {
+    "audio": "c_3393.mp3",
+    "slovenian": "преступник",
+    "russian": "kriminalec"
+  },
+  {
+    "audio": "c_3380.mp3",
+    "slovenian": "модель",
+    "russian": "model"
+  },
+  {
+    "audio": "c_3378.mp3",
+    "slovenian": "художник",
+    "russian": "umetnik"
+  },
+  {
+    "audio": "c_3442.mp3",
+    "slovenian": "номер телефона",
+    "russian": "telefonska številka"
+  },
+  {
+    "audio": "c_3439.mp3",
+    "slovenian": "сигнал",
+    "russian": "signal"
+  },
+  {
+    "audio": "c_3437.mp3",
+    "slovenian": "приложение",
+    "russian": "aplikacija"
+  },
+  {
+    "audio": "c_3436.mp3",
+    "slovenian": "чат",
+    "russian": "klepet"
+  },
+  {
+    "audio": "c_3434.mp3",
+    "slovenian": "файл",
+    "russian": "datoteka"
+  },
+  {
+    "audio": "c_3429.mp3",
+    "slovenian": "URL",
+    "russian": "url"
+  },
+  {
+    "audio": "c_3428.mp3",
+    "slovenian": "адрес электронной почты",
+    "russian": "e-naslov"
+  },
+  {
+    "audio": "c_3427.mp3",
+    "slovenian": "веб-сайт",
+    "russian": "spletna stran"
+  },
+  {
+    "audio": "c_3425.mp3",
+    "slovenian": "электронная почта",
+    "russian": "e-pošta"
+  },
+  {
+    "audio": "c_3418.mp3",
+    "slovenian": "мобильный телефон",
+    "russian": "mobilni telefon"
+  },
+  {
+    "audio": "c_3456.mp3",
+    "slovenian": "закон",
+    "russian": "zakon"
+  },
+  {
+    "audio": "c_3451.mp3",
+    "slovenian": "тюрьма",
+    "russian": "zapor"
+  },
+  {
+    "audio": "c_3449.mp3",
+    "slovenian": "доказательство",
+    "russian": "dokaz"
+  },
+  {
+    "audio": "c_3448.mp3",
+    "slovenian": "штраф",
+    "russian": "globa"
+  },
+  {
+    "audio": "c_3445.mp3",
+    "slovenian": "свидетель",
+    "russian": "priča"
+  },
+  {
+    "audio": "c_3443.mp3",
+    "slovenian": "суд",
+    "russian": "sodišče"
+  },
+  {
+    "audio": "c_3487.mp3",
+    "slovenian": "подпись",
+    "russian": "podpis"
+  },
+  {
+    "audio": "c_3545.mp3",
+    "slovenian": "потеря",
+    "russian": "izguba"
+  },
+  {
+    "audio": "c_3544.mp3",
+    "slovenian": "прибыль",
+    "russian": "dobiček"
+  },
+  {
+    "audio": "c_3464.mp3",
+    "slovenian": "клиент",
+    "russian": "stranka"
+  },
+  {
+    "audio": "c_3461.mp3",
+    "slovenian": "сумма",
+    "russian": "znesek"
+  },
+  {
+    "audio": "c_3457.mp3",
+    "slovenian": "кредитная карточка",
+    "russian": "kreditna kartica"
+  },
+  {
+    "audio": "c_3459.mp3",
+    "slovenian": "пароль",
+    "russian": "geslo"
+  },
+  {
+    "audio": "c_3473.mp3",
+    "slovenian": "банкомат",
+    "russian": "bankomat"
+  },
+  {
+    "audio": "c_3527.mp3",
+    "slovenian": "бассейн",
+    "russian": "bazen"
+  },
+  {
+    "audio": "c_3562.mp3",
+    "slovenian": "ток",
+    "russian": "elektrika"
+  },
+  {
+    "audio": "c_3553.mp3",
+    "slovenian": "камера",
+    "russian": "kamera"
+  },
+  {
+    "audio": "c_3549.mp3",
+    "slovenian": "радио",
+    "russian": "radio"
+  },
+  {
+    "audio": "c_3584.mp3",
+    "slovenian": "подарок",
+    "russian": "darilo"
+  },
+  {
+    "audio": "c_3574.mp3",
+    "slovenian": "бутылка",
+    "russian": "steklenica"
+  },
+  {
+    "audio": "c_3575.mp3",
+    "slovenian": "пакет",
+    "russian": "vrečka"
+  },
+  {
+    "audio": "c_3568.mp3",
+    "slovenian": "ключ",
+    "russian": "ključ"
+  },
+  {
+    "audio": "c_3609.mp3",
+    "slovenian": "кукла",
+    "russian": "lutka"
+  },
+  {
+    "audio": "c_3614.mp3",
+    "slovenian": "ангел",
+    "russian": "angel"
+  },
+  {
+    "audio": "c_2863.mp3",
+    "slovenian": "расческа",
+    "russian": "glavnik"
+  },
+  {
+    "audio": "c_2862.mp3",
+    "slovenian": "зубная паста",
+    "russian": "zobna pasta"
+  },
+  {
+    "audio": "c_2861.mp3",
+    "slovenian": "зубная щетка",
+    "russian": "zobna ščetka"
+  },
+  {
+    "audio": "c_2860.mp3",
+    "slovenian": "шампунь",
+    "russian": "šampon"
+  },
+  {
+    "audio": "c_2858.mp3",
+    "slovenian": "крем",
+    "russian": "krema"
+  },
+  {
+    "audio": "c_2856.mp3",
+    "slovenian": "бумажная салфетка",
+    "russian": "robček"
+  },
+  {
+    "audio": "c_2877.mp3",
+    "slovenian": "губная помада",
+    "russian": "šminka"
+  },
+  {
+    "audio": "c_3782.mp3",
+    "slovenian": "ТВ",
+    "russian": "TV"
+  },
+  {
+    "audio": "c_3781.mp3",
+    "slovenian": "кино",
+    "russian": "kino"
+  },
+  {
+    "audio": "c_2018.mp3",
+    "slovenian": "новости",
+    "russian": "novice"
+  },
+  {
+    "audio": "c_2016.mp3",
+    "slovenian": "место",
+    "russian": "sedež"
+  },
+  {
+    "audio": "c_2015.mp3",
+    "slovenian": "билет",
+    "russian": "vstopnica"
+  },
+  {
+    "audio": "c_2014.mp3",
+    "slovenian": "экран",
+    "russian": "platno"
+  },
+  {
+    "audio": "c_90.mp3",
+    "slovenian": "музыка",
+    "russian": "glasba"
+  },
+  {
+    "audio": "c_2103.mp3",
+    "slovenian": "сцена",
+    "russian": "oder"
+  },
+  {
+    "audio": "c_2100.mp3",
+    "slovenian": "зритель",
+    "russian": "občinstvo"
+  },
+  {
+    "audio": "c_2083.mp3",
+    "slovenian": "картина",
+    "russian": "slika"
+  },
+  {
+    "audio": "c_2129.mp3",
+    "slovenian": "шутка",
+    "russian": "šala"
+  },
+  {
+    "audio": "c_2126.mp3",
+    "slovenian": "статья",
+    "russian": "članek"
+  },
+  {
+    "audio": "c_2124.mp3",
+    "slovenian": "газета",
+    "russian": "časopis"
+  },
+  {
+    "audio": "c_2123.mp3",
+    "slovenian": "журнал",
+    "russian": "revija"
+  },
+  {
+    "audio": "c_2120.mp3",
+    "slovenian": "реклама",
+    "russian": "oglaševanje"
+  },
+  {
+    "audio": "c_104.mp3",
+    "slovenian": "природа",
+    "russian": "narava"
+  },
+  {
+    "audio": "c_2351.mp3",
+    "slovenian": "пепел",
+    "russian": "pepel"
+  },
+  {
+    "audio": "c_2347.mp3",
+    "slovenian": "огонь",
+    "russian": "ogenj"
+  },
+  {
+    "audio": "c_2339.mp3",
+    "slovenian": "алмаз",
+    "russian": "diamant"
+  },
+  {
+    "audio": "c_2364.mp3",
+    "slovenian": "Луна",
+    "russian": "luna"
+  },
+  {
+    "audio": "c_2357.mp3",
+    "slovenian": "Земля",
+    "russian": "Zemlja"
+  },
+  {
+    "audio": "c_2354.mp3",
+    "slovenian": "солнце",
+    "russian": "sonce"
+  },
+  {
+    "audio": "c_2353.mp3",
+    "slovenian": "звезда",
+    "russian": "zvezda"
+  },
+  {
+    "audio": "c_2352.mp3",
+    "slovenian": "планета",
+    "russian": "planet"
+  },
+  {
+    "audio": "c_106.mp3",
+    "slovenian": "вселенная",
+    "russian": "vesolje"
+  },
+  {
+    "audio": "c_2444.mp3",
+    "slovenian": "побережье",
+    "russian": "obala"
+  },
+  {
+    "audio": "c_2442.mp3",
+    "slovenian": "озеро",
+    "russian": "jezero"
+  },
+  {
+    "audio": "c_2437.mp3",
+    "slovenian": "лес",
+    "russian": "gozd"
+  },
+  {
+    "audio": "c_2436.mp3",
+    "slovenian": "пустыня",
+    "russian": "puščava"
+  },
+  {
+    "audio": "c_2432.mp3",
+    "slovenian": "холм",
+    "russian": "hrib"
+  },
+  {
+    "audio": "c_2431.mp3",
+    "slovenian": "утес",
+    "russian": "skala"
+  },
+  {
+    "audio": "c_2427.mp3",
+    "slovenian": "река",
+    "russian": "reka"
+  },
+  {
+    "audio": "c_2426.mp3",
+    "slovenian": "долина",
+    "russian": "dolina"
+  },
+  {
+    "audio": "c_2417.mp3",
+    "slovenian": "гора",
+    "russian": "gora"
+  },
+  {
+    "audio": "c_2412.mp3",
+    "slovenian": "остров",
+    "russian": "otok"
+  },
+  {
+    "audio": "c_2411.mp3",
+    "slovenian": "океан",
+    "russian": "ocean"
+  },
+  {
+    "audio": "c_2410.mp3",
+    "slovenian": "море",
+    "russian": "morje"
+  },
+  {
+    "audio": "c_109.mp3",
+    "slovenian": "погода",
+    "russian": "vreme"
+  },
+  {
+    "audio": "c_2465.mp3",
+    "slovenian": "лед",
+    "russian": "led"
+  },
+  {
+    "audio": "c_2464.mp3",
+    "slovenian": "снег",
+    "russian": "sneg"
+  },
+  {
+    "audio": "c_2460.mp3",
+    "slovenian": "буря",
+    "russian": "nevihta"
+  },
+  {
+    "audio": "c_2450.mp3",
+    "slovenian": "дождь",
+    "russian": "dež"
+  },
+  {
+    "audio": "c_2449.mp3",
+    "slovenian": "ветер",
+    "russian": "veter"
+  },
+  {
+    "audio": "c_111.mp3",
+    "slovenian": "растение",
+    "russian": "rastlina"
+  },
+  {
+    "audio": "c_2477.mp3",
+    "slovenian": "дерево",
+    "russian": "drevo"
+  },
+  {
+    "audio": "c_2508.mp3",
+    "slovenian": "трава",
+    "russian": "trava"
+  },
+  {
+    "audio": "c_2503.mp3",
+    "slovenian": "роза",
+    "russian": "vrtnica"
+  },
+  {
+    "audio": "c_2495.mp3",
+    "slovenian": "цветок",
+    "russian": "roža"
+  },
+  {
+    "audio": "c_2534.mp3",
+    "slovenian": "газ",
+    "russian": "plin"
+  },
+  {
+    "audio": "c_2531.mp3",
+    "slovenian": "металл",
+    "russian": "kovina"
+  },
+  {
+    "audio": "c_2628.mp3",
+    "slovenian": "золото",
+    "russian": "zlato"
+  },
+  {
+    "audio": "c_2596.mp3",
+    "slovenian": "серебро",
+    "russian": "srebro"
+  },
+  {
+    "audio": "c_3747.mp3",
+    "slovenian": "Серебро дешевле золота",
+    "russian": "Srebro je cenejše od zlata"
+  },
+  {
+    "audio": "c_3748.mp3",
+    "slovenian": "Золото дороже серебра",
+    "russian": "Zlato je dražje od srebra"
+  },
+  {
+    "audio": "c_75.mp3",
+    "slovenian": "отпуск",
+    "russian": "počitnice"
+  },
+  {
+    "audio": "c_3759.mp3",
+    "slovenian": "член",
+    "russian": "član"
+  },
+  {
+    "audio": "c_1620.mp3",
+    "slovenian": "гостиница",
+    "russian": "hotel"
+  },
+  {
+    "audio": "c_1618.mp3",
+    "slovenian": "пляж",
+    "russian": "plaža"
+  },
+  {
+    "audio": "c_1602.mp3",
+    "slovenian": "гость",
+    "russian": "gost"
+  },
+  {
+    "audio": "c_1664.mp3",
+    "slovenian": "день рождения",
+    "russian": "rojstni dan"
+  },
+  {
+    "audio": "c_1665.mp3",
+    "slovenian": "Рождество",
+    "russian": "božič"
+  },
+  {
+    "audio": "c_1666.mp3",
+    "slovenian": "Новый год",
+    "russian": "novo leto"
+  },
+  {
+    "audio": "c_1670.mp3",
+    "slovenian": "Пасха",
+    "russian": "velika noč"
+  },
+  {
+    "audio": "c_1721.mp3",
+    "slovenian": "дядя",
+    "russian": "stric"
+  },
+  {
+    "audio": "c_1720.mp3",
+    "slovenian": "тетя",
+    "russian": "teta"
+  },
+  {
+    "audio": "c_1718.mp3",
+    "slovenian": "бабушка",
+    "russian": "babica"
+  },
+  {
+    "audio": "c_1716.mp3",
+    "slovenian": "дедушка",
+    "russian": "dedek"
+  },
+  {
+    "audio": "c_1719.mp3",
+    "slovenian": "бабушка",
+    "russian": "babica"
+  },
+  {
+    "audio": "c_1717.mp3",
+    "slovenian": "дедушка",
+    "russian": "dedek"
+  },
+  {
+    "audio": "c_1801.mp3",
+    "slovenian": "смерть",
+    "russian": "smrt"
+  },
+  {
+    "audio": "c_1795.mp3",
+    "slovenian": "могила",
+    "russian": "grob"
+  },
+  {
+    "audio": "c_1779.mp3",
+    "slovenian": "развод",
+    "russian": "ločitev"
+  },
+  {
+    "audio": "c_1781.mp3",
+    "slovenian": "невеста",
+    "russian": "nevesta"
+  },
+  {
+    "audio": "c_1780.mp3",
+    "slovenian": "жених",
+    "russian": "ženin"
+  },
+  {
+    "audio": "c_507.mp3",
+    "slovenian": "101",
+    "russian": "sto ena"
+  },
+  {
+    "audio": "c_508.mp3",
+    "slovenian": "105",
+    "russian": "sto pet"
+  },
+  {
+    "audio": "c_509.mp3",
+    "slovenian": "110",
+    "russian": "sto deset"
+  },
+  {
+    "audio": "c_510.mp3",
+    "slovenian": "151",
+    "russian": "sto enainpetdeset"
+  },
+  {
+    "audio": "c_511.mp3",
+    "slovenian": "200",
+    "russian": "dvesto"
+  },
+  {
+    "audio": "c_512.mp3",
+    "slovenian": "202",
+    "russian": "dvesto dva"
+  },
+  {
+    "audio": "c_513.mp3",
+    "slovenian": "206",
+    "russian": "dvesto šest"
+  },
+  {
+    "audio": "c_514.mp3",
+    "slovenian": "220",
+    "russian": "dvesto dvajset"
+  },
+  {
+    "audio": "c_515.mp3",
+    "slovenian": "262",
+    "russian": "dvesto dvainšestdeset"
+  },
+  {
+    "audio": "c_516.mp3",
+    "slovenian": "300",
+    "russian": "tristo"
+  },
+  {
+    "audio": "c_517.mp3",
+    "slovenian": "303",
+    "russian": "tristo tri"
+  },
+  {
+    "audio": "c_518.mp3",
+    "slovenian": "307",
+    "russian": "tristo sedem"
+  },
+  {
+    "audio": "c_519.mp3",
+    "slovenian": "330",
+    "russian": "tristo trideset"
+  },
+  {
+    "audio": "c_520.mp3",
+    "slovenian": "373",
+    "russian": "tristo triinsedemdeset"
+  },
+  {
+    "audio": "c_521.mp3",
+    "slovenian": "400",
+    "russian": "štiristo"
+  },
+  {
+    "audio": "c_522.mp3",
+    "slovenian": "404",
+    "russian": "štiristo štiri"
+  },
+  {
+    "audio": "c_523.mp3",
+    "slovenian": "408",
+    "russian": "štiristo osem"
+  },
+  {
+    "audio": "c_524.mp3",
+    "slovenian": "440",
+    "russian": "štiristo štirideset"
+  },
+  {
+    "audio": "c_525.mp3",
+    "slovenian": "484",
+    "russian": "štiristo štiriinosemdeset"
+  },
+  {
+    "audio": "c_526.mp3",
+    "slovenian": "500",
+    "russian": "petsto"
+  },
+  {
+    "audio": "c_527.mp3",
+    "slovenian": "505",
+    "russian": "petsto pet"
+  },
+  {
+    "audio": "c_528.mp3",
+    "slovenian": "509",
+    "russian": "petsto devet"
+  },
+  {
+    "audio": "c_529.mp3",
+    "slovenian": "550",
+    "russian": "petsto petdeset"
+  },
+  {
+    "audio": "c_530.mp3",
+    "slovenian": "595",
+    "russian": "petsto petindevetdeset"
+  },
+  {
+    "audio": "c_531.mp3",
+    "slovenian": "600",
+    "russian": "šeststo"
+  },
+  {
+    "audio": "c_532.mp3",
+    "slovenian": "601",
+    "russian": "šeststo ena"
+  },
+  {
+    "audio": "c_533.mp3",
+    "slovenian": "606",
+    "russian": "šeststo šest"
+  },
+  {
+    "audio": "c_534.mp3",
+    "slovenian": "616",
+    "russian": "šeststo šestnajst"
+  },
+  {
+    "audio": "c_535.mp3",
+    "slovenian": "660",
+    "russian": "šeststo šestdeset"
+  },
+  {
+    "audio": "c_536.mp3",
+    "slovenian": "700",
+    "russian": "sedemsto"
+  },
+  {
+    "audio": "c_537.mp3",
+    "slovenian": "702",
+    "russian": "sedemsto dva"
+  },
+  {
+    "audio": "c_538.mp3",
+    "slovenian": "707",
+    "russian": "sedemsto sedem"
+  },
+  {
+    "audio": "c_539.mp3",
+    "slovenian": "727",
+    "russian": "sedemsto sedemindvajset"
+  },
+  {
+    "audio": "c_540.mp3",
+    "slovenian": "770",
+    "russian": "sedemsto sedemdeset"
+  },
+  {
+    "audio": "c_541.mp3",
+    "slovenian": "800",
+    "russian": "osemsto"
+  },
+  {
+    "audio": "c_542.mp3",
+    "slovenian": "803",
+    "russian": "osemsto tri"
+  },
+  {
+    "audio": "c_543.mp3",
+    "slovenian": "808",
+    "russian": "osemsto osem"
+  },
+  {
+    "audio": "c_544.mp3",
+    "slovenian": "838",
+    "russian": "osemsto osemintrideset"
+  },
+  {
+    "audio": "c_545.mp3",
+    "slovenian": "880",
+    "russian": "osemsto osemdeset"
+  },
+  {
+    "audio": "c_546.mp3",
+    "slovenian": "900",
+    "russian": "devetsto"
+  },
+  {
+    "audio": "c_547.mp3",
+    "slovenian": "904",
+    "russian": "devetsto štiri"
+  },
+  {
+    "audio": "c_548.mp3",
+    "slovenian": "909",
+    "russian": "devetsto devet"
+  },
+  {
+    "audio": "c_549.mp3",
+    "slovenian": "949",
+    "russian": "devetsto devetinštirideset"
+  },
+  {
+    "audio": "c_550.mp3",
+    "slovenian": "990",
+    "russian": "devetsto devetdeset"
+  },
+  {
+    "audio": "c_92.mp3",
+    "slovenian": "тигр",
+    "russian": "tiger"
+  },
+  {
+    "audio": "c_192.mp3",
+    "slovenian": "мышь",
+    "russian": "miš"
+  },
+  {
+    "audio": "c_195.mp3",
+    "slovenian": "крыса",
+    "russian": "podgana"
+  },
+  {
+    "audio": "c_89.mp3",
+    "slovenian": "кролик",
+    "russian": "zajec"
+  },
+  {
+    "audio": "c_25.mp3",
+    "slovenian": "лев",
+    "russian": "lev"
+  },
+  {
+    "audio": "c_2.mp3",
+    "slovenian": "осел",
+    "russian": "osel"
+  },
+  {
+    "audio": "c_9.mp3",
+    "slovenian": "слон",
+    "russian": "slon"
+  },
+  {
+    "audio": "c_3.mp3",
+    "slovenian": "птица",
+    "russian": "ptica"
+  },
+  {
+    "audio": "c_17.mp3",
+    "slovenian": "петух",
+    "russian": "petelin"
+  },
+  {
+    "audio": "c_100.mp3",
+    "slovenian": "голубь",
+    "russian": "golob"
+  },
+  {
+    "audio": "c_44.mp3",
+    "slovenian": "гусь",
+    "russian": "gos"
+  },
+  {
+    "audio": "c_4.mp3",
+    "slovenian": "насекомое",
+    "russian": "žuželka"
+  },
+  {
+    "audio": "c_103.mp3",
+    "slovenian": "жук",
+    "russian": "hrošč"
+  },
+  {
+    "audio": "c_58.mp3",
+    "slovenian": "комар",
+    "russian": "komar"
+  },
+  {
+    "audio": "c_53.mp3",
+    "slovenian": "муха",
+    "russian": "muha"
+  },
+  {
+    "audio": "c_51.mp3",
+    "slovenian": "муравей",
+    "russian": "mravlja"
+  },
+  {
+    "audio": "c_111.mp3",
+    "slovenian": "кит",
+    "russian": "kit"
+  },
+  {
+    "audio": "c_67.mp3",
+    "slovenian": "акула",
+    "russian": "morski pes"
+  },
+  {
+    "audio": "c_60.mp3",
+    "slovenian": "дельфин",
+    "russian": "delfin"
+  },
+  {
+    "audio": "c_115.mp3",
+    "slovenian": "улитка",
+    "russian": "polž"
+  },
+  {
+    "audio": "c_81.mp3",
+    "slovenian": "лягушка",
+    "russian": "žaba"
+  },
+  {
+    "audio": "c_3662.mp3",
+    "slovenian": "часто",
+    "russian": "pogosto"
+  },
+  {
+    "audio": "c_3661.mp3",
+    "slovenian": "немедленно",
+    "russian": "takoj"
+  },
+  {
+    "audio": "c_3658.mp3",
+    "slovenian": "вдруг",
+    "russian": "nenadoma"
+  },
+  {
+    "audio": "c_3657.mp3",
+    "slovenian": "хотя",
+    "russian": "čeprav"
+  },
+  {
+    "audio": "c_141.mp3",
+    "slovenian": "гимнастика",
+    "russian": "gimnastika"
+  },
+  {
+    "audio": "c_138.mp3",
+    "slovenian": "теннис",
+    "russian": "tenis"
+  },
+  {
+    "audio": "c_129.mp3",
+    "slovenian": "бег",
+    "russian": "tek"
+  },
+  {
+    "audio": "c_122.mp3",
+    "slovenian": "езда на велосипеде",
+    "russian": "kolesarjenje"
+  },
+  {
+    "audio": "c_125.mp3",
+    "slovenian": "гольф",
+    "russian": "golf"
+  },
+  {
+    "audio": "c_143.mp3",
+    "slovenian": "катание на коньках",
+    "russian": "drsanje"
+  },
+  {
+    "audio": "c_158.mp3",
+    "slovenian": "футбол",
+    "russian": "nogomet"
+  },
+  {
+    "audio": "c_155.mp3",
+    "slovenian": "баскетбол",
+    "russian": "košarka"
+  },
+  {
+    "audio": "c_208.mp3",
+    "slovenian": "плавание",
+    "russian": "plavanje"
+  },
+  {
+    "audio": "c_169.mp3",
+    "slovenian": "дайвинг",
+    "russian": "potapljanje"
+  },
+  {
+    "audio": "c_191.mp3",
+    "slovenian": "пеший туризм",
+    "russian": "pohodništvo"
+  },
+  {
+    "audio": "c_283.mp3",
+    "slovenian": "Великобритания",
+    "russian": "Združeno kraljestvo"
+  },
+  {
+    "audio": "c_280.mp3",
+    "slovenian": "Испания",
+    "russian": "Španija"
+  },
+  {
+    "audio": "c_276.mp3",
+    "slovenian": "Швейцария",
+    "russian": "Švica"
+  },
+  {
+    "audio": "c_257.mp3",
+    "slovenian": "Италия",
+    "russian": "Italija"
+  },
+  {
+    "audio": "c_252.mp3",
+    "slovenian": "Франция",
+    "russian": "Francija"
+  },
+  {
+    "audio": "c_248.mp3",
+    "slovenian": "Германия",
+    "russian": "Nemčija"
+  },
+  {
+    "audio": "c_334.mp3",
+    "slovenian": "Таиланд",
+    "russian": "Tajska"
+  },
+  {
+    "audio": "c_328.mp3",
+    "slovenian": "Сингапур",
+    "russian": "Singapur"
+  },
+  {
+    "audio": "c_326.mp3",
+    "slovenian": "Россия",
+    "russian": "Rusija"
+  },
+  {
+    "audio": "c_304.mp3",
+    "slovenian": "Япония",
+    "russian": "Japonska"
+  },
+  {
+    "audio": "c_303.mp3",
+    "slovenian": "Израиль",
+    "russian": "Izrael"
+  },
+  {
+    "audio": "c_299.mp3",
+    "slovenian": "Индия",
+    "russian": "Indija"
+  },
+  {
+    "audio": "c_296.mp3",
+    "slovenian": "Китай",
+    "russian": "Kitajska"
+  },
+  {
+    "audio": "c_378.mp3",
+    "slovenian": "Соединенные Штаты Америки",
+    "russian": "Združene države Amerike"
+  },
+  {
+    "audio": "c_365.mp3",
+    "slovenian": "Мексика",
+    "russian": "Mehika"
+  },
+  {
+    "audio": "c_362.mp3",
+    "slovenian": "Канада",
+    "russian": "Kanada"
+  },
+  {
+    "audio": "c_348.mp3",
+    "slovenian": "Чили",
+    "russian": "Čile"
+  },
+  {
+    "audio": "c_346.mp3",
+    "slovenian": "Бразилия",
+    "russian": "Brazilija"
+  },
+  {
+    "audio": "c_340.mp3",
+    "slovenian": "Аргентина",
+    "russian": "Argentina"
+  },
+  {
+    "audio": "c_425.mp3",
+    "slovenian": "Южная Африка",
+    "russian": "Južna Afrika"
+  },
+  {
+    "audio": "c_414.mp3",
+    "slovenian": "Нигерия",
+    "russian": "Nigerija"
+  },
+  {
+    "audio": "c_409.mp3",
+    "slovenian": "Марокко",
+    "russian": "Maroko"
+  },
+  {
+    "audio": "c_404.mp3",
+    "slovenian": "Ливия",
+    "russian": "Libija"
+  },
+  {
+    "audio": "c_400.mp3",
+    "slovenian": "Кения",
+    "russian": "Kenija"
+  },
+  {
+    "audio": "c_382.mp3",
+    "slovenian": "Алжир",
+    "russian": "Alžirija"
+  },
+  {
+    "audio": "c_380.mp3",
+    "slovenian": "Египет",
+    "russian": "Egipt"
+  },
+  {
+    "audio": "c_444.mp3",
+    "slovenian": "Новая Зеландия",
+    "russian": "Nova Zelandija"
+  },
+  {
+    "audio": "c_435.mp3",
+    "slovenian": "Австралия",
+    "russian": "Avstralija"
+  },
+  {
+    "audio": "c_18.mp3",
+    "slovenian": "Африка",
+    "russian": "Afrika"
+  },
+  {
+    "audio": "c_15.mp3",
+    "slovenian": "Европа",
+    "russian": "Evropa"
+  },
+  {
+    "audio": "c_16.mp3",
+    "slovenian": "Азия",
+    "russian": "Azija"
+  },
+  {
+    "audio": "c_17.mp3",
+    "slovenian": "Америка",
+    "russian": "Amerika"
+  },
+  {
+    "audio": "c_1639.mp3",
+    "slovenian": "четверть часа",
+    "russian": "četrt ure"
+  },
+  {
+    "audio": "c_1638.mp3",
+    "slovenian": "полчаса",
+    "russian": "pol ure"
+  },
+  {
+    "audio": "c_1640.mp3",
+    "slovenian": "три четверти часа",
+    "russian": "tri četrt ure"
+  },
+  {
+    "audio": "c_1641.mp3",
+    "slovenian": "1:00",
+    "russian": "ob enih"
+  },
+  {
+    "audio": "c_1642.mp3",
+    "slovenian": "2:05",
+    "russian": "pet čez dve"
+  },
+  {
+    "audio": "c_1643.mp3",
+    "slovenian": "3:10",
+    "russian": "deset čez tri"
+  },
+  {
+    "audio": "c_1644.mp3",
+    "slovenian": "4:15",
+    "russian": "četrt čez štiri"
+  },
+  {
+    "audio": "c_1645.mp3",
+    "slovenian": "5:20",
+    "russian": "dvajset čez pet"
+  },
+  {
+    "audio": "c_1646.mp3",
+    "slovenian": "6:25",
+    "russian": "petindvajset čez šest"
+  },
+  {
+    "audio": "c_1647.mp3",
+    "slovenian": "7:30",
+    "russian": "pol osmih"
+  },
+  {
+    "audio": "c_1648.mp3",
+    "slovenian": "8:35",
+    "russian": "osem petintrideset"
+  },
+  {
+    "audio": "c_1649.mp3",
+    "slovenian": "9:40",
+    "russian": "dvajset do desetih"
+  },
+  {
+    "audio": "c_1650.mp3",
+    "slovenian": "10:45",
+    "russian": "petnajst do enajstih"
+  },
+  {
+    "audio": "c_1651.mp3",
+    "slovenian": "11:50",
+    "russian": "deset do dvanajstih"
+  },
+  {
+    "audio": "c_1652.mp3",
+    "slovenian": "12:55",
+    "russian": "pet do enih"
+  },
+  {
+    "audio": "c_1636.mp3",
+    "slovenian": "час ночи",
+    "russian": "ob enih zjutraj"
+  },
+  {
+    "audio": "c_1637.mp3",
+    "slovenian": "два часа дня",
+    "russian": "ob dveh popoldan"
+  },
+  {
+    "audio": "c_1705.mp3",
+    "slovenian": "на прошлой неделе",
+    "russian": "prejšnji teden"
+  },
+  {
+    "audio": "c_1706.mp3",
+    "slovenian": "на этой неделе",
+    "russian": "ta teden"
+  },
+  {
+    "audio": "c_1707.mp3",
+    "slovenian": "на следующей неделе",
+    "russian": "naslednji teden"
+  },
+  {
+    "audio": "c_1708.mp3",
+    "slovenian": "в прошлом году",
+    "russian": "lansko leto"
+  },
+  {
+    "audio": "c_1709.mp3",
+    "slovenian": "в этом году",
+    "russian": "to leto"
+  },
+  {
+    "audio": "c_1710.mp3",
+    "slovenian": "в следующем году",
+    "russian": "naslednje leto"
+  },
+  {
+    "audio": "c_1711.mp3",
+    "slovenian": "в прошлом месяце",
+    "russian": "prejšnji mesec"
+  },
+  {
+    "audio": "c_1712.mp3",
+    "slovenian": "в этом месяце",
+    "russian": "ta mesec"
+  },
+  {
+    "audio": "c_1713.mp3",
+    "slovenian": "в следующем месяце",
+    "russian": "naslednji mesec"
+  },
+  {
+    "audio": "c_1671.mp3",
+    "slovenian": "2014-01-01",
+    "russian": "prvi januar dva tisoč štirinajst"
+  },
+  {
+    "audio": "c_1680.mp3",
+    "slovenian": "2003-02-25",
+    "russian": "petindvajseti februar dva tisoč tri"
+  },
+  {
+    "audio": "c_1674.mp3",
+    "slovenian": "1988-04-12",
+    "russian": "dvanajsti april tisoč devetsto oseminosemdeset"
+  },
+  {
+    "audio": "c_1675.mp3",
+    "slovenian": "1899-10-13",
+    "russian": "trinajsti oktober tisoč osemsto devetindevetdeset"
+  },
+  {
+    "audio": "c_1679.mp3",
+    "slovenian": "1907-09-30",
+    "russian": "trideseti september tisoč devetsto sedem"
+  },
+  {
+    "audio": "c_1676.mp3",
+    "slovenian": "2000-12-12",
+    "russian": "dvanajsti december dva tisoč"
+  },
+  {
+    "audio": "c_640.mp3",
+    "slovenian": "лоб",
+    "russian": "čelo"
+  },
+  {
+    "audio": "c_639.mp3",
+    "slovenian": "морщина",
+    "russian": "guba"
+  },
+  {
+    "audio": "c_636.mp3",
+    "slovenian": "подбородок",
+    "russian": "brada"
+  },
+  {
+    "audio": "c_635.mp3",
+    "slovenian": "щека",
+    "russian": "lice"
+  },
+  {
+    "audio": "c_634.mp3",
+    "slovenian": "борода",
+    "russian": "brada"
+  },
+  {
+    "audio": "c_609.mp3",
+    "slovenian": "ресницы",
+    "russian": "trepalnice"
+  },
+  {
+    "audio": "c_608.mp3",
+    "slovenian": "бровь",
+    "russian": "obrv"
+  },
+  {
+    "audio": "c_655.mp3",
+    "slovenian": "талия",
+    "russian": "pas"
+  },
+  {
+    "audio": "c_652.mp3",
+    "slovenian": "затылок",
+    "russian": "tilnik"
+  },
+  {
+    "audio": "c_616.mp3",
+    "slovenian": "грудная клетка",
+    "russian": "prsni koš"
+  },
+  {
+    "audio": "c_670.mp3",
+    "slovenian": "большой палец",
+    "russian": "palec"
+  },
+  {
+    "audio": "c_669.mp3",
+    "slovenian": "мизинец",
+    "russian": "mezinec"
+  },
+  {
+    "audio": "c_668.mp3",
+    "slovenian": "безымянный палец",
+    "russian": "prstanec"
+  },
+  {
+    "audio": "c_667.mp3",
+    "slovenian": "средний палец",
+    "russian": "sredinec"
+  },
+  {
+    "audio": "c_666.mp3",
+    "slovenian": "указательный палец",
+    "russian": "kazalec"
+  },
+  {
+    "audio": "c_660.mp3",
+    "slovenian": "запястье",
+    "russian": "zapestje"
+  },
+  {
+    "audio": "c_659.mp3",
+    "slovenian": "ноготь",
+    "russian": "noht"
+  },
+  {
+    "audio": "c_657.mp3",
+    "slovenian": "пятка",
+    "russian": "peta"
+  },
+  {
+    "audio": "c_832.mp3",
+    "slovenian": "сочный",
+    "russian": "sočen"
+  },
+  {
+    "audio": "c_831.mp3",
+    "slovenian": "острый",
+    "russian": "pikanten"
+  },
+  {
+    "audio": "c_830.mp3",
+    "slovenian": "соленый",
+    "russian": "slan"
+  },
+  {
+    "audio": "c_824.mp3",
+    "slovenian": "сырой",
+    "russian": "surov"
+  },
+  {
+    "audio": "c_823.mp3",
+    "slovenian": "вареный",
+    "russian": "kuhan"
+  },
+  {
+    "audio": "c_870.mp3",
+    "slovenian": "застенчивый",
+    "russian": "sramežljiv"
+  },
+  {
+    "audio": "c_867.mp3",
+    "slovenian": "жадный",
+    "russian": "pohlepen"
+  },
+  {
+    "audio": "c_860.mp3",
+    "slovenian": "строгий",
+    "russian": "strog"
+  },
+  {
+    "audio": "c_851.mp3",
+    "slovenian": "глухой",
+    "russian": "gluh"
+  }
+]

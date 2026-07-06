@@ -21,12 +21,6 @@ import {
   retryLearnMistakes, goBackLearn,
 } from "./ui/learn.js";
 import {
-  startReading, renderReadingMenu, startReadingExercise, startReadingOrdered, startReadingRandom,
-  renderReadingQuiz, selectBlankOption, selectQuestionOption,
-  renderReadingResult, nextExercise,
-} from "./ui/reading.js";
-
-import {
   startLesson, renderLesson,
   addLessonTile, removeLessonTile, checkLessonTiles, advanceLesson, goBackLesson,
 } from "./ui/lesson.js";
@@ -73,10 +67,6 @@ async function bootstrap() {
     retryLearnMistakes, goBackLearn,
     // sentences
     startSents, renderSentQuiz, addTile, removeTile, checkSent, nextSent,
-    // reading
-    startReading, renderReadingMenu, startReadingExercise, startReadingOrdered, startReadingRandom,
-    renderReadingQuiz, selectBlankOption, selectQuestionOption,
-    renderReadingResult, nextExercise,
     // lesson
     startLesson, renderLesson,
     addLessonTile, removeLessonTile, checkLessonTiles, advanceLesson, goBackLesson,

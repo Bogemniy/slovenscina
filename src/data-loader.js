@@ -28,13 +28,12 @@ async function fetchAndCache(url, cacheKey, parse) {
 }
 
 export async function loadAllData() {
-  const [words, verbs, sentences, taxonomy, learn, exercises, grammar] = await Promise.all([
+  const [words, verbs, sentences, taxonomy, learn, grammar] = await Promise.all([
     fetchAndCache(DATA_FILES.words, CACHE_KEYS.words, parseJSONL),
     fetchAndCache(DATA_FILES.verbs, CACHE_KEYS.verbs, parseJSONL),
     fetchAndCache(DATA_FILES.sentences, CACHE_KEYS.sentences, parseJSONL),
     fetchAndCache(DATA_FILES.taxonomy, CACHE_KEYS.taxonomy, JSON.parse),
     fetchAndCache(DATA_FILES.learn, CACHE_KEYS.learn, parseJSONL),
-    fetchAndCache(DATA_FILES.exercises, CACHE_KEYS.exercises, parseJSONL),
     fetchAndCache(DATA_FILES.grammar, CACHE_KEYS.grammar, parseJSONL),
   ]);
 
@@ -67,7 +66,6 @@ export async function loadAllData() {
     LEARN: learn,
     LEARN_CAT_MAP,
     LEARN_CAT_MAP_SL,
-    EXERCISES: exercises,
     GRAMMAR: grammar,
   };
 }

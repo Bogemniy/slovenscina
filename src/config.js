@@ -13,7 +13,6 @@ export const DATA_FILES = {
   sentences: "data/sentences.jsonl",
   taxonomy: "data/taxonomy.json",
   learn: "data/learn.jsonl",
-  exercises: "data/exercises.jsonl",
   grammar: "data/grammar.jsonl",
 };
 
@@ -23,6 +22,5 @@ export const CACHE_KEYS = {
   sentences: "cache:sentences:v1",
   taxonomy: "cache:taxonomy:v1",
   learn: "cache:learn:v1",
-  exercises: "cache:exercises:v1",
   grammar: "cache:grammar:v1",
 };

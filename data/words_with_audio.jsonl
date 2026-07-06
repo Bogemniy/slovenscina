@@ -1,0 +1,532 @@
+{"sl": "dobro jutro", "ru": "доброе утро", "cat": "greet"}
+{"sl": "dober dan", "ru": "добрый день", "cat": "greet", "audio": "c_3679.mp3"}
+{"sl": "dober večer", "ru": "добрый вечер", "cat": "greet"}
+{"sl": "živjo", "ru": "привет", "cat": "greet"}
+{"sl": "zdravo", "ru": "здравствуйте", "cat": "greet"}
+{"sl": "čao", "ru": "чао, пока", "cat": "greet"}
+{"sl": "nasvidenje", "ru": "до свидания", "cat": "greet", "audio": "c_3675.mp3"}
+{"sl": "lahko noč", "ru": "спокойной ночи", "cat": "greet"}
+{"sl": "adijo", "ru": "пока", "cat": "greet", "audio": "c_3676.mp3"}
+{"sl": "hvala", "ru": "спасибо", "cat": "greet", "audio": "c_3671.mp3"}
+{"sl": "najlepša hvala", "ru": "огромное спасибо", "cat": "greet"}
+{"sl": "hvala lepa", "ru": "большое спасибо", "cat": "greet"}
+{"sl": "prosim", "ru": "пожалуйста", "cat": "greet", "audio": "c_3670.mp3"}
+{"sl": "malenkost", "ru": "не за что, пустяк", "cat": "greet"}
+{"sl": "oprostite", "ru": "извините", "cat": "greet", "audio": "c_3674.mp3"}
+{"sl": "na zdravje", "ru": "на здоровье (тост)", "cat": "greet", "audio": "c_3690.mp3"}
+{"sl": "me veseli", "ru": "приятно познакомиться", "cat": "greet"}
+{"sl": "lep dan", "ru": "хорошего дня", "cat": "greet"}
+{"sl": "lep večer", "ru": "хорошего вечера", "cat": "greet"}
+{"sl": "lepo se imejte", "ru": "всего хорошего", "cat": "greet"}
+{"sl": "zelo dobro", "ru": "очень хорошо", "cat": "adj"}
+{"sl": "slabo", "ru": "плохо", "cat": "adj"}
+{"sl": "zelo slabo", "ru": "очень плохо", "cat": "adj"}
+{"sl": "še kar", "ru": "нормально, так себе", "cat": "adj"}
+{"sl": "tako tako", "ru": "ни так ни сяк", "cat": "adj"}
+{"sl": "zanič", "ru": "отстой", "cat": "adj"}
+{"sl": "grozno", "ru": "ужасно", "cat": "adj"}
+{"sl": "razred", "ru": "класс", "cat": "school"}
+{"sl": "miza", "ru": "стол", "cat": "school", "audio": "c_1234.mp3"}
+{"sl": "stol", "ru": "стул", "cat": "school", "audio": "c_1235.mp3"}
+{"sl": "vrata", "ru": "дверь", "cat": "school", "audio": "c_1098.mp3"}
+{"sl": "okno", "ru": "окно", "cat": "school", "audio": "c_1092.mp3"}
+{"sl": "tabla", "ru": "доска", "cat": "school"}
+{"sl": "kreda", "ru": "мел", "cat": "school"}
+{"sl": "flomaster", "ru": "фломастер", "cat": "school"}
+{"sl": "knjiga", "ru": "книга", "cat": "school", "audio": "c_2166.mp3"}
+{"sl": "učbenik", "ru": "учебник", "cat": "school"}
+{"sl": "delovni zvezek", "ru": "рабочая тетрадь", "cat": "school"}
+{"sl": "slovar", "ru": "словарь", "cat": "school"}
+{"sl": "stran", "ru": "страница", "cat": "school"}
+{"sl": "projektor", "ru": "проектор", "cat": "school"}
+{"sl": "zvezek", "ru": "тетрадь", "cat": "school"}
+{"sl": "papir", "ru": "бумага", "cat": "school"}
+{"sl": "svinčnik", "ru": "карандаш", "cat": "school", "audio": "c_2188.mp3"}
+{"sl": "kuli", "ru": "ручка (шариковая)", "cat": "school"}
+{"sl": "ura", "ru": "урок / час", "cat": "school", "audio": "c_1137.mp3"}
+{"sl": "koš", "ru": "корзина", "cat": "school"}
+{"sl": "vaja", "ru": "упражнение", "cat": "school"}
+{"sl": "domača naloga", "ru": "домашнее задание", "cat": "school", "audio": "c_2157.mp3"}
+{"sl": "moški", "ru": "мужчина", "cat": "people", "audio": "c_2828.mp3"}
+{"sl": "ženska", "ru": "женщина", "cat": "people", "audio": "c_2829.mp3"}
+{"sl": "gospod", "ru": "господин", "cat": "people"}
+{"sl": "gospa", "ru": "госпожа", "cat": "people"}
+{"sl": "sošolec", "ru": "одноклассник", "cat": "people"}
+{"sl": "sosed", "ru": "сосед", "cat": "people", "audio": "c_1280.mp3"}
+{"sl": "deček", "ru": "мальчик", "cat": "people"}
+{"sl": "dekle", "ru": "девушка", "cat": "people", "audio": "c_2831.mp3"}
+{"sl": "fant", "ru": "парень", "cat": "people", "audio": "c_2830.mp3"}
+{"sl": "punca", "ru": "девушка (разг.)", "cat": "people", "audio": "c_1764.mp3"}
+{"sl": "moj", "ru": "мой", "cat": "pron"}
+{"sl": "tvoj", "ru": "твой", "cat": "pron"}
+{"sl": "njegov", "ru": "его", "cat": "pron"}
+{"sl": "njen", "ru": "её", "cat": "pron"}
+{"sl": "vaš", "ru": "ваш", "cat": "pron"}
+{"sl": "učitelj", "ru": "учитель", "cat": "job", "audio": "c_3298.mp3"}
+{"sl": "prodajalec", "ru": "продавец", "cat": "job"}
+{"sl": "prevajalec", "ru": "переводчик", "cat": "job"}
+{"sl": "frizer", "ru": "парикмахер", "cat": "job"}
+{"sl": "novinar", "ru": "журналист", "cat": "job"}
+{"sl": "ekonomist", "ru": "экономист", "cat": "job"}
+{"sl": "natakar", "ru": "официант", "cat": "job"}
+{"sl": "zdravnik", "ru": "врач", "cat": "job", "audio": "c_3313.mp3"}
+{"sl": "psiholog", "ru": "психолог", "cat": "job"}
+{"sl": "tajnik", "ru": "секретарь", "cat": "job"}
+{"sl": "študent", "ru": "студент", "cat": "job"}
+{"sl": "brezposelna", "ru": "безработная", "cat": "job"}
+{"sl": "inženir", "ru": "инженер", "cat": "job"}
+{"sl": "ime", "ru": "имя", "cat": "info"}
+{"sl": "priimek", "ru": "фамилия", "cat": "info"}
+{"sl": "poklic", "ru": "профессия", "cat": "info"}
+{"sl": "jezik", "ru": "язык", "cat": "info", "audio": "c_646.mp3"}
+{"sl": "podpis", "ru": "подпись", "cat": "info", "audio": "c_3487.mp3"}
+{"sl": "naslov", "ru": "адрес", "cat": "info", "audio": "c_3265.mp3"}
+{"sl": "ulica", "ru": "улица", "cat": "info"}
+{"sl": "kraj", "ru": "место, город", "cat": "info"}
+{"sl": "država", "ru": "государство, страна", "cat": "info", "audio": "c_3070.mp3"}
+{"sl": "dežela", "ru": "земля, край", "cat": "info"}
+{"sl": "e-naslov", "ru": "е-мейл", "cat": "info", "audio": "c_3428.mp3"}
+{"sl": "spletna stran", "ru": "веб-сайт", "cat": "info", "audio": "c_3427.mp3"}
+{"sl": "pošta", "ru": "почта", "cat": "info"}
+{"sl": "datum rojstva", "ru": "дата рождения", "cat": "info"}
+{"sl": "vreme", "ru": "погода", "cat": "weather", "audio": "c_109.mp3"}
+{"sl": "oblačno", "ru": "облачно", "cat": "weather"}
+{"sl": "sončno", "ru": "солнечно", "cat": "weather"}
+{"sl": "toplo", "ru": "тепло", "cat": "weather"}
+{"sl": "hladno", "ru": "холодно", "cat": "weather"}
+{"sl": "stopinja", "ru": "градус", "cat": "weather"}
+{"sl": "toplota", "ru": "теплота", "cat": "weather"}
+{"sl": "dežnik", "ru": "зонт", "cat": "weather"}
+{"sl": "deževati", "ru": "идти (о дожде)", "cat": "weather"}
+{"sl": "burja", "ru": "буря", "cat": "weather"}
+{"sl": "zima", "ru": "зима", "cat": "season", "audio": "c_1696.mp3"}
+{"sl": "pomlad", "ru": "весна", "cat": "season", "audio": "c_1693.mp3"}
+{"sl": "poletje", "ru": "лето", "cat": "season", "audio": "c_1694.mp3"}
+{"sl": "jesen", "ru": "осень", "cat": "season", "audio": "c_1695.mp3"}
+{"sl": "pozimi", "ru": "зимой", "cat": "season"}
+{"sl": "spomladi", "ru": "весной", "cat": "season"}
+{"sl": "poleti", "ru": "летом", "cat": "season"}
+{"sl": "jeseni", "ru": "осенью", "cat": "season"}
+{"sl": "letni čas", "ru": "время года", "cat": "season"}
+{"sl": "leto", "ru": "год", "cat": "season", "audio": "c_1663.mp3"}
+{"sl": "zjutraj", "ru": "утром", "cat": "time", "audio": "c_1655.mp3"}
+{"sl": "zgodaj", "ru": "рано", "cat": "time"}
+{"sl": "pozno", "ru": "поздно", "cat": "time"}
+{"sl": "dopoldne", "ru": "до обеда", "cat": "time"}
+{"sl": "popoldne", "ru": "после обеда", "cat": "time"}
+{"sl": "zvečer", "ru": "вечером", "cat": "time"}
+{"sl": "ponoči", "ru": "ночью", "cat": "time"}
+{"sl": "podnevi", "ru": "днём", "cat": "time"}
+{"sl": "danes", "ru": "сегодня", "cat": "time", "audio": "c_1702.mp3"}
+{"sl": "zdaj", "ru": "сейчас", "cat": "time", "audio": "c_1659.mp3"}
+{"sl": "včeraj", "ru": "вчера", "cat": "time", "audio": "c_1701.mp3"}
+{"sl": "nikoli", "ru": "никогда", "cat": "time"}
+{"sl": "potem", "ru": "потом, затем", "cat": "time", "audio": "c_3659.mp3"}
+{"sl": "vsak dan", "ru": "каждый день", "cat": "time"}
+{"sl": "včasih", "ru": "иногда", "cat": "time"}
+{"sl": "vedno", "ru": "всегда", "cat": "time"}
+{"sl": "zajtrk", "ru": "завтрак", "cat": "food", "audio": "c_1537.mp3"}
+{"sl": "kosilo", "ru": "обед", "cat": "food", "audio": "c_1538.mp3"}
+{"sl": "večerja", "ru": "ужин", "cat": "food", "audio": "c_1539.mp3"}
+{"sl": "kava", "ru": "кофе", "cat": "food", "audio": "c_1495.mp3"}
+{"sl": "pica", "ru": "пицца", "cat": "food", "audio": "c_1561.mp3"}
+{"sl": "potica", "ru": "потица (выпечка)", "cat": "food"}
+{"sl": "skuta", "ru": "творог", "cat": "food"}
+{"sl": "italijanska hrana", "ru": "итальянская кухня", "cat": "food"}
+{"sl": "tukaj", "ru": "здесь", "cat": "where", "audio": "c_807.mp3"}
+{"sl": "tam", "ru": "там", "cat": "where", "audio": "c_808.mp3"}
+{"sl": "sem", "ru": "сюда", "cat": "where"}
+{"sl": "domov", "ru": "домой", "cat": "where"}
+{"sl": "doma", "ru": "дома", "cat": "where"}
+{"sl": "od doma", "ru": "из дома", "cat": "where"}
+{"sl": "ven", "ru": "наружу", "cat": "where"}
+{"sl": "cesta", "ru": "дорога, улица", "cat": "where", "audio": "c_1934.mp3"}
+{"sl": "mesto", "ru": "город", "cat": "where", "audio": "c_129.mp3"}
+{"sl": "sprehod", "ru": "прогулка", "cat": "where"}
+{"sl": "center mesta", "ru": "центр города", "cat": "where"}
+{"sl": "kje", "ru": "где", "cat": "where", "audio": "c_3696.mp3"}
+{"sl": "kam", "ru": "куда", "cat": "where"}
+{"sl": "od kod", "ru": "откуда", "cat": "where"}
+{"sl": "grem v šolo", "ru": "иду в школу", "cat": "goplace"}
+{"sl": "grem v službo", "ru": "иду на работу", "cat": "goplace"}
+{"sl": "grem v trgovino", "ru": "иду в магазин", "cat": "goplace"}
+{"sl": "grem v kino", "ru": "иду в кино", "cat": "goplace"}
+{"sl": "grem v mesto", "ru": "иду в город", "cat": "goplace"}
+{"sl": "grem na sestanek", "ru": "иду на встречу", "cat": "goplace"}
+{"sl": "grem na sprehod", "ru": "иду на прогулку", "cat": "goplace"}
+{"sl": "grem na fitnes", "ru": "иду в фитнес", "cat": "goplace"}
+{"sl": "grem na koncert", "ru": "иду на концерт", "cat": "goplace"}
+{"sl": "grem na zabavo", "ru": "иду на вечеринку", "cat": "goplace"}
+{"sl": "grem na izlet", "ru": "иду на экскурсию", "cat": "goplace"}
+{"sl": "grem na tečaj", "ru": "иду на курс", "cat": "goplace"}
+{"sl": "grem na obisk", "ru": "иду в гости", "cat": "goplace"}
+{"sl": "grem po nakupih", "ru": "иду за покупками", "cat": "goplace"}
+{"sl": "grem k zdravniku", "ru": "иду к врачу", "cat": "goplace"}
+{"sl": "trpeti", "ru": "терпеть, страдать", "cat": "verb"}
+{"sl": "preživeti", "ru": "пережить, выжить", "cat": "verb"}
+{"sl": "vedeti", "ru": "знать", "cat": "verb", "audio": "c_902.mp3"}
+{"sl": "čakati", "ru": "ждать", "cat": "verb", "audio": "c_1035.mp3"}
+{"sl": "samoučiti se", "ru": "учиться самостоятельно", "cat": "verb"}
+{"sl": "delati kot", "ru": "работать в качестве", "cat": "verb"}
+{"sl": "posebej", "ru": "особенно", "cat": "adj"}
+{"sl": "lagodno", "ru": "уютно", "cat": "adj"}
+{"sl": "vljuden", "ru": "вежливый", "cat": "adj"}
+{"sl": "simpatičen", "ru": "симпатичный", "cat": "adj"}
+{"sl": "malo", "ru": "мало, немного", "cat": "adj", "audio": "c_752.mp3"}
+{"sl": "sploh", "ru": "совсем, вообще", "cat": "adj"}
+{"sl": "predvsem", "ru": "прежде всего", "cat": "adj"}
+{"sl": "prosti", "ru": "свободный", "cat": "adj"}
+{"sl": "ali", "ru": "или", "cat": "adj", "audio": "c_3641.mp3"}
+{"sl": "ko", "ru": "когда", "cat": "adj"}
+{"sl": "pa", "ru": "а, же", "cat": "adj"}
+{"sl": "življenje", "ru": "жизнь", "cat": "thing", "audio": "c_79.mp3"}
+{"sl": "besedilo", "ru": "текст", "cat": "thing"}
+{"sl": "služba", "ru": "работа", "cat": "thing"}
+{"sl": "košarka", "ru": "баскетбол", "cat": "thing", "audio": "c_155.mp3"}
+{"sl": "nogomet", "ru": "футбол", "cat": "thing", "audio": "c_158.mp3"}
+{"sl": "nakupovanje", "ru": "покупки", "cat": "thing", "audio": "c_130.mp3"}
+{"sl": "potovanje", "ru": "путешествие", "cat": "thing"}
+{"sl": "stranišče", "ru": "туалет", "cat": "thing", "audio": "c_1100.mp3"}
+{"sl": "garderoba", "ru": "раздевалка", "cat": "thing"}
+{"sl": "slušalke", "ru": "наушники", "cat": "thing"}
+{"sl": "pisarna", "ru": "офис", "cat": "thing", "audio": "c_3241.mp3"}
+{"sl": "računalnik", "ru": "компьютер", "cat": "thing"}
+{"sl": "sreča", "ru": "счастье, удача", "cat": "thing"}
+{"sl": "veselje", "ru": "радость", "cat": "thing"}
+{"sl": "sredina", "ru": "середина", "cat": "thing"}
+{"sl": "besedni zaklad", "ru": "словарный запас", "cat": "thing"}
+{"sl": "računalniške igre", "ru": "компьютерные игры", "cat": "thing"}
+{"sl": "telefon", "ru": "телефон", "cat": "thing", "audio": "c_3419.mp3"}
+{"sl": "zbudim se", "ru": "просыпаюсь", "cat": "daily"}
+{"sl": "umijem se", "ru": "умываюсь", "cat": "daily"}
+{"sl": "tuširam se", "ru": "принимаю душ", "cat": "daily"}
+{"sl": "oblečem se", "ru": "одеваюсь", "cat": "daily"}
+{"sl": "pijem kavo", "ru": "пью кофе", "cat": "daily"}
+{"sl": "kuham", "ru": "готовлю", "cat": "daily"}
+{"sl": "delam", "ru": "работаю", "cat": "daily"}
+{"sl": "telefoniram", "ru": "звоню", "cat": "daily"}
+{"sl": "pišem e-mail", "ru": "пишу имейл", "cat": "daily"}
+{"sl": "berem knjigo", "ru": "читаю книгу", "cat": "daily"}
+{"sl": "gledam televizijo", "ru": "смотрю телевизор", "cat": "daily"}
+{"sl": "poslušam glasbo", "ru": "слушаю музыку", "cat": "daily"}
+{"sl": "igram kitaro", "ru": "играю на гитаре", "cat": "daily"}
+{"sl": "plešem", "ru": "танцую", "cat": "daily"}
+{"sl": "počivam", "ru": "отдыхаю", "cat": "daily"}
+{"sl": "pospravljam", "ru": "убираю", "cat": "daily"}
+{"sl": "delam na vrtu", "ru": "работаю в саду", "cat": "daily"}
+{"sl": "pogovarjam se s prijatelji", "ru": "разговариваю с друзьями", "cat": "daily"}
+{"sl": "vozim se s kolesom", "ru": "езжу на велосипеде", "cat": "daily"}
+{"sl": "grem spat", "ru": "иду спать", "cat": "daily"}
+{"sl": "grem domov", "ru": "иду домой", "cat": "goplace"}
+{"sl": "grem na tenis", "ru": "иду на теннис", "cat": "goplace"}
+{"sl": "grem na pijačo", "ru": "иду выпить", "cat": "goplace"}
+{"sl": "grem na kosilo", "ru": "иду на обед", "cat": "goplace"}
+{"sl": "grem k frizerju", "ru": "иду к парикмахеру", "cat": "goplace"}
+{"sl": "grem po opravkih", "ru": "иду по делам", "cat": "goplace"}
+{"sl": "grem ven", "ru": "выхожу на улицу", "cat": "goplace"}
+{"sl": "sem doma", "ru": "я дома", "cat": "where"}
+{"sl": "sem v šoli", "ru": "я в школе", "cat": "where"}
+{"sl": "sem v službi", "ru": "я на работе", "cat": "where"}
+{"sl": "sem na zabavi", "ru": "я на вечеринке", "cat": "where"}
+{"sl": "sem v mestu", "ru": "я в городе", "cat": "where"}
+{"sl": "skrbeti", "ru": "заботиться", "cat": "verb"}
+{"sl": "obiskati", "ru": "навестить", "cat": "verb"}
+{"sl": "prijetno", "ru": "приятно", "cat": "adj"}
+{"sl": "pogosto", "ru": "часто", "cat": "adj", "audio": "c_3662.mp3"}
+{"sl": "redno", "ru": "регулярно", "cat": "adj"}
+{"sl": "redko", "ru": "редко", "cat": "adj"}
+{"sl": "običajno", "ru": "обычно", "cat": "adj"}
+{"sl": "žurka", "ru": "вечеринка (разг.)", "cat": "thing"}
+{"sl": "žur", "ru": "тусовка", "cat": "thing"}
+{"sl": "telovadba", "ru": "гимнастика, физкультура", "cat": "thing"}
+{"sl": "navada", "ru": "привычка", "cat": "thing"}
+{"sl": "razvada", "ru": "вредная привычка", "cat": "thing"}
+{"sl": "dežuje", "ru": "дождь идёт", "cat": "weather"}
+{"sl": "iti na živce", "ru": "действовать на нервы", "cat": "verb"}
+{"sl": "naročilo", "ru": "заказ", "cat": "thing"}
+{"sl": "glasba", "ru": "музыка", "cat": "thing", "audio": "c_90.mp3"}
+{"sl": "kopalnica", "ru": "ванная комната", "cat": "school", "audio": "c_1096.mp3"}
+{"sl": "otrok", "ru": "ребёнок", "cat": "people", "audio": "c_1758.mp3"}
+{"sl": "zaspan", "ru": "сонный", "cat": "adj"}
+{"sl": "srajca", "ru": "рубашка", "cat": "thing", "audio": "c_2699.mp3"}
+{"sl": "kavbojke", "ru": "джинсы", "cat": "thing"}
+{"sl": "hčerka", "ru": "дочь", "cat": "people"}
+{"sl": "sin", "ru": "сын", "cat": "people", "audio": "c_1731.mp3"}
+{"sl": "potni list", "ru": "паспорт", "cat": "info"}
+{"sl": "upravna enota", "ru": "административная единица", "cat": "info"}
+{"sl": "dež", "ru": "дождь", "cat": "weather", "audio": "c_2450.mp3"}
+{"sl": "na koncu dneva", "ru": "в конце дня", "cat": "time"}
+{"sl": "čez", "ru": "через", "cat": "adj"}
+{"sl": "postelja", "ru": "кровать", "cat": "thing", "audio": "c_1190.mp3"}
+{"sl": "na univerzi", "ru": "в университете", "cat": "where"}
+{"sl": "otroški vrtec", "ru": "детский сад", "cat": "where"}
+{"sl": "ležim na postelji", "ru": "лежу на кровати", "cat": "daily"}
+{"sl": "serija", "ru": "сериал", "cat": "thing"}
+{"sl": "časopis", "ru": "газета, журнал", "cat": "thing", "audio": "c_2124.mp3"}
+{"sl": "peljati", "ru": "вести, везти", "cat": "verb"}
+{"sl": "vrniti se", "ru": "вернуться", "cat": "verb"}
+{"sl": "začeti", "ru": "начать", "cat": "verb"}
+{"sl": "lenariti", "ru": "лениться", "cat": "verb"}
+{"sl": "ležati", "ru": "лежать", "cat": "verb", "audio": "c_905.mp3"}
+{"sl": "v redu", "ru": "в порядке, ок", "cat": "adj", "audio": "c_3688.mp3"}
+{"sl": "nositi", "ru": "носить", "cat": "verb", "audio": "c_909.mp3"}
+{"sl": "sončna očala", "ru": "солнечные очки", "cat": "thing"}
+{"sl": "zunaj", "ru": "снаружи, на улице", "cat": "where", "audio": "c_810.mp3"}
+{"sl": "po", "ru": "после", "cat": "adj"}
+{"sl": "ponavadi", "ru": "обычно, как правило", "cat": "adj"}
+{"sl": "če", "ru": "если", "cat": "adj", "audio": "c_3656.mp3"}
+{"sl": "nato", "ru": "затем, тогда", "cat": "time"}
+{"sl": "tujec", "ru": "иностранец", "cat": "people"}
+{"sl": "tuji jezik", "ru": "иностранный язык", "cat": "info"}
+{"sl": "tujina", "ru": "заграница", "cat": "where"}
+{"sl": "grem v tujino", "ru": "еду за границу", "cat": "goplace"}
+{"sl": "izpit", "ru": "экзамен", "cat": "school", "audio": "c_2156.mp3"}
+{"sl": "izobraževanje", "ru": "образование", "cat": "school"}
+{"sl": "izobrazba", "ru": "образование (уровень)", "cat": "school"}
+{"sl": "umetnost", "ru": "искусство", "cat": "thing", "audio": "c_2171.mp3"}
+{"sl": "ponedeljek", "ru": "понедельник", "cat": "time", "audio": "c_3796.mp3"}
+{"sl": "torek", "ru": "вторник", "cat": "time", "audio": "c_3797.mp3"}
+{"sl": "sreda", "ru": "среда", "cat": "time", "audio": "c_3798.mp3"}
+{"sl": "četrtek", "ru": "четверг", "cat": "time", "audio": "c_3799.mp3"}
+{"sl": "petek", "ru": "пятница", "cat": "time", "audio": "c_3800.mp3"}
+{"sl": "sobota", "ru": "суббота", "cat": "time", "audio": "c_3801.mp3"}
+{"sl": "nedelja", "ru": "воскресенье", "cat": "time", "audio": "c_3802.mp3"}
+{"sl": "ob sobotah", "ru": "по субботам", "cat": "time"}
+{"sl": "velikokrat", "ru": "часто", "cat": "adj"}
+{"sl": "koristen", "ru": "полезный", "cat": "adj"}
+{"sl": "butast", "ru": "глупый", "cat": "adj"}
+{"sl": "trapast", "ru": "дурацкий", "cat": "adj", "audio": "c_863.mp3"}
+{"sl": "traparije", "ru": "глупости", "cat": "thing"}
+{"sl": "očitno", "ru": "очевидно", "cat": "adj"}
+{"sl": "amaterski", "ru": "любительский", "cat": "adj"}
+{"sl": "tudi", "ru": "тоже, также", "cat": "adj"}
+{"sl": "precej", "ru": "довольно, достаточно", "cat": "adj"}
+{"sl": "brez", "ru": "без", "cat": "adj"}
+{"sl": "lahko", "ru": "можно, легко", "cat": "adj"}
+{"sl": "poceni", "ru": "дёшево", "cat": "adj", "audio": "c_817.mp3"}
+{"sl": "cenejši", "ru": "дешевле", "cat": "adj"}
+{"sl": "družabni stiki", "ru": "общение, социальные связи", "cat": "thing"}
+{"sl": "načrt", "ru": "план", "cat": "thing"}
+{"sl": "biti zaseden", "ru": "быть занятым", "cat": "verb"}
+{"sl": "izkušnja", "ru": "опыт, впечатление", "cat": "thing"}
+{"sl": "je odvisno od", "ru": "зависит от", "cat": "verb"}
+{"sl": "stolpnica", "ru": "столбчатая диаграмма", "cat": "thing"}
+{"sl": "peči", "ru": "печь", "cat": "verb"}
+{"sl": "poslati", "ru": "отправить", "cat": "verb"}
+{"sl": "zaspati", "ru": "заснуть", "cat": "verb"}
+{"sl": "moči", "ru": "мочь", "cat": "verb"}
+{"sl": "drsati", "ru": "кататься на коньках", "cat": "verb"}
+{"sl": "deskati", "ru": "кататься на доске", "cat": "verb"}
+{"sl": "brskati", "ru": "искать, гуглить", "cat": "verb"}
+{"sl": "teči", "ru": "бежать", "cat": "verb", "audio": "c_980.mp3"}
+{"sl": "kruh", "ru": "хлеб", "cat": "food", "audio": "c_1433.mp3"}
+{"sl": "mleko", "ru": "молоко", "cat": "food", "audio": "c_1281.mp3"}
+{"sl": "voda", "ru": "вода", "cat": "food", "audio": "c_1492.mp3"}
+{"sl": "čaj", "ru": "чай", "cat": "food", "audio": "c_1496.mp3"}
+{"sl": "sok", "ru": "сок", "cat": "food"}
+{"sl": "pivo", "ru": "пиво", "cat": "food", "audio": "c_1521.mp3"}
+{"sl": "vino", "ru": "вино", "cat": "food", "audio": "c_1512.mp3"}
+{"sl": "meso", "ru": "мясо", "cat": "food", "audio": "c_3779.mp3"}
+{"sl": "riba", "ru": "рыба", "cat": "food", "audio": "c_3780.mp3"}
+{"sl": "sir", "ru": "сыр", "cat": "food", "audio": "c_1282.mp3"}
+{"sl": "jajce", "ru": "яйцо", "cat": "food", "audio": "c_1289.mp3"}
+{"sl": "riž", "ru": "рис", "cat": "food"}
+{"sl": "solata", "ru": "салат", "cat": "food", "audio": "c_1530.mp3"}
+{"sl": "sadje", "ru": "фрукты", "cat": "food", "audio": "c_63.mp3"}
+{"sl": "zelenjava", "ru": "овощи", "cat": "food", "audio": "c_62.mp3"}
+{"sl": "sladkor", "ru": "сахар", "cat": "food", "audio": "c_1424.mp3"}
+{"sl": "sol", "ru": "соль", "cat": "food"}
+{"sl": "maslo", "ru": "масло", "cat": "food"}
+{"sl": "juha", "ru": "суп", "cat": "food", "audio": "c_1531.mp3"}
+{"sl": "sladoled", "ru": "мороженое", "cat": "food"}
+{"sl": "torta", "ru": "торт", "cat": "food", "audio": "c_1468.mp3"}
+{"sl": "bela", "ru": "белый", "cat": "color"}
+{"sl": "črna", "ru": "чёрный", "cat": "color"}
+{"sl": "rdeča", "ru": "красный", "cat": "color"}
+{"sl": "modra", "ru": "синий", "cat": "color"}
+{"sl": "zelena", "ru": "зелёный", "cat": "color"}
+{"sl": "rumena", "ru": "жёлтый", "cat": "color"}
+{"sl": "rjava", "ru": "коричневый", "cat": "color"}
+{"sl": "siva", "ru": "серый", "cat": "color"}
+{"sl": "roza", "ru": "розовый", "cat": "color", "audio": "c_740.mp3"}
+{"sl": "oranžna", "ru": "оранжевый", "cat": "color"}
+{"sl": "mama", "ru": "мама", "cat": "family"}
+{"sl": "oče", "ru": "отец", "cat": "family", "audio": "c_1714.mp3"}
+{"sl": "ata", "ru": "папа (разг.)", "cat": "family"}
+{"sl": "brat", "ru": "брат", "cat": "family"}
+{"sl": "sestra", "ru": "сестра", "cat": "family"}
+{"sl": "mož", "ru": "муж", "cat": "family", "audio": "c_1737.mp3"}
+{"sl": "žena", "ru": "жена", "cat": "family", "audio": "c_1736.mp3"}
+{"sl": "babica", "ru": "бабушка", "cat": "family", "audio": "c_1719.mp3"}
+{"sl": "dedek", "ru": "дедушка", "cat": "family", "audio": "c_1717.mp3"}
+{"sl": "družina", "ru": "семья", "cat": "family"}
+{"sl": "starši", "ru": "родители", "cat": "family", "audio": "c_1742.mp3"}
+{"sl": "stric", "ru": "дядя", "cat": "family", "audio": "c_1721.mp3"}
+{"sl": "teta", "ru": "тётя", "cat": "family", "audio": "c_1720.mp3"}
+{"sl": "avto", "ru": "машина", "cat": "transport", "audio": "c_81.mp3"}
+{"sl": "avtobus", "ru": "автобус", "cat": "transport", "audio": "c_1849.mp3"}
+{"sl": "vlak", "ru": "поезд", "cat": "transport", "audio": "c_1869.mp3"}
+{"sl": "letalo", "ru": "самолёт", "cat": "transport", "audio": "c_1975.mp3"}
+{"sl": "kolo", "ru": "велосипед", "cat": "transport", "audio": "c_1971.mp3"}
+{"sl": "postaja", "ru": "остановка, станция", "cat": "transport"}
+{"sl": "vozovnica", "ru": "билет (проездной)", "cat": "transport"}
+{"sl": "letališče", "ru": "аэропорт", "cat": "transport"}
+{"sl": "taksi", "ru": "такси", "cat": "transport", "audio": "c_1964.mp3"}
+{"sl": "glava", "ru": "голова", "cat": "body", "audio": "c_621.mp3"}
+{"sl": "roka", "ru": "рука", "cat": "body", "audio": "c_611.mp3"}
+{"sl": "noga", "ru": "нога", "cat": "body", "audio": "c_613.mp3"}
+{"sl": "oči", "ru": "глаза", "cat": "body", "audio": "c_3760.mp3"}
+{"sl": "usta", "ru": "рот", "cat": "body", "audio": "c_641.mp3"}
+{"sl": "nos", "ru": "нос", "cat": "body", "audio": "c_645.mp3"}
+{"sl": "uho", "ru": "ухо", "cat": "body", "audio": "c_638.mp3"}
+{"sl": "hrbet", "ru": "спина", "cat": "body", "audio": "c_653.mp3"}
+{"sl": "zdravilo", "ru": "лекарство", "cat": "body", "audio": "c_141.mp3"}
+{"sl": "bolečina", "ru": "боль", "cat": "body"}
+{"sl": "bolan", "ru": "больной", "cat": "body", "audio": "c_766.mp3"}
+{"sl": "hiša", "ru": "дом", "cat": "home", "audio": "c_2987.mp3"}
+{"sl": "stanovanje", "ru": "квартира", "cat": "home", "audio": "c_2984.mp3"}
+{"sl": "soba", "ru": "комната", "cat": "home"}
+{"sl": "kuhinja", "ru": "кухня (помещение)", "cat": "home", "audio": "c_1089.mp3"}
+{"sl": "spalnica", "ru": "спальня", "cat": "home", "audio": "c_1088.mp3"}
+{"sl": "dnevna soba", "ru": "гостиная", "cat": "home", "audio": "c_1087.mp3"}
+{"sl": "vrt", "ru": "сад", "cat": "home", "audio": "c_1110.mp3"}
+{"sl": "ključ", "ru": "ключ", "cat": "home", "audio": "c_3568.mp3"}
+{"sl": "nadstropje", "ru": "этаж", "cat": "home"}
+{"sl": "trgovina", "ru": "магазин", "cat": "shop"}
+{"sl": "cena", "ru": "цена", "cat": "shop"}
+{"sl": "denar", "ru": "деньги", "cat": "shop", "audio": "c_3471.mp3"}
+{"sl": "račun", "ru": "счёт", "cat": "shop", "audio": "c_2920.mp3"}
+{"sl": "drago", "ru": "дорого", "cat": "shop"}
+{"sl": "restavracija", "ru": "ресторан", "cat": "shop", "audio": "c_2951.mp3"}
+{"sl": "jedilni list", "ru": "меню", "cat": "shop"}
+{"sl": "vesel", "ru": "весёлый, рад", "cat": "feel"}
+{"sl": "žalosten", "ru": "грустный", "cat": "feel", "audio": "c_767.mp3"}
+{"sl": "utrujen", "ru": "уставший", "cat": "feel", "audio": "c_775.mp3"}
+{"sl": "lačen", "ru": "голодный", "cat": "feel", "audio": "c_768.mp3"}
+{"sl": "žejen", "ru": "жаждущий", "cat": "feel", "audio": "c_769.mp3"}
+{"sl": "jezen", "ru": "злой, сердитый", "cat": "feel", "audio": "c_763.mp3"}
+{"sl": "zaljubljen", "ru": "влюблённый", "cat": "feel"}
+{"sl": "z mano", "ru": "со мной", "cat": "pron"}
+{"sl": "z menoj", "ru": "со мной (вариант)", "cat": "pron"}
+{"sl": "s tabo", "ru": "с тобой", "cat": "pron"}
+{"sl": "s teboj", "ru": "с тобой (вариант)", "cat": "pron"}
+{"sl": "klepetati", "ru": "болтать, разговаривать", "cat": "verb"}
+{"sl": "čvekati", "ru": "болтать, сплетничать", "cat": "verb"}
+{"sl": "ustrezati", "ru": "подходить, соответствовать", "cat": "verb"}
+{"sl": "preživljati čas", "ru": "проводить время", "cat": "verb"}
+{"sl": "uživati", "ru": "наслаждаться", "cat": "verb", "audio": "c_1013.mp3"}
+{"sl": "nesti", "ru": "нести", "cat": "verb"}
+{"sl": "potrebovati", "ru": "нуждаться, требоваться", "cat": "verb"}
+{"sl": "poskušati", "ru": "пробовать, пытаться (несов.)", "cat": "verb"}
+{"sl": "poskusiti", "ru": "попробовать, попытаться (сов.)", "cat": "verb"}
+{"sl": "izkoristiti", "ru": "использовать, воспользоваться", "cat": "verb"}
+{"sl": "narediti", "ru": "сделать (сов.)", "cat": "verb"}
+{"sl": "izgledati", "ru": "выглядеть", "cat": "verb"}
+{"sl": "ogledati si", "ru": "посмотреть (фильм и т.п.)", "cat": "verb"}
+{"sl": "dati povedati", "ru": "дать сказать, рассказать", "cat": "verb"}
+{"sl": "veliko ljudi", "ru": "много людей", "cat": "people"}
+{"sl": "vrečka", "ru": "пакет, мешочек", "cat": "thing", "audio": "c_3575.mp3"}
+{"sl": "težek", "ru": "тяжёлый, трудный", "cat": "adj", "audio": "c_754.mp3"}
+{"sl": "s prijatelji", "ru": "с друзьями", "cat": "people"}
+{"sl": "v lokalu", "ru": "в баре, в заведении", "cat": "where"}
+{"sl": "pijača", "ru": "напиток", "cat": "food", "audio": "c_68.mp3"}
+{"sl": "tečaj", "ru": "курс (учебный)", "cat": "school"}
+{"sl": "stvar", "ru": "вещь, штука", "cat": "thing"}
+{"sl": "čim več", "ru": "как можно больше", "cat": "adj"}
+{"sl": "marati", "ru": "любить, нравиться", "cat": "verb"}
+{"sl": "računati", "ru": "считать, рассчитывать (računam)", "cat": "verb"}
+{"sl": "dati", "ru": "дать (сов., dam)", "cat": "verb", "audio": "c_966.mp3"}
+{"sl": "povedati", "ru": "сказать, рассказать (сов., povem)", "cat": "verb"}
+{"sl": "povabiti", "ru": "пригласить (сов., povabim)", "cat": "verb"}
+{"sl": "ukvarjati se", "ru": "заниматься (чем-л.)", "cat": "verb"}
+{"sl": "zabavati se", "ru": "развлекаться, веселиться", "cat": "verb"}
+{"sl": "navajati se", "ru": "привыкать (несов.)", "cat": "verb"}
+{"sl": "navaditi se", "ru": "привыкнуть (сов.)", "cat": "verb"}
+{"sl": "vpisati se", "ru": "записаться, поступить", "cat": "verb"}
+{"sl": "poročati se", "ru": "жениться (несов.)", "cat": "verb"}
+{"sl": "poročiti se", "ru": "жениться (сов.)", "cat": "verb", "audio": "c_964.mp3"}
+{"sl": "zanimati", "ru": "интересовать", "cat": "verb"}
+{"sl": "biti poročen", "ru": "быть женатым", "cat": "verb"}
+{"sl": "član družine", "ru": "член семьи", "cat": "family"}
+{"sl": "mami", "ru": "мама (ласково)", "cat": "family", "audio": "c_3761.mp3"}
+{"sl": "mamica", "ru": "мамочка", "cat": "family"}
+{"sl": "nečak", "ru": "племянник", "cat": "family"}
+{"sl": "nečakinja", "ru": "племянница", "cat": "family"}
+{"sl": "sorodnik", "ru": "родственник", "cat": "family"}
+{"sl": "sorodnica", "ru": "родственница", "cat": "family"}
+{"sl": "najstnik", "ru": "подросток", "cat": "people"}
+{"sl": "upokojenec", "ru": "пенсионер", "cat": "people"}
+{"sl": "zapečkar", "ru": "домосед", "cat": "people"}
+{"sl": "igračka", "ru": "игрушка", "cat": "thing"}
+{"sl": "punčka", "ru": "куколка, девчушка", "cat": "thing"}
+{"sl": "lutka", "ru": "кукла", "cat": "thing", "audio": "c_3609.mp3"}
+{"sl": "srce", "ru": "сердце", "cat": "thing", "audio": "c_710.mp3"}
+{"sl": "skrb", "ru": "забота, беспокойство", "cat": "thing"}
+{"sl": "pokoj", "ru": "пенсия, покой", "cat": "thing"}
+{"sl": "luškan", "ru": "милый, славный", "cat": "adj"}
+{"sl": "srčkan", "ru": "милый (сердечный)", "cat": "adj", "audio": "c_874.mp3"}
+{"sl": "majhen", "ru": "маленький", "cat": "adj", "audio": "c_791.mp3"}
+{"sl": "priden", "ru": "прилежный, послушный", "cat": "adj", "audio": "c_835.mp3"}
+{"sl": "zanimivo", "ru": "интересно", "cat": "adj"}
+{"sl": "skupaj", "ru": "вместе", "cat": "adj", "audio": "c_3638.mp3"}
+{"sl": "prejšnji", "ru": "прошлый, предыдущий", "cat": "adj"}
+{"sl": "prej", "ru": "раньше, прежде", "cat": "time"}
+{"sl": "letos", "ru": "в этом году", "cat": "time"}
+{"sl": "lani", "ru": "в прошлом году", "cat": "time"}
+{"sl": "predlani", "ru": "в позапрошлом году", "cat": "time"}
+{"sl": "Kaj pomeni ta beseda?", "ru": "Что значит это слово?", "cat": "phrase"}
+{"sl": "kdo", "ru": "кто", "cat": "question", "audio": "c_3695.mp3"}
+{"sl": "kaj", "ru": "что", "cat": "question", "audio": "c_3697.mp3"}
+{"sl": "kdaj", "ru": "когда", "cat": "question", "audio": "c_3791.mp3"}
+{"sl": "zakaj", "ru": "почему", "cat": "question", "audio": "c_3698.mp3"}
+{"sl": "kako", "ru": "как", "cat": "question", "audio": "c_3699.mp3"}
+{"sl": "koliko", "ru": "сколько", "cat": "question"}
+{"sl": "seveda", "ru": "конечно, разумеется", "cat": "phrase", "audio": "c_3683.mp3"}
+{"sl": "očka", "ru": "папа", "cat": "family"}
+{"sl": "bratranec", "ru": "двоюродный брат", "cat": "family"}
+{"sl": "sestrična", "ru": "двоюродная сестра", "cat": "family"}
+{"sl": "vnuk", "ru": "внук", "cat": "family"}
+{"sl": "vnukinja", "ru": "внучка", "cat": "family"}
+{"sl": "tašča", "ru": "тёща, свекровь", "cat": "family"}
+{"sl": "tast", "ru": "тесть, свёкор", "cat": "family"}
+{"sl": "dojenček", "ru": "младенец", "cat": "family", "audio": "c_1753.mp3"}
+{"sl": "partner", "ru": "партнёр", "cat": "family"}
+{"sl": "partnerica", "ru": "партнёрша", "cat": "family"}
+{"sl": "star", "ru": "старый, в возрасте (Star sem 38 let)", "cat": "adj", "audio": "c_852.mp3"}
+{"sl": "starejši", "ru": "старший, постарше", "cat": "adj"}
+{"sl": "mlajši", "ru": "младший, помоложе", "cat": "adj"}
+{"sl": "uporniški", "ru": "бунтарский, мятежный", "cat": "adj"}
+{"sl": "uspešen", "ru": "успешный", "cat": "adj"}
+{"sl": "velik", "ru": "большой", "cat": "adj", "audio": "c_790.mp3"}
+{"sl": "ponosen", "ru": "гордый", "cat": "adj", "audio": "c_773.mp3"}
+{"sl": "noseča", "ru": "беременная", "cat": "adj"}
+{"sl": "tradicionalen", "ru": "традиционный", "cat": "adj"}
+{"sl": "oba, obe", "ru": "оба, обе", "cat": "adj"}
+{"sl": "teden", "ru": "неделя", "cat": "time", "audio": "c_1661.mp3"}
+{"sl": "kmalu", "ru": "скоро", "cat": "time"}
+{"sl": "vsako nedeljo", "ru": "каждое воскресенье", "cat": "time"}
+{"sl": "že", "ru": "уже", "cat": "time", "audio": "c_3653.mp3"}
+{"sl": "še", "ru": "ещё", "cat": "time"}
+{"sl": "puberteta", "ru": "пубертат, переходный возраст", "cat": "thing"}
+{"sl": "trening", "ru": "тренировка", "cat": "thing"}
+{"sl": "violina", "ru": "скрипка", "cat": "thing"}
+{"sl": "podjetje", "ru": "предприятие, компания", "cat": "thing", "audio": "c_150.mp3"}
+{"sl": "počitnice", "ru": "каникулы, отпуск", "cat": "thing", "audio": "c_75.mp3"}
+{"sl": "zmenek", "ru": "свидание", "cat": "thing"}
+{"sl": "nosečnost", "ru": "беременность", "cat": "thing"}
+{"sl": "osnovna šola", "ru": "начальная школа", "cat": "school"}
+{"sl": "srednja šola", "ru": "средняя школа", "cat": "school"}
+{"sl": "glasbena šola", "ru": "музыкальная школа", "cat": "school"}
+{"sl": "športnik", "ru": "спортсмен", "cat": "people"}
+{"sl": "učenec", "ru": "ученик", "cat": "people"}
+{"sl": "učenka", "ru": "ученица", "cat": "people"}
+{"sl": "kar pomeni", "ru": "что означает", "cat": "phrase"}
+{"sl": "dopolniti", "ru": "достичь, восполнить (сов.)", "cat": "verb"}
+{"sl": "vzeti", "ru": "взять (сов.)", "cat": "verb", "audio": "c_916.mp3"}
+{"sl": "privoščiti si", "ru": "позволить себе (сов.)", "cat": "verb"}
+{"sl": "razvajati", "ru": "баловать", "cat": "verb"}
+{"sl": "zbrati se", "ru": "собраться (сов.)", "cat": "verb"}
+{"sl": "zbirati se", "ru": "собираться (несов.)", "cat": "verb"}
+{"sl": "pomeniti", "ru": "значить, означать", "cat": "verb"}
+{"sl": "letnik", "ru": "класс, год обучения", "cat": "school"}
+{"sl": "večkrat", "ru": "несколько раз, часто", "cat": "time"}

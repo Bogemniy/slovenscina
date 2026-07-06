@@ -1,6 +1,6 @@
 // Mutable global state — populated by main.js after data load.
 export const state = {
-  WORDS: [], VERBS: [], SENTENCES: [], LEARN: [], EXERCISES: [], GRAMMAR: [],
+  WORDS: [], VERBS: [], SENTENCES: [], LEARN: [], GRAMMAR: [],
   PRONOUNS: [], PRONOUN_SHORT: {}, SPECIAL_NEG: {}, RELATED: {},
   CAT_MAP: {}, CAT_MAP_SL: {},
   LEARN_CAT_MAP: {}, LEARN_CAT_MAP_SL: {},
