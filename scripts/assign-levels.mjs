@@ -19,21 +19,6 @@ function processWords() {
   console.log(`words.jsonl: ${out.length} lines updated`);
 }
 
-function processExercises() {
-  const path = join(root, "data/exercises.jsonl");
-  const lines = readFileSync(path, "utf8").trimEnd().split("\n");
-  const out = lines.map((line) => {
-    const obj = JSON.parse(line);
-    const n = obj.blanks.length;
-    let level;
-    if (n <= 6) level = "A2.1";
-    else if (n <= 10) level = "A2.2";
-    else level = "A2.3";
-    return JSON.stringify({ ...obj, level });
-  });
-  writeFileSync(path, out.join("\n") + "\n");
-  console.log(`exercises.jsonl: ${out.length} lines updated`);
-}
 
 // === ЯДРО ВЫЖИВАНИЯ (level 1): самые частотные слова A1 ===
 // Список живёт в коде, поэтому переживает любой повторный запуск скрипта.
@@ -117,5 +102,4 @@ function processLearn() {
 }
 
 processWords();
-processExercises();
 processLearn();
