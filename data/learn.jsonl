@@ -2068,3 +2068,6 @@
 {"sl":"sončno olje","ru":"подсолнечное масло","cat":"food","level":3}
 {"sl":"oljčno olje","ru":"оливковое масло","cat":"food","level":3}
 {"sl":"piščanec","ru":"курица (мясо)","cat":"food","level":2}
+{"sl":"pekoč","ru":"острый (жгучий)","cat":"adj","level":2}
+{"sl":"masten","ru":"жирный","cat":"adj","level":2}
+{"sl":"pečen","ru":"запечённый / жареный (в духовке)","cat":"adj","level":2}
