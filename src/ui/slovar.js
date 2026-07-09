@@ -59,17 +59,20 @@ function verbTableHTML(v) {
   </div>`;
 }
 
-function wordRowHTML(w) {
-  const slSafe = w.sl.replace(/\\/g, "\\\\").replace(/'/g, "\\'");
+function safe(s) {
+  return s.replace(/\\/g, "\\\\").replace(/'/g, "\\'");
+}
+
+function wordRowHTML(w, showBadge = true) {
   return `<div style="display:flex;align-items:center;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.05);gap:8px">
     <div style="flex:1;min-width:0">
       <div style="color:#e8eaed;font-size:16px;font-weight:600;display:flex;align-items:center;gap:6px">
         ${w.sl}
-        <button onclick="speakSlovenian('${slSafe}')" style="background:none;border:none;cursor:pointer;color:#555;font-size:13px;padding:0;line-height:1;flex-shrink:0" title="Posluši">🔊</button>
+        <button onclick="speakSlovenian('${safe(w.sl)}')" style="background:none;border:none;cursor:pointer;color:#555;font-size:13px;padding:0;line-height:1;flex-shrink:0" title="Posluši">🔊</button>
       </div>
       <div style="color:#888;font-size:13px;margin-top:2px">${w.ru}</div>
     </div>
-    <span style="flex-shrink:0;font-size:11px;font-weight:600;padding:3px 8px;border-radius:6px;background:#E1F5EE;color:#0F6E56">beseda</span>
+    ${showBadge ? `<span style="flex-shrink:0;font-size:11px;font-weight:600;padding:3px 8px;border-radius:6px;background:#E1F5EE;color:#0F6E56">beseda</span>` : ""}
   </div>`;
 }
 
@@ -79,7 +82,10 @@ function verbRowHTML(v, i) {
   return `<div style="border-bottom:1px solid rgba(255,255,255,.05)">
     <div onclick="toggleVerbAccordion(${i})" style="display:flex;align-items:center;padding:10px 0;gap:8px;cursor:pointer;user-select:none">
       <div style="flex:1;min-width:0">
-        <div style="color:#e8eaed;font-size:16px;font-weight:600">${v.inf}</div>
+        <div style="color:#e8eaed;font-size:16px;font-weight:600;display:flex;align-items:center;gap:6px">
+          ${v.inf}
+          <button onclick="event.stopPropagation();speakSlovenian('${safe(v.inf)}')" style="background:none;border:none;cursor:pointer;color:#555;font-size:13px;padding:0;line-height:1;flex-shrink:0" title="Posluši">🔊</button>
+        </div>
         <div style="color:#888;font-size:13px;margin-top:2px">${v.ru}</div>
         ${preview ? `<div style="color:#555;font-size:11px;margin-top:3px">${preview}</div>` : ""}
       </div>
@@ -88,6 +94,89 @@ function verbRowHTML(v, i) {
     </div>
     ${open ? verbTableHTML(v) : ""}
   </div>`;
+}
+
+// ---- Topic grouping (reused from besednjak) ----
+
+const CAT_LABELS = {
+  greet: "👋 Pozdravi",
+  phrase: "💬 Fraze",
+  people: "👥 Ljudje",
+  family: "👨‍👩‍👧 Družina",
+  job: "💼 Poklici",
+  profession: "👔 Poklici",
+  info: "📋 Osebne informacije",
+  school: "📖 Šola",
+  education: "🎓 Izobraževanje",
+  time: "⏰ Čas",
+  season: "🌸 Letni časi",
+  weather: "🌤️ Vreme",
+  food: "🍕 Hrana",
+  home: "🏠 Dom",
+  shop: "🛒 Nakupovanje",
+  transport: "🚗 Prevoz",
+  place: "🗺️ Kraji",
+  where: "📌 Kje",
+  daily: "☀️ Vsakdan",
+  goplace: "🚶 Kam grem",
+  body: "🫀 Telo",
+  feel: "😊 Čustva",
+  color: "🎨 Barve",
+  animal: "🐾 Živali",
+  sport: "⚽ Šport",
+  activity: "🏃 Aktivnosti",
+  instrument: "🎸 Glasbila",
+  number: "🔢 Števila",
+  month: "📅 Meseci",
+  pron: "👤 Zaimki",
+  question: "❓ Vprašalnice",
+  adjective: "✨ Pridevniki",
+  adverb: "📍 Prislovi",
+  noun: "📚 Samostalniki",
+  thing: "🧩 Stvari",
+  adj: "🔤 Razno",
+};
+
+function sectionHeader(label) {
+  return `<div style="padding:10px 0 6px;font-size:13px;font-weight:700;color:#aaa;border-top:1px solid rgba(255,255,255,.08);margin-top:6px">${label}</div>`;
+}
+
+function buildGroupedHTML(words, verbIdxs) {
+  let html = "";
+
+  if (words.length > 0) {
+    const grouped = {};
+    for (const w of words) {
+      if (!grouped[w.cat]) grouped[w.cat] = [];
+      grouped[w.cat].push(w);
+    }
+    for (const [cat, label] of Object.entries(CAT_LABELS)) {
+      const group = grouped[cat];
+      if (!group || group.length === 0) continue;
+      html += sectionHeader(`${label} <span style="opacity:.5;font-weight:400">(${group.length})</span>`);
+      for (const w of group) html += wordRowHTML(w, false);
+    }
+    // unknown cats not in CAT_LABELS
+    for (const [cat, group] of Object.entries(grouped)) {
+      if (CAT_LABELS[cat]) continue;
+      html += sectionHeader(`${cat} <span style="opacity:.5;font-weight:400">(${group.length})</span>`);
+      for (const w of group) html += wordRowHTML(w, false);
+    }
+  }
+
+  if (verbIdxs.length > 0) {
+    html += sectionHeader(`🔤 Glagoli <span style="opacity:.5;font-weight:400">(${verbIdxs.length})</span>`);
+    for (const i of verbIdxs) html += verbRowHTML(state.VERBS[i], i);
+  }
+
+  return html || '<div style="text-align:center;color:#777;padding:20px">Ni rezultatov</div>';
+}
+
+function buildFlatHTML(words, verbIdxs) {
+  let html = "";
+  for (const w of words) html += wordRowHTML(w, true);
+  for (const i of verbIdxs) html += verbRowHTML(state.VERBS[i], i);
+  return html || '<div style="text-align:center;color:#777;padding:20px">Ni rezultatov</div>';
 }
 
 const BTN_ACTIVE = "flex:1;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.12);color:#e8eaed;font-size:13px;font-weight:600;cursor:pointer";
@@ -104,13 +193,13 @@ function buildResults() {
   }, []);
 
   const total = words.length + verbIdxs.length;
-  let html = `<div style="font-size:12px;color:#555;margin-bottom:8px">${total} zadetkov</div>`;
-  if (total === 0) {
-    return html + '<div style="text-align:center;color:#777;padding:20px">Ni rezultatov</div>';
+  const counter = `<div style="font-size:12px;color:#555;margin-bottom:8px">${total} zadetkov</div>`;
+
+  if (q) {
+    return counter + buildFlatHTML(words, verbIdxs);
+  } else {
+    return buildGroupedHTML(words, verbIdxs);
   }
-  for (const w of words) html += wordRowHTML(w);
-  for (const i of verbIdxs) html += verbRowHTML(state.VERBS[i], i);
-  return html;
 }
 
 export function showSlovar() {
