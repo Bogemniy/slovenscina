@@ -3,7 +3,8 @@ import { app } from "./dom.js";
 
 let _filter = "all"; // "all" | "words" | "verbs"
 let _query = "";
-let _openVerb = -1; // index in state.VERBS, -1 = none open
+let _openVerb = -1;       // index in state.VERBS, -1 = none open
+let _openGroups = new Set(); // cat keys (+ "verbs") that are expanded
 
 function norm(s) {
   return s.toLowerCase()
@@ -31,31 +32,29 @@ function verbPreview(v) {
   return [pres, past, fut].filter(Boolean).join(" · ");
 }
 
+// Vertical layout: 3 tense blocks stacked, guaranteed to fit on narrow screens.
 function verbTableHTML(v) {
   const ps = state.PRONOUNS || [];
-  const rows = ps.map(p => {
-    const pres = v.forms ? (v.forms[p] || "—") : "—";
-    const past = v.past ? (v.past[p] || "—") : "—";
-    const fut = v.future ? (v.future[p] || "—") : "—";
-    return `<tr>
-      <td style="color:#777;font-size:11px;padding:3px 6px;white-space:nowrap">${p}</td>
-      <td style="color:#e8eaed;font-size:12px;padding:3px 6px">${pres}</td>
-      <td style="color:#e8eaed;font-size:12px;padding:3px 6px">${past}</td>
-      <td style="color:#e8eaed;font-size:12px;padding:3px 6px">${fut}</td>
-    </tr>`;
+  const tenses = [
+    { label: "Sedanjik",   forms: v.forms },
+    { label: "Preteklik",  forms: v.past },
+    { label: "Prihodnjik", forms: v.future },
+  ];
+  const blocks = tenses.map(({ label, forms }) => {
+    const rows = ps.map(p => {
+      const form = forms ? (forms[p] || "—") : "—";
+      return `<div style="display:flex;gap:8px;padding:2px 0">
+        <span style="color:#777;font-size:11px;min-width:84px;flex-shrink:0">${p}</span>
+        <span style="color:#e8eaed;font-size:11px;overflow-wrap:anywhere">${form}</span>
+      </div>`;
+    }).join("");
+    return `<div style="margin-bottom:10px">
+      <div style="color:#f9a8d4;font-size:11px;font-weight:700;margin-bottom:4px">${label}</div>
+      ${rows}
+    </div>`;
   }).join("");
-  return `<div style="padding:10px 14px 12px;border-top:1px solid rgba(255,255,255,.06);background:rgba(255,255,255,.02)">
-    <table style="width:100%;border-collapse:collapse">
-      <thead>
-        <tr>
-          <th></th>
-          <th style="color:#f9a8d4;font-size:11px;font-weight:600;text-align:left;padding:2px 6px">Sedanjik</th>
-          <th style="color:#f9a8d4;font-size:11px;font-weight:600;text-align:left;padding:2px 6px">Preteklik</th>
-          <th style="color:#f9a8d4;font-size:11px;font-weight:600;text-align:left;padding:2px 6px">Prihodnjik</th>
-        </tr>
-      </thead>
-      <tbody>${rows}</tbody>
-    </table>
+  return `<div style="padding:10px 14px 12px;border-top:1px solid rgba(255,255,255,.06);background:rgba(255,255,255,.02);box-sizing:border-box;width:100%;overflow:hidden">
+    ${blocks}
   </div>`;
 }
 
@@ -66,7 +65,7 @@ function safe(s) {
 function wordRowHTML(w, showBadge = true) {
   return `<div style="display:flex;align-items:center;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.05);gap:8px">
     <div style="flex:1;min-width:0">
-      <div style="color:#e8eaed;font-size:16px;font-weight:600;display:flex;align-items:center;gap:6px">
+      <div style="color:#e8eaed;font-size:16px;font-weight:600;display:flex;align-items:center;gap:6px;flex-wrap:wrap">
         ${w.sl}
         <button onclick="speakSlovenian('${safe(w.sl)}')" style="background:none;border:none;cursor:pointer;color:#555;font-size:13px;padding:0;line-height:1;flex-shrink:0" title="Posluši">🔊</button>
       </div>
@@ -96,7 +95,7 @@ function verbRowHTML(v, i) {
   </div>`;
 }
 
-// ---- Topic grouping (reused from besednjak) ----
+// ---- Topic grouping ----
 
 const CAT_LABELS = {
   greet: "👋 Pozdravi",
@@ -137,8 +136,15 @@ const CAT_LABELS = {
   adj: "🔤 Razno",
 };
 
-function sectionHeader(label) {
-  return `<div style="padding:10px 0 6px;font-size:13px;font-weight:700;color:#aaa;border-top:1px solid rgba(255,255,255,.08);margin-top:6px">${label}</div>`;
+function groupSection(id, label, count, rowsHTML) {
+  const open = _openGroups.has(id);
+  return `<div style="margin-bottom:2px">
+    <div onclick="toggleSlovarGroup('${id}')" style="display:flex;justify-content:space-between;align-items:center;padding:10px 2px 6px;font-size:13px;font-weight:700;color:#aaa;border-top:1px solid rgba(255,255,255,.08);margin-top:4px;cursor:pointer;user-select:none">
+      <span>${label} <span style="opacity:.5;font-weight:400">(${count})</span></span>
+      <span style="font-size:12px">${open ? "▼" : "▶"}</span>
+    </div>
+    ${open ? `<div>${rowsHTML}</div>` : ""}
+  </div>`;
 }
 
 function buildGroupedHTML(words, verbIdxs) {
@@ -150,23 +156,24 @@ function buildGroupedHTML(words, verbIdxs) {
       if (!grouped[w.cat]) grouped[w.cat] = [];
       grouped[w.cat].push(w);
     }
+    // Known cats in order
     for (const [cat, label] of Object.entries(CAT_LABELS)) {
       const group = grouped[cat];
       if (!group || group.length === 0) continue;
-      html += sectionHeader(`${label} <span style="opacity:.5;font-weight:400">(${group.length})</span>`);
-      for (const w of group) html += wordRowHTML(w, false);
+      const rows = group.map(w => wordRowHTML(w, false)).join("");
+      html += groupSection(cat, label, group.length, rows);
     }
-    // unknown cats not in CAT_LABELS
+    // Unknown cats
     for (const [cat, group] of Object.entries(grouped)) {
       if (CAT_LABELS[cat]) continue;
-      html += sectionHeader(`${cat} <span style="opacity:.5;font-weight:400">(${group.length})</span>`);
-      for (const w of group) html += wordRowHTML(w, false);
+      const rows = group.map(w => wordRowHTML(w, false)).join("");
+      html += groupSection("cat_" + cat, cat, group.length, rows);
     }
   }
 
   if (verbIdxs.length > 0) {
-    html += sectionHeader(`🔤 Glagoli <span style="opacity:.5;font-weight:400">(${verbIdxs.length})</span>`);
-    for (const i of verbIdxs) html += verbRowHTML(state.VERBS[i], i);
+    const rows = verbIdxs.map(i => verbRowHTML(state.VERBS[i], i)).join("");
+    html += groupSection("verbs", "🔤 Glagoli", verbIdxs.length, rows);
   }
 
   return html || '<div style="text-align:center;color:#777;padding:20px">Ni rezultatov</div>';
@@ -192,20 +199,19 @@ function buildResults() {
     return acc;
   }, []);
 
-  const total = words.length + verbIdxs.length;
-  const counter = `<div style="font-size:12px;color:#555;margin-bottom:8px">${total} zadetkov</div>`;
-
   if (q) {
-    return counter + buildFlatHTML(words, verbIdxs);
-  } else {
-    return buildGroupedHTML(words, verbIdxs);
+    const total = words.length + verbIdxs.length;
+    return `<div style="font-size:12px;color:#555;margin-bottom:8px">${total} zadetkov</div>` +
+      buildFlatHTML(words, verbIdxs);
   }
+  return buildGroupedHTML(words, verbIdxs);
 }
 
 export function showSlovar() {
   _filter = "all";
   _query = "";
   _openVerb = -1;
+  _openGroups = new Set();
   app().innerHTML = `<div class="table-card">
     <button class="back-btn" onclick="goMenu()">← Meni</button>
     <div style="font-size:20px;font-weight:700;margin-bottom:12px">Slovar</div>
@@ -244,6 +250,13 @@ export function setSlovarFilter(filter) {
 
 export function toggleVerbAccordion(i) {
   _openVerb = _openVerb === i ? -1 : i;
+  const el = document.getElementById("slovar-results");
+  if (el) el.innerHTML = buildResults();
+}
+
+export function toggleSlovarGroup(id) {
+  if (_openGroups.has(id)) _openGroups.delete(id);
+  else _openGroups.add(id);
   const el = document.getElementById("slovar-results");
   if (el) el.innerHTML = buildResults();
 }

@@ -26,7 +26,7 @@ import {
 } from "./ui/lesson.js";
 import { showProgress } from "./ui/progress.js";
 import { showBesednjak, filterBesednjak } from "./ui/besednjak.js";
-import { showSlovar, filterSlovar, setSlovarFilter, toggleVerbAccordion } from "./ui/slovar.js";
+import { showSlovar, filterSlovar, setSlovarFilter, toggleVerbAccordion, toggleSlovarGroup } from "./ui/slovar.js";
 import { startGrammar, showGrammarTopic } from "./ui/grammar.js";
 import { initFirebase, fbSignIn, fbSignOut } from "./firebase-sync.js";
 
@@ -74,7 +74,7 @@ async function bootstrap() {
     // progress
     showProgress,
     showBesednjak, filterBesednjak,
-    showSlovar, filterSlovar, setSlovarFilter, toggleVerbAccordion,
+    showSlovar, filterSlovar, setSlovarFilter, toggleVerbAccordion, toggleSlovarGroup,
     startGrammar, showGrammarTopic,
     // firebase
     fbSignIn, fbSignOut,
