@@ -78,3 +78,23 @@
 {"sl": ["Danes", "moram", "na", "banko"], "ru": "Сегодня мне нужно в банк", "extra": ["jutri", "pošto"], "cats": ["goplace", "info"]}
 {"sl": ["Ona", "kuha", "kosilo", "vsak", "dan"], "ru": "Она готовит обед каждый день", "extra": ["peče", "večerjo"], "cats": ["food", "daily"]}
 {"sl": ["Prejšnji", "teden", "sva", "obiskala", "prijatelje"], "ru": "На прошлой неделе мы вдвоём навестили друзей", "extra": ["obiskali", "sosede"], "cats": ["people", "daily"]}
+{"sl": ["Za", "zajtrk", "jem", "jogurt", "in", "pijem", "kakav"], "ru": "На завтрак ем йогурт и пью какао", "extra": ["kavo", "čaj"], "cats": ["food", "daily"]}
+{"sl": ["Želiš", "pekočega", "piščanca", "za", "kosilo"], "ru": "Хочешь острую курицу на обед", "extra": ["mastnega", "pečenega"], "cats": ["food", "adjective"]}
+{"sl": ["Ona", "kupuje", "tuno", "in", "morsko", "hrano", "v", "trgovini"], "ru": "Она покупает тунца и морепродукты в магазине", "extra": ["kruh", "mleko"], "cats": ["shop", "food"]}
+{"sl": ["Midva", "iščeva", "stanovanje", "blizu", "metroja"], "ru": "Мы вдвоём ищем квартиру рядом с метро", "extra": ["šole", "pekarne"], "cats": ["home", "transport"]}
+{"sl": ["Vidva", "stojita", "v", "vrsti", "pred", "pekarno"], "ru": "Вы двое стоите в очереди перед пекарней", "extra": ["banko", "lekarno"], "cats": ["shop", "daily"]}
+{"sl": ["Ker", "sem", "bolan", "ne", "morem", "iti", "v", "telovadnico"], "ru": "Так как я болен, не могу пойти в спортзал", "extra": ["moram", "hočem"], "cats": ["body", "sport"]}
+{"sl": ["Otroci", "ne", "marajo", "grenkega", "popra"], "ru": "Дети не любят горький перец", "extra": ["sladkega", "mastnega"], "cats": ["food", "adjective"]}
+{"sl": ["Vedno", "se", "motim", "pri", "številkah"], "ru": "Я всегда ошибаюсь в числах", "extra": ["učim", "trudim"], "cats": ["daily", "phrase"]}
+{"sl": ["Trudimo", "se", "govoriti", "slovensko", "brez", "napak"], "ru": "Мы стараемся говорить по-словенски без ошибок", "extra": ["učimo", "motimo"], "cats": ["school", "phrase"]}
+{"sl": ["Trebuh", "me", "boli", "po", "pekočem", "obroku"], "ru": "У меня болит живот после острой еды", "extra": ["bolijo", "grenkem"], "cats": ["body", "food"]}
+{"sl": ["Noge", "me", "bolijo", "po", "dolgi", "vrsti"], "ru": "У меня болят ноги после долгой очереди", "extra": ["boli", "kratki"], "cats": ["body", "daily"]}
+{"sl": ["Moram", "oddati", "prošnjo", "za", "preselitev"], "ru": "Мне нужно подать заявление о переезде", "extra": ["poslati", "preselitvijo"], "cats": ["info", "phrase"]}
+{"sl": ["Včeraj", "sem", "oddal", "prošnjo", "na", "banki"], "ru": "Вчера я подал заявление в банке", "extra": ["oddala", "poslal"], "cats": ["info", "phrase"]}
+{"sl": ["Midva", "sva", "ocvrla", "špargelj", "in", "piščanca"], "ru": "Мы вдвоём обжарили спаржу и курицу", "extra": ["skuhala", "spekla"], "cats": ["food"]}
+{"sl": ["Sladoled", "se", "je", "stopil", "na", "soncu"], "ru": "Мороженое растаяло на солнце", "extra": ["stopila", "stopilo"], "cats": ["weather", "food"]}
+{"sl": ["Uspeli", "so", "ujeti", "zadnji", "metro"], "ru": "Они успели поймать последнее метро", "extra": ["zamudili", "avtobus"], "cats": ["transport"]}
+{"sl": ["Jutri", "bom", "kupil", "oljčno", "olje", "in", "sončno", "olje"], "ru": "Завтра я куплю оливковое и подсолнечное масло", "extra": ["kupila", "kupili"], "cats": ["shop", "food"]}
+{"sl": ["Zaprosila", "je", "za", "novo", "stanovanje"], "ru": "Она подала заявление на новую квартиру", "extra": ["prosila", "najela"], "cats": ["home", "info"]}
+{"sl": ["Se", "boste", "trudili", "jesti", "brez", "sladkorja"], "ru": "Будете стараться есть без сахара?", "extra": ["poskušali", "hoteli"], "cats": ["food", "phrase"]}
+{"sl": ["Se", "splača", "stati", "v", "vrsti", "za", "cimetov", "polž"], "ru": "Стоит постоять в очереди за булочкой с корицей", "extra": ["splačilo", "čakati"], "cats": ["food", "phrase"]}
