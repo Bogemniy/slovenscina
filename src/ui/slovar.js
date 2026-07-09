@@ -32,17 +32,47 @@ function verbPreview(v) {
   return [pres, past, fut].filter(Boolean).join(" · ");
 }
 
+// Shorten "sem počival/počivala" → "sem počival/-a" only when stem is identical.
+// Irregular participles (šel/šla, jedel/jedla) stay full.
+function abbreviateForms(form) {
+  if (!form || !form.includes("/")) return form;
+  const slashParts = form.split("/");
+  const firstPart = slashParts[0];
+  const lastSpace = firstPart.lastIndexOf(" ");
+  const prefix = lastSpace >= 0 ? firstPart.slice(0, lastSpace + 1) : "";
+  const base = lastSpace >= 0 ? firstPart.slice(lastSpace + 1) : firstPart;
+  const out = [base];
+  for (let k = 1; k < slashParts.length; k++) {
+    const next = slashParts[k];
+    // Find actual longest common prefix between base and next.
+    let commonLen = 0;
+    while (commonLen < base.length && commonLen < next.length && base[commonLen] === next[commonLen]) {
+      commonLen++;
+    }
+    // Abbreviate only when base and next share at least (base.length - 1) chars,
+    // meaning they diverge only at the very end (feminine/neuter ending swap).
+    // Irregulars like šel/šla diverge much earlier → kept full.
+    if (commonLen >= base.length - 1) {
+      out.push("-" + next.slice(commonLen));
+    } else {
+      out.push(next);
+    }
+  }
+  return prefix + out.join("/");
+}
+
 // Vertical layout: 3 tense blocks stacked, guaranteed to fit on narrow screens.
 function verbTableHTML(v) {
   const ps = state.PRONOUNS || [];
   const tenses = [
-    { label: "Sedanjik",   forms: v.forms },
-    { label: "Preteklik",  forms: v.past },
-    { label: "Prihodnjik", forms: v.future },
+    { label: "Sedanjik",   forms: v.forms,   abbrev: false },
+    { label: "Preteklik",  forms: v.past,    abbrev: true },
+    { label: "Prihodnjik", forms: v.future,  abbrev: true },
   ];
-  const blocks = tenses.map(({ label, forms }) => {
+  const blocks = tenses.map(({ label, forms, abbrev }) => {
     const rows = ps.map(p => {
-      const form = forms ? (forms[p] || "—") : "—";
+      const raw = forms ? (forms[p] || "—") : "—";
+      const form = abbrev ? abbreviateForms(raw) : raw;
       return `<div style="display:flex;gap:8px;padding:2px 0">
         <span style="color:#777;font-size:11px;min-width:84px;flex-shrink:0">${p}</span>
         <span style="color:#e8eaed;font-size:11px;overflow-wrap:anywhere">${form}</span>
