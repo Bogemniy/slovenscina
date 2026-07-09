@@ -9,10 +9,7 @@ export function renderMenu() {
     <div class="menu-sub">${state.WORDS.length} besed · ${state.VERBS.length} glagolov · ${state.SENTENCES.length} stavkov</div>
 
     <button class="menu-btn table-btn" style="font-size:17px;padding:16px" onclick="startGrammar()">📐 Slovnica</button>
-    <div style="display:flex;gap:6px;margin-top:6px">
-      <button class="menu-btn table-btn" style="flex:1;font-size:17px;padding:16px;margin:0" onclick="showBesednjak()">📖 Besednjak</button>
-      <button class="menu-btn table-btn" style="flex:1;font-size:17px;padding:16px;margin:0" onclick="showVerbList('present',true)">🔤 Glagoli</button>
-    </div>
+    <button class="menu-btn table-btn" style="font-size:17px;padding:16px;margin-top:6px" onclick="showSlovar()">📖 Slovar</button>
 
     <div class="divider"></div>
 
