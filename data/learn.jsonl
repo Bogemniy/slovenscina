@@ -2071,3 +2071,14 @@
 {"sl":"pekoč","ru":"острый (жгучий)","cat":"adj","level":2}
 {"sl":"masten","ru":"жирный","cat":"adj","level":2}
 {"sl":"pečen","ru":"запечённый / жареный (в духовке)","cat":"adj","level":2}
+{"sl":"metro","ru":"метро","cat":"transport","level":2}
+{"sl":"telovadnica","ru":"спортзал","cat":"place","level":2}
+{"sl":"vrsta","ru":"очередь / вид, ряд","cat":"noun","level":2}
+{"sl":"spodnji del","ru":"нижняя часть","cat":"thing","level":3}
+{"sl":"zgornji del","ru":"верхняя часть","cat":"thing","level":3}
+{"sl":"pekarna","ru":"пекарня / булочная","cat":"shop","level":2}
+{"sl":"cimetov polž","ru":"булочка с корицей","cat":"food","level":3}
+{"sl":"obrok","ru":"приём пищи","cat":"food","level":2}
+{"sl":"cimet","ru":"корица","cat":"food","level":2}
+{"sl":"trebuh me boli","ru":"у меня болит живот","cat":"body","level":3}
+{"sl":"noge me bolijo","ru":"у меня болят ноги","cat":"body","level":3}
