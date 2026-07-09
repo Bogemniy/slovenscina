@@ -32,59 +32,45 @@ function verbPreview(v) {
   return [pres, past, fut].filter(Boolean).join(" · ");
 }
 
-// Shorten "sem počival/počivala" → "sem počival/-a" only when stem is identical.
-// Irregular participles (šel/šla, jedel/jedla) stay full.
-function abbreviateForms(form) {
+// For past/future: keep only masculine form if all gender variants share the same stem.
+// Irregulars (šel/šla, jedel/jedla) where the stem changes → kept full.
+function trimToMasc(form) {
   if (!form || !form.includes("/")) return form;
   const slashParts = form.split("/");
   const firstPart = slashParts[0];
   const lastSpace = firstPart.lastIndexOf(" ");
   const prefix = lastSpace >= 0 ? firstPart.slice(0, lastSpace + 1) : "";
   const base = lastSpace >= 0 ? firstPart.slice(lastSpace + 1) : firstPart;
-  const out = [base];
   for (let k = 1; k < slashParts.length; k++) {
     const next = slashParts[k];
-    // Find actual longest common prefix between base and next.
     let commonLen = 0;
-    while (commonLen < base.length && commonLen < next.length && base[commonLen] === next[commonLen]) {
-      commonLen++;
-    }
-    // Abbreviate only when base and next share at least (base.length - 1) chars,
-    // meaning they diverge only at the very end (feminine/neuter ending swap).
-    // Irregulars like šel/šla diverge much earlier → kept full.
-    if (commonLen >= base.length - 1) {
-      out.push("-" + next.slice(commonLen));
-    } else {
-      out.push(next);
-    }
+    while (commonLen < base.length && commonLen < next.length && base[commonLen] === next[commonLen]) commonLen++;
+    if (commonLen < base.length - 1) return form; // irregular stem → keep all forms
   }
-  return prefix + out.join("/");
+  return prefix + base; // regular → masculine only
 }
 
-// Vertical layout: 3 tense blocks stacked, guaranteed to fit on narrow screens.
+// Horizontal 3-column layout: Sedanjik | Preteklik | Prihodnjik
+// Pronoun shown as small prefix in Sedanjik column; past/future trimmed to masc for regular verbs.
 function verbTableHTML(v) {
   const ps = state.PRONOUNS || [];
-  const tenses = [
-    { label: "Sedanjik",   forms: v.forms,   abbrev: false },
-    { label: "Preteklik",  forms: v.past,    abbrev: true },
-    { label: "Prihodnjik", forms: v.future,  abbrev: true },
-  ];
-  const blocks = tenses.map(({ label, forms, abbrev }) => {
-    const rows = ps.map(p => {
-      const raw = forms ? (forms[p] || "—") : "—";
-      const form = abbrev ? abbreviateForms(raw) : raw;
-      return `<div style="display:flex;gap:8px;padding:2px 0">
-        <span style="color:#777;font-size:11px;min-width:84px;flex-shrink:0">${p}</span>
-        <span style="color:#e8eaed;font-size:11px;overflow-wrap:anywhere">${form}</span>
-      </div>`;
-    }).join("");
-    return `<div style="margin-bottom:10px">
-      <div style="color:#f9a8d4;font-size:11px;font-weight:700;margin-bottom:4px">${label}</div>
-      ${rows}
+  const rows = ps.map(p => {
+    const pres = v.forms ? (v.forms[p] || "—") : "—";
+    const past = trimToMasc(v.past ? (v.past[p] || "—") : "—");
+    const fut  = trimToMasc(v.future ? (v.future[p] || "—") : "—");
+    return `<div style="display:flex;gap:4px;padding:2px 0">
+      <div style="flex:1;min-width:0;font-size:11px;overflow-wrap:anywhere;color:#e8eaed"><span style="color:#555;font-size:10px">${p} </span>${pres}</div>
+      <div style="flex:1;min-width:0;font-size:11px;overflow-wrap:anywhere;color:#e8eaed">${past}</div>
+      <div style="flex:1;min-width:0;font-size:11px;overflow-wrap:anywhere;color:#e8eaed">${fut}</div>
     </div>`;
   }).join("");
   return `<div style="padding:10px 14px 12px;border-top:1px solid rgba(255,255,255,.06);background:rgba(255,255,255,.02);box-sizing:border-box;width:100%;overflow:hidden">
-    ${blocks}
+    <div style="display:flex;gap:4px;margin-bottom:4px;padding-bottom:4px;border-bottom:1px solid rgba(255,255,255,.06)">
+      <div style="flex:1;color:#f9a8d4;font-size:10px;font-weight:700">Sedanjik</div>
+      <div style="flex:1;color:#f9a8d4;font-size:10px;font-weight:700">Preteklik</div>
+      <div style="flex:1;color:#f9a8d4;font-size:10px;font-weight:700">Prihodnjik</div>
+    </div>
+    ${rows}
   </div>`;
 }
 
