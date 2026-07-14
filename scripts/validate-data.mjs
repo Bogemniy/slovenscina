@@ -85,41 +85,10 @@ for (const { line, value: s } of sents) {
   if (!Array.isArray(s.extra)) err("data/sentences.jsonl", line, `"extra" must be array (can be empty)`);
 }
 
-// --- exercises ---
-const exercises = parseJSONLFile("data/exercises.jsonl");
-const seenExId = new Map();
-for (const { line, value: ex } of exercises) {
-  if (typeof ex !== "object" || ex === null) { err("data/exercises.jsonl", line, "not an object"); continue; }
-  for (const k of ["id", "text", "blanks", "questions"]) {
-    if (ex[k] === undefined || ex[k] === null) err("data/exercises.jsonl", line, `missing field "${k}"`);
-  }
-  if (!Array.isArray(ex.blanks) || ex.blanks.length === 0) {
-    err("data/exercises.jsonl", line, `"blanks" must be a non-empty array`);
-  } else {
-    for (const b of ex.blanks) {
-      if (typeof b.answer !== "string" || !b.answer.trim()) err("data/exercises.jsonl", line, `blank missing "answer"`);
-      if (!Array.isArray(b.options) || b.options.length < 2) err("data/exercises.jsonl", line, `blank missing "options" (need ≥2)`);
-    }
-  }
-  if (!Array.isArray(ex.questions)) {
-    err("data/exercises.jsonl", line, `"questions" must be an array`);
-  } else {
-    for (const q of ex.questions) {
-      if (typeof q.question !== "string" || !q.question.trim()) err("data/exercises.jsonl", line, `question missing "question" text`);
-      if (!Array.isArray(q.options) || q.options.length < 2) err("data/exercises.jsonl", line, `question missing "options"`);
-      if (typeof q.answer !== "number") err("data/exercises.jsonl", line, `question "answer" must be a number (index)`);
-    }
-  }
-  if (ex.id) {
-    if (seenExId.has(ex.id)) err("data/exercises.jsonl", line, `duplicate id "${ex.id}" (first at line ${seenExId.get(ex.id)})`);
-    else seenExId.set(ex.id, line);
-  }
-}
-
 if (errors.length) {
   console.error(`✗ ${errors.length} validation error(s):\n`);
   for (const e of errors) console.error("  " + e);
   process.exit(1);
 }
 
-console.log(`✓ data/ valid: ${words.length} words, ${verbs.length} verbs, ${sents.length} sentences, ${exercises.length} exercises.`);
+console.log(`✓ data/ valid: ${words.length} words, ${verbs.length} verbs, ${sents.length} sentences.`);

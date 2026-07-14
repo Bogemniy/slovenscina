@@ -78,6 +78,18 @@ function safe(s) {
   return s.replace(/\\/g, "\\\\").replace(/'/g, "\\'");
 }
 
+const GENDER_STYLE = {
+  m: "background:#1a2e45;color:#93c5fd",
+  ž: "background:#3a1a28;color:#f9a8d4",
+  s: "background:#0e2e22;color:#6ee7b7",
+};
+
+function genderBadge(g) {
+  if (!g) return "";
+  const style = GENDER_STYLE[g] || "background:#333;color:#aaa";
+  return `<span style="flex-shrink:0;font-size:11px;font-weight:700;padding:3px 7px;border-radius:6px;${style}">${g}</span>`;
+}
+
 function wordRowHTML(w, showBadge = true) {
   return `<div style="display:flex;align-items:center;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.05);gap:8px">
     <div style="flex:1;min-width:0">
@@ -87,6 +99,7 @@ function wordRowHTML(w, showBadge = true) {
       </div>
       <div style="color:#888;font-size:13px;margin-top:2px">${w.ru}</div>
     </div>
+    ${genderBadge(w.g)}
     ${showBadge ? `<span style="flex-shrink:0;font-size:11px;font-weight:600;padding:3px 8px;border-radius:6px;background:#E1F5EE;color:#0F6E56">beseda</span>` : ""}
   </div>`;
 }

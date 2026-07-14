@@ -162,7 +162,7 @@
 {"sl":"december","ru":"декабрь","cat":"month","level":2}
 {"sl":"internet","ru":"интернет","cat":"noun","level":2}
 {"sl":"fotografija","ru":"фотография","cat":"noun","level":2}
-{"sl":"revija","ru":"журнал","cat":"noun","level":2}
+{"sl":"revija","ru":"журнал","cat":"noun","level":2,"g":"ž"}
 {"sl":"roman","ru":"роман","cat":"noun","level":2}
 {"sl":"pesem","ru":"стихотворение / песня","cat":"noun","level":2}
 {"sl":"pravljica","ru":"сказка","cat":"noun","level":2}
@@ -470,7 +470,7 @@
 {"sl":"parkirišče","ru":"автомобильная стоянка","cat":"place","level":2}
 {"sl":"cesta","ru":"дорога","cat":"where","level":2}
 {"sl":"oblačilo","ru":"одежда","cat":"thing","level":2}
-{"sl":"čevelj","ru":"ботинок","cat":"thing","level":2}
+{"sl":"čevelj","ru":"ботинок","cat":"thing","level":2,"g":"m"}
 {"sl":"plašč","ru":"пальто","cat":"thing","level":2}
 {"sl":"pulover","ru":"свитер","cat":"thing","level":2}
 {"sl":"srajca","ru":"рубашка","cat":"thing","level":2}
@@ -1038,7 +1038,7 @@
 {"sl":"iti na živce","ru":"действовать на нервы","cat":"phrase","level":3}
 {"sl":"naročilo","ru":"заказ","cat":"thing","level":2}
 {"sl":"zaspan","ru":"сонный","cat":"adj","level":2}
-{"sl":"kavbojke","ru":"джинсы","cat":"thing","level":2}
+{"sl":"kavbojke","ru":"джинсы (мн.)","cat":"thing","level":2,"g":"ž"}
 {"sl":"hčerka","ru":"дочь","cat":"people","level":2}
 {"sl":"potni list","ru":"паспорт","cat":"info","level":3}
 {"sl":"upravna enota","ru":"административная единица","cat":"info","level":3}
