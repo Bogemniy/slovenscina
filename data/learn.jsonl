@@ -30,17 +30,17 @@
 {"sl":"prst","ru":"палец","cat":"body","level":2}
 {"sl":"brada","ru":"подбородок","cat":"body","level":2}
 {"sl":"čelo","ru":"лоб","cat":"body","level":2}
-{"sl":"jabolko","ru":"яблоко","cat":"food","level":1}
-{"sl":"breskev","ru":"персик","cat":"food","level":2}
-{"sl":"pomaranča","ru":"апельсин","cat":"food","level":2}
-{"sl":"banana","ru":"банан","cat":"food","level":2}
-{"sl":"predjed","ru":"закуска","cat":"food","level":2}
-{"sl":"sladica","ru":"десерт","cat":"food","level":2}
-{"sl":"goba","ru":"гриб","cat":"food","level":2}
-{"sl":"zrezek","ru":"стейк","cat":"food","level":2}
-{"sl":"malica","ru":"перекус","cat":"food","level":2}
-{"sl":"krompir","ru":"картофель","cat":"food","level":2}
-{"sl":"narezek","ru":"мясная нарезка","cat":"food","level":3}
+{"sl":"jabolko","ru":"яблоко","cat":"food","level":1,"g":"s"}
+{"sl":"breskev","ru":"персик","cat":"food","level":2,"g":"ž"}
+{"sl":"pomaranča","ru":"апельсин","cat":"food","level":2,"g":"ž"}
+{"sl":"banana","ru":"банан","cat":"food","level":2,"g":"ž"}
+{"sl":"predjed","ru":"закуска","cat":"food","level":2,"g":"ž"}
+{"sl":"sladica","ru":"десерт","cat":"food","level":2,"g":"ž"}
+{"sl":"goba","ru":"гриб","cat":"food","level":2,"g":"ž"}
+{"sl":"zrezek","ru":"стейк","cat":"food","level":2,"g":"m"}
+{"sl":"malica","ru":"перекус","cat":"food","level":2,"g":"ž"}
+{"sl":"krompir","ru":"картофель","cat":"food","level":2,"g":"m"}
+{"sl":"narezek","ru":"мясная нарезка","cat":"food","level":3,"g":"m"}
 {"sl":"banka","ru":"банк","cat":"place","level":1}
 {"sl":"knjižnica","ru":"библиотека","cat":"place","level":2}
 {"sl":"gledališče","ru":"театр","cat":"place","level":2}
@@ -362,7 +362,7 @@
 {"sl":"raca","ru":"утка","cat":"animal","level":2}
 {"sl":"metulj","ru":"бабочка","cat":"animal","level":3}
 {"sl":"čebela","ru":"пчела","cat":"animal","level":2}
-{"sl":"riba","ru":"рыба","cat":"food","level":1}
+{"sl":"riba","ru":"рыба","cat":"food","level":1,"g":"ž"}
 {"sl":"pajek","ru":"паук","cat":"animal","level":3}
 {"sl":"kača","ru":"змея","cat":"animal","level":2}
 {"sl":"zunaj","ru":"снаружи","cat":"where","level":2}
@@ -432,31 +432,31 @@
 {"sl":"zavij levo","ru":"поверни налево","cat":"phrase","level":3}
 {"sl":"pojdi naravnost","ru":"езжай прямо","cat":"phrase","level":3}
 {"sl":"pridi z mano","ru":"пойдем со мной","cat":"phrase","level":3}
-{"sl":"jajce","ru":"яйцо","cat":"food","level":1}
-{"sl":"sir","ru":"сыр","cat":"food","level":1}
-{"sl":"mleko","ru":"молоко","cat":"food","level":1}
-{"sl":"meso","ru":"мясо","cat":"food","level":1}
-{"sl":"zelenjava","ru":"овощи","cat":"food","level":1}
-{"sl":"sadje","ru":"фрукты","cat":"food","level":1}
-{"sl":"olje","ru":"масло","cat":"food","level":2}
-{"sl":"kruh","ru":"хлеб","cat":"food","level":1}
-{"sl":"sladkor","ru":"сахар","cat":"food","level":1}
-{"sl":"čokolada","ru":"шоколад","cat":"food","level":2}
-{"sl":"sladkarije","ru":"конфета","cat":"food","level":2}
-{"sl":"torta","ru":"торт","cat":"food","level":2}
-{"sl":"pijača","ru":"напиток","cat":"food","level":2}
-{"sl":"voda","ru":"вода","cat":"food","level":1}
-{"sl":"mineralna voda","ru":"минеральная вода","cat":"food","level":3}
-{"sl":"kava","ru":"кофе","cat":"food","level":1}
-{"sl":"čaj","ru":"чай","cat":"food","level":1}
-{"sl":"pivo","ru":"пиво","cat":"food","level":1}
-{"sl":"vino","ru":"вино","cat":"food","level":1}
-{"sl":"solata","ru":"салат","cat":"food","level":1}
-{"sl":"juha","ru":"суп","cat":"food","level":1}
-{"sl":"zajtrk","ru":"завтрак","cat":"food","level":2}
-{"sl":"kosilo","ru":"обед","cat":"food","level":2}
-{"sl":"večerja","ru":"ужин","cat":"food","level":2}
-{"sl":"pica","ru":"пицца","cat":"food","level":2}
+{"sl":"jajce","ru":"яйцо","cat":"food","level":1,"g":"s"}
+{"sl":"sir","ru":"сыр","cat":"food","level":1,"g":"m"}
+{"sl":"mleko","ru":"молоко","cat":"food","level":1,"g":"s"}
+{"sl":"meso","ru":"мясо","cat":"food","level":1,"g":"s"}
+{"sl":"zelenjava","ru":"овощи","cat":"food","level":1,"g":"ž"}
+{"sl":"sadje","ru":"фрукты","cat":"food","level":1,"g":"s"}
+{"sl":"olje","ru":"масло","cat":"food","level":2,"g":"s"}
+{"sl":"kruh","ru":"хлеб","cat":"food","level":1,"g":"m"}
+{"sl":"sladkor","ru":"сахар","cat":"food","level":1,"g":"m"}
+{"sl":"čokolada","ru":"шоколад","cat":"food","level":2,"g":"ž"}
+{"sl":"sladkarije","ru":"конфета","cat":"food","level":2,"g":"ž"}
+{"sl":"torta","ru":"торт","cat":"food","level":2,"g":"ž"}
+{"sl":"pijača","ru":"напиток","cat":"food","level":2,"g":"ž"}
+{"sl":"voda","ru":"вода","cat":"food","level":1,"g":"ž"}
+{"sl":"mineralna voda","ru":"минеральная вода","cat":"food","level":3,"g":"ž"}
+{"sl":"kava","ru":"кофе","cat":"food","level":1,"g":"ž"}
+{"sl":"čaj","ru":"чай","cat":"food","level":1,"g":"m"}
+{"sl":"pivo","ru":"пиво","cat":"food","level":1,"g":"s"}
+{"sl":"vino","ru":"вино","cat":"food","level":1,"g":"s"}
+{"sl":"solata","ru":"салат","cat":"food","level":1,"g":"ž"}
+{"sl":"juha","ru":"суп","cat":"food","level":1,"g":"ž"}
+{"sl":"zajtrk","ru":"завтрак","cat":"food","level":2,"g":"m"}
+{"sl":"kosilo","ru":"обед","cat":"food","level":2,"g":"s"}
+{"sl":"večerja","ru":"ужин","cat":"food","level":2,"g":"ž"}
+{"sl":"pica","ru":"пицца","cat":"food","level":2,"g":"ž"}
 {"sl":"avtobus","ru":"автобус","cat":"transport","level":1}
 {"sl":"vlak","ru":"поезд","cat":"transport","level":1}
 {"sl":"železniška postaja","ru":"железнодорожная станция","cat":"transport","level":3}
@@ -944,9 +944,9 @@
 {"sl":"vsak dan","ru":"каждый день","cat":"time","level":3}
 {"sl":"včasih","ru":"иногда","cat":"time","level":2}
 {"sl":"vedno","ru":"всегда","cat":"time","level":2}
-{"sl":"potica","ru":"потица (выпечка)","cat":"food","level":3}
-{"sl":"skuta","ru":"творог","cat":"food","level":2}
-{"sl":"italijanska hrana","ru":"итальянская кухня","cat":"food","level":3}
+{"sl":"potica","ru":"потица (выпечка)","cat":"food","level":3,"g":"ž"}
+{"sl":"skuta","ru":"творог","cat":"food","level":2,"g":"ž"}
+{"sl":"italijanska hrana","ru":"итальянская кухня","cat":"food","level":3,"g":"ž"}
 {"sl":"sem","ru":"сюда","cat":"where","level":2}
 {"sl":"domov","ru":"домой","cat":"where","level":2}
 {"sl":"doma","ru":"дома","cat":"where","level":1}
@@ -1076,11 +1076,11 @@
 {"sl":"izkušnja","ru":"опыт","cat":"thing","level":2}
 {"sl":"je odvisno od","ru":"зависит от","cat":"phrase","level":3}
 {"sl":"stolpnica","ru":"высотка / многоэтажка","cat":"home","level":2}
-{"sl":"sok","ru":"сок","cat":"food","level":2}
-{"sl":"riž","ru":"рис","cat":"food","level":2}
-{"sl":"sol","ru":"соль","cat":"food","level":1}
-{"sl":"maslo","ru":"масло","cat":"food","level":2}
-{"sl":"sladoled","ru":"мороженое","cat":"food","level":2}
+{"sl":"sok","ru":"сок","cat":"food","level":2,"g":"m"}
+{"sl":"riž","ru":"рис","cat":"food","level":2,"g":"m"}
+{"sl":"sol","ru":"соль","cat":"food","level":1,"g":"ž"}
+{"sl":"maslo","ru":"масло","cat":"food","level":2,"g":"s"}
+{"sl":"sladoled","ru":"мороженое","cat":"food","level":2,"g":"m"}
 {"sl":"bela","ru":"белый","cat":"color","level":2}
 {"sl":"črna","ru":"чёрный","cat":"color","level":2}
 {"sl":"rdeča","ru":"красный","cat":"color","level":2}
@@ -1302,16 +1302,16 @@
 {"sl":"sladko","ru":"сладкое","cat":"adverb","level":2}
 {"sl":"kislo","ru":"кислое","cat":"adverb","level":2}
 {"sl":"grenko","ru":"горькое","cat":"adverb","level":2}
-{"sl":"recept","ru":"рецепт","cat":"food","level":2}
-{"sl":"sestavina","ru":"ингредиент","cat":"food","level":2}
-{"sl":"porcija","ru":"порция","cat":"food","level":2}
-{"sl":"alergija na hrano","ru":"пищевая аллергия","cat":"food","level":3}
+{"sl":"recept","ru":"рецепт","cat":"food","level":2,"g":"m"}
+{"sl":"sestavina","ru":"ингредиент","cat":"food","level":2,"g":"ž"}
+{"sl":"porcija","ru":"порция","cat":"food","level":2,"g":"ž"}
+{"sl":"alergija na hrano","ru":"пищевая аллергия","cat":"food","level":3,"g":"ž"}
 {"sl":"vegetarijanec","ru":"вегетарианец","cat":"job","level":2}
-{"sl":"vegan","ru":"веган","cat":"food","level":2}
+{"sl":"vegan","ru":"веган","cat":"food","level":2,"g":"m"}
 {"sl":"brezglutenski","ru":"безглютеновый","cat":"food","level":3}
-{"sl":"organska hrana","ru":"органическая еда","cat":"food","level":3}
-{"sl":"hitra hrana","ru":"фастфуд","cat":"food","level":3}
-{"sl":"domača kuhinja","ru":"домашняя кухня","cat":"food","level":3}
+{"sl":"organska hrana","ru":"органическая еда","cat":"food","level":3,"g":"ž"}
+{"sl":"hitra hrana","ru":"фастфуд","cat":"food","level":3,"g":"ž"}
+{"sl":"domača kuhinja","ru":"домашняя кухня","cat":"food","level":3,"g":"ž"}
 {"sl":"meni","ru":"меню","cat":"thing","level":2}
 {"sl":"napitnina","ru":"чаевые","cat":"info","level":2}
 {"sl":"postrežba","ru":"обслуживание","cat":"info","level":2}
@@ -1319,23 +1319,23 @@
 {"sl":"peči v pečici","ru":"печь в духовке","cat":"phrase","level":3}
 {"sl":"kuhati na pari","ru":"готовить на пару","cat":"phrase","level":3}
 {"sl":"gastronomija","ru":"гастрономия","cat":"info","level":2}
-{"sl":"kulinarska tradicija","ru":"кулинарная традиция","cat":"food","level":3}
-{"sl":"fermentirana hrana","ru":"ферментированная еда","cat":"food","level":3}
-{"sl":"začimbe","ru":"специи","cat":"food","level":2}
-{"sl":"omaka","ru":"соус","cat":"food","level":2}
-{"sl":"marinade","ru":"маринады","cat":"food","level":2}
+{"sl":"kulinarska tradicija","ru":"кулинарная традиция","cat":"food","level":3,"g":"ž"}
+{"sl":"fermentirana hrana","ru":"ферментированная еда","cat":"food","level":3,"g":"ž"}
+{"sl":"začimbe","ru":"специи","cat":"food","level":2,"g":"ž"}
+{"sl":"omaka","ru":"соус","cat":"food","level":2,"g":"ž"}
+{"sl":"marinade","ru":"маринады","cat":"food","level":2,"g":"ž"}
 {"sl":"konzerviranje","ru":"консервирование","cat":"info","level":2}
-{"sl":"prehrambna vrednost","ru":"пищевая ценность","cat":"food","level":3}
-{"sl":"kalorije","ru":"калории","cat":"food","level":2}
-{"sl":"beljakovine","ru":"белки","cat":"food","level":2}
-{"sl":"ogljikovi hidrati","ru":"углеводы","cat":"food","level":3}
-{"sl":"maščobe","ru":"жиры","cat":"food","level":2}
-{"sl":"vitamini","ru":"витамины","cat":"food","level":2}
-{"sl":"minerali","ru":"минералы","cat":"food","level":2}
-{"sl":"molekularna gastronomija","ru":"молекулярная гастрономия","cat":"food","level":3}
-{"sl":"kulinarična fuzija","ru":"кулинарный фьюжн","cat":"food","level":3}
-{"sl":"trajnostna prehrana","ru":"устойчивое питание","cat":"food","level":3}
-{"sl":"prehrambna varnost","ru":"продовольственная безопасность","cat":"food","level":3}
+{"sl":"prehrambna vrednost","ru":"пищевая ценность","cat":"food","level":3,"g":"ž"}
+{"sl":"kalorije","ru":"калории","cat":"food","level":2,"g":"ž"}
+{"sl":"beljakovine","ru":"белки","cat":"food","level":2,"g":"ž"}
+{"sl":"ogljikovi hidrati","ru":"углеводы","cat":"food","level":3,"g":"m"}
+{"sl":"maščobe","ru":"жиры","cat":"food","level":2,"g":"ž"}
+{"sl":"vitamini","ru":"витамины","cat":"food","level":2,"g":"m"}
+{"sl":"minerali","ru":"минералы","cat":"food","level":2,"g":"m"}
+{"sl":"molekularna gastronomija","ru":"молекулярная гастрономия","cat":"food","level":3,"g":"ž"}
+{"sl":"kulinarična fuzija","ru":"кулинарный фьюжн","cat":"food","level":3,"g":"ž"}
+{"sl":"trajnostna prehrana","ru":"устойчивое питание","cat":"food","level":3,"g":"ž"}
+{"sl":"prehrambna varnost","ru":"продовольственная безопасность","cat":"food","level":3,"g":"ž"}
 {"sl":"oprati oblačila","ru":"постирать одежду","cat":"phrase","level":3}
 {"sl":"velikost","ru":"размер","cat":"info","level":2}
 {"sl":"barva","ru":"цвет","cat":"thing","level":2}
@@ -1586,8 +1586,8 @@
 {"sl":"odgovoren","ru":"ответственный","cat":"adj","level":2}
 {"sl":"spet","ru":"снова, опять","cat":"phrase","level":2}
 {"sl":"enako","ru":"одинаково, так же","cat":"adverb","level":2}
-{"sl":"sendvič","ru":"бутерброд","cat":"food","level":2}
-{"sl":"palačinke","ru":"блины","cat":"food","level":2}
+{"sl":"sendvič","ru":"бутерброд","cat":"food","level":2,"g":"m"}
+{"sl":"palačinke","ru":"блины","cat":"food","level":2,"g":"ž"}
 {"sl":"popravilo","ru":"ремонт","cat":"thing","level":2}
 {"sl":"gostilna","ru":"ресторан / трактир","cat":"shop","level":2}
 {"sl":"dobiti obisk","ru":"принять гостей","cat":"phrase","level":3}
@@ -1615,7 +1615,7 @@
 {"sl":"sponka","ru":"заколка","cat":"thing","level":2}
 {"sl":"dopust","ru":"отпуск (с работы)","cat":"thing","level":2}
 {"sl":"oglas","ru":"объявление","cat":"thing","level":2}
-{"sl":"lignji","ru":"кальмары","cat":"food","level":3}
+{"sl":"lignji","ru":"кальмары","cat":"food","level":3,"g":"m"}
 {"sl":"ocvrt","ru":"жареный","cat":"adj","level":2}
 {"sl":"bronast","ru":"бронзовый","cat":"adj","level":3}
 {"sl":"bleščeč","ru":"блестящий, сверкающий","cat":"adj","level":2}
@@ -1638,7 +1638,7 @@
 {"sl":"vaj","ru":"фу! / ой! (восклицание)","cat":"phrase","level":2}
 {"sl":"fantovščina","ru":"мальчишник","cat":"thing","level":3}
 {"sl":"dekliščina","ru":"девичник","cat":"thing","level":3}
-{"sl":"pečeno meso","ru":"жареное мясо","cat":"food","level":3}
+{"sl":"pečeno meso","ru":"жареное мясо","cat":"food","level":3,"g":"s"}
 {"sl":"vampir","ru":"вампир","cat":"thing","level":3}
 {"sl":"podeželje","ru":"сельская местность","cat":"where","level":2}
 {"sl":"dolgočasno","ru":"скучно","cat":"adverb","level":2}
@@ -1646,7 +1646,7 @@
 {"sl":"ličilo","ru":"макияж / косметика","cat":"thing","level":2}
 {"sl":"kozmetika","ru":"косметика","cat":"thing","level":2}
 {"sl":"obutev","ru":"обувь","cat":"thing","level":2}
-{"sl":"piškot","ru":"печенье","cat":"food","level":2}
+{"sl":"piškot","ru":"печенье","cat":"food","level":2,"g":"m"}
 {"sl":"črka","ru":"буква","cat":"school","level":2}
 {"sl":"vzdušje","ru":"атмосфера / настроение","cat":"thing","level":2}
 {"sl":"verižica","ru":"цепочка (украшение)","cat":"thing","level":2}
@@ -1722,15 +1722,15 @@
 {"sl":"sporočilo","ru":"сообщение","cat":"thing","level":2}
 {"sl":"klic","ru":"звонок","cat":"thing","level":2}
 {"sl":"srečanje","ru":"встреча","cat":"thing","level":2}
-{"sl":"paradižnik","ru":"помидор","cat":"food","level":2}
-{"sl":"čebula","ru":"лук","cat":"food","level":2}
-{"sl":"česen","ru":"чеснок","cat":"food","level":2}
-{"sl":"paprika","ru":"перец","cat":"food","level":2}
-{"sl":"kumarica","ru":"огурец","cat":"food","level":2}
-{"sl":"korenje","ru":"морковь","cat":"food","level":2}
-{"sl":"jagoda","ru":"клубника","cat":"food","level":2}
-{"sl":"malina","ru":"малина","cat":"food","level":2}
-{"sl":"hruška","ru":"груша","cat":"food","level":2}
+{"sl":"paradižnik","ru":"помидор","cat":"food","level":2,"g":"m"}
+{"sl":"čebula","ru":"лук","cat":"food","level":2,"g":"ž"}
+{"sl":"česen","ru":"чеснок","cat":"food","level":2,"g":"m"}
+{"sl":"paprika","ru":"перец","cat":"food","level":2,"g":"ž"}
+{"sl":"kumarica","ru":"огурец","cat":"food","level":2,"g":"ž"}
+{"sl":"korenje","ru":"морковь","cat":"food","level":2,"g":"s"}
+{"sl":"jagoda","ru":"клубника","cat":"food","level":2,"g":"ž"}
+{"sl":"malina","ru":"малина","cat":"food","level":2,"g":"ž"}
+{"sl":"hruška","ru":"груша","cat":"food","level":2,"g":"ž"}
 {"sl":"žlica","ru":"ложка","cat":"thing","level":2}
 {"sl":"vilice","ru":"вилка","cat":"thing","level":2}
 {"sl":"lonec","ru":"кастрюля","cat":"thing","level":2}
@@ -1965,7 +1965,7 @@
 {"sl":"polpenzion","ru":"полупансион","cat":"thing","level":2}
 {"sl":"polni penzion","ru":"полный пансион","cat":"thing","level":3}
 {"sl":"terasa","ru":"терраса","cat":"home","level":2}
-{"sl":"samopostrežni zajtrk","ru":"завтрак-шведский стол","cat":"food","level":3}
+{"sl":"samopostrežni zajtrk","ru":"завтрак-шведский стол","cat":"food","level":3,"g":"m"}
 {"sl":"sušilec","ru":"сушилка / фен","cat":"home","level":2}
 {"sl":"promenada","ru":"променад, набережная","cat":"where","level":2}
 {"sl":"okolica","ru":"окрестности","cat":"where","level":2}
@@ -1997,58 +1997,58 @@
 {"sl":"zaščita","ru":"защита","cat":"thing","level":2}
 {"sl":"koča","ru":"хижина / горный приют","cat":"place","level":2}
 {"sl":"pet odstotkov","ru":"пять процентов","cat":"number","level":3}
-{"sl":"žito","ru":"зерно / злак","cat":"food","level":2}
-{"sl":"živilo","ru":"продукт питания","cat":"food","level":2}
-{"sl":"žemlja","ru":"булочка","cat":"food","level":2}
-{"sl":"rogljiček","ru":"круассан","cat":"food","level":2}
-{"sl":"burek","ru":"бурек","cat":"food","level":2}
-{"sl":"krof","ru":"пончик","cat":"food","level":2}
-{"sl":"pecivo","ru":"выпечка","cat":"food","level":2}
-{"sl":"kavica","ru":"кофеёк (уменьш.)","cat":"food","level":2}
-{"sl":"redkev","ru":"редис / редька","cat":"food","level":2}
-{"sl":"buča","ru":"тыква","cat":"food","level":2}
-{"sl":"jajčevec","ru":"баклажан","cat":"food","level":2}
-{"sl":"por","ru":"лук-порей","cat":"food","level":2}
-{"sl":"peteršilj","ru":"петрушка","cat":"food","level":2}
-{"sl":"koper","ru":"укроп","cat":"food","level":2}
-{"sl":"puran","ru":"индейка","cat":"food","level":2}
-{"sl":"govedina","ru":"говядина","cat":"food","level":2}
-{"sl":"svinjsko meso","ru":"свинина","cat":"food","level":3}
-{"sl":"losos","ru":"лосось","cat":"food","level":2}
-{"sl":"kaviar","ru":"икра","cat":"food","level":2}
-{"sl":"šunka","ru":"ветчина","cat":"food","level":2}
-{"sl":"slanina","ru":"бекон / сало","cat":"food","level":2}
-{"sl":"kisla smetana","ru":"сметана","cat":"food","level":3}
-{"sl":"grški jogurt","ru":"греческий йогурт","cat":"food","level":3}
-{"sl":"konzervirano mleko","ru":"сгущённое / консервированное молоко","cat":"food","level":3}
-{"sl":"gozdne jagode","ru":"лесные ягоды","cat":"food","level":3}
-{"sl":"borovnice","ru":"черника","cat":"food","level":2}
-{"sl":"brusnica","ru":"брусника / клюква","cat":"food","level":2}
-{"sl":"penina","ru":"игристое вино","cat":"food","level":2}
-{"sl":"mlečni izdelki","ru":"молочные продукты","cat":"food","level":3}
-{"sl":"jabolčni zavitek","ru":"яблочный штрудель","cat":"food","level":3}
-{"sl":"makaroni","ru":"макароны","cat":"food","level":2}
-{"sl":"špageti","ru":"спагетти","cat":"food","level":2}
-{"sl":"špinača","ru":"шпинат","cat":"food","level":2}
-{"sl":"zelje","ru":"капуста","cat":"food","level":2}
-{"sl":"fižol","ru":"фасоль","cat":"food","level":2}
-{"sl":"grah","ru":"горох","cat":"food","level":2}
-{"sl":"cvetača","ru":"цветная капуста","cat":"food","level":2}
-{"sl":"češnja","ru":"черешня","cat":"food","level":2}
-{"sl":"grozdje","ru":"виноград","cat":"food","level":2}
-{"sl":"marelica","ru":"абрикос","cat":"food","level":2}
-{"sl":"ananas","ru":"ананас","cat":"food","level":2}
-{"sl":"limona","ru":"лимон","cat":"food","level":2}
-{"sl":"kivi","ru":"киви","cat":"food","level":2}
-{"sl":"melona","ru":"дыня","cat":"food","level":2}
-{"sl":"lubenica","ru":"арбуз","cat":"food","level":2}
-{"sl":"klobasa","ru":"колбаса","cat":"food","level":2}
-{"sl":"hrenovka","ru":"сосиска","cat":"food","level":2}
-{"sl":"pašteta","ru":"паштет","cat":"food","level":2}
-{"sl":"jogurt","ru":"йогурт","cat":"food","level":2}
-{"sl":"kakav","ru":"какао","cat":"food","level":2}
-{"sl":"poper","ru":"чёрный перец","cat":"food","level":2}
-{"sl":"morska hrana","ru":"морепродукты","cat":"food","level":3}
+{"sl":"žito","ru":"зерно / злак","cat":"food","level":2,"g":"s"}
+{"sl":"živilo","ru":"продукт питания","cat":"food","level":2,"g":"s"}
+{"sl":"žemlja","ru":"булочка","cat":"food","level":2,"g":"ž"}
+{"sl":"rogljiček","ru":"круассан","cat":"food","level":2,"g":"m"}
+{"sl":"burek","ru":"бурек","cat":"food","level":2,"g":"m"}
+{"sl":"krof","ru":"пончик","cat":"food","level":2,"g":"m"}
+{"sl":"pecivo","ru":"выпечка","cat":"food","level":2,"g":"s"}
+{"sl":"kavica","ru":"кофеёк (уменьш.)","cat":"food","level":2,"g":"ž"}
+{"sl":"redkev","ru":"редис / редька","cat":"food","level":2,"g":"ž"}
+{"sl":"buča","ru":"тыква","cat":"food","level":2,"g":"ž"}
+{"sl":"jajčevec","ru":"баклажан","cat":"food","level":2,"g":"m"}
+{"sl":"por","ru":"лук-порей","cat":"food","level":2,"g":"m"}
+{"sl":"peteršilj","ru":"петрушка","cat":"food","level":2,"g":"m"}
+{"sl":"koper","ru":"укроп","cat":"food","level":2,"g":"m"}
+{"sl":"puran","ru":"индейка","cat":"food","level":2,"g":"m"}
+{"sl":"govedina","ru":"говядина","cat":"food","level":2,"g":"ž"}
+{"sl":"svinjsko meso","ru":"свинина","cat":"food","level":3,"g":"s"}
+{"sl":"losos","ru":"лосось","cat":"food","level":2,"g":"m"}
+{"sl":"kaviar","ru":"икра","cat":"food","level":2,"g":"m"}
+{"sl":"šunka","ru":"ветчина","cat":"food","level":2,"g":"ž"}
+{"sl":"slanina","ru":"бекон / сало","cat":"food","level":2,"g":"ž"}
+{"sl":"kisla smetana","ru":"сметана","cat":"food","level":3,"g":"ž"}
+{"sl":"grški jogurt","ru":"греческий йогурт","cat":"food","level":3,"g":"m"}
+{"sl":"konzervirano mleko","ru":"сгущённое / консервированное молоко","cat":"food","level":3,"g":"s"}
+{"sl":"gozdne jagode","ru":"лесные ягоды","cat":"food","level":3,"g":"ž"}
+{"sl":"borovnice","ru":"черника","cat":"food","level":2,"g":"ž"}
+{"sl":"brusnica","ru":"брусника / клюква","cat":"food","level":2,"g":"ž"}
+{"sl":"penina","ru":"игристое вино","cat":"food","level":2,"g":"ž"}
+{"sl":"mlečni izdelki","ru":"молочные продукты","cat":"food","level":3,"g":"m"}
+{"sl":"jabolčni zavitek","ru":"яблочный штрудель","cat":"food","level":3,"g":"m"}
+{"sl":"makaroni","ru":"макароны","cat":"food","level":2,"g":"m"}
+{"sl":"špageti","ru":"спагетти","cat":"food","level":2,"g":"m"}
+{"sl":"špinača","ru":"шпинат","cat":"food","level":2,"g":"ž"}
+{"sl":"zelje","ru":"капуста","cat":"food","level":2,"g":"s"}
+{"sl":"fižol","ru":"фасоль","cat":"food","level":2,"g":"m"}
+{"sl":"grah","ru":"горох","cat":"food","level":2,"g":"m"}
+{"sl":"cvetača","ru":"цветная капуста","cat":"food","level":2,"g":"ž"}
+{"sl":"češnja","ru":"черешня","cat":"food","level":2,"g":"ž"}
+{"sl":"grozdje","ru":"виноград","cat":"food","level":2,"g":"s"}
+{"sl":"marelica","ru":"абрикос","cat":"food","level":2,"g":"ž"}
+{"sl":"ananas","ru":"ананас","cat":"food","level":2,"g":"m"}
+{"sl":"limona","ru":"лимон","cat":"food","level":2,"g":"ž"}
+{"sl":"kivi","ru":"киви","cat":"food","level":2,"g":"m"}
+{"sl":"melona","ru":"дыня","cat":"food","level":2,"g":"ž"}
+{"sl":"lubenica","ru":"арбуз","cat":"food","level":2,"g":"ž"}
+{"sl":"klobasa","ru":"колбаса","cat":"food","level":2,"g":"ž"}
+{"sl":"hrenovka","ru":"сосиска","cat":"food","level":2,"g":"ž"}
+{"sl":"pašteta","ru":"паштет","cat":"food","level":2,"g":"ž"}
+{"sl":"jogurt","ru":"йогурт","cat":"food","level":2,"g":"m"}
+{"sl":"kakav","ru":"какао","cat":"food","level":2,"g":"m"}
+{"sl":"poper","ru":"чёрный перец","cat":"food","level":2,"g":"m"}
+{"sl":"morska hrana","ru":"морепродукты","cat":"food","level":3,"g":"ž"}
 {"sl":"namizni tenis","ru":"настольный теннис","cat":"sport","level":3}
 {"sl":"referat","ru":"реферат / доклад","cat":"school","level":2}
 {"sl":"mobitel","ru":"мобильный телефон","cat":"thing","level":2}
@@ -2059,15 +2059,15 @@
 {"sl":"prošnja","ru":"просьба / заявление","cat":"noun","level":2}
 {"sl":"preselitev","ru":"переезд","cat":"noun","level":2}
 {"sl":"za kosilo","ru":"на обед","cat":"food","level":3}
-{"sl":"tuna","ru":"тунец","cat":"food","level":2}
+{"sl":"tuna","ru":"тунец","cat":"food","level":2,"g":"ž"}
 {"sl":"brez sladkorja","ru":"без сахара","cat":"phrase","level":3}
 {"sl":"grenek","ru":"горький","cat":"adj","level":2}
-{"sl":"špargelj","ru":"спаржа","cat":"food","level":2}
-{"sl":"češplja","ru":"слива (домашняя)","cat":"food","level":2}
-{"sl":"sliva","ru":"слива","cat":"food","level":2}
-{"sl":"sončno olje","ru":"подсолнечное масло","cat":"food","level":3}
-{"sl":"oljčno olje","ru":"оливковое масло","cat":"food","level":3}
-{"sl":"piščanec","ru":"курица (мясо)","cat":"food","level":2}
+{"sl":"špargelj","ru":"спаржа","cat":"food","level":2,"g":"m"}
+{"sl":"češplja","ru":"слива (домашняя)","cat":"food","level":2,"g":"ž"}
+{"sl":"sliva","ru":"слива","cat":"food","level":2,"g":"ž"}
+{"sl":"sončno olje","ru":"подсолнечное масло","cat":"food","level":3,"g":"s"}
+{"sl":"oljčno olje","ru":"оливковое масло","cat":"food","level":3,"g":"s"}
+{"sl":"piščanec","ru":"курица (мясо)","cat":"food","level":2,"g":"m"}
 {"sl":"pekoč","ru":"острый (жгучий)","cat":"adj","level":2}
 {"sl":"masten","ru":"жирный","cat":"adj","level":2}
 {"sl":"pečen","ru":"запечённый / жареный (в духовке)","cat":"adj","level":2}
@@ -2077,8 +2077,8 @@
 {"sl":"spodnji del","ru":"нижняя часть","cat":"thing","level":3}
 {"sl":"zgornji del","ru":"верхняя часть","cat":"thing","level":3}
 {"sl":"pekarna","ru":"пекарня / булочная","cat":"shop","level":2}
-{"sl":"cimetov polž","ru":"булочка с корицей","cat":"food","level":3}
-{"sl":"obrok","ru":"приём пищи","cat":"food","level":2}
-{"sl":"cimet","ru":"корица","cat":"food","level":2}
+{"sl":"cimetov polž","ru":"булочка с корицей","cat":"food","level":3,"g":"m"}
+{"sl":"obrok","ru":"приём пищи","cat":"food","level":2,"g":"m"}
+{"sl":"cimet","ru":"корица","cat":"food","level":2,"g":"m"}
 {"sl":"trebuh me boli","ru":"у меня болит живот","cat":"body","level":3}
 {"sl":"noge me bolijo","ru":"у меня болят ноги","cat":"body","level":3}
