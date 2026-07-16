@@ -1,21 +1,21 @@
-{"sl":"kuhar","ru":"повар","cat":"profession","level":2}
-{"sl":"farmacevt","ru":"фармацевт","cat":"profession","level":2}
-{"sl":"arhitekt","ru":"архитектор","cat":"profession","level":2}
-{"sl":"pevec","ru":"певец","cat":"profession","level":2}
-{"sl":"slikar","ru":"художник","cat":"profession","level":2}
-{"sl":"pesnik","ru":"поэт","cat":"profession","level":2}
-{"sl":"matematik","ru":"математик","cat":"profession","level":2}
-{"sl":"skladatelj","ru":"композитор","cat":"profession","level":2}
-{"sl":"zgodovinar","ru":"историк","cat":"profession","level":2}
-{"sl":"pisatelj","ru":"писатель","cat":"profession","level":2}
-{"sl":"pilot","ru":"пилот","cat":"profession","level":2}
-{"sl":"policist","ru":"полицейский","cat":"profession","level":2}
-{"sl":"zobozdravnik","ru":"стоматолог","cat":"profession","level":2}
-{"sl":"direktor","ru":"директор","cat":"profession","level":2}
-{"sl":"vodja","ru":"руководитель","cat":"profession","level":2}
-{"sl":"delavec","ru":"рабочий","cat":"profession","level":2}
-{"sl":"taksist","ru":"таксист","cat":"profession","level":2}
-{"sl":"lektor","ru":"преподаватель иностранного языка","cat":"profession","level":2}
+{"sl":"kuhar","ru":"повар","cat":"job","level":2}
+{"sl":"farmacevt","ru":"фармацевт","cat":"job","level":2}
+{"sl":"arhitekt","ru":"архитектор","cat":"job","level":2}
+{"sl":"pevec","ru":"певец","cat":"job","level":2}
+{"sl":"slikar","ru":"художник","cat":"job","level":2}
+{"sl":"pesnik","ru":"поэт","cat":"job","level":2}
+{"sl":"matematik","ru":"математик","cat":"job","level":2}
+{"sl":"skladatelj","ru":"композитор","cat":"job","level":2}
+{"sl":"zgodovinar","ru":"историк","cat":"job","level":2}
+{"sl":"pisatelj","ru":"писатель","cat":"job","level":2}
+{"sl":"pilot","ru":"пилот","cat":"job","level":2}
+{"sl":"policist","ru":"полицейский","cat":"job","level":2}
+{"sl":"zobozdravnik","ru":"стоматолог","cat":"job","level":2}
+{"sl":"direktor","ru":"директор","cat":"job","level":2}
+{"sl":"vodja","ru":"руководитель","cat":"job","level":2}
+{"sl":"delavec","ru":"рабочий","cat":"job","level":2}
+{"sl":"taksist","ru":"таксист","cat":"job","level":2}
+{"sl":"lektor","ru":"преподаватель иностранного языка","cat":"job","level":2}
 {"sl":"las","ru":"волос","cat":"body","level":2}
 {"sl":"zob","ru":"зуб","cat":"body","level":1}
 {"sl":"vrat","ru":"шея","cat":"body","level":2}
@@ -88,34 +88,34 @@
 {"sl":"flavta","ru":"флейта","cat":"instrument","level":2}
 {"sl":"trobenta","ru":"труба","cat":"instrument","level":2}
 {"sl":"bobni","ru":"барабаны","cat":"instrument","level":2}
-{"sl":"lep","ru":"красивый","cat":"adjective","level":1}
-{"sl":"grd","ru":"некрасивый","cat":"adjective","level":1}
-{"sl":"hiter","ru":"быстрый","cat":"adjective","level":1}
-{"sl":"počasen","ru":"медленный","cat":"adjective","level":1}
-{"sl":"lahek","ru":"лёгкий","cat":"adjective","level":1}
-{"sl":"visok","ru":"высокий","cat":"adjective","level":2}
-{"sl":"nizek","ru":"низкий","cat":"adjective","level":2}
-{"sl":"dolg","ru":"длинный","cat":"adjective","level":1}
-{"sl":"kratek","ru":"короткий","cat":"adjective","level":1}
-{"sl":"širok","ru":"широкий","cat":"adjective","level":2}
-{"sl":"ozek","ru":"узкий","cat":"adjective","level":2}
-{"sl":"vroč","ru":"горячий","cat":"adjective","level":1}
-{"sl":"mrzel","ru":"холодный","cat":"adjective","level":1}
-{"sl":"topel","ru":"тёплый","cat":"adjective","level":1}
-{"sl":"svež","ru":"свежий","cat":"adjective","level":2}
-{"sl":"debel","ru":"толстый","cat":"adjective","level":2}
-{"sl":"tanek","ru":"тонкий","cat":"adjective","level":2}
-{"sl":"sladek","ru":"сладкий","cat":"adjective","level":2}
-{"sl":"slan","ru":"солёный","cat":"adjective","level":2}
-{"sl":"bogat","ru":"богатый","cat":"adjective","level":2}
-{"sl":"pameten","ru":"умный","cat":"adjective","level":2}
-{"sl":"prijazen","ru":"дружелюбный","cat":"adjective","level":2}
-{"sl":"zanimiv","ru":"интересный","cat":"adjective","level":2}
-{"sl":"zdrav","ru":"здоровый","cat":"adjective","level":2}
-{"sl":"mlad","ru":"молодой","cat":"adjective","level":2}
-{"sl":"nov","ru":"новый","cat":"adjective","level":1}
-{"sl":"dober","ru":"хороший","cat":"adjective","level":1}
-{"sl":"slab","ru":"плохой","cat":"adjective","level":1}
+{"sl":"lep","ru":"красивый","cat":"adj","level":1}
+{"sl":"grd","ru":"некрасивый","cat":"adj","level":1}
+{"sl":"hiter","ru":"быстрый","cat":"adj","level":1}
+{"sl":"počasen","ru":"медленный","cat":"adj","level":1}
+{"sl":"lahek","ru":"лёгкий","cat":"adj","level":1}
+{"sl":"visok","ru":"высокий","cat":"adj","level":2}
+{"sl":"nizek","ru":"низкий","cat":"adj","level":2}
+{"sl":"dolg","ru":"длинный","cat":"adj","level":1}
+{"sl":"kratek","ru":"короткий","cat":"adj","level":1}
+{"sl":"širok","ru":"широкий","cat":"adj","level":2}
+{"sl":"ozek","ru":"узкий","cat":"adj","level":2}
+{"sl":"vroč","ru":"горячий","cat":"adj","level":1}
+{"sl":"mrzel","ru":"холодный","cat":"adj","level":1}
+{"sl":"topel","ru":"тёплый","cat":"adj","level":1}
+{"sl":"svež","ru":"свежий","cat":"adj","level":2}
+{"sl":"debel","ru":"толстый","cat":"adj","level":2}
+{"sl":"tanek","ru":"тонкий","cat":"adj","level":2}
+{"sl":"sladek","ru":"сладкий","cat":"adj","level":2}
+{"sl":"slan","ru":"солёный","cat":"adj","level":2}
+{"sl":"bogat","ru":"богатый","cat":"adj","level":2}
+{"sl":"pameten","ru":"умный","cat":"adj","level":2}
+{"sl":"prijazen","ru":"дружелюбный","cat":"adj","level":2}
+{"sl":"zanimiv","ru":"интересный","cat":"adj","level":2}
+{"sl":"zdrav","ru":"здоровый","cat":"adj","level":2}
+{"sl":"mlad","ru":"молодой","cat":"adj","level":2}
+{"sl":"nov","ru":"новый","cat":"adj","level":1}
+{"sl":"dober","ru":"хороший","cat":"adj","level":1}
+{"sl":"slab","ru":"плохой","cat":"adj","level":1}
 {"sl":"okusno","ru":"вкусно","cat":"adverb","level":2}
 {"sl":"blizu","ru":"рядом","cat":"adverb","level":2}
 {"sl":"daleč","ru":"далеко","cat":"adverb","level":2}
@@ -2085,7 +2085,7 @@
 {"sl":"bolijo me roke","ru":"у меня болят руки","cat":"phrase","level":3}
 {"sl":"bolijo me oči","ru":"у меня болят глаза","cat":"phrase","level":3}
 {"sl":"hišni ljubljenček","ru":"домашний питомец","cat":"animal","g":"m","level":3}
-{"sl":"čevljar","ru":"сапожник","cat":"profession","g":"m","level":2}
+{"sl":"čevljar","ru":"сапожник","cat":"job","g":"m","level":2}
 {"sl":"obletnica","ru":"годовщина, юбилей","cat":"noun","g":"ž","level":2}
 {"sl":"zlata poroka","ru":"золотая свадьба","cat":"noun","g":"ž","level":3}
 {"sl":"stari starši","ru":"бабушка и дедушка","cat":"family","g":"m","level":3}

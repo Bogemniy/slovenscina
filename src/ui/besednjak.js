@@ -31,7 +31,6 @@ const CAT_LABELS = {
   people: "👥 Ljudje",
   family: "👨‍👩‍👧 Družina",
   job: "💼 Poklici",
-  profession: "👔 Poklici",
   info: "📋 Osebne informacije",
   school: "📖 Šola",
   education: "🎓 Izobraževanje",
@@ -57,11 +56,10 @@ const CAT_LABELS = {
   month: "📅 Meseci",
   pron: "👤 Zaimki",
   question: "❓ Vprašalnice",
-  adjective: "✨ Pridevniki",
   adverb: "📍 Prislovi",
   noun: "📚 Samostalniki",
   thing: "🧩 Stvari",
-  adj: "🔤 Razno",
+  adj: "✨ Pridevniki",
 };
 
 function wordRow(w) {
