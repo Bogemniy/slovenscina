@@ -2080,5 +2080,23 @@
 {"sl":"cimetov polž","ru":"булочка с корицей","cat":"food","level":3,"g":"m"}
 {"sl":"obrok","ru":"приём пищи","cat":"food","level":2,"g":"m"}
 {"sl":"cimet","ru":"корица","cat":"food","level":2,"g":"m"}
-{"sl":"trebuh me boli","ru":"у меня болит живот","cat":"body","level":3}
-{"sl":"noge me bolijo","ru":"у меня болят ноги","cat":"body","level":3}
+{"sl":"bolijo me noge","ru":"у меня болят ноги","cat":"phrase","level":3}
+{"sl":"boli me roka","ru":"у меня болит рука","cat":"phrase","level":3}
+{"sl":"bolijo me roke","ru":"у меня болят руки","cat":"phrase","level":3}
+{"sl":"bolijo me oči","ru":"у меня болят глаза","cat":"phrase","level":3}
+{"sl":"hišni ljubljenček","ru":"домашний питомец","cat":"animal","g":"m","level":3}
+{"sl":"čevljar","ru":"сапожник","cat":"profession","g":"m","level":2}
+{"sl":"obletnica","ru":"годовщина, юбилей","cat":"noun","g":"ž","level":2}
+{"sl":"zlata poroka","ru":"золотая свадьба","cat":"noun","g":"ž","level":3}
+{"sl":"stari starši","ru":"бабушка и дедушка","cat":"family","g":"m","level":3}
+{"sl":"postrv","ru":"форель","cat":"food","g":"ž","level":2}
+{"sl":"žanr","ru":"жанр","cat":"noun","g":"m","level":2}
+{"sl":"katastrofa","ru":"катастрофа","cat":"noun","g":"ž","level":2}
+{"sl":"kronologija","ru":"хронология","cat":"noun","g":"ž","level":2}
+{"sl":"dogodek","ru":"событие","cat":"noun","g":"m","level":2}
+{"sl":"nahod","ru":"насморк","cat":"body","g":"m","level":2}
+{"sl":"raje","ru":"охотнее, лучше","cat":"adverb","level":2}
+{"sl":"čim prej","ru":"как можно скорее","cat":"adverb","level":3}
+{"sl":"zgodovinski","ru":"исторический","cat":"adj","level":2}
+{"sl":"neudoben","ru":"неудобный (физически)","cat":"adj","level":2}
+{"sl":"nerodno","ru":"неловко, неудобно","cat":"adverb","level":2}
