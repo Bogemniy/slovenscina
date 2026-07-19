@@ -28,7 +28,7 @@ import { showProgress } from "./ui/progress.js";
 import { showBesednjak, filterBesednjak } from "./ui/besednjak.js";
 import { showSlovar, filterSlovar, setSlovarFilter, toggleVerbAccordion, toggleSlovarGroup } from "./ui/slovar.js";
 import { startGrammar, showGrammarTopic } from "./ui/grammar.js";
-import { startSkloni, renderSkloniQuiz, answerSkloni, nextSkloni, renderSkloniResult } from "./ui/skloni.js";
+import { startSkloni, renderSkloniQuiz, answerSkloni, nextSkloni, goBackSkloni, renderSkloniResult } from "./ui/skloni.js";
 import { initFirebase, fbSignIn, fbSignOut } from "./firebase-sync.js";
 
 async function bootstrap() {
@@ -78,7 +78,7 @@ async function bootstrap() {
     showSlovar, filterSlovar, setSlovarFilter, toggleVerbAccordion, toggleSlovarGroup,
     startGrammar, showGrammarTopic,
     // skloni
-    startSkloni, renderSkloniQuiz, answerSkloni, nextSkloni, renderSkloniResult,
+    startSkloni, renderSkloniQuiz, answerSkloni, nextSkloni, goBackSkloni, renderSkloniResult,
     // firebase
     fbSignIn, fbSignOut,
   });

@@ -19,12 +19,12 @@ function safe(s) {
 
 export function startSkloni() {
   if (!state.NOUNS || state.NOUNS.length === 0) return;
-  const questions = genSkloniSession(state.NOUNS, 10);
+  // answeredWith: null = unanswered; string = what the user chose (correct or wrong)
+  const questions = genSkloniSession(state.NOUNS, 10).map(q => ({ ...q, answeredWith: null }));
   state.ui = {
     mode: "skloni-quiz",
     questions,
     current: 0,
-    selected: null,
     score: 0,
     mistakes: [],
     _timer: null,
@@ -33,18 +33,23 @@ export function startSkloni() {
 }
 
 export function renderSkloniQuiz() {
-  const { questions, current, selected, score } = state.ui;
+  const { questions, current, score } = state.ui;
   const q = questions[current];
-  const { noun, num, cas, correct, options } = q;
+  const { noun, num, cas, correct, options, answeredWith } = q;
   const ci = CASE_LABELS[cas];
   const ni = NUM_LABELS[num];
-  const answered = selected !== null;
+  const answered = answeredWith !== null;
 
   app().innerHTML = `<div>
     <div class="top-bar">
+      ${current > 0
+        ? `<button onclick="goBackSkloni()" style="background:transparent;border:none;color:#888;cursor:pointer;font-size:20px;padding:0;line-height:1">←</button>`
+        : `<span></span>`}
       <span class="progress-text">${current + 1}/10</span>
-      <span class="score-text score-nouns">✓ ${score}</span>
-      <button onclick="goMenu()" style="background:transparent;border:none;color:#888;cursor:pointer;font-size:16px;padding:0;line-height:1">✕</button>
+      <span style="display:flex;align-items:center;gap:10px">
+        <span class="score-text score-nouns">✓ ${score}</span>
+        <button onclick="goMenu()" style="background:transparent;border:none;color:#888;cursor:pointer;font-size:16px;padding:0;line-height:1">✕</button>
+      </span>
     </div>
     <div class="progress-track nouns"><div class="progress-fill nouns" style="width:${(current / questions.length) * 100}%"></div></div>
 
@@ -67,7 +72,7 @@ export function renderSkloniQuiz() {
         let cls = "opt-btn nouns";
         if (answered) {
           if (opt === correct) cls += " correct";
-          else if (opt === selected) cls += " wrong";
+          else if (opt === answeredWith) cls += " wrong";
           else cls += " faded";
         }
         return `<button class="${cls}" ${answered ? "disabled" : ""} onclick="answerSkloni(${i})">${opt}</button>`;
@@ -84,10 +89,10 @@ export function renderSkloniQuiz() {
 }
 
 export function answerSkloni(i) {
-  if (state.ui.selected !== null) return;
   const q = state.ui.questions[state.ui.current];
+  if (q.answeredWith !== null) return;
   const chosen = q.options[i];
-  state.ui.selected = chosen;
+  q.answeredWith = chosen;
   if (chosen === q.correct) {
     state.ui.score++;
     state.ui._timer = setTimeout(nextSkloni, 900);
@@ -105,9 +110,14 @@ export function nextSkloni() {
     renderSkloniResult();
   } else {
     state.ui.current++;
-    state.ui.selected = null;
     renderSkloniQuiz();
   }
+}
+
+export function goBackSkloni() {
+  clearTimeout(state.ui._timer);
+  state.ui.current--;
+  renderSkloniQuiz();
 }
 
 export function renderSkloniResult() {
