@@ -85,10 +85,40 @@ for (const { line, value: s } of sents) {
   if (!Array.isArray(s.extra)) err("data/sentences.jsonl", line, `"extra" must be array (can be empty)`);
 }
 
+// --- nouns ---
+const SKLON_NUMBERS = ["ednina", "dvojina", "množina"];
+const SKLON_CASES = ["im", "rod", "daj", "tož", "mest", "or"];
+const nouns = parseJSONLFile("data/nouns.jsonl");
+const seenNounSl = new Map();
+for (const { line, value: n } of nouns) {
+  if (typeof n !== "object" || n === null) { err("data/nouns.jsonl", line, "not an object"); continue; }
+  for (const k of ["sl", "ru", "g"]) {
+    if (typeof n[k] !== "string" || !n[k].trim()) err("data/nouns.jsonl", line, `missing or empty "${k}"`);
+  }
+  if (!n.sklon || typeof n.sklon !== "object") {
+    err("data/nouns.jsonl", line, `missing "sklon" object`);
+  } else {
+    for (const num of SKLON_NUMBERS) {
+      if (!n.sklon[num] || typeof n.sklon[num] !== "object") {
+        err("data/nouns.jsonl", line, `missing sklon.${num}`);
+      } else {
+        for (const cas of SKLON_CASES) {
+          if (typeof n.sklon[num][cas] !== "string" || !n.sklon[num][cas].trim())
+            err("data/nouns.jsonl", line, `missing sklon.${num}.${cas}`);
+        }
+      }
+    }
+  }
+  if (n.sl) {
+    if (seenNounSl.has(n.sl)) err("data/nouns.jsonl", line, `duplicate sl "${n.sl}" (first at line ${seenNounSl.get(n.sl)})`);
+    else seenNounSl.set(n.sl, line);
+  }
+}
+
 if (errors.length) {
   console.error(`✗ ${errors.length} validation error(s):\n`);
   for (const e of errors) console.error("  " + e);
   process.exit(1);
 }
 
-console.log(`✓ data/ valid: ${words.length} words, ${verbs.length} verbs, ${sents.length} sentences.`);
+console.log(`✓ data/ valid: ${words.length} words, ${verbs.length} verbs, ${sents.length} sentences, ${nouns.length} nouns.`);
