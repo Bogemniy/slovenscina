@@ -20,13 +20,14 @@ export const NUM_LABELS = {
 
 function genQuestion(nouns) {
   const noun = nouns[Math.floor(Math.random() * nouns.length)];
-  const num = ALL_NUMBERS[Math.floor(Math.random() * ALL_NUMBERS.length)];
+  const availableNums = noun.samo_mn ? ["množina"] : ALL_NUMBERS;
+  const num = availableNums[Math.floor(Math.random() * availableNums.length)];
   const cas = QUIZ_CASES[Math.floor(Math.random() * QUIZ_CASES.length)];
   const correct = noun.sklon[num][cas];
 
-  // Pool of all 18 forms, shuffled, to source distractors from
+  // Pool of distractor forms: for samo_mn only množina, otherwise all 18 forms
   const pool = [];
-  for (const n of ALL_NUMBERS) {
+  for (const n of availableNums) {
     for (const c of ALL_CASES) {
       pool.push(noun.sklon[n][c]);
     }

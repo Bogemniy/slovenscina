@@ -98,7 +98,8 @@ for (const { line, value: n } of nouns) {
   if (!n.sklon || typeof n.sklon !== "object") {
     err("data/nouns.jsonl", line, `missing "sklon" object`);
   } else {
-    for (const num of SKLON_NUMBERS) {
+    const requiredNums = n.samo_mn ? ["množina"] : SKLON_NUMBERS;
+    for (const num of requiredNums) {
       if (!n.sklon[num] || typeof n.sklon[num] !== "object") {
         err("data/nouns.jsonl", line, `missing sklon.${num}`);
       } else {
