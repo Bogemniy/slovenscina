@@ -28,6 +28,7 @@ import { showProgress } from "./ui/progress.js";
 import { showBesednjak, filterBesednjak } from "./ui/besednjak.js";
 import { showSlovar, filterSlovar, setSlovarFilter, toggleVerbAccordion, toggleSlovarGroup } from "./ui/slovar.js";
 import { startGrammar, showGrammarTopic } from "./ui/grammar.js";
+import { startSkloni, renderSkloniQuiz, answerSkloni, nextSkloni, renderSkloniResult } from "./ui/skloni.js";
 import { initFirebase, fbSignIn, fbSignOut } from "./firebase-sync.js";
 
 async function bootstrap() {
@@ -76,6 +77,8 @@ async function bootstrap() {
     showBesednjak, filterBesednjak,
     showSlovar, filterSlovar, setSlovarFilter, toggleVerbAccordion, toggleSlovarGroup,
     startGrammar, showGrammarTopic,
+    // skloni
+    startSkloni, renderSkloniQuiz, answerSkloni, nextSkloni, renderSkloniResult,
     // firebase
     fbSignIn, fbSignOut,
   });

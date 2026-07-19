@@ -1,5 +1,5 @@
 // Bump CACHE_VERSION to invalidate clients on deploy.
-const CACHE_VERSION = "v123";
+const CACHE_VERSION = "v124";
 const APP_SHELL = `slo-shell-${CACHE_VERSION}`;
 const DATA_CACHE = `slo-data-${CACHE_VERSION}`;
 
@@ -27,6 +27,8 @@ const SHELL_FILES = [
   "./src/ui/slovar.js",
   "./src/ui/grammar.js",
   "./src/ui/auth-bar.js",
+  "./src/engine/skloni.js",
+  "./src/ui/skloni.js",
   "./icons/icon.svg",
 ];
 

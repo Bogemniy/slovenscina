@@ -16,6 +16,7 @@ export function renderMenu() {
     <button class="menu-btn" style="background:linear-gradient(135deg,rgba(52,211,153,.18),rgba(16,185,129,.1));border:1px solid rgba(52,211,153,.25);color:#6ee7b7" onclick="startLearn()">🧠 Hočem vedeti</button>
     <button class="menu-btn" style="background:linear-gradient(135deg,rgba(249,168,212,.18),rgba(236,72,153,.1));border:1px solid rgba(249,168,212,.25);color:#f9a8d4" onclick="startVerbs()">🔤 Spregatve glagolov</button>
     <button class="menu-btn" style="background:linear-gradient(135deg,rgba(99,102,241,.18),rgba(79,70,229,.1));border:1px solid rgba(99,102,241,.25);color:#a5b4fc" onclick="startLesson()">📚 Lekcija</button>
+    <button class="menu-btn nouns" onclick="startSkloni()">📋 Skloni</button>
 
     <div class="divider"></div>
     <div id="auth-status" style="display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:#1a1a1a;border-radius:14px;border:1px solid rgba(255,255,255,.07);min-height:46px"></div>

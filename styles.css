@@ -249,6 +249,19 @@ body {
 .table-form { color: var(--pink); font-size: 15px; font-weight: 700; flex: 1; text-align: center; }
 .table-neg { color: var(--red); font-size: 14px; flex: 1; text-align: right; }
 
+/* === SKLONI NOUNS TRAINER === */
+.menu-btn.nouns { background: linear-gradient(135deg,rgba(251,146,60,.18),rgba(249,115,22,.1)); border: 1px solid rgba(251,146,60,.25); color: #fb923c; }
+.card.nouns { background: var(--card); border: 1px solid rgba(251,146,60,.12); }
+.card-label.nouns { color: #fb923c; }
+.opt-btn.nouns { background: #1a1a1a; color: #f0ddd0; border-color: rgba(251,146,60,.15); }
+.opt-btn.correct.nouns { background: rgba(251,146,60,.15); border-color: #fb923c; color: #fb923c; font-weight: 700; }
+.score-nouns { color: #fb923c; }
+.progress-track.nouns { background: #222; }
+.progress-fill.nouns { background: linear-gradient(90deg,#fb923c,#f97316); height: 100%; border-radius: 2px; transition: width .4s ease; }
+.result-card.nouns { background: var(--card); border: 1px solid rgba(251,146,60,.12); }
+.result-score.nouns { color: #fb923c; }
+.btn-new.nouns { background: linear-gradient(135deg,#fb923c,#f97316); color: #1a0800; }
+
 /* === READING === */
 .menu-btn.reading-btn { background: linear-gradient(135deg,rgba(252,211,77,.18),rgba(245,158,11,.1)); border: 1px solid rgba(252,211,77,.25); color: #fcd34d; }
 .reading-card { background: var(--card); border: 1px solid rgba(252,211,77,.12); }

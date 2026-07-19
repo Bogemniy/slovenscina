@@ -14,6 +14,7 @@ export const DATA_FILES = {
   taxonomy: "data/taxonomy.json",
   learn: "data/learn.jsonl",
   grammar: "data/grammar.jsonl",
+  nouns: "data/nouns.jsonl",
 };
 
 export const CACHE_KEYS = {
@@ -23,4 +24,5 @@ export const CACHE_KEYS = {
   taxonomy: "cache:taxonomy:v1",
   learn: "cache:learn:v1",
   grammar: "cache:grammar:v1",
+  nouns: "cache:nouns:v1",
 };
