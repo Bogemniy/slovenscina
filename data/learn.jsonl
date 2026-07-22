@@ -218,6 +218,21 @@
 {"sl":"Ne vem","ru":"Я не знаю","cat":"phrase","level":3}
 {"sl":"imeti rad","ru":"нравиться","cat":"adj","level":3}
 {"sl":"Všeč si mi","ru":"Ты мне нравишься","cat":"phrase","level":3}
+{"sl":"žlička","ru":"чайная ложка","cat":"thing","g":"ž","level":2}
+{"sl":"pladenj","ru":"поднос","cat":"thing","g":"m","level":2}
+{"sl":"prtiček","ru":"салфетка","cat":"thing","g":"m","level":2}
+{"sl":"kepica","ru":"шарик (мороженого)","cat":"food","g":"ž","level":2}
+{"sl":"kos","ru":"кусок","cat":"food","g":"m","level":2}
+{"sl":"liter","ru":"литр","cat":"number","g":"m","level":2}
+{"sl":"kilogram","ru":"килограмм","cat":"number","g":"m","level":2}
+{"sl":"meter","ru":"метр","cat":"number","g":"m","level":2}
+{"sl":"moka","ru":"мука","cat":"food","g":"ž","level":2}
+{"sl":"pomfri","ru":"картофель фри","cat":"food","g":"m","level":2}
+{"sl":"pečenka","ru":"жаркое","cat":"food","g":"ž","level":2}
+{"sl":"kokakola","ru":"кока-кола","cat":"food","g":"ž","level":2}
+{"sl":"dunajski zrezek","ru":"венский шницель","cat":"food","g":"m","level":3}
+{"sl":"črn kruh","ru":"чёрный хлеб","cat":"food","g":"m","level":3}
+{"sl":"zelenjavna juha","ru":"овощной суп","cat":"food","g":"ž","level":3}
 {"sl":"To mi ni všeč","ru":"Мне это не нравится","cat":"phrase","level":3}
 {"sl":"Ali me ljubiš?","ru":"Ты любишь меня?","cat":"phrase","level":3}
 {"sl":"Ljubim te","ru":"Я люблю тебя","cat":"phrase","level":3}

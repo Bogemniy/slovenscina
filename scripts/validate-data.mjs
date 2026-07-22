@@ -109,6 +109,14 @@ for (const { line, value: n } of nouns) {
         }
       }
     }
+
+    if (n.samo_mn) {
+      for (const num of SKLON_NUMBERS.filter((x) => x !== "množina")) {
+        if (n.sklon[num] !== undefined) {
+          err("data/nouns.jsonl", line, `unexpected sklon.${num} for samo_mn noun`);
+        }
+      }
+    }
   }
   if (n.sl) {
     if (seenNounSl.has(n.sl)) err("data/nouns.jsonl", line, `duplicate sl "${n.sl}" (first at line ${seenNounSl.get(n.sl)})`);

@@ -25,7 +25,6 @@ function genQuestion(nouns) {
   const cas = QUIZ_CASES[Math.floor(Math.random() * QUIZ_CASES.length)];
   const correct = noun.sklon[num][cas];
 
-  // Pool of distractor forms: for samo_mn only množina, otherwise all 18 forms
   const pool = [];
   for (const n of availableNums) {
     for (const c of ALL_CASES) {
