@@ -2144,3 +2144,21 @@
 {"sl":"goveja juha","ru":"говяжий бульон","cat":"food","g":"ž","level":3}
 {"sl":"rezanci","ru":"лапша","cat":"food","g":"m","level":2}
 {"sl":"lonček","ru":"кастрюлька; стаканчик","cat":"thing","g":"m","level":2}
+{"sl":"gomoljna zelena","ru":"сельдерей (корневой)","cat":"food","g":"ž","level":3}
+{"sl":"šopek peteršilja","ru":"пучок петрушки","cat":"food","g":"m","level":3}
+{"sl":"goveje meso","ru":"говядина","cat":"food","g":"s","level":3}
+{"sl":"temperatura","ru":"температура","cat":"noun","g":"ž","level":2}
+{"sl":"nazadnje","ru":"наконец, в последнюю очередь","cat":"adverb","level":2}
+{"sl":"deciliter","ru":"децилитр","cat":"number","g":"m","level":2}
+{"sl":"gram","ru":"грамм","cat":"number","g":"m","level":2}
+{"sl":"žvečilni gumi","ru":"жевательная резинка","cat":"food","g":"m","level":3}
+{"sl":"boleče","ru":"больно","cat":"adverb","level":2}
+{"sl":"ni bilo boleče","ru":"было не больно","cat":"phrase","level":3}
+{"sl":"boleč","ru":"болезненный, причиняющий боль","cat":"adj","level":2}
+{"sl":"detektivka","ru":"детектив (жанр/сериал)","cat":"thing","g":"ž","level":2}
+{"sl":"sezona","ru":"сезон","cat":"noun","g":"ž","level":2}
+{"sl":"kar v redu","ru":"вполне нормально, ничего так","cat":"phrase","level":3}
+{"sl":"uradni kostum","ru":"официальный костюм","cat":"thing","g":"m","level":3}
+{"sl":"morski sadež","ru":"морепродукт","cat":"food","g":"m","level":3}
+{"sl":"priloga","ru":"гарнир","cat":"food","g":"ž","level":2}
+{"sl":"nadev","ru":"начинка","cat":"food","g":"m","level":2}
