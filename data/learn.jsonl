@@ -2162,3 +2162,21 @@
 {"sl":"morski sadež","ru":"морепродукт","cat":"food","g":"m","level":3}
 {"sl":"priloga","ru":"гарнир","cat":"food","g":"ž","level":2}
 {"sl":"nadev","ru":"начинка","cat":"food","g":"m","level":2}
+{"sl":"malček","ru":"малыш, карапуз","cat":"family","g":"m","level":2}
+{"sl":"na srečo","ru":"к счастью","cat":"phrase","level":3}
+{"sl":"imeti srečo","ru":"везти, иметь удачу","cat":"phrase","level":3}
+{"sl":"v naravi","ru":"на природе","cat":"phrase","level":3}
+{"sl":"refošk","ru":"рефошк (сорт красного вина с Краса)","cat":"food","g":"m","level":2}
+{"sl":"pršut","ru":"пршут (вяленый окорок, прошутто)","cat":"food","g":"m","level":2}
+{"sl":"suha klobasa","ru":"сухая колбаса (салями)","cat":"food","g":"ž","level":3}
+{"sl":"brez suhe klobase","ru":"без сухой колбасы","cat":"phrase","level":3}
+{"sl":"olive","ru":"оливки, маслины","cat":"food","g":"ž","level":2}
+{"sl":"malce","ru":"чуть-чуть, слегка (разг.)","cat":"adverb","level":2}
+{"sl":"preslan","ru":"пересоленый","cat":"adj","level":2}
+{"sl":"omaka je preslana","ru":"соус пересолен","cat":"phrase","level":3}
+{"sl":"drugače","ru":"иначе, по-другому","cat":"adverb","level":2}
+{"sl":"buteljka","ru":"бутылка (вина, 0.7л)","cat":"thing","g":"ž","level":2}
+{"sl":"za dve osebi","ru":"на двоих (для двух персон)","cat":"phrase","level":3}
+{"sl":"in sicer","ru":"а именно","cat":"phrase","level":3}
+{"sl":"biti sit","ru":"быть сытым","cat":"phrase","level":3}
+{"sl":"manjši","ru":"меньший (сравнит. степень от majhen)","cat":"adj","level":2}
