@@ -2180,3 +2180,29 @@
 {"sl":"in sicer","ru":"а именно","cat":"phrase","level":3}
 {"sl":"biti sit","ru":"быть сытым","cat":"phrase","level":3}
 {"sl":"manjši","ru":"меньший (сравнит. степень от majhen)","cat":"adj","level":2}
+{"sl":"otroška soba","ru":"детская комната","cat":"home","g":"ž","level":3}
+{"sl":"podstrešje","ru":"чердак, мансарда","cat":"home","g":"s","level":2}
+{"sl":"pritličje","ru":"первый этаж","cat":"home","g":"s","level":2}
+{"sl":"vhod","ru":"вход","cat":"home","g":"m","level":2}
+{"sl":"prostor","ru":"помещение; пространство","cat":"home","g":"m","level":2}
+{"sl":"štedilnik","ru":"плита (кухонная)","cat":"home","g":"m","level":2}
+{"sl":"pipa","ru":"кран (водопроводный)","cat":"home","g":"ž","level":2}
+{"sl":"naslanjač","ru":"кресло","cat":"home","g":"m","level":2}
+{"sl":"banja","ru":"ванна","cat":"home","g":"ž","level":2}
+{"sl":"umivalnik","ru":"раковина, умывальник","cat":"home","g":"m","level":2}
+{"sl":"radiator","ru":"батарея, радиатор","cat":"home","g":"m","level":2}
+{"sl":"pograd","ru":"двухъярусная кровать","cat":"home","g":"m","level":2}
+{"sl":"nočna omarica","ru":"тумбочка","cat":"home","g":"ž","level":3}
+{"sl":"predal","ru":"выдвижной ящик","cat":"home","g":"m","level":2}
+{"sl":"polica za knjige","ru":"книжная полка","cat":"home","g":"ž","level":3}
+{"sl":"strop","ru":"потолок","cat":"home","g":"m","level":2}
+{"sl":"tla","ru":"пол (мн.ч.)","cat":"home","g":"s","level":2}
+{"sl":"stena","ru":"стена","cat":"home","g":"ž","level":2}
+{"sl":"ograja","ru":"забор, ограда","cat":"home","g":"ž","level":2}
+{"sl":"nabiralnik","ru":"почтовый ящик","cat":"home","g":"m","level":2}
+{"sl":"balkon","ru":"балкон","cat":"home","g":"m","level":2}
+{"sl":"dimnik","ru":"дымоход, труба","cat":"home","g":"m","level":2}
+{"sl":"pogled","ru":"вид (из окна); взгляд","cat":"noun","g":"m","level":2}
+{"sl":"peš","ru":"пешком","cat":"adverb","level":2}
+{"sl":"pomemben","ru":"важный","cat":"adj","level":2}
+{"sl":"ločen","ru":"раздельный, отдельный","cat":"adj","level":2}
