@@ -1,5 +1,5 @@
 // Bump CACHE_VERSION to invalidate clients on deploy.
-const CACHE_VERSION = "v138";
+const CACHE_VERSION = "v139";
 const APP_SHELL = `slo-shell-${CACHE_VERSION}`;
 const DATA_CACHE = `slo-data-${CACHE_VERSION}`;
 
