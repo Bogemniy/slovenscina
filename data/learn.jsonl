@@ -2206,3 +2206,26 @@
 {"sl":"peš","ru":"пешком","cat":"adverb","level":2}
 {"sl":"pomemben","ru":"важный","cat":"adj","level":2}
 {"sl":"ločen","ru":"раздельный, отдельный","cat":"adj","level":2}
+{"sl":"razdeljen","ru":"разделённый","cat":"adj","level":2}
+{"sl":"utrujenost","ru":"усталость","cat":"feel","g":"ž","level":2}
+{"sl":"kadarkoli","ru":"когда угодно, в любое время","cat":"time","level":2}
+{"sl":"kjerkoli","ru":"где угодно","cat":"where","level":2}
+{"sl":"karkoli","ru":"что угодно","cat":"pron","level":1}
+{"sl":"kdorkoli","ru":"кто угодно","cat":"pron","level":1}
+{"sl":"kakorkoli","ru":"как угодно","cat":"adverb","level":2}
+{"sl":"najboljši","ru":"самый лучший","cat":"adj","level":2}
+{"sl":"največji","ru":"самый большой","cat":"adj","level":2}
+{"sl":"najlepši","ru":"самый красивый","cat":"adj","level":2}
+{"sl":"najpomembnejši","ru":"самый важный","cat":"adj","level":2}
+{"sl":"raven (znanja)","ru":"уровень (напр., знаний)","cat":"noun","g":"ž","level":2}
+{"sl":"kinodvorana","ru":"кинозал","cat":"place","g":"ž","level":2}
+{"sl":"razvedrilo","ru":"развлечение","cat":"activity","g":"s","level":2}
+{"sl":"aktivnost","ru":"активность","cat":"activity","g":"ž","level":2}
+{"sl":"lasten","ru":"собственный, свой","cat":"adj","level":2}
+{"sl":"večinoma","ru":"большей частью, в основном","cat":"adverb","level":2}
+{"sl":"veliko časa","ru":"много времени","cat":"phrase","level":3}
+{"sl":"komoda","ru":"комод (с дверцами и ящиками)","cat":"home","g":"ž","level":2}
+{"sl":"predalnik","ru":"комод (только с ящиками)","cat":"home","g":"m","level":2}
+{"sl":"napa","ru":"кухонная вытяжка","cat":"home","g":"ž","level":2}
+{"sl":"mikrovalovna pečica","ru":"микроволновая печь","cat":"home","g":"ž","level":3}
+{"sl":"na tleh","ru":"на полу; на земле","cat":"phrase","level":3}
