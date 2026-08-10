@@ -2229,3 +2229,7 @@
 {"sl":"napa","ru":"кухонная вытяжка","cat":"home","g":"ž","level":2}
 {"sl":"mikrovalovna pečica","ru":"микроволновая печь","cat":"home","g":"ž","level":3}
 {"sl":"na tleh","ru":"на полу; на земле","cat":"phrase","level":3}
+{"sl":"svež zrak","ru":"свежий воздух","cat":"phrase","level":3}
+{"sl":"malo ljudi","ru":"мало людей","cat":"phrase","level":3}
+{"sl":"hrup","ru":"шум","cat":"thing","g":"m","level":2}
+{"sl":"hrupno","ru":"шумно","cat":"adverb","level":2}
