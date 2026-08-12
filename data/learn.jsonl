@@ -2233,3 +2233,19 @@
 {"sl":"malo ljudi","ru":"мало людей","cat":"phrase","level":3}
 {"sl":"hrup","ru":"шум","cat":"thing","g":"m","level":2}
 {"sl":"hrupno","ru":"шумно","cat":"adverb","level":2}
+{"sl":"sostanovalec","ru":"сожитель, сосед по квартире","cat":"people","g":"m","level":2}
+{"sl":"podnajemnik","ru":"субарендатор, поднаниматель","cat":"people","g":"m","level":2}
+{"sl":"najemodajalec","ru":"арендодатель","cat":"people","g":"m","level":2}
+{"sl":"lastnik","ru":"владелец, хозяин","cat":"people","g":"m","level":2}
+{"sl":"najemnina","ru":"арендная плата, квартплата","cat":"home","g":"ž","level":2}
+{"sl":"predsoba","ru":"прихожая","cat":"home","g":"ž","level":2}
+{"sl":"blazina","ru":"подушка","cat":"home","g":"ž","level":2}
+{"sl":"odeja","ru":"одеяло","cat":"home","g":"ž","level":2}
+{"sl":"kabinet","ru":"кабинет (комната)","cat":"home","g":"m","level":2}
+{"sl":"drogerija","ru":"магазин бытовой химии/парфюмерии","cat":"shop","g":"ž","level":2}
+{"sl":"opremljen","ru":"меблированный, оборудованный","cat":"adj","level":2}
+{"sl":"priljubljen","ru":"любимый, популярный","cat":"adj","level":2}
+{"sl":"vseljiv","ru":"готовый к заселению","cat":"adj","level":2}
+{"sl":"možnost","ru":"возможность","cat":"thing","g":"ž","level":2}
+{"sl":"podaljšanje","ru":"продление","cat":"thing","g":"s","level":2}
+{"sl":"rjuha","ru":"простыня","cat":"home","g":"ž","level":2}
