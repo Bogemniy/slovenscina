@@ -2249,3 +2249,25 @@
 {"sl":"možnost","ru":"возможность","cat":"thing","g":"ž","level":2}
 {"sl":"podaljšanje","ru":"продление","cat":"thing","g":"s","level":2}
 {"sl":"rjuha","ru":"простыня","cat":"home","g":"ž","level":2}
+{"sl":"strošek","ru":"расход, статья затрат","cat":"thing","g":"m","level":2}
+{"sl":"varščina","ru":"залог, депозит","cat":"thing","g":"ž","level":2}
+{"sl":"dodaten","ru":"дополнительный","cat":"adj","level":2}
+{"sl":"zakonska postelja","ru":"двуспальная кровать","cat":"home","g":"ž","level":3}
+{"sl":"pomivalni stroj","ru":"посудомоечная машина","cat":"home","g":"m","level":3}
+{"sl":"sušilni stroj","ru":"сушильная машина","cat":"home","g":"m","level":3}
+{"sl":"izselitev","ru":"выселение, выезд (из квартиры)","cat":"info","g":"ž","level":2}
+{"sl":"po navadi","ru":"обычно","cat":"phrase","level":3}
+{"sl":"napaka","ru":"ошибка, неисправность","cat":"thing","g":"ž","level":2}
+{"sl":"oziroma","ru":"или же; то есть","cat":"phrase","level":2}
+{"sl":"okvara","ru":"поломка","cat":"thing","g":"ž","level":2}
+{"sl":"plačljiv","ru":"платный","cat":"adj","level":2}
+{"sl":"ponudnik","ru":"поставщик (услуг)","cat":"thing","g":"m","level":2}
+{"sl":"ogled","ru":"осмотр, просмотр","cat":"thing","g":"m","level":2}
+{"sl":"splet","ru":"интернет, сеть","cat":"info","g":"m","level":2}
+{"sl":"povezan","ru":"связанный, соединённый","cat":"adj","level":2}
+{"sl":"vgrajen","ru":"встроенный","cat":"adj","level":2}
+{"sl":"svetloba","ru":"свет (естественный)","cat":"thing","g":"ž","level":2}
+{"sl":"prha","ru":"душ (кабина/струя)","cat":"home","g":"ž","level":2}
+{"sl":"kad","ru":"ванна","cat":"home","g":"ž","level":2}
+{"sl":"razgled","ru":"вид, панорама","cat":"home","g":"m","level":2}
+{"sl":"živahen","ru":"оживлённый, бойкий","cat":"adj","level":2}
