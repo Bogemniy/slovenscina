@@ -2280,3 +2280,15 @@
 {"sl":"škatla","ru":"коробка","cat":"home","g":"ž","level":2}
 {"sl":"obešalnik","ru":"вешалка","cat":"home","g":"m","level":2}
 {"sl":"luknja","ru":"дыра, отверстие","cat":"thing","g":"ž","level":2}
+{"sl":"učiteljica","ru":"учительница","cat":"job","g":"ž","level":2}
+{"sl":"predlog","ru":"предложение (идея)","cat":"info","g":"m","level":2}
+{"sl":"smetana","ru":"сметана, сливки","cat":"food","g":"ž","level":2}
+{"sl":"zvočnik","ru":"колонка, динамик","cat":"home","g":"m","level":2}
+{"sl":"potrebščina","ru":"школьная принадлежность","cat":"school","g":"ž","level":2}
+{"sl":"fasada","ru":"фасад","cat":"home","g":"ž","level":2}
+{"sl":"praznik","ru":"праздник","cat":"time","g":"m","level":2}
+{"sl":"pokrit","ru":"покрытый, крытый","cat":"adj","level":2}
+{"sl":"poročna obleka","ru":"свадебное платье","cat":"thing","g":"ž","level":3}
+{"sl":"športni pripomoček","ru":"спортивный инвентарь","cat":"sport","g":"m","level":3}
+{"sl":"kolesarska steza","ru":"велодорожка","cat":"transport","g":"ž","level":3}
+{"sl":"umetnostno drsanje","ru":"фигурное катание","cat":"sport","g":"s","level":3}
