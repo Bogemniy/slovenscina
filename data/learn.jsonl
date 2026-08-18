@@ -2292,3 +2292,15 @@
 {"sl":"športni pripomoček","ru":"спортивный инвентарь","cat":"sport","g":"m","level":3}
 {"sl":"kolesarska steza","ru":"велодорожка","cat":"transport","g":"ž","level":3}
 {"sl":"umetnostno drsanje","ru":"фигурное катание","cat":"sport","g":"s","level":3}
+{"sl":"lestev","ru":"стремянка, приставная лестница","cat":"home","g":"ž","level":2}
+{"sl":"zloben","ru":"злобный, злой (со злым умыслом)","cat":"adj","level":2}
+{"sl":"natančen","ru":"точный, аккуратный","cat":"adj","level":2}
+{"sl":"vaza","ru":"ваза","cat":"home","g":"ž","level":2}
+{"sl":"listek","ru":"билетик, талон, листок","cat":"thing","g":"m","level":2}
+{"sl":"kot (v sobi)","ru":"угол (в комнате)","cat":"thing","g":"m","level":2}
+{"sl":"koš za smeti","ru":"мусорная корзина/ведро","cat":"thing","g":"m","level":3}
+{"sl":"tiskalnik","ru":"принтер","cat":"thing","g":"m","level":2}
+{"sl":"zgoščenka","ru":"компакт-диск, CD","cat":"thing","g":"ž","level":2}
+{"sl":"pokal","ru":"кубок (трофей)","cat":"sport","g":"m","level":2}
+{"sl":"kolajna","ru":"медаль (син. medalja)","cat":"sport","g":"ž","level":2}
+{"sl":"medalja","ru":"медаль","cat":"sport","g":"ž","level":2}
