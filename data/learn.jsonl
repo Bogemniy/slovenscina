@@ -2316,3 +2316,6 @@
 {"sl":"zdravnica","ru":"врач (женщина)","cat":"job","g":"ž","level":2}
 {"sl":"pregled","ru":"осмотр (медицинский)","cat":"body","g":"m","level":2}
 {"sl":"rentgen","ru":"рентген","cat":"body","g":"m","level":2}
+{"sl":"gost (o teksturi)","ru":"густой","cat":"adj","level":2}
+{"sl":"umit","ru":"вымытый, чистый","cat":"adj","level":2}
+{"sl":"neurejen","ru":"неопрятный, растрёпанный","cat":"adj","level":2}
