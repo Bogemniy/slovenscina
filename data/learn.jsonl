@@ -2304,3 +2304,15 @@
 {"sl":"pokal","ru":"кубок (трофей)","cat":"sport","g":"m","level":2}
 {"sl":"kolajna","ru":"медаль (син. medalja)","cat":"sport","g":"ž","level":2}
 {"sl":"medalja","ru":"медаль","cat":"sport","g":"ž","level":2}
+{"sl":"zadnjica","ru":"ягодица, попа","cat":"body","g":"ž","level":2}
+{"sl":"požiralnik","ru":"пищевод","cat":"body","g":"m","level":2}
+{"sl":"črevo","ru":"кишка, кишечник","cat":"body","g":"s","level":2}
+{"sl":"debelo črevo","ru":"толстая кишка","cat":"body","g":"s","level":3}
+{"sl":"tanko črevo","ru":"тонкая кишка","cat":"body","g":"s","level":3}
+{"sl":"sluh","ru":"слух","cat":"body","g":"m","level":2}
+{"sl":"vid","ru":"зрение","cat":"body","g":"m","level":2}
+{"sl":"kri mi teče","ru":"у меня идёт кровь","cat":"phrase","level":3}
+{"sl":"vroče mi je","ru":"мне жарко","cat":"phrase","level":3}
+{"sl":"zdravnica","ru":"врач (женщина)","cat":"job","g":"ž","level":2}
+{"sl":"pregled","ru":"осмотр (медицинский)","cat":"body","g":"m","level":2}
+{"sl":"rentgen","ru":"рентген","cat":"body","g":"m","level":2}
