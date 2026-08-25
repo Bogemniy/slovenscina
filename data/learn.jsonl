@@ -2217,7 +2217,7 @@
 {"sl":"največji","ru":"самый большой","cat":"adj","level":2}
 {"sl":"najlepši","ru":"самый красивый","cat":"adj","level":2}
 {"sl":"najpomembnejši","ru":"самый важный","cat":"adj","level":2}
-{"sl":"raven (znanja)","ru":"уровень (напр., знаний)","cat":"noun","g":"ž","level":2}
+{"sl":"raven (znanja)","ru":"уровень (напр., знаний)","cat":"noun","g":"ž","level":3}
 {"sl":"kinodvorana","ru":"кинозал","cat":"place","g":"ž","level":2}
 {"sl":"razvedrilo","ru":"развлечение","cat":"activity","g":"s","level":2}
 {"sl":"aktivnost","ru":"активность","cat":"activity","g":"ž","level":2}
@@ -2297,7 +2297,7 @@
 {"sl":"natančen","ru":"точный, аккуратный","cat":"adj","level":2}
 {"sl":"vaza","ru":"ваза","cat":"home","g":"ž","level":2}
 {"sl":"listek","ru":"билетик, талон, листок","cat":"thing","g":"m","level":2}
-{"sl":"kot (v sobi)","ru":"угол (в комнате)","cat":"thing","g":"m","level":2}
+{"sl":"kot (v sobi)","ru":"угол (в комнате)","cat":"thing","g":"m","level":3}
 {"sl":"koš za smeti","ru":"мусорная корзина/ведро","cat":"thing","g":"m","level":3}
 {"sl":"tiskalnik","ru":"принтер","cat":"thing","g":"m","level":2}
 {"sl":"zgoščenka","ru":"компакт-диск, CD","cat":"thing","g":"ž","level":2}
@@ -2316,6 +2316,17 @@
 {"sl":"zdravnica","ru":"врач (женщина)","cat":"job","g":"ž","level":2}
 {"sl":"pregled","ru":"осмотр (медицинский)","cat":"body","g":"m","level":2}
 {"sl":"rentgen","ru":"рентген","cat":"body","g":"m","level":2}
-{"sl":"gost (o teksturi)","ru":"густой","cat":"adj","level":2}
+{"sl":"gost (o teksturi)","ru":"густой","cat":"adj","level":3}
 {"sl":"umit","ru":"вымытый, чистый","cat":"adj","level":2}
 {"sl":"neurejen","ru":"неопрятный, растрёпанный","cat":"adj","level":2}
+{"sl":"spakirati kovčke","ru":"упаковать чемоданы","cat":"phrase","level":3}
+{"sl":"na en mah","ru":"разом, одним махом","cat":"phrase","level":3}
+{"sl":"za en mah","ru":"сразу, одним махом (синоним na en mah)","cat":"phrase","level":3}
+{"sl":"cvetni prašek","ru":"цветочная пыльца","cat":"food","g":"m","level":3}
+{"sl":"prah","ru":"пыль","cat":"thing","g":"m","level":2}
+{"sl":"popravljanje","ru":"ремонт, починка (процесс)","cat":"thing","g":"s","level":2}
+{"sl":"strokovnjak","ru":"эксперт, специалист","cat":"job","g":"m","level":2}
+{"sl":"strokovnjakinja","ru":"эксперт, специалист (женщина)","cat":"job","g":"ž","level":2}
+{"sl":"imeti drisko","ru":"иметь понос","cat":"phrase","level":3}
+{"sl":"glavobol","ru":"головная боль","cat":"body","g":"m","level":2}
+{"sl":"držati pesti","ru":"держать кулаки (желать удачи)","cat":"phrase","level":3}
