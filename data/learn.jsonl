@@ -2330,3 +2330,11 @@
 {"sl":"imeti drisko","ru":"иметь понос","cat":"phrase","level":3}
 {"sl":"glavobol","ru":"головная боль","cat":"body","g":"m","level":2}
 {"sl":"držati pesti","ru":"держать кулаки (желать удачи)","cat":"phrase","level":3}
+{"sl":"sovražnik","ru":"враг","cat":"people","g":"m","level":2}
+{"sl":"nasprotnik","ru":"противник, оппонент","cat":"people","g":"m","level":2}
+{"sl":"taca","ru":"лапа (tačka — ласк.)","cat":"animal","g":"ž","level":2}
+{"sl":"šapa","ru":"лапа (синоним taca)","cat":"animal","g":"ž","level":2}
+{"sl":"opremljeno stanovanje","ru":"меблированная квартира","cat":"home","g":"s","level":3}
+{"sl":"najemnina znaša","ru":"арендная плата составляет","cat":"phrase","level":3}
+{"sl":"iznajdljiv","ru":"находчивый, изобретательный","cat":"adj","level":2}
+{"sl":"v katerem nadstropju imate stanovanje?","ru":"на каком этаже у вас квартира?","cat":"phrase","level":3}
