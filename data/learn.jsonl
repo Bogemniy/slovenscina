@@ -2355,3 +2355,11 @@
 {"sl":"po jedi","ru":"после еды","cat":"phrase","level":3}
 {"sl":"rahla občutljivost","ru":"лёгкая чувствительность","cat":"phrase","level":3}
 {"sl":"preiskava","ru":"обследование, расследование","cat":"body","g":"ž","level":2}
+{"sl":"nase","ru":"на себя","cat":"phrase","level":2}
+{"sl":"napotnica","ru":"направление (к врачу)","cat":"body","g":"ž","level":2}
+{"sl":"na tešče","ru":"натощак","cat":"phrase","level":3}
+{"sl":"ultrazvok","ru":"УЗИ, ультразвук","cat":"body","g":"m","level":2}
+{"sl":"zaenkrat","ru":"пока что, на данный момент","cat":"adverb","level":2}
+{"sl":"težava","ru":"проблема, трудность","cat":"thing","g":"ž","level":2}
+{"sl":"driska","ru":"понос","cat":"body","g":"ž","level":2}
+{"sl":"bruhanje","ru":"рвота","cat":"body","g":"s","level":2}
