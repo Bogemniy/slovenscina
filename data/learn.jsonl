@@ -2370,3 +2370,69 @@
 {"sl":"čedno","ru":"опрятно, аккуратно","cat":"adverb","level":2}
 {"sl":"s seboj","ru":"с собой","cat":"phrase","level":3}
 {"sl":"hobi","ru":"хобби","cat":"thing","g":"m","level":2}
+{"sl":"vodenje","ru":"руководство, ведение людей","cat":"noun","g":"s","level":2}
+{"sl":"voditeljstvo","ru":"лидерство","cat":"noun","g":"s","level":2}
+{"sl":"menedžer","ru":"менеджер","cat":"job","g":"m","level":2}
+{"sl":"podrejeni","ru":"подчинённый","cat":"people","g":"m","level":2}
+{"sl":"delničar","ru":"акционер","cat":"people","g":"m","level":2}
+{"sl":"zaposleni","ru":"сотрудник, работник","cat":"people","g":"m","level":2}
+{"sl":"izdelek","ru":"продукт, изделие","cat":"noun","g":"m","level":2}
+{"sl":"pršilo","ru":"спрей","cat":"thing","g":"s","level":2}
+{"sl":"nega obraza","ru":"уход за лицом","cat":"phrase","level":3}
+{"sl":"prodaja","ru":"продажа","cat":"noun","g":"ž","level":2}
+{"sl":"spoštovanje","ru":"уважение","cat":"noun","g":"s","level":2}
+{"sl":"sestanek","ru":"собрание, совещание","cat":"noun","g":"m","level":2}
+{"sl":"pogajanje","ru":"переговоры","cat":"noun","g":"s","level":2}
+{"sl":"zavzetost","ru":"вовлечённость, увлечённость","cat":"noun","g":"ž","level":2}
+{"sl":"pripadnost","ru":"принадлежность, лояльность","cat":"noun","g":"ž","level":2}
+{"sl":"bonton","ru":"этикет","cat":"noun","g":"m","level":2}
+{"sl":"upravljanje","ru":"управление","cat":"noun","g":"s","level":2}
+{"sl":"govorica telesa","ru":"язык тела","cat":"phrase","level":3}
+{"sl":"očesni stik","ru":"зрительный контакт","cat":"phrase","level":3}
+{"sl":"drža","ru":"осанка","cat":"body","g":"ž","level":2}
+{"sl":"trup","ru":"корпус, туловище","cat":"body","g":"m","level":2}
+{"sl":"nestrpnost","ru":"нетерпение, нетерпимость","cat":"feel","g":"ž","level":2}
+{"sl":"nastop","ru":"выступление","cat":"noun","g":"m","level":2}
+{"sl":"samopredstavitev","ru":"самопрезентация","cat":"noun","g":"ž","level":2}
+{"sl":"odločitev","ru":"решение","cat":"noun","g":"ž","level":2}
+{"sl":"ledena gora","ru":"айсберг","cat":"phrase","level":3}
+{"sl":"lastnost","ru":"качество, свойство","cat":"noun","g":"ž","level":2}
+{"sl":"veščina","ru":"навык","cat":"noun","g":"ž","level":2}
+{"sl":"kompetenca","ru":"компетенция","cat":"noun","g":"ž","level":2}
+{"sl":"osebnost","ru":"личность","cat":"noun","g":"ž","level":2}
+{"sl":"cilj","ru":"цель","cat":"noun","g":"m","level":2}
+{"sl":"vizija","ru":"видение (стратегическое)","cat":"noun","g":"ž","level":2}
+{"sl":"moč","ru":"власть, сила","cat":"noun","g":"ž","level":2}
+{"sl":"karizma","ru":"харизма","cat":"noun","g":"ž","level":2}
+{"sl":"strast","ru":"страсть","cat":"noun","g":"ž","level":2}
+{"sl":"sprememba","ru":"изменение","cat":"noun","g":"ž","level":2}
+{"sl":"stabilnost","ru":"стабильность","cat":"noun","g":"ž","level":2}
+{"sl":"zamera","ru":"обида","cat":"feel","g":"ž","level":2}
+{"sl":"čustvena inteligenca","ru":"эмоциональный интеллект","cat":"phrase","level":3}
+{"sl":"predanost","ru":"преданность, приверженность","cat":"noun","g":"ž","level":2}
+{"sl":"uresničitev","ru":"осуществление, реализация","cat":"noun","g":"ž","level":2}
+{"sl":"zmeda","ru":"путаница","cat":"noun","g":"ž","level":2}
+{"sl":"blagovna znamka","ru":"бренд, торговая марка","cat":"phrase","level":3}
+{"sl":"veriga","ru":"сеть (магазинов, отелей); цепь","cat":"noun","g":"ž","level":2}
+{"sl":"delniška družba","ru":"акционерное общество","cat":"phrase","level":3}
+{"sl":"upravni odbor","ru":"правление, совет директоров","cat":"phrase","level":3}
+{"sl":"nagrajevanje","ru":"вознаграждение, поощрение","cat":"noun","g":"s","level":2}
+{"sl":"spodbujanje","ru":"стимулирование, поощрение","cat":"noun","g":"s","level":2}
+{"sl":"pozornost","ru":"внимание","cat":"noun","g":"ž","level":2}
+{"sl":"učinkovit","ru":"эффективный","cat":"adj","level":2}
+{"sl":"neučinkovit","ru":"неэффективный","cat":"adj","level":2}
+{"sl":"proaktiven","ru":"проактивный","cat":"adj","level":2}
+{"sl":"reaktiven","ru":"реактивный","cat":"adj","level":2}
+{"sl":"prirojen","ru":"врождённый","cat":"adj","level":2}
+{"sl":"neposreden","ru":"непосредственный, прямой","cat":"adj","level":2}
+{"sl":"posreden","ru":"опосредованный, косвенный","cat":"adj","level":2}
+{"sl":"nebeseden","ru":"невербальный","cat":"adj","level":2}
+{"sl":"nezainteresiran","ru":"незаинтересованный","cat":"adj","level":2}
+{"sl":"globinski","ru":"глубинный","cat":"adj","level":2}
+{"sl":"iz oči v oči","ru":"лицом к лицу","cat":"phrase","level":3}
+{"sl":"prekrižane roke","ru":"скрещённые руки","cat":"phrase","level":3}
+{"sl":"brati z ustnic","ru":"читать по губам","cat":"phrase","level":3}
+{"sl":"sprejeti odločitev","ru":"принять решение","cat":"phrase","level":3}
+{"sl":"delati prave stvari","ru":"делать правильные вещи","cat":"phrase","level":3}
+{"sl":"delati stvari pravilno","ru":"делать вещи правильно","cat":"phrase","level":3}
+{"sl":"sedež podjetja","ru":"головной офис компании","cat":"phrase","level":3}
