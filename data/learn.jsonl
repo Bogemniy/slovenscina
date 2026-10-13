@@ -2468,3 +2468,17 @@
 {"sl":"vse bo šlo po načrtu","ru":"всё пойдёт по плану","cat":"phrase","level":3}
 {"sl":"lažje","ru":"легче","cat":"adverb","level":2}
 {"sl":"prijateljica","ru":"подруга","cat":"people","g":"ž","level":2}
+{"sl":"travnik","ru":"луг","cat":"noun","g":"m","level":2}
+{"sl":"železnica","ru":"железная дорога","cat":"transport","g":"ž","level":2}
+{"sl":"postajališče","ru":"остановка","cat":"transport","g":"s","level":2}
+{"sl":"knjigarna","ru":"книжный магазин","cat":"shop","g":"ž","level":2}
+{"sl":"razglednica","ru":"открытка","cat":"thing","g":"ž","level":2}
+{"sl":"treba mi je","ru":"мне нужно","cat":"phrase","level":3}
+{"sl":"ni treba","ru":"не нужно, не надо","cat":"phrase","level":3}
+{"sl":"vožnja","ru":"поездка, езда","cat":"transport","g":"ž","level":2}
+{"sl":"dva dneva","ru":"два дня","cat":"phrase","level":3}
+{"sl":"na teden","ru":"в неделю","cat":"phrase","level":3}
+{"sl":"varnost","ru":"безопасность","cat":"noun","g":"ž","level":2}
+{"sl":"nevaren","ru":"опасный","cat":"adj","level":2}
+{"sl":"množično","ru":"массово","cat":"adverb","level":2}
+{"sl":"množica","ru":"толпа, множество","cat":"noun","g":"ž","level":2}
