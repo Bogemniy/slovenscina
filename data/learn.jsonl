@@ -2436,3 +2436,35 @@
 {"sl":"delati prave stvari","ru":"делать правильные вещи","cat":"phrase","level":3}
 {"sl":"delati stvari pravilno","ru":"делать вещи правильно","cat":"phrase","level":3}
 {"sl":"sedež podjetja","ru":"головной офис компании","cat":"phrase","level":3}
+{"sl":"čez eno leto","ru":"через год","cat":"time","level":3}
+{"sl":"čez leto dni","ru":"через год (литературнее)","cat":"time","level":3}
+{"sl":"v prihodnosti","ru":"в будущем","cat":"time","level":3}
+{"sl":"trenutno","ru":"на данный момент, сейчас","cat":"time","level":2}
+{"sl":"za začetek","ru":"для начала","cat":"phrase","level":3}
+{"sl":"prvič","ru":"во-первых","cat":"adverb","level":2}
+{"sl":"po tem","ru":"после этого","cat":"phrase","level":3}
+{"sl":"medtem","ru":"тем временем","cat":"adverb","level":2}
+{"sl":"na koncu","ru":"в конце концов","cat":"phrase","level":3}
+{"sl":"poleg tega","ru":"кроме того","cat":"phrase","level":3}
+{"sl":"prav tako","ru":"точно так же, также","cat":"phrase","level":3}
+{"sl":"še več","ru":"более того","cat":"phrase","level":3}
+{"sl":"razen tega","ru":"помимо этого","cat":"phrase","level":3}
+{"sl":"na primer","ru":"например","cat":"phrase","level":3}
+{"sl":"mislim, da","ru":"я думаю, что","cat":"phrase","level":3}
+{"sl":"upam, da","ru":"надеюсь, что","cat":"phrase","level":3}
+{"sl":"zagotovo","ru":"наверняка","cat":"adverb","level":2}
+{"sl":"komaj čakam, da","ru":"не могу дождаться, когда","cat":"phrase","level":3}
+{"sl":"izziv","ru":"вызов, трудность","cat":"noun","g":"m","level":2}
+{"sl":"želja","ru":"желание, мечта","cat":"noun","g":"ž","level":2}
+{"sl":"zadeva","ru":"дело, вопрос","cat":"noun","g":"ž","level":2}
+{"sl":"administrativne zadeve","ru":"бумажные дела, оформление документов","cat":"phrase","level":3}
+{"sl":"vsakdanje zadeve","ru":"бытовые вопросы","cat":"phrase","level":3}
+{"sl":"vsakdanja opravila","ru":"повседневные дела","cat":"phrase","level":3}
+{"sl":"papirologija","ru":"бумажная волокита (разг.)","cat":"noun","g":"ž","level":2}
+{"sl":"birokracija","ru":"бюрократия","cat":"noun","g":"ž","level":2}
+{"sl":"urejanje dokumentov","ru":"оформление документов","cat":"phrase","level":3}
+{"sl":"spoznavanje","ru":"знакомство, узнавание","cat":"noun","g":"s","level":2}
+{"sl":"vse bo na svojem mestu","ru":"всё будет на своём месте","cat":"phrase","level":3}
+{"sl":"vse bo šlo po načrtu","ru":"всё пойдёт по плану","cat":"phrase","level":3}
+{"sl":"lažje","ru":"легче","cat":"adverb","level":2}
+{"sl":"prijateljica","ru":"подруга","cat":"people","g":"ž","level":2}
