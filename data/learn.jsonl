@@ -2509,3 +2509,30 @@
 {"sl":"pogodba","ru":"договор, контракт","cat":"noun","g":"ž","level":2}
 {"sl":"ne spomnim se","ru":"не помню","cat":"phrase","level":3}
 {"sl":"red","ru":"порядок","cat":"noun","g":"m","level":2}
+{"sl":"legice","ru":"легинсы, лосины (мн. ч.)","cat":"thing","g":"ž","level":2}
+{"sl":"pajkice","ru":"легинсы, лосины (мн. ч.)","cat":"thing","g":"ž","level":2}
+{"sl":"stane","ru":"стоит (о цене; stati — stanem)","cat":"shop","level":2}
+{"sl":"izbira","ru":"выбор","cat":"noun","g":"ž","level":2}
+{"sl":"tako","ru":"так","cat":"adverb","level":2}
+{"sl":"temeljno","ru":"основательно; в основе, фундаментально","cat":"adverb","level":2}
+{"sl":"temeljen","ru":"основательный, фундаментальный","cat":"adj","level":2}
+{"sl":"me ne bo sram","ru":"мне не будет стыдно","cat":"phrase","level":3}
+{"sl":"všeč mi je","ru":"мне нравится","cat":"phrase","level":3}
+{"sl":"znamenitost","ru":"достопримечательность","cat":"place","g":"ž","level":2}
+{"sl":"ribnik","ru":"пруд","cat":"place","g":"m","level":2}
+{"sl":"močvirje","ru":"болото","cat":"place","g":"s","level":2}
+{"sl":"blato","ru":"грязь","cat":"noun","g":"s","level":2}
+{"sl":"slap","ru":"водопад","cat":"place","g":"m","level":2}
+{"sl":"omenjen","ru":"упомянутый","cat":"adj","level":2}
+{"sl":"človek, ki ga poznam","ru":"человек, которого я знаю (ki + личн. местоим.)","cat":"phrase","level":3}
+{"sl":"hiša, v kateri živim","ru":"дом, в котором я живу (предлог + kateri)","cat":"phrase","level":3}
+{"sl":"spominek","ru":"сувенир","cat":"shop","g":"m","level":2}
+{"sl":"lokal","ru":"заведение (бар, кафе)","cat":"place","g":"m","level":2}
+{"sl":"kopališče","ru":"купальня, общественный бассейн","cat":"place","g":"s","level":2}
+{"sl":"gasilski dom","ru":"пожарная часть","cat":"place","level":3}
+{"sl":"zdravstveni dom","ru":"поликлиника","cat":"place","level":3}
+{"sl":"trafika","ru":"киоск (газеты, табак)","cat":"shop","g":"ž","level":2}
+{"sl":"prestop","ru":"пересадка","cat":"transport","g":"m","level":2}
+{"sl":"Kako bo ...?","ru":"Как будет …?","cat":"phrase","level":3}
+{"sl":"to je bil praznik","ru":"это был праздник","cat":"phrase","level":3}
+{"sl":"to bo praznik","ru":"это будет праздник","cat":"phrase","level":3}
