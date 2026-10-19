@@ -2536,3 +2536,44 @@
 {"sl":"Kako bo ...?","ru":"Как будет …?","cat":"phrase","level":3}
 {"sl":"to je bil praznik","ru":"это был праздник","cat":"phrase","level":3}
 {"sl":"to bo praznik","ru":"это будет праздник","cat":"phrase","level":3}
+{"sl":"prvikrat","ru":"впервые, в первый раз","cat":"adverb","level":2}
+{"sl":"oprema","ru":"снаряжение, оборудование","cat":"noun","g":"ž","level":2}
+{"sl":"nikogar","ru":"никого (род./вин. от nihče)","cat":"pron","level":1}
+{"sl":"veliko mladih","ru":"много молодёжи (veliko + род. мн.)","cat":"phrase","level":3}
+{"sl":"presenečenje","ru":"сюрприз, удивление","cat":"noun","g":"s","level":2}
+{"sl":"cvetličarna","ru":"цветочный магазин","cat":"shop","g":"ž","level":2}
+{"sl":"papirnica","ru":"канцелярский магазин","cat":"shop","g":"ž","level":2}
+{"sl":"na banki","ru":"в банке (na + мест.)","cat":"phrase","level":3}
+{"sl":"poštni žig","ru":"почтовый штемпель","cat":"phrase","level":3}
+{"sl":"znamka","ru":"марка (почтовая); бренд","cat":"thing","g":"ž","level":2}
+{"sl":"na tržnici","ru":"на рынке","cat":"phrase","level":3}
+{"sl":"njega, ga","ru":"его (род./вин.: полная, краткая форма)","cat":"pron","level":3}
+{"sl":"njo, jo","ru":"её (вин.: полная, краткая форма)","cat":"pron","level":3}
+{"sl":"njih, jih","ru":"их (род./вин.: полная, краткая форма)","cat":"pron","level":3}
+{"sl":"mene, me","ru":"меня (род./вин.: полная, краткая форма)","cat":"pron","level":3}
+{"sl":"tebe, te","ru":"тебя (род./вин.: полная, краткая форма)","cat":"pron","level":3}
+{"sl":"z njo","ru":"с ней","cat":"pron","level":3}
+{"sl":"z njim","ru":"с ним","cat":"pron","level":3}
+{"sl":"z njimi","ru":"с ними","cat":"pron","level":3}
+{"sl":"Kupim ga v trafiki.","ru":"Я покупаю его (жвачку) в киоске.","cat":"phrase","level":3}
+{"sl":"Kupim jo na pošti.","ru":"Я покупаю её (марку) на почте.","cat":"phrase","level":3}
+{"sl":"Kupim jih v cvetličarni.","ru":"Я покупаю их (цветы) в цветочном магазине.","cat":"phrase","level":3}
+{"sl":"vzpenjača","ru":"фуникулёр","cat":"transport","g":"ž","level":2}
+{"sl":"smer","ru":"направление","cat":"noun","g":"ž","level":2}
+{"sl":"enosmeren","ru":"односторонний","cat":"adj","level":2}
+{"sl":"dvosmeren","ru":"двусторонний","cat":"adj","level":2}
+{"sl":"enosmerna ulica","ru":"улица с односторонним движением","cat":"phrase","level":3}
+{"sl":"na levi strani","ru":"с левой стороны, слева","cat":"where","level":3}
+{"sl":"pešpot","ru":"пешеходная тропа, дорожка","cat":"place","g":"ž","level":2}
+{"sl":"vlakec","ru":"паровозик (туристический)","cat":"transport","g":"m","level":2}
+{"sl":"Kako se pride do ...?","ru":"Как добраться до …?","cat":"phrase","level":3}
+{"sl":"spomenik","ru":"памятник","cat":"place","g":"m","level":2}
+{"sl":"zgradba","ru":"здание","cat":"place","g":"ž","level":2}
+{"sl":"zmaj","ru":"дракон","cat":"animal","g":"m","level":2}
+{"sl":"proti gostilni","ru":"к трактиру, в сторону трактира (proti + дат.)","cat":"phrase","level":3}
+{"sl":"manj kot minuto","ru":"меньше минуты","cat":"phrase","level":3}
+{"sl":"urbanomat","ru":"автомат для пополнения карты Urbana","cat":"transport","g":"m","level":2}
+{"sl":"na urbanomatu","ru":"на урбаномате","cat":"phrase","level":3}
+{"sl":"škodljiv","ru":"вредный","cat":"adj","level":2}
+{"sl":"Mislim, da mi malo več hoje za danes ne bo škodilo.","ru":"Думаю, немного больше ходьбы сегодня мне не повредит.","cat":"phrase","level":3}
+{"sl":"Tam si jo lahko tudi napolnite.","ru":"Там вы можете её также пополнить.","cat":"phrase","level":3}
