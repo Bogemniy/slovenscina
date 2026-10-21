@@ -2593,3 +2593,19 @@
 {"sl":"barvice","ru":"цветные карандаши","cat":"school","g":"ž","level":2}
 {"sl":"bankovec","ru":"купюра, банкнота","cat":"shop","g":"m","level":2}
 {"sl":"papirnati robčki","ru":"бумажные носовые платки","cat":"phrase","level":3}
+{"sl":"ovinek","ru":"поворот (дороги), изгиб","cat":"transport","g":"m","level":2}
+{"sl":"poudarek","ru":"акцент, ударение; упор (на чём-л.)","cat":"noun","g":"m","level":2}
+{"sl":"za vikend","ru":"на выходные","cat":"time","level":3}
+{"sl":"na podeželju","ru":"в сельской местности, в деревне (na + мест.)","cat":"where","level":3}
+{"sl":"A lahko dobim ...?","ru":"Можно мне ...? (в кафе, магазине)","cat":"phrase","level":3}
+{"sl":"ljudje","ru":"люди (им. п.; ед. ч. — človek)","cat":"people","level":2}
+{"sl":"ljudi","ru":"людей (род. п. от ljudje: veliko ljudi)","cat":"people","level":2}
+{"sl":"vozniško dovoljenje","ru":"водительские права (документ)","cat":"thing","level":3}
+{"sl":"različno","ru":"по-разному","cat":"adverb","level":2}
+{"sl":"Tivoli","ru":"Тиволи (главный парк Любляны)","cat":"place","level":2}
+{"sl":"svetovalec","ru":"консультант, советник","cat":"job","g":"m","level":2}
+{"sl":"svetovalka","ru":"консультант, советница (жен.)","cat":"job","g":"ž","level":2}
+{"sl":"receptorka","ru":"администратор на ресепшене (жен.)","cat":"job","g":"ž","level":2}
+{"sl":"Drevesa bodo postala rumena.","ru":"Деревья станут жёлтыми.","cat":"phrase","level":3}
+{"sl":"Upala sem si iti na fitnes.","ru":"Я решилась (осмелилась) пойти в спортзал.","cat":"phrase","level":3}
+{"sl":"Žal mi je, da se je zgodila nesreča.","ru":"Мне жаль, что случилась авария.","cat":"phrase","level":3}
