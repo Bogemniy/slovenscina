@@ -2667,3 +2667,95 @@
 {"sl":"podplat","ru":"подошва","cat":"thing","g":"m","level":2}
 {"sl":"samostan","ru":"монастырь","cat":"place","g":"m","level":2}
 {"sl":"ločevati odpadke","ru":"сортировать мусор","cat":"phrase","level":3}
+{"sl":"energija","ru":"энергия","cat":"thing","g":"ž","level":2}
+{"sl":"izmišljotina","ru":"выдумка, небылица","cat":"thing","g":"ž","level":2}
+{"sl":"profesorica","ru":"профессор, преподавательница (ж.)","cat":"job","g":"ž","level":2}
+{"sl":"odmor","ru":"перерыв, отдых","cat":"time","g":"m","level":2}
+{"sl":"predmet","ru":"предмет (учебный); объект","cat":"school","g":"m","level":2}
+{"sl":"potrdilo","ru":"справка, подтверждение (документ)","cat":"info","g":"s","level":2}
+{"sl":"spričevalo","ru":"аттестат, табель, свидетельство","cat":"school","g":"s","level":2}
+{"sl":"masaža","ru":"массаж","cat":"body","g":"ž","level":2}
+{"sl":"oddaja","ru":"передача (теле-/радио); сдача, подача","cat":"thing","g":"ž","level":2}
+{"sl":"Zmajski most","ru":"Драконий мост (Любляна)","cat":"place","g":"m","level":3}
+{"sl":"veduta","ru":"вид (города, пейзажа); ведута","cat":"thing","g":"ž","level":2}
+{"sl":"vtis","ru":"впечатление","cat":"thing","g":"m","level":2}
+{"sl":"ideja","ru":"идея","cat":"thing","g":"ž","level":2}
+{"sl":"kurent","ru":"курент (карнавальный персонаж в тулупе с колокольчиками)","cat":"thing","g":"m","level":2}
+{"sl":"pust","ru":"масленица, карнавал","cat":"time","g":"m","level":2}
+{"sl":"pustovanje","ru":"карнавальное шествие, масленичные гуляния","cat":"thing","g":"s","level":2}
+{"sl":"vinska klet","ru":"винный погреб","cat":"place","g":"ž","level":3}
+{"sl":"zvon","ru":"колокол","cat":"thing","g":"m","level":2}
+{"sl":"domačin","ru":"местный житель, хозяин","cat":"people","g":"m","level":2}
+{"sl":"domačinka","ru":"местная жительница, хозяйка","cat":"people","g":"ž","level":2}
+{"sl":"trgovec","ru":"торговец","cat":"job","g":"m","level":2}
+{"sl":"obrtnik","ru":"ремесленник","cat":"job","g":"m","level":2}
+{"sl":"dediščina","ru":"наследие; наследство","cat":"thing","g":"ž","level":2}
+{"sl":"uporabnik","ru":"пользователь","cat":"people","g":"m","level":2}
+{"sl":"Trst","ru":"Триест","cat":"place","g":"m","level":2}
+{"sl":"bučna kava","ru":"кофе с тыквой","cat":"food","g":"ž","level":3}
+{"sl":"kosmiči","ru":"хлопья (сухой завтрак)","cat":"food","g":"m","level":2}
+{"sl":"hodnik","ru":"коридор","cat":"home","g":"m","level":2}
+{"sl":"palačinka","ru":"блин, палачинка","cat":"food","g":"ž","level":2}
+{"sl":"risanka","ru":"мультфильм","cat":"thing","g":"ž","level":2}
+{"sl":"rokopis","ru":"рукопись","cat":"thing","g":"m","level":2}
+{"sl":"Brižinski spomeniki","ru":"Фрайзингенские отрывки (древнейший памятник словенского языка)","cat":"thing","g":"m","level":3}
+{"sl":"kras","ru":"карст; Крас (регион)","cat":"place","g":"m","level":2}
+{"sl":"Beograd","ru":"Белград","cat":"place","g":"m","level":2}
+{"sl":"Donava","ru":"Дунай","cat":"place","g":"ž","level":2}
+{"sl":"kuža","ru":"собачка, пёсик","cat":"animal","g":"m","level":2}
+{"sl":"nutricionist","ru":"диетолог","cat":"job","g":"m","level":2}
+{"sl":"nutricionistka","ru":"диетолог (ж.)","cat":"job","g":"ž","level":2}
+{"sl":"psihologinja","ru":"психолог (ж.)","cat":"job","g":"ž","level":2}
+{"sl":"brezdomec","ru":"бездомный","cat":"people","g":"m","level":2}
+{"sl":"neštet","ru":"бесчисленный","cat":"adj","level":2}
+{"sl":"simetričen","ru":"симметричный","cat":"adj","level":2}
+{"sl":"gozdni","ru":"лесной","cat":"adj","level":2}
+{"sl":"mehkejši","ru":"более мягкий","cat":"adj","level":2}
+{"sl":"globlji","ru":"более глубокий","cat":"adj","level":2}
+{"sl":"trši","ru":"более жёсткий/твёрдый","cat":"adj","level":2}
+{"sl":"najtrši","ru":"самый жёсткий/твёрдый","cat":"adj","level":2}
+{"sl":"modrejši","ru":"более мудрый (от moder)","cat":"adj","level":2}
+{"sl":"najmodrejši","ru":"самый мудрый","cat":"adj","level":2}
+{"sl":"bolj suh","ru":"более сухой","cat":"adj","level":3}
+{"sl":"najbolj suh","ru":"самый сухой","cat":"adj","level":3}
+{"sl":"ravno","ru":"как раз, прямо","cat":"adverb","level":2}
+{"sl":"točno","ru":"точно","cat":"adverb","level":2}
+{"sl":"noben","ru":"никакой","cat":"pron","level":1}
+{"sl":"one","ru":"они (ж.р.)","cat":"pron","level":1}
+{"sl":"od dveh do devetih","ru":"с двух до девяти","cat":"phrase","level":3}
+{"sl":"cel teden","ru":"всю неделю","cat":"phrase","level":3}
+{"sl":"brez te prakse","ru":"без этой практики","cat":"phrase","level":3}
+{"sl":"zadnji rok","ru":"крайний срок","cat":"phrase","g":"m","level":3}
+{"sl":"vaditi slovenščino","ru":"тренировать словенский","cat":"phrase","level":3}
+{"sl":"s profesorjem","ru":"с профессором","cat":"phrase","level":3}
+{"sl":"malo hladno","ru":"немного холодно","cat":"phrase","level":3}
+{"sl":"delovna pižama","ru":"рабочая пижама","cat":"phrase","g":"ž","level":3}
+{"sl":"dolga vrsta","ru":"длинная очередь","cat":"phrase","g":"ž","level":3}
+{"sl":"časovna omejitev","ru":"ограничение по времени","cat":"phrase","g":"ž","level":3}
+{"sl":"s kužki","ru":"с собачками","cat":"phrase","level":3}
+{"sl":"na vrsti","ru":"на очереди (чья очередь)","cat":"phrase","level":3}
+{"sl":"biti podoben","ru":"быть похожим (+ дат.)","cat":"phrase","level":3}
+{"sl":"en drugemu","ru":"друг другу (дат.)","cat":"phrase","level":3}
+{"sl":"ozke ulice","ru":"узкие улочки","cat":"phrase","g":"ž","level":3}
+{"sl":"na vsakem koraku","ru":"на каждом шагу","cat":"phrase","level":3}
+{"sl":"veljati za","ru":"считаться (кем-л.)","cat":"phrase","level":3}
+{"sl":"mudi se nama","ru":"нам (двоим) надо спешить","cat":"phrase","level":3}
+{"sl":"to mizo","ru":"этот стол (вин.)","cat":"phrase","level":3}
+{"sl":"dve naročili","ru":"два заказа (дв.ч.)","cat":"phrase","level":3}
+{"sl":"dve mizi","ru":"два стола (дв.ч.)","cat":"phrase","level":3}
+{"sl":"dva stola","ru":"два стула (дв.ч.)","cat":"phrase","level":3}
+{"sl":"dve leti","ru":"два года (дв.ч.)","cat":"phrase","level":3}
+{"sl":"trideset ljudi","ru":"тридцать человек","cat":"phrase","level":3}
+{"sl":"na Kitajsko","ru":"в Китай","cat":"phrase","level":3}
+{"sl":"že vemo","ru":"мы уже знаем","cat":"phrase","level":3}
+{"sl":"to sta","ru":"это двое (дв.ч.)","cat":"phrase","level":3}
+{"sl":"z nutricionistko","ru":"с диетологом (ж.)","cat":"phrase","level":3}
+{"sl":"pri psihologinji","ru":"у психолога (ж.)","cat":"phrase","level":3}
+{"sl":"nisem imela vprašanj","ru":"у меня не было вопросов (ж.)","cat":"phrase","level":3}
+{"sl":"krema iz gozdnih sadežev","ru":"крем из лесных ягод","cat":"phrase","g":"ž","level":3}
+{"sl":"od mene","ru":"от меня","cat":"phrase","level":3}
+{"sl":"kot jaz","ru":"как я","cat":"phrase","level":3}
+{"sl":"nič ni ostalo","ru":"ничего не осталось","cat":"phrase","level":3}
+{"sl":"našla sem ga že","ru":"я его уже нашла","cat":"phrase","level":3}
+{"sl":"Upala sem si iti na fitnes","ru":"Я осмелилась пойти в фитнес-зал","cat":"phrase","level":3}
+{"sl":"Žal mi je, da se je zgodila nesreča","ru":"Мне жаль, что произошла авария (несчастье)","cat":"phrase","level":3}
