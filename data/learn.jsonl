@@ -2759,3 +2759,25 @@
 {"sl":"našla sem ga že","ru":"я его уже нашла","cat":"phrase","level":3}
 {"sl":"Upala sem si iti na fitnes","ru":"Я осмелилась пойти в фитнес-зал","cat":"phrase","level":3}
 {"sl":"Žal mi je, da se je zgodila nesreča","ru":"Мне жаль, что произошла авария (несчастье)","cat":"phrase","level":3}
+{"sl":"primeren","ru":"подходящий, соответствующий","cat":"adj","level":2}
+{"sl":"priložnost","ru":"возможность, случай, шанс","cat":"thing","g":"ž","level":2}
+{"sl":"nikamor","ru":"никуда","cat":"adverb","level":2}
+{"sl":"potrošništvo","ru":"потребительство","cat":"thing","g":"s","level":2}
+{"sl":"potrošnik","ru":"потребитель","cat":"people","g":"m","level":2}
+{"sl":"hrana","ru":"еда, пища","cat":"food","g":"ž","level":2}
+{"sl":"ednina","ru":"единственное число","cat":"school","g":"ž","level":2}
+{"sl":"dvojina","ru":"двойственное число","cat":"school","g":"ž","level":2}
+{"sl":"množina","ru":"множественное число","cat":"school","g":"ž","level":2}
+{"sl":"nasvet","ru":"совет","cat":"thing","g":"m","level":2}
+{"sl":"kakovost","ru":"качество","cat":"info","g":"ž","level":2}
+{"sl":"pred oddajo","ru":"перед сдачей/подачей","cat":"phrase","level":3}
+{"sl":"o sebi","ru":"о себе","cat":"phrase","level":3}
+{"sl":"delovno mesto","ru":"рабочее место, должность","cat":"phrase","g":"s","level":3}
+{"sl":"pred sabo","ru":"перед собой","cat":"phrase","level":3}
+{"sl":"so kuhali palačinke","ru":"они готовили блины","cat":"phrase","level":3}
+{"sl":"par ljudi","ru":"пара человек","cat":"phrase","level":3}
+{"sl":"ne da se mi","ru":"мне неохота, лень","cat":"phrase","level":3}
+{"sl":"ti se ne da","ru":"тебе неохота, лень","cat":"phrase","level":3}
+{"sl":"Kitajskega izvora","ru":"китайского происхождения","cat":"phrase","level":3}
+{"sl":"kakovosten izdelek","ru":"качественный продукт","cat":"phrase","g":"m","level":3}
+{"sl":"Treba ji ga je poslati","ru":"Ей нужно его отправить","cat":"phrase","level":3}
